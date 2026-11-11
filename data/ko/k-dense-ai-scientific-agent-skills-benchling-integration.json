@@ -1,0 +1,19 @@
+{
+ "description": "Benchling SDK와 API로 실험실 데이터를 자동화해요.",
+ "summary": "benchling-sdk와 v2 REST API로 레지스트리 항목, 재고, 전자 실험노트, 워크플로, 앱, 데이터 웨어하우스 질의를 다뤄요. 먼저 테넌트, 권한, 폴더와 상태 ID를 확인한 뒤 진행해요. 예제는 실제 요청 없이 확인한 것이라 예시로 봐야 해요.",
+ "when": [
+  "레지스트리 항목 관리",
+  "재고와 실험노트 자동화",
+  "Benchling 앱 개발",
+  "웨어하우스 데이터 조회"
+ ],
+ "examples": [
+  "Benchling에 DNA 서열 항목을 일괄로 등록하는 스크립트 만들어 줘",
+  "실험노트 항목을 SDK로 읽어오는 코드를 짜줘"
+ ],
+ "notes": [
+  "Python 3.9 이상, benchling-sdk 1.25.0, API 권한이 있는 테넌트가 필요해요",
+  "BENCHLING_TENANT_URL과 API 키 또는 OAuth 정보가 필요해요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Storybook이 없는 프로젝트에 Storybook을 설치해 줘요.",
+ "summary": "먼저 create-storybook의 최신 정식 버전을 확인해요. 11.0 미만이면 npm create storybook@next로, 아니면 @latest로 설치해요. 설치가 끝나면 storybook-setup 스킬로 프로젝트별 설정을 이어서 해요.",
+ "when": [
+  "Storybook 처음 추가",
+  "새 프로젝트에 도입",
+  "설치 후 설정 연결"
+ ],
+ "examples": [
+  "이 프로젝트에 Storybook 설치해줘",
+  "Storybook 처음 세팅해줘"
+ ],
+ "notes": [
+  "이미 Storybook이 있으면 다시 설치하지 않고 storybook-setup으로 넘겨요",
+  "npm 레지스트리 접근이 필요해요",
+  "원문이 영어예요"
+ ]
+}

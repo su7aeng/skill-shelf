@@ -1,0 +1,19 @@
+{
+ "description": "Prisma 8 프로젝트에서 계약 파일, 마이그레이션, 쿼리 작업을 안내해요.",
+ "summary": "@prisma/orm-postgres, orm-sqlite, orm-mongo를 쓰는 Prisma 8 프로젝트에서 contract.prisma 수정, prisma contract emit, 마이그레이션, db.orm 쿼리 작성을 도와요. 먼저 프로젝트가 Prisma 8인지, 스킬 버전이 설치 버전과 맞는지 확인하고 아니면 멈춰요.",
+ "when": [
+  "Prisma 8 시작하기",
+  "계약 파일 수정",
+  "마이그레이션 계획과 적용",
+  "쿼리와 미들웨어 작성"
+ ],
+ "examples": [
+  "Prisma 8이 뭐고 어디서부터 시작해야 해?",
+  "contract.prisma를 고치고 마이그레이션 만들어줘",
+  "MIGRATION.HASH_MISMATCH 오류가 나는데 원인 알려줘"
+ ],
+ "notes": [
+  "schema.prisma와 @prisma/client를 쓰는 Prisma 7 이하에는 쓰지 않아요",
+  "버전이 다르면 prisma skills sync를 먼저 실행해요"
+ ]
+}

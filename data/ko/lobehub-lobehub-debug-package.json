@@ -1,0 +1,16 @@
+{
+ "description": "debug 패키지로 로그를 남기고 켜는 방법을 알려줘요.",
+ "summary": "debug('lobe-server:market') 같은 형식으로 로거를 만들고, 서버, 클라이언트, 데스크톱, 라우터별 이름 규칙을 따라요. 브라우저에서는 localStorage.debug, Node.js에서는 DEBUG 환경변수로 출력을 켜요. %O 같은 서식 문자 사용법도 있어요.",
+ "when": [
+  "디버그 로그 추가",
+  "로그 켜기",
+  "네임스페이스 정하기"
+ ],
+ "examples": [
+  "이 함수에 debug 로그 넣어줘",
+  "서버 로그를 보려면 어떻게 켜야 해?"
+ ],
+ "notes": [
+  "LobeHub 코드의 lobe-* 네임스페이스 규칙을 기준으로 해요"
+ ]
+}

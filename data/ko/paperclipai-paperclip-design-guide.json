@@ -1,0 +1,18 @@
+{
+ "description": "Paperclip UI 디자인 시스템에 맞게 일관된 컴포넌트를 만들어요.",
+ "summary": "Paperclip UI 는 조밀하고 키보드 중심이며 기본이 다크 테마인 컨트롤 화면이에요. 이 스킬은 디자인 원칙, 토큰, 타이포그래피, 상태와 우선순위 표시, 구성 패턴, /design-guide 쇼케이스 페이지를 안내해요. 기술 스택은 React 19, TypeScript, Vite, Tailwind CSS v4, shadcn/ui 예요.",
+ "when": [
+  "새 UI 컴포넌트 만들기",
+  "기존 컴포넌트 수정",
+  "페이지나 기능 추가",
+  "스타일링 규칙 확인"
+ ],
+ "examples": [
+  "Paperclip 스타일에 맞는 상태 배지를 만들어줘",
+  "새 페이지를 디자인 가이드에 맞게 추가해줘"
+ ],
+ "notes": [
+  "frontend-design 과 web-design-guidelines 스킬과 함께 쓰라고 안내돼 있어요",
+  "Paperclip 프론트엔드 전용이에요"
+ ]
+}

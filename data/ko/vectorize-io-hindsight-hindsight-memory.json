@@ -1,0 +1,17 @@
+{
+ "description": "장기 기억을 Hindsight 하나로 통일해서 저장하고 찾아요.",
+ "summary": "Hindsight 앱이 연결돼 있으면 모든 기억 작업을 Hindsight의 retain, recall, reflect로 처리하게 하는 스킬이에요. OpenBot에 내장된 기억 도구는 쓰지 않아요. 대화가 길어져도 기억이 남고 같은 뱅크를 쓰는 다른 에이전트와 공유돼요.",
+ "when": [
+  "대화가 바뀌어도 기억이 이어져야 할 때",
+  "사실이나 결정을 저장할 때",
+  "저장한 기억을 다시 찾을 때"
+ ],
+ "examples": [
+  "이 결정을 Hindsight에 저장해줘",
+  "지난번에 정한 내용을 Hindsight에서 찾아줘"
+ ],
+ "notes": [
+  "Hindsight MCP 앱이 연결돼 있어야 해요",
+  "OpenBot 내장 remember, search_memories 같은 도구는 쓰지 않아요"
+ ]
+}

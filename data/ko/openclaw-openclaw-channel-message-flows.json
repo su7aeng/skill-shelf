@@ -1,0 +1,17 @@
+{
+ "description": "텔레그램 초안과 최종 메시지 전달 순서를 QA Lab으로 검증해요.",
+ "summary": "OpenClaw 저장소 루트에서 QA Lab 시나리오를 실행해 텔레그램 초안과 최종 메시지가 올바른 순서로 전달되는지 증거를 모아요. QA Channel 또는 Crabline 텔레그램 환경에서 같은 시나리오를 돌릴 수 있어요.",
+ "when": [
+  "QA Lab 시나리오 실행",
+  "텔레그램 메시지 전달 순서 확인",
+  "채널 전달 증거 수집"
+ ],
+ "examples": [
+  "channel-message-flows QA 시나리오 돌려줘",
+  "텔레그램 초안과 최종 전달 순서가 맞는지 확인해줘"
+ ],
+ "notes": [
+  "OpenClaw 저장소 루트에서 node로 실행해요",
+  "실행할 때 OPENCLAW_BUILD_PRIVATE_QA=1 환경 변수가 필요해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "설치된 코딩 도구를 찾아 맞는 에이전트 스킬을 검색하고 설치해요.",
+ "summary": "Claude Code, Codex, Cursor, Copilot, Cline 같은 설치된 도구를 감지하고, GitHub에서 맞는 스킬을 검색해 품질 점수를 확인해요. 고른 스킬은 도구별 스킬 폴더 경로로 설치 계획을 세우고 실제 복사는 에이전트가 해요. 설치 후 위치를 확인해요.",
+ "when": [
+  "스킬 검색",
+  "여러 도구에 스킬 설치",
+  "설치된 도구 확인",
+  "설치 결과 검증"
+ ],
+ "examples": [
+  "내 컴퓨터에 설치된 코딩 도구 찾아줘",
+  "GitHub에서 쓸 만한 스킬 찾아서 Claude와 Codex에 설치해줘"
+ ],
+ "notes": [
+  "omniroute CLI를 npm으로 설치해서 써요 (npm install -g omniroute 또는 npx omniroute)",
+  "OMNIROUTE_API_KEY와 로컬에서 실행 중인 OmniRoute 서버가 필요해요",
+  "명령 설명 문서는 자동 생성된 영어 원문이에요"
+ ]
+}

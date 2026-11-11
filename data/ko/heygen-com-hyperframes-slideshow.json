@@ -1,0 +1,17 @@
+{
+ "description": "라이브로 발표할 수 있는 HyperFrames 슬라이드쇼를 만들어요.",
+ "summary": "슬라이드, 단계별 등장, 분기 핫스팟, 발표자 노트를 갖춘 발표 자료를 만들어요. 각 슬라이드는 장면이고, 연결 정보는 HTML 안의 JSON에 적어요. hyperframes present 로 실행하며, 결과물은 영상이 아니라 돌아가는 발표예요. 기존 페이지를 바꿀 수도 있어요.",
+ "when": [
+  "라이브 발표",
+  "발표자 노트 쓰기",
+  "웹 페이지를 슬라이드로"
+ ],
+ "examples": [
+  "HyperFrames로 발표 자료 만들어줘",
+  "발표자 모드와 노트가 있는 슬라이드쇼가 필요해"
+ ],
+ "notes": [
+  "hyperframes present 로 띄워요",
+  "시작할 때 npx hyperframes events 명령을 한 번 실행해요"
+ ]
+}

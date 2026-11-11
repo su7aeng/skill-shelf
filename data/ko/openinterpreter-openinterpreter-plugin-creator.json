@@ -1,0 +1,19 @@
+{
+ "description": "Codex 플러그인 폴더와 매니페스트를 만들고 마켓플레이스에 등록해요.",
+ "summary": "scripts/create_basic_plugin.py로 .codex-plugin/plugin.json이 든 플러그인 폴더를 만들어요. 필요하면 개인 마켓플레이스 항목도 추가하고, 개발 중인 로컬 플러그인은 재설치 흐름으로 갱신해요.",
+ "when": [
+  "새 플러그인 만들기",
+  "마켓플레이스 항목 추가",
+  "플러그인 구조 확장",
+  "로컬 플러그인 갱신"
+ ],
+ "examples": [
+  "my-plugin이라는 Codex 플러그인 뼈대를 만들어줘",
+  "이 플러그인을 개인 마켓플레이스에 등록해줘"
+ ],
+ "notes": [
+  "python3가 필요해요",
+  "기본 위치는 ~/plugins/이름이고 마켓플레이스는 ~/.agents/plugins/marketplace.json이에요",
+  "플러그인 이름은 소문자와 하이픈으로 64자 이하예요"
+ ]
+}

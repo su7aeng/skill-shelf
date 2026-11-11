@@ -1,0 +1,19 @@
+{
+ "description": "설치된 Storybook의 preview 파일과 실제 컴포넌트 스토리를 설정해요.",
+ "summary": "Storybook이 설치돼 있고 11.0 이상인지 먼저 확인해요. 그다음 npx storybook skills setup을 실행해 나온 안내를 빠짐없이 읽고 그대로 따라요. 설치가 안 됐거나 오래된 버전이면 storybook-init이나 storybook-upgrade로 넘겨요.",
+ "when": [
+  "Storybook 초기 설정",
+  "preview 파일 작성",
+  "컴포넌트 스토리 추가",
+  "설치 직후 마무리"
+ ],
+ "examples": [
+  "Storybook 설치돼 있는데 프로젝트에 맞게 설정해줘",
+  "preview 파일이랑 스토리 만들어줘"
+ ],
+ "notes": [
+  "Storybook 11.0 이상이 필요해요",
+  "설치 전이면 storybook-init, 업그레이드가 필요하면 storybook-upgrade를 써요",
+  "원문이 영어예요"
+ ]
+}

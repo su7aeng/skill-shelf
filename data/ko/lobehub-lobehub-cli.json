@@ -1,0 +1,19 @@
+{
+ "description": "LobeHub 명령줄 도구 lh를 개발할 때 보는 안내서예요.",
+ "summary": "@lobehub/cli의 폴더 구조, 명령과 하위 명령, 구조를 설명해요. Commander.js와 TypeScript로 만들어졌고 lh, lobe, lobehub 세 이름으로 실행돼요.",
+ "when": [
+  "CLI 새 명령 추가",
+  "CLI 코드 구조 파악",
+  "하위 명령 수정",
+  "CLI 빌드 확인"
+ ],
+ "examples": [
+  "lh에 새 하위 명령을 추가해줘",
+  "CLI 코드가 어떻게 나뉘어 있는지 설명해줘",
+  "기존 명령의 옵션을 수정해줘"
+ ],
+ "notes": [
+  "직접 호출은 막혀 있어서 사용자가 불러야 해요.",
+  "apps/cli 폴더 기준이에요."
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "description": "더 이상 권장되지 않는 ARIA role을 찾아 바꾸도록 안내해요.",
+ "summary": "코드에서 directory 같은 폐기된 role이나 HTML에 쓰면 안 되는 추상 role을 찾아 최신 role이나 기본 HTML 요소로 바꾸도록 안내해요.",
+ "when": [
+  "폐기된 ARIA role 검색",
+  "접근성 호환성 점검",
+  "코드 리뷰"
+ ],
+ "examples": [
+  "코드에서 폐기된 ARIA role을 찾아줘",
+  "deprecated role을 최신 방식으로 바꿔줘"
+ ],
+ "notes": [
+  "원문은 영어이고 프런트엔드 체크리스트 항목 하나를 다루는 짧은 스킬이에요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "이전 세션에서 한 작업을 claude-mem 기억에서 찾아줘요.",
+ "summary": "먼저 search 로 ID 가 붙은 목록을 얻고, timeline 으로 주변 맥락을 보고, get_observations 로 고른 ID 의 자세한 내용만 가져와요. 마지막 수단으로 get_tool_uses 가 원본 도구 입출력을 보여줘요. 쓰기 쪽 platformSource 는 cursor 또는 grok-bot 으로 표시해요.",
+ "when": [
+  "지난 작업 기록 찾기",
+  "같은 문제를 푼 적 있는지 확인",
+  "예전 방식 되짚기"
+ ],
+ "examples": [
+  "이거 전에 해결한 적 있는지 기억에서 찾아줘",
+  "지난번에 X를 어떻게 했는지 알려줘"
+ ],
+ "notes": [
+  "MCP 가 없으면 npx claude-mem install --ide <host> 로 먼저 설치해야 해요",
+  "get_tool_uses 는 결과가 매우 길 수 있어요"
+ ]
+}

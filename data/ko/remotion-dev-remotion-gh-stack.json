@@ -1,0 +1,18 @@
+{
+ "description": "gh-stack으로 쌓아 올린 PR을 만들고 관리해요.",
+ "summary": "GitHub CLI 확장 gh stack으로 분기를 순서대로 쌓고 각 분기마다 PR을 두어 리뷰어가 층별 변경만 보게 해요. 만들기, 보기, 수정, push, submit, sync, rebase, merge, checkout을 다뤄요.",
+ "when": [
+  "큰 작업을 PR 여러 개로 나누기",
+  "스택 PR 동기화와 rebase",
+  "스택 제출과 merge"
+ ],
+ "examples": [
+  "이 작업을 스택 PR로 나눠서 올려줘",
+  "스택을 최신 main에 맞춰 동기화해줘"
+ ],
+ "notes": [
+  "gh extension install github/gh-stack로 설치해야 해요",
+  "rerere와 remote.pushDefault 설정을 권해요",
+  "층 나누기는 references/stack-design.md를 봐요"
+ ]
+}

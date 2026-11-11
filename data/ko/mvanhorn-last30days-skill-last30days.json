@@ -1,0 +1,20 @@
+{
+ "description": "최근 30일간 사람들이 어떤 주제를 어떻게 말했는지 모아 조사해요.",
+ "summary": "Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, 웹에서 최근 30일의 글과 반응을 모아 주제를 조사하는 스킬이에요. 연결이 끊긴 출처를 진단하는 점검 기능도 들어 있어요.",
+ "when": [
+  "최근 여론 조사",
+  "신제품 반응 파악",
+  "경쟁 서비스 평가 모으기",
+  "어떤 출처가 안 되는지 점검"
+ ],
+ "examples": [
+  "last30days 엔비디아 실적 반응",
+  "last30days AI 영상 도구",
+  "last30days 리액트 사용자들이 원하는 것"
+ ],
+ "notes": [
+  "일부 출처는 SCRAPECREATORS_API_KEY 같은 API 키가 있어야 가져와요",
+  "node와 python3가 필요해요",
+  "터미널 실행과 웹 검색을 써요"
+ ]
+}

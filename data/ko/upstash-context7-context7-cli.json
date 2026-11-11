@@ -1,0 +1,19 @@
+{
+ "description": "ctx7 명령어로 라이브러리 최신 문서를 가져오고 Context7을 설정해요.",
+ "summary": "ctx7 CLI로 라이브러리 문서를 검색해 가져오고, 편집기용 Context7 MCP를 설정하는 방법을 담은 스킬이에요. 학습 데이터가 오래됐을 수 있는 API를 확인할 때 써요.",
+ "when": [
+  "라이브러리 최신 문서 조회",
+  "API 시그니처 확인",
+  "Context7 MCP 설정",
+  "ctx7 로그인 상태 확인"
+ ],
+ "examples": [
+  "ctx7으로 react의 useEffect 문서 찾아줘",
+  "Context7 MCP를 내 에이전트에 설정해줘",
+  "ctx7 로그인돼 있는지 확인해줘"
+ ],
+ "notes": [
+  "npm으로 ctx7을 설치하거나 npx로 바로 실행해요",
+  "로그인하면 호출 한도가 더 넉넉해요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Calibre 전자책 라이브러리를 명령줄로 관리해요.",
+ "summary": "calibredb, ebook-convert, ebook-meta 같은 실제 Calibre 도구를 감싸서 라이브러리 관리, 메타데이터 수정, 형식 변환을 구조화된 방식으로 해요.",
+ "when": [
+  "전자책 라이브러리 관리",
+  "메타데이터 수정",
+  "전자책 형식 변환"
+ ],
+ "examples": [
+  "전자책 라이브러리 목록을 보여줘",
+  "이 epub을 mobi로 변환해줘",
+  "책 제목과 저자 정보를 고쳐줘"
+ ],
+ "notes": [
+  "Python 3.10 이상과 Calibre 설치가 필수예요",
+  "GitHub 저장소에서 pip로 설치해요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Biopython으로 서열 처리와 NCBI 조회 코드를 작성해요.",
+ "summary": "서열 다루기, FASTA, GenBank, PDB 파일 읽고 쓰기, 계통수, Entrez를 통한 NCBI와 PubMed 접근, BLAST 자동화, 구조와 모티프 분석을 다뤄요. 일괄 처리와 분자생물학 파이프라인 코드도 도와요.",
+ "when": [
+  "서열 파일 변환",
+  "NCBI 데이터 조회",
+  "BLAST 결과 분석",
+  "단백질 구조 분석"
+ ],
+ "examples": [
+  "GenBank 파일에서 유전자 서열만 뽑아 FASTA로 저장해 줘",
+  "Entrez로 PubMed 논문을 검색하는 코드를 짜줘",
+  "BLAST 결과를 파싱해서 표로 보여줘"
+ ],
+ "notes": [
+  "Python 3.10 이상, NumPy, Biopython 1.88이 필요해요",
+  "Entrez는 네트워크와 연락용 이메일(NCBI_EMAIL)이 필요하고 로컬 BLAST 등은 따로 설치해야 해요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "Mermaid 다이어그램을 보기 좋은 SVG와 PNG 이미지로 만들어요.",
+ "summary": "Beautiful Mermaid 라이브러리로 흐름도, 시퀀스, 상태, 클래스, ER 다이어그램을 그려요. Dracula, Nord, Tokyo Night 등 테마를 고를 수 있어요.",
+ "when": [
+  "흐름도 이미지 만들기",
+  "API 호출 순서 그림",
+  "DB 구조 다이어그램",
+  "테마 적용한 도표"
+ ],
+ "examples": [
+  "이 Mermaid 코드를 Nord 테마 PNG로 만들어줘",
+  "로그인 과정을 시퀀스 다이어그램으로 그려줘",
+  "DB 테이블 관계를 ER 다이어그램 SVG로 뽑아줘"
+ ],
+ "notes": [
+  "PNG 변환에는 agent-browser 스킬이 필요해요.",
+  "테마를 안 정하면 default를 써요."
+ ]
+}

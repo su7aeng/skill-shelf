@@ -1,0 +1,18 @@
+{
+ "description": "최근 변경과 어긋난 README, PRODUCT 문서를 찾아 최소한으로 고쳐요.",
+ "summary": "마지막 검토 커밋(.doc-review-cursor)부터 git 기록을 살펴 README.md 와 doc/PRODUCT.md 가 현재 내용과 달라진 부분을 찾아요. 전체를 다시 쓰지 않고 필요한 곳만 고쳐 PR 로 올릴 수 있게 해요.",
+ "when": [
+  "문서 정확성 점검",
+  "큰 기능 병합 후",
+  "정기 문서 검토",
+  "README 최신화"
+ ],
+ "examples": [
+  "문서가 최신인지 점검해줘",
+  "최근 변경과 안 맞는 README 부분을 고쳐줘"
+ ],
+ "notes": [
+  "대상은 README 와 PRODUCT 문서뿐이에요",
+  "개발자용 문서와 릴리스 노트는 범위 밖이에요"
+ ]
+}

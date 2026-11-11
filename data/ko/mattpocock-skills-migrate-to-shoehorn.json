@@ -1,0 +1,17 @@
+{
+ "description": "테스트의 as 타입 단언을 shoehorn 함수로 바꿔요.",
+ "summary": "테스트 파일의 as Type을 fromPartial로, as unknown as Type을 fromAny로 바꿔 필요한 값만 넘겨도 타입 검사를 통과하게 해요. 설치 방법과 변환 패턴을 따르고 프로덕션 코드에는 쓰지 않아요.",
+ "when": [
+  "테스트의 as 단언 정리",
+  "부분 데이터로 테스트하기",
+  "shoehorn 도입"
+ ],
+ "examples": [
+  "테스트 파일의 as 단언을 shoehorn으로 바꿔줘",
+  "Request 전체를 흉내 내지 않고 필요한 값만 넘기게 고쳐줘"
+ ],
+ "notes": [
+  "@total-typescript/shoehorn 패키지를 설치해야 해요",
+  "테스트 코드에만 써요"
+ ]
+}

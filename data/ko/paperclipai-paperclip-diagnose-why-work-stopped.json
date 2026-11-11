@@ -1,0 +1,18 @@
+{
+ "description": "멈추거나 반복되는 Paperclip 작업의 원인을 찾아요.",
+ "summary": "실제 절차는 fix-failed-paperclip-run 스킬로 이어지는 안내용 진입점이에요. 처음 원인이 된 실패를 찾아 재현하고 고치고 실제 검증한 뒤 통과한 PR 로 마무리해요. 진단만 요청하면 그 범위만 해요. 이슈 트리에서는 멈춘 항목이 정당한 대기인지 라우팅 누락인지 분류해요.",
+ "when": [
+  "작업이 멈췄을 때",
+  "작업이 반복될 때",
+  "실패한 실행 분석",
+  "이슈 트리 진단"
+ ],
+ "examples": [
+  "이 Paperclip 작업이 왜 멈췄는지 진단해줘",
+  "진단만 하고 수정은 하지 마"
+ ],
+ "notes": [
+  "fix-failed-paperclip-run 스킬이 함께 필요해요",
+  "doc/execution-semantics.md 문서를 읽어요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Codex 저장소에서 경로를 담는 Rust 타입을 고르는 기준을 알려줘요.",
+ "summary": "새 타입을 정의할 때 어떤 경로 타입을 쓸지 안내해요. app-server 프로토콜은 LegacyAppPathString과 PathUri, exec-server는 PathUri, 호스트 로컬 로직은 AbsolutePathBuf나 PathBuf를 써요.",
+ "when": [
+  "새 경로 타입 정의",
+  "경로 타입 마이그레이션",
+  "프로토콜 타입 설계"
+ ],
+ "examples": [
+  "app-server 프로토콜에 경로 필드를 추가하려는데 어떤 타입을 써야 해",
+  "이 구조체의 경로 타입을 규칙에 맞게 바꿔줘"
+ ],
+ "notes": [
+  "진행 중인 마이그레이션의 목표 규칙이라 기존 코드는 요청이 있을 때만 바꿔요",
+  "Codex 저장소의 Rust 코드 전용이에요",
+  "지키기 어려우면 사용자에게 방향을 물어봐요"
+ ]
+}

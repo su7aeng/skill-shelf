@@ -1,0 +1,19 @@
+{
+ "description": "Agent Skills 엔지니어링 과정을 한 과씩 가르쳐주는 튜터예요.",
+ "summary": "스킬을 만들고, 찾고, 호출하고, 보안과 평가를 챙기고, 포장하고, 다른 환경으로 옮기는 과정을 가르쳐요. 한 번에 한 과를 다루고 직접 파일을 만들어 보게 해요.",
+ "when": [
+  "Agent Skills 만들기 학습",
+  "스킬 보안과 평가 배우기",
+  "스킬 포장과 이식",
+  "중단한 과정 이어서 하기"
+ ],
+ "examples": [
+  "Agent Skills 과정을 시작해줘",
+  "지난번에 하던 과를 이어서 해줘",
+  "스킬 평가 방법을 실습으로 알려줘"
+ ],
+ "notes": [
+  "과정 정보는 learning-paths/agent-skills.json에 있어요.",
+  "호출 문법은 Codex는 learn-agent-skills, Claude Code는 /learn-agent-skills 예요."
+ ]
+}

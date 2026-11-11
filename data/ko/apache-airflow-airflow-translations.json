@@ -1,0 +1,18 @@
+{
+ "description": "Airflow UI의 번역을 새로 추가하거나 갱신해 줘요.",
+ "summary": "로캘 폴더가 있는지 확인해 없으면 설정 파일을 고치고, breeze 명령으로 빈 번역 파일을 만들어요. 로캘별 지침에 맞춰 번역한 뒤 결과를 검증해요. 이미 있는 로캘은 갱신 절차로 바로 가요.",
+ "when": [
+  "새 언어 추가",
+  "번역 갱신",
+  "누락된 번역 채우기",
+  "번역 검증"
+ ],
+ "examples": [
+  "Airflow UI에 새 언어 번역을 추가해줘",
+  "한국어 번역에서 빠진 항목을 채워줘"
+ ],
+ "notes": [
+  "breeze ui check-translation-completeness 명령을 써요",
+  "대상 경로는 airflow-core/src/airflow/ui/public/i18n/locales/예요"
+ ]
+}

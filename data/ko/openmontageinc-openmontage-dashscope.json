@@ -1,0 +1,19 @@
+{
+ "description": "알리바바 DashScope로 이미지 생성, 음성 합성, 음성 인식을 해요.",
+ "summary": "Qwen-Image로 이미지를 만들고, qwen3-tts-flash로 음성을 만들고, qwen3-asr-flash-filetrans로 단어별 시간 정보가 있는 받아쓰기를 해요. 호환 모드가 아닌 DashScope 전용 주소를 쓴다는 점을 짚어 줘요.",
+ "when": [
+  "Qwen-Image로 이미지 만들기",
+  "내레이션 음성 만들기",
+  "단어별 타임스탬프 받아쓰기"
+ ],
+ "examples": [
+  "Qwen-Image로 1024 크기 배경 이미지를 만들어줘",
+  "이 문장을 DashScope 음성으로 읽어줘",
+  "이 음성 파일을 단어별 시간과 함께 받아써줘"
+ ],
+ "notes": [
+  "DASHSCOPE_API_KEY를 .env에 넣어야 해요",
+  "결과 파일 주소는 약 24시간만 유효해서 따로 내려받아야 해요",
+  "이미지 크기는 1024*1024처럼 별표로 써요"
+ ]
+}

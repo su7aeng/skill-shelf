@@ -1,0 +1,18 @@
+{
+ "description": "두바이 기온을 담은 SVG 날씨 카드를 만들어 저장해요.",
+ "summary": "전달받은 온도와 단위로 reference.md의 템플릿을 채워 SVG 카드를 만들어요. 결과는 orchestration-workflow/weather.svg에 쓰고 요약은 output.md에 갱신해요.",
+ "when": [
+  "날씨 카드 만들기",
+  "SVG 파일 생성",
+  "기온 요약 문서 갱신"
+ ],
+ "examples": [
+  "두바이 기온 28도로 날씨 SVG 카드 만들어줘",
+  "받은 기온으로 weather.svg와 output.md를 갱신해줘"
+ ],
+ "notes": [
+  "기온을 직접 가져오지 않고 호출한 쪽이 준 값을 그대로 써요",
+  "reference.md와 examples.md 템플릿을 참고해요",
+  "두 파일 모두 orchestration-workflow 폴더에 저장돼요"
+ ]
+}

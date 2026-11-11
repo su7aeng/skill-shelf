@@ -1,0 +1,16 @@
+{
+ "description": "애니메이션에 transform과 opacity만 쓰도록 점검해요.",
+ "summary": "width, top 같은 레이아웃 속성을 움직이는 CSS를 찾아 transform과 opacity 기반으로 바꾸도록 안내해요. will-change는 아껴 쓰고 prefers-reduced-motion을 지키라는 내용도 있어요.",
+ "when": [
+  "애니메이션 버벅임 점검",
+  "CSS 전환 효과 리뷰",
+  "움직임 줄이기 설정 대응"
+ ],
+ "examples": [
+  "이 CSS 애니메이션이 성능에 나쁜지 봐줘",
+  "top을 움직이는 애니메이션을 transform으로 바꿔줘"
+ ],
+ "notes": [
+  "원문은 영어이고 프런트엔드 체크리스트 항목 하나를 다루는 짧은 스킬이에요"
+ ]
+}

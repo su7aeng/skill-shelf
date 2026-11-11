@@ -1,0 +1,15 @@
+{
+ "description": "이 스킬은 multica-platform으로 합쳐졌어요. 그쪽을 불러오라는 안내만 있어요.",
+ "summary": "Multica 이슈 규칙이 multica-platform 스킬로 옮겨졌다는 안내예요. 새 내용은 없고 그쪽의 references/issues.md로 가라고 알려 줘요.",
+ "when": [
+  "예전 스킬 이름으로 안내를 받았을 때",
+  "이슈 규칙 위치를 찾을 때"
+ ],
+ "examples": [
+  "이슈 규칙은 어디로 옮겨졌는지 알려줘",
+  "multica-platform 스킬을 불러와줘"
+ ],
+ "notes": [
+  "이슈 metadata 안내는 폐기됐어요"
+ ]
+}

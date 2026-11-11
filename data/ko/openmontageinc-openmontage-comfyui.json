@@ -1,0 +1,19 @@
+{
+ "description": "OpenMontage에서 ComfyUI 워크플로로 이미지, 영상, 음악을 만들어요.",
+ "summary": "comfyui_image, comfyui_video, comfyui_music 도구를 쓰기 전에 알아야 할 서버 설정, 워크플로 JSON, 출력 노드 선택, 모델과 LoRA 준비를 안내해요. 커뮤니티 워크플로를 도구 호출로 바꾸는 방법도 알려줘요.",
+ "when": [
+  "ComfyUI로 이미지 생성",
+  "커뮤니티 워크플로 변환",
+  "모델과 LoRA 준비",
+  "저사양 GPU용 설정"
+ ],
+ "examples": [
+  "ComfyUI로 이미지를 한 장 만들어줘",
+  "이 워크플로 JSON을 OpenMontage 도구로 돌려줘",
+  "VRAM이 적은 환경에 맞는 워크플로를 골라줘"
+ ],
+ "notes": [
+  "ComfyUI 서버가 먼저 실행돼 있어야 해요. 기본 주소는 http://localhost:8188 이에요.",
+  "주소는 COMFYUI_SERVER_URL로 바꿔요."
+ ]
+}

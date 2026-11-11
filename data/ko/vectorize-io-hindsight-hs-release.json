@@ -1,0 +1,18 @@
+{
+ "description": "Hindsight 코어 릴리스를 내고 changelog와 블로그 PR을 열어요.",
+ "summary": "Hindsight 코어 버전(vX.Y.Z)을 릴리스하는 절차를 단계별로 따라가요. 버전을 올려 태그를 달고 main에 올리며, 변경 기록과 블로그 PR까지 만들어요.",
+ "when": [
+  "새 버전 릴리스",
+  "버전 번호 올리기",
+  "changelog와 블로그 PR 작성"
+ ],
+ "examples": [
+  "Hindsight 새 버전 릴리스해줘",
+  "다음 버전으로 올리고 changelog PR 열어줘"
+ ],
+ "notes": [
+  "되돌릴 수 없는 작업이에요. 태그가 main에 올라가면 PyPI, npm, Helm 배포가 시작돼요",
+  "시작 전에 버전 번호와 필요한 수정이 main에 합쳐졌는지 확인해야 해요",
+  "통합(integration)은 이 스킬이 아니라 scripts/release-integration.sh로 따로 릴리스해요"
+ ]
+}

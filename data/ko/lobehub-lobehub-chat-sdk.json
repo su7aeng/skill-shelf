@@ -1,0 +1,18 @@
+{
+ "description": "Slack, Discord 등 여러 메신저에서 도는 봇을 한 번에 만들어요.",
+ "summary": "chat 패키지로 Slack, Teams, Google Chat, Discord, GitHub, Linear용 봇을 한 번 짜서 모두에 배포해요. 코드 작성 전에 패키지에 들어 있는 문서를 먼저 읽도록 안내해요.",
+ "when": [
+  "여러 메신저용 봇 제작",
+  "멘션과 슬래시 명령 처리",
+  "카드와 모달 만들기",
+  "AI 답변 스트리밍"
+ ],
+ "examples": [
+  "Slack과 Discord에서 같이 도는 봇을 만들어줘",
+  "봇에 슬래시 명령을 추가해줘",
+  "봇이 답변을 실시간으로 흘려 보내게 해줘"
+ ],
+ "notes": [
+  "chat 패키지가 설치돼 있어야 하고, node_modules/chat/docs 문서를 먼저 읽어야 해요."
+ ]
+}

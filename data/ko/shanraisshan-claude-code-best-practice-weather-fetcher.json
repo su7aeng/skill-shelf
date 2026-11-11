@@ -1,0 +1,18 @@
+{
+ "description": "Open-Meteo API로 두바이의 현재 기온을 가져와요.",
+ "summary": "WebFetch로 Open-Meteo API를 호출해 두바이의 현재 기온을 섭씨나 화씨로 받아요. 응답의 current.temperature_2m 값을 꺼내 온도와 단위만 돌려줘요.",
+ "when": [
+  "두바이 현재 기온 확인",
+  "섭씨나 화씨 조회",
+  "날씨 연동 예제 확인"
+ ],
+ "examples": [
+  "두바이 지금 몇 도야",
+  "두바이 기온을 화씨로 알려줘"
+ ],
+ "notes": [
+  "WebFetch 도구와 인터넷 연결이 필요해요",
+  "API 키는 필요 없어요",
+  "기온 외의 가공은 하지 않아요"
+ ]
+}

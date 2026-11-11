@@ -1,0 +1,18 @@
+{
+ "description": "OmniRoute CLI의 초기 설정과 전역 설정을 관리해요.",
+ "summary": "최초 설정, CLI 전역 설정 확인과 변경, 환경 변수 관리, 업데이트 확인, 자동 시작 설정 명령을 안내해요. autostart는 켜기, 끄기, 전환, 상태 확인을 지원하고 config 명령은 연결된 CLI 도구의 설정 상태를 보여줘요.",
+ "when": [
+  "OmniRoute 처음 설정",
+  "자동 시작 설정",
+  "CLI 도구 설정 확인",
+  "업데이트 확인"
+ ],
+ "examples": [
+  "OmniRoute 자동 시작 켜줘",
+  "설정된 CLI 도구 목록과 상태 보여줘"
+ ],
+ "notes": [
+  "omniroute CLI를 npm으로 설치해서 써요 (npm install -g omniroute 또는 npx omniroute)",
+  "명령 설명 문서는 자동 생성된 영어 원문이에요"
+ ]
+}

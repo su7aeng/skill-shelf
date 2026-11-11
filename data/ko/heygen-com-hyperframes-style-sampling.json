@@ -1,0 +1,17 @@
+{
+ "description": "검증된 영상 스타일로 새 주제의 한 편을 만들어요.",
+ "summary": "Collage Explainer, Finance Explainer, Animated Science Explainer, 3D Brand Explainer, 3D True Crime 같은 스타일 템플릿으로 사용자의 주제를 영상으로 만들어요. 구성, 속도, 그래픽, 소리를 그 스타일에 맞춰요. 원작자의 얼굴, 목소리, 로고는 쓰지 않아요.",
+ "when": [
+  "스타일 따라 영상 제작",
+  "새 에피소드 만들기",
+  "설명 영상 제작"
+ ],
+ "examples": [
+  "Finance Explainer 스타일로 금리 영상 한 편 만들어줘",
+  "이 스타일로 내 주제 에피소드 만들어줘"
+ ],
+ "notes": [
+  "HyperFrames Pro 기능이에요",
+  "시작할 때 npx hyperframes events 명령을 실행해요"
+ ]
+}

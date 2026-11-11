@@ -1,0 +1,19 @@
+{
+ "description": "Prisma 8의 다음 버전 릴리스 PR을 만들어 줘요.",
+ "summary": "루트 package.json 버전을 올리고 모든 워크스페이스 패키지에 같은 버전을 반영한 뒤 chore(release) PR을 열어요. 같은 릴리스 노트로 prisma/web 문서 PR도 준비하고, PR 병합은 사람이 해요.",
+ "when": [
+  "다음 RC 릴리스",
+  "버전 올리기",
+  "릴리스 PR 열기",
+  "문서 사이트 PR 준비"
+ ],
+ "examples": [
+  "다음 RC 버전 릴리스 준비해줘",
+  "release PR 열어줘"
+ ],
+ "notes": [
+  "브랜치를 푸시하고 PR을 열 권한이 있는 유지보수자가 로컬에서 실행해요",
+  "PR이 병합되면 Publish to npm 워크플로가 자동으로 배포해요",
+  "긴급 패치는 다루지 않아요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "웹 주소, YouTube, 팟캐스트, 로컬 파일을 요약하거나 텍스트로 뽑아요.",
+ "summary": "summarize 명령에 주소나 파일 경로를 넘겨 요약해요. YouTube는 자막 추출도 시도하고, 대본이 너무 길면 짧은 요약을 먼저 주고 어느 구간을 더 볼지 물어요.",
+ "when": [
+  "링크 요약",
+  "유튜브 영상 요약",
+  "영상 대본 추출",
+  "PDF 파일 요약"
+ ],
+ "examples": [
+  "이 링크가 무슨 내용인지 요약해줘",
+  "이 유튜브 영상 대본을 뽑아줘"
+ ],
+ "notes": [
+  "선택한 모델 공급자의 API 키가 필요해요. 모델을 정하지 않으면 google/gemini-3-flash-preview를 써요",
+  "막힌 사이트는 FIRECRAWL_API_KEY, YouTube 대체 경로는 APIFY_API_TOKEN을 선택적으로 써요",
+  "원문이 영어예요"
+ ]
+}

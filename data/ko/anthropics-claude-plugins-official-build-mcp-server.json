@@ -1,0 +1,18 @@
+{
+ "description": "MCP 서버를 어떤 형태로 만들지 정하고 설계를 이끌어 줘요.",
+ "summary": "코드를 쓰기 전에 무엇에 연결하는지, 누가 쓰는지, 동작이 몇 개인지 묻고 원격 HTTP, MCPB, 로컬 stdio 중 알맞은 방식을 추천해요. 도구 설계 방식을 고르고 필요하면 MCP 앱이나 MCPB 스킬로 넘겨요.",
+ "when": [
+  "MCP 서버 만들기",
+  "API를 Claude에 연결",
+  "배포 방식 선택",
+  "도구 설계"
+ ],
+ "examples": [
+  "우리 사내 API를 Claude에서 쓰게 MCP 서버로 만들고 싶어",
+  "MCP 서버는 원격과 로컬 중 뭐가 좋을까?"
+ ],
+ "notes": [
+  "시작할 때 https://claude.com/docs/llms-full.txt 문서를 가져와 Claude의 제약을 확인해요",
+  "요구 사항을 파악하기 전에는 코드를 만들지 않아요"
+ ]
+}

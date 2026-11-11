@@ -1,0 +1,16 @@
+{
+ "description": "Remotion 서식 검사를 통과할 때까지 돌려요.",
+ "summary": "bun run stylecheck를 종료 코드 0이 나올 때까지 반복해요. lambda-go 오류는 막는 문제로 보지 않아요.",
+ "when": [
+  "서식 오류 수정",
+  "스타일 검사 통과"
+ ],
+ "examples": [
+  "포매팅 고쳐줘",
+  "stylecheck 통과시켜줘"
+ ],
+ "notes": [
+  "bun이 필요해요",
+  "lambda-go 오류는 무시해도 돼요"
+ ]
+}

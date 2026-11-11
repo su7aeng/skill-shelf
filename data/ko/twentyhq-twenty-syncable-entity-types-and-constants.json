@@ -1,0 +1,19 @@
+{
+ "description": "Twenty 서버에서 syncable 엔티티의 타입과 중앙 상수를 정의해요.",
+ "summary": "syncable 엔티티 추가 6단계 중 1단계예요. 메타데이터 이름 상수, TypeORM 엔티티, flat 엔티티 타입, 액션 타입을 만들고 다섯 개의 중앙 상수에 등록해요.",
+ "when": [
+  "새 syncable 엔티티 시작",
+  "TypeORM 엔티티 정의",
+  "flat 타입 정의",
+  "중앙 상수 등록"
+ ],
+ "examples": [
+  "새 syncable 엔티티의 타입과 엔티티를 정의해줘",
+  "중앙 상수에 새 엔티티를 등록해줘"
+ ],
+ "notes": [
+  "twentyhq/twenty 서버 내부를 고치는 기여자용이에요",
+  "다른 모든 단계의 바탕이라 가장 먼저 해야 해요",
+  "Twenty 위에 앱을 만드는 용도가 아니에요"
+ ]
+}

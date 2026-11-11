@@ -1,0 +1,17 @@
+{
+ "description": "GUI 앱이나 소스 저장소용 CLI-Anything 하니스를 Codex로 만들어요.",
+ "summary": "GUI 프로그램이나 소스 저장소를 AI가 명령줄로 다룰 수 있게 하는 CLI-Anything 하니스를 Codex가 만들고 다듬고 테스트하고 검증하게 해요. 결과물은 기존과 같은 Python 하니스 형식이에요.",
+ "when": [
+  "GUI 앱을 명령줄로 조작하게 만들고 싶을 때",
+  "기존 하니스를 고치고 검증할 때",
+  "만든 하니스 목록을 볼 때"
+ ],
+ "examples": [
+  "GIMP용 CLI-Anything 하니스를 만들어줘",
+  "이 하니스를 테스트하고 검증해줘"
+ ],
+ "notes": [
+  "시작 전에 references/HARNESS.md 방법론 문서를 먼저 읽어요",
+  "문서가 없으면 HKUDS/CLI-Anything 저장소를 받아 써요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Volcengine 두바오 음성으로 중국어와 다국어 내레이션을 만들어요.",
+ "summary": "Doubao Speech 2.0으로 내레이션 음성을 만들어요. 긴 영상에는 비동기 방식을 권하고, 글자 단위 시간 정보를 받아 자막 만들 때 쓸 수 있어요. OpenMontage의 TTS 선택기나 도구를 직접 호출해요.",
+ "when": [
+  "중국어 내레이션",
+  "두바오 또는 火山引擎 TTS 선호",
+  "자막용 시간 정보가 필요한 음성"
+ ],
+ "examples": [
+  "이 중국어 대본을 두바오 음성으로 읽어줘",
+  "내레이션을 만들고 자막용 타임스탬프도 같이 줘"
+ ],
+ "notes": [
+  "DOUBAO_SPEECH_API_KEY를 .env에 넣어야 해요",
+  "기본 음성은 DOUBAO_SPEECH_VOICE_TYPE이나 voice_id로 정해요",
+  "새 콘솔 API 키는 X-Api-Key 헤더로 인증해요"
+ ]
+}

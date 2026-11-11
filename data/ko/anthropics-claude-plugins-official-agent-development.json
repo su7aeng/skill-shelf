@@ -1,0 +1,19 @@
+{
+ "description": "Claude Code 플러그인용 에이전트를 만드는 방법을 안내해요.",
+ "summary": "에이전트 파일의 구조와 frontmatter 항목(name, description, model, color, tools)을 설명해요. 언제 호출될지 적는 description 작성법과 시스템 프롬프트 설계도 다뤄요. 에이전트는 자율 작업용이고 명령은 사용자가 직접 시작하는 작업용이라고 구분해요.",
+ "when": [
+  "에이전트 새로 만들기",
+  "서브에이전트 작성",
+  "description 작성",
+  "도구와 색상 설정"
+ ],
+ "examples": [
+  "코드 리뷰용 에이전트를 만들어줘",
+  "에이전트 frontmatter는 어떻게 써야 해?",
+  "에이전트가 알맞은 때 호출되도록 description을 고쳐줘"
+ ],
+ "notes": [
+  "Claude Code 플러그인을 만드는 개발자용이에요",
+  "에이전트는 YAML frontmatter가 있는 Markdown 파일이에요"
+ ]
+}

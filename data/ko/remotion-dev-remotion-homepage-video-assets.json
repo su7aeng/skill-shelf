@@ -1,0 +1,19 @@
+{
+ "description": "Remotion 홈페이지용 투명 영상 에셋을 새로 만들고 교체해요.",
+ "summary": "packages/brand에서 투명 ProRes 4444 마스터를 먼저 렌더링해요. 이 마스터에서 Chrome용 WebM과 Safari용 MP4를 변환한 뒤, offload-r2 스킬로 새 버전 키에 올리고 해시를 확인해요.",
+ "when": [
+  "홈페이지 영상 교체",
+  "투명 WebM 만들기",
+  "Safari용 MP4 변환",
+  "remotion.media 에셋 갱신"
+ ],
+ "examples": [
+  "홈페이지 creator strip 영상을 새로 렌더링해서 교체해줘",
+  "what-is-remotion 영상을 Chrome WebM과 Safari MP4로 만들어줘"
+ ],
+ "notes": [
+  "bun, ffmpeg, macOS의 avconvert가 필요해요",
+  "변환은 이전 WebM이 아니라 ProRes 마스터에서 해야 해요",
+  "업로드는 offload-r2 스킬을 따로 써요"
+ ]
+}

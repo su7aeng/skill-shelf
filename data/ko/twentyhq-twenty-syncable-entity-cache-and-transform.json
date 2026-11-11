@@ -1,0 +1,18 @@
+{
+ "description": "Twenty 서버에서 syncable 엔티티의 캐시와 변환 유틸을 만들어요.",
+ "summary": "syncable 엔티티 추가 6단계 중 2단계예요. 평탄화 엔티티 캐시 서비스, 엔티티를 flat 형태로 바꾸는 유틸, 입력 DTO를 universal flat entity로 바꾸는 유틸을 만들어요.",
+ "when": [
+  "엔티티 캐시 서비스 작성",
+  "flat 변환 유틸 작성",
+  "입력 DTO 변환 구현"
+ ],
+ "examples": [
+  "새 엔티티의 flat 캐시 서비스를 만들어줘",
+  "입력 DTO를 universal flat entity로 바꾸는 유틸을 작성해줘"
+ ],
+ "notes": [
+  "twentyhq/twenty 서버 내부를 고치는 기여자용이에요",
+  "1단계 타입과 상수를 끝낸 뒤에 해요",
+  "NestJS와 TypeORM 코드가 나와요"
+ ]
+}

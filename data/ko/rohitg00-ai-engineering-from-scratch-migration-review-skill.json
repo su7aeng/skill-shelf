@@ -1,0 +1,18 @@
+{
+ "description": "merge 전에 데이터베이스 마이그레이션 파일을 검토해 근거를 모아요.",
+ "summary": "migrations/ 아래 파일만 대상으로, 먼저 범위 검사 스크립트를 돌린 뒤 체크리스트에 따라 각 파일을 살펴요. 적용 동작, 되돌리기 한계, 잠금과 데이터 양 위험을 Scope, Evidence, Risks, Rollback, Blockers, Decision 항목으로 보고해요.",
+ "when": [
+  "마이그레이션 변경 merge 전 검토",
+  "되돌리기 가능 여부 확인",
+  "잠금과 데이터 위험 점검"
+ ],
+ "examples": [
+  "migrations/0042_add_index.sql 검토해줘",
+  "이번 PR의 마이그레이션이 안전한지 봐줘"
+ ],
+ "notes": [
+  "python3로 check_scope.py를 실행해요",
+  "마이그레이션을 실제로 적용하지는 않아요",
+  "근거가 부족하면 Decision을 blocked로 써요"
+ ]
+}

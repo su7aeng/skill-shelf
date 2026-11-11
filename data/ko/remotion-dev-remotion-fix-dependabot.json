@@ -1,0 +1,17 @@
+{
+ "description": "Dependabot PR을 모노레포 전체에 맞게 고치고 bun.lock까지 갱신해요.",
+ "summary": "Dependabot은 package.json 하나만 고치고 install을 하지 않아요. 이 스킬은 PR 브랜치를 받아 같은 의존성을 쓰는 다른 package.json도 새 버전으로 맞추고, bun install로 잠금 파일을 갱신해 푸시해요.",
+ "when": [
+  "Dependabot PR 정리",
+  "모노레포 의존성 버전 맞추기",
+  "bun.lock 갱신"
+ ],
+ "examples": [
+  "Dependabot PR 1234 고쳐줘",
+  "이 의존성 업데이트를 모든 패키지에 반영해줘"
+ ],
+ "notes": [
+  "gh CLI와 bun이 필요해요",
+  "각 패키지가 쓰던 ^, ~ 표기 방식은 유지해요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Axolotl로 LLM을 파인튜닝하는 방법을 안내해요.",
+ "summary": "YAML 설정으로 LoRA, QLoRA, DPO, GRPO 같은 방식의 파인튜닝을 하는 Axolotl 사용을 도와요. 공식 문서에서 뽑은 예시로 FSDP, 시퀀스 병렬화 같은 설정 패턴을 알려줘요.",
+ "when": [
+  "LLM 파인튜닝 설정",
+  "Axolotl 설정 오류 확인",
+  "분산 학습 설정"
+ ],
+ "examples": [
+  "Axolotl로 LoRA 파인튜닝 YAML 만들어줘",
+  "FSDP 설정을 어떻게 쓰는지 알려줘"
+ ],
+ "notes": [
+  "torch, transformers, peft, deepspeed 등이 필요해요",
+  "원문이 영어예요",
+  "리눅스와 macOS를 지원해요"
+ ]
+}

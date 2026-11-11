@@ -1,0 +1,19 @@
+{
+ "description": "새 Twenty 앱의 뼈대를 만들어줘요.",
+ "summary": "twenty CLI로 새 Twenty 앱 폴더를 만들고 의존성을 설치하는 스킬이에요. 원하면 Twenty 워크스페이스에 로그인해 앱을 적용하는 것까지 도와요.",
+ "when": [
+  "새 Twenty 앱 시작",
+  "앱 폴더 뼈대 생성",
+  "Twenty 인스턴스에 연결"
+ ],
+ "examples": [
+  "Twenty 앱 새로 하나 만들어줘",
+  "my-crm이라는 이름으로 Twenty 앱 스캐폴딩해줘"
+ ],
+ "notes": [
+  "app init은 파일만 만들고 의존성 설치, Git 설정, 로그인, 동기화는 하지 않아요",
+  "적용이 성공해야 설치됐다고 말해요",
+  "이미 있는 앱에는 develop-app이나 manage-app을 써요",
+  "npm과 yarn이 필요해요"
+ ]
+}

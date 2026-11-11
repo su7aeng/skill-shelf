@@ -1,0 +1,19 @@
+{
+ "description": "Cardputer-Adv 기기의 MicroPython 앱을 추가하고 올려 줘요.",
+ "summary": "m5-onboard로 기기 설정을 마친 뒤 buddy 폴더의 앱을 고쳐 가며 개발해요. 새 앱 추가, 바뀐 .py 파일만 올리기, 기기 시리얼 로그 보기, REPL 한 줄 실행 방법을 알려 줘요.",
+ "when": [
+  "새 앱 추가",
+  "파일 하나만 올리기",
+  "기기 로그 보기",
+  "기기에서 명령 실행"
+ ],
+ "examples": [
+  "Cardputer에 새 앱을 추가해줘",
+  "snake.py만 기기에 올려줘",
+  "기기 시리얼 로그를 보여줘"
+ ],
+ "notes": [
+  "m5-onboard로 기기를 먼저 설정해야 해요",
+  "build-with-claude 저장소 복제본과 USB 시리얼 연결이 필요해요"
+ ]
+}

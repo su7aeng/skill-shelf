@@ -1,0 +1,17 @@
+{
+ "description": "Remotion 등 기존 영상 작업을 HyperFrames로 옮겨요.",
+ "summary": "Remotion을 비롯해 Motion Canvas, Lottie, Three.js, p5.js, 캔버스 애니메이션 등을 HyperFrames로 가져와요. 가능한 만큼 HTML과 GSAP로 옮기고, 안 되면 코드를 그대로 호스팅해요. 원본과 프레임 단위로 비교해 확인해요.",
+ "when": [
+  "Remotion 이전",
+  "다른 도구 작업물 재사용",
+  "프레임 단위 검증"
+ ],
+ "examples": [
+  "Remotion 프로젝트를 HyperFrames로 바꿔줘",
+  "Lottie 애니메이션을 영상 프로젝트에 가져와줘"
+ ],
+ "notes": [
+  "시작할 때 npx hyperframes events 명령을 한 번 실행해요",
+  "HyperFrames 플러그인 안에서는 플러그인 실행 규칙을 따라요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "GUI 앱이나 소스 저장소용 CLI-Anything 하니스를 Reasonix로 만들어요.",
+ "summary": "Reasonix가 CLI-Anything 방식으로 GUI 앱이나 소스 저장소의 명령줄 하니스를 만들고 다듬고 테스트하고 검증하게 해요. 결과물은 기존과 같은 Python 하니스 형식이에요.",
+ "when": [
+  "GUI 앱을 명령줄로 조작하게 만들고 싶을 때",
+  "하니스를 새로 만들거나 고칠 때",
+  "만든 하니스를 검증할 때"
+ ],
+ "examples": [
+  "이 앱의 CLI-Anything 하니스를 만들어줘",
+  "만든 하니스가 제대로 동작하는지 검증해줘"
+ ],
+ "notes": [
+  "서브에이전트로 실행돼요",
+  "cli-anything-plugin/HARNESS.md 방법론 문서를 먼저 찾고, 없으면 GitHub에서 받아요"
+ ]
+}

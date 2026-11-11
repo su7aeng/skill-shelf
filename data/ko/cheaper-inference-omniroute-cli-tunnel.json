@@ -1,0 +1,19 @@
+{
+ "description": "OmniRoute CLI로 ngrok, Cloudflare 터널을 열고 닫아요.",
+ "summary": "터널 목록 확인, 생성, 중지, 상태와 로그 조회, 키 교체 명령을 안내해요. ngrok, Cloudflare, 사용자 지정 터널을 지원하고 활성 주소와 외부 접속 가능 여부를 확인해요.",
+ "when": [
+  "외부에서 로컬 서버 접속",
+  "터널 상태 확인",
+  "터널 로그 조회",
+  "터널 중지"
+ ],
+ "examples": [
+  "Cloudflare 터널 열어서 주소 알려줘",
+  "실행 중인 터널 상태 보여주고 로그도 확인해줘"
+ ],
+ "notes": [
+  "omniroute CLI를 npm으로 설치해서 써요 (npm install -g omniroute 또는 npx omniroute)",
+  "ngrok이나 Cloudflare 계정 설정이 필요할 수 있어요",
+  "명령 설명 문서는 자동 생성된 영어 원문이에요"
+ ]
+}

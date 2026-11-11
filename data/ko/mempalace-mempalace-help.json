@@ -1,0 +1,16 @@
+{
+ "description": "MemPalace 명령어와 사용 팁, 시작 방법을 안내해요.",
+ "summary": "mempalace instructions help 명령이 돌려주는 안내를 따라 사용 가능한 명령과 시작 방법을 보여주는 스킬이에요.",
+ "when": [
+  "MemPalace 처음 쓸 때",
+  "사용 가능한 명령 찾기",
+  "사용 팁 확인"
+ ],
+ "examples": [
+  "MemPalace 도움말 보여줘",
+  "MemPalace 어떻게 시작하는지 알려줘"
+ ],
+ "notes": [
+  "mempalace가 설치돼 있어야 해요"
+ ]
+}

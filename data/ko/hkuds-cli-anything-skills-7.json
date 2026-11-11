@@ -1,0 +1,18 @@
+{
+ "description": "DOMShell로 브라우저를 파일 시스템 명령처럼 조작하는 CLI예요.",
+ "summary": "Chrome의 접근성 트리를 가상 파일 시스템으로 보고 ls, cd, cat, grep, click 같은 명령으로 웹 페이지를 탐색해요. DOMShell MCP 서버를 통해 동작해요.",
+ "when": [
+  "브라우저 자동화",
+  "웹 페이지 탐색",
+  "화면 요소 클릭",
+  "페이지 내용 검색"
+ ],
+ "examples": [
+  "브라우저에서 이 페이지의 버튼 목록을 보여줘",
+  "페이지에서 특정 문구를 찾아 클릭해줘"
+ ],
+ "notes": [
+  "Node.js와 npx, Python 3.10 이상이 필요해요",
+  "Chrome에 DOMShell 확장을 설치하고 Chrome을 켜 둬야 해요"
+ ]
+}

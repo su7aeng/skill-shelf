@@ -1,0 +1,18 @@
+{
+ "description": "AgentDB 기반 ReasoningBank로 경험 학습 에이전트를 만드는 방법을 안내해요.",
+ "summary": "AgentDB 벡터 데이터베이스 위에서 경험 기록, 결과 판정, 기억 정리, 패턴 인식을 구현하는 방법을 보여줘요. CLI로 DB를 만들고 기존 ReasoningBank에서 옮기는 방법과 API 사용 예시가 함께 있어요.",
+ "when": [
+  "경험 재생 시스템 구축",
+  "에이전트 의사결정 개선",
+  "유사 경험 검색",
+  "기존 ReasoningBank 이전"
+ ],
+ "examples": [
+  "AgentDB로 에이전트의 성공 경험을 저장하고 비슷한 상황에서 꺼내 쓰게 해줘",
+  "기존 ReasoningBank 데이터를 AgentDB로 옮겨줘"
+ ],
+ "notes": [
+  "Node.js 18 이상과 AgentDB 1.0.7 이상이 필요해요",
+  "원문이 영어예요"
+ ]
+}

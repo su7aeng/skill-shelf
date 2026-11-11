@@ -1,0 +1,17 @@
+{
+ "description": "claude-mem 관찰자 작업에 정해진 XML 형식으로만 답하게 해요.",
+ "summary": "Grok Bot에서 claude-mem 관찰자 작업을 처리할 때 쓰는 스킬이에요. 할 일이 없으면 skip_summary 를, 끝난 작업 단위가 있으면 제목, 사실 4~10개, 설명이 담긴 observation XML 하나를 내놓아요. 일반 문장은 버려지므로 쓰지 않아요.",
+ "when": [
+  "claude-mem 관찰자 작업 처리",
+  "Grok Bot에서 메모리 기록",
+  "작업 결과를 관찰 기록으로 정리"
+ ],
+ "examples": [
+  "claude-mem 관찰자 작업을 처리해줘",
+  "이번 작업을 observation 으로 기록해줘"
+ ],
+ "notes": [
+  "claude-mem 과 Grok Bot 환경을 전제로 해요",
+  "skip_summary 와 observation 을 섞어 쓰면 안 돼요"
+ ]
+}

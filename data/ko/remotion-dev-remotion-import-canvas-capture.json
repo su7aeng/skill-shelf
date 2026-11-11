@@ -1,0 +1,18 @@
+{
+ "description": "녹화한 Remotion Canvas Capture를 편집 가능한 컴포지션으로 가져와요.",
+ "summary": "canvas-capture import 명령으로 녹화 파일을 프로젝트에 넣어요. 루트 파일 옆에 컴포넌트를 만들어 등록하고, 영상을 public 폴더에 복사하며, 빠진 의존성도 설치해요.",
+ "when": [
+  "캡처 파일 가져오기",
+  "커서 키프레임 편집",
+  "녹화를 컴포지션으로 변환"
+ ],
+ "examples": [
+  "이 capture.webm을 Remotion 프로젝트에 컴포지션으로 가져와줘",
+  "MyCapture라는 이름으로 캡처를 import해줘"
+ ],
+ "notes": [
+  "원본 녹화에 REMOTION_CAPTURE_DATA 메타데이터가 있어야 해요",
+  "변환되어 메타데이터가 사라진 영상은 가져올 수 없어요",
+  "프로젝트 루트에서 bunx remotion 명령으로 실행해요"
+ ]
+}

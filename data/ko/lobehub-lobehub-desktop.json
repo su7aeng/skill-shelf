@@ -1,0 +1,16 @@
+{
+ "description": "LobeHub 데스크톱 앱에 기능을 더하는 방법을 안내해요.",
+ "summary": "Electron 기반의 main, renderer, preload 구조를 설명하고 새 기능을 넣는 순서를 보여줘요. 컨트롤러를 만들어 registry에 등록하고, IPC 타입을 정의하는 식이에요. IPC 핸들러, 창과 메뉴 관리도 다뤄요.",
+ "when": [
+  "데스크톱 기능 추가",
+  "IPC 연결",
+  "창과 메뉴 수정"
+ ],
+ "examples": [
+  "데스크톱 앱에 파일 열기 기능을 넣어줘",
+  "새 IPC 컨트롤러를 만드는 법 알려줘"
+ ],
+ "notes": [
+  "LobeHub 저장소의 apps/desktop 구조를 전제로 해요"
+ ]
+}

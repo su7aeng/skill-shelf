@@ -1,0 +1,19 @@
+{
+ "description": "Hindsight의 구조와 API, 설정, 모범 사례를 담은 전체 문서예요.",
+ "summary": "Hindsight 문서를 references 폴더에 분류해 두고, 필요한 내용을 찾아 읽는 방법을 안내해요. 구조, retain/recall/reflect, 서버 설치, SDK 연동, 성능과 문제 해결까지 다뤄요.",
+ "when": [
+  "Hindsight 구조 이해",
+  "API 사용법 확인",
+  "서버 설치와 설정",
+  "SDK 연동"
+ ],
+ "examples": [
+  "Hindsight의 retain과 recall 차이를 설명해줘",
+  "Docker로 Hindsight 서버 띄우는 방법 알려줘",
+  "Python SDK로 연동하는 방법 찾아줘"
+ ],
+ "notes": [
+  "원문 문서는 영어예요",
+  "best-practices.md부터 읽기를 권해요"
+ ]
+}

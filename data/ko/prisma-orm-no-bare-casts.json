@@ -1,0 +1,18 @@
+{
+ "description": "TypeScript 운영 코드의 as 형 변환을 피하고 정해진 순서로 대체해요.",
+ "summary": "as를 쓰려 할 때 입력 타입 좁히기, 런타임 검사, 제네릭 조정, satisfies, castAs 순으로 먼저 따져 봐요. 그래도 안 되면 이유를 문자열로 남기는 blindCast를 마지막 수단으로 써요.",
+ "when": [
+  "as 캐스트 제거",
+  "타입 오류 해결",
+  "캐스트 코드 리뷰"
+ ],
+ "examples": [
+  "이 파일의 as 캐스트를 없애줘",
+  "타입 오류를 as로 덮지 말고 제대로 고쳐줘"
+ ],
+ "notes": [
+  "@internal/utils/casts의 castAs와 blindCast 헬퍼를 쓰는 프로젝트용이에요",
+  "테스트 파일은 규칙에서 빠져요",
+  "원문이 영어예요"
+ ]
+}

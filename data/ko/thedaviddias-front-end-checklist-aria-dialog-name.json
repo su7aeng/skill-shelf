@@ -1,0 +1,16 @@
+{
+ "description": "대화상자에 접근 가능한 이름을 붙이도록 점검해요.",
+ "summary": "role=dialog와 alertdialog 요소에 이름이 있는지 확인하고, 제목을 가리키는 aria-labelledby나 aria-label로 이름을 주도록 안내해요.",
+ "when": [
+  "모달 접근성 점검",
+  "대화상자 이름 추가",
+  "스크린 리더 안내 개선"
+ ],
+ "examples": [
+  "이 모달에 접근 가능한 이름이 있는지 봐줘",
+  "dialog에 aria-labelledby를 연결해줘"
+ ],
+ "notes": [
+  "원문은 영어이고 프런트엔드 체크리스트 항목 하나를 다루는 짧은 스킬이에요"
+ ]
+}

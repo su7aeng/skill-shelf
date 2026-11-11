@@ -1,0 +1,19 @@
+{
+ "description": "Flow Nexus의 로그인과 계정 관리를 처리하는 에이전트예요.",
+ "summary": "회원가입, 로그인, 세션 확인, 프로필 설정, 비밀번호 재설정과 이메일 인증을 Flow Nexus MCP 도구로 다뤄요. 인증 문제 해결도 도와줘요.",
+ "when": [
+  "Flow Nexus 회원가입과 로그인",
+  "세션 상태 확인",
+  "비밀번호 재설정",
+  "계정 설정 변경"
+ ],
+ "examples": [
+  "Flow Nexus 로그인 상태를 확인해줘",
+  "비밀번호 재설정 절차를 진행해줘",
+  "로그인이 안 되는 이유를 찾아줘"
+ ],
+ "notes": [
+  "Flow Nexus MCP 도구가 필요해요.",
+  "$agent-authentication 으로 불러요."
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Vercel Sandbox 안에서 agent-browser와 Chrome을 돌려 브라우저 자동화를 해요.",
+ "summary": "필요할 때 Linux 마이크로 VM을 띄워 브라우저 명령을 실행하고 끝나면 종료해요. @agent-browser/sandbox 도우미가 의존성을 설치하고, 스냅샷으로 시작을 빠르게 해 줘요.",
+ "when": [
+  "Vercel 앱의 브라우저 자동화",
+  "스크린샷 서버 기능",
+  "격리된 Chrome 실행"
+ ],
+ "examples": [
+  "Next.js 앱에서 주소를 받아 스크린샷을 찍는 기능을 붙여줘",
+  "Vercel Sandbox로 headless Chrome을 돌리는 방법 알려줘"
+ ],
+ "notes": [
+  "@agent-browser/sandbox와 @vercel/sandbox 패키지가 필요해요",
+  "새 샌드박스는 Chromium용 시스템 의존성을 기본으로 설치해요",
+  "원문이 영어예요"
+ ]
+}

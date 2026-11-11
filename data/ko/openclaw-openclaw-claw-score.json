@@ -1,0 +1,18 @@
+{
+ "description": "OpenClaw 성숙도 스코어카드 문서를 점검하고 갱신해요.",
+ "summary": "taxonomy.yaml과 qa/maturity-scores.yaml 같은 원본을 기준으로 성숙도 스코어카드 문서를 점검하고 갱신해요. 검증 명령과 GitHub 워크플로 실행 방법을 따르고, 생성된 마크다운은 직접 고치지 않아요.",
+ "when": [
+  "성숙도 스코어카드 갱신",
+  "분류 체계 수정 후 검증",
+  "QA 증거 반영"
+ ],
+ "examples": [
+  "OpenClaw 성숙도 스코어카드를 갱신해줘",
+  "taxonomy.yaml 고친 뒤 검증해줘"
+ ],
+ "notes": [
+  "OpenClaw 저장소 안에서 쓰는 절차예요",
+  "개인 정보나 비공개 자료는 저장소에 넣지 않아요",
+  "pnpm과 gh 명령이 필요해요"
+ ]
+}

@@ -16,7 +16,7 @@ const RULES = [
   ["data", 2, /\b(data\w*|analytics?|analy[sz]\w*|sql|postgres\w*|mysql|sqlite|csv|pandas|dashboard\w*|chart\w*|visuali[sz]\w*|etl|bigquery|snowflake|dbt|metric\w*|duckdb|mongo\w*|redis|supabase)\b/g],
   ["ai", 2, /\b(llm\w*|machine learning|ml|model training|fine-?tun\w*|pytorch|tensorflow|hugging ?face|embedding\w*|rag|retrieval|inference|neural|transformer\w*|openai|gemini|claude api|anthropic api|vector\w*|eval\w*|benchmark\w*|diffusion|dataset\w*)\b/g],
   ["automation", 2, /\b(browser\w*|scrap\w*|crawl\w*|automat\w*|n8n|zapier|integrat\w*|slack|gmail|email\w*|calendar|webhook\w*|rpa|selenium|puppeteer|telegram|discord|whatsapp|feishu|lark|dingtalk|wechat)\b/g],
-  ["meta", 3, /\b(skill\w*|agent\w*|subagent\w*|sub-agent\w*|claude code|codex|cursor|hook\w*|plugin\w*|mcp|prompt\w*|context engineering|claude\.md|agents\.md|orchestrat\w*|multi-agent)\b/g],
+  ["meta", 3, /\b(skill (creator|authoring|author|builder|writer|development|template|forge)|(create|write|build|author|design|improve|audit|test) (a |an |new |your )?(agent )?skills?|skills? (for|to) (create|write|build|author)|mcp (server|tool|builder)s?|build(ing)? mcp|subagents?|sub-agents?|prompt (engineering|optimi[sz]\w*|tuning|design)|context engineering|claude\.md|agents\.md|agent (harness|framework|orchestrat\w*)|multi-agent|orchestrat\w*|plugin (development|authoring)|hooks? (config\w*|development))\b/g],
   ["workflow", 2, /\b(plan\w*|brainstorm\w*|task\w*|todo\w*|productiv\w*|memory|note\w*|git|commit\w*|worktree\w*|pull request\w*|pr|changelog\w*|session\w*|handoff|standup|journal\w*|habit\w*|time management|focus)\b/g],
   ["writing", 2, /\b(writ\w*|blog\w*|article\w*|essay\w*|story|stories|novel\w*|fiction|translat\w*|proofread\w*|editing|editor\w*|tone|grammar|summar\w*|copy ?edit\w*|content\w*|script\w*writ\w*|screenplay\w*|poem\w*|poetry)\b/g],
   ["dev", 1, /\b(code|coding|program\w*|api\w*|backend|back-end|python|typescript|javascript|rust|golang|go|java|kotlin|swift|ios|android|flutter|react\w*|vue|svelte|next\.?js|node\w*|django|fastapi|rails|laravel|php|ruby|c\+\+|c#|\.net|architect\w*|refactor\w*|framework\w*|library|sdk|cli|mobile|web ?app\w*|database schema|migration\w*|graphql|rest)\b/g],
@@ -56,5 +56,6 @@ export function categorize(name, description, path = "", repoDesc = "") {
     const score = (a * 3 + b) * weight;
     if (score > bestScore) { best = id; bestScore = score; }
   }
+  if (best === "etc" && /\b(code|coding|software|developer\w*|repo(sitory)?|programming|engineer\w*)\b/.test(strong + " " + text)) return "dev";
   return best;
 }

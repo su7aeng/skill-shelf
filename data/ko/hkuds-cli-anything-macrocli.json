@@ -1,0 +1,17 @@
+{
+ "description": "GUI 앱이나 소스 저장소용 CLI-Anything 하니스를 OpenClaw로 만들어요.",
+ "summary": "OpenClaw가 CLI-Anything 방식으로 GUI 앱이나 소스 저장소의 명령줄 하니스를 만들고 다듬고 테스트하고 검증하게 해요. 결과물은 기존과 같은 Python 하니스 형식이에요.",
+ "when": [
+  "GUI 앱을 AI가 쓸 명령줄로 바꾸고 싶을 때",
+  "하니스를 새로 만들 때",
+  "기존 하니스를 검증할 때"
+ ],
+ "examples": [
+  "./gimp 폴더로 CLI-Anything 하니스를 만들어줘",
+  "이 GitHub 저장소용 하니스를 만들고 테스트해줘"
+ ],
+ "notes": [
+  "입력은 로컬 경로나 GitHub 저장소 주소예요",
+  "저장소 안에서 쓰면 cli-anything-plugin/HARNESS.md 를 먼저 읽어요"
+ ]
+}

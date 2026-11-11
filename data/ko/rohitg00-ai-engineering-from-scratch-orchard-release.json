@@ -1,0 +1,14 @@
+{
+ "description": "배포 근거와 복구 조건을 확인해요.",
+ "summary": "references/restore.md를 읽고 그 안의 타임스탬프를 판단에 포함시키는 짧은 검토 스킬이에요. 원문이 매우 짧아 자세한 절차는 적혀 있지 않아요.",
+ "when": [
+  "배포 근거 확인",
+  "복구 조건 점검"
+ ],
+ "examples": [
+  "이 배포의 복구 조건을 확인해줘"
+ ],
+ "notes": [
+  "references/restore.md 파일을 읽어요"
+ ]
+}

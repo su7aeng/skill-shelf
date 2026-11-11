@@ -1,0 +1,19 @@
+{
+ "description": "Codex, Claude Code, OpenCode에게 코딩 작업을 맡겨요.",
+ "summary": "기능 개발, PR 리뷰, 큰 리팩터링 같은 긴 작업을 백그라운드 워커로 돌려요. 실행 전에 격리된 Git 작업 공간을 준비하고, 완료나 실패는 메시지로 알려줘요. 간단한 수정이나 읽기 전용 조회에는 쓰지 않아요.",
+ "when": [
+  "기능을 백그라운드로 만들기",
+  "PR 리뷰 맡기기",
+  "큰 리팩터링",
+  "이슈에서 PR까지 진행"
+ ],
+ "examples": [
+  "Codex로 이 기능 구현해서 PR까지 만들어줘",
+  "Claude Code에게 이 PR 리뷰 시켜줘"
+ ],
+ "notes": [
+  "claude, codex, opencode 중 하나가 설치되어 있어야 해요",
+  "skills.entries.coding-agent.enabled 설정이 필요해요",
+  "외부 기여자의 브랜치는 승인된 샌드박스에서만 다뤄요"
+ ]
+}

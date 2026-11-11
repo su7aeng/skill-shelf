@@ -1,0 +1,19 @@
+{
+ "description": "뇌영상 데이터를 BIDS 형식으로 정리하고 검증해요.",
+ "summary": "Brain Imaging Data Structure(BIDS) 데이터셋을 정리, 조회, 검증, 변환해요. MRI, EEG, MEG, PET 등 여러 종류를 다루고, DICOM 변환, 메타데이터 사이드카 작성, 파생 데이터 만들기를 도와요. PyBIDS와 검증 도구를 써요.",
+ "when": [
+  "BIDS 데이터셋 정리",
+  "BIDS 규격 검증",
+  "DICOM을 BIDS로 변환",
+  "메타데이터 작성"
+ ],
+ "examples": [
+  "이 DICOM 폴더를 BIDS 구조로 바꿔 줘",
+  "내 BIDS 데이터셋이 규격에 맞는지 검증해 줘"
+ ],
+ "notes": [
+  "Python 3.10 이상과 PyBIDS가 필요하고 DICOM 변환에는 dcm2niix가 필요해요",
+  "설치와 스키마 갱신에 네트워크를 써요",
+  "원문이 영어예요"
+ ]
+}

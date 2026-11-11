@@ -1,0 +1,19 @@
+{
+ "description": "답변을 문언문으로 짧게 줄여 말하는 모드예요.",
+ "summary": "/megacave나 /caveman wenyan으로 켜면 문언문 말투로 군더더기를 덜어내고 답해요. 코드, 명령어, 경로, 오류 문구는 원문 그대로 두고 부정어와 숫자도 남겨요. stop caveman이나 normal mode라고 할 때까지 유지돼요.",
+ "when": [
+  "답변 줄이기",
+  "문언문 말투",
+  "짧은 기술 답변"
+ ],
+ "examples": [
+  "/megacave",
+  "/caveman wenyan",
+  "stop caveman"
+ ],
+ "notes": [
+  "직접 호출할 때만 켜져요",
+  "문언문을 읽을 줄 알아야 편해요",
+  "토큰 절감 효과는 작고 일정하지 않아요"
+ ]
+}

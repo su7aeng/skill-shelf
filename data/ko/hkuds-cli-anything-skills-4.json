@@ -1,0 +1,17 @@
+{
+ "description": "AnyGen으로 슬라이드, 문서, 웹사이트를 명령줄에서 만들어요.",
+ "summary": "자연어 요청으로 슬라이드, 문서, 웹사이트, 다이어그램 등을 만드는 AnyGen OpenAPI용 명령줄 도구예요. 프로젝트 파일에 상태를 저장하는 방식이고 AI 에이전트도 쓰기 좋게 JSON 출력을 지원해요.",
+ "when": [
+  "요청 한 줄로 슬라이드를 만들 때",
+  "문서나 다이어그램을 생성할 때",
+  "AI 에이전트가 AnyGen을 부르게 할 때"
+ ],
+ "examples": [
+  "AnyGen으로 신제품 소개 슬라이드를 만들어줘",
+  "새 프로젝트를 만들고 정보를 JSON으로 보여줘"
+ ],
+ "notes": [
+  "pip install cli-anything-anygen 으로 설치해요",
+  "Python 3.10 이상과 anygen 설치가 필요해요"
+ ]
+}
