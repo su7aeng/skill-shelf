@@ -8,11 +8,13 @@
 //   data/community.json    GitHub Discussions 후기 수, 최근 글 (scripts/community.mjs, 선택)
 //   data/packs.json        스타터팩
 //   data/agents.json       에이전트별 설치 경로
+// → dist/s/<id>/ (검색용 정적 페이지), sitemap.xml, robots.txt, llms.txt
 // → dist/index.json (목록용) + dist/d/<저장소번호>.json (상세용) + dist/feed.xml (RSS)
 import { readdir, readFile, mkdir, cp, writeFile, rm } from "node:fs/promises";
 import { join } from "node:path";
 import { CATEGORIES } from "./scripts/categorize.mjs";
 import { detectAgents } from "./scripts/agents.mjs";
+import { writeSeo } from "./scripts/seo.mjs";
 
 const ROOT = new URL(".", import.meta.url).pathname;
 const DATA = join(ROOT, "data");
@@ -184,6 +186,8 @@ async function main() {
   const items = fresh.slice(0, 50).map((s) => `<item><title>${xml(s.name)} (${xml(repos[s.repo].full)})</title><link>${xml(`${base}/#/s/${encodeURIComponent(s.id)}`)}</link><guid isPermaLink="false">${xml(s.id)}</guid><description>${xml(s.ko?.description || s.description)}</description><category>${xml(CATEGORIES.find((c) => c.id === s.category)?.name)}</category></item>`).join("");
   await writeFile(join(DIST, "feed.xml"), `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>${xml(site.title)} · 새 스킬</title><link>${xml(base || "/")}</link><description>${xml(site.tagline)}</description><language>ko</language><lastBuildDate>${new Date().toUTCString()}</lastBuildDate>${items}</channel></rss>`);
 
+  const seoPages = await writeSeo({ DIST, site, skills, repos, categories: CATEGORIES, agents });
+  if (!site.url) console.warn("! site.json 의 url 이 비어 있어 sitemap.xml 과 canonical 을 만들지 않았어요");
   const n = (f) => skills.filter(f).length;
   console.log(`✓ 스킬 ${skills.length}개 (검증됨 ${n((s) => s.verified)}, 한국어 사용법 ${n((s) => s.ko && !s.ko.ai)} + AI ${n((s) => s.ko?.ai)}, 한국 사용자용 ${n((s) => s.kr)}, 위험 ${n((s) => s.safety?.level === "high")}, 주의 ${n((s) => s.safety?.level === "medium")}), 저장소 ${groups.size}개, 트렌딩 ${trending.length}, 새 스킬 ${fresh.length}, 스타터팩 ${outPacks.length} → dist/`);
 }

@@ -1,16 +1,16 @@
 {
-  "title": "Skill Shelf",
+  "title": "스킬집",
   "tagline": "AI가 일을 더 잘하게 하는 스킬 모음",
   "author": "",
   "url": "",
-  "github": "",
+  "github": "su7aeng/skill-shelf",
   "features": {
     "aiRecommend": false
   },
   "giscus": {
-    "repo": "",
-    "repoId": "",
+    "repo": "su7aeng/skill-shelf",
+    "repoId": "R_kgDOVqCc9A",
     "category": "Skill reviews",
-    "categoryId": ""
+    "categoryId": "DIC_kwDOVqCc9M4DK2m8"
   }
 }

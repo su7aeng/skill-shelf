@@ -6,7 +6,7 @@ body:
     id: skill
     attributes:
       label: 스킬 링크
-      description: Skill Shelf 상세 페이지나 GitHub 주소
+      description: 스킬집 상세 페이지나 GitHub 주소
       placeholder: https://.../#/s/owner--repo--skill
     validations:
       required: true

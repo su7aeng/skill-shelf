@@ -426,7 +426,7 @@ a.card { text-decoration: none; }
 }
 body { background: var(--bg); }
 .top { background: var(--surface); }
-.brand { font-family: var(--mono); font-weight: 600; font-size: 15px; }
+.brand { font-family: var(--mono), "Pretendard Variable", sans-serif; font-weight: 600; font-size: 16px; }
 .brand::after { content: "_"; color: var(--green); margin-left: -6px; animation: blink 1.1s steps(1) infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .brand::after { animation: none; } }
