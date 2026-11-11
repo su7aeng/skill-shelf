@@ -1,0 +1,18 @@
+{
+ "description": "TikTok 영상의 음성을 문자로 옮겨 Markdown으로 저장해요.",
+ "summary": "TikTok 링크를 yt-dlp로 받아 오디오를 뽑고 SenseVoice-Small로 받아 적어요. 출처 링크, 작성자, 언어, 전사문이 들어간 Markdown 파일이 나오고, 중국어와 영어가 섞여도 언어를 자동으로 감지해요.",
+ "when": [
+  "TikTok 영상 내용을 글로 남길 때",
+  "짧은 링크의 영상을 옮길 때",
+  "영상 속 말을 검색 가능하게 만들 때"
+ ],
+ "examples": [
+  "이 TikTok 링크 영상 내용을 글로 옮겨줘",
+  "vm.tiktok.com 짧은 링크를 전사해서 output 폴더에 저장해줘"
+ ],
+ "notes": [
+  "yt-dlp, ffmpeg, funasr 설치가 필요하고 첫 모델 다운로드는 약 893MB예요",
+  "지역 제한이나 비공개 계정 영상은 안 될 수 있어요",
+  "개인 학습과 연구 용도로만 쓰라는 안내가 있어요"
+ ]
+}

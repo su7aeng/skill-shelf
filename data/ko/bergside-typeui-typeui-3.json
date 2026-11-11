@@ -1,0 +1,20 @@
+{
+ "description": "OpenClaw에서 TypeUI의 디자인 스킬과 브랜드 키트를 써서 화면을 만들어요.",
+ "summary": "TypeUI MCP 서버에서 프로젝트 디자인 스킬, 브랜드 키트, UI 프롬프트를 가져와 화면을 만들거나 고쳐요. 색, 글꼴, 여백, 구성을 정하기 전에 선택한 프로젝트 맥락을 먼저 적용해요.",
+ "when": [
+  "TypeUI로 화면 만들기",
+  "대시보드 디자인 다시 하기",
+  "섹션 레이아웃 시안 받기",
+  "브랜드 색과 글꼴 맞추기"
+ ],
+ "examples": [
+  "내 TypeUI 프로젝트로 랜딩 페이지 만들어줘",
+  "TypeUI로 가격표 섹션 시안 3개 뽑아줘",
+  "이 화면을 내 TypeUI 디자인 스킬로 고쳐줘"
+ ],
+ "notes": [
+  "https://mcp.typeui.sh 에 있는 TypeUI MCP 서버가 필요해요",
+  "없으면 openclaw typeui install-mcp 와 openclaw mcp login typeui 로 설치해요",
+  "원문은 영어예요"
+ ]
+}

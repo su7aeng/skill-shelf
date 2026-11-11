@@ -1,0 +1,19 @@
+{
+ "description": "Mixed-Signal Blockset 도구로 AMS 파형을 분석해요.",
+ "summary": "위상 잡음, 지터, 상승과 하강 시간, 듀티비, 락 타임, INL과 DNL, ADC와 DAC 보정을 msblksutilities 함수로 분석해요. 가변 스텝 솔버의 불균일한 데이터를 균일하게 다시 샘플링하고 HSpice 데이터를 가져오는 것도 다뤄요.",
+ "when": [
+  "PLL과 VCO 위상 잡음",
+  "클록 지터 측정",
+  "불균일 데이터 리샘플링",
+  "ADC INL과 DNL"
+ ],
+ "examples": [
+  "VCO 시뮬레이션 결과에서 위상 잡음을 측정해줘",
+  "클록 신호의 주기 지터를 계산해줘",
+  "HSpice 파형을 MATLAB으로 가져와줘"
+ ],
+ "notes": [
+  "MATLAB Mixed-Signal Blockset이 필요해요",
+  "원문은 영어예요"
+ ]
+}

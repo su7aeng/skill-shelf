@@ -1,0 +1,19 @@
+{
+ "description": "터미널에서 cognee-cli로 cognee 메모리를 다루는 법을 알려줘요.",
+ "summary": "remember, recall, forget, improve 명령으로 데이터를 넣고 검색하고 지우는 흐름을 안내해요. 데이터셋과 설정 관리, 데이터베이스 마이그레이션 명령도 다뤄요.",
+ "when": [
+  "터미널로 메모리 저장",
+  "질문으로 검색",
+  "데이터셋 관리",
+  "마이그레이션 실행"
+ ],
+ "examples": [
+  "cognee-cli로 이 폴더 문서 저장해줘",
+  "cognee에서 질문으로 검색하는 명령 알려줘"
+ ],
+ "notes": [
+  "LLM_API_KEY 설정이 필요해요",
+  "forget --all 은 확인 없이 모든 데이터를 바로 지워요",
+  "원문이 영어예요"
+ ]
+}

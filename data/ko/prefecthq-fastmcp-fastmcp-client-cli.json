@@ -1,0 +1,20 @@
+{
+ "description": "MCP 서버의 도구를 fastmcp 명령어로 조회하고 호출해요.",
+ "summary": "fastmcp list로 서버가 제공하는 도구, 리소스, 프롬프트를 확인하고 fastmcp call로 도구를 직접 실행해요. 서버는 URL, 파이썬 파일, mcp.json, 표준 입출력 명령으로 지정하고, 인자는 key=value나 JSON으로 넘겨요.",
+ "when": [
+  "MCP 서버 도구 목록 확인",
+  "서버 도구 직접 호출",
+  "스크립트에서 MCP 연동",
+  "서버 동작 빠른 점검"
+ ],
+ "examples": [
+  "이 MCP 서버가 어떤 도구를 제공하는지 목록 보여줘",
+  "server.py의 add 도구를 a=3 b=4로 호출해봐",
+  "mcp.json에 등록된 서버들의 도구를 JSON으로 뽑아줘"
+ ],
+ "notes": [
+  "fastmcp 명령어 도구가 설치돼 있어야 해요",
+  "HTTP 서버는 자동으로 OAuth를 쓰고, --auth none으로 끌 수 있어요",
+  "SSE 서버는 --transport sse를 붙여야 해요"
+ ]
+}

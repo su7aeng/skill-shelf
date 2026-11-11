@@ -1,0 +1,16 @@
+{
+ "description": "/efficient-orchestrator의 별칭이에요.",
+ "summary": "이 이름으로 호출하면 efficient-orchestrator 스킬을 그대로 따르게 해요. 별도 동작은 없어요.",
+ "when": [
+  "효율적 오케스트레이션 호출",
+  "짧은 명령 사용"
+ ],
+ "examples": [
+  "/efficient-fable",
+  "/efficient-fable 로 이 작업 진행해줘"
+ ],
+ "notes": [
+  "사용자가 직접 호출할 때만 실행돼요",
+  "efficient-orchestrator 스킬을 함께 설치해야 해요"
+ ]
+}

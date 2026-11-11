@@ -1,0 +1,18 @@
+{
+ "description": "oh-my-opencode를 npm에 배포하는 워크플로를 실행하고 결과를 확인해요.",
+ "summary": "GitHub Actions 배포 워크플로를 실행하고 npm 패키지, GitHub 릴리스, Codex 쪽 산출물이 올라갔는지 확인해요. 배포 중에는 코드를 고치거나 다시 리뷰하지 않고, 문제가 생기면 보고하고 멈춰요.",
+ "when": [
+  "npm 배포",
+  "릴리스 노트 작성",
+  "배포 결과 검증"
+ ],
+ "examples": [
+  "oh-my-opencode patch 버전으로 배포해줘",
+  "배포 워크플로 결과 확인해줘"
+ ],
+ "notes": [
+  "patch, minor, major 또는 정확한 버전을 인자로 받아요",
+  "배포만 하는 스킬이라 pre-publish review는 따로 요청해야 해요",
+  "GitHub 권한과 npm 배포 권한이 필요해요"
+ ]
+}

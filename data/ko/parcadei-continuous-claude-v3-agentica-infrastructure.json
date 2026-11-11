@@ -1,0 +1,17 @@
+{
+ "description": "Agentica 다중 에이전트 인프라 API를 정리한 참고서예요.",
+ "summary": "Swarm, Pipeline, Jury 등 11개 패턴 클래스의 생성자와 메서드, 그리고 CoordinationDB, tracked_spawn, HandoffAtom 같은 핵심 구성 요소를 정리해요. 조정용 데이터베이스 구조와 에이전트 추적, 고아 에이전트 감지도 다뤄요.",
+ "when": [
+  "다중 에이전트 워크플로 구성",
+  "패턴 클래스 시그니처 확인",
+  "에이전트 추적 디버깅"
+ ],
+ "examples": [
+  "Jury 패턴으로 여러 에이전트가 투표하게 만드는 방법 알려줘",
+  "CoordinationDB 스키마가 어떻게 생겼는지 보여줘"
+ ],
+ "notes": [
+  "참고용 문서라 읽기 전용 도구만 써요",
+  "Agentica 프레임워크 사용을 전제로 해요"
+ ]
+}

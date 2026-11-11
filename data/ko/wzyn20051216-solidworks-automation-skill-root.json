@@ -1,0 +1,20 @@
+{
+ "description": "SolidWorks 부품, 조립, 도면 작업을 자동화해요.",
+ "summary": "먼저 sw_preflight.py로 환경을 점검하고, capabilities.yaml에 적힌 능력 등급에 따라 부품, 구멍, 조립, 도면, 내보내기를 진행해요. 검증되지 않은 기능은 사람이 다시 확인해야 한다고 표시해요. SolidWorks가 없어도 열린 형식 파일은 쓸 수 있어요.",
+ "when": [
+  "SolidWorks 부품 만들기",
+  "조립과 도면 작업",
+  "STEP 등으로 내보내기",
+  "납품 전 점검"
+ ],
+ "examples": [
+  "SolidWorks로 구멍이 있는 판 부품을 만들고 STEP으로 내보내 줘",
+  "이 조립체의 도면 PDF를 만들어 줘",
+  "현재 환경에서 어떤 작업이 가능한지 점검해 줘"
+ ],
+ "notes": [
+  "Windows, Python 3.10 이상, SolidWorks 2026이 기준이에요. 원본 형식 작업은 pywin32 같은 도구가 필요해요",
+  "원문이 중국어예요",
+  "엔지니어가 결과를 다시 확인해야 해요"
+ ]
+}

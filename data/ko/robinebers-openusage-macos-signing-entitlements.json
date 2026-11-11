@@ -1,0 +1,17 @@
+{
+ "description": "맥 앱의 코드 서명과 권한 설정 문제를 진단해 줘요.",
+ "summary": "codesign, spctl, plutil로 앱의 서명 상태와 entitlements를 읽고 실패 유형을 분류해요. 서명 없음, 잘못된 ID, 권한 불일치, 샌드박스 문제 등을 가려내고 가장 짧은 해결 순서를 알려 줘요.",
+ "when": [
+  "실행이 거부되는 앱 진단",
+  "entitlements 확인",
+  "Gatekeeper 문제 분석"
+ ],
+ "examples": [
+  "이 앱이 서명 때문에 안 열리는지 확인해 줘",
+  "entitlements 설정이 맞는지 봐 줘"
+ ],
+ "notes": [
+  "macOS 터미널 도구를 써요",
+  "없는 권한을 지어내지 않고 빌드 설정 문제면 그대로 말해요"
+ ]
+}

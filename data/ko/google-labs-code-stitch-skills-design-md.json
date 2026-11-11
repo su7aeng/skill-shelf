@@ -1,0 +1,18 @@
+{
+ "description": "Stitch 프로젝트를 분석해 디자인 시스템 문서 DESIGN.md를 써요.",
+ "summary": "Stitch MCP 서버로 프로젝트와 화면 정보를 가져와 색, 서체 같은 디자인 언어를 글로 풀어 DESIGN.md에 정리해요. 이 문서는 이후 Stitch가 같은 느낌의 새 화면을 만들 때 기준으로 쓰여요.",
+ "when": [
+  "디자인 시스템 문서화",
+  "Stitch 화면 분석",
+  "새 화면 생성 준비",
+  "DESIGN.md 작성"
+ ],
+ "examples": [
+  "내 Stitch 프로젝트에서 DESIGN.md를 만들어줘",
+  "홈 화면의 색과 서체 규칙을 문서로 정리해줘"
+ ],
+ "notes": [
+  "Stitch MCP 서버 연결과 화면이 하나 이상 있는 Stitch 프로젝트가 필요해요",
+  "원문은 영어예요"
+ ]
+}

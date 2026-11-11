@@ -1,0 +1,18 @@
+{
+ "description": "간단한 입력으로 FrontendIntegration YAML을 만들어요.",
+ "summary": "메뉴 하나와 페이지 하나 이상으로 된 단순한 구성을 받아 generate_frontend_integration.py 스크립트로 정식 FrontendIntegration YAML을 만들어요. 메뉴 위치를 spec.menus로 펼치고 페이지에서 하위 항목을 만들어요. YAML을 먼저 보여주고 apply라고 답하면 배포한다는 안내를 붙여요.",
+ "when": [
+  "FrontendIntegration YAML 생성",
+  "CRD 표 화면 만들기",
+  "iframe 화면 연결"
+ ],
+ "examples": [
+  "이 CRD를 보여주는 메뉴 YAML을 만들어줘",
+  "iframe으로 외부 페이지를 붙이는 FrontendIntegration을 만들어줘"
+ ],
+ "notes": [
+  "metadata.name, 메뉴 이름, 위치, 페이지는 꼭 알려줘야 해요",
+  "메뉴를 여러 개 쓰는 구성이나 기존 리소스 문제 해결은 범위 밖이에요",
+  "메뉴 아이콘을 안 정하면 GridDuotone이 들어가요"
+ ]
+}

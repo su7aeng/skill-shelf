@@ -1,0 +1,20 @@
+{
+ "description": "Kubernetes 클러스터에 Kubeshark를 설치하고 설정해 줘요.",
+ "summary": "환경과 요구에 맞춰 CLI(kubeshark tap)와 Helm 중 방법을 정해요. 큰 클러스터나 운영 환경에는 사용자 values 파일로 Helm 설치를 권해요. 설정 생성, 업그레이드, 제거, 파드가 뜨지 않는 문제 해결까지 다뤄요.",
+ "when": [
+  "Kubeshark 설치",
+  "Helm values 설정",
+  "업그레이드와 제거",
+  "설치 문제 해결"
+ ],
+ "examples": [
+  "EKS 클러스터에 Kubeshark를 Helm으로 설치해줘",
+  "특정 네임스페이스만 캡처하게 설정해줘",
+  "Kubeshark 파드가 안 뜨는 이유를 봐줘"
+ ],
+ "notes": [
+  "Kubernetes 클러스터와 Helm이 필요해요",
+  "원문이 영어예요",
+  "에어갭과 OpenShift 같은 환경도 다뤄요"
+ ]
+}

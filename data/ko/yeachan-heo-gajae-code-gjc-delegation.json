@@ -1,0 +1,18 @@
+{
+ "description": "계획과 실행 작업을 gajae-code에 맡겨요.",
+ "summary": "coordinator MCP 서버로 gajae-code에 합의형 계획과 실행을 통째로 맡겨요. 진행 상태와 결과물을 돌려받아요.",
+ "when": [
+  "계획 위임",
+  "실행 위임",
+  "작업 상태 확인"
+ ],
+ "examples": [
+  "이 기능 구현 계획을 gajae-code에 맡겨서 세워줘",
+  "승인된 계획을 gajae-code로 실행해줘"
+ ],
+ "notes": [
+  "기본은 읽기 전용이고 변경은 따로 허용해야 해요",
+  "허용하려면 호출마다 allow_mutation: true 를 줘요",
+  "gajae-code 설치가 필요해요"
+ ]
+}

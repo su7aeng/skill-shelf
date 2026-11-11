@@ -1,0 +1,19 @@
+{
+ "description": "Nitro 서버 툴킷의 라우팅, 캐시, 배포 방법을 안내해요.",
+ "summary": "파일 기반 라우팅, 라우트 규칙, 캐시, 저장소, 작업, 웹소켓과 Node, Bun, Deno, Cloudflare, Vercel 배포를 다뤄요. Nuxt가 쓰는 서버 엔진이고 v3 변경점은 마이그레이션 문서를 먼저 보라고 해요.",
+ "when": [
+  "Nitro 서버 개발",
+  "라우트와 캐시 설정",
+  "스케줄 작업 추가",
+  "여러 환경 배포"
+ ],
+ "examples": [
+  "Nitro로 API 라우트를 만들어 줘",
+  "Cloudflare에 배포하도록 설정해 줘"
+ ],
+ "notes": [
+  "Nitro v3 베타 기준이라 v2(nitropack)와 달라요",
+  "v3에서는 자동 import가 없어서 직접 import해야 해요",
+  "세부 내용은 references 문서에 있어요"
+ ]
+}

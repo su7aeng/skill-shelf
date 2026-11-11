@@ -1,0 +1,18 @@
+{
+ "description": "CSV 데이터로 여러 요소가 있는 엑셀 대시보드를 만들어 줘요.",
+ "summary": "열자마자 보이는 Dashboard 시트에 수식으로 계산되는 KPI 카드, 차트, 스파크라인, 조건부 서식을 구성해요. officecli-xlsx 규칙을 따르며 결과는 xlsx 한 개예요.",
+ "when": [
+  "KPI 대시보드",
+  "경영진용 지표 화면",
+  "CSV를 대시보드로",
+  "데이터 시각화"
+ ],
+ "examples": [
+  "이 CSV로 KPI 대시보드 엑셀 만들어줘",
+  "매출 지표 대시보드 xlsx로 만들어줘"
+ ],
+ "notes": [
+  "officecli CLI와 officecli-xlsx 스킬 규칙이 전제예요",
+  "단순한 한 시트 표에는 쓰지 않는 전용 스킬이에요"
+ ]
+}

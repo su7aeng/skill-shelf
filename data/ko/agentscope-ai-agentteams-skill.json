@@ -1,0 +1,17 @@
+{
+ "description": "현재 OpenClaw 설정을 AgentTeams용 이전 패키지(ZIP)로 만들어 줘요.",
+ "summary": "지금 쓰는 OpenClaw 구성을 분석해서 AgentTeams에 관리형 Worker로 가져올 수 있는 ZIP 패키지를 만들어요. AgentTeams의 Worker 구조를 먼저 이해한 뒤 거기에 맞게 구성해요.",
+ "when": [
+  "OpenClaw에서 AgentTeams로 이전",
+  "Worker 이전 패키지 생성",
+  "기존 설정 옮기기"
+ ],
+ "examples": [
+  "내 OpenClaw를 AgentTeams Worker로 옮길 패키지 만들어줘",
+  "현재 설정을 분석해서 이전용 ZIP 만들어줘"
+ ],
+ "notes": [
+  "AgentTeams의 Worker는 Matrix로 소통하고 설정은 MinIO에 저장되는 구조예요",
+  "AGENTS.md에는 관리되는 구간과 사용자 구간을 나누는 표시가 있어요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Go 프로젝트용 GitHub Actions CI/CD 파이프라인을 구성해요.",
+ "summary": "테스트, 린트, 정적 보안 분석, 커버리지, 취약점 스캔 작업의 워크플로 파일과 Dependabot, Renovate, GoReleaser, Docker 빌드, 저장소 보안 설정을 다뤄요. 처음 설정할 때는 테스트, 린트, 보안, 릴리스 순서로 만들고 기존 파이프라인은 빈 곳만 채워요.",
+ "when": [
+  "Go 프로젝트 CI 처음 설정",
+  "워크플로 파일 수정",
+  "린터나 보안 스캐너 추가",
+  "의존성 업데이트 봇 설정"
+ ],
+ "examples": [
+  "이 Go 프로젝트에 GitHub Actions CI 만들어줘",
+  "GoReleaser로 릴리스 파이프라인 구성해줘",
+  "Dependabot 설정 추가해줘"
+ ],
+ "notes": [
+  "go, goreleaser, gh 도구를 쓰도록 안내해요",
+  "보안 결과 해석과 의존성 버전 선택은 다른 스킬이 맡아요",
+  "원문은 영어예요"
+ ]
+}

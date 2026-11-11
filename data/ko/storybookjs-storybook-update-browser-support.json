@@ -1,0 +1,15 @@
+{
+ "description": "Plausible 사용 통계로 Storybook 브라우저 지원 기준을 갱신해요.",
+ "summary": "/docs 방문 통계를 Plausible API에서 받아 브라우저별 최소 지원 버전을 계산하고, 고정 버전을 적어 PR을 열어요. 사람이 직접 지정해야만 쓰는 스킬이에요.",
+ "when": [
+  "브라우저 지원 기준 갱신",
+  "사용 통계 기반 최소 버전 계산"
+ ],
+ "examples": [
+  "Plausible 데이터로 브라우저 지원 기준 다시 계산해줘"
+ ],
+ "notes": [
+  "PLAUSIBLE_API_KEY 환경 변수가 필요하고 출력하지 않아요",
+  "사람이 명시적으로 쓸 때만 실행해요"
+ ]
+}

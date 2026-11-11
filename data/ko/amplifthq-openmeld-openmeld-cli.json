@@ -1,0 +1,20 @@
+{
+ "description": "openmeld CLI로 OpenMeld를 설치하고 운영하는 방법을 안내해요.",
+ "summary": "에이전트가 openmeld 명령으로 센터 에이전트에게 묻고, 설치와 연결을 하고, 조직과 스페이스에서 일하고, Wake를 확인하거나 멈추고, 로컬 상태를 고치도록 도와요. 이 문서는 길잡이이고 작업에 맞는 주제 파일 하나만 골라 읽도록 해요.",
+ "when": [
+  "OpenMeld 설치와 연결",
+  "스페이스 읽기와 보내기",
+  "Wake 확인과 중지",
+  "로컬 상태 복구"
+ ],
+ "examples": [
+  "이 컴퓨터에 OpenMeld 연결해줘",
+  "이 스페이스 링크 내용 읽어줘",
+  "실행 중인 Wake 멈춰줘"
+ ],
+ "notes": [
+  "openmeld CLI가 필요하고 setup.complete 출력의 명령 접두사를 써요",
+  "주제 파일(playbooks, references)을 필요할 때만 읽어요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Timeline Inspector의 Refine 요청을 채팅에서 대신 처리해요.",
+ "summary": "로컬 릴레이(기본 http://localhost:7331)에서 작업을 가져와 패널의 Refine 버튼 요청에 제안을 돌려줘요. 에이전트를 연결할 수 없을 때 쓰는 대체 방식이에요.",
+ "when": [
+  "refine live 실행",
+  "Refine 요청 응답",
+  "에이전트 미연결 환경"
+ ],
+ "examples": [
+  "/refine live 실행해줘",
+  "타임라인 Refine 작업을 대신 처리해줘"
+ ],
+ "notes": [
+  "가능하면 npx transitions-refine live로 상시 에이전트를 쓰는 게 좋아요",
+  "대기 중에도 채팅 턴이 소모되고, 멈추려면 stop refine이라고 말해요",
+  "원문은 영어예요"
+ ]
+}

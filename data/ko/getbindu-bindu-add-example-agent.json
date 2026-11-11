@@ -1,0 +1,17 @@
+{
+ "description": "Bindu 저장소의 examples/ 아래에 새 예제 에이전트를 추가해요.",
+ "summary": "이름, 프레임워크, 목적을 받아 기존 예제와 같은 구조로 독립된 예제 프로젝트를 만들어요. 환경 파일에는 .env.example만 두는 등 안전 규칙을 지켜요.",
+ "when": [
+  "새 프레임워크 예제 추가",
+  "튜토리얼 에이전트 작성",
+  "연동 데모 만들기"
+ ],
+ "examples": [
+  "langchain 예제 에이전트를 추가해줘",
+  "pdf-research-agent 예제를 만들어줘"
+ ],
+ "notes": [
+  "Python과 TypeScript 예제를 지원해요",
+  "실제 키가 든 .env 파일은 커밋하지 않아요"
+ ]
+}

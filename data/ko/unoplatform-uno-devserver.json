@@ -1,0 +1,18 @@
+{
+ "description": "Uno DevServer의 CLI, Host, MCP 프록시를 빌드하고 관리해요.",
+ "summary": "CLI와 Host 두 프로세스로 이루어진 Uno DevServer의 구조를 설명하고 소스 위치를 안내해요. start, stop, list 같은 CLI 명령, MCP 프록시, 애드인 탐색, 테스트 작업을 다뤄요.",
+ "when": [
+  "DevServer CLI 수정",
+  "MCP 프록시 작업",
+  "애드인 탐색 문제",
+  "DevServer 테스트"
+ ],
+ "examples": [
+  "DevServer CLI의 start 명령을 고쳐줘",
+  "MCP 프록시 연결 문제를 조사해줘"
+ ],
+ "notes": [
+  "Uno Platform 저장소 전용이에요",
+  "UI 프레임워크와 무관해서 crosstargeting_override.props가 필요 없어요"
+ ]
+}

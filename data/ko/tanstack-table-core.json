@@ -1,0 +1,19 @@
+{
+ "description": "TanStack Table v9의 핵심 구조와 올바른 설정을 안내해요.",
+ "summary": "table-core의 기본 구성인 features, columns, data를 안정적으로 유지하고 타입을 추론하게 하는 방법을 알려줘요. 기능은 등록한 뒤에만 API와 상태가 생기는 점을 설명해요. 인라인 배열 때문에 생기는 렌더 반복 같은 실수를 피하게 해요.",
+ "when": [
+  "TanStack Table v9 설정",
+  "컬럼 정의와 타입",
+  "행 모델과 상태",
+  "프레임워크 비종속 연동"
+ ],
+ "examples": [
+  "TanStack Table v9로 기본 표를 만들어줘",
+  "표가 계속 다시 렌더링되는 원인을 찾아줘"
+ ],
+ "notes": [
+  "버전은 @tanstack/table-core 9.3.1 기준이에요",
+  "화면 코드는 사용 중인 프레임워크 어댑터를 써요",
+  "원문은 영어예요"
+ ]
+}

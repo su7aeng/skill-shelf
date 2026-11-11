@@ -1,0 +1,19 @@
+{
+ "description": "apm의 토큰과 인증 코드를 바꿀 때 지킬 규칙을 알려요.",
+ "summary": "토큰 관리, 자격 증명 확인, 원격 호스트 인증 코드를 고칠 때 쓰는 스킬이에요. 모든 인증은 AuthResolver를 거쳐야 하고 토큰 환경변수를 코드에서 직접 읽지 않아야 해요. Azure DevOps는 정해진 순서로 인증을 시도해요.",
+ "when": [
+  "인증 코드 수정",
+  "토큰 환경변수 다루기",
+  "git 인증 흐름 변경",
+  "오류 메시지 점검"
+ ],
+ "examples": [
+  "GITHUB_APM_PAT을 읽는 코드를 AuthResolver로 옮겨줘",
+  "ADO 인증이 왜 실패하는지 확인해줘"
+ ],
+ "notes": [
+  "microsoft/apm 저장소 코드 기준의 규칙이에요",
+  "기준 문서는 authentication.md예요",
+  "원문이 영어예요"
+ ]
+}

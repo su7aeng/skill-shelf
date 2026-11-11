@@ -1,0 +1,20 @@
+{
+ "description": "n8n Code 노드에 들어갈 Python을 쓰고 오류를 고쳐요.",
+ "summary": "n8n 2.x의 기본 Python 실행 환경에 맞춰 코드를 써요. 쓸 수 있는 변수는 _items와 _item 둘뿐이고, 기본적으로 import가 막혀 있어요. 옛 Pyodide용 코드의 _input, _json 같은 이름을 새 방식으로 바꾸는 일도 해요.",
+ "when": [
+  "Python Code 노드 작성",
+  "옛 코드 이전",
+  "NameError 해결",
+  "샌드박스 오류 해결"
+ ],
+ "examples": [
+  "n8n Code 노드를 Python으로 짜줘",
+  "예전 _input 쓰던 코드가 안 돌아가는데 고쳐줘",
+  "Import가 막혔다는 오류 해결해줘"
+ ],
+ "notes": [
+  "일반적으로는 JavaScript가 기본이고 Python은 사용자가 원할 때 써요",
+  "AI 에이전트용 Custom Code Tool은 n8n-code-tool 스킬을 써요",
+  "원문은 영어예요"
+ ]
+}

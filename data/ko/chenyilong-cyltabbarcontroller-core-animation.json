@@ -1,0 +1,19 @@
+{
+ "description": "Core Animation(QuartzCore) API 참고 문서를 찾아 답해요.",
+ "summary": "CALayer, CABasicAnimation, CAKeyframeAnimation, CASpringAnimation, CAShapeLayer, CAEmitterLayer, CADisplayLink 같은 API를 물으면 문서를 찾아 설명해요. 레이어에 직접 거는 애니메이션이나 파티클, 프레임 콜백 작업에 맞아요.",
+ "when": [
+  "CALayer 사용법",
+  "레이어 애니메이션",
+  "파티클 효과",
+  "프레임 단위 콜백"
+ ],
+ "examples": [
+  "CASpringAnimation은 어떻게 써?",
+  "CAShapeLayer로 원형 진행 표시를 그려줘",
+  "CADisplayLink 사용법을 알려줘"
+ ],
+ "notes": [
+  "SwiftUI의 withAnimation 같은 선언형 애니메이션은 다른 스킬이 맡아요",
+  "원문이 영어예요"
+ ]
+}

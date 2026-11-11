@@ -1,0 +1,18 @@
+{
+ "description": "공개 GitHub 저장소의 구조를 GitDiagram으로 설명해요.",
+ "summary": "gitdiagram MCP로 owner/repo를 찾고 diagram을 가져와요. 코드가 어떻게 짜였는지 요약하고 주요 구성 요소와 소스 경로, 연결 관계를 알려 주며 gitdiagram.com 링크도 줘요.",
+ "when": [
+  "저장소 구조 파악",
+  "오픈소스 코드 이해",
+  "아키텍처 다이어그램"
+ ],
+ "examples": [
+  "facebook/react 구조를 다이어그램으로 설명해줘",
+  "이 GitHub 프로젝트가 어떻게 구성됐는지 알려줘"
+ ],
+ "notes": [
+  "공개 저장소만 지원해요",
+  "다이어그램은 AI가 만든 개요라 세부 내용은 소스로 확인해야 해요",
+  "도구가 없으면 gitdiagram.com/owner/repo.md 를 대신 가져와요"
+ ]
+}

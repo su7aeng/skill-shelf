@@ -1,0 +1,18 @@
+{
+ "description": "Telegram 채널을 설정하고 접근 정책을 확인해 줘요.",
+ "summary": "BotFather에서 받은 봇 토큰을 상태 폴더의 .env에 저장하고, 접근 정책과 허용된 발신자를 보여 줘요. 상태에 맞는 다음 단계를 알려 주고 허용 목록 방식을 권해요.",
+ "when": [
+  "Telegram 봇 토큰 등록",
+  "접근 정책 확인",
+  "채널 상태 점검",
+  "처음 설정"
+ ],
+ "examples": [
+  "Telegram 채널 설정해줘",
+  "내 봇에 누가 접근 가능한지 알려줘"
+ ],
+ "notes": [
+  "BotFather에서 받은 토큰이 필요해요",
+  "명령어는 /telegram:configure예요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "InsForge PR을 내기 전 E2E 검증 단계를 대신 진행해줘요.",
+ "summary": "package.json 버전에서 테스트 태그를 만들고 Docker 이미지 빌드 워크플로를 실행해요. agent-e2e 저장소의 고정 테스트를 고쳐야 하는지 판단한 뒤 E2E 워크플로를 돌리고, 실패하면 원인을 분류해요.",
+ "when": [
+  "PR 제출 직전 검증",
+  "테스트 이미지 빌드",
+  "E2E 워크플로 실행",
+  "실패 원인 분류"
+ ],
+ "examples": [
+  "PR 올리기 전에 E2E 검증을 돌려줘",
+  "E2E가 실패했는데 원인을 정리해줘"
+ ],
+ "notes": [
+  "gh 명령과 InsForge/agent-e2e 저장소 접근이 필요해요",
+  "로컬 typecheck, lint, test, build를 대신하지 않고 그 뒤에 추가로 해요",
+  "원문은 영어예요"
+ ]
+}

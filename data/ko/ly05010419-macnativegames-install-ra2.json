@@ -1,0 +1,18 @@
+{
+ "description": "본인 Steam 설치본으로 레드얼럿2를 Mac이나 iOS용으로 빌드해요.",
+ "summary": "플레이어가 가진 Red Alert 2와 Yuri's Revenge 파일을 arm64용으로 변환하고 Metal로 화면을 그려 앱으로 만들어요. Mac 환경 확인, 게임 파일 준비, 빌드, 영어와 중국어 언어 파일 설정, 빌드 오류 해결까지 단계별로 안내해요.",
+ "when": [
+  "레드얼럿2 설치",
+  "Mac과 iPhone용 빌드",
+  "빌드 오류 해결"
+ ],
+ "examples": [
+  "내 Steam 레드얼럿2를 Mac에서 돌아가게 빌드해줘",
+  "빌드하다 난 오류 좀 고쳐줘"
+ ],
+ "notes": [
+  "Apple silicon과 macOS 26 이상이 필요하고 iPhone과 iPad는 Xcode 26 이상이 필요해요",
+  "본인 게임 파일만 쓰며, 만든 결과물은 공유하거나 올리면 안 돼요",
+  "원문이 영어예요"
+ ]
+}

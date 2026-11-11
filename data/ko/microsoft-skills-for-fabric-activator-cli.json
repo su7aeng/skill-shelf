@@ -1,0 +1,20 @@
+{
+ "description": "Fabric Activator 알림 규칙을 만들고 살펴봐요.",
+ "summary": "값이 기준을 넘으면 Teams나 이메일로 알리거나 동작을 실행하는 Reflex 알림을 다뤄요. 규칙, 데이터 원본, 조건, 실행 동작을 만들고 기존 ReflexEntities 정의도 풀어서 보여 줘요. 요청에 맞는 모드를 고른 뒤 해당 참고 파일을 먼저 읽고 진행해요.",
+ "when": [
+  "임계값 알림 만들기",
+  "기존 알림 규칙 확인",
+  "Teams나 이메일 통지",
+  "ReflexEntities 정의 해석"
+ ],
+ "examples": [
+  "재고가 100 아래로 떨어지면 Teams로 알려주는 Activator를 만들어줘",
+  "이 워크스페이스의 Activator 규칙들을 정리해줘",
+  "이 Reflex 정의가 어떤 조건에서 동작하는지 설명해줘"
+ ],
+ "notes": [
+  "Azure CLI(az)로 Fabric API를 호출하고, 모든 호출에 x-ms-fabric-skill 헤더를 붙여야 해요",
+  "값을 전달하는 스트리밍 구성은 eventstream-cli 영역이에요",
+  "원문이 영어예요"
+ ]
+}

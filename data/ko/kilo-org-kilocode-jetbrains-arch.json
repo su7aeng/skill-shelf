@@ -1,0 +1,20 @@
+{
+ "description": "JetBrains 플러그인의 모듈 구조와 스레드 규칙을 안내해요.",
+ "summary": "packages/kilo-jetbrains에서 shared, frontend, backend 모듈 사이로 코드를 옮기거나 추가할 때의 경계, RPC, 스레드, 의존성 규칙을 설명해요. IntelliJ 플랫폼 API는 로컬 intellij-community 소스를 우선 찾아보고 내부 API는 쓰지 않아요.",
+ "when": [
+  "모듈 간 코드 이동",
+  "분리 모드 RPC 설계",
+  "스레드 규칙 확인",
+  "IntelliJ API 사용법 조사"
+ ],
+ "examples": [
+  "이 기능을 frontend와 backend 중 어디에 둬야 할지 알려줘",
+  "새 RPC 계약을 추가하려는데 규칙에 맞게 도와줘",
+  "이 IntelliJ API 사용 예시를 소스에서 찾아줘"
+ ],
+ "notes": [
+  "Kilo JetBrains 저장소 전용이에요",
+  "INTELLIJ_REPO에 intellij-community 체크아웃 경로를 설정해 두는 것이 좋아요",
+  "없으면 공개 GitHub 저장소를 보고, Gradle 캐시와 디컴파일은 마지막 수단이에요"
+ ]
+}

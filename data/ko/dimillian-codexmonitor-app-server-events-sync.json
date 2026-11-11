@@ -1,0 +1,19 @@
+{
+ "description": "CodexMonitor가 Codex app-server 프로토콜과 어긋나지 않게 맞춰 줘요.",
+ "summary": "../Codex 저장소의 알림과 요청 목록을 CodexMonitor의 처리 코드와 비교해 지원되는 것과 빠진 것을 가려내요. 결과는 docs/app-server-events.md에 갱신해요. 목록이 같아 보여도 필드가 달라졌는지 살피고, 요청이 있으면 지원 코드를 추가해요.",
+ "when": [
+  "지원하는 이벤트 점검",
+  "빠진 요청 찾기",
+  "프로토콜 변경 추적",
+  "이벤트 문서 갱신"
+ ],
+ "examples": [
+  "Codex 최신 변경에 맞춰 app-server 이벤트 지원 현황을 점검해줘",
+  "빠진 알림 이벤트를 찾아서 문서를 업데이트해줘"
+ ],
+ "notes": [
+  "CodexMonitor 저장소와 옆 폴더의 ../Codex 저장소가 필요해요",
+  "수정 후 npm run typecheck와 npm run test를 돌려요",
+  "백엔드를 바꾸면 cargo check도 돌려요"
+ ]
+}

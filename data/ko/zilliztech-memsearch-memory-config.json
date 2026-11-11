@@ -1,0 +1,19 @@
+{
+ "description": "MemSearch 메모리 설정을 점검하고 바꿔 줘요.",
+ "summary": "요청이 없으면 현재 MemSearch 설정을 진단하고, 특정 설정을 보거나 바꾸라는 요청이면 전역과 프로젝트 범위를 구분해서 처리해요. Claude Code, Codex, OpenClaw, OpenCode, DeepSeek Harness 중 현재 환경에 맞는 참고 파일만 읽어요.",
+ "when": [
+  "MemSearch 설정 확인",
+  "메모리 폴더와 색인 상태 점검",
+  "요약 방식 설정 변경"
+ ],
+ "examples": [
+  "MemSearch 설정 상태 점검해줘",
+  "MemSearch 요약 설정을 전역으로 바꿔줘",
+  "메모리 색인이 제대로 됐는지 확인해줘"
+ ],
+ "notes": [
+  "에이전트 자체의 메모리 기능이 아니라 MemSearch 설정만 다뤄요",
+  "플랫폼별 설정은 환경에 맞는 참고 파일에 있어요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "코드 리뷰를 도와주고 스타일을 점검해요.",
+ "summary": "스타일 가이드를 참고하고 check_style.py로 자동 점검한 뒤 버그, 보안, 성능 문제를 찾아요. 결과는 심각도별로 나눠 알려줘요.",
+ "when": [
+  "병합 전 코드 리뷰",
+  "스타일 위반 확인",
+  "보안 문제 점검"
+ ],
+ "examples": [
+  "이 변경 사항을 리뷰해줘",
+  "코드 스타일 문제가 있는지 확인해줘"
+ ],
+ "notes": [
+  "Agno의 get_skill_reference와 get_skill_script 도구를 써요",
+  "피드백은 Critical, Important, Suggestion 세 단계로 나와요"
+ ]
+}

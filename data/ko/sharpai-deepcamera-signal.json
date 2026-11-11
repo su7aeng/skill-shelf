@@ -1,0 +1,19 @@
+{
+ "description": "SharpAI Aegis의 Clawdbot 에이전트를 Signal 메신저에 연결해요.",
+ "summary": "signal-cli를 이용해 Signal을 메시징 채널로 연결해요. 메시지 전송, 파일 전송, 반응, 답장을 지원하고, 프라이버시를 중시하는 채널이에요.",
+ "when": [
+  "Signal로 알림 받기",
+  "보안 메신저 연동",
+  "메신저 채널 연결"
+ ],
+ "examples": [
+  "Aegis를 Signal에 연결해줘",
+  "카메라 알림을 Signal로 보내줘",
+  "Signal 봇 설정 도와줘"
+ ],
+ "notes": [
+  "signal-cli를 먼저 설치해야 해요",
+  "봇으로 쓸 전화번호가 필요해요",
+  "SharpAI Aegis와 함께 쓰는 스킬이에요"
+ ]
+}

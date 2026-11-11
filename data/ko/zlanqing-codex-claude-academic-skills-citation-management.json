@@ -1,0 +1,20 @@
+{
+ "description": "논문 검색부터 BibTeX 인용 정리와 검증까지 도와줘요.",
+ "summary": "Google Scholar와 PubMed에서 논문을 찾고 CrossRef, PubMed, arXiv에서 정확한 서지 정보를 가져와요. DOI나 PMID를 BibTeX로 바꾸고 기존 인용이 맞는지, 중복은 없는지 검증해 정돈된 참고문헌을 만들어요.",
+ "when": [
+  "논문 검색",
+  "DOI를 BibTeX로 변환",
+  "인용 정보 검증",
+  "참고문헌 목록 정리"
+ ],
+ "examples": [
+  "이 DOI들을 BibTeX 항목으로 바꿔줘",
+  "내 .bib 파일에서 중복과 오류를 찾아줘",
+  "이 주제에서 많이 인용된 논문을 찾아줘"
+ ],
+ "notes": [
+  "원문은 영어예요",
+  "인터넷에서 학술 데이터베이스를 조회해요",
+  "문서를 만들 때 scientific-schematics 스킬로 도식을 넣도록 권해요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Claude Code 플러그인의 훅을 만드는 방법을 안내해 줘요.",
+ "summary": "PreToolUse, Stop, SessionStart 같은 이벤트에 맞춰 도구 사용을 검사하거나 막는 훅을 만드는 법을 설명해요. 프롬프트 방식과 명령 방식의 차이, hooks.json과 settings 형식도 다뤄요.",
+ "when": [
+  "훅 만들기",
+  "위험한 명령 차단",
+  "도구 사용 검증",
+  "이벤트 기반 자동화"
+ ],
+ "examples": [
+  "위험한 bash 명령을 막는 훅 만들어줘",
+  "파일 쓰기 전에 검사하는 PreToolUse 훅 추가해줘"
+ ],
+ "notes": [
+  "플러그인용은 hooks/hooks.json, 사용자 설정용은 .claude/settings.json 형식을 써요",
+  "원문은 영어예요"
+ ]
+}

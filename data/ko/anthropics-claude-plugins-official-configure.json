@@ -1,0 +1,18 @@
+{
+ "description": "Discord 채널을 설정하고 누가 접근할 수 있는지 확인해 줘요.",
+ "summary": "봇 토큰을 ~/.claude/channels/discord/.env에 저장하고, 접근 정책 상태를 보여 줘요. 현재 상태에 맞춰 다음에 할 일을 알려 주고, 허용 목록 방식으로 좁히도록 권해요.",
+ "when": [
+  "Discord 봇 토큰 등록",
+  "접근 정책 확인",
+  "채널 상태 점검",
+  "처음 설정"
+ ],
+ "examples": [
+  "Discord 채널 설정해줘",
+  "누가 나에게 메시지 보낼 수 있는지 알려줘"
+ ],
+ "notes": [
+  "Discord 개발자 포털에서 받은 봇 토큰이 필요해요",
+  "명령어는 /discord:configure예요"
+ ]
+}

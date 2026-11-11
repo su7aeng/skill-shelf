@@ -1,0 +1,20 @@
+{
+ "description": "AI 에이전트가 부르는 n8n Custom Code Tool 코드를 써요.",
+ "summary": "n8n의 Custom Code Tool(toolCode)에 넣을 JavaScript나 Python을 작성하는 방법을 안내해요. 일반 Code 노드와 반환 형식과 사용 가능한 변수가 어떻게 다른지, 입력 스키마와 이름 규칙, 자주 나는 오류의 해결법을 다뤄요.",
+ "when": [
+  "Code Tool 작성",
+  "입력 스키마 정의",
+  "Code Tool 오류 해결",
+  "에이전트가 도구를 안 부를 때"
+ ],
+ "examples": [
+  "AI 에이전트가 부를 n8n Code Tool을 만들어줘",
+  "Wrong output type returned 오류를 고쳐줘",
+  "Code Tool에 인자를 여러 개 받게 스키마를 정의해줘"
+ ],
+ "notes": [
+  "반환값은 문자열이어야 해요",
+  "$fromAI, $input, $helpers는 Code Tool에서 쓸 수 없어요",
+  "상황에 따라 toolWorkflow나 HTTP Request Tool을 쓰라고 안내해요"
+ ]
+}

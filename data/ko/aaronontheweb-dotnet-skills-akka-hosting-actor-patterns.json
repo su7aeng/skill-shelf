@@ -1,0 +1,19 @@
+{
+ "description": "Akka.Hosting으로 엔터티 액터를 만드는 패턴을 알려줘요.",
+ "summary": "GenericChildPerEntityParent, 메시지 추출기, 클러스터 샤딩 추상화, akka-reminders, ITimeProvider 를 쓰는 방법을 다뤄요. 같은 액터 코드를 테스트에서는 로컬로, 운영에서는 클러스터로 돌리게 실행 모드를 나누고 Akka.Hosting 확장 메서드로 등록해요.",
+ "when": [
+  "사용자나 주문 같은 엔터티 액터 만들기",
+  "테스트는 로컬, 운영은 클러스터",
+  "akka-reminders 로 예약 작업",
+  "액터 등록 설정 재사용"
+ ],
+ "examples": [
+  "주문 엔터티 액터를 Akka.Hosting 으로 만들어줘",
+  "테스트에서는 클러스터 없이, 운영에서는 샤딩으로 돌게 해줘",
+  "akka-reminders 로 예약 작업 설정해줘"
+ ],
+ "notes": [
+  "C# 과 .NET 개발자용이고 코드 예시는 영어 원문이에요",
+  "직접 호출하지 않고 에이전트가 필요할 때 불러 쓰는 스킬이에요"
+ ]
+}

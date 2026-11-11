@@ -1,0 +1,18 @@
+{
+ "description": "Axiom 대시보드를 API로 설계하고 만들어요.",
+ "summary": "결정에 도움이 되는 패널을 개요에서 상세, 원본 로그 순서로 구성해요. 평균보다 비율과 백분위를 쓰고 스키마를 먼저 확인한 뒤 APL이나 메트릭 쿼리로 차트를 만들어 배포해요. 계산할 수 없는 패널은 메모로 남겨요.",
+ "when": [
+  "Axiom 대시보드 제작",
+  "Splunk 대시보드 이전",
+  "Grafana 대시보드 이전",
+  "차트 옵션 설정"
+ ],
+ "examples": [
+  "서비스 오류율과 지연 시간 대시보드 만들어줘",
+  "Splunk 대시보드를 Axiom으로 옮겨줘"
+ ],
+ "notes": [
+  "Axiom API 접근 정보가 필요해요",
+  "Grafana 이전은 reference/grafana-migration.md를 참고해요"
+ ]
+}

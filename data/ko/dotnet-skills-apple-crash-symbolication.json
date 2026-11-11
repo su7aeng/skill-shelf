@@ -1,0 +1,18 @@
+{
+ "description": "Apple 플랫폼 .ips 크래시 로그에서 .NET 런타임 프레임의 함수 이름을 알아내요.",
+ "summary": "크래시 로그의 백트레이스에서 UUID와 주소를 뽑아 dSYM을 찾고 atos로 함수 이름과 소스 위치를 알려줘요. 심볼이 없으면 Microsoft 심볼 서버에서 받아와요. 연결된 iPhone에서 로그를 가져오는 것도 도와요.",
+ "when": [
+  "iOS와 macOS 앱 크래시 분석",
+  "MAUI 앱 .ips 해석",
+  "EXC_BAD_ACCESS 조사"
+ ],
+ "examples": [
+  "이 .ips 파일에서 .NET 런타임 크래시 원인을 해석해줘",
+  "연결된 아이폰에서 크래시 로그 가져와서 분석해줘"
+ ],
+ "notes": [
+  "Xcode의 atos가 필요하고, .ips 형식은 iOS 15 이상과 macOS 12 이상이에요",
+  "Symbolicate-Crash.ps1 스크립트를 사용해요",
+  "순수 Swift나 Objective-C 크래시, Android 로그에는 맞지 않아요"
+ ]
+}

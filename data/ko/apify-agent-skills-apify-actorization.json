@@ -1,0 +1,20 @@
+{
+ "description": "기존 프로젝트를 Apify Actor로 바꿔 클라우드에서 돌리게 해요.",
+ "summary": "apify init으로 시작해 Dockerfile을 만들고, 언어에 맞게 코드를 Actor 수명 주기로 감싸요. JavaScript와 TypeScript는 SDK, Python은 비동기 방식, 그 밖의 언어는 CLI 감싸기를 써요. 입력 스키마를 설정하고 로컬 실행 후 배포까지 안내해요.",
+ "when": [
+  "기존 코드를 Apify로 옮기기",
+  "CLI 도구를 Actor로 만들기",
+  "프로젝트에 Apify SDK 추가",
+  "Crawlee 프로젝트 이전"
+ ],
+ "examples": [
+  "이 Node 스크립트를 Apify Actor로 바꿔줘",
+  "내 Python 크롤러에 Apify SDK를 붙여줘",
+  "이 CLI 도구를 Actor로 감싸줘"
+ ],
+ "notes": [
+  "apify CLI 설치와 로그인이 필요해요",
+  "CLI는 패키지 관리자로 설치하고 스크립트를 내려받아 바로 실행하지 않아요",
+  "토큰은 명령줄 인자로 넘기지 않고 환경 변수로 써요"
+ ]
+}

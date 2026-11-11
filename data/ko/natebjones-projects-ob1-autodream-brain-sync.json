@@ -1,0 +1,18 @@
+{
+ "description": "Claude Code의 로컬 메모리를 Open Brain에도 저장해요.",
+ "summary": "메모리 파일을 저장할 때마다 같은 내용을 Open Brain에도 올려서, 다른 AI 앱이나 다른 기기에서도 볼 수 있게 해요. 메모리 종류를 대괄호로 붙여 저장하고 MEMORY.md 색인은 올리지 않아요. 동기화가 실패해도 로컬 저장은 그대로 끝내요.",
+ "when": [
+  "메모리 저장 직후",
+  "여러 AI 앱에서 기억 공유",
+  "기기 간 기억 동기화"
+ ],
+ "examples": [
+  "이거 기억해줘. Open Brain에도 같이 저장해줘",
+  "Claude Code 메모리를 다른 앱에서도 볼 수 있게 해줘"
+ ],
+ "notes": [
+  "mcp__open-brain__capture_thought 도구가 필요해요",
+  "저장하지 말라는 메모리는 Open Brain에도 저장하지 않아요",
+  "Claude Code의 자동 메모리 전용이에요"
+ ]
+}

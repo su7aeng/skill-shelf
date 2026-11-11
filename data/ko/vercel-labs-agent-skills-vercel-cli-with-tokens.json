@@ -1,0 +1,20 @@
+{
+ "description": "토큰으로 로그인해 Vercel CLI로 배포하고 관리해 줘요.",
+ "summary": "대화형 로그인 대신 VERCEL_TOKEN 환경 변수로 Vercel CLI를 써요. 토큰, 프로젝트, 팀 정보를 환경이나 .env에서 찾고 없으면 사용자에게 물어봐요.",
+ "when": [
+  "토큰 기반 배포",
+  "환경 변수 추가",
+  "자동화 환경의 Vercel 작업",
+  "프로젝트와 팀 지정"
+ ],
+ "examples": [
+  "토큰으로 Vercel에 배포해줘",
+  "Vercel에 환경 변수 추가해줘",
+  "vercel 설정 좀 해줘"
+ ],
+ "notes": [
+  "토큰은 명령줄 옵션이 아니라 환경 변수로만 넘겨요",
+  "토큰은 vercel.com/account/tokens 에서 만들어요",
+  "Vercel CLI가 필요해요"
+ ]
+}

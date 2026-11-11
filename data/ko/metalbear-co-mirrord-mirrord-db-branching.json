@@ -1,0 +1,20 @@
+{
+ "description": "mirrord 데이터베이스 브랜칭 설정을 만들어요.",
+ "summary": "MySQL, PostgreSQL, MongoDB, Redis 등 여러 데이터베이스의 격리된 복사본을 쓰도록 mirrord.json의 db_branches 설정을 만들어요. 복사 모드, 연결 소스, 스키마 마이그레이션, IAM 인증과 브랜치 관리를 설명하고 문제도 짚어 줘요.",
+ "when": [
+  "DB 브랜치 설정",
+  "복사 모드 선택",
+  "마이그레이션 테스트",
+  "IAM 인증 설정"
+ ],
+ "examples": [
+  "PostgreSQL 브랜치를 쓰는 mirrord.json 만들어줘",
+  "DB 스키마 마이그레이션을 안전하게 시험하고 싶어",
+  "DynamoDB 브랜칭 설정 알려줘"
+ ],
+ "notes": [
+  "Team 또는 Enterprise 기능이에요",
+  "비밀번호와 연결 문자열은 설정에 쓰지 않고 환경 변수나 Kubernetes Secret을 가리켜요",
+  "사용자에게 DB 자격 증명을 요청하지 않아요"
+ ]
+}

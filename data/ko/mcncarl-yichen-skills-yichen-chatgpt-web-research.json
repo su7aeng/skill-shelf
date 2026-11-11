@@ -1,0 +1,17 @@
+{
+ "description": "로그인된 ChatGPT 웹사이트로 제품과 시장 조사를 해 줘요.",
+ "summary": "사용자가 이미 로그인한 Chrome의 ChatGPT 공식 웹페이지, 특히 GPT-5.5 Pro로 조사를 수행해요. Chrome 확장을 먼저 쓰고 안 되면 Computer Use로 실제 Chrome 창을 조작해요. 답이 끝까지 나오면 페이지에서 뽑아 Markdown으로 저장하고 확인해요.",
+ "when": [
+  "제품 조사",
+  "시장과 경쟁사 조사",
+  "세컨드 오피니언 분석"
+ ],
+ "examples": [
+  "ChatGPT 웹으로 이 제품의 경쟁사를 조사해줘",
+  "GPT-5.5 Pro로 시장 조사해서 Markdown으로 저장해줘"
+ ],
+ "notes": [
+  "ChatGPT Pro 계정이 Chrome에 로그인돼 있어야 해요",
+  "API, 일반 웹 검색, 다른 무료 계정 창으로는 대신하지 않아요"
+ ]
+}

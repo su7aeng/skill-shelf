@@ -1,0 +1,18 @@
+{
+ "description": "모노레포에서 패키지끼리 의존성을 올바르게 연결해요.",
+ "summary": "패키지 매니저(pnpm, yarn, npm, bun)를 먼저 확인한 뒤 각자의 워크스페이스 명령으로 의존성을 추가해요. 새로 만든 패키지를 연결하거나 cannot find module 같은 오류가 날 때 쓰고, tsconfig paths나 package.json 직접 수정으로 때우지 않아요.",
+ "when": [
+  "새 패키지 의존성 연결",
+  "형제 패키지 import 추가",
+  "모듈을 찾을 수 없다는 오류 해결"
+ ],
+ "examples": [
+  "ui 패키지를 app 패키지에서 쓸 수 있게 연결해줘",
+  "@org/data-access를 못 찾는다고 나오는데 고쳐줘",
+  "새로 만든 라이브러리들을 대시보드 앱에 연결해줘"
+ ],
+ "notes": [
+  "루트 package.json의 packageManager 필드나 락 파일로 패키지 매니저를 판단해요",
+  "yarn berry는 기본이 Plug'n'Play라 node_modules가 없을 수 있어요"
+ ]
+}

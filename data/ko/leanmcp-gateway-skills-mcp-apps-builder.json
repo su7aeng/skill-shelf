@@ -1,0 +1,20 @@
+{
+ "description": "화면이 있는 React UI를 붙인 MCP 앱을 만들어요.",
+ "summary": "MCP 도구에 React 화면을 연결해, 도구를 부르면 화면이 함께 보이는 앱을 구성해요. 서비스 파일에서는 @Tool과 @UIApp을 메서드에 달고, 화면 파일에서는 @leanmcp/ui의 표, 폼, 버튼 컴포넌트를 써요. ChatGPT 앱 형태도 지원해요.",
+ "when": [
+  "MCP 도구용 대시보드",
+  "화면이 있는 MCP 앱",
+  "ChatGPT 앱 만들기",
+  "도구 결과를 표나 폼으로 보여주기"
+ ],
+ "examples": [
+  "MCP 도구에 상품 목록 대시보드 화면을 붙여줘",
+  "leanmcp UI로 폼이 있는 MCP 앱 만들어줘",
+  "이 MCP 서버를 ChatGPT 앱으로도 쓰게 해줘"
+ ],
+ "notes": [
+  "@leanmcp/core, @leanmcp/ui, React 18이 필요해요",
+  "@UIApp은 클래스가 아니라 메서드에 붙여야 해요",
+  "서버 코드는 @leanmcp/ui/server, 화면 코드는 @leanmcp/ui에서 가져와요"
+ ]
+}

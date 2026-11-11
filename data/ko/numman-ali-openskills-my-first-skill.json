@@ -1,0 +1,17 @@
+{
+ "description": "SKILL.md 형식을 보여주는 예시 스킬이에요.",
+ "summary": "스킬 폴더를 만들고 이름과 설명이 담긴 머리말을 단 SKILL.md를 쓰는 방법을 단계별로 보여줘요. 지시문은 명령형으로 쓰고, 긴 내용은 references, scripts, assets 폴더로 나누라는 권장 사항도 담고 있어요.",
+ "when": [
+  "스킬 만드는 법 배우기",
+  "OpenSkills 로더 테스트",
+  "SKILL.md 형식 확인"
+ ],
+ "examples": [
+  "스킬 만드는 방법을 예시로 보여줘",
+  "SKILL.md 형식이 어떻게 생겼는지 알려줘"
+ ],
+ "notes": [
+  "실제 작업용이 아니라 학습과 테스트용 예시예요",
+  "상세 규격은 references/skill-format.md에 있어요"
+ ]
+}

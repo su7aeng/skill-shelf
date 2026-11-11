@@ -1,0 +1,17 @@
+{
+ "description": "langbot-skills 저장소의 스킬을 중복 없이 관리해요.",
+ "summary": "스킬, 참고 문서, 사례, 문제 해결 항목을 추가하거나 고치기 전에 AGENTS.md와 기존 파일을 읽고, 내용을 SKILL.md, references, cases, suites, fixtures 중 알맞은 곳으로 나눠 넣어요.",
+ "when": [
+  "스킬 추가와 수정",
+  "스킬 문서 점검",
+  "중복 내용 정리"
+ ],
+ "examples": [
+  "langbot-skills에 새 사례 추가해줘",
+  "기존 스킬 문서에서 중복된 부분 찾아줘"
+ ],
+ "notes": [
+  "langbot-skills 저장소 안에서 쓰는 관리용 스킬이에요",
+  "재사용 자료를 바꾸기 전에 먼저 써요"
+ ]
+}

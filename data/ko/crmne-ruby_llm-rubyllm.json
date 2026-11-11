@@ -1,0 +1,19 @@
+{
+ "description": "RubyLLM으로 Ruby와 Rails AI 앱을 만들어요.",
+ "summary": "RubyLLM의 생성기로 채팅 화면과 에이전트, 도구, MCP, 구조화 출력, 이미지와 음성, 임베딩 등을 먼저 만든 다음 필요한 부분만 고쳐요. 손으로 쓰는 코드를 줄이는 쪽을 권해요.",
+ "when": [
+  "Rails 채팅 앱",
+  "AI 에이전트 구축",
+  "도구와 MCP 연결",
+  "RubyLLM 업그레이드"
+ ],
+ "examples": [
+  "Rails에 RubyLLM으로 채팅 기능 붙여줘",
+  "날씨 조회 도구를 가진 에이전트 만들어줘"
+ ],
+ "notes": [
+  "Ruby와 Rails 환경이 필요해요",
+  "RubyLLM 저장소에 기여하는 작업에는 contributing을 써요",
+  "bundle add ruby_llm으로 설치해요"
+ ]
+}

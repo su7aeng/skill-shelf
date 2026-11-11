@@ -1,0 +1,17 @@
+{
+ "description": "animal-island-ui 스타일의 React 화면을 만들어요.",
+ "summary": "따뜻한 양피지 배경, 흙갈색 글씨, 민트색 포인트와 알약 모양, 게임 버튼 같은 입체감이 있는 아늑한 섬 느낌의 UI를 만들어요. animal-island-ui npm 패키지를 쓰는 React 프로젝트나 빌드 없는 단일 HTML 파일, 두 가지 방식을 지원해요.",
+ "when": [
+  "React 화면 만들기",
+  "단일 HTML 페이지 만들기",
+  "동물 숲 느낌 디자인"
+ ],
+ "examples": [
+  "animal-island-ui 스타일로 로그인 화면 만들어줘",
+  "빌드 없이 한 파일 HTML로 이 스타일 페이지 만들어줘"
+ ],
+ "notes": [
+  "컴포넌트는 42개이고 의존 패키지는 naive-icons와 dayjs예요",
+  "색은 --animal-* CSS 변수를 써서 맞춰요"
+ ]
+}

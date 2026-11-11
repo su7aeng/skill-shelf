@@ -1,0 +1,18 @@
+{
+ "description": "GUI 앱용 CLI-Anything 하니스를 만들고 개선하고 검증해 줘요.",
+ "summary": "Cursor 플러그인의 슬래시 명령(/cli-anything, /cli-anything-refine, /cli-anything-test, /cli-anything-validate, /cli-anything-list)을 자연어 요청과 연결해요. 방법론은 플러그인 안 HARNESS.md를 읽고 따라요.",
+ "when": [
+  "GUI 앱용 CLI 제작",
+  "CLI 범위 확장",
+  "테스트와 검증",
+  "만든 도구 목록 보기"
+ ],
+ "examples": [
+  "./gimp용 CLI 만들어줘",
+  "만든 CLI 하니스를 테스트해줘"
+ ],
+ "notes": [
+  "Cursor 플러그인과 PLUGIN_ROOT 경로가 필요해요",
+  "공개된 CLI를 찾는 일은 cli-hub-meta-skill이 맡아요"
+ ]
+}

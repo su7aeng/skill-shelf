@@ -1,0 +1,19 @@
+{
+ "description": "MiniCPM5를 llama.cpp와 GGUF 파일로 실행해요.",
+ "summary": "llama.cpp를 설치하고 GGUF 파일을 내려받아 llama-cli로 대화하거나 llama-server로 OpenAI 호환 서버를 띄우는 방법을 안내해요. 양자화는 Q4_K_M, Q8_0, F16 중에서 고르고 기본은 Q4_K_M이에요.",
+ "when": [
+  "CPU로 모델 실행",
+  "일반 GPU로 실행",
+  "파이썬 없이 배포",
+  "GGUF 파일 사용"
+ ],
+ "examples": [
+  "MiniCPM5를 CPU만으로 돌려줘",
+  "llama-server로 MiniCPM5 서버를 띄워줘"
+ ],
+ "notes": [
+  "Q4_K_M은 약 1.56GB, Q8_0은 약 2.68GB, F16은 약 5.04GB예요",
+  "NVIDIA GPU가 있으면 NGL 99, 없으면 0으로 설정해요",
+  "같은 GGUF를 Ollama와 LM Studio에서도 쓸 수 있어요"
+ ]
+}

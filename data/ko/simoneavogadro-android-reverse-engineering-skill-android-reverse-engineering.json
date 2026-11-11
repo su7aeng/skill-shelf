@@ -1,0 +1,19 @@
+{
+ "description": "Android APK와 JAR 파일을 디컴파일하고 API 주소를 뽑아요.",
+ "summary": "jadx나 Fernflower/Vineflower로 APK, XAPK, JAR, AAR을 풀어 코드를 읽어요. Retrofit, OkHttp, Volley가 쓰는 HTTP API 주소를 찾고 화면에서 네트워크 요청까지 호출 흐름을 따라가 정리해 줘요.",
+ "when": [
+  "안드로이드 앱 분석",
+  "APK 디컴파일",
+  "API 엔드포인트 추출",
+  "호출 흐름 추적"
+ ],
+ "examples": [
+  "이 APK를 디컴파일해서 쓰는 API 주소를 정리해줘",
+  "로그인 화면부터 서버 요청까지 호출 흐름을 추적해줘"
+ ],
+ "notes": [
+  "Java JDK 17 이상과 jadx가 필요하고 Fernflower와 dex2jar는 선택 사항이에요",
+  "의존성을 확인하는 스크립트가 함께 들어 있어요",
+  "원문은 영어이고 중국어 트리거 단어도 있어요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "ASCII 아트 배너와 그림을 여러 도구로 만들어 줘요.",
+ "summary": "pyfiglet으로 글자 배너를 만들고, 원격 API, cowsay, boxes, 이미지의 ASCII 변환 같은 도구를 용도에 맞게 써요. 글꼴 몇 가지를 미리 보여 주고 고르게 해요.",
+ "when": [
+  "글자 배너",
+  "프로젝트 로고 텍스트",
+  "이미지의 ASCII 변환",
+  "터미널 장식"
+ ],
+ "examples": [
+  "MY APP 글자를 ASCII 배너로 만들어 줘",
+  "doom 글꼴로 제목을 보여 줘",
+  "이 이미지를 ASCII 아트로 바꿔 줘"
+ ],
+ "notes": [
+  "pyfiglet은 pip로 설치해요",
+  "API 키는 필요 없어요",
+  "원격 API는 인터넷이 필요해요"
+ ]
+}

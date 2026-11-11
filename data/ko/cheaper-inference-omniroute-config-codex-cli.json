@@ -1,0 +1,19 @@
+{
+ "description": "OpenAI Codex CLI가 OmniRoute를 쓰도록 설정해 줘요.",
+ "summary": "운영체제와 셸을 확인한 뒤 config.toml과 이름 붙은 프로필 7개를 쓰고 환경 변수를 정해요. 마지막에 연결이 되는지 확인해요. 몇 시간씩 도는 작업을 위한 세션 고정과 유휴 시간 제한 설정도 안내해요.",
+ "when": [
+  "Codex CLI 백엔드 교체",
+  "새 컴퓨터 설정",
+  "OmniRoute 연결",
+  "장시간 작업 설정"
+ ],
+ "examples": [
+  "내 맥에서 Codex CLI가 OmniRoute를 쓰게 설정해줘",
+  "밤새 도는 Codex 작업이 끊기지 않게 설정해줘"
+ ],
+ "notes": [
+  "Linux, macOS, Windows에서 쓸 수 있어요",
+  "npm으로 omniroute를 설치해야 해요",
+  "원문은 영어예요"
+ ]
+}

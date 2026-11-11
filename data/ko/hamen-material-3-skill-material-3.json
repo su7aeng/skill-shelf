@@ -1,0 +1,19 @@
+{
+ "description": "Google의 Material Design 3 UI를 구현해요.",
+ "summary": "색 체계, 부품 서른 개 이상, 레이아웃, 테마, 접근성, M3 Expressive를 다뤄요. 주로 Jetpack Compose의 Material3를 기준으로 하고 Flutter와 제한적으로 웹도 지원해요. 새 안드로이드 작업은 Compose를 우선하라고 안내해요.",
+ "when": [
+  "Jetpack Compose 앱 UI",
+  "Material 3 테마 설정",
+  "적응형 레이아웃",
+  "Material 부품 사용"
+ ],
+ "examples": [
+  "Compose로 Material 3 테마 설정해 줘",
+  "md3 버튼과 카드 화면 만들어 줘",
+  "태블릿에서도 맞는 적응형 레이아웃으로 바꿔 줘"
+ ],
+ "notes": [
+  "웹용 @material/web은 유지보수 모드라고 밝혀요",
+  "원문이 영어예요"
+ ]
+}

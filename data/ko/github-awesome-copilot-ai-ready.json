@@ -1,0 +1,18 @@
+{
+ "description": "저장소를 AI가 다루기 좋게 준비하는 외부 스킬 설치를 안내해요.",
+ "summary": "코드베이스를 분석해 AGENTS.md, copilot-instructions.md, CI 워크플로, 이슈 템플릿 등을 만들어 주는 John Papa의 ai-ready 스킬을 설치하도록 안내하는 얇은 껍데기예요. 설치 명령은 사용자가 직접 실행해야 하고, 에이전트가 대신 실행하지 않아요.",
+ "when": [
+  "저장소 AI 설정 준비",
+  "AGENTS.md 만들기",
+  "AI 기여를 위한 저장소 정비"
+ ],
+ "examples": [
+  "이 저장소를 AI-ready로 만들어줘",
+  "AI 설정 파일을 준비하고 싶어"
+ ],
+ "notes": [
+  "Copilot CLI에서 /skills add johnpapa/ai-ready 를 직접 실행해야 해요",
+  "설치 전에 SKILL.md 내용을 직접 확인하라고 안내해요",
+  "설치 후 /skills reload 가 필요해요"
+ ]
+}

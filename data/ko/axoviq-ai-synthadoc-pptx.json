@@ -1,0 +1,17 @@
+{
+ "description": "PowerPoint(.pptx) 발표 자료에서 글을 뽑아내요.",
+ "summary": "python-pptx로 슬라이드를 읽어 슬라이드마다 제목 있는 구역으로 정리해요. 발표자 노트가 있으면 뒤에 붙여 줘요. 슬라이드 수도 함께 알려 줘요.",
+ "when": [
+  "발표 자료 내용 추출",
+  "슬라이드와 발표자 노트 읽기",
+  "pptx를 위키에 넣기"
+ ],
+ "examples": [
+  "이 발표 자료 pptx의 내용을 텍스트로 뽑아 줘",
+  "슬라이드별 제목과 노트를 정리해 줘"
+ ],
+ "notes": [
+  "python-pptx 설치가 필요해요(pip install python-pptx)",
+  "Synthadoc 프로젝트에 속한 스킬이에요"
+ ]
+}

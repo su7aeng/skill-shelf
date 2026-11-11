@@ -1,0 +1,18 @@
+{
+ "description": "RuView 센싱 데이터를 읽는 rvAgent와 RVF 연동을 탐색하고 시험해요.",
+ "summary": "플러그인을 설치하면 @ruvnet/rvagent가 MCP 서버로 등록돼 재실 상태, 호흡과 심박 같은 센싱 도구를 쓸 수 있어요. 에이전트 간 조정과 상태 저장 설계를 함께 살펴봐요.",
+ "when": [
+  "센싱 이벤트에 반응하는 에이전트",
+  "에이전트 간 협업 설계",
+  "에이전트 상태 저장",
+  "MCP 도구 확인"
+ ],
+ "examples": [
+  "주방 재실 감지에 반응하는 에이전트를 구상해줘",
+  "rvagent 도구로 현재 호흡 수치 가져와줘"
+ ],
+ "notes": [
+  "npx로 @ruvnet/rvagent를 실행해요",
+  "센싱 서버 주소는 RVAGENT_SENSING_URL 환경 변수로 바꾸고 기본값은 http://localhost:3000이에요"
+ ]
+}

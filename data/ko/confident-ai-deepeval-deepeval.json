@@ -1,0 +1,20 @@
+{
+ "description": "AI 에이전트와 LLM 앱의 평가 체계를 만들고 개선해요.",
+ "summary": "앱을 살펴본 뒤 평가 방식, 데이터셋, 추적 여부를 묻고 pytest 평가 묶음을 만들어요. 데이터가 없으면 deepeval generate로 만들고 deepeval test run으로 돌려, 실패를 보고 앱을 고치는 과정을 정해진 횟수(기본 5번) 반복해요.",
+ "when": [
+  "에이전트 평가 추가",
+  "RAG 품질 점검",
+  "평가 데이터셋 생성",
+  "평가 실패 기반 개선"
+ ],
+ "examples": [
+  "우리 챗봇에 DeepEval 평가 붙여줘",
+  "RAG 파이프라인 품질을 테스트하고 개선해줘",
+  "평가용 골든 데이터 만들어줘"
+ ],
+ "notes": [
+  "Python 3.9 이상과 pip install deepeval 이 필요해요",
+  "지표와 데이터 생성에는 모델 인증 정보가 필요해요",
+  "결과를 Confident AI로 보내려면 deepeval login 을 해야 해요"
+ ]
+}

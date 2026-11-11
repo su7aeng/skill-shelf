@@ -1,0 +1,19 @@
+{
+ "description": "문장이나 이미지로 소리가 함께 나오는 영상 클립을 만들어요.",
+ "summary": "텍스트, 이미지, 참고 자료로 영상을 만들고 소리도 함께 나와요. 쓸 수 있는 키가 있는 서비스를 자동으로 골라 쓰고 --platform 으로 직접 고를 수도 있어요. audio 명령은 배경음, 효과음, 환경음을 만들어요.",
+ "when": [
+  "영상 클립 생성",
+  "이미지로 영상 만들기",
+  "효과음과 배경음 생성",
+  "영상 소재 보충"
+ ],
+ "examples": [
+  "이 사진으로 5초짜리 영상 클립을 만들어줘",
+  "빗소리가 깔린 환경음을 만들어줘"
+ ],
+ "notes": [
+  "python3, ffmpeg, ffprobe가 필요하고 서비스별 API 키(MINIMAX_API_KEY, VOLC_SEEDANCE_API_KEY, MODELSTUDIO_API_KEY 등)가 필요해요",
+  "키가 하나도 없으면 pexels-footage나 pixabay-footage를 쓰라고 안내해요",
+  "원문은 중국어예요"
+ ]
+}

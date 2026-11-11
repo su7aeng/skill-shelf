@@ -1,0 +1,20 @@
+{
+ "description": "요청 체인 전체에 baggage 헤더가 전달되도록 코드를 고쳐요.",
+ "summary": "mirrord-session 키를 담은 W3C baggage 헤더가 모든 서비스의 외부 호출에 전달되게 해요. OpenTelemetry나 Datadog 같은 기존 추적이 있으면 그 기능을 켜고, 없으면 작은 전달 계층을 추가해요.",
+ "when": [
+  "HTTP 필터 라우팅",
+  "프리뷰 환경 연결",
+  "큐 분할 설정",
+  "여러 서비스에 걸친 헤더 전달"
+ ],
+ "examples": [
+  "우리 서비스가 baggage 헤더를 다음 호출로 넘기게 해줘",
+  "OpenTelemetry로 baggage 전달이 되는지 확인해줘",
+  "mirrord 큐 분할을 쓰려면 코드에 뭘 바꿔야 해?"
+ ],
+ "notes": [
+  "앱 코드와 의존성 파일만 바꾸고 인프라는 바꾸지 않아요",
+  "커밋, 푸시, PR은 요청받을 때만 해요",
+  "결제나 외부 SaaS 같은 외부 대상에는 baggage를 보내지 않도록 내부 주소만 허용해요"
+ ]
+}

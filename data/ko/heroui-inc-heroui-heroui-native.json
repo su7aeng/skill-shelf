@@ -1,0 +1,19 @@
+{
+ "description": "React Native 앱에서 HeroUI Native로 화면을 만들게 도와줘요.",
+ "summary": "Uniwind(React Native용 Tailwind) 기반의 heroui-native 컴포넌트로 버튼, 카드, 입력창, 대화상자 등을 만들어요. 설치와 다크/라이트 테마 설정을 안내하고, 구현 전에 컴포넌트 문서를 스크립트로 가져와요.",
+ "when": [
+  "모바일 앱 UI 제작",
+  "heroui-native 설치",
+  "다크 모드 설정",
+  "컴포넌트 문서 확인"
+ ],
+ "examples": [
+  "HeroUI Native로 로그인 화면 만들어줘",
+  "앱에 다크 테마 설정해줘"
+ ],
+ "notes": [
+  "웹용 HeroUI React와 패키지, 스타일, 색 형식이 달라서 섞어 쓰면 안 돼요",
+  "색은 HSL 형식을 써요",
+  "iOS와 Android용이에요"
+ ]
+}

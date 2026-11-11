@@ -1,0 +1,18 @@
+{
+ "description": "APK 전체나 클래스, 메서드 하나를 자바로 디컴파일해요.",
+ "summary": "Androguard의 디컴파일러로 패키지를 폴더로 풀어내거나 특정 클래스나 메서드만 자바 코드로 뽑아요. 패키지 필터를 써서 AndroidX 같은 불필요한 코드까지 쏟아내지 않도록 권해요.",
+ "when": [
+  "APK 소스 보기",
+  "특정 클래스 확인",
+  "메서드 하나 분석",
+  "패키지만 골라 추출"
+ ],
+ "examples": [
+  "이 APK를 com.example.app 패키지만 디컴파일해줘",
+  "MainActivity의 onCreate 코드를 보여줘"
+ ],
+ "notes": [
+  "디컴파일러가 없으면 pip install -e '.[decompile]'로 설치해요",
+  "디컴파일 결과의 자바 코드는 품질이 완벽하지 않을 수 있어요"
+ ]
+}

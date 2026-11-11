@@ -1,0 +1,19 @@
+{
+ "description": "Solid Table v9를 Devtools에 연결해요.",
+ "summary": "useTanStackTableDevtools로 Solid의 table 인스턴스를 Devtools에 등록하는 방법을 알려줘요. 모듈 최상위가 아니라 표를 소유한 컴포넌트의 반응형 오너 안에서 호출해야 해요. 표마다 고유한 key를 주고 enabled로 조건부 등록해요.",
+ "when": [
+  "Solid 표 디버깅",
+  "Devtools 연결",
+  "표 등록 정리",
+  "개발 모드 확인"
+ ],
+ "examples": [
+  "Solid 표를 Devtools에 등록해줘",
+  "Devtools에서 내 표가 안 보여요"
+ ],
+ "notes": [
+  "@tanstack/solid-table-devtools 패키지가 필요해요",
+  "등록 해제는 Solid의 반응형 정리에 맡겨요",
+  "기본 진입점은 운영 빌드에서 아무 동작도 하지 않아요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "공개 라이브러리에 올라온 CLI를 내 내부 라이브러리로 가져와요.",
+ "summary": "mvanhorn/printing-press-library에 게시된 CLI를 $PRESS_LIBRARY 폴더로 가져와, 새로 생성한 것과 같은 형태로 맞춰요. 모듈 경로를 되돌리고 manuscripts를 함께 두어 바로 polish나 emboss를 이어서 할 수 있어요.",
+ "when": [
+  "공개 라이브러리 CLI를 로컬로 가져올 때",
+  "내부 사본이 깨지거나 사라졌을 때",
+  "게시된 CLI를 깨끗한 상태에서 다듬기 시작할 때"
+ ],
+ "examples": [
+  "notion CLI를 공개 라이브러리에서 내 라이브러리로 가져와줘",
+  "로컬에 없는 cal.com CLI를 가져온 다음 polish할 수 있게 준비해줘"
+ ],
+ "notes": [
+  "Go 도구가 설치돼 있어야 해요",
+  "명령은 /printing-press-import <이름> 형태이고, --from-clone으로 로컬 클론을 쓸 수 있어요"
+ ]
+}

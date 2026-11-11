@@ -1,0 +1,19 @@
+{
+ "description": "운영 중 크래시 묶음을 모아 우선순위를 매겨요.",
+ "summary": "Sentry나 App Store Connect에서 그룹별로 집계된 크래시와 행 이슈를 가져와 xcsym triage로 하나씩 분류하고, 순위가 매겨진 보고서를 만들어요. 노이즈로 보이는 이슈도 숨기지 않고 별도 구역에 이유와 함께 적어요.",
+ "when": [
+  "운영 크래시 목록 분류",
+  "Sentry·App Store Connect 이슈 정리",
+  "크래시 우선순위 정하기"
+ ],
+ "examples": [
+  "Sentry 크래시 이슈들 우선순위 정리해줘",
+  "App Store Connect 크래시 목록을 분류해줘",
+  "이번 주 운영 크래시 중 진짜 버그만 추려줘"
+ ],
+ "notes": [
+  "Sentry 토큰 등 접근 정보와 xcsym이 필요해요",
+  "크래시 파일 하나만 분석할 땐 analyze-crash를 써요",
+  "원문이 영어예요"
+ ]
+}

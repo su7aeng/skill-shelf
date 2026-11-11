@@ -1,0 +1,20 @@
+{
+ "description": "글 내용을 Excalidraw 다이어그램 파일로 만들어 줘요.",
+ "summary": "글에서 개념과 관계를 파악해 다이어그램 종류를 고르고 Excalidraw JSON을 만들어요. 요청 단어에 따라 Obsidian용 .md, excalidraw.com용 .excalidraw, 애니메이션 순서가 들어간 .excalidraw 중 하나로 저장해요. 저장 후 파일 경로와 사용법을 알려요.",
+ "when": [
+  "개념도 만들기",
+  "흐름도 그리기",
+  "마인드맵 만들기",
+  "애니메이션 다이어그램"
+ ],
+ "examples": [
+  "이 글 내용을 Excalidraw 다이어그램으로 만들어줘",
+  "standard excalidraw로 흐름도를 만들어줘",
+  "애니메이션이 되는 Excalidraw로 만들어줘"
+ ],
+ "notes": [
+  "Obsidian 모드에서는 정해진 틀을 그대로 지켜 출력해요",
+  "애니메이션은 excalidraw-animate에 파일을 올려서 만들어요",
+  "원문에 중국어 표현이 섞여 있어요"
+ ]
+}

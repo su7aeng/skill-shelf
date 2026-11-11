@@ -1,0 +1,19 @@
+{
+ "description": "MLX-VLM 서버 추론을 실행하고 요청 오류를 살펴봐요.",
+ "summary": "uv run mlx_vlm.server로 서버를 띄우고 health, 모델 목록, 채팅과 Responses 요청을 단계별로 확인해요. 시작 실패와 요청 처리 실패, 스트리밍과 비스트리밍을 나눠서 살펴요.",
+ "when": [
+  "서버 실행",
+  "API 요청 오류 디버깅",
+  "스트리밍 확인",
+  "OpenAI 호환 클라이언트 연결"
+ ],
+ "examples": [
+  "MLX-VLM 서버를 띄우고 채팅 요청 테스트해 줘",
+  "스트리밍 응답이 끊기는 이유를 찾아줘"
+ ],
+ "notes": [
+  "OpenAI 호환 API 외에 Anthropic Messages, 오디오, 이미지 엔드포인트도 있어요",
+  "먼저 health와 모델 목록부터 확인해요",
+  "어댑터와 trust-remote-code 옵션을 쓸 수 있어요"
+ ]
+}

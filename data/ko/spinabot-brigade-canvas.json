@@ -1,0 +1,18 @@
+{
+ "description": "연결된 화면에 HTML 콘텐츠를 띄워 보여 줘요.",
+ "summary": "Brigade 노드(Mac, iOS, Android)의 캔버스에 게임, 시각화, 대시보드, 생성한 HTML을 보여 줘요. present, hide, navigate, eval, snapshot 동작이 있고 접속 주소는 gateway 바인딩 설정에 따라 달라져요.",
+ "when": [
+  "생성한 HTML 화면에 띄우기",
+  "대시보드 보여주기",
+  "인터랙티브 데모 시연",
+  "캔버스 화면 캡처"
+ ],
+ "examples": [
+  "만든 대시보드를 연결된 화면에 띄워줘",
+  "캔버스 화면을 스크린샷으로 찍어줘"
+ ],
+ "notes": [
+  "canvas host 설정과 연결된 노드가 필요해요",
+  "노드가 받는 주소가 localhost가 아닐 수 있어 바인딩 모드를 확인해야 해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "Claude Code 사용량과 세션을 보는 ccboard 대시보드를 실행해요.",
+ "summary": "ccboard는 토큰 사용량, 비용, 세션, MCP 서버 상태, 설정, 훅, 에이전트, 기록 검색을 터미널 화면과 웹 화면으로 보여줘요. /dashboard, /costs, /sessions 같은 명령으로 해당 탭을 열어요.",
+ "when": [
+  "토큰 사용량 확인",
+  "비용 추적",
+  "세션 둘러보기",
+  "MCP 서버 상태 확인"
+ ],
+ "examples": [
+  "ccboard 실행해서 이번 달 비용 보여줘",
+  "MCP 서버 상태 탭 열어줘"
+ ],
+ "notes": [
+  "cargo install ccboard로 설치하고 Rust 1.70 이상이 필요해요",
+  "~/.claude/ 폴더의 데이터를 읽어요",
+  "웹 화면은 ccboard web으로 열어요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": ".NET 코드를 트리밍과 Native AOT에 맞게 고쳐요.",
+ "summary": "IsTrimmable, IsAotCompatible, PublishTrimmed, PublishAot 속성과 RequiresUnreferencedCode, DynamicallyAccessedMembers 같은 특성을 설명해요. IL2xxx, IL3xxx 경고를 해결하는 방법과 소스 생성기, UnsafeAccessor, 기능 스위치 같은 패턴을 모았어요. 리플렉션 중심 코드를 컴파일 시점 방식으로 바꿀 때 써요.",
+ "when": [
+  "트리밍이나 AOT 지원 추가",
+  "IL2xxx, IL3xxx 경고 해결",
+  "리플렉션 코드 정리",
+  "PR 의 AOT 호환 검토"
+ ],
+ "examples": [
+  "우리 라이브러리를 Native AOT 에서 돌게 만들어줘",
+  "IL2026 경고를 어떻게 고쳐야 하는지 알려줘",
+  "리플렉션으로 어셈블리를 훑는 부분을 소스 생성기로 바꿔줘"
+ ],
+ "notes": [
+  "C# 과 .NET 개발자용이고 원문은 영어예요",
+  "System.Text.Json 의 AOT 는 serialization 스킬을 함께 봐요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "PuerTS의 Unity와 Unreal 변경 기록을 작성해요.",
+ "summary": "이전 버전 태그와 새 버전 사이의 git 커밋을 확인해서 해당 플랫폼 폴더의 변경 사항만 골라요. 사용자에게 미치는 영향을 기준으로 중국어판과 영어판 changelog를 함께 써서 파일 맨 앞에 넣어요.",
+ "when": [
+  "새 버전 배포 전",
+  "changelog 작성",
+  "두 태그 사이 변경 요약"
+ ],
+ "examples": [
+  "Unity 3.0.2 changelog를 써줘",
+  "Unreal 새 버전 변경 기록을 중영 두 버전으로 작성해줘"
+ ],
+ "notes": [
+  "PuerTS 저장소 안에서 쓰는 스킬이에요.",
+  "Unity는 Unity_v 버전, Unreal은 Unreal_v 버전 형식의 태그를 써요.",
+  "원문은 중국어예요."
+ ]
+}

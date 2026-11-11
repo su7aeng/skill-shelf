@@ -1,0 +1,20 @@
+{
+ "description": "Voyager 확장용 로컬 플러그인(JSON과 CSS)을 쓰고 검사해요.",
+ "summary": "Gemini, AI Studio, ChatGPT, Claude, DeepSeek, Kimi 중 대상 사이트 문서를 읽고 plugin.json과 style.css를 작성해요. create-voyager-plugin 도구로 가져오기 검사를 통과할 때까지 고친 뒤, Voyager 팝업의 Local plugins에서 가져오는 방법을 안내해요. 플러그인은 자체 코드를 실행하지 않고 되돌릴 수 있는 변경만 해요.",
+ "when": [
+  "채팅 화면 모양 바꾸기",
+  "복사 버튼 같은 작은 기능 추가",
+  "플러그인 가져오기 오류 수정",
+  "레이아웃 재배치"
+ ],
+ "examples": [
+  "Claude 채팅 화면의 글꼴과 여백을 바꾸는 Voyager 플러그인 만들어줘",
+  "ChatGPT에 글자 수 표시 기능 추가하는 플러그인 써줘",
+  "가져오기에 실패하는 내 플러그인 고쳐줘"
+ ],
+ "notes": [
+  "검사에 Node와 npx가 필요하고, 없으면 파일 두 개를 직접 써요",
+  "Voyager 플러그인 엔진 1.11.0 기준으로 만들어진 스킬이에요",
+  "원문은 영어예요"
+ ]
+}

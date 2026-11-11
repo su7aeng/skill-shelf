@@ -1,0 +1,19 @@
+{
+ "description": "AlphaFold2로 단백질 단량체와 복합체의 구조를 예측해 줘요.",
+ "summary": "ColabFold의 colabfold_batch로 AlphaFold2와 AlphaFold2-Multimer를 돌려요. FASTA를 넣으면 공개 MMseqs2 서버로 MSA를 만들고 5개 모델을 돌려 pLDDT 같은 점수로 순위를 매겨요. 설계한 서열을 점수와 RMSD로 검증하는 데에도 써요.",
+ "when": [
+  "단백질 구조 예측",
+  "복합체 모델링",
+  "설계 서열 검증",
+  "빠른 MSA 기반 예측"
+ ],
+ "examples": [
+  "이 서열의 구조를 AlphaFold2로 예측해줘",
+  "이 두 체인 복합체를 멀티머 모델로 돌려줘"
+ ],
+ "notes": [
+  "GPU가 필요해요",
+  "서열이 api.colabfold.com 공개 서버로 전송돼요",
+  "리간드나 핵산은 다루지 못해서 boltz, chai1, openfold3 같은 스킬을 써야 해요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Java에서 Azure AI Anomaly Detector로 이상 탐지 앱을 만들어요.",
+ "summary": "azure-ai-anomalydetector SDK로 변수 하나를 보는 단변량 탐지와 여러 신호를 함께 보는 다변량 탐지를 구현하는 방법을 안내해요. 클라이언트 생성과 키 또는 DefaultAzureCredential 인증 예제를 포함해요.",
+ "when": [
+  "시계열 이상 탐지",
+  "서버 모니터링",
+  "다변량 신호 분석",
+  "Java 앱 개발"
+ ],
+ "examples": [
+  "Java로 시계열 이상 탐지 코드 짜줘",
+  "여러 센서 값을 함께 보는 다변량 탐지 예제 보여줘",
+  "Anomaly Detector 클라이언트 설정해줘"
+ ],
+ "notes": [
+  "Maven 의존성 azure-ai-anomalydetector 를 추가해요",
+  "엔드포인트와 API 키 환경 변수가 필요해요",
+  "원문 버전은 3.0.0-beta.6 이에요"
+ ]
+}

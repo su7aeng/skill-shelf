@@ -1,0 +1,18 @@
+{
+ "description": "Discord와 연결된 OpenClaw 에이전트에게 말을 걸어요.",
+ "summary": "OpenClaw relay 스킬의 스크립트로 Discord 쪽 에이전트 세션에 질문하거나 글을 올려요. 먼저 대상을 확인하고, 비공개 질문부터 시도한 뒤 어떤 대상과 방식으로 보냈는지 알려줘요.",
+ "when": [
+  "Discord 쪽 에이전트에 질문",
+  "에이전트 세션 통해 글 올리기",
+  "대상 별칭 확인"
+ ],
+ "examples": [
+  "maintainers 쪽 에이전트에게 이 내용 물어봐줘",
+  "Discord 에이전트가 올릴지 판단하게 이 글을 넘겨줘"
+ ],
+ "notes": [
+  "Discord 기록 검색에는 쓰지 않고 discrawl을 써요",
+  "OpenClaw relay 스킬이 설치돼 있어야 해요",
+  "게이트웨이 토큰 같은 비밀값은 밝히지 않아요"
+ ]
+}

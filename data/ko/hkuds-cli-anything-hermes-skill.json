@@ -1,0 +1,20 @@
+{
+ "description": "GUI 앱용 CLI-Anything 명령줄 도구를 Hermes로 만들어요.",
+ "summary": "소프트웨어 폴더나 GitHub 주소를 받아 그 앱을 명령줄로 다루는 Python 도구 모음을 만들고 다듬고 테스트하고 검증해요. Hermes Agent의 도구를 이용해 Click 기반 CLI, 실제 앱을 감싸는 백엔드, 단위 테스트와 전체 흐름 테스트를 갖춘 구조를 만들어요.",
+ "when": [
+  "GUI 앱용 CLI 새로 만들기",
+  "기존 CLI 기능 보강",
+  "CLI 테스트 계획과 작성",
+  "CLI 구조 검증"
+ ],
+ "examples": [
+  "내 GIMP 소스 폴더로 CLI-Anything 도구를 만들어줘",
+  "이미 있는 하네스에서 빠진 기능을 찾아 채워줘",
+  "만든 CLI가 규칙에 맞는지 검증해줘"
+ ],
+ "notes": [
+  "Hermes Agent 환경에서 쓰는 스킬이에요",
+  "가능하면 CLI-Anything 저장소의 HARNESS.md를 먼저 읽고, 못 구하면 요약된 규칙을 따라요",
+  "원문은 영어예요"
+ ]
+}

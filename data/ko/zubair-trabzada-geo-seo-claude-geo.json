@@ -1,0 +1,19 @@
+{
+ "description": "AI 검색 노출을 중심으로 웹사이트를 분석하는 GEO 도구 모음이에요.",
+ "summary": "ChatGPT, Perplexity, Google AI Overviews 같은 AI 검색에 잘 인용되도록 사이트를 분석해요. /geo audit, page, crawlers, llmstxt, brands, schema, report 같은 하위 명령으로 감사, 크롤러 점검, 보고서 작성까지 나눠 실행해요.",
+ "when": [
+  "AI 검색 노출 진단",
+  "사이트 종합 감사",
+  "AI 크롤러 접근 점검",
+  "고객용 보고서 작성"
+ ],
+ "examples": [
+  "/geo audit https://example.com 실행해줘",
+  "이 사이트가 AI 검색에 잘 보이는지 빠르게 점검해줘"
+ ],
+ "notes": [
+  "원문이 영어이고 명령은 /geo로 시작해요",
+  "사이트 주소를 인자로 넣어 실행해요",
+  "prospect, proposal 같은 영업용 명령도 포함돼 있어요"
+ ]
+}

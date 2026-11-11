@@ -1,0 +1,17 @@
+{
+ "description": "웹 주소의 페이지 본문을 가져와 텍스트로 바꿔요.",
+ "summary": "httpx로 주소를 열고 BeautifulSoup으로 메뉴, 스크립트, 스타일을 걷어낸 본문 글을 돌려줘요. PDF 주소는 pypdf와 pdfminer.six로 읽어요.",
+ "when": [
+  "웹 페이지 내용 가져오기",
+  "기사 본문 추출",
+  "웹 자료를 위키에 넣기"
+ ],
+ "examples": [
+  "이 기사 주소의 본문을 텍스트로 가져와 줘",
+  "이 웹사이트 내용을 요약용으로 읽어 줘"
+ ],
+ "notes": [
+  "httpx와 beautifulsoup4 설치가 필요해요. PDF 주소는 pypdf와 pdfminer.six도 필요해요",
+  "사이트가 401, 403, 429를 주면 차단된 도메인으로 처리해요"
+ ]
+}

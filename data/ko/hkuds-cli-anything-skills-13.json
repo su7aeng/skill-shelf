@@ -1,0 +1,18 @@
+{
+ "description": "명령줄로 ComfyUI 이미지 생성 작업을 관리해요.",
+ "summary": "ComfyUI REST API를 통해 워크플로 실행 대기열 넣기, 대기열 상태 확인, 모델 목록 조회, 생성 이미지 내려받기를 화면 없이 처리해요. --json 옵션으로 에이전트가 읽기 좋은 출력을 받을 수 있어요.",
+ "when": [
+  "워크플로 대기열 실행",
+  "생성 대기열 확인",
+  "모델 목록 조회",
+  "생성 이미지 받기"
+ ],
+ "examples": [
+  "ComfyUI에 이 워크플로를 실행시켜줘",
+  "지금 대기열 상태와 설치된 체크포인트를 보여줘"
+ ],
+ "notes": [
+  "pip install cli-anything-comfyui로 설치하고 Python 3.10 이상이 필요해요",
+  "ComfyUI가 http://localhost:8188 에서 실행 중이어야 해요"
+ ]
+}

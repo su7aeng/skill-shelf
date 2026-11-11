@@ -1,0 +1,18 @@
+{
+ "description": "Solidity 프로젝트용 퍼징 테스트 묶음을 자동으로 만들어요.",
+ "summary": "Foundry나 Hardhat 프로젝트를 읽고 Echidna와 Medusa에서 돌릴 수 있는 상태 기반 퍼즈 테스트를 만들어요. 단계를 순서대로 진행하고 막히면 멈춰서 이유를 알려요. 결과는 test/fizz 폴더와 fizz_data 폴더에 나와요.",
+ "when": [
+  "스마트 컨트랙트 퍼징",
+  "불변식 테스트 생성",
+  "퍼즈 하니스 만들기"
+ ],
+ "examples": [
+  "이 Foundry 프로젝트에 fizz로 퍼즈 테스트 만들어줘",
+  "상태 기반 퍼징 하니스 생성해줘"
+ ],
+ "notes": [
+  "Echidna, Medusa, Foundry가 설치돼 있어야 해요",
+  "--guided 와 --automatic 으로 진행 방식을 고르고 --max 로 더 높은 모델을 써요",
+  "생성 경로는 요청하지 않으면 바꾸지 않아요"
+ ]
+}

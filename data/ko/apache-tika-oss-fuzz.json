@@ -1,0 +1,20 @@
+{
+ "description": "Tika의 OSS-Fuzz 퍼저를 로컬에서 돌려 버그를 찾아요.",
+ "summary": "작업 중인 소스로 이미지를 만들고 퍼저를 빌드해서 특정 파서를 퍼징해요. 파일 모음을 회귀 검사로 돌리거나 OSS-Fuzz가 찾은 크래시를 재현하고, 시드 파일을 추가하는 일도 다뤄요. 병합 전에 내 브랜치를 점검하는 데 써요.",
+ "when": [
+  "파서 퍼징",
+  "OSS-Fuzz 크래시 재현",
+  "병합 전 브랜치 점검",
+  "퍼저 시드 추가"
+ ],
+ "examples": [
+  "OneNote 파서를 퍼징해줘",
+  "OneNoteParserFuzzer를 이 파일들로 돌려줘",
+  "OSS-Fuzz에서 보고된 크래시를 로컬에서 재현해줘"
+ ],
+ "notes": [
+  "Docker와 Tika 소스 저장소가 필요해요",
+  "프로젝트 이름은 tika가 아니라 apache-tika예요",
+  "Docker 없이 쓰는 방법은 tika-fuzzing 모듈을 봐요"
+ ]
+}

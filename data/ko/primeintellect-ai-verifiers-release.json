@@ -1,0 +1,17 @@
+{
+ "description": "verifiers 안정 버전을 main에서 PyPI와 GitHub로 배포해요.",
+ "summary": "깨끗한 main에서 시작해 버전 태그를 달고 publish.yml 워크플로를 실행한 뒤, 릴리스 노트를 갱신하고 PyPI와 GitHub Release를 확인해요. 사용자가 다른 버전을 정하지 않으면 다음 minor 버전으로 올려요. 사용자가 허락한 단계만 실행해요.",
+ "when": [
+  "새 버전 릴리스",
+  "PyPI 배포",
+  "GitHub Release 노트 작성"
+ ],
+ "examples": [
+  "verifiers 다음 버전 릴리스해줘",
+  "v0.2.0으로 배포하고 릴리스 노트까지 써줘"
+ ],
+ "notes": [
+  "gh와 git, uv가 쓰이고 저장소 배포 권한이 필요해요",
+  "의존성에 dev나 베타 버전이 있으면 먼저 PR로 정리해야 해요"
+ ]
+}

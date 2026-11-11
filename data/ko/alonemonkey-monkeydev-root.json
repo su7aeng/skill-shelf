@@ -1,0 +1,19 @@
+{
+ "description": "MonkeyDev로 iOS 앱 플러그인 개발과 설치, 디버깅을 해요.",
+ "summary": "Apple Silicon Mac의 Xcode에서 MonkeyApp, MonkeyPod, 탈옥용 Tweak, 명령줄 도구 프로젝트를 만들어요. dylib 작성, 서명과 패키징, USB나 SSH 설치, LLDB 디버깅, 헤더 내보내기, 뷰 검사까지 다뤄요.",
+ "when": [
+  "iOS 앱 플러그인 개발",
+  "재서명과 실기기 설치",
+  "탈옥 기기 Tweak 작성",
+  "LLDB 디버깅과 뷰 검사"
+ ],
+ "examples": [
+  "MonkeyDev로 MonkeyApp 프로젝트를 만들고 실기기에 설치해줘",
+  "탈옥 기기에 Logos Tweak을 만들어 설치해줘"
+ ],
+ "notes": [
+  "원문이 중국어이고 Apple Silicon Mac와 Xcode가 필요해요",
+  "MonkeyApp은 복호화된 arm64 IPA나 앱이 필요하고 시뮬레이터는 지원하지 않아요",
+  "iOS 15 이상 arm64 실기기가 기준이에요"
+ ]
+}

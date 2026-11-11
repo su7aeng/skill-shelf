@@ -1,0 +1,18 @@
+{
+ "description": "Excalidraw 캔버스에 다이어그램을 그리고 다듬어요.",
+ "summary": "MCP 도구, CLI(npx -y mcp-excalidraw-server), REST API 중 쓸 수 있는 것으로 실시간 캔버스를 조작해요. 요소 만들기와 수정, 정렬, 스크린샷으로 확인하며 고치기, 파일과 이미지 내보내기, Mermaid 변환을 해요.",
+ "when": [
+  "다이어그램 그리기",
+  "그림 반복해서 다듬기",
+  "Excalidraw 파일 내보내기",
+  "Mermaid 변환"
+ ],
+ "examples": [
+  "Excalidraw로 서비스 구조도 그려줘",
+  "이 Mermaid를 Excalidraw로 바꿔서 PNG로 내보내줘"
+ ],
+ "notes": [
+  "Node.js의 npx가 필요해요",
+  "처음 실행하면 패키지를 내려받고 캔버스 서버가 http://127.0.0.1:3000 에서 자동으로 켜져요"
+ ]
+}

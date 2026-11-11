@@ -1,0 +1,18 @@
+{
+ "description": "LangBot 본체의 백엔드와 웹 프런트를 개발하고 디버깅해요.",
+ "summary": "백엔드는 Python과 Quart, uv를 쓰고 프런트는 Vite, React Router 7, shadcn/ui, Tailwind를 pnpm으로 관리하는 구조를 설명하고 빌드와 디버그 방법을 안내해요. 백엔드는 5300, 개발 서버는 3000 포트를 써요.",
+ "when": [
+  "LangBot 백엔드 수정",
+  "웹 UI 개발",
+  "빌드 오류 해결"
+ ],
+ "examples": [
+  "LangBot 프런트 개발 서버 띄워줘",
+  "백엔드 API 하나 추가해줘"
+ ],
+ "notes": [
+  "Python 3.11 이상 4 미만이 필요해요",
+  "플러그인과 배포는 별도 스킬이 있어요",
+  "프런트는 Next.js가 아니에요"
+ ]
+}

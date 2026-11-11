@@ -1,0 +1,18 @@
+{
+ "description": "azldev 오버레이의 metadata 표에 범주와 상태를 적는 방법을 안내해요.",
+ "summary": "오버레이마다 이유(description)를 적고, metadata를 넣을 때는 category와 upstream-status를 함께 골라야 해요. 하나의 논리적 변경은 오버레이 파일 하나와 [metadata] 하나로 묶고, 출처 정보도 붙여요.",
+ "when": [
+  "새 오버레이 작성",
+  "오버레이 검토",
+  "CVE 백포트 기록",
+  "변경 이유 문서화"
+ ],
+ "examples": [
+  "이 오버레이에 맞는 metadata 달아줘",
+  "같은 변경을 하나의 오버레이 파일로 묶어줘"
+ ],
+ "notes": [
+  "metadata는 문서용이라 렌더 결과와 빌드 캐시에 영향이 없어요",
+  "파일 단위 오버레이 안에 개별 metadata를 넣으면 거부돼요"
+ ]
+}

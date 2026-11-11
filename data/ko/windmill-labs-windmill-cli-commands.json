@@ -1,0 +1,20 @@
+{
+ "description": "Windmill CLI(wmill) 명령을 쓰고 작업 실패를 살펴봐요.",
+ "summary": "wmill 명령어로 스크립트, 플로우, 앱 같은 Windmill 자원을 다루는 방법을 정리한 스킬이에요. 전역 옵션과 app 등 하위 명령의 사용법을 알려주고, wmill job으로 실패한 작업과 실행 기록을 확인하는 데에도 써요.",
+ "when": [
+  "Windmill CLI 사용",
+  "작업 실패 원인 확인",
+  "실행 기록 조회",
+  "앱과 플로우 올리기"
+ ],
+ "examples": [
+  "wmill로 앱 목록 보여줘",
+  "실패한 job 원인을 찾아줘",
+  "로컬 앱을 Windmill에 push해줘"
+ ],
+ "notes": [
+  "wmill CLI가 설치돼 있어야 해요",
+  "--token, --base-url 같은 옵션은 인증 정보를 직접 넘길 때 써요",
+  "--show-diffs는 민감한 정보를 보여줄 수 있어요"
+ ]
+}

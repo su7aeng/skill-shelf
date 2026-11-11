@@ -1,0 +1,19 @@
+{
+ "description": "PinchTab 에이전트가 브라우저 작업을 얼마나 적게 하는지 반복 측정해요.",
+ "summary": "Docker에서 서브에이전트 3개가 108단계를 수행하게 해 브라우저 조작 횟수를 기준선과 비교해요. chrome, cloak, ghost-chrome 중 하나 또는 전부를 고를 수 있고, setup 인자를 주면 작은 모델 하나로 처음 설치부터 동작까지 문서만으로 되는지 확인해요.",
+ "when": [
+  "에이전트 성능 측정",
+  "최적화 반복 실행",
+  "신규 설치 흐름 점검",
+  "브라우저 종류별 비교"
+ ],
+ "examples": [
+  "/pinchtab-opt cloak 돌려줘",
+  "/pinchtab-opt setup all 로 설치 문서를 점검해줘"
+ ],
+ "notes": [
+  "PinchTab 저장소에서 쓰는 개발자용 스킬이에요",
+  "최적화 모드는 Docker가 필요하고 setup 모드는 설치된 바이너리를 써요",
+  "모델 등급은 LOW와 HIGH로 나뉘며 기준 수치는 Claude Haiku 4.5 기준이에요"
+ ]
+}

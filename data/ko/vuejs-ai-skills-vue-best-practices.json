@@ -1,0 +1,20 @@
+{
+ "description": "Vue 3 작업을 Composition API와 TypeScript 기준으로 진행해요.",
+ "summary": "Vue 작업 전에 구조를 확인하고, 반응성, SFC, 컴포넌트 데이터 흐름, 컴포저블 참고 문서를 읽고 적용해요. 기본은 script setup과 TypeScript이고, 복잡한 기능은 컴포넌트의 책임과 경계를 먼저 그려요. 프로젝트가 Options API나 JSX를 쓰면 그쪽 스킬을 불러와요.",
+ "when": [
+  "Vue 컴포넌트 작성",
+  "vue 파일 수정",
+  "Vue Router와 Pinia 작업",
+  "구조 리팩터링"
+ ],
+ "examples": [
+  "Vue 3로 할 일 목록 컴포넌트 만들어줘",
+  "이 vue 파일을 script setup과 TypeScript로 정리해줘",
+  "큰 페이지 컴포넌트를 책임별로 나눠줘"
+ ],
+ "notes": [
+  "프로젝트가 명시적으로 요구하지 않으면 Composition API를 써요",
+  "Options API는 vue-options-api-best-practices, JSX는 vue-jsx-best-practices 스킬을 써요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": ".NET Aspire로 Akka.NET을 설정하는 방법을 안내해요.",
+ "summary": "액터 시스템, 클러스터링, Akka.Persistence 와 SQL Server, Akka.Management 연동, Aspire 오케스트레이션을 로컬 개발과 운영 배포 기준으로 다뤄요. 설정은 Microsoft.Extensions.Configuration 으로 묶고 Akka.Hosting 으로 DI 에 연결해요. 복제본이 여럿인 로컬 개발과 Kubernetes 배포도 포함해요.",
+ "when": [
+  "Aspire 로 새 Akka.NET 프로젝트 시작",
+  "클러스터 부트스트랩 설정",
+  "SQL Server 영속성 연동",
+  "Kubernetes 배포"
+ ],
+ "examples": [
+  "Aspire 와 Akka.NET 클러스터를 로컬에서 띄우게 설정해줘",
+  "Akka.Persistence 를 SQL Server 에 연결해줘",
+  "Aspire 로 Kubernetes 에 배포하는 구성 알려줘"
+ ],
+ "notes": [
+  "C# 과 .NET 개발자용이고 원문은 영어예요",
+  "직접 호출하지 않고 에이전트가 필요할 때 불러 쓰는 스킬이에요",
+  "akka-net-management 같은 관련 스킬과 함께 써요"
+ ]
+}

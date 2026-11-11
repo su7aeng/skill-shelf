@@ -1,0 +1,18 @@
+{
+ "description": "파일을 통째로 읽지 않고 코드 구조를 찾아봐요.",
+ "summary": "tree-sitter로 코드를 분석해 먼저 함수와 클래스의 지도를 보고 필요한 부분만 펼쳐 봐요. smart_search로 찾고, smart_outline으로 파일 구조를 보고, smart_unfold로 특정 코드를 읽는 세 단계예요. 토큰을 아끼는 게 목적이에요.",
+ "when": [
+  "코드 구조 파악",
+  "함수 위치 찾기",
+  "큰 코드베이스 탐색",
+  "토큰 절약"
+ ],
+ "examples": [
+  "shutdown 처리하는 코드가 어디 있는지 찾아줘",
+  "이 파일의 구조만 먼저 보여줘"
+ ],
+ "notes": [
+  "claude-mem의 MCP 도구인 smart_search, smart_outline, smart_unfold가 필요해요",
+  "켜져 있는 동안은 Read, Grep, Glob보다 이 도구를 먼저 써요"
+ ]
+}

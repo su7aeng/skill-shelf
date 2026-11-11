@@ -1,0 +1,19 @@
+{
+ "description": "Awada 계정과 상담 담당 연결을 설정하고 점검해요.",
+ "summary": "Awada 채널을 쓰기로 정한 뒤 계정, crew 연결, CustomerDB hook을 설정해요. 미리보기로 확인한 뒤 적용하고, 기존 설정은 보존하며 스크립트로 합쳐요.",
+ "when": [
+  "Awada 채널 설정",
+  "crew 연결",
+  "설정 오류 복구",
+  "메시지 권한 점검"
+ ],
+ "examples": [
+  "Awada 계정을 sales-cs crew에 연결해줘",
+  "Awada 설정을 미리보기로 확인해줘"
+ ],
+ "notes": [
+  "awadaKey가 필요하고 명령 인자나 로그에 적지 않아요",
+  "OpenClaw 2026.10.4가 필요해요",
+  "원문은 중국어예요"
+ ]
+}

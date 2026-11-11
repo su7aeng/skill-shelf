@@ -1,0 +1,17 @@
+{
+ "description": "code-forge용 새 에이전트 파일을 만들어요.",
+ "summary": "에이전트를 <cwd>/.forge/agents 폴더에 {id}.md 파일로 만들어요. 머리말에 id, title, description, reasoning, tools, user_prompt를 쓰고 본문에는 정체성, 원칙, 방법, 한계를 적어요.",
+ "when": [
+  "새 에이전트 추가",
+  "기존 에이전트 수정",
+  "에이전트 파일 구조 이해"
+ ],
+ "examples": [
+  "코드 리뷰 전용 에이전트를 만들어줘",
+  "forge 에이전트 파일 구조를 설명해줘"
+ ],
+ "notes": [
+  "code-forge 프로젝트에서 쓰는 스킬이에요",
+  "파일은 반드시 .forge/agents 폴더에 있어야 인식돼요"
+ ]
+}

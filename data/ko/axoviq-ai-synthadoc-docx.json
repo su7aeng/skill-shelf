@@ -1,0 +1,18 @@
+{
+ "description": "Word 문서(.docx)에서 글을 뽑아내요.",
+ "summary": "python-docx로 .docx 파일의 문단 글을 읽어 하나의 일반 텍스트로 합쳐 줘요. 파일이 .docx로 끝나거나 워드 문서라고 말하면 쓰여요.",
+ "when": [
+  "워드 문서 글 추출",
+  "문서를 위키에 넣기 전 변환",
+  "docx 파일 내용 읽기"
+ ],
+ "examples": [
+  "이 보고서.docx 내용을 텍스트로 뽑아 줘",
+  "워드 파일을 위키 자료로 읽어 줘"
+ ],
+ "notes": [
+  "Python과 python-docx 설치가 필요해요(pip install python-docx)",
+  "문단 글만 뽑아요",
+  "Synthadoc 프로젝트에 속한 스킬이에요"
+ ]
+}

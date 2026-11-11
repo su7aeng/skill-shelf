@@ -1,0 +1,20 @@
+{
+ "description": "스키마나 샘플 데이터에서 Python 데이터 모델을 만들어요.",
+ "summary": "OpenAPI, JSON Schema, GraphQL, JSON, YAML, CSV 샘플 등에서 Pydantic 모델, dataclass, TypedDict, msgspec 클래스를 datamodel-codegen 명령으로 생성해요. 입력이 있으면 손으로 쓰지 않고 이 도구를 먼저 쓰고, 옵션 추천 기능으로 알맞은 설정을 정해요. 프로젝트 의존성은 허락 없이 바꾸지 않아요.",
+ "when": [
+  "스키마에서 Pydantic 모델 생성",
+  "API 명세를 Python 타입으로 변환",
+  "JSON 샘플을 클래스로 만들기",
+  "dataclass나 TypedDict 생성"
+ ],
+ "examples": [
+  "이 OpenAPI 파일에서 Pydantic 모델을 만들어줘",
+  "이 JSON 샘플을 파싱할 Python 클래스로 바꿔줘",
+  "JSON Schema로 TypedDict를 생성해줘"
+ ],
+ "notes": [
+  "uvx나 pipx로 datamodel-codegen을 한 번만 실행하는 방식을 권해요",
+  "프로젝트에 설치하거나 업그레이드하려면 사용자 승인이 필요해요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "tccli로 텐센트 클라우드 CVM과 모니터링, 원격 실행을 다뤄요.",
+ "summary": "tccli로 CVM 인스턴스 조회, 클라우드 모니터링 지표 조회, TAT 원격 명령 실행을 해요. 현재 인스턴스 확인과 OAuth 인증 절차도 정해져 있어요. 경량 서버(lhins-)는 lighthouse API를 따로 써야 해요.",
+ "when": [
+  "서버 상태 조회",
+  "CPU 지표 확인",
+  "원격 명령 실행",
+  "인증 갱신"
+ ],
+ "examples": [
+  "내 CVM 인스턴스 CPU 사용률 최근 1시간 보여줘",
+  "이 서버에서 uptime 실행해줘",
+  "tccli 인증 상태 확인해줘"
+ ],
+ "notes": [
+  "tccli 설치가 필요해요",
+  "TAT는 인스턴스가 RUNNING이고 tat_agent가 켜져 있어야 해요",
+  "원문이 중국어예요"
+ ]
+}

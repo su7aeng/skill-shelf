@@ -1,0 +1,17 @@
+{
+ "description": "차단되는 Reddit 글을 브라우저 세션으로 가져와요.",
+ "summary": "Reddit은 curl 접근이 거의 막혀서, DuckDuckGo 검색 결과 링크를 거쳐 들어가 세션 쿠키를 얻은 뒤 .json 주소로 직접 읽어요. 검색, 서브레딧 목록, 글 내용을 JSON으로 꺼내 정리해요.",
+ "when": [
+  "Reddit 링크 읽기",
+  "Reddit 토론 조사",
+  "403 차단이 날 때"
+ ],
+ "examples": [
+  "이 Reddit 글 내용 가져와서 요약해줘",
+  "r/programming에서 이번 주 인기 글 찾아줘"
+ ],
+ "notes": [
+  "Playwright 브라우저 도구가 필요해요",
+  "세션이 끊기면 DuckDuckGo 경유 과정을 다시 해야 해요"
+ ]
+}

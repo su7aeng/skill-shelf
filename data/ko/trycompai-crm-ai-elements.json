@@ -1,0 +1,19 @@
+{
+ "description": "AI 채팅 화면을 ai-elements 컴포넌트로 만들도록 도와요.",
+ "summary": "shadcn/ui 위에 만든 ai-elements 라이브러리의 대화, 메시지, 도구 표시, 입력창 같은 컴포넌트를 설치하고 쓰는 방법을 안내해요. 프로젝트의 패키지 매니저에 맞춰 npx, pnpm dlx, bunx 중 하나로 설치해요.",
+ "when": [
+  "AI 채팅 UI 만들기",
+  "메시지 컴포넌트 추가",
+  "프롬프트 입력창 구성",
+  "도구 호출 표시"
+ ],
+ "examples": [
+  "Next.js 프로젝트에 AI 채팅 화면을 붙여줘",
+  "ai-elements 컴포넌트를 설치하고 대화 화면을 만들어줘"
+ ],
+ "notes": [
+  "Node.js 18 이상, Next.js, AI SDK, shadcn/ui가 필요해요",
+  "AI Gateway를 쓰려면 AI_GATEWAY_API_KEY를 env.local에 넣어요",
+  "원문은 영어예요"
+ ]
+}

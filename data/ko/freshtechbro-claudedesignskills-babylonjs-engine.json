@@ -1,0 +1,17 @@
+{
+ "description": "Babylon.js로 웹 3D 장면과 게임을 만드는 방법을 알려줘요.",
+ "summary": "엔진과 장면 설정, 카메라, 조명, PBR 재질, 그림자, 물리, 3D 모델 불러오기를 다뤄요. 자바스크립트와 TypeScript 예시가 있어요. WebGL과 WebGPU 렌더링을 지원하는 Three.js 대안으로 소개해요.",
+ "when": [
+  "웹 3D 장면 제작",
+  "브라우저 게임",
+  "3D 시각화",
+  "3D 모델 불러오기"
+ ],
+ "examples": [
+  "Babylon.js로 회전하는 구가 있는 장면 만들어줘",
+  "glTF 모델을 불러와 조명과 그림자를 넣어줘"
+ ],
+ "notes": [
+  "threejs-webgl, react-three-fiber 스킬과 이어서 쓰는 관련 스킬로 안내해요"
+ ]
+}

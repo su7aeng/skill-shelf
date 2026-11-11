@@ -1,0 +1,17 @@
+{
+ "description": "dsh-web의 README와 문서를 규칙대로 작성하고 고쳐요.",
+ "summary": "문서가 어디에 속하는지 정한 뒤 한 가지 사실은 한 문서에만 적고 나머지는 링크해요. 패키지 README는 README.md, README.zh.md, README.i18n.yaml 세 파일을 함께 고치고 pnpm docs:write-pair와 docs:check로 확인해요.",
+ "when": [
+  "README 수정",
+  "한영 문서 쌍 갱신",
+  "설정 안내 문구 작성"
+ ],
+ "examples": [
+  "이 패키지 README에 설정 방법 추가해줘",
+  "한국어 영어 문서 쌍 맞춰서 고쳐줘"
+ ],
+ "notes": [
+  "dsh-web 저장소 전용이에요",
+  "이모지를 쓰지 않고 링크를 모두 확인해야 해요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Rerun 릴리스용 변경 내역을 모아 정리해요.",
+ "summary": "docs/content/changelog/upcoming/의 PR별 항목을 릴리스의 changeset-0-XX.md로 합치고 CHANGELOG.md의 상세 섹션도 만들어요. 항목 종류별로 섹션을 나누고, 패치와 마이너 릴리스에 맞게 구성해요.",
+ "when": [
+  "릴리스 변경 내역 작성",
+  "changeset 합치기",
+  "CHANGELOG 생성",
+  "릴리스 준비"
+ ],
+ "examples": [
+  "0.38.0 changelog 정리해줘",
+  "upcoming 항목을 changeset으로 합쳐줘",
+  "릴리스용 CHANGELOG 섹션 만들어줘"
+ ],
+ "notes": [
+  "rerun-io/rerun 저장소 루트에서만 실행해야 하고 아니면 멈춰요",
+  "대상 버전은 인자나 Cargo.toml에서 읽어 확인받아요",
+  "원문이 영어예요"
+ ]
+}

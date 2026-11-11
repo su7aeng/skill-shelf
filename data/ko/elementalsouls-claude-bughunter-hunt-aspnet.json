@@ -1,0 +1,19 @@
+{
+ "description": "ASP.NET 웹 애플리케이션 특유의 취약점을 찾아봐요.",
+ "summary": "ViewState 역직렬화, machineKey 확보, 요청 검증 우회, trace.axd와 elmah.axd 노출, 오류 정보 유출 같은 항목을 점검해요. Webforms, WCF, SharePoint를 대상으로 하고 응답 헤더 등 대상을 알아보는 단서도 알려줘요.",
+ "when": [
+  "ASP.NET Webforms 사이트 점검",
+  "SharePoint나 Telerik 사용 확인",
+  "WCF 서비스 노출 확인",
+  "오류 페이지에 내부 정보가 보일 때"
+ ],
+ "examples": [
+  "이 ASP.NET 사이트에서 ViewState 관련 문제를 점검하는 순서를 알려줘",
+  "trace.axd나 elmah.axd가 노출됐는지 확인하는 방법을 알려줘"
+ ],
+ "notes": [
+  "허가된 점검에서만 써야 해요",
+  "주로 .NET Framework 기반의 오래된 구성을 대상으로 해요",
+  "원문이 영어예요"
+ ]
+}

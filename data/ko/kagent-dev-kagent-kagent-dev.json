@@ -1,0 +1,19 @@
+{
+ "description": "kagent 저장소의 개발, 디버깅, 리뷰, CI 작업 지침이에요.",
+ "summary": "v1alpha3 Harness와 AgentTemplate CRD, 세션 gRPC 제어면, A2A 연동, Substrate 런타임, 테스트와 코드 생성, PR 절차를 정리해요. 저장소 지도와 구조 규칙을 알려 주고 AGENTS.md를 먼저 읽게 해요.",
+ "when": [
+  "kagent 코드 수정",
+  "버그 디버깅",
+  "코드 리뷰",
+  "CI 문제 해결"
+ ],
+ "examples": [
+  "kagent에서 Harness 필드를 하나 추가하려는데 어디를 고쳐야 해?",
+  "kagent CI가 실패하는데 원인 찾아 줘"
+ ],
+ "notes": [
+  "kagent 저장소 안에서 쓰는 개발 지침이에요",
+  "공개 API에 쿠버네티스 스케줄링 같은 필드를 넣으면 안 돼요",
+  "PR은 요청한 변경에만 집중해요"
+ ]
+}

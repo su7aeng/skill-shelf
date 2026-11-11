@@ -1,0 +1,19 @@
+{
+ "description": "AutoBangumi 4.0 플러그인을 작성하고 테스트하고 포장해요.",
+ "summary": "플러그인이 들어갈 확장 지점을 고르고 ab-plugin new로 뼈대를 만든 뒤 코드를 써요. 테스트, validate, 개발 모드 실행, pack 순서로 진행해요. 플러그인은 ab_sdk만 가져다 써요.",
+ "when": [
+  "AutoBangumi 플러그인 작성",
+  "알림 채널 추가",
+  "검색 기능 추가",
+  "플러그인 디버깅"
+ ],
+ "examples": [
+  "AutoBangumi 알림 플러그인 만들어줘",
+  "이 플러그인 테스트하고 패키지로 묶어줘"
+ ],
+ "notes": [
+  "ab_sdk 파이썬 SDK와 ab-plugin 명령줄 도구가 필요해요",
+  "도구는 PyPI가 아닌 GitHub 릴리스 휠로 설치해요",
+  "SDK가 0.x 단계라 매니페스트에 버전 범위를 지정해요"
+ ]
+}

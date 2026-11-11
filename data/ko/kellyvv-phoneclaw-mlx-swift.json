@@ -1,0 +1,19 @@
+{
+ "description": "Apple Silicon용 ML 프레임워크 MLX Swift 사용법을 알려줘요.",
+ "summary": "MLX Swift의 배열 연산, 신경망 구성, 자동 미분, 커스텀 Metal 커널, JIT 컴파일 최적화를 다뤄요. 구조와 주요 소스 파일 위치를 함께 알려 줘서 코드를 짤 때 참고할 수 있어요.",
+ "when": [
+  "MLXArray 배열 연산",
+  "신경망 만들기",
+  "모델 학습",
+  "Metal 커널과 성능 최적화"
+ ],
+ "examples": [
+  "MLX Swift로 간단한 신경망을 만들어줘",
+  "MLXArray로 행렬 연산하는 코드 짜줘",
+  "MLX Swift 학습 코드에서 자동 미분 쓰는 법 알려줘"
+ ],
+ "notes": [
+  "Apple Silicon 기기가 필요해요",
+  "원문은 영어예요"
+ ]
+}

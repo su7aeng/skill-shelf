@@ -1,0 +1,18 @@
+{
+ "description": "agent.yaml과 SOUL.md로 에이전트를 만들고 설정해요.",
+ "summary": "에이전트 폴더 구조를 만들고 agent.yaml의 모델, 스킬, 도구, 실행 설정을 채워요. SOUL.md에는 정체성과 말투를, RULES.md에는 지켜야 할 규칙을 써요. 마지막에 opengap validate로 검증해요.",
+ "when": [
+  "새 에이전트 설정 파일을 만들 때",
+  "SOUL.md 성격 정의를 쓸 때",
+  "스킬과 도구를 에이전트에 연결할 때"
+ ],
+ "examples": [
+  "agent.yaml 새로 만들고 코드 리뷰 스킬 연결해줘",
+  "SOUL.md에 친절하고 간결한 말투로 정체성 써줘",
+  "내 에이전트 폴더 구조를 검증해줘"
+ ],
+ "notes": [
+  "opengap CLI가 필요해요",
+  "agent.yaml에는 spec_version, name, version, description이 꼭 있어야 해요"
+ ]
+}

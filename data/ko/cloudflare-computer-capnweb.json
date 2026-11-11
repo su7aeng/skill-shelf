@@ -1,0 +1,18 @@
+{
+ "description": "capnweb RPC 스텁을 올바르게 해제하는 방법을 안내해요.",
+ "summary": "Durable Object와 computerd 사이의 capnweb RPC를 다룰 때 지켜야 할 규칙을 알려 줘요. 받은 스텁은 호출한 쪽이 직접 해제해야 한다는 원칙과 해제 방법, 약속 파이프라이닝, 연결 끊김 감지를 설명해요.",
+ "when": [
+  "capnweb 코드 수정",
+  "스텁 해제와 누수 점검",
+  "RPC 인터페이스에 메서드 추가",
+  "연결 끊김 처리"
+ ],
+ "examples": [
+  "capnweb 스텁 누수가 있는지 코드 점검해줘",
+  "RPC에 새 메서드를 추가하려는데 해제는 어떻게 해야 해?"
+ ],
+ "notes": [
+  "cloudflare computer 저장소 전용 내용이라 다른 프로젝트에는 그대로 맞지 않아요",
+  "packages/rpc 아래 파일과 docs의 수명 주기 문서를 함께 참고해요"
+ ]
+}

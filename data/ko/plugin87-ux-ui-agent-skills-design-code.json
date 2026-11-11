@@ -1,0 +1,20 @@
+{
+ "description": "원하는 프레임워크에 맞는 접근성 갖춘 컴포넌트 코드를 만들어요.",
+ "summary": "React와 Tailwind, Next.js, SwiftUI, Vue, Svelte, Angular, Flutter, Jetpack Compose 등 대상 스택을 정하고 어댑터 규약에 맞춰 토큰 기반 컴포넌트 코드를 만들어요. 다크 모드와 모션 규칙도 따라요.",
+ "when": [
+  "프레임워크별 UI 코드",
+  "컴포넌트 구현",
+  "화면 코드 생성",
+  "모바일 앱 UI 코드"
+ ],
+ "examples": [
+  "React와 Tailwind로 모달 컴포넌트 만들어줘",
+  "SwiftUI로 로그인 화면 코드 짜줘",
+  "Vue용 탭 컴포넌트 만들어줘"
+ ],
+ "notes": [
+  "UX/UI Agent Skills 키트 전체가 설치돼 있어야 해요",
+  "키트가 없으면 검증 없이 안내만 하는 모드로 동작해요",
+  "스택을 말하지 않으면 먼저 물어봐요"
+ ]
+}

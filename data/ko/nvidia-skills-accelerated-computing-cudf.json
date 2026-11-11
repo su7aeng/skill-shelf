@@ -1,0 +1,20 @@
+{
+ "description": "NVIDIA cuDF로 GPU에서 데이터프레임을 빠르게 처리해요.",
+ "summary": "pandas 코드를 그대로 가속할지, cuDF로 직접 옮길지 사용자의 목적에 맞춰 경로를 골라요. 조인, 그룹별 집계, CSV와 Parquet 읽기, dask-cuDF, ETL을 다루고, 열 구조와 행 수, 결측 위치, 정렬, 숫자 오차를 결과의 일부로 보고 지켜요.",
+ "when": [
+  "pandas 코드 GPU 가속",
+  "대용량 ETL 속도 개선",
+  "CSV와 Parquet 처리",
+  "여러 GPU로 분산 처리"
+ ],
+ "examples": [
+  "내 pandas 코드를 수정 없이 GPU로 돌리는 방법 알려줘",
+  "이 groupby 코드를 cuDF로 옮겨줘",
+  "큰 Parquet 파일 조인이 느린데 GPU로 빠르게 해줘"
+ ],
+ "notes": [
+  "NVIDIA GPU와 맞는 드라이버, CUDA 버전이 필요해요",
+  "cuDF, pylibcudf, RMM 버전을 서로 맞춰야 해요",
+  "원문은 영어예요"
+ ]
+}

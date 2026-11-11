@@ -1,0 +1,20 @@
+{
+ "description": "Eufy 카메라를 SharpAI Aegis에 연결해 영상과 이벤트 클립을 가져와요.",
+ "summary": "Eufy 카메라를 로컬 P2P 또는 클라우드로 연결해 실시간 보기용 RTSP 주소와 이벤트가 생길 때의 클립을 제공해요. 네트워크의 Eufy 카메라 목록 조회도 해요.",
+ "when": [
+  "Eufy 카메라 연결",
+  "실시간 영상 보기",
+  "이벤트 클립 분석",
+  "카메라 찾기"
+ ],
+ "examples": [
+  "Eufy 카메라를 Aegis에 연결해줘",
+  "네트워크에 있는 Eufy 카메라 찾아줘",
+  "이벤트 클립을 가져와서 분석해줘"
+ ],
+ "notes": [
+  "HomeBase IP와 Eufy 계정 이메일, 비밀번호가 필요해요",
+  "파이썬 가상환경을 만들고 requirements.txt를 설치해요",
+  "SharpAI Aegis와 함께 쓰는 스킬이에요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "Swift Testing으로 테스트를 쓰고 점검해요.",
+ "summary": "최신 Swift Testing API 기준으로 테스트를 쓰거나 리뷰해요. 구조, 단언, 비동기 테스트를 참고 문서별로 확인하고 XCTest에서 옮기는 방법도 안내해요.",
+ "when": [
+  "Swift 테스트 작성",
+  "테스트 코드 리뷰",
+  "XCTest에서 옮기기",
+  "비동기 테스트 점검"
+ ],
+ "examples": [
+  "이 함수의 Swift Testing 테스트를 써줘",
+  "XCTest 코드를 Swift Testing으로 바꿔줘",
+  "내 테스트 코드에 문제 있는지 봐줘"
+ ],
+ "notes": [
+  "Swift 6.2 이상 기준이에요",
+  "UI 테스트는 지원하지 않아서 XCTest를 써야 해요"
+ ]
+}

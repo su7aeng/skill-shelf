@@ -1,0 +1,19 @@
+{
+ "description": "저장소에 맞는 HumanLayer 워크스페이스 설정 파일을 만들어줘요.",
+ "summary": "저장소의 설정 파일, package.json, README 등을 읽고 설정안을 제안해요. 승인되면 팀 공용 .humanlayer/workspace.json과 개인용 workspace.local.json을 쓰고 검증해요. 기본은 단일 저장소 설정이고, 연관된 저장소가 있을 때만 여러 개로 잡아요.",
+ "when": [
+  "워크스페이스 설정 생성",
+  "worktree 생성 방식 지정",
+  "설정 파일 검증",
+  "여러 저장소 구성"
+ ],
+ "examples": [
+  "이 저장소에 맞는 워크스페이스 설정을 만들어줘",
+  "기존 workspace.json을 읽고 필요한 부분을 고쳐줘"
+ ],
+ "notes": [
+  "Riptide의 workspaceTiming = now 작업에 쓰는 설정이에요",
+  "workspace.local.json은 gitignore되는 개인 설정이에요",
+  "git 저장소 안에서 실행해야 하고 아니면 경로를 물어봐요"
+ ]
+}

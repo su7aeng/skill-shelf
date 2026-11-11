@@ -1,0 +1,19 @@
+{
+ "description": "CopilotKit CLI로 프로젝트를 점검하고 만들고 연결해요.",
+ "summary": "npx copilotkit@latest 명령을 다뤄요. 앱이 안 될 때는 손으로 디버깅하기 전에 verify로 연결 상태를 먼저 확인하고, create, 로그인, 프로젝트 선택, 기존 앱 온보딩, 에이전트 id 생성, 스레드 기록 가져오기도 안내해요.",
+ "when": [
+  "CopilotKit 앱 오류 점검",
+  "새 프로젝트 만들기",
+  "호스팅 프로젝트 선택",
+  "스레드 기록 가져오기"
+ ],
+ "examples": [
+  "CopilotKit 앱이 동작하지 않는데 먼저 점검해줘",
+  "CopilotKit 프로젝트를 새로 만들어줘"
+ ],
+ "notes": [
+  "명령에 --via skill:copilotkit-cli 를 붙여요",
+  "오픈소스 앱은 --expect-runtime oss --round-trip --agent 옵션이 필요해요",
+  "verify를 통과시키려고 login을 하지 않아요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "anti-slop Oxlint 플러그인을 설치하거나 업데이트해요.",
+ "summary": "프로젝트에 anti-slop 플러그인을 복사해 설치하고, 이미 있는 경우에는 기존 설정을 지키면서 최신 규칙으로 올려요. 패키지 매니저와 Oxlint 설정을 먼저 확인해요.",
+ "when": [
+  "anti-slop 설치",
+  "플러그인 업데이트",
+  "Oxlint 규칙 추가",
+  "기존 설치 이전"
+ ],
+ "examples": [
+  "이 저장소에 anti-slop 설치해줘",
+  "anti-slop을 최신으로 업데이트해줘"
+ ],
+ "notes": [
+  "node와 Oxlint 환경이 필요해요",
+  "기존 설치는 --force 대신 업데이트 절차를 따라요"
+ ]
+}

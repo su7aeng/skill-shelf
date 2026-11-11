@@ -1,0 +1,20 @@
+{
+ "description": "문서 파일을 읽기 쉬운 Markdown으로 바꿔요.",
+ "summary": "Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, PDF 파일을 GitHub 방식 Markdown으로 바꿔요. anydoc 명령줄 도구를 npx로 실행해서 결과를 화면이나 파일로 받고, 큰 문서는 파일로 저장한 뒤 필요한 부분만 읽어요.",
+ "when": [
+  "Word·PDF 내용 읽기",
+  "엑셀·CSV 변환",
+  "PPT 내용 추출",
+  "전자책 변환"
+ ],
+ "examples": [
+  "이 docx 파일을 Markdown으로 바꿔서 내용을 정리해줘",
+  "보고서.pdf 안의 표를 읽어줘",
+  "엑셀 파일 내용을 텍스트로 뽑아줘"
+ ],
+ "notes": [
+  "Node 20 이상이 필요하고 npx로 바로 실행해요",
+  "스캔한 이미지 PDF는 OCR이 필요해서 종료 코드 3이 나오고, --ocr hosted 옵션으로 Firecrawl Parse에 보낼 수 있어요",
+  "형식은 파일 내용으로 자동 감지해요"
+ ]
+}

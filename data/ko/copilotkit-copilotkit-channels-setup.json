@@ -1,0 +1,18 @@
+{
+ "description": "CopilotKit 에이전트를 Slack이나 Teams에서 답하게 처음부터 연결해요.",
+ "summary": "절차가 이 파일에 적혀 있지 않고 npx --yes copilotkit@latest onboard start 가 출력하는 그래프를 처음부터 끝까지 따라가요. 프로젝트 준비, 에이전트 구성, 채널 생성, 실행 호스트, 실제 멘션 응답 확인까지 포함해요.",
+ "when": [
+  "첫 CopilotKit Channels 만들기",
+  "에이전트를 Slack에 연결",
+  "에이전트를 Teams에 연결"
+ ],
+ "examples": [
+  "내 에이전트를 Slack에서 답하게 연결해줘",
+  "CopilotKit 채널을 처음부터 설정해줘"
+ ],
+ "notes": [
+  "명령이 실패하면 임의로 진행하지 않고 출력을 보여준 뒤 재시도를 요청해요",
+  "Slack이나 Azure 쪽 설정은 사용자가 직접 해요",
+  "자격 증명은 노출하지 않아요"
+ ]
+}

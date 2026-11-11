@@ -1,0 +1,16 @@
+{
+ "description": "커밋, 브랜치, PR에 대한 Git 작업 방식을 안내해요.",
+ "summary": "<type>(<scope>): <subject> 형식의 커밋 메시지 규칙을 따라 메시지를 만들고 검증해요. commit_message.py 스크립트를 활용하고 feat, fix, docs 같은 유형별 예시를 보여줘요.",
+ "when": [
+  "커밋 메시지 작성",
+  "브랜치 운용 안내",
+  "풀 리퀘스트 준비"
+ ],
+ "examples": [
+  "이 변경 내용으로 커밋 메시지 써줘",
+  "내 커밋 메시지가 규칙에 맞는지 확인해줘"
+ ],
+ "notes": [
+  "Agno의 get_skill_script 도구로 스크립트를 실행해요"
+ ]
+}

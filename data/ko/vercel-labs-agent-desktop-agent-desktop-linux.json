@@ -1,0 +1,20 @@
+{
+ "description": "Linux에서 agent-desktop을 쓸 때 되는 것과 주의점을 알려 줘요.",
+ "summary": "명령 그룹별로 X11과 Wayland에서 무엇이 되는지 표로 정리하고, AT-SPI 접근성 버스를 확인하는 방법을 안내해요. 앱 이름, Chromium과 Electron 실행 플래그, 포커스, 막히는 키 조합 같은 처음 만나는 함정도 다뤄요. 접근성 트리가 비어 있을 때 점검법도 있어요.",
+ "when": [
+  "Linux 데스크톱 자동화",
+  "AT-SPI 트리 점검",
+  "Wayland 화면 캡처 문제",
+  "접근성 버스 오류 해결"
+ ],
+ "examples": [
+  "우분투에서 agent-desktop이 앱을 못 찾아 원인 찾아줘",
+  "Wayland에서 스크린샷이 안 되는 이유 알려줘",
+  "GNOME 앱을 자동으로 조작하는 방법 알려줘"
+ ],
+ "notes": [
+  "Ubuntu 24.04 이상과 로그인한 사용자의 그래픽 세션, AT-SPI 버스가 필요해요",
+  "SSH나 TTY 로그인에서는 앱이 보이지 않을 수 있어요",
+  "공통 사용법은 agent-desktop 스킬을 따라요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "OpenMeld CLI로 Space 작업, Wake 답장, 연결 설정을 도와요.",
+ "summary": "OpenMeld의 공개 CLI 사용법을 안내하는 스킬이에요. 먼저 입구 문서를 읽고 작업에 맞는 주제 문서 하나만 골라 따라가요. Space 읽기, 메시지 보내기, 이 컴퓨터 연결, Agent Profile 관리 같은 일을 명령어로 처리해요.",
+ "when": [
+  "Space 내용과 기록 확인",
+  "Wake에 답장하기",
+  "이 컴퓨터를 OpenMeld에 연결",
+  "메시지 전달이 안 될 때 점검"
+ ],
+ "examples": [
+  "OpenMeld Space에 올라온 최근 대화를 읽어줘",
+  "이 Wake에 내 대신 답장을 보내줘",
+  "이 컴퓨터를 OpenMeld 에이전트로 연결해줘"
+ ],
+ "notes": [
+  "OpenMeld CLI 0.3.159 이상이 필요해요",
+  "문서를 읽는 데는 로그인이 필요 없지만 명령을 실행하려면 계정 권한이 필요해요",
+  "ID나 인증 정보를 임의로 만들지 않아요"
+ ]
+}

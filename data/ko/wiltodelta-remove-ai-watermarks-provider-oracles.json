@@ -1,0 +1,19 @@
+{
+ "description": "이 저장소의 워터마크 검증을 구글, OpenAI 등 제공사별 검사 도구로 돌려요.",
+ "summary": "remove-ai-watermarks 저장소 안에서 Google, OpenAI, Microsoft, Meta 제공사별 워터마크 판별 서비스에 파일을 올려 결과를 받아요. 정해진 순서(공식 API, 웹 판별 서비스, 나머지 계정 슬롯)를 따라가며 결과를 파일의 해시와 묶어 기록해요.",
+ "when": [
+  "제공사별 워터마크 판정",
+  "Gemini 여러 계정 확인",
+  "SynthID Detector 확인",
+  "검증 결과 기록"
+ ],
+ "examples": [
+  "이 이미지가 구글 워터마크 검사에서 어떻게 나오는지 확인해줘",
+  "OpenAI와 Microsoft 쪽 판별 결과를 순서대로 돌려서 기록해줘"
+ ],
+ "notes": [
+  "저장소 내부용(internal) 스킬이고 scripts/provider_oracles.py와 docs/provider-oracles.md를 써요",
+  "계정 슬롯은 git에 올리지 않는 .oracle-slots.json에 두며, Gemini 확인에는 로그인된 계정이 필요해요",
+  "한 제공사의 음성 결과를 다른 제공사의 근거로 쓰지 않고, 실패 기록도 지우지 않아요"
+ ]
+}

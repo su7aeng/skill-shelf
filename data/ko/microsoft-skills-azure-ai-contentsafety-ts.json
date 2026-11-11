@@ -1,0 +1,20 @@
+{
+ "description": "TypeScript로 Azure Content Safety 유해 콘텐츠를 분석해요.",
+ "summary": "@azure-rest/ai-content-safety로 텍스트와 이미지에서 혐오 표현, 폭력, 성적 내용, 자해를 탐지하고 맞춤 차단 목록을 관리하는 방법을 안내해요. ContentSafetyClient가 클래스가 아니라 함수라는 점과 API 키, DefaultAzureCredential 인증 예제를 포함해요.",
+ "when": [
+  "사용자 생성 콘텐츠 검열",
+  "혐오 표현 탐지",
+  "차단 목록 관리",
+  "TypeScript 앱 개발"
+ ],
+ "examples": [
+  "TypeScript로 댓글 유해성 검사 코드 짜줘",
+  "이미지 분석 요청 예제 보여줘",
+  "맞춤 차단 목록 만드는 코드 짜줘"
+ ],
+ "notes": [
+  "npm install @azure-rest/ai-content-safety @azure/identity @azure/core-auth 로 설치해요",
+  "CONTENT_SAFETY_ENDPOINT와 키 환경 변수가 필요해요",
+  "REST 클라이언트라 결과 확인에 isUnexpected를 써요"
+ ]
+}

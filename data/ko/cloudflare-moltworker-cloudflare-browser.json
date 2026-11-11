@@ -1,0 +1,19 @@
+{
+ "description": "Cloudflare Browser Rendering으로 헤드리스 Chrome을 조작해요.",
+ "summary": "CDP 웹소켓으로 페이지 이동, 스크린샷, 자바스크립트 실행, 화면 크기 설정, 스크롤을 해요. 스크린샷과 여러 페이지 영상 녹화용 스크립트도 함께 써요.",
+ "when": [
+  "웹페이지 스크린샷",
+  "여러 사이트 영상 촬영",
+  "페이지 스크래핑",
+  "브라우저 자동 조작"
+ ],
+ "examples": [
+  "example.com 스크린샷 찍어줘",
+  "이 사이트 두 곳을 영상으로 녹화해줘"
+ ],
+ "notes": [
+  "CDP_SECRET 환경 변수가 필요해요",
+  "openclaw.json에 cdpUrl을 가진 브라우저 프로필을 설정해야 해요",
+  "node 스크립트로 실행해요"
+ ]
+}

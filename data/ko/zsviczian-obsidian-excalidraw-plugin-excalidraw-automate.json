@@ -1,0 +1,19 @@
+{
+ "description": "Obsidian Excalidraw용 ExcalidrawAutomate 스크립트를 짜 줘요.",
+ "summary": "Obsidian의 Excalidraw 플러그인에 있는 ExcalidrawAutomate 스크립트 API로 도형과 그림을 자동으로 만들고 바꾸는 스크립트를 써요. 원문에 있는 예시와 타입 정의, 문서 링크를 기준으로 삼아요.",
+ "when": [
+  "Excalidraw 스크립트 작성",
+  "그림 자동 생성",
+  "기존 스크립트 수정",
+  "ExcalidrawAutomate 이해"
+ ],
+ "examples": [
+  "선택한 도형들을 가로로 정렬하는 Excalidraw 스크립트 써줘",
+  "이 스크립트가 어떻게 동작하는지 설명해줘"
+ ],
+ "notes": [
+  "Obsidian과 Excalidraw 플러그인이 필요해요",
+  "원문이 영어이고 GitHub 저장소의 참고 문서 링크를 가리켜요",
+  "링크된 문서를 못 열면 저장소 주소에서 찾아 읽어요"
+ ]
+}

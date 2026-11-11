@@ -1,0 +1,19 @@
+{
+ "description": "옮겨진 Aurora DSQL 스킬로 안내하는 이전용 스킬이에요.",
+ "summary": "더 이상 쓰지 않는 예전 스킬이에요. DSQL 관련 요청이 오면 awslabs/agent-plugins의 databases-on-aws 플러그인에 있는 dsql 스킬이 있는지 확인하고, 있으면 그 스킬을 따르도록 안내해요. 없으면 스킬이 옮겨졌다고 알려요.",
+ "when": [
+  "Aurora DSQL 질문",
+  "분산 SQL 스키마와 마이그레이션",
+  "DSQL 쿼리와 인증",
+  "DSQL 성능과 앱 개발"
+ ],
+ "examples": [
+  "Aurora DSQL에서 테이블 스키마 짜는 법 알려줘",
+  "DSQL 마이그레이션은 어떻게 해야 해?"
+ ],
+ "notes": [
+  "이 스킬은 폐기 예정이고 실제 내용은 awslabs/agent-plugins의 dsql 스킬에 있어요",
+  "설치나 설정 변경은 사용자 동의를 받은 뒤에만 해요",
+  "Claude Code에서는 /plugin marketplace add awslabs/agent-plugins 로 마켓플레이스를 추가할 수 있어요"
+ ]
+}

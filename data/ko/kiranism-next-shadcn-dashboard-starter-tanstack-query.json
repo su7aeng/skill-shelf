@@ -1,0 +1,18 @@
+{
+ "description": "TanStack Query v5로 데이터를 가져오고 캐시를 관리하는 방법을 안내해요.",
+ "summary": "새 컴포넌트에는 useSuspenseQuery를 기본으로 쓰도록 권해요. 쿼리, 뮤테이션, 캐시 무효화, API 서비스 구조의 패턴을 예시 코드로 보여 줘요.",
+ "when": [
+  "서버 데이터 불러오기",
+  "뮤테이션 작성",
+  "캐시 갱신",
+  "v4에서 v5로 이전"
+ ],
+ "examples": [
+  "useSuspenseQuery로 목록 불러오게 바꿔줘",
+  "저장 후 캐시 갱신하는 코드 짜줘"
+ ],
+ "notes": [
+  "v5 기준이고 React 18 이상이 필요해요",
+  "v4와 달리 isLoading 대신 isPending, cacheTime 대신 gcTime을 써요"
+ ]
+}

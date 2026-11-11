@@ -1,0 +1,19 @@
+{
+ "description": "GreptimeDB 새 버전의 태그와 릴리스를 발행하는 절차예요.",
+ "summary": "버전과 브랜치를 사용자에게 묻고, GreptimeTeam/greptimedb 저장소에서 태그와 GitHub 릴리스, 문서 저장소의 릴리스 노트 PR 순서로 진행해요. 외부에 영향을 주는 릴리스 생성 전에는 사용자 확인을 받아요.",
+ "when": [
+  "새 버전 릴리스",
+  "패치 버전 발행",
+  "릴리스 노트 PR 준비",
+  "태그 생성"
+ ],
+ "examples": [
+  "GreptimeDB v1.1.0 릴리스를 진행해줘",
+  "패치 릴리스 v1.0.3을 발행하는 절차를 안내해줘"
+ ],
+ "notes": [
+  "gh와 git이 필요하고 gh auth status로 로그인을 확인해요",
+  "릴리스 생성은 공개 인프라에 영향을 주므로 먼저 확인을 받아요",
+  "변경 로그는 greptimedb-release-note 스킬이 맡아요"
+ ]
+}

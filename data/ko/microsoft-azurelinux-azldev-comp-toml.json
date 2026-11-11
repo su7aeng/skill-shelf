@@ -1,0 +1,18 @@
+{
+ "description": "azldev 컴포넌트 정의 파일(*.comp.toml)의 형식을 설명해요.",
+ "summary": "컴포넌트가 [components.이름] 아래에 정의되고, 스펙 출처, 오버레이, 빌드 옵션, 릴리스 계산 같은 필드를 어떻게 쓰는지 알려 줘요. 최신 필드 목록은 azldev config generate-schema로 확인하라고 안내해요.",
+ "when": [
+  "comp.toml 작성",
+  "comp.toml 검토",
+  "스펙 출처 지정",
+  "빌드 옵션 수정"
+ ],
+ "examples": [
+  "curl용 comp.toml 만들어줘",
+  "업스트림 버전을 고정하는 설정 알려줘"
+ ],
+ "notes": [
+  "기억에 의존하지 말고 스키마를 확인하라는 안내가 들어 있어요",
+  "오버레이 자세한 내용은 azldev-overlays 스킬을 봐요"
+ ]
+}

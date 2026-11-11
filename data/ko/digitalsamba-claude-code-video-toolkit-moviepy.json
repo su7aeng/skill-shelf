@@ -1,0 +1,20 @@
+{
+ "description": "Python으로 영상 위에 정확한 글자를 얹고 짧은 영상을 만들어요.",
+ "summary": "AI가 만든 영상(LTX-2, SadTalker) 위에 이름, 가격, 출처 같은 글자를 틀리지 않게 덧씌워요. 클립 합성과 build.py 한 파일로 만드는 짧은 광고 영상, 차트 애니메이션도 다뤄요. 실행 가능한 예제 두 개가 함께 있어요.",
+ "when": [
+  "AI 영상에 자막과 라벨",
+  "하단 자막(lower third)",
+  "30초 이하 광고 영상",
+  "차트 영상 합성"
+ ],
+ "examples": [
+  "LTX-2로 만든 클립에 제품 이름 자막을 넣어줘",
+  "15초짜리 광고 영상을 build.py로 만들어줘",
+  "데이터 차트 애니메이션에 제목과 출처를 붙여줘"
+ ],
+ "notes": [
+  "moviepy 2.x, Pillow, matplotlib이 필요하고 uv sync로 설치해요",
+  "uv run build.py로 실행해요",
+  "claude-code-video-toolkit 안에서 쓰는 스킬이에요"
+ ]
+}

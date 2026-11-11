@@ -1,0 +1,19 @@
+{
+ "description": "저장소 구조를 익히는 학습용 안내 파일 orientation.md를 만들어요.",
+ "summary": "저장소의 언어를 감지하고 README와 주요 파일을 골라 읽은 뒤, 이 저장소만을 위한 orientation.md를 써요. 이 파일은 learning-opportunities 스킬이 새 팀원에게 코드베이스를 알려 주는 연습을 할 때 쓰여요. showboat 인자를 주면 다른 방식으로 진행해요.",
+ "when": [
+  "새 코드베이스 파악",
+  "팀원 온보딩 자료",
+  "학습 연습 준비"
+ ],
+ "examples": [
+  "이 저장소 오리엔테이션 파일을 만들어줘",
+  "orient 스킬 실행해줘",
+  "새로 온 팀원용 안내 자료를 만들어줘"
+ ],
+ "notes": [
+  "직접 불러야만 실행되고 자동으로는 켜지지 않아요",
+  "프로젝트의 .claude/skills/learning-opportunities/resources 폴더에 저장해요(Codex는 .codex)",
+  "learning-opportunities 스킬과 함께 쓰는 보조 스킬이에요"
+ ]
+}

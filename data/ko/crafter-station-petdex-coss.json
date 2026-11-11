@@ -1,0 +1,20 @@
+{
+ "description": "coss UI 컴포넌트를 올바르게 쓰도록 도와줘요.",
+ "summary": "Base UI 위에 만든 coss 컴포넌트 라이브러리로 화면을 만들 때, 알맞은 컴포넌트를 고르고 import와 구성을 문서대로 맞춰 줘요. shadcn이나 Radix에서 옮겨 올 때 생기는 흔한 실수를 피하게 해요. 없는 API를 지어내지 않고 공식 문서와 예제를 기준으로 삼아요.",
+ "when": [
+  "coss UI로 화면 만들기",
+  "shadcn에서 coss로 옮기기",
+  "다이얼로그와 메뉴 구성",
+  "컴포넌트 동작 문제 해결"
+ ],
+ "examples": [
+  "coss로 로그인 폼을 만들어줘",
+  "shadcn 다이얼로그 코드를 coss로 바꿔줘",
+  "coss Select가 왜 안 열리는지 봐줘"
+ ],
+ "notes": [
+  "Tailwind CSS v4 기준 예제를 전제로 해요",
+  "원문이 영어예요",
+  "coss 문서와 particle 예제 저장소를 참고해요"
+ ]
+}

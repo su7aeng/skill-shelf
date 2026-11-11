@@ -1,0 +1,17 @@
+{
+ "description": "AionUi 버전을 올리고 릴리스 준비를 자동으로 진행해요.",
+ "summary": "AionCore 릴리스를 조회하고 산출물을 확인한 뒤 package.json과 CHANGELOG를 갱신해요. 이어서 브랜치 생성, 커밋, 푸시, PR 생성, 자동 병합, 태그까지 이어 가요. main 브랜치가 깨끗한 상태에서만 시작해요.",
+ "when": [
+  "AionUi 릴리스",
+  "버전 올리기",
+  "CHANGELOG 생성"
+ ],
+ "examples": [
+  "AionUi 버전 2.2.0으로 올려줘",
+  "프런트만 바꾼 릴리스로 버전 올려줘"
+ ],
+ "notes": [
+  "gh CLI와 git이 필요해요",
+  "--skip-core와 --core 옵션으로 AionCore 버전을 다룰 수 있어요"
+ ]
+}

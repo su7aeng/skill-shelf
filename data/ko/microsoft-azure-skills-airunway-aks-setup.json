@@ -1,0 +1,20 @@
+{
+ "description": "AKS 클러스터에 AI Runway를 설치하고 첫 모델까지 띄워요.",
+ "summary": "클러스터 확인, 컨트롤러 설치, GPU 점검, 제공자 설정, 첫 배포 순서로 단계별 안내해요. skip-to-step N으로 중간부터 이어갈 수 있어요.",
+ "when": [
+  "AKS에 AI Runway 처음 설치",
+  "GPU 호환성 점검",
+  "KAITO나 vLLM 모델 배포",
+  "컨트롤러와 CRD 설치"
+ ],
+ "examples": [
+  "내 AKS 클러스터에 AI Runway 설치해줘",
+  "GPU 노드에서 LLM 하나 띄워보고 싶어",
+  "skip-to-step 3 부터 이어서 진행해줘"
+ ],
+ "notes": [
+  "이미 AKS 클러스터가 있어야 해요. 없으면 azure-kubernetes 스킬로 먼저 만들어요",
+  "kubectl, make, curl이 필요해요",
+  "GPU 노드는 비용이 커서 진행 전에 확인을 받아요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Swift 동시성 문제를 진단하고 Swift 6 전환을 안내해요.",
+ "summary": "먼저 Package.swift나 .pbxproj에서 언어 모드, 엄격 동시성 수준, 기본 격리 설정을 확인해요. 그 뒤 컴파일러 진단과 격리 경계를 파악해 가장 작고 안전한 수정을 제안하고, @MainActor를 무조건 붙이는 식의 처방은 피해요.",
+ "when": [
+  "Swift 동시성 경고나 오류를 만났을 때",
+  "콜백 코드를 async/await로 바꿀 때",
+  "Swift 6로 옮길 때",
+  "데이터 레이스와 스레드 안전 문제"
+ ],
+ "examples": [
+  "이 Sendable 경고가 왜 나는지 보고 고쳐줘",
+  "콜백 기반 네트워크 코드를 async/await로 바꿔줘",
+  "프로젝트를 Swift 6 동시성 규칙에 맞게 옮기는 계획을 짜줘"
+ ],
+ "notes": [
+  "프로젝트 설정을 모르면 추측하지 않고 개발자에게 확인을 요청해요",
+  "@preconcurrency나 @unchecked Sendable을 권하면 안전 근거와 제거 계획도 함께 요구해요",
+  "Task.detached는 분명한 이유가 있을 때만 써요"
+ ]
+}

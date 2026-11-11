@@ -1,0 +1,20 @@
+{
+ "description": "AccessorySetupKit으로 블루투스와 Wi-Fi 액세서리를 찾고 설정해요.",
+ "summary": "iOS 18 이상의 시스템 선택 화면으로 개인정보를 보호하면서 액세서리를 찾고 승인받는 방법을 다뤄요. 검색 조건 정의, 선택 화면 표시, 이벤트 처리, CoreBluetooth 권한 방식에서의 전환을 설명하고 흔한 실수와 점검표도 있어요.",
+ "when": [
+  "블루투스 기기 연결",
+  "Wi-Fi 액세서리 설정",
+  "권한 없는 기기 검색",
+  "CoreBluetooth에서 전환"
+ ],
+ "examples": [
+  "앱에 액세서리 선택 화면을 붙여줘",
+  "BLE 기기 검색 조건을 정의해줘",
+  "CoreBluetooth 스캔을 AccessorySetupKit으로 바꿔줘"
+ ],
+ "notes": [
+  "iOS 18 이상이 필요해요",
+  "Info.plist 키와 entitlement 설정이 필요해요",
+  "원문은 영어예요"
+ ]
+}

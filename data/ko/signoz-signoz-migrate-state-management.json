@@ -1,0 +1,19 @@
+{
+ "description": "Redux나 Context 상태를 알맞은 저장 방식으로 옮겨요.",
+ "summary": "상태가 서버 데이터인지, URL로 공유할 값인지, 전역 클라이언트 상태인지, 한 컴포넌트 안의 값인지 먼저 분류해요. 그에 맞춰 React Query, nuqs, Zustand, useState로 옮겨요. Redux나 Context는 새로 쓰지 않고, 섞인 상태는 나눠서 이전해요.",
+ "when": [
+  "Redux 걷어내기",
+  "Context 상태 이전",
+  "서버 상태를 React Query로",
+  "URL 상태를 nuqs로"
+ ],
+ "examples": [
+  "이 Redux 슬라이스를 React Query와 Zustand로 옮겨줘",
+  "필터와 페이지 값을 URL 상태로 바꿔줘"
+ ],
+ "notes": [
+  "SigNoz 프런트엔드 규칙에 맞춘 절차예요",
+  "React Query, nuqs, Zustand를 쓰는 React 프로젝트가 대상이에요",
+  "생성된 React Query 훅이 있으면 우선 써요"
+ ]
+}

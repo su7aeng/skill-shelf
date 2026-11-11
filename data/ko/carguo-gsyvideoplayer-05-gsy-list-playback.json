@@ -1,0 +1,19 @@
+{
+ "description": "목록을 넘기면 영상이 자동 재생되도록 GSYVideoPlayer를 설정해요.",
+ "summary": "RecyclerView, ViewPager2, ViewPager에서 항목마다 플레이어를 두는 방식, 하나를 돌려 쓰는 ListVideoUtil 방식, 상세 화면으로 이어 보는 방식 세 가지를 비교해요. 스크롤로 재사용될 때 영상이 엉뚱한 항목에 붙지 않게 하는 요령도 알려 줘요.",
+ "when": [
+  "쇼트 영상 피드",
+  "목록 내 자동 재생",
+  "세로 넘김 재생",
+  "상세 화면 이어보기"
+ ],
+ "examples": [
+  "RecyclerView에서 화면에 보이면 자동 재생되게 해줘",
+  "ViewPager2로 세로로 넘기는 쇼트 영상을 만들어줘"
+ ],
+ "notes": [
+  "onBindViewHolder에서 위치와 태그를 지정해야 재사용 문제를 막을 수 있어요",
+  "Android 앱용 GSYVideoPlayer 프로젝트가 대상이에요",
+  "원문은 중국어예요"
+ ]
+}

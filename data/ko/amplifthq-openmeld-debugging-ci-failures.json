@@ -1,0 +1,19 @@
+{
+ "description": "PostHog CI가 왜 실패했는지 살펴보고 원인을 분류해요.",
+ "summary": "먼저 hogli ci:insights 요약으로 여러 실행의 이력을 보고, gh로 개별 실행의 실패를 확인해 첫 의미 있는 실패를 찾아 분류해요. 필요하면 로컬에서 가장 작은 재현을 하고, CI를 다시 돌리거나 GitHub에 글을 올리는 일은 시키지 않는 한 하지 않아요.",
+ "when": [
+  "CI 실패 원인 분석",
+  "master 상태 확인",
+  "불안정한 테스트 구분"
+ ],
+ "examples": [
+  "이 PR의 CI가 왜 빨간지 봐줘",
+  "지금 master 초록색이야",
+  "린트 실패인지 flaky인지 구분해줘"
+ ],
+ "notes": [
+  "PostHog 저장소용이고 hogli와 gh CLI를 써요",
+  "flaky로 확인되면 fixing-flaky-tests 스킬로 넘겨요",
+  "원문은 영어예요"
+ ]
+}

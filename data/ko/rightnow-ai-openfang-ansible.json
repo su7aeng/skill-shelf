@@ -1,0 +1,18 @@
+{
+ "description": "Ansible 플레이북과 인벤토리 작성을 도와요.",
+ "summary": "멱등하고 구조가 잘 잡힌 Ansible 자동화를 짜는 방법을 알려줘요. 롤 구성, 인벤토리와 변수 계층, Jinja2 템플릿, Vault 비밀 관리, block과 rescue 오류 처리를 다뤄요.",
+ "when": [
+  "플레이북 작성",
+  "롤 구조 설계",
+  "인벤토리 관리",
+  "비밀 값 암호화"
+ ],
+ "examples": [
+  "nginx 설치하는 Ansible 플레이북 써줘",
+  "인벤토리를 YAML로 정리하고 변수를 나눠줘"
+ ],
+ "notes": [
+  "원문이 영어예요",
+  "운영 인벤토리에 적용하기 전에 molecule이나 ansible-lint로 검증하라고 해요"
+ ]
+}

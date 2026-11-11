@@ -1,0 +1,21 @@
+{
+ "description": "Amazon Redshift를 PostgreSQL로 착각하지 않게 바로잡아 줘요.",
+ "summary": "Redshift에서 SQL을 쓰거나 느린 쿼리, 디스크 부족, 연결 오류를 풀 때 PostgreSQL 습관대로 답하지 않도록 잡아 줘요. 메타데이터는 SHOW 명령과 SYS_ 뷰로 확인하고, 주제별 참고 문서를 불러와 원인을 찾아요.",
+ "when": [
+  "Redshift SQL과 테이블 만들기",
+  "갑자기 느려진 쿼리",
+  "디스크 부족과 저장 공간 증가",
+  "COPY와 UNLOAD 오류",
+  "접속과 권한 문제"
+ ],
+ "examples": [
+  "Redshift에서 쿼리가 갑자기 느려졌는데 원인 좀 찾아줘",
+  "Redshift에 맞게 CREATE TABLE 문 다시 써줘",
+  "Redshift 디스크가 꽉 찼다는데 뭘 먼저 봐야 해?"
+ ],
+ "notes": [
+  "Redshift에만 적용되고 Athena, Aurora, RDS, DynamoDB에는 쓰지 않아요",
+  "시작 전에 Serverless인지 Provisioned인지부터 확인해요",
+  "실제 쿼리는 서버의 execute_query 도구로 실행하고, 위험한 명령은 막는 안전 규칙이 있어요"
+ ]
+}

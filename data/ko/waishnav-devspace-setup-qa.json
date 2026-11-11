@@ -1,0 +1,18 @@
+{
+ "description": "현재 DevSpace 작업본을 격리된 수동 QA용으로 준비해요.",
+ "summary": "pnpm dev:seed로 사용자의 설정과 상태를 이 작업본의 .devspace-dev에 복제하고, 필요하면 pnpm build:app으로 UI를 빌드한 뒤 pnpm dev로 서버를 띄워요. 새로 복제하고 싶을 때는 pnpm dev:reset을 써요.",
+ "when": [
+  "QA 환경 준비",
+  "워크트리 로컬 테스트",
+  "ChatGPT에서 실험 확인",
+  "QA 상태 초기화"
+ ],
+ "examples": [
+  "이 워크트리를 수동 QA용으로 준비해줘",
+  "QA 환경을 새로 초기화해줘"
+ ],
+ "notes": [
+  "pnpm이 필요하고 프런트엔드를 바꾸면 pnpm build:app을 다시 해야 해요",
+  "pnpm dev:reset은 pnpm dev를 멈춘 상태에서 실행해요"
+ ]
+}

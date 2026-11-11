@@ -1,0 +1,20 @@
+{
+ "description": "Voyager 확장의 플러그인, 사이트 어댑터, 네이티브 기능을 만들거나 고쳐요.",
+ "summary": "바꾸려는 내용에 따라 선언형 플러그인, 사이트 어댑터, 네이티브 primitive, 공식 플러그인 중 맞는 경로를 골라 해당 참고 문서만 읽고 작업해요. 새 기능과 새 사이트는 메인테이너 승인이 필요하고, 새 사이트나 primitive는 확장 릴리스가 따로 필요해요.",
+ "when": [
+  "Voyager 플러그인 개발",
+  "사이트 선택자 수정",
+  "새 사이트 지원 추가",
+  "네이티브 기능의 플러그인 전환"
+ ],
+ "examples": [
+  "Voyager에 CSS 플러그인 하나 추가해줘",
+  "Gemini 페이지 선택자가 깨졌는데 사이트 어댑터 고쳐줘",
+  "새 사이트를 Voyager에서 지원하게 하려면 뭘 해야 해"
+ ],
+ "notes": [
+  "Voyager 저장소(src/features/plugins/) 안에서 쓰는 개발자용 절차예요",
+  "원문은 영어이고 .github/CONTRIBUTING.md 규칙을 따라요",
+  "PR 준비는 voyager-contribute, 실제 확인은 verify-in-browser 스킬과 이어져요"
+ ]
+}

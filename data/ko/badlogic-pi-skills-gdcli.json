@@ -1,0 +1,18 @@
+{
+ "description": "명령줄로 Google Drive 파일을 찾고 올리고 공유해요.",
+ "summary": "gdcli로 파일과 폴더 목록 보기, 검색, 업로드, 다운로드, 공유를 해요. 처음에는 Google Cloud에서 Drive API를 켜고 OAuth 자격 증명을 등록해 계정을 추가해야 해요.",
+ "when": [
+  "Drive 파일 검색",
+  "파일 업로드와 다운로드",
+  "파일 공유"
+ ],
+ "examples": [
+  "Drive에서 계약서 파일을 찾아줘",
+  "이 파일을 Drive에 올려줘",
+  "이 폴더를 공유해줘"
+ ],
+ "notes": [
+  "npm install -g @mariozechner/gdcli 로 설치해요",
+  "Google Cloud 프로젝트와 OAuth 자격 증명 설정이 필요해요"
+ ]
+}

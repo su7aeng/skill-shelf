@@ -1,0 +1,16 @@
+{
+ "description": "swarms 저장소 형식으로 커밋 메시지와 PR 제목을 써요.",
+ "summary": "[TYPE][함수나 파일 이름][짧은 설명] 형식으로 한 줄을 만들어요. TYPE은 FEAT, FIX, DOCS, REFACTOR, TEST, CHORE 중 하나이고, 설명은 명령형 한 줄로 써요.",
+ "when": [
+  "커밋 메시지 작성",
+  "PR 제목 정하기"
+ ],
+ "examples": [
+  "이 변경으로 커밋 메시지 써줘",
+  "PR 제목을 저장소 형식에 맞춰줘"
+ ],
+ "notes": [
+  "swarms 저장소의 WARP 형식 전용이에요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "PicoClaw 설정, 확장, 문제 해결을 도와줘요.",
+ "summary": "PicoClaw는 CLI, 채팅 게이트웨이, MCP, 스킬을 갖춘 가벼운 개인 AI 비서 프레임워크예요. 이 스킬은 onboard, agent, gateway, model, auth 같은 명령과 config.json 편집, 기능 추가를 PicoClaw의 실제 구조와 문서에 맞춰 안내해요.",
+ "when": [
+  "PicoClaw 처음 설정",
+  "모델과 인증 변경",
+  "게이트웨이 문제 해결",
+  "스킬과 MCP 확장"
+ ],
+ "examples": [
+  "PicoClaw를 처음 설치했는데 초기 설정 방법 알려줘",
+  "PicoClaw 기본 모델을 바꾸고 싶어",
+  "PicoClaw에 MCP 서버가 연결됐는지 확인해줘"
+ ],
+ "notes": [
+  "PicoClaw 자체에 관한 작업에만 쓰는 스킬이에요",
+  "config set 같은 명령은 없어서 설정은 ~/.picoclaw/config.json을 직접 고쳐요",
+  "원문은 영어예요"
+ ]
+}

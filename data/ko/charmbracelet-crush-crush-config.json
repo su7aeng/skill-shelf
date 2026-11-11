@@ -1,0 +1,18 @@
+{
+ "description": "Crush 설정 파일 crushrc와 crush.json 작성을 도와줘요.",
+ "summary": "Bash 스크립트 형식의 crushrc와 JSON 형식의 crush.json으로 공급자, 모델, LSP, MCP 서버, 훅, 권한 등을 설정하는 법을 알려줘요. 두 형식은 함께 읽히고, 프로젝트 안 설정이 사용자 설정보다 우선해요.",
+ "when": [
+  "Crush 설정 작성",
+  "모델과 공급자 지정",
+  "MCP 서버와 권한 설정"
+ ],
+ "examples": [
+  "Crush에 Anthropic 공급자를 설정해줘",
+  "view와 grep 도구를 자동 허용하게 해줘"
+ ],
+ "notes": [
+  "crushrc는 Bash 문법을 쓰는 권장 형식이에요",
+  "crush.json도 그대로 지원돼요",
+  "원문은 영어예요"
+ ]
+}

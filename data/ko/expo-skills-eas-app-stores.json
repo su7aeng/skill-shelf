@@ -1,0 +1,20 @@
+{
+ "description": "EAS로 iOS와 Android 앱을 빌드하고 스토어에 올려요.",
+ "summary": "TestFlight, App Store, Google Play로 가는 빌드와 제출 과정을 안내해요. eas.json 설정, 릴리스 파이프라인, 서명, 버전과 빌드 번호, 스토어 등록 정보를 다뤄요. Expo와 React Native 프로젝트뿐 아니라 기존 네이티브 앱도 지원해요.",
+ "when": [
+  "앱 스토어 배포",
+  "eas.json 설정",
+  "서명과 인증서 관리",
+  "버전과 빌드 번호 관리"
+ ],
+ "examples": [
+  "내 앱을 TestFlight에 올려줘",
+  "eas.json을 릴리스용으로 설정해줘",
+  "Google Play에 제출하는 방법 알려줘"
+ ],
+ "notes": [
+  "EAS는 요금이 들 수 있어요. expo.dev/pricing을 확인해요",
+  "Apple Developer와 Google Play 멤버십은 별도예요",
+  "SwiftUI나 UIKit 네이티브 앱은 Expo 없이도 쓸 수 있어요"
+ ]
+}

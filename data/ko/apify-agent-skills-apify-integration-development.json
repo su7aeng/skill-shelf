@@ -1,0 +1,20 @@
+{
+ "description": "회사 제품에 넣을 공식 Apify 연동을 설계하고 만들어요.",
+ "summary": "자동화 앱, AI 에이전트 플러그인, AI 프레임워크 패키지, apify-client를 쓰는 직접 연동 중 알맞은 형태를 골라 설계와 구현을 도와요. 먼저 Apify 개념을 공식 문서로 익히고, 형태마다 참고 자료를 따라 작업해요. 공개 후에는 Apify 팀의 검토를 받도록 안내해요.",
+ "when": [
+  "제품에 Apify 연동 추가",
+  "Zapier나 n8n 같은 앱 연동",
+  "AI 에이전트 플러그인 개발",
+  "연동 설계 검토"
+ ],
+ "examples": [
+  "우리 서비스에 Apify Actor를 실행하는 연동을 설계해줘",
+  "LangChain용 Apify 패키지 구조를 잡아줘",
+  "만든 연동이 빠뜨린 부분이 없는지 검토해줘"
+ ],
+ "notes": [
+  "시작 전에 apify.com/agents.md를 읽어야 해요",
+  "공개한 뒤 integrations@apify.com으로 연락해 검토를 받아요",
+  "원문은 영어예요"
+ ]
+}

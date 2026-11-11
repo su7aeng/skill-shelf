@@ -1,0 +1,17 @@
+{
+ "description": "옛 이름의 학습 정비 명령을 ce-compound로 넘겨 실행해요.",
+ "summary": "ce-compound에 합쳐진 학습 문서 정비 기능을 옛 이름으로 부르는 호환용 스킬이에요. 곧 없어진다는 안내를 먼저 보여주고, 받은 인자를 그대로 붙여 ce-compound를 정비 모드로 실행해요. 끝나면 안내를 한 번 더 출력해요.",
+ "when": [
+  "옛 이름으로 예약된 작업",
+  "기존 프롬프트 유지",
+  "학습 문서 정비"
+ ],
+ "examples": [
+  "ce-compound-refresh로 학습 문서 정비해줘",
+  "payments 폴더 범위로 학습 문서 정비를 돌려줘"
+ ],
+ "notes": [
+  "앞으로는 /ce-compound refresh를 쓰라고 안내해요",
+  "곧 사라질 예정이라 새로 쓸 때는 ce-compound를 쓰는 편이 좋아요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Azure Application Insights로 웹앱 텔레메트리를 넣는 방법을 안내해요.",
+ "summary": "앱의 언어, 프레임워크, 호스팅 환경을 확인한 뒤 맞는 SDK 설정과 텔레메트리 패턴, 구성 참고 자료를 알려줘요. 안내용 참고 스킬이에요.",
+ "when": [
+  "App Insights SDK 설정 방법",
+  "텔레메트리 패턴 확인",
+  "APM 모범 사례",
+  "App Insights 개념 이해"
+ ],
+ "examples": [
+  "Node.js 앱에 App Insights 붙이는 방법 알려줘",
+  "ASP.NET Core에서 텔레메트리는 어떻게 설정해",
+  "Application Insights가 뭔지 설명해줘"
+ ],
+ "notes": [
+  "앱에 실제로 추가하는 작업은 azure-prepare 스킬이 맡아요",
+  "ASP.NET Core, Container App, Node.js, Python 앱이 대상이에요",
+  "원문이 영어예요"
+ ]
+}

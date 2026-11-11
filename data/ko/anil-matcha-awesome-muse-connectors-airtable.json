@@ -1,0 +1,20 @@
+{
+ "description": "Airtable 베이스와 테이블 기록을 읽고 새 기록을 추가해요.",
+ "summary": "bin/airtable.py로 베이스 목록(bases), 테이블 기록 읽기(records), 기록 추가(create)를 해요. 베이스 이름을 먼저 id로 바꾸고 기록은 기본 10개까지 가져와요. 기록 추가는 쓰기 작업이라 실행 전에 테이블과 값을 확인받아요.",
+ "when": [
+  "Airtable 기록 조회",
+  "새 기록 추가",
+  "베이스 목록 확인",
+  "표 데이터 확인"
+ ],
+ "examples": [
+  "내 Airtable 베이스 목록 보여줘",
+  "Tasks 테이블 기록 50개 읽어줘",
+  "Tasks에 Buy milk 항목 추가해줘"
+ ],
+ "notes": [
+  "Airtable 개인 액세스 토큰이 필요하고, 권한은 기록 읽기와 쓰기, 베이스 구조 읽기예요",
+  "접속 허용 주소는 api.airtable.com 하나예요",
+  "원문은 영어예요"
+ ]
+}

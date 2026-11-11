@@ -1,0 +1,18 @@
+{
+ "description": "officecli로 Word, Excel, PowerPoint 파일을 만들고 고쳐 줘요.",
+ "summary": "officecli 명령으로 docx, xlsx, pptx를 만들고 살펴보고 서식 문제를 찾고 차트도 넣어요. 읽기, 구조 편집, 원본 XML 편집 순으로 접근하고 헷갈리면 help를 먼저 확인해요.",
+ "when": [
+  "Office 문서 만들기",
+  "서식 문제 점검",
+  "엑셀 차트 추가",
+  "문서 내용 수정"
+ ],
+ "examples": [
+  "이 pptx 서식 문제 찾아서 고쳐줘",
+  "엑셀 파일에 차트 추가해줘"
+ ],
+ "notes": [
+  "officecli 설치가 필요하고 Office 프로그램은 필요 없어요",
+  "발표자료, 논문, 대시보드 등은 전용 스킬을 먼저 불러와요"
+ ]
+}

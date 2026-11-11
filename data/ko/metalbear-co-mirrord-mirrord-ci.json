@@ -1,0 +1,20 @@
+{
+ "description": "CI 파이프라인에서 mirrord로 실제 클러스터를 상대로 테스트해요.",
+ "summary": "CI 러너가 쿠버네티스 클러스터에 연결되도록 설정하고 mirrord ci start와 stop 명령을 워크플로에 넣어요. GitHub Actions와 GitLab CI 같은 워크플로 파일을 만들고 CI에서만 생기는 문제를 풀어 줘요.",
+ "when": [
+  "CI에서 e2e와 통합 테스트",
+  "스테이징 클러스터 연결",
+  "GitHub Actions와 GitLab CI 설정",
+  "mirrord ci 오류 해결"
+ ],
+ "examples": [
+  "GitHub Actions에서 mirrord로 스테이징 대상 테스트 돌리게 해줘",
+  "mirrord ci start가 동작하지 않아, 확인해줘",
+  "GitLab CI용 mirrord 설정 만들어줘"
+ ],
+ "notes": [
+  "설치는 신뢰할 수 있는 러너 이미지나 metalbear-co/setup-mirrord 액션을 권해요",
+  "원격 스크립트를 받아 바로 실행하는 설치는 쓰지 않아요",
+  "문제 해결은 references/troubleshooting.md를 읽고 진행해요"
+ ]
+}

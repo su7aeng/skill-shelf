@@ -1,0 +1,20 @@
+{
+ "description": "WordPress Abilities API 등록과 사용을 도와줘요.",
+ "summary": "PHP에서 ability와 카테고리를 등록하고, REST로 내보내고, JS의 @wordpress/abilities로 쓰는 과정을 다뤄요. 먼저 버전과 기존 사용 흔적을 확인한 뒤 등록 코드를 쓰고, ability가 안 보이는 문제도 진단해요.",
+ "when": [
+  "ability 등록",
+  "ability 카테고리 정의",
+  "REST 노출 설정",
+  "ability가 안 보이는 문제 해결"
+ ],
+ "examples": [
+  "플러그인에 ability를 하나 등록해줘",
+  "wp-abilities/v1 에서 빈 결과가 나오는 이유 찾아줘",
+  "ability 카테고리를 만들어서 묶어줘"
+ ],
+ "notes": [
+  "WordPress 7.0 이상, PHP 7.4 이상을 대상으로 해요",
+  "6.9 미만이면 별도 플러그인이 필요할 수 있어요",
+  "원문이 영어예요"
+ ]
+}

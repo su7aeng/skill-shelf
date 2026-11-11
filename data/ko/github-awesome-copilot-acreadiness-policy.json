@@ -1,0 +1,18 @@
+{
+ "description": "AgentRC 준비도 점수 정책을 고르고 작성하고 적용해요.",
+ "summary": "정책은 criteria, extras, thresholds 세 부분으로 된 작은 JSON 파일이에요. 필요 없는 검사 끄기, 영향도 조정, 통과율 기준 설정, 조직 기준과 팀 설정 겹치기를 도와요. strict.json과 ai-only.json 같은 예시 정책도 안내해요.",
+ "when": [
+  "엄격 모드 설정",
+  "점수 기준 바꾸기",
+  "CI 게이트 구성",
+  "조직 표준 통일"
+ ],
+ "examples": [
+  "더 엄격한 준비도 정책을 만들어줘",
+  "AI 관련 항목만 채점하는 정책을 적용해줘"
+ ],
+ "notes": [
+  "AgentRC 도구가 필요해요",
+  "show, new, apply 하위 명령으로 써요"
+ ]
+}

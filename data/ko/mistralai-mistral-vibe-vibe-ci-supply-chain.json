@@ -1,0 +1,19 @@
+{
+ "description": "Vibe의 git 작업, CI, 의존성 고정 규칙을 안내해요.",
+ "summary": "git 이력을 다시 쓰지 않는 규칙, GitHub Actions의 uses를 커밋 SHA로 고정하는 규칙, 시작 시 import 비용 점검, 외부 바이너리 내려받기 같은 공급망 관련 규칙을 알려 줘요.",
+ "when": [
+  "CI 파이프라인 수정",
+  "Actions 버전 고정",
+  "git 커밋과 푸시",
+  "의존성 고정 점검"
+ ],
+ "examples": [
+  "이 GitHub Actions를 Vibe 규칙대로 고정해줘",
+  "푸시가 거부됐는데 어떻게 맞춰야 해?"
+ ],
+ "notes": [
+  "Mistral Vibe 저장소 전용 규칙이에요",
+  "amend와 force push는 쓰지 않아요",
+  "git 명령은 uv run을 통해 실행해요"
+ ]
+}

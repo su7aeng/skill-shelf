@@ -1,0 +1,18 @@
+{
+ "description": "tanstack create 명령을 의도대로 만들어 새 앱을 시작해요.",
+ "summary": "프레임워크, 빌드 도구, 툴체인, 배포 대상, 애드온 같은 옵션을 맞춰 tanstack create 명령을 구성해요. 옵션끼리 충돌하는 조합과 질문 없이 만드는 방법을 알려줘요. 빈 템플릿이나 router-only 같은 선택지도 다뤄요.",
+ "when": [
+  "새 TanStack 앱 만들기",
+  "옵션 조합 정하기",
+  "최소 구성으로 시작"
+ ],
+ "examples": [
+  "React에 Biome, Netlify 배포로 TanStack 앱 만들어줘",
+  "애드온 없는 최소 앱으로 시작해줘"
+ ],
+ "notes": [
+  "npx @tanstack/cli create 를 써요",
+  "기본 빌드 도구는 Vite이고 Rsbuild는 React나 Solid에서 쓸 수 있어요",
+  "--template 은 router-only 모드에서 쓰지 않아요"
+ ]
+}

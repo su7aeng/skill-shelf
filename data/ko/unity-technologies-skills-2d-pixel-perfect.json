@@ -1,0 +1,19 @@
+{
+ "description": "유니티 픽셀 아트 게임이 흐릿하거나 떨리는 문제를 고쳐요.",
+ "summary": "먼저 URP인지 Built-in인지 렌더 파이프라인을 확인해요. 두 방식은 PixelPerfectCamera 컴포넌트가 서로 달라서, 알맞은 쪽으로 설정하고 진단하고 고쳐요. 필터 모드를 Point로 바꾸고 안티에일리어싱을 끄는 것이 대표 처방이에요.",
+ "when": [
+  "픽셀 아트 게임이 흐릿할 때",
+  "스프라이트가 떨리거나 어긋날 때",
+  "PixelPerfectCamera 설정",
+  "레트로풍 2D 게임"
+ ],
+ "examples": [
+  "우리 유니티 도트 게임이 흐릿하게 보여, 고쳐줘",
+  "PixelPerfectCamera를 설정해줘",
+  "스프라이트가 움직일 때 떨리는 이유 찾아줘"
+ ],
+ "notes": [
+  "URP 프로젝트에 com.unity.2d.pixel-perfect를 설치하지 않아요",
+  "HDRP와 HD 2D, UI 전용 화면에는 맞지 않아요"
+ ]
+}

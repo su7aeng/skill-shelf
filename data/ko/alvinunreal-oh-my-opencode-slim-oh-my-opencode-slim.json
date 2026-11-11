@@ -1,0 +1,18 @@
+{
+ "description": "oh-my-opencode-slim의 에이전트와 설정을 조정해요.",
+ "summary": "oh-my-opencode-slim.jsonc의 프리셋, 모델, 스킬, MCP, 사용자 지정 에이전트와 프롬프트 덧붙임 파일을 안전하게 고쳐요. 반복되는 불편이 있을 때만 설정 변경을 제안해요.",
+ "when": [
+  "에이전트 모델 변경",
+  "프리셋 전환",
+  "사용자 지정 에이전트 추가",
+  "프롬프트 조정"
+ ],
+ "examples": [
+  "explorer는 저렴한 모델로 바꿔줘",
+  "내 전용 에이전트를 설정에 추가해줘"
+ ],
+ "notes": [
+  "oh-my-opencode-slim 플러그인과 OpenCode 환경용이에요",
+  "기본 에이전트의 prompt 필드는 설정에서 직접 바꿀 수 없고 md 파일로 조정해요"
+ ]
+}

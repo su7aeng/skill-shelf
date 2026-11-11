@@ -1,0 +1,19 @@
+{
+ "description": "browse CLI로 브라우저를 조작하고 Browserbase 기능을 다뤄요.",
+ "summary": "browse 명령으로 로컬 또는 Browserbase 클라우드 브라우저를 열고, 페이지 상태를 읽고, 클릭과 입력을 해요. 스크린샷, 네트워크 캡처, 웹 가져오기와 검색, Browserbase 프로젝트와 Functions, 템플릿 관리, 환경 진단도 다뤄요. Browse.sh의 사이트별 스킬을 찾아 설치할 수도 있어요.",
+ "when": [
+  "웹페이지 열고 조작",
+  "브라우저 상태 확인",
+  "클라우드 브라우저 세션 실행",
+  "웹 내용 가져오기와 검색"
+ ],
+ "examples": [
+  "브라우저로 이 사이트를 열어서 로그인 화면을 스크린샷 찍어줘",
+  "Browserbase로 이 페이지를 가져와서 내용을 요약해줘"
+ ],
+ "notes": [
+  "browse CLI가 필요해요(npm install -g browse)",
+  "원격 세션과 클라우드 API는 BROWSERBASE_API_KEY가 필요해요",
+  "로컬 모드는 컴퓨터의 Chrome이나 Chromium을 써요"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "description": "생성한 CLI를 printing-press-library 저장소에 PR로 올려요.",
+ "summary": "로컬 라이브러리의 CLI를 mvanhorn/printing-press-library에 풀 리퀘스트로 게시해요. 저장소 포크, 브랜치 푸시, PR 생성이나 갱신까지 맡고, 준비가 안 됐으면 문서만 담은 PR로 대신하지 않고 막힌 이유를 알려줘요.",
+ "when": [
+  "만든 CLI를 공개 라이브러리에 올릴 때",
+  "차단된 API를 기록하는 journal PR을 낼 때"
+ ],
+ "examples": [
+  "notion CLI를 공개 라이브러리에 게시해줘",
+  "polish를 마친 notion을 게시하는 PR을 열어줘"
+ ],
+ "notes": [
+  "사용자가 새 메시지로 직접 요청해야 하고, polish에서 이어지는 연쇄 호출로는 실행하지 않아요",
+  "GitHub 계정과 gh 도구가 필요해요"
+ ]
+}

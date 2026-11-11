@@ -1,0 +1,19 @@
+{
+ "description": "모델을 OrcaSlicer로 슬라이싱하고 Bambu Lab 프린터로 넘겨 줘요.",
+ "summary": "stl, 3mf, obj 파일을 OrcaSlicer로 슬라이싱해서 출력용 G-code를 만들어요. Prusa, Bambu Lab, Creality, Voron 등의 기본 프로파일을 써요. Bambu Lab 프린터는 Bambu Connect나 Bambu Studio로 넘기고, 출력은 직접 시작하지 않아요.",
+ "when": [
+  "3D 모델 슬라이싱",
+  "G-code 만들기",
+  "Bambu Lab 프린터로 보내기",
+  "프린터 프로파일 찾기"
+ ],
+ "examples": [
+  "이 STL을 내 Bambu 프린터용으로 슬라이싱해줘",
+  "Prusa 프린터용 G-code를 만들어줘"
+ ],
+ "notes": [
+  "OrcaSlicer 설치가 필요해요",
+  "프린터에 직접 연결하거나 출력을 시작하지 않아요",
+  "출력 가능한지 검사는 cad 스킬이 맡아요"
+ ]
+}

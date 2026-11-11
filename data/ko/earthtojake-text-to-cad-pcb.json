@@ -1,0 +1,19 @@
+{
+ "description": "KiCad 회로 기판과 회로도를 만들고 검사하고 내보내요.",
+ "summary": "KiCad의 .kicad_pcb와 .kicad_sch 파일에서 부품과 넷을 다루고 배치, 배선, ERC, DRC를 해요. 주문 전에 제조사 한계, 디커플링, 전류별 배선 폭, JLCPCB나 PCBWay 같은 곳의 조립과 BOM 조달을 점검해요. 제작 파일, 넷리스트, BOM, STEP으로 내보내고 CAD Viewer에 보여줘요.",
+ "when": [
+  "회로 기판 설계",
+  "회로도 검토",
+  "주문 전 기판 점검",
+  "제작 파일과 BOM 내보내기"
+ ],
+ "examples": [
+  "이 기판의 DRC를 돌리고 주문 전 문제를 점검해줘",
+  "회로도를 검사해서 ERC 오류를 알려줘"
+ ],
+ "notes": [
+  "cad 명령(text-to-cad)이 필요하고 KiCad 명령줄 도구는 처음 쓸 때 자동으로 받아요(약 100MB)",
+  "KiCad 9 이상이 필요해요",
+  "직접 설치한 KiCad 앱은 실행하지 않아요"
+ ]
+}

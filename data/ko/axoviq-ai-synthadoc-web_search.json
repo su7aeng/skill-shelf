@@ -1,0 +1,18 @@
+{
+ "description": "웹 검색으로 관련 주소 목록을 찾아 줘요.",
+ "summary": "자연어 질문을 Tavily 검색 API에 보내 상위 주소를 돌려줘요. 글 내용은 가져오지 않고 주소만 찾는 단계예요. youtube 앞말을 쓰면 유튜브만 검색해요. 막히는 사이트는 목록에서 걸러 내요.",
+ "when": [
+  "주제 관련 웹 자료 찾기",
+  "유튜브 영상 검색",
+  "논문과 기사 후보 수집"
+ ],
+ "examples": [
+  "search for: RAG evaluation 으로 웹에서 찾아 줘",
+  "youtube: Karpathy transformers 영상을 검색해 줘"
+ ],
+ "notes": [
+  "pip install tavily-python 과 TAVILY_API_KEY 환경 변수가 필요해요. 무료는 월 1,000건이에요",
+  "결과 개수는 기본 20개이고 SYNTHADOC_WEB_SEARCH_MAX_RESULTS 로 바꿔요",
+  "reddit, medium, wikipedia 등은 기본으로 제외돼요"
+ ]
+}

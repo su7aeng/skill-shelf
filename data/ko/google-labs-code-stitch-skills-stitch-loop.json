@@ -1,0 +1,19 @@
+{
+ "description": "Stitch로 웹사이트를 페이지씩 반복해서 만들어 가요.",
+ "summary": "매 반복마다 .stitch/next-prompt.md 를 읽어 Stitch로 페이지를 만들고 사이트에 넣어요. 끝나기 전에 다음 할 일을 같은 파일에 써서 다음 반복으로 넘겨요.",
+ "when": [
+  "사이트를 페이지 단위로 제작",
+  "자동 반복 빌드",
+  "Stitch 결과 통합",
+  "다음 작업 이어가기"
+ ],
+ "examples": [
+  "Stitch 빌드 루프로 about 페이지를 만들어줘",
+  "next-prompt.md를 읽고 다음 페이지를 이어서 만들어줘"
+ ],
+ "notes": [
+  "Stitch MCP와 .stitch/DESIGN.md, .stitch/SITE.md 가 필요해요",
+  "Chrome DevTools MCP가 있으면 결과를 눈으로 확인할 수 있어요",
+  "원문은 영어예요"
+ ]
+}

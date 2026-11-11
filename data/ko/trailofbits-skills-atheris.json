@@ -1,0 +1,20 @@
+{
+ "description": "Python 퍼저 Atheris 설치와 하네스 작성, 실행 방법을 안내해요.",
+ "summary": "libFuzzer 기반 Atheris로 순수 Python 코드와 C 확장을 퍼징하는 방법을 설명해요. TestOneInput 하네스와 FuzzedDataProvider 작성, 계측 방법, AddressSanitizer와 함께 실행하는 법을 다뤄요.",
+ "when": [
+  "Python 패키지 퍼징",
+  "C 확장 메모리 손상 탐지",
+  "퍼저 선택 비교",
+  "퍼징 환경 구성"
+ ],
+ "examples": [
+  "Atheris로 이 Python 파서를 퍼징하는 하네스 만들어줘",
+  "Python C 확장에서 메모리 오류 찾는 법 알려줘",
+  "Atheris와 Hypothesis 중 뭘 써야 해"
+ ],
+ "notes": [
+  "Linux에서 쓰는 것을 권하고 Docker 환경도 안내해요",
+  "최신 clang과 Python 3.7 이상이 필요해요",
+  "원문이 영어예요"
+ ]
+}

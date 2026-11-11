@@ -1,0 +1,19 @@
+{
+ "description": "OpenClaw에서 코드 그래프로 구조 질문에 답해요.",
+ "summary": "hivemind_graph_search와 hivemind_graph_neighborhood 도구로 심볼과 파일 주변의 호출, import 관계를 찾아요. 그래프는 매 턴 뒤 자동으로 갱신되고, 찾은 위치는 실제 소스를 읽어 확인해요.",
+ "when": [
+  "호출 관계 찾기",
+  "정의 위치 찾기",
+  "변경 영향 파악"
+ ],
+ "examples": [
+  "auth 관련 함수 찾아줘",
+  "deeplake-pull.ts가 뭘 import하는지 알려줘",
+  "이 코드를 바꾸면 영향 범위가 어디야"
+ ],
+ "notes": [
+  "OpenClaw용 스킬이에요",
+  "게이트웨이 작업 폴더가 저장소가 아니면 openclaw.json의 HIVEMIND_GRAPH_CWD를 설정해요",
+  "그래프는 색인일 뿐이라 소스를 대신하지 않아요"
+ ]
+}

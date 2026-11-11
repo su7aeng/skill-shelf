@@ -1,0 +1,18 @@
+{
+ "description": "Docker 환경에 개인 도구를 추가하는 설정 파일을 만들어요.",
+ "summary": "현재 폴더가 소스 빌드용인지 GHCR 이미지용인지 먼저 알아봐요. 그다음 Dockerfile.user와 docker-compose.override.yml을 대화하면서 만들어서 깃에 올리지 않고 나만의 도구를 넣게 해요.",
+ "when": [
+  "Docker에 도구 추가",
+  "개인 Docker 환경 설정",
+  "컨테이너 맞춤 설정"
+ ],
+ "examples": [
+  "도커에 vim이랑 ripgrep 추가해줘",
+  "내 도구를 컨테이너에 넣고 싶어"
+ ],
+ "notes": [
+  "두 파일은 깃에 올라가지 않는 개인용 파일이에요",
+  "루트 또는 deploy 폴더의 docker-compose.yml 위치에 따라 경로가 달라요",
+  "위치를 알 수 없으면 어느 폴더인지 물어봐요"
+ ]
+}

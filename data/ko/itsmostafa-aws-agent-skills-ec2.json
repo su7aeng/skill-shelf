@@ -1,0 +1,19 @@
+{
+ "description": "AWS EC2 가상 서버를 만들고 관리하는 방법을 안내해요.",
+ "summary": "인스턴스, 보안 그룹, 키 페어, AMI, EBS 볼륨, Auto Scaling 그룹, 스팟 인스턴스, Session Manager 사용법을 다뤄요. CLI 예시와 모범 사례, 문제 해결 방법도 있어요.",
+ "when": [
+  "EC2 인스턴스 실행",
+  "보안 그룹 설정",
+  "Auto Scaling 구성",
+  "접속 문제 해결"
+ ],
+ "examples": [
+  "EC2 인스턴스 하나 띄우는 명령 알려줘",
+  "보안 그룹에서 SSH 허용하는 방법 알려줘",
+  "Session Manager로 서버에 접속하는 법 알려줘"
+ ],
+ "notes": [
+  "AWS 계정과 CLI가 필요해요",
+  "원문은 영어예요"
+ ]
+}

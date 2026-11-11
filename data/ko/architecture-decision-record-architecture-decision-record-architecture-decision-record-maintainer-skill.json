@@ -1,0 +1,20 @@
+{
+ "description": "ADR 템플릿 저장소 자체를 고치고 관리할 때 쓰는 유지보수용 스킬이에요.",
+ "summary": "joelparkerhenderson/architecture-decision-record 저장소에서 템플릿, 예시, 도구 링크, 번역을 추가하거나 고치는 작업을 도와줘요. README.md가 기준 문서이고 locales 폴더의 언어별 사본과 어떻게 맞물리는지 안내해요. 기여자 PR을 검토할 때의 기준도 담고 있어요.",
+ "when": [
+  "ADR 템플릿 추가와 수정",
+  "예시와 도구 링크 갱신",
+  "기여자 PR 검토",
+  "README와 번역 폴더 정합성 확인"
+ ],
+ "examples": [
+  "이 저장소 README에 새 ADR 도구 링크를 추가해줘",
+  "들어온 PR이 저장소 규칙에 맞는지 봐줘",
+  "새 ADR 템플릿을 저장소 구조에 맞게 넣어줘"
+ ],
+ "notes": [
+  "다른 프로젝트용 ADR을 쓸 때는 architecture-decision-record-skill을 써야 해요",
+  "보통 README.md만 고치고 locales 사본은 소유자 도구가 맞춘다고 가정해요",
+  "index.md만 편집하고 README.md 심볼릭 링크는 건드리지 않아요"
+ ]
+}

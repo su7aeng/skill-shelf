@@ -1,0 +1,20 @@
+{
+ "description": "백링크 상태를 점검하는 오프페이지 SEO 감사를 해요.",
+ "summary": "유료 도구 없이도 Google Search Console의 링크 보고서로 상위 링크 사이트, 많이 링크된 페이지, 앵커 텍스트를 살펴봐요. Ahrefs, Semrush, Majestic, DataForSEO의 CSV를 주면 함께 분석해요. 실제 절차는 연결된 WORKFLOW.md를 따라요.",
+ "when": [
+  "백링크 점검",
+  "링크 프로필 분석",
+  "앵커 텍스트 확인",
+  "오프페이지 SEO 진단"
+ ],
+ "examples": [
+  "우리 사이트 백링크 상태를 점검해줘",
+  "Ahrefs에서 내려받은 CSV로 링크 프로필을 분석해줘",
+  "Search Console 링크 보고서로 어떤 페이지가 많이 링크됐는지 알려줘"
+ ],
+ "notes": [
+  "Google Search Console 연결이 필요해요",
+  "SEO 폴더의 WORKFLOW.md를 읽고 그대로 따르는 구조예요",
+  "유료 도구의 CSV는 있으면 쓰는 선택 사항이에요"
+ ]
+}

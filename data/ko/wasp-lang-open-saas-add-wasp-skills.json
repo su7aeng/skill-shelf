@@ -1,0 +1,17 @@
+{
+ "description": "Wasp 지식을 더해 주는 에이전트 스킬 설치를 안내해요.",
+ "summary": "사용 가능한 Wasp 스킬이 있다고 알려 준 뒤 wasp-agent-plugins 저장소의 README를 받아와요. 그 설치 안내를 따라 사용자가 설치를 마치도록 도와요.",
+ "when": [
+  "Wasp 스킬 설치",
+  "AI 도구 확장",
+  "Open SaaS 개발 준비"
+ ],
+ "examples": [
+  "Wasp 스킬 설치해줘",
+  "Wasp 플러그인 어떻게 설치하는지 알려줘"
+ ],
+ "notes": [
+  "원문이 영어이고 인터넷으로 README를 받아와요",
+  "설치 방법은 받아온 README 내용을 따라요"
+ ]
+}

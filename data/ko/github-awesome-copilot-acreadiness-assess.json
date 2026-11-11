@@ -1,0 +1,19 @@
+{
+ "description": "저장소의 AI 준비도를 평가해 HTML 대시보드로 만들어요.",
+ "summary": "npx github:microsoft/agentrc readiness로 평가를 실행하고, 결과 화면은 @ai-readiness-reporter 에이전트에 넘겨 reports/index.html로 만들어요. 조직별 점수 기준은 --policy로 적용할 수 있어요.",
+ "when": [
+  "AI 준비도 점검",
+  "저장소 감사",
+  "준비도 점수 확인",
+  "대시보드 보고서 만들기"
+ ],
+ "examples": [
+  "이 저장소 AI 준비도를 평가해줘",
+  "정책 파일을 적용해서 준비도 점수 보고서를 만들어줘"
+ ],
+ "notes": [
+  "Node 20 이상이 필요해요",
+  "결과는 file://로 열거나 저장소에 커밋할 수 있어요",
+  "@ai-readiness-reporter 에이전트를 사용해요"
+ ]
+}

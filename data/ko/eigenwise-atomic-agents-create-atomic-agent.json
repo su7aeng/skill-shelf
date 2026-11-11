@@ -1,0 +1,19 @@
+{
+ "description": "Atomic Agents용 AtomicAgent를 만들고 연결해요.",
+ "summary": "에이전트가 하는 일, 입력과 출력, 제공사, 대화 기록, 컨텍스트 제공자를 먼저 묻고 계획을 세운 뒤 코드를 써요. 스키마, AgentConfig, SystemPromptGenerator, 클라이언트를 엮어 AtomicAgent를 만들고 실행해 확인해요.",
+ "when": [
+  "새 에이전트 추가",
+  "플래너나 라우터 에이전트 만들기",
+  "에이전트에 클라이언트 연결",
+  "대화 기록 붙이기"
+ ],
+ "examples": [
+  "티켓을 분류하는 라우터 에이전트를 만들어줘",
+  "질문에 답하는 AtomicAgent를 하나 추가해줘"
+ ],
+ "notes": [
+  "Python 프로젝트에서 atomic_agents를 쓸 때 해당돼요",
+  "OpenAI, Anthropic, Groq, Ollama, Gemini, OpenRouter, MiniMax 중 제공사를 골라요",
+  "원문이 영어예요"
+ ]
+}

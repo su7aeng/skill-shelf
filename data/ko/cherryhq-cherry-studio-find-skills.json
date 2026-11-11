@@ -1,0 +1,18 @@
+{
+ "description": "필요한 기능이 이미 스킬로 있는지 찾아 설치해 줘요.",
+ "summary": "사용자가 특정 작업을 도와 줄 스킬이 있는지 물으면 skills.sh 순위표를 보고 Cherry의 search_skills로 검색해요. 맞는 것이 있으면 install_skill로 하나씩 설치해요.",
+ "when": [
+  "필요한 스킬 검색",
+  "스킬 설치",
+  "특정 분야 도구 탐색"
+ ],
+ "examples": [
+  "테스트 작성에 쓸 만한 스킬 있는지 찾아줘",
+  "이런 작업 도와주는 스킬 있어?"
+ ],
+ "notes": [
+  "Cherry 앱의 search_skills와 install_skill 도구를 써요. npx나 git으로 직접 설치하지 않아요",
+  "설치 권한은 현재 권한 모드를 따라요",
+  "원문은 영어예요"
+ ]
+}

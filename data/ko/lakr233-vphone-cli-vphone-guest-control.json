@@ -1,0 +1,19 @@
+{
+ "description": "Mac에서 가상 iPhone을 vphone-launchpad-cli로 조작해요.",
+ "summary": "vphone-launchpad-cli status로 현재 상태를 보고 설치, 머신 생성, 시작, 화면 조작 중 다음 단계를 정해요. 작업별 참고 문서를 먼저 읽고 진행해요.",
+ "when": [
+  "가상 iPhone 실행",
+  "머신 생성과 관리",
+  "화면 탭과 스크린샷",
+  "번들 설치 점검"
+ ],
+ "examples": [
+  "가상 iPhone 하나 만들어서 켜줘",
+  "지금 켜진 머신 스크린샷 찍어줘"
+ ],
+ "notes": [
+  "원문이 영어이고 Apple Silicon Mac이 필요해요",
+  "관리자 암호 입력 같은 호스트 설정은 사용자가 직접 해야 해요",
+  "sudo나 devicectl 같은 우회 경로는 쓰지 말라고 안내해요"
+ ]
+}

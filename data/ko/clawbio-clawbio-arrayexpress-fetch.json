@@ -1,0 +1,20 @@
+{
+ "description": "ArrayExpress 연구 정보를 조회하고 데이터를 내려받아요.",
+ "summary": "E-MTAB 같은 accession이나 검색어로 연구 메타데이터를 가져오고 파일을 종류별로 나눠 보여 줘요. SDRF 실험 설계 출력, 범주별 다운로드, 통합 metadata.tsv, nf-core rnaseq 또는 scrnaseq용 samplesheet.csv 생성까지 해요.",
+ "when": [
+  "ArrayExpress 연구 조회",
+  "SDRF 실험 설계 확인",
+  "원시 데이터 내려받기",
+  "nf-core 샘플시트 만들기"
+ ],
+ "examples": [
+  "E-MTAB-10030 연구 정보 보여줘",
+  "이 연구의 SDRF 실험 설계 출력해줘",
+  "이 연구로 nf-core/rnaseq 샘플시트 만들어줘"
+ ],
+ "notes": [
+  "Python 3.10 이상이 필요해요",
+  "네트워크로 BioStudies에 접속해요",
+  "--demo 로 저장된 예시 연구를 돌려볼 수 있어요"
+ ]
+}

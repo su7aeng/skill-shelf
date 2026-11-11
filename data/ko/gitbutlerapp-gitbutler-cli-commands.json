@@ -1,0 +1,19 @@
+{
+ "description": "GitButler의 but CLI에 새 명령을 추가하거나 고치는 방법을 안내해요.",
+ "summary": "crates/but/src 아래에서 명령을 만들 때 지켜야 할 구조를 알려 줘요. 인자 정의는 args 폴더에 두고, 명령 처리는 lib.rs의 match 항목에 연결하는 순서로 진행해요. Git 객체를 가리키는 인자에는 CliIdArg 같은 전용 타입을 쓰고, 모든 필드에 문서 주석을 달도록 해요.",
+ "when": [
+  "but 명령 추가",
+  "기존 명령 수정",
+  "명령 인자 설계",
+  "오류 예시 등록"
+ ],
+ "examples": [
+  "but에 commit3 같은 새 명령을 추가해줘",
+  "but 명령의 인자를 CliIdArg로 바꿔줘",
+  "명령 인자끼리 같이 못 쓰게 group으로 묶어줘"
+ ],
+ "notes": [
+  "Rust와 clap을 쓰는 GitButler 저장소 안에서 쓰는 개발용 스킬이에요",
+  "원문은 영어예요"
+ ]
+}

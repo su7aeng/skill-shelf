@@ -1,0 +1,19 @@
+{
+ "description": "셀프호스팅 웹 서비스를 ServerBox Monitor 앱으로 만들어요.",
+ "summary": "Immich, Jellyfin 같은 서비스를 store/apps 아래 폴더로 옮겨요. manifest.toml과 Monitor가 배포할 Docker Compose 파일을 만들고, 검증한 뒤 카탈로그에 제안하는 데까지 도와줘요.",
+ "when": [
+  "Monitor 앱 추가",
+  "앱 버전 올리기",
+  "검증 오류 해결",
+  "compose 파일 변환"
+ ],
+ "examples": [
+  "Monitor에서 Jellyfin을 설치할 수 있게 앱을 추가해줘",
+  "Immich를 새 버전으로 올려줘",
+  "이 docker-compose.yml을 Monitor 앱으로 바꿔줘"
+ ],
+ "notes": [
+  "Docker Compose 지식이 필요해요",
+  "원문은 영어예요"
+ ]
+}

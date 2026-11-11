@@ -1,0 +1,18 @@
+{
+ "description": "SwiftUI 앱에서 필요한 부분만 AppKit으로 연결해 줘요.",
+ "summary": "SwiftUI만으로 안 되는 창, 메뉴, 패널, 응답자 체인 같은 맥 고유 동작에 가장 작은 다리를 놓는 방법을 안내해요. 상태는 SwiftUI가 갖고 AppKit은 가장자리 처리만 맡도록 나눠요.",
+ "when": [
+  "NSViewRepresentable 작성",
+  "NSWindow나 패널 접근",
+  "메뉴와 단축키 처리",
+  "드래그 앤 드롭 처리"
+ ],
+ "examples": [
+  "SwiftUI 화면에서 NSWindow 설정을 바꾸고 싶어",
+  "AppKit 텍스트 뷰를 SwiftUI에 끼워 넣어 줘"
+ ],
+ "notes": [
+  "macOS 앱 개발용이에요",
+  "세부 내용은 references 폴더의 파일들을 따라가요"
+ ]
+}

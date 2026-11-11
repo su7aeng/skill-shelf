@@ -1,0 +1,19 @@
+{
+ "description": "KubeSphere DevOps에서 ArgoCD 설정과 문제 해결을 도와줘요.",
+ "summary": "KubeSphere DevOps에 포함된 ArgoCD로 GitOps 배포를 설정하는 방법을 안내해요. 관리자가 ArgoCD 앱을 직접 만드는 방식과 테넌트가 KubeSphere API로 만드는 방식의 차이를 설명하고 Dex SSO, 저장소 인증, 동기화 문제까지 다뤄요.",
+ "when": [
+  "GitOps 배포 설정",
+  "ArgoCD 앱 관리",
+  "SSO 설정",
+  "동기화 문제 해결"
+ ],
+ "examples": [
+  "ArgoCD로 GitOps 배포를 설정해줘",
+  "ArgoCD 앱이 동기화되지 않는 이유를 찾아줘"
+ ],
+ "notes": [
+  "원문에 ArgoCD v2.11.7이 포함돼 있다고 나와요",
+  "KubeSphere 클러스터와 kubectl 접근이 필요해요",
+  "원문이 영어예요"
+ ]
+}

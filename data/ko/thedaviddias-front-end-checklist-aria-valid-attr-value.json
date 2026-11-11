@@ -1,0 +1,17 @@
+{
+ "description": "ARIA 속성에 들어간 값이 올바른지 확인하고 고쳐 줘요.",
+ "summary": "aria-expanded 같은 속성의 값이 허용된 형식인지 검사해요. yes와 no 대신 true와 false를 쓰는지, aria-labelledby가 가리키는 ID가 실제로 있는지도 확인하고 틀린 값은 고쳐요.",
+ "when": [
+  "ARIA 값 검증",
+  "aria-labelledby 참조 확인",
+  "접근성 코드 리뷰"
+ ],
+ "examples": [
+  "aria-expanded 값이 제대로 들어갔는지 확인해줘",
+  "aria-labelledby가 가리키는 ID가 있는지 점검해줘"
+ ],
+ "notes": [
+  "frontendchecklist.io의 규칙을 바탕으로 해요",
+  "원문은 영어예요"
+ ]
+}

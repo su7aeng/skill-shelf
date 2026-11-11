@@ -1,0 +1,19 @@
+{
+ "description": "ActivityKit으로 실시간 활동과 Dynamic Island를 만들어요.",
+ "summary": "잠금 화면과 Dynamic Island에 실시간으로 갱신되는 Live Activity를 구현하고 점검하는 방법을 다뤄요. 시작, 갱신, 종료 흐름과 compact, minimal, expanded 레이아웃, 푸시로 갱신하는 방법을 설명해요.",
+ "when": [
+  "배달 추적 표시",
+  "경기 점수 실시간 표시",
+  "운동 타이머",
+  "잠금 화면 상태 표시"
+ ],
+ "examples": [
+  "배달 진행 상황을 Live Activity로 만들어줘",
+  "Dynamic Island 레이아웃을 짜줘",
+  "푸시로 Live Activity를 갱신하는 방법 알려줘"
+ ],
+ "notes": [
+  "일반 위젯은 widgetkit, 푸시 설정은 push-notifications 스킬이 맡아요",
+  "원문은 영어예요"
+ ]
+}

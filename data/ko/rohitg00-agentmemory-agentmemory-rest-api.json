@@ -1,0 +1,20 @@
+{
+ "description": "agentmemory를 HTTP로 직접 호출하는 방법을 알려 줘요.",
+ "summary": "agentmemory의 기본 통신 방식인 REST 주소로 상태 확인, 저장, 검색을 하는 예시를 보여 줘요. 인증 헤더 규칙과 응답 코드 관례도 다뤄요. MCP를 쓸 수 없거나 MCP를 모르는 환경을 연결할 때 대안이 돼요.",
+ "when": [
+  "MCP 없이 연결",
+  "HTTP로 기억 저장",
+  "HTTP로 기억 검색",
+  "다른 도구와 연동"
+ ],
+ "examples": [
+  "MCP가 안 되는데 agentmemory에 curl로 저장하는 법 알려줘",
+  "agentmemory REST로 검색 요청 보내줘",
+  "agentmemory 서버가 살아 있는지 확인해줘"
+ ],
+ "notes": [
+  "상태 확인을 뺀 모든 요청에 Bearer 비밀 값이 필요해요",
+  "기본 주소는 localhost 3111 포트예요",
+  "전체 엔드포인트 목록은 REFERENCE.md에 있어요"
+ ]
+}

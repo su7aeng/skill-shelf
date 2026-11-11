@@ -1,0 +1,18 @@
+{
+ "description": "ov dream과 ov recall 명령을 OpenViking로 실행해요.",
+ "summary": "사용자가 ov dream 또는 ov recall <질문>이라고 입력하면 일반 대화가 아니라 스크립트 명령으로 처리해요. dream은 OpenClaw 채팅 기록을 OpenViking으로 동기화하고, recall은 저장된 기억을 검색해 결과를 돌려줘요.",
+ "when": [
+  "채팅 기록 수동 동기화",
+  "저장된 기억 수동 검색",
+  "OpenClaw 세션 백업"
+ ],
+ "examples": [
+  "ov dream",
+  "ov recall 지난주 배포 이슈"
+ ],
+ "notes": [
+  "python3 scripts/dream.py를 실행해요",
+  "cron, heartbeat, 서브에이전트 같은 채팅이 아닌 세션은 동기화하지 않아요",
+  "메시지가 정확히 이 접두어로 시작할 때만 작동해요"
+ ]
+}

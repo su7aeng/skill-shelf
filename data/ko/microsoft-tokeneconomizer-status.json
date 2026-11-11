@@ -1,0 +1,18 @@
+{
+ "description": "TokenEconomizer가 배운 것, 한 일, 세션 비용을 보여 줘요.",
+ "summary": "te status 명령을 실행해 이 저장소에서 TokenEconomizer가 학습한 내용과 동작, 세션 비용을 보여 줘요. 출력은 그대로 전달하고, 경고가 있을 때만 한 문장으로 설명해요.",
+ "when": [
+  "TokenEconomizer 상태 확인",
+  "세션 비용 확인",
+  "경고 내용 확인"
+ ],
+ "examples": [
+  "TokenEconomizer 상태 알려줘",
+  "이 저장소 세션에 비용이 얼마나 들었는지 보여줘"
+ ],
+ "notes": [
+  "Codex 환경 전용이에요",
+  "읽기만 하고 모델 호출은 하지 않아요",
+  "런처가 없다고 나오면 새 Codex 세션을 먼저 시작해야 해요"
+ ]
+}

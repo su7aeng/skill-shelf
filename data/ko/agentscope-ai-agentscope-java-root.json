@@ -1,0 +1,18 @@
+{
+ "description": "AgentScope Java로 반응형 멀티 에이전트 코드를 짜는 규칙을 안내해요.",
+ "summary": "Project Reactor 기반의 AgentScope Java에서 지켜야 할 규칙과 작성 패턴을 알려 줘요. 예를 들어 예제 코드에서 .block()을 쓰지 않고 Mono와 Flux로 이어 쓰며, API 키는 환경 변수로 읽어요.",
+ "when": [
+  "AgentScope Java 코드 작성",
+  "반응형 프로그래밍",
+  "멀티 에이전트 구성",
+  "LLM 연동"
+ ],
+ "examples": [
+  "AgentScope Java로 간단한 에이전트를 만들어줘",
+  "이 코드를 블로킹 없이 Mono로 바꿔줘"
+ ],
+ "notes": [
+  "Java와 Project Reactor 지식이 있는 프로젝트에서 쓰는 스킬이에요",
+  "Thread.sleep과 ThreadLocal도 쓰지 않아요. 원문은 영어예요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "레시피의 pyproject.toml을 저장소 표준에 맞춰 줘요.",
+ "summary": "scripts/align_pyproject.py로 여덟 가지 규칙을 검사해요. 읽기 전용 --dry-run은 맞출 부분만 보고하고, 적용 모드는 pyproject.toml과 필요하면 manifest.yaml을 고쳐요. Python 버전 하한은 3.11을 받아들이도록 맞춰요.",
+ "when": [
+  "레시피 설정 정렬",
+  "CI 검증 실패 수정",
+  "pyproject 점검",
+  "Python 버전 조건 수정"
+ ],
+ "examples": [
+  "이 레시피의 pyproject.toml을 표준에 맞춰줘",
+  "먼저 dry-run으로 고칠 부분만 알려줘"
+ ],
+ "notes": [
+  "pyproject.toml만 다루고 ruff.toml은 CI가 따로 검사해요",
+  "ADK 메이저 버전 올리는 일은 코드 이전이라 이 스킬 범위가 아니에요",
+  "google-adk-recipes 저장소 전용이에요"
+ ]
+}

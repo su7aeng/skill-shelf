@@ -1,0 +1,18 @@
+{
+ "description": "ChatGPT 같은 AI 검색 답변에 인용되도록 콘텐츠를 다듬어요.",
+ "summary": "생성형 엔진 최적화(GEO)를 해요. ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews에서 답변에 인용되도록 기존 콘텐츠를 점검하고 다시 쓰며 엔진별 전략을 만들어요. 실제 절차는 연결된 WORKFLOW.md를 따라요.",
+ "when": [
+  "AI 검색 최적화",
+  "AI 답변에 인용되기",
+  "콘텐츠 감사와 재작성",
+  "엔진별 전략 수립"
+ ],
+ "examples": [
+  "우리 글이 ChatGPT 답변에 나오게 최적화해줘",
+  "Perplexity에 인용되려면 이 페이지를 어떻게 고쳐야 해",
+  "AI 검색용으로 콘텐츠를 점검해줘"
+ ],
+ "notes": [
+  "SEO 폴더의 WORKFLOW.md를 읽고 그대로 따르는 구조예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "YouTube 채널의 영상 목록과 정보를 조회해요.",
+ "summary": "TranscriptAPI.com으로 @핸들이나 채널 URL을 채널 ID로 바꾸고, 업로드 목록과 최근 게시물을 가져와요. 핸들 변환은 무료예요.",
+ "when": [
+  "채널 업로드 목록",
+  "최근 올라온 영상",
+  "채널 ID 확인",
+  "크리에이터 조사"
+ ],
+ "examples": [
+  "@TED 채널의 최근 영상을 보여 줘",
+  "이 채널 URL의 채널 ID를 알려 줘",
+  "이 크리에이터가 뭘 올렸는지 알려 줘"
+ ],
+ "notes": [
+  "TRANSCRIPT_API_KEY 환경변수의 API 키가 필요해요",
+  "최신 인자는 transcriptapi.com/openapi.json 에서 확인할 수 있어요",
+  "요청에 Authorization과 User-Agent 헤더가 모두 필요해요"
+ ]
+}

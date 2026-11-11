@@ -1,0 +1,18 @@
+{
+ "description": "Agentlas 브라우저 기능을 같은 이름의 다른 스킬로 연결해 줘요.",
+ "summary": "hep-browser 스킬의 별칭이에요. 이 파일이 직접 일하지 않고, 옆 폴더의 hep-browser/SKILL.md를 찾아 그 지시를 그대로 따라요. 명령 뒤에 적은 내용은 그 스킬의 요청으로 넘겨요.",
+ "when": [
+  "브라우저가 필요한 작업",
+  "Kimi 환경에서 Agentlas 사용",
+  "hep-browser 대신 부르기"
+ ],
+ "examples": [
+  "/skill:agentlas-browser https://example.com 열어줘",
+  "이 페이지를 브라우저로 렌더링해서 확인해줘"
+ ],
+ "notes": [
+  "같은 skills 폴더에 hep-browser 스킬이 있어야 해요",
+  "직접 요약하거나 따로 일하지 않고 hep-browser 문서를 기준으로 해요",
+  "원문은 영어예요"
+ ]
+}

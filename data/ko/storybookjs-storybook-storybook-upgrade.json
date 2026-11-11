@@ -1,0 +1,17 @@
+{
+ "description": "Storybook 패키지를 지정한 버전으로 올려요.",
+ "summary": "npx storybook@버전 upgrade 명령으로 프로젝트의 Storybook 패키지를 한꺼번에 올려요. 정식, 카나리, 특정 릴리스를 지정할 수 있고 의존성은 자동으로 맞춰져요.",
+ "when": [
+  "외부 앱 Storybook 업그레이드",
+  "카나리 빌드 확인",
+  "버그 재현 프로젝트"
+ ],
+ "examples": [
+  "Storybook을 최신 버전으로 올려줘",
+  "이 PR의 카나리 빌드로 업그레이드해서 확인해줘"
+ ],
+ "notes": [
+  "패키지를 npm add로 따로 설치하지 말고 upgrade 명령만 써요",
+  "메이저 버전은 한 단계씩만 올려요"
+ ]
+}

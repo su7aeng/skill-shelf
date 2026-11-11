@@ -1,0 +1,20 @@
+{
+ "description": "Databricks 노트북과 작업을 Fabric으로 옮겨요.",
+ "summary": "dbutils를 notebookutils로, 비밀 범위를 Key Vault로, DBFS를 OneLake로 바꾸는 식으로 변환해요. Unity Catalog는 스키마 지원 Lakehouse로, Jobs와 Delta Live Tables는 Spark Job Definition과 Pipeline으로 옮겨요. 직접 대응이 없는 기능은 대안을 안내해요.",
+ "when": [
+  "Databricks에서 Fabric 이전",
+  "노트북 코드 변환",
+  "작업과 파이프라인 이전",
+  "Unity Catalog 매핑"
+ ],
+ "examples": [
+  "이 Databricks 노트북을 Fabric에서 돌아가게 바꿔줘",
+  "dbutils.secrets 쓰는 코드를 Key Vault 방식으로 바꿔줘",
+  "Unity Catalog 구조를 Fabric Lakehouse로 옮기는 계획을 세워줘"
+ ],
+ "notes": [
+  "Azure CLI(az)로 Fabric API를 호출하고, 모든 호출에 x-ms-fabric-skill 헤더를 붙여야 해요",
+  "dbutils.widgets는 직접 대응이 없어 노트북 매개변수를 써요",
+  "이전하지 않는 Fabric 노트북 작업은 spark-cli를 써요"
+ ]
+}

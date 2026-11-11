@@ -1,0 +1,19 @@
+{
+ "description": "데이터베이스 스키마를 읽어 Wren MDL 프로젝트를 만들어요.",
+ "summary": "사용 가능한 DB 도구로 스키마를 살핀 뒤 타입을 정리하고 Wren의 YAML 프로젝트 형식으로 바꿔요. wren CLI가 타입 정규화, 검증, 빌드를 맡아요. OpenMetadata 카탈로그에서 가져오는 방법도 있어요.",
+ "when": [
+  "새 MDL 만들기",
+  "데이터 소스 온보딩",
+  "기존 DB로 프로젝트 시작",
+  "카탈로그에서 가져오기"
+ ],
+ "examples": [
+  "이 Postgres DB로 Wren 프로젝트를 만들어줘",
+  "OpenMetadata 카탈로그에서 MDL을 가져와줘"
+ ],
+ "notes": [
+  "wren CLI와 연결 프로필이 필요해요",
+  "DB 접속 정보가 있어야 해요",
+  "가져오기는 먼저 --dry-run으로 확인할 수 있어요"
+ ]
+}

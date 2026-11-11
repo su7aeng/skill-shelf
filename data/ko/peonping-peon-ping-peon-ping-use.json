@@ -1,0 +1,18 @@
+{
+ "description": "이번 대화에서 쓸 음성 팩(캐릭터 목소리)을 정해요.",
+ "summary": "/peon-ping-use 팩이름 을 입력하면 훅이 팩이 있는지 확인하고 session_override 모드를 켠 뒤 현재 세션에 팩을 연결해요. 훅이 동작하지 않을 때는 config.json과 .state.json을 직접 고치는 순서를 따라가요.",
+ "when": [
+  "대화별 캐릭터 목소리 지정",
+  "GLaDOS나 Peon 음성 쓰기",
+  "세션마다 다른 팩"
+ ],
+ "examples": [
+  "이번 대화는 GLaDOS 목소리로 해줘",
+  "/peon-ping-use peasant",
+  "sc_kerrigan 팩으로 바꿔줘"
+ ],
+ "notes": [
+  "팩이 없으면 설치된 팩 목록을 보여 주고 고르게 해요",
+  "세션 ID가 없으면 Claude Code에서만 되는 기능이라고 알려 줘요"
+ ]
+}

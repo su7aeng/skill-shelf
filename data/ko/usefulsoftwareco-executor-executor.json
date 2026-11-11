@@ -1,0 +1,19 @@
+{
+ "description": "Executor가 무엇인지, 앱 도구를 어떻게 찾고 쓰는지 안내해 줘요.",
+ "summary": "Executor는 도구, 저장소, 화면, 계정을 가진 앱을 실행하는 호스트예요. search, describe, call, execute로 앱 도구를 찾고 부르는 방법과 언제 앱을 새로 만들지 설명해요. 불편한 점이 생기면 feedback.submit으로 의견을 보내라는 안내도 있어요.",
+ "when": [
+  "Executor 처음 사용",
+  "앱 도구 찾기",
+  "도구 직접 호출",
+  "새 앱이 필요한지 판단"
+ ],
+ "examples": [
+  "Executor로 Gmail 도구가 뭐가 있는지 찾아줘",
+  "Executor에서 쓸 수 있는 앱 목록을 보여줘"
+ ],
+ "notes": [
+  "인증 정보는 대화나 소스 코드가 아니라 Executor의 연결 링크로만 넣어요",
+  "일부 호출은 사용자 승인을 기다려요",
+  "도구 인자 이름은 추측하지 말고 describe로 확인해요"
+ ]
+}

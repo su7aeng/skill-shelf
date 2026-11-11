@@ -1,0 +1,19 @@
+{
+ "description": "iOS/macOS 앱의 접근성을 단계별로 점검해요.",
+ "summary": "XCUITest 자동 점검, Accessibility Inspector, VoiceOver와 Dynamic Type 수동 점검을 거쳐 근거를 모아요. 이를 바탕으로 App Store Accessibility Nutrition Label을 평가해요. Apple WWDC 세션 내용을 정리한 절차예요.",
+ "when": [
+  "앱 출시 전 점검",
+  "Nutrition Label 준비",
+  "VoiceOver 점검",
+  "EU 접근성법 대응"
+ ],
+ "examples": [
+  "출시 전에 우리 앱 접근성 점검 계획을 짜줘",
+  "Accessibility Nutrition Label에 뭘 선언할 수 있는지 평가해줘",
+  "XCUITest로 접근성 자동 점검을 추가해줘"
+ ],
+ "notes": [
+  "Xcode와 Apple 플랫폼 앱 개발 환경이 필요해요",
+  "원문이 영어예요"
+ ]
+}

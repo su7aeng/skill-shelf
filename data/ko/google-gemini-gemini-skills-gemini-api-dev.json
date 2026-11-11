@@ -1,0 +1,20 @@
+{
+ "description": "Gemini API를 호출하는 코드를 Python과 TypeScript로 짜는 법을 알려줘요.",
+ "summary": "글 생성, 대화, 이미지와 영상과 음성 생성, 스트리밍, 함수 호출, 구조화된 출력 등을 SDK로 구현할 때 따를 규칙을 담고 있어요. 학습 데이터가 낡았을 수 있으니 원문에 적힌 최신 모델 이름을 우선 쓰라고 해요. 예전 generateContent API에서 옮기는 방법도 다뤄요.",
+ "when": [
+  "Gemini API 연동 코드 작성",
+  "이미지 영상 음성 생성 기능",
+  "함수 호출과 구조화된 출력",
+  "예전 API에서 옮기기"
+ ],
+ "examples": [
+  "Python으로 Gemini에 질문을 보내는 코드 짜줘",
+  "TypeScript에서 Gemini 스트리밍 응답을 받게 해줘",
+  "예전 generateContent 코드를 최신 방식으로 바꿔줘"
+ ],
+ "notes": [
+  "Gemini API 키가 필요해요",
+  "모델 이름과 예시는 원문 기준이라 바뀔 수 있어요",
+  "원문은 영어예요"
+ ]
+}

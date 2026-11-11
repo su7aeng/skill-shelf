@@ -1,0 +1,20 @@
+{
+ "description": "유니티에서 Asset Transformer Toolkit으로 3D 모델을 가져와요.",
+ "summary": "유니티 에디터 안에서 3D 모델과 포인트 클라우드를 가져오고, RuleSet, Action, LOD를 만들고 고치고 실행해요. 시작 전에 패키지 버전이 4.0.0 이상인지 확인하고, 없거나 낮으면 사용자에게 알린 뒤 멈추거나 묻고 진행해요.",
+ "when": [
+  "Pixyz로 3D 모델 가져오기",
+  "RuleSet과 Action 만들기",
+  "LOD 생성",
+  "포인트 클라우드 가져오기"
+ ],
+ "examples": [
+  "이 CAD 모델을 Asset Transformer Toolkit으로 가져와줘",
+  "모델 단순화 RuleSet을 만들어줘",
+  "오브젝트에 LOD를 만들어줘"
+ ],
+ "notes": [
+  "com.unity.industry.toolkit 4.0.0 이상이 필요하고 유니티 계정 권한이 필요할 수 있어요",
+  "패키지를 마음대로 설치하거나 올리지 않아요",
+  "셸에서 파일을 변환하는 용도는 아니에요"
+ ]
+}

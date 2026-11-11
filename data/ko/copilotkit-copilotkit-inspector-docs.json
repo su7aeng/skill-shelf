@@ -1,0 +1,18 @@
+{
+ "description": "Inspector 화면 변경에 맞춰 CopilotKit 문서 안내를 최신으로 유지해요.",
+ "summary": "Inspector의 패널이 추가, 이름 변경, 삭제될 때 문서의 안내 박스와 pane-map.md 를 함께 고쳐요. 출시된 패널만 다루고, 퀵스타트에 Inspector 점검 단계를 두는 절차도 있어요.",
+ "when": [
+  "Inspector 패널 추가나 이름 변경",
+  "Inspector를 언급한 문서 수정",
+  "퀵스타트 점검 단계 갱신"
+ ],
+ "examples": [
+  "Inspector에 새 패널을 추가했는데 문서 안내도 맞춰줘",
+  "삭제한 패널의 문서 안내를 정리해줘"
+ ],
+ "notes": [
+  "CopilotKit 저장소 안에서 쓰는 유지보수용이에요",
+  "출시되지 않은 패널에는 안내를 달지 않아요",
+  "화면 다듬기는 inspector-workbench가 맡아요"
+ ]
+}

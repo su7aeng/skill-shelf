@@ -1,0 +1,19 @@
+{
+ "description": "Bernstein 오케스트레이터에 새 작업을 만들어 에이전트에게 맡겨요.",
+ "summary": "제목, 역할, 우선순위, 규모를 확인한 뒤 scripts/create-task.sh 로 작업을 등록해요. 등록된 작업 ID를 알려 주고, 큰 작업은 작게 나누도록 권해요.",
+ "when": [
+  "새 작업 등록",
+  "에이전트에게 일 맡기기",
+  "버그 수정 요청",
+  "작업 대기열 추가"
+ ],
+ "examples": [
+  "인증 미들웨어 만료 토큰 처리를 작업으로 만들어 줘",
+  "이 버그 고치는 걸 에이전트한테 맡겨 줘",
+  "프론트엔드 작업 하나 큐에 넣어 줘"
+ ],
+ "notes": [
+  "Bernstein 오케스트레이터와 scripts/create-task.sh 가 필요해요",
+  "역할은 backend, frontend, qa, security, devops, docs 중에서 골라요"
+ ]
+}

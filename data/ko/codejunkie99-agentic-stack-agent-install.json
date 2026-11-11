@@ -1,0 +1,19 @@
+{
+ "description": "agentic-stack 을 프로젝트에 설치하고 확인해요.",
+ "summary": "에이전트가 쓰는 하네스를 알아내고, brew나 PowerShell로 CLI를 설치한 뒤 프로젝트 루트에서 해당 어댑터를 연결해요. doctor 명령과 대시보드 출력으로 설치를 확인하고, 설치한 버전과 실행한 명령을 보고해요.",
+ "when": [
+  "agentic-stack 처음 설치",
+  "설치 상태 확인",
+  "기존 설치 업그레이드"
+ ],
+ "examples": [
+  "이 프로젝트에 agentic-stack 설치해줘",
+  "agentic-stack 설치가 잘 됐는지 확인해줘",
+  "agentic-stack 을 최신으로 업그레이드해줘"
+ ],
+ "notes": [
+  "macOS와 Linux는 Homebrew, Windows는 PowerShell 스크립트를 써요",
+  "permissions.md 파일은 건드리지 않아요",
+  "원문이 영어예요"
+ ]
+}

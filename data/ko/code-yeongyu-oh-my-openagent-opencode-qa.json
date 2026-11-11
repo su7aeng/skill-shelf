@@ -1,0 +1,19 @@
+{
+ "description": "opencode의 CLI, 서버, 플러그인 훅, TUI를 직접 돌려 품질을 점검해 줘요.",
+ "summary": "점검 항목마다 검증된 도우미 스크립트와 참고 문서를 연결해 줘요. 격리된 XDG 샌드박스에서 opencode를 띄우고, SSE 이벤트로 훅 동작을 확인하고, tmux로 TUI를 시험하고, SQLite DB에서 세션을 찾아봐요.",
+ "when": [
+  "opencode CLI 검증",
+  "플러그인 훅 동작 확인",
+  "TUI 스모크 테스트",
+  "세션 기록 조회"
+ ],
+ "examples": [
+  "opencode 플러그인 훅이 실제로 실행되는지 확인해줘",
+  "opencode 세션을 제목으로 찾아서 내용 보여줘"
+ ],
+ "notes": [
+  "opencode 1.17.7과 bun 기준으로 검증됐어요",
+  "기본은 Docker 컨테이너에서 돌려 실제 DB를 건드리지 않아요",
+  "DB 전체 텍스트 검색은 범위를 좁혀야 해요"
+ ]
+}

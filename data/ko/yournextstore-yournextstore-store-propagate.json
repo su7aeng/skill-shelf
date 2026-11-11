@@ -1,0 +1,20 @@
+{
+ "description": "플랫폼 관리 파일 세 개를 스토어 저장소들에 반영해요.",
+ "summary": "proxy.ts, lib/track.tsx, instrumentation-client.ts 세 파일을 gh로 yns-store 저장소들의 main에 커밋해요. 질문 없이 결정하고 실행하며, 한 곳이 실패하면 기록하고 다음으로 넘어가요.",
+ "when": [
+  "스토어 저장소 일괄 갱신",
+  "플랫폼 관리 파일 반영",
+  "여러 저장소 작업",
+  "템플릿 변경 전파"
+ ],
+ "examples": [
+  "스토어 저장소들에 관리 파일 반영해줘",
+  "yns-store 저장소에 proxy.ts 최신본 푸시해줘",
+  "실패한 스토어는 기록하고 나머지를 진행해줘"
+ ],
+ "notes": [
+  "원문이 영어이고 YNS 팀 전용 절차예요",
+  "gh CLI와 yns-cx-tenants 또는 yns-store-tenants 접근 권한이 필요해요",
+  "그 외 템플릿 변경은 Upgrade 버튼으로 반영하고 이 스킬로 복사하지 않아요"
+ ]
+}

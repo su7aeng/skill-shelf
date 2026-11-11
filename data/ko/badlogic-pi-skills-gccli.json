@@ -1,0 +1,18 @@
+{
+ "description": "명령줄로 Google 캘린더 일정을 보고 만들어요.",
+ "summary": "gccli로 캘린더 목록, 일정 조회, 생성, 수정, 빈 시간 확인을 해요. 처음에는 Google Cloud에서 Calendar API를 켜고 OAuth 자격 증명을 등록해 계정을 추가해야 해요.",
+ "when": [
+  "일정 확인",
+  "일정 만들기와 수정",
+  "빈 시간 확인"
+ ],
+ "examples": [
+  "이번 주 일정 보여줘",
+  "내일 오후 3시에 회의 일정을 만들어줘",
+  "금요일에 비는 시간 알려줘"
+ ],
+ "notes": [
+  "npm install -g @mariozechner/gccli 로 설치해요",
+  "Google Cloud 프로젝트와 OAuth 자격 증명 설정이 필요해요"
+ ]
+}

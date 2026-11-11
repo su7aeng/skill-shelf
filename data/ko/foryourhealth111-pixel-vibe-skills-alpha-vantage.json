@@ -1,0 +1,20 @@
+{
+ "description": "Alpha Vantage API로 주가, 환율, 암호화폐 데이터를 가져와요.",
+ "summary": "주식 시세와 일별 데이터, 기업 재무제표, 실적, 옵션, 뉴스 감성, 환율, 암호화폐, 원자재, GDP와 CPI 같은 경제 지표, 50개 이상의 기술 지표를 API 호출로 받아 와요. 파이썬 requests와 pandas로 결과를 다뤄요.",
+ "when": [
+  "주가와 시계열 조회",
+  "기업 재무제표 확인",
+  "환율과 암호화폐 시세",
+  "SMA, RSI 같은 기술 지표 계산"
+ ],
+ "examples": [
+  "애플 최근 일별 주가 가져와줘",
+  "비트코인 가격 추이를 불러와줘",
+  "AAPL의 RSI와 MACD 계산해줘"
+ ],
+ "notes": [
+  "alphavantage.co에서 무료 API 키를 받아 ALPHAVANTAGE_API_KEY 환경 변수로 설정해야 해요",
+  "무료 키는 호출 한도가 있고 더 높은 한도는 유료 플랜이에요",
+  "requests와 pandas 설치가 필요해요"
+ ]
+}

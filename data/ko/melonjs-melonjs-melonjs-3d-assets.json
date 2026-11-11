@@ -1,0 +1,19 @@
+{
+ "description": "melonJS에 glTF, GLB, OBJ 3D 모델을 불러오는 방법이에요.",
+ "summary": "glTF와 GLB는 level.load로, 단일 정적 모델은 OBJ/MTL로 불러오는 방법을 알려줘요. scale 같은 옵션, 재질, 조명, 노드 애니메이션, 바닥 그림자, GPU 인스턴싱과 로더가 지원하지 않는 부분도 정리해요.",
+ "when": [
+  "glTF 장면 불러오기",
+  "OBJ 모델 사용",
+  "3D 모델 그림자 설정",
+  "같은 모델 여러 개 배치"
+ ],
+ "examples": [
+  "melonJS에 GLB 파일을 불러와서 보여줘",
+  "Blender에서 내보낸 모델을 게임에 넣고 싶어"
+ ],
+ "notes": [
+  "장면은 Camera3d 아래에서 봐야 평면으로 나오지 않아요",
+  "배포용으로는 파일 하나로 된 GLB를 권해요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "Repomix 브라우저 확장 프로그램 코드를 개발하고 관리해요.",
+ "summary": "WXT 프레임워크와 Manifest V3로 만든 Chrome, Firefox, Edge 확장을 다뤄요. GitHub 저장소 페이지에 Repomix 버튼을 넣는 코드이고, 12개 언어 번역 파일 구조와 개발 및 빌드 명령을 안내해요.",
+ "when": [
+  "browser 폴더 코드 수정",
+  "Firefox 호환 작업",
+  "번역 언어 추가"
+ ],
+ "examples": [
+  "확장 프로그램에 새 언어를 추가해줘",
+  "Firefox 개발 모드로 실행하는 방법 알려줘"
+ ],
+ "notes": [
+  "Repomix 저장소의 browser/ 폴더 전용이에요",
+  "끝내기 전에 lint와 테스트를 돌려요"
+ ]
+}

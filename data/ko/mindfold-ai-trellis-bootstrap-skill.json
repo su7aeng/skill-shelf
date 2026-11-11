@@ -1,0 +1,18 @@
+{
+ "description": "프로젝트에 Trellis 작업 체계를 처음 설치하고 설정해요.",
+ "summary": "Node.js 버전을 확인하고 Trellis CLI를 전역 설치한 뒤, 개발자 이름을 물어 trellis init으로 프로젝트에 초기화해요. 규칙 폴더, 세션 기록 폴더, 슬래시 명령이 만들어져요.",
+ "when": [
+  "Trellis 처음 설치",
+  "프로젝트 초기 설정",
+  "AI 작업 체계 도입"
+ ],
+ "examples": [
+  "이 프로젝트에 Trellis 초기화해줘",
+  "Trellis 설치하고 세팅해줘"
+ ],
+ "notes": [
+  "Node.js 18 이상과 npm이 필요해요",
+  "npm install -g @mindfoldhq/trellis@latest로 설치해요",
+  "개발자 이름은 사용자에게 물어봐요"
+ ]
+}

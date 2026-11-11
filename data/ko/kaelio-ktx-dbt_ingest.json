@@ -1,0 +1,18 @@
+{
+ "description": "dbt schema.yml의 모델과 소스를 ktx 의미 계층에 옮겨요.",
+ "summary": "dbt YAML의 models와 sources를 ktx 의미 계층 오버레이와 컬럼 설명으로 바꿔요. 컬럼 설명과 not_null, unique, accepted_values, relationships 테스트를 힌트나 조인으로 옮기며, 실제 테이블 이름은 확인한 뒤에만 써요.",
+ "when": [
+  "dbt 프로젝트 가져오기",
+  "컬럼 설명 옮기기",
+  "테스트 정보 반영"
+ ],
+ "examples": [
+  "dbt schema.yml을 ktx에 반영해줘",
+  "models 폴더의 컬럼 설명을 오버레이로 만들어줘"
+ ],
+ "notes": [
+  "업로드한 dbt 프로젝트용이고 예약된 dbt parse는 범위 밖이에요",
+  "relationships는 대상 테이블이 실제로 확인될 때만 조인으로 넣어요",
+  "ktx 작업 단위에서 쓰는 스킬이에요"
+ ]
+}

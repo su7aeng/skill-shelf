@@ -1,0 +1,20 @@
+{
+ "description": "ET 프로젝트에서 Luban 설정 표를 C# 코드로 내보내요.",
+ "summary": "표 정의를 고친 뒤 ET.ExcelExporter로 C# 설정 코드와 데이터 코드를 만들어요. 합쳐진 luban.conf를 새로 만들고, 내보낸 결과와 diff를 확인해 진짜 설정 변화와 자동 변화를 구분해요.",
+ "when": [
+  "Luban 표 내보내기",
+  "luban.conf 갱신",
+  "내보내기 실패 원인 찾기",
+  "생성된 CodeMode 결과 확인"
+ ],
+ "examples": [
+  "표 고쳤으니 Luban 내보내기 해줘",
+  "luban.conf 다시 만들고 결과 확인해줘",
+  "ET.ExcelExporter가 실패하는데 원인 찾아줘"
+ ],
+ "notes": [
+  "프로젝트 루트에서 실행해야 하고 원문은 중국어예요",
+  "엑셀 셀만 고치는 일은 et-excel, 빌드는 et-build 쪽이에요",
+  "자세한 절차는 references/et-luban-export.md에 있어요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "멈춘 GPU 파드의 원인을 이벤트 기반으로 진단해요.",
+ "summary": "네임스페이스의 Pending, CrashLoopBackOff, ImagePullBackOff, Error 파드를 모두 찾아 전체 상태와 경고 이벤트를 훑고, 이벤트에 맞춰 스케줄링 실패, 자원 부족, 이미지 받기 오류, 반복 종료를 깊이 조사해요. 파드 이름은 필요 없어요.",
+ "when": [
+  "파드가 Pending에서 멈춤",
+  "CrashLoopBackOff 반복",
+  "이미지 받기 실패",
+  "OOMKilled 확인"
+ ],
+ "examples": [
+  "ml 네임스페이스에서 안 뜨는 파드 원인 찾아줘",
+  "GPU 파드가 계속 Pending인데 왜 그런지 봐줘"
+ ],
+ "notes": [
+  "네임스페이스는 필수이고 kubeconfig는 기본 ~/.kube/config를 써요",
+  "kubectl을 항상 kubeconfig와 context를 명시해 실행해요"
+ ]
+}

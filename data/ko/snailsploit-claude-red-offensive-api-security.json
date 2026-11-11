@@ -1,0 +1,18 @@
+{
+ "description": "REST, gRPC, WebSocket API의 보안 점검 절차를 담았어요.",
+ "summary": "OWASP API Security Top 10 2023 항목을 기준으로 API를 점검하는 방법론이에요. 객체 접근 권한, 인증, 과다 노출, 속도 제한, 대량 할당, SSRF를 확인하고, REST의 HTTP 메서드 변조와 gRPC 리플렉션, WebSocket 점검까지 다뤄요.",
+ "when": [
+  "API 보안 점검",
+  "권한 우회 테스트",
+  "gRPC와 WebSocket 점검",
+  "인증 방식 분석"
+ ],
+ "examples": [
+  "이 REST API에서 다른 사용자 데이터에 접근되는지 점검해줘",
+  "OpenAPI 명세로 점검 계획을 세워줘"
+ ],
+ "notes": [
+  "서면 허가와 범위가 정해진 점검에만 써야 해요",
+  "원문이 영어예요"
+ ]
+}

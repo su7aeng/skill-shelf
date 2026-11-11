@@ -1,0 +1,18 @@
+{
+ "description": "Blender 모델을 웹용 glTF로 내보내고 최적화해요.",
+ "summary": "Blender 모델과 애니메이션을 glTF 2.0으로 내보내는 작업 흐름을 알려줘요. bpy 파이썬 스크립트로 여러 파일을 한꺼번에 처리하고, 텍스처 베이킹, 압축, LOD 같은 최적화도 다뤄요. 결과는 Three.js나 Babylon.js에서 쓸 수 있어요.",
+ "when": [
+  "Blender 모델 웹 내보내기",
+  "3D 에셋 용량 줄이기",
+  "여러 모델 일괄 처리",
+  "Blender 자동화"
+ ],
+ "examples": [
+  "Blender 모델을 웹용 glb로 내보내는 스크립트 써줘",
+  "폴더 안 모델들을 한꺼번에 최적화해줘"
+ ],
+ "notes": [
+  "Blender와 Python(bpy) 환경이 필요해요",
+  "threejs-webgl, react-three-fiber, babylonjs-engine 스킬과 이어서 써요"
+ ]
+}

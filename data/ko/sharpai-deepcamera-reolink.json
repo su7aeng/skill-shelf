@@ -1,0 +1,20 @@
+{
+ "description": "Reolink 카메라를 SharpAI Aegis에 연결해 영상과 스냅샷을 가져와요.",
+ "summary": "Reolink 카메라를 HTTP API와 RTSP 스트림으로 연결해요. 움직임이 감지될 때의 클립, 실시간 보기용 RTSP 주소, HTTP 스냅샷을 제공하고 ONVIF로 카메라를 찾아줘요.",
+ "when": [
+  "Reolink 카메라 연결",
+  "실시간 영상 보기",
+  "움직임 감지 클립",
+  "스냅샷 가져오기"
+ ],
+ "examples": [
+  "Reolink 카메라를 Aegis에 연결해줘",
+  "ONVIF로 Reolink 카메라 찾아줘",
+  "지금 카메라 스냅샷 한 장 가져와줘"
+ ],
+ "notes": [
+  "카메라 IP와 비밀번호가 필요하고 기본 사용자 이름은 admin이에요",
+  "RTSP가 켜져 있는 Reolink 모델이어야 해요",
+  "SharpAI Aegis와 함께 쓰는 스킬이에요"
+ ]
+}

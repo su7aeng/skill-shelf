@@ -1,0 +1,19 @@
+{
+ "description": "저장소에서 쓰지 않는 Codex 기능의 차단 목록을 검토하고 적용해요.",
+ "summary": "te toolprune 명령으로 이 저장소가 쓰지 않는 Codex 기능 목록을 보여 주고, 요청이 있으면 .codex/config.toml에 적용하거나 되돌려요. 적용한 내용은 다음 세션부터 효과가 나요.",
+ "when": [
+  "차단 목록 확인",
+  "가지치기 적용",
+  "적용 되돌리기",
+  "효과 측정"
+ ],
+ "examples": [
+  "toolprune 제안 보여줘",
+  "제안된 차단 목록 적용해줘"
+ ],
+ "notes": [
+  "apply와 restore는 요청했을 때만 실행하고 승인이 필요해요",
+  "프로젝트의 .codex/config.toml을 수정해요",
+  "Codex 환경 전용이에요"
+ ]
+}

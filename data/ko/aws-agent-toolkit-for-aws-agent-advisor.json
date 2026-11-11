@@ -1,0 +1,20 @@
+{
+ "description": "AWS에서 AI 에이전트를 어떤 방식으로 돌릴지 고르고 시험 구현까지 이끌어요.",
+ "summary": "점수 계산으로 AgentCore, ECS, EKS, Lambda 같은 실행 환경을 추천하고, 기존 에이전트의 AWS 이전 계획과 실행 가능한 POC를 단계별로 만들어요. 사용자의 기술 수준에 맞춰 대화하고, 실행 기록은 .agent-advisor 폴더에 남겨요.",
+ "when": [
+  "에이전트 실행 환경 선택",
+  "기존 에이전트의 AWS 이전",
+  "AgentCore 서비스 추가",
+  "Temporal 워커 이전"
+ ],
+ "examples": [
+  "내 에이전트를 AgentCore와 Lambda 중 어디에 올리는 게 좋을지 알려줘",
+  "지금 쓰는 에이전트를 AWS로 옮기는 계획을 세워 줘",
+  "Temporal 워커를 AWS에서 돌리는 방법을 정리해 줘"
+ ],
+ "notes": [
+  "점수 계산에 uv가 필요해요",
+  "에이전트 요소가 없는 일반 서비스나 배치 작업은 대상이 아니에요",
+  "Temporal 워크플로 코드는 Step Functions로 다시 쓰지 않아요"
+ ]
+}

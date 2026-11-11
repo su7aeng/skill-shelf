@@ -1,0 +1,19 @@
+{
+ "description": "Cloudflare 공식 cf CLI 명령을 찾아 실행해요.",
+ "summary": "cf cli search로 작업에 맞는 명령을 찾고 cf schema나 --help로 확인해요. 실행 전 --dry-run으로 미리 볼 수 있어요. 로그인, 배포, DNS, D1, KV, R2 같은 작업과 Wrangler와의 선택도 다뤄요.",
+ "when": [
+  "Cloudflare 명령 찾기",
+  "Workers 개발과 배포",
+  "DNS와 저장소 관리",
+  "Wrangler와 비교"
+ ],
+ "examples": [
+  "cf로 이 Worker 배포하는 명령 알려줘",
+  "DNS 레코드 추가하는 cf 명령 찾아줘"
+ ],
+ "notes": [
+  "cf는 베타라 명령과 설정이 바뀔 수 있어요",
+  "확인 안 된 명령은 --dry-run으로 먼저 봐요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "CLAUDE.md 파일을 모범 사례에 맞춰 만들거나 고쳐요.",
+ "summary": "프로젝트의 기존 CLAUDE.md, 기술 스택, 문서를 살펴본 뒤 create, update, audit 중 요청에 맞는 방식으로 작업해요. 모든 세션에 필요한 내용만 짧게 담는 것을 원칙으로 하고, 스타일 규칙은 린터에 맡기고 자동 생성에 의존하지 않아요.",
+ "when": [
+  "CLAUDE.md 새로 작성",
+  "기존 CLAUDE.md 개선",
+  "CLAUDE.md 품질 점검",
+  "폴더별 지침 파일 작성"
+ ],
+ "examples": [
+  "이 프로젝트의 CLAUDE.md를 새로 만들어줘",
+  "내 CLAUDE.md가 너무 길지 않은지 audit해줘",
+  "src/api/CLAUDE.md를 만들어줘"
+ ],
+ "notes": [
+  "원문이 우크라이나어로 쓰여 있어요",
+  "인자로 create, update, audit 또는 파일 경로를 줄 수 있어요",
+  "AI가 따를 수 있는 지침 수에 한계가 있어서 내용을 작게 유지하라는 지침이 핵심이에요"
+ ]
+}

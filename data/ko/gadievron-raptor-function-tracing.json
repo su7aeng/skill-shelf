@@ -1,0 +1,17 @@
+{
+ "description": "C/C++ 프로그램의 함수 호출을 기록하고 Perfetto로 보여줘요.",
+ "summary": "-finstrument-functions 옵션과 추적 라이브러리를 붙여 스레드별 호출 로그를 남기고, 변환기로 Perfetto에서 볼 수 있는 Chrome JSON으로 바꿔요. 빌드와 실행은 샌드박스 래퍼로 감싸서 해요.",
+ "when": [
+  "C/C++ 실행 흐름 추적",
+  "스레드별 함수 호출 확인",
+  "Perfetto 시각화"
+ ],
+ "examples": [
+  "이 C 프로그램의 함수 호출을 전부 추적해서 Perfetto로 볼 수 있게 해줘",
+  "빌드에 함수 추적 옵션을 추가해줘"
+ ],
+ "notes": [
+  "gcc와 g++가 필요하고 trace_instrument.c, trace_to_perfetto.cpp를 빌드해요",
+  "대상 프로젝트는 신뢰하지 않으므로 libexec/raptor-run-sandboxed로 실행해요"
+ ]
+}

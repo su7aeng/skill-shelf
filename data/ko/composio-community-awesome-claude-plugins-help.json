@@ -1,0 +1,16 @@
+{
+ "description": "skill-bus의 개요와 사용 가능한 명령을 보여줘요.",
+ "summary": "skill-bus의 상태와 기능을 빠르게 훑어볼 수 있는 안내예요. 실제 내용은 /skill-bus:help 명령이 보여줘요.",
+ "when": [
+  "skill-bus 처음 쓸 때",
+  "명령 목록 확인",
+  "현재 상태 확인"
+ ],
+ "examples": [
+  "skill-bus 사용법 알려줘",
+  "skill-bus에서 쓸 수 있는 명령을 보여 줘"
+ ],
+ "notes": [
+  "/skill-bus:help 명령으로 실행해요"
+ ]
+}

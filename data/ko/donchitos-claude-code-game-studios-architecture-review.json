@@ -1,0 +1,18 @@
+{
+ "description": "GDD 요구사항과 ADR을 연결해 빈틈과 충돌을 찾아요.",
+ "summary": "전체 설계 요구사항이 아키텍처 결정으로 모두 덮이는지, ADR끼리 충돌하지 않는지, 엔진 버전과 맞는지 점검해요. 요구사항 추적 표를 만들고 PASS, CONCERNS, NOT ASSESSED, FAIL 판정을 내려요. 에이전트를 따로 띄우지 않고 직접 해요.",
+ "when": [
+  "기술 설정을 마칠 때",
+  "ADR 누락 확인",
+  "결정 간 충돌 점검",
+  "엔진 호환성 확인"
+ ],
+ "examples": [
+  "아키텍처 리뷰 전체로 돌려줘",
+  "커버리지만 확인해서 ADR이 없는 요구사항 알려줘"
+ ],
+ "notes": [
+  "full, coverage, consistency, engine, rtm 같은 범위를 고를 수 있어요",
+  "rtm 모드는 요구사항에서 테스트까지 잇는 문서를 docs/architecture에 저장해요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "LangBot 플러그인을 만들고 디버깅하고 배포해요.",
+ "summary": "플러그인 구성 요소를 고르고 만들고 고치고 테스트하고 게시하는 과정을 안내해요. 기준 문서는 docs/en/plugin/dev/ 이고 lbp CLI와 플러그인 런타임, plugins/ 폴더의 예제를 참고해요.",
+ "when": [
+  "플러그인 개발",
+  "플러그인 오류 수정",
+  "플러그인 게시"
+ ],
+ "examples": [
+  "LangBot 플러그인 하나 만들어줘",
+  "플러그인이 로드되지 않는 이유 찾아줘"
+ ],
+ "notes": [
+  "langbot-plugin-sdk 저장소의 SDK와 lbp CLI를 써요",
+  "최소 예제는 plugins/misc/HelloPlugin 이에요"
+ ]
+}

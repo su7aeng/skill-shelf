@@ -1,0 +1,18 @@
+{
+ "description": "Kode의 기능 설정을 요청만으로 대신 바꿔 줘요.",
+ "summary": "statusline, LSP, 출력 스타일, 플러그인 같은 기능을 사용자가 말하는 의도대로 에이전트가 직접 설정해요. 설정 파일을 읽어 현재 상태를 보고 SlashCommand나 Task로 바꾼 뒤, 다시 확인해 변경을 작고 되돌릴 수 있게 유지해요.",
+ "when": [
+  "Kode 기능 설정",
+  "상태 표시줄 수리",
+  "LSP 켜기",
+  "출력 스타일 변경"
+ ],
+ "examples": [
+  "TypeScript용 LSP 켜 줘",
+  "Kode 상태 표시줄이 이상한데 고쳐 줘"
+ ],
+ "notes": [
+  "Kode CLI 환경에서 쓰고 설정은 ~/.kode/settings.json 등에 있어요",
+  "긴 설치 명령 목록은 내놓지 않고 직접 실행해요"
+ ]
+}

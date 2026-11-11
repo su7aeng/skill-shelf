@@ -1,0 +1,18 @@
+{
+ "description": "Wren CLI 안내 문서로 연결해 주는 입구 스킬이에요.",
+ "summary": "22개 이상의 데이터베이스 위에서 동작하는 시맨틱 SQL 계층 Wren의 CLI를 소개해요. 실제 안내 문서는 CLI 안에 있어서, 목록과 내용을 wren skills 명령으로 가져와 쓰게 해요.",
+ "when": [
+  "데이터 질문",
+  "Wren 설치와 설정",
+  "DB 연결",
+  "대시보드 앱 만들기"
+ ],
+ "examples": [
+  "Wren을 설치하고 DB에 연결하고 싶어",
+  "wren skills list로 쓸 수 있는 안내를 보여줘"
+ ],
+ "notes": [
+  "설치는 pip install wrenai로 해요",
+  "안내 문서가 CLI 버전과 맞도록 CLI에서 받아요"
+ ]
+}

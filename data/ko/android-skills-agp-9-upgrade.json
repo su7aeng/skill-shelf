@@ -1,0 +1,19 @@
+{
+ "description": "Android 프로젝트를 Android Gradle Plugin 9로 올려요.",
+ "summary": "AGP 버전이 9 이상인지 먼저 확인하고, KSP와 Hilt 버전을 올린 뒤 내장 Kotlin으로 옮기고 새 AGP DSL로 바꿔요. 호환되는 Gradle, JDK, Kotlin 버전은 릴리스 노트의 표를 따라요.",
+ "when": [
+  "AGP 9 업그레이드",
+  "내장 Kotlin 전환",
+  "새 DSL로 이전",
+  "빌드 설정 정리"
+ ],
+ "examples": [
+  "이 프로젝트를 AGP 9로 마이그레이션해줘",
+  "KSP와 Hilt 버전 때문에 빌드가 깨지는지 확인해줘"
+ ],
+ "notes": [
+  "AGP가 9보다 낮으면 Android Studio의 업그레이드 도우미로 먼저 올려야 해요",
+  "Kotlin Multiplatform 프로젝트에는 쓰지 않아요",
+  "원문이 영어예요"
+ ]
+}

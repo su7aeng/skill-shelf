@@ -1,0 +1,19 @@
+{
+ "description": "Arcads API로 AI 영상과 이미지를 만들고 가져와요.",
+ "summary": "Arcads 외부 API로 Seedance 2.0, Sora 2, Veo 3.1, Kling 같은 모델의 영상과 이미지 작업을 요청해요. 모델별 프롬프트 가이드를 불러 쓰고, 결과가 나올 때까지 확인해서 가져와요.",
+ "when": [
+  "Arcads로 광고 영상 생성",
+  "b-roll과 장면 만들기",
+  "UGC 스크립트 작업"
+ ],
+ "examples": [
+  "Arcads로 Seedance 영상 하나 만들어줘",
+  "Veo 3.1로 제품 광고 영상 뽑아줘",
+  "Arcads에서 b-roll 클립 생성해줘"
+ ],
+ "notes": [
+  "ARCADS_API_KEY가 필요하고 .env 파일에 넣어요",
+  "API 키는 출력하지 않고 .env를 커밋하지 않아요",
+  "Arcads 계정이 없으면 가입 링크를 안내해요"
+ ]
+}

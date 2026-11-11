@@ -1,0 +1,20 @@
+{
+ "description": "정적 블로그 글 작성부터 배포, SNS 공유까지 한 번에 진행해요.",
+ "summary": "front matter, 인라인 링크, 글마다 ASCII 아트, 에이전트가 읽는 마크다운 사본을 점검하며 글을 써요. 마지막에 AI 티 나는 문장을 다듬는 단계를 거쳐 빌드, 배포, 소셜 공유까지 해요. 필요한 설정은 BLOG_DIR, BUILD_CMD, DEPLOY_CMD 같은 값으로 미리 정해 둬요.",
+ "when": [
+  "블로그 글 작성",
+  "정적 사이트 배포",
+  "글 SNS 홍보",
+  "에이전트용 마크다운 사본 만들기"
+ ],
+ "examples": [
+  "블로그 글 하나 써서 내 사이트에 올려줘",
+  "이 글을 블로그에 게시하고 SNS에도 공유해줘",
+  "이 글에 ASCII 아트 넣고 배포해줘"
+ ],
+ "notes": [
+  "BLOG_DIR, BUILD_CMD, DEPLOY_CMD, BLOG_URL 같은 설정을 먼저 정해야 해요",
+  "Hugo, Eleventy, Astro 등 쓰는 생성기에 맞게 이름을 바꿔야 해요",
+  "글 다듬기에 no-ai-slop 스킬을 함께 써요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Anthony Fu 스타일의 JS/TS 프로젝트 관례를 알려 줘요.",
+ "summary": "파일 구성, 타입 분리, 명시적 import, 주석 작성 같은 코딩 습관과 Vitest 테스트, 모노레포, 라이브러리 배포 설정을 안내해요. 새 TypeScript 프로젝트는 antfu/starter-ts 구성을 따라 만들어요.",
+ "when": [
+  "새 프로젝트 시작",
+  "ESLint 설정",
+  "모노레포 구성",
+  "라이브러리 배포"
+ ],
+ "examples": [
+  "antfu 스타일로 새 TypeScript 프로젝트를 만들어 줘",
+  "이 프로젝트의 코드 구성을 antfu 관례에 맞춰 정리해 줘"
+ ],
+ "notes": [
+  "개인 취향이 강한 관례라 팀 규칙과 맞는지 확인이 필요해요",
+  "세부 내용은 references 폴더의 문서에 나뉘어 있어요"
+ ]
+}

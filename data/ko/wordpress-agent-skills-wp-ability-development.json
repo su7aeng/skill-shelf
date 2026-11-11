@@ -1,0 +1,18 @@
+{
+ "description": "WordPress ability의 입력, 출력, 동작을 설계하고 검토해요.",
+ "summary": "호출하는 쪽이 하려는 일을 기준으로 ability의 이름, 설명, 입력과 출력 스키마를 잡아요. 입력은 작고 엄격하게 두라는 방향으로 안내해요. 기존 ability를 바꿀 때는 이미 쓰는 곳을 확인해요.",
+ "when": [
+  "새 ability 설계",
+  "ability 스키마 수정",
+  "ability 코드 검토"
+ ],
+ "examples": [
+  "작성자별 게시글을 찾는 ability 스키마를 설계해줘",
+  "이 ability의 입력 스키마가 너무 넓은지 검토해줘",
+  "기존 ability를 바꿔도 호출하는 쪽이 안 깨지는지 확인해줘"
+ ],
+ "notes": [
+  "등록과 REST 노출, 클라이언트 사용은 wp-abilities-api 스킬을 봐요",
+  "WordPress 7.0 이상, PHP 7.4 이상을 대상으로 해요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "peon-ping의 볼륨, 음성 팩, 알림 같은 설정을 바꿔 줘요.",
+ "summary": "config.json 파일을 읽고 필요한 항목만 고쳐서 peon-ping 설정을 바꿔요. 볼륨, 기본 팩, 팩 돌려쓰기 방식, 소리 종류별 켜기와 끄기, 폴더별 팩 지정까지 다뤄요. 바꾼 내용은 사용자에게 다시 알려 줘요.",
+ "when": [
+  "소리 크기 조절",
+  "팩 돌려쓰기 설정",
+  "소리 종류별 켜고 끄기",
+  "폴더마다 팩 지정"
+ ],
+ "examples": [
+  "peon-ping 볼륨을 30%로 낮춰줘",
+  "peon이랑 glados를 번갈아 나오게 설정해줘",
+  "데스크톱 알림 팝업은 끄고 소리만 남겨줘"
+ ],
+ "notes": [
+  "설정 파일은 ${CLAUDE_CONFIG_DIR:-$HOME/.claude}/hooks/peon-ping/config.json 에 있어요",
+  "폴더별 팩 지정은 peon packs bind 같은 CLI 명령으로도 할 수 있어요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Azure MCP로 저장소, 비밀 값, 데이터베이스, 클러스터를 다뤄요.",
+ "summary": "Azure MCP 도구를 목록, 상세, 생성, 쿼리 용도별로 골라 쓰는 요령을 알려줘요. Storage, Key Vault, Cosmos DB, AKS, Monitor 같은 서비스별 대표 작업을 정리했어요. 인증은 Azure Identity SDK를 사용해요.",
+ "when": [
+  "Azure 리소스 조회",
+  "Key Vault 비밀 관리",
+  "Cosmos DB 쿼리",
+  "AKS 클러스터 확인"
+ ],
+ "examples": [
+  "Azure 스토리지 계정 목록 보여줘",
+  "Key Vault에 있는 비밀 이름 나열해줘",
+  "Log Analytics로 최근 오류 로그 조회해줘"
+ ],
+ "notes": [
+  "Azure MCP 서버 연결과 Azure 로그인이 필요해요",
+  "비밀 값을 읽고 쓰는 작업은 조심해서 쓰세요",
+  "원문은 영어예요"
+ ]
+}

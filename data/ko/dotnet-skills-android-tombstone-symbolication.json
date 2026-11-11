@@ -1,0 +1,18 @@
+{
+ "description": "Android 크래시 파일에서 .NET 런타임 프레임의 함수 이름을 알아내요.",
+ "summary": "tombstone 파일의 백트레이스에서 BuildId와 오프셋을 뽑고 Microsoft 심볼 서버에서 디버그 심볼을 받아요. llvm-symbolizer로 함수 이름과 소스 파일, 줄 번호를 알려줘요.",
+ "when": [
+  "MAUI 앱 크래시 분석",
+  "네이티브 백트레이스 해석",
+  "SIGABRT와 SIGSEGV 조사"
+ ],
+ "examples": [
+  "이 tombstone 파일에서 .NET 런타임 쪽 크래시 원인을 해석해줘",
+  "libmonosgen 프레임을 함수 이름으로 바꿔줘"
+ ],
+ "notes": [
+  "llvm-symbolizer(LLVM 14 이상)와 인터넷 연결이 필요해요",
+  "Symbolicate-Tombstone.ps1 스크립트를 사용해요",
+  "Java와 Kotlin 크래시, 관리 코드 예외, iOS 로그에는 맞지 않아요"
+ ]
+}

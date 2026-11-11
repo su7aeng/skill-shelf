@@ -1,0 +1,18 @@
+{
+ "description": "RuView CLI, REST API, WASM 빌드 사용법을 안내해요.",
+ "summary": "wifi-densepose CLI와 mat 하위 명령, Axum 기반 REST API, 브라우저와 ESP32용 WASM 빌드를 다뤄요. 다른 프로그램에 연결하거나 셸에서 스크립트로 쓸 때 참고해요.",
+ "when": [
+  "셸 스크립트 연동",
+  "HTTP로 노출",
+  "브라우저 WASM 배포",
+  "재난 생존자 감지 CLI"
+ ],
+ "examples": [
+  "wifi-densepose mat scan 실행 방법 알려줘",
+  "RuView를 REST API로 띄우고 싶어"
+ ],
+ "notes": [
+  "cargo로 빌드해서 써요",
+  "Rust 개발 환경이 필요해요"
+ ]
+}

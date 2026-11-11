@@ -1,0 +1,18 @@
+{
+ "description": "ET 프레임워크의 C# 코드 작성과 리뷰 규칙을 안내해요.",
+ "summary": "Entity, Component, System, 메시지 핸들러를 만들거나 고칠 때 패키지 위치와 계층 규칙을 확인해요. 의존성 방향과 분석기 경고, 파일 구성도 점검해요.",
+ "when": [
+  "Entity와 System 작성",
+  "메시지 핸들러 추가",
+  "분석기 오류 해결"
+ ],
+ "examples": [
+  "새 Component와 System을 규칙에 맞게 만들어줘",
+  "분석기 오류가 나는데 고쳐줘"
+ ],
+ "notes": [
+  "원문이 중국어예요",
+  "Packages/cn.etetet.* 구조를 전제로 해요",
+  "메타 파일은 AI가 직접 만들지 않아요"
+ ]
+}

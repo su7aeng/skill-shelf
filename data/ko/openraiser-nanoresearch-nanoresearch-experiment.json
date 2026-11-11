@@ -1,0 +1,18 @@
+{
+ "description": "실험 설계서로 파이썬 실험 코드 뼈대를 만들어요.",
+ "summary": "계획 단계에서 나온 experiment_blueprint.json을 읽어 데이터 로더, 모델, 학습, 평가, 설정 파일을 갖춘 실행 가능한 프로젝트 구조를 만들어요. 결과는 experiments 폴더에 담겨요.",
+ "when": [
+  "실험 코드 뼈대 만들기",
+  "기준 모델 구현 틀",
+  "ablation 설정 파일 생성"
+ ],
+ "examples": [
+  "실험 설계서로 파이썬 코드 뼈대 만들어줘",
+  "ablation별 설정 파일도 같이 만들어줘"
+ ],
+ "notes": [
+  "planning 단계의 papers/experiment_blueprint.json이 필요해요",
+  "별도 도구 없이 모델이 코드를 생성해요",
+  "NanoResearch 파이프라인의 한 단계예요"
+ ]
+}

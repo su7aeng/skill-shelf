@@ -1,0 +1,18 @@
+{
+ "description": "Google AI Studio 앱을 Agent Platform으로 옮기는 과정을 안내해요.",
+ "summary": "Google AI Studio의 Gemini API를 쓰던 앱을 Gemini Enterprise Agent Platform(예전 Vertex AI)으로 옮기는 절차를 안내해요. Google Cloud 크레딧을 쓰거나 권한, 결제, 로그를 클라우드 인프라와 합치고 싶을 때 쓰는 스킬이에요.",
+ "when": [
+  "AI Studio에서 이전",
+  "Cloud 크레딧 활용",
+  "IAM과 결제 통합",
+  "기존 앱 코드 전환"
+ ],
+ "examples": [
+  "AI Studio로 만든 앱을 Agent Platform으로 옮기고 싶어",
+  "Google Cloud 크레딧으로 Gemini를 쓰도록 바꿔줘"
+ ],
+ "notes": [
+  "gcloud 명령 전에 읽어야 하는 사용량 표기(attribution) 문서가 따로 있어요",
+  "접속 주소가 generativelanguage.googleapis.com에서 aiplatform.googleapis.com으로 바뀌어요"
+ ]
+}

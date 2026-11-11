@@ -1,0 +1,20 @@
+{
+ "description": "MATLAB에서 AWGN 잡음을 넣고 SNR 변환을 올바르게 해요.",
+ "summary": "통신 시뮬레이션에서 신호에 백색 가우시안 잡음을 더하고 SNR, Eb/No, Es/No, 부반송파별 SNR을 바꾸는 올바른 호출 방식을 정해 줘요. awgn, convertSNR, berawgn을 쓰고, 흔히 쓰는 잘못된 패턴은 피하게 해요.",
+ "when": [
+  "링크 시뮬레이션 잡음 추가",
+  "Eb/No와 SNR 변환",
+  "OFDM 시스템 SNR 설정",
+  "복조기용 잡음 분산"
+ ],
+ "examples": [
+  "신호에 Eb/No 10dB 잡음을 넣는 MATLAB 코드 짜줘",
+  "Es/No를 SNR로 바꿔줘",
+  "OFDM 부반송파별 SNR을 설정해줘"
+ ],
+ "notes": [
+  "awgn에 'measured' 옵션을 넘기지 않아야 해요",
+  "페이딩 채널 설정은 이 스킬 범위가 아니에요",
+  "원문은 영어예요"
+ ]
+}

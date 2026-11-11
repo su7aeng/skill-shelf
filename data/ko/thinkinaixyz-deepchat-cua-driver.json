@@ -1,0 +1,19 @@
+{
+ "description": "cua-driver로 macOS 앱을 직접 조작하는 절차예요.",
+ "summary": "앱의 화면 구조를 먼저 읽은 뒤 요소 번호로 클릭, 입력, 스크롤하고 다시 읽어 결과를 확인하는 순서로 일해요. 앱 이름이 현지어나 약어로 주어져도 list_apps와 bundle_id로 찾아요.",
+ "when": [
+  "macOS 앱 조작",
+  "Finder나 TextEdit 작업",
+  "버튼 클릭 자동화",
+  "앱 이름 찾아 실행"
+ ],
+ "examples": [
+  "TextEdit에서 새 파일을 열어줘",
+  "Finder에서 /Applications 폴더로 이동해줘"
+ ],
+ "notes": [
+  "macOS 전용이고 cua-driver MCP 서버나 CLI가 필요해요",
+  "동작 전에 화면 상태를 읽는 규칙을 꼭 지켜야 해요",
+  "원문은 영어예요"
+ ]
+}

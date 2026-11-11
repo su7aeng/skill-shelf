@@ -1,0 +1,19 @@
+{
+ "description": "Remotion 애니메이션을 Studio에서 편집하기 쉽게 쓰는 방침을 안내해요.",
+ "summary": "Remotion 애니메이션이 에이전트에게 이해하기 쉽고 Remotion Studio의 Visual Mode에서 바로 편집되도록 쓰는 방법을 다뤄요. 내용은 저장소 안의 문서 두 개로 연결해 주는 짧은 안내 스킬이에요. 장면 구조와 직접 만든 상호작용 컴포넌트는 Remotion Interactivity 스킬을 따라요.",
+ "when": [
+  "Remotion 애니메이션 작성",
+  "Studio Visual Mode 편집",
+  "컴포넌트 상호작용화",
+  "스타일과 애니메이션 정리"
+ ],
+ "examples": [
+  "Studio에서 수정할 수 있게 Remotion 애니메이션을 짜줘",
+  "이 컴포넌트를 Visual Mode에서 편집 가능하게 만들어줘",
+  "편집하기 쉬운 스타일 작성법을 알려줘"
+ ],
+ "notes": [
+  "Remotion 저장소 안의 docs 파일을 참조하도록 되어 있어요",
+  "원문이 영어예요"
+ ]
+}

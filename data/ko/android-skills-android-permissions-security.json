@@ -1,0 +1,19 @@
+{
+ "description": "Android 권한과 프로세스 간 통신의 보안 허점을 점검해요.",
+ "summary": "매니페스트, 사용자 정의 권한, 서비스와 리시버와 프로바이더의 보호 상태를 감사하고 고치는 지침이에요. Binder로 호출자 UID와 서명을 검증하는 방법, knownSigner, URI 권한, 런타임 권한과 사진 선택기 사용도 다뤄요.",
+ "when": [
+  "권한 보안 감사",
+  "사용자 정의 권한 설계",
+  "호출자 검증",
+  "런타임 권한 흐름"
+ ],
+ "examples": [
+  "우리 앱 권한 선언이 과한지 점검해줘",
+  "내 서비스를 호출하는 앱의 서명을 확인하는 코드를 넣어줘"
+ ],
+ "notes": [
+  "androidx.core와 activity 또는 fragment ktx 의존성이 필요해요",
+  "knownSigner를 쓰려면 compileSdk와 targetSdk가 31 이상이어야 해요",
+  "원문이 영어예요"
+ ]
+}

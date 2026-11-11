@@ -1,0 +1,19 @@
+{
+ "description": "NanoClaw 에이전트가 Atomic Chat의 로컬 모델을 쓰게 연결해요.",
+ "summary": "Atomic Chat 데스크톱 앱이 127.0.0.1:1337에서 제공하는 모델을 MCP 서버로 연결해요. 모델 목록을 보는 도구와 프롬프트를 보내 답을 받는 도구가 생기고, Claude는 계속 전체 진행을 맡아요.",
+ "when": [
+  "로컬 모델 사용",
+  "Atomic Chat 연결",
+  "작업 일부 오프로드",
+  "MCP 서버 추가"
+ ],
+ "examples": [
+  "NanoClaw에서 Atomic Chat 모델을 쓸 수 있게 해줘",
+  "로컬 모델 목록을 에이전트가 볼 수 있게 연결해줘"
+ ],
+ "notes": [
+  "Atomic Chat 앱이 설치되어 있고 로컬 API 서버가 켜져 있어야 해요",
+  "모델 내려받기와 삭제는 앱 화면에서 해야 해요",
+  "현재 macOS용 앱만 안내돼요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Octop 파이썬 패키지의 릴리스를 자동으로 진행해요.",
+ "summary": "develop에서 릴리스 브랜치를 따고 버전을 올리고 CHANGELOG를 고친 뒤 main으로 PR을 열어요. PR이 합쳐진 뒤에는 main에서 태그를 달아 PyPI와 Docker 배포가 돌게 하고 main을 develop에 맞춰 줘요.",
+ "when": [
+  "새 버전 배포",
+  "릴리스 브랜치 만들기",
+  "CHANGELOG 갱신",
+  "버전 번호 올리기"
+ ],
+ "examples": [
+  "/publish 0.1.14",
+  "Octop 새 버전 릴리스해줘",
+  "버전 올리고 main으로 PR 열어줘"
+ ],
+ "notes": [
+  "버전 번호가 유일한 필수 입력이에요",
+  "작업 트리가 깨끗해야 하고, PR을 main에 합친 뒤에만 태그를 달아요",
+  "사용자가 직접 호출하는 스킬이고 원문은 중국어예요"
+ ]
+}

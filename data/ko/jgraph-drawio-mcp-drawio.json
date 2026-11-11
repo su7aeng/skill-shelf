@@ -1,0 +1,19 @@
+{
+ "description": "draw.io 다이어그램 파일을 만들고 내보내요.",
+ "summary": "순서도, 아키텍처, ER, 시퀀스 같은 다이어그램을 Mermaid나 draw.io XML로 써서 .drawio 파일로 만들어요. ELK 자동 배치, 편집 가능한 PNG, SVG, PDF 내보내기, 브라우저에서 여는 링크도 지원해요.",
+ "when": [
+  "순서도와 아키텍처 그리기",
+  "ER과 시퀀스 다이어그램",
+  "와이어프레임 스케치",
+  "PNG와 SVG로 내보내기"
+ ],
+ "examples": [
+  "회원가입 흐름을 순서도로 그려서 drawio 파일로 줘",
+  "서비스 아키텍처 다이어그램을 PNG로 내보내 줘"
+ ],
+ "notes": [
+  "Mermaid를 .drawio로 바꾸려면 draw.io 데스크톱 CLI가 필요해요",
+  "화면에 그림을 바로 보여주는 채팅에서는 MCP의 create_diagram 도구를 우선 써요",
+  "Claude Code 같은 터미널 도구에서는 이 스킬을 써요"
+ ]
+}

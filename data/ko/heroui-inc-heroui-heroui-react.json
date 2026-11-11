@@ -1,0 +1,19 @@
+{
+ "description": "React 웹 앱에서 HeroUI v3로 화면을 만들게 도와줘요.",
+ "summary": "Tailwind CSS v4와 React Aria 기반의 @heroui/react 컴포넌트로 버튼, 모달, 폼, 카드 등을 만들어요. v2 방식(Provider, flat props)을 쓰지 않고 합성 컴포넌트 방식을 쓰며, 구현 전에 v3 문서를 가져와요.",
+ "when": [
+  "HeroUI로 웹 화면 제작",
+  "@heroui/react 설치",
+  "테마 설정",
+  "컴포넌트 문서 확인"
+ ],
+ "examples": [
+  "HeroUI로 상품 카드 만들어줘",
+  "모달과 폼을 HeroUI v3로 구성해줘"
+ ],
+ "notes": [
+  "v2 지식을 적용하면 안 되고 v3 전용이에요",
+  "Tailwind CSS v4가 필요해요",
+  "테마는 oklch 색 변수로 설정해요"
+ ]
+}

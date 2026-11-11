@@ -1,0 +1,17 @@
+{
+ "description": "커밋 SHA로 GitHub에서 삭제된 커밋의 내용을 되찾아요.",
+ "summary": "REST API, 웹 화면, git fetch를 이용해 커밋 내용, diff, 패치를 가져와요. 강제 푸시로 사라진 것처럼 보이는 커밋도 SHA를 알면 GitHub에 남아 있어서 접근할 수 있어요.",
+ "when": [
+  "강제 푸시로 지워진 커밋 복구",
+  "SHA로 diff와 패치 확인",
+  "커밋 작성자 정보 검증"
+ ],
+ "examples": [
+  "이 커밋 SHA의 변경 내용을 GitHub에서 가져와줘",
+  "force push로 사라진 커밋을 복구해서 diff 보여줘"
+ ],
+ "notes": [
+  "복구한 코드는 실행하거나 빌드하지 말고 자료로만 읽어요",
+  "SHA는 GitHub Archive, reflog, CI 로그 등에서 구해요"
+ ]
+}

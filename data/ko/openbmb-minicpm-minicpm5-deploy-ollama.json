@@ -1,0 +1,20 @@
+{
+ "description": "Ollama로 MiniCPM5 모델을 노트북에서 실행해요.",
+ "summary": "공개된 GGUF 파일을 내려받아 Modelfile을 만들고 ollama create와 ollama run으로 MiniCPM5-1B 또는 2B를 돌리는 과정을 안내해요. 양자화 종류를 고를 수 있고, think와 no-think 모드 전환 방법과 API 확인 방법도 담겨 있어요.",
+ "when": [
+  "ollama로 모델 실행",
+  "Modelfile 작성",
+  "노트북 로컬 배포",
+  "think 모드 전환"
+ ],
+ "examples": [
+  "Ollama에 MiniCPM5-2B 올려줘",
+  "MiniCPM5-1B를 no-think 모드로 쓰게 Modelfile 만들어줘",
+  "ollama로 띄운 MiniCPM5에 API로 질문해줘"
+ ],
+ "notes": [
+  "macOS나 Linux에서 Ollama를 설치해야 해요",
+  "양자화는 Q4_K_M, Q8_0, F16 중에서 골라요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "GitHub 저장소에서 에이전트 스킬을 찾고 점검해 설치해요.",
+ "summary": "SKILL.md, CLAUDE.md, .cursorrules 같은 스킬 파일이 든 GitHub 저장소를 검색하고, 점수로 관련도를 따져요. 악성 코드나 코드에 박힌 비밀 값이 없는지 검사한 뒤 Hermes, Claude Code, Gemini CLI, OpenCode의 스킬 폴더에 설치해요.",
+ "when": [
+  "커뮤니티 스킬 찾기",
+  "스킬 안전성 점검",
+  "에이전트에 스킬 설치",
+  "스킬 관련도 비교"
+ ],
+ "examples": [
+  "GitHub에서 쓸 만한 에이전트 스킬을 찾아서 점수 매겨줘",
+  "이 저장소의 스킬에 악성 코드나 비밀 키가 없는지 검사해줘",
+  "찾은 스킬을 Claude Code에 설치해줘"
+ ],
+ "notes": [
+  "요청에는 Bearer 토큰이나 세션 쿠키가 필요해요. 로컬 개발에서는 REQUIRE_API_KEY=false로 끌 수 있어요",
+  "원문에는 연결된 엔드포인트 목록이 아직 비어 있어요"
+ ]
+}

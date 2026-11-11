@@ -1,0 +1,18 @@
+{
+ "description": "스킬과 연동을 묶은 작업공간 기능을 만들어요.",
+ "summary": "원하는 결과와 필요한 플랫폼을 확인하고, 필요한 스킬을 준비해 capability.yaml 매니페스트를 쓴 뒤 capability_install로 설치해요. 연결이 필요한 외부 서비스가 있으면 사용자에게 알려줘요.",
+ "when": [
+  "새 기능 묶음 만들기",
+  "스킬과 연동 함께 설치",
+  "작업공간 기능 정의"
+ ],
+ "examples": [
+  "LinkedIn과 Gmail을 쓰는 홍보 기능 하나 만들어줘",
+  "기존 스킬을 묶어 설치 가능한 기능으로 만들어줘"
+ ],
+ "notes": [
+  "capabilities/<id>/capability.yaml 파일을 작업공간 루트에 써요",
+  "기존 스킬은 복사하지 않고 ref로 가리켜요",
+  "연동이 needs_connection이면 사용자가 직접 연결해야 해요"
+ ]
+}

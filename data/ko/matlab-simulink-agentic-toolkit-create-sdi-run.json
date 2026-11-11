@@ -1,0 +1,18 @@
+{
+ "description": "파일이나 변수 데이터를 SDI에서 볼 수 있게 가져와요.",
+ "summary": "MAT, CSV, Excel 파일이나 작업공간 변수, 시뮬레이션 결과를 Simulation Data Inspector의 run으로 만들어요. createRun의 file, vars, namevalue 방식 중 가장 짧은 길을 쓰고, 가져온 뒤 내용을 확인해요.",
+ "when": [
+  "로그 파일을 SDI로 보기",
+  "실험 데이터 가져오기",
+  "시뮬레이션 결과 확인"
+ ],
+ "examples": [
+  "이 CSV 로그를 SDI에서 보여줘",
+  "방금 시뮬레이션이 만든 신호를 확인해줘"
+ ],
+ "notes": [
+  "MATLAB과 Simulink가 필요해요",
+  "run 비교, 실시간 스트리밍, 테스트 작성은 다루지 않아요",
+  "MDF나 ROS bag 등은 다른 도구가 필요해요"
+ ]
+}

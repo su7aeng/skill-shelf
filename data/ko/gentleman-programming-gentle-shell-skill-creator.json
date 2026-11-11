@@ -1,0 +1,20 @@
+{
+ "description": "유효한 머리말을 갖춘 AI 스킬을 새로 만들어요.",
+ "summary": "스킬 스타일 가이드를 읽고 기존 스킬과 겹치지 않는지 확인한 뒤 skills 폴더 아래에 SKILL.md를 만들어요. 본문은 짧게 쓰고 템플릿은 assets, 긴 설명은 references 에 나눠요. 이름은 kebab-case로 짓고 트리거 단어를 description 앞쪽에 넣어요.",
+ "when": [
+  "반복되는 작업 절차 스킬화",
+  "기존 스킬 수정",
+  "프로젝트 규칙을 스킬로 만들기",
+  "스킬 구조 점검"
+ ],
+ "examples": [
+  "PR 리뷰 절차를 새 스킬로 만들어줘",
+  "이 스킬의 description을 트리거 단어 중심으로 고쳐줘",
+  "한 번만 쓸 작업이라 스킬이 필요한지 판단해줘"
+ ],
+ "notes": [
+  "docs/skill-style-guide.md 를 따라야 해요",
+  "한 번만 하는 작업이나 일반 문서에는 스킬을 만들지 않아요",
+  "스킬을 바꾼 뒤 /skill-registry:refresh 로 목록을 갱신해요"
+ ]
+}

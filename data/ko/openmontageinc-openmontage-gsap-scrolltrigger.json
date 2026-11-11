@@ -1,0 +1,19 @@
+{
+ "description": "스크롤에 맞춘 GSAP 애니메이션 만드는 법을 알려줘요.",
+ "summary": "ScrollTrigger 플러그인으로 스크롤 위치에 따라 애니메이션을 재생하거나 연동하는 방법을 안내해요. start와 end 지정, 요소 고정(pin), scrub 같은 설정을 다뤄요.",
+ "when": [
+  "스크롤 애니메이션",
+  "패럴랙스 효과",
+  "섹션 고정",
+  "스크롤 연동 재생"
+ ],
+ "examples": [
+  "스크롤하면 요소가 나타나는 애니메이션을 GSAP로 만들어줘",
+  "섹션을 화면에 고정하고 스크롤에 맞춰 움직이게 해줘"
+ ],
+ "notes": [
+  "사용 전에 gsap.registerPlugin(ScrollTrigger)로 등록해야 해요",
+  "레이아웃이 바뀌면 ScrollTrigger.refresh()가 필요해요",
+  "원문이 영어예요"
+ ]
+}

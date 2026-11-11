@@ -1,0 +1,17 @@
+{
+ "description": "BMad 창업자 모듈의 기록용 항목이라 직접 쓰지 않아요.",
+ "summary": "BMad Founder 모듈의 상태를 남기는 메타데이터 스킬이에요. 직접 실행하지 말고 bmad 스킬에 setup founder를 요청하라고 안내해요. 모듈이 설정된 적이 없으면 설정하고, 있으면 상태를 알려줘요.",
+ "when": [
+  "Founder 모듈 설정",
+  "모듈 상태 확인",
+  "BMad 모듈 설치 점검"
+ ],
+ "examples": [
+  "BMad founder 모듈 설정해줘",
+  "founder 모듈 상태 알려줘"
+ ],
+ "notes": [
+  "이 스킬 자체는 호출하지 않아요",
+  "bmad 스킬이 없으면 npx skills add bmad-code-org/BMAD-METHOD --skill bmad 로 설치하라고 안내해요"
+ ]
+}

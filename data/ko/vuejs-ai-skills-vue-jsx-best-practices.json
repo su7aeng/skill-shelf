@@ -1,0 +1,19 @@
+{
+ "description": "Vue에서 JSX를 쓸 때 React와 다른 점을 알려줘요.",
+ "summary": "React JSX를 Vue로 옮기거나 속성 타입 오류가 날 때 참고하는 짧은 안내 스킬이에요. class와 className 차이 같은 문법 차이와 JSX 플러그인 설정을 다뤄요. 자세한 내용은 별도 참고 문서로 연결돼요.",
+ "when": [
+  "React JSX를 Vue로 이전",
+  "JSX 속성 타입 오류",
+  "JSX 플러그인 설정"
+ ],
+ "examples": [
+  "React 컴포넌트를 Vue JSX로 바꿔줘",
+  "Vue JSX에서 className이 안 먹어요",
+  "Vue에서 JSX 쓰려면 어떻게 설정해요"
+ ],
+ "notes": [
+  "프로젝트가 JSX를 쓸 때만 맞아요",
+  "내용이 짧고 참고 문서 한 개로 이어져요",
+  "원문은 영어예요"
+ ]
+}

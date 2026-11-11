@@ -1,0 +1,19 @@
+{
+ "description": "새 모델 설명을 chat-ui 설정 파일에 추가해요.",
+ "summary": "HuggingFace 라우터의 모델 목록과 prod.yaml을 비교해 빠진 모델을 찾아요. 각 모델을 검색해 8~12단어 설명을 쓰고 prod.yaml과 dev.yaml에 넣어요.",
+ "when": [
+  "새 모델 반영",
+  "모델 설명 동기화",
+  "설정 파일 갱신"
+ ],
+ "examples": [
+  "라우터에 새로 나온 모델 설명 추가해줘",
+  "모델 목록 동기화해줘",
+  "/add-model-descriptions 실행해줘"
+ ],
+ "notes": [
+  "chat-ui 저장소의 chart/env/prod.yaml 구조를 전제로 해요",
+  "모델 정보를 웹에서 검색해요",
+  "설명은 영어 문장 조각 형식이에요"
+ ]
+}

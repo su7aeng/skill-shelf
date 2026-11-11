@@ -1,0 +1,18 @@
+{
+ "description": "ChatGPT가 설계와 검토를, Codex가 코딩을 맡는 협업 흐름이에요.",
+ "summary": "ChatGPT Pro가 로컬 프로젝트를 읽고 계획을 내면 Codex만 코드를 고치고 테스트하며, 이후 ChatGPT가 실제 변경 내용을 읽고 검토해요. 코드와 로그는 ChatGPT 입력창에 붙이지 않고 보안 터널과 읽기 전용 MCP로 전달해요.",
+ "when": [
+  "설계 후 코드 작성",
+  "변경 내용 검토",
+  "ChatGPT와 Codex 협업"
+ ],
+ "examples": [
+  "ChatGPT가 설계하고 Codex가 구현하게 해줘",
+  "Codex가 고친 변경 내용을 ChatGPT에게 검토시켜줘"
+ ],
+ "notes": [
+  "ChatGPT는 Chat UI의 Pro 모드를 쓰고 Work 모드는 쓰지 않아요",
+  "보안 터널과 비공개 MCP 설정이 필요해요",
+  "원문 안내는 일부 중국어예요"
+ ]
+}

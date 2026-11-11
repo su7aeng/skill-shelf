@@ -1,0 +1,20 @@
+{
+ "description": "open-websearch를 설치하고 웹 검색으로 최신 자료를 찾아요.",
+ "summary": "로컬 CLI나 데몬, 또는 이미 연결된 MCP 도구 중 쓸 수 있는 경로를 먼저 확인해요. 없으면 부족한 기능을 설명하고 설치 여부를 물은 뒤 가장 작은 설정 경로로 안내해요. 설정만 끝난 것과 실제로 검색한 것을 구분해서 알려요.",
+ "when": [
+  "웹 검색 도구 설치",
+  "실시간 웹 자료 검색",
+  "웹페이지 내용 가져오기",
+  "GitHub README 읽기"
+ ],
+ "examples": [
+  "open-websearch를 설치하고 쓸 수 있게 설정해 줘",
+  "최근 소식을 웹에서 검색해서 정리해 줘",
+  "이 저장소의 README를 가져와서 요약해 줘"
+ ],
+ "notes": [
+  "도구로 search, fetchWebContent, fetchGithubReadme를 써요",
+  "프록시나 npm 미러가 필요한 환경이면 설정 전에 확인해요",
+  "도움말이 필요하면 open-websearch --help를 먼저 봐요"
+ ]
+}

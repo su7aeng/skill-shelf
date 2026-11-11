@@ -1,0 +1,19 @@
+{
+ "description": "mirrord 프리뷰 환경을 만들고 관리해요.",
+ "summary": "수정한 서비스만 공유 클러스터에 격리된 파드로 띄우고 나머지는 mirrord로 기존 클러스터에 연결해요. 환경 키와 HTTP, 큐 필터로 트래픽을 나눠서 실제 트래픽으로 변경을 검증해요. mirrord preview 명령을 직접 쓰는 방식과 GitHub Action으로 PR에 연결하는 방식을 다뤄요.",
+ "when": [
+  "변경 사항 미리 검증",
+  "프리뷰 링크 공유",
+  "PR 단위 프리뷰",
+  "프리뷰 상태 확인과 중지"
+ ],
+ "examples": [
+  "내 변경을 mirrord preview로 띄워줘",
+  "PR이 열리면 프리뷰가 시작되게 GitHub Action 설정해줘",
+  "실행 중인 프리뷰 상태 확인하고 끝내줘"
+ ],
+ "notes": [
+  "공유 쿠버네티스 클러스터가 필요해요",
+  "CI에서는 metalbear-co/mirrord-preview GitHub Action을 써요"
+ ]
+}

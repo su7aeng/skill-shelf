@@ -1,0 +1,17 @@
+{
+ "description": "현재 활성 사이버 위협 정보를 조회해요.",
+ "summary": "WorldMonitor API에서 악성코드 IOC, C2 서버, CISA가 악용 사실을 확인한 취약점을 유형, 출처, 심각도로 걸러 가져와요. 결과는 페이지 단위로 받아요.",
+ "when": [
+  "최신 사이버 위협 확인",
+  "IOC 조회",
+  "악용 중인 CVE 점검"
+ ],
+ "examples": [
+  "지금 활성화된 C2 서버 목록 보여줘",
+  "CISA에 등록된 악용 취약점 알려줘"
+ ],
+ "notes": [
+  "X-WorldMonitor-Key 헤더에 API 키가 필요해요",
+  "URLhaus, Feodotracker, CISA 등이 출처예요"
+ ]
+}

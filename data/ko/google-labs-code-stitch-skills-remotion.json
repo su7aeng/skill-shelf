@@ -1,0 +1,18 @@
+{
+ "description": "Stitch 화면들로 둘러보기 영상을 Remotion으로 만들어요.",
+ "summary": "Stitch 프로젝트의 화면을 하나씩 가져와 Remotion 영상 구성으로 엮어요. 화면 전환, 확대, 글자 오버레이를 넣은 소개 영상이 나와요.",
+ "when": [
+  "앱 소개 영상 제작",
+  "디자인 시안 시연",
+  "화면 전환 영상",
+  "Stitch 결과물 공유"
+ ],
+ "examples": [
+  "내 Stitch 프로젝트 화면들로 소개 영상을 만들어줘",
+  "계산기 앱 화면을 확대 효과 넣어서 영상으로 만들어줘"
+ ],
+ "notes": [
+  "Stitch MCP 서버와 Remotion(MCP 또는 CLI), Node.js와 npm이 필요해요",
+  "원문은 영어예요"
+ ]
+}

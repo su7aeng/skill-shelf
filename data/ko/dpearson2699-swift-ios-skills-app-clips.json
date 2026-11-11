@@ -1,0 +1,20 @@
+{
+ "description": "App Clip을 만들고 실행 경로를 연결하는 방법을 알려줘요.",
+ "summary": "App Clip용 별도 타깃 설정, 호출 URL, App Clip 코드, NFC, QR 코드, 앱 스토어 커넥트 경험 설정을 다뤄요. 크기와 기능 제한, 데이터 공유, 알림과 위치 확인, 전체 앱으로의 이어가기도 설명해요.",
+ "when": [
+  "App Clip 새로 만들기",
+  "QR과 NFC로 실행",
+  "전체 앱 연결",
+  "호출 경로 설정"
+ ],
+ "examples": [
+  "우리 앱에 App Clip 타깃을 추가해줘",
+  "QR 코드로 App Clip이 열리게 설정하는 법 알려줘",
+  "App Clip에서 전체 앱으로 데이터를 넘기고 싶어"
+ ],
+ "notes": [
+  "Xcode와 App Store Connect 설정이 필요해요",
+  "App Clip에는 크기 제한이 있어요",
+  "원문은 영어예요"
+ ]
+}

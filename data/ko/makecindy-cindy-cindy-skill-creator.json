@@ -1,0 +1,18 @@
+{
+ "description": "Cindy 스킬을 만들고 고치고 SkillHub에 올리는 일을 도와요.",
+ "summary": "에이전트에게 꼭 필요한 안내만 담도록 스킬을 쓰고, SkillHub 공개 마켓이나 조직 스킬을 검색해요. 올리거나 새 버전을 낼 때는 references/skillhub-publishing.md 절차를 따라요.",
+ "when": [
+  "Cindy 스킬 작성",
+  "스킬 수정",
+  "SkillHub 검색",
+  "스킬 업로드"
+ ],
+ "examples": [
+  "회의록 정리하는 스킬 만들어줘",
+  "내 스킬 새 버전으로 올려줘"
+ ],
+ "notes": [
+  "업로드 요청이 있을 때만 올려요",
+  "처음 올릴 때는 공개 범위를 물어봐요"
+ ]
+}

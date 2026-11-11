@@ -1,0 +1,19 @@
+{
+ "description": "Swift AgentSquad로 기기 안에서 도는 에이전트 앱을 만들도록 안내해요.",
+ "summary": "에이전트 하나, 분류기를 쓰는 여러 전문가, 데이터를 벗어나지 않는 GroundedAgent, 음성 비서 중 맞는 구성을 골라 줘요. 쓰는 모듈과 주의점을 알려 주고, 정확한 시그니처는 소스를 읽게 해요.",
+ "when": [
+  "iOS와 macOS 에이전트 앱",
+  "여러 에이전트 라우팅",
+  "음성 비서 구성",
+  "모듈 선택"
+ ],
+ "examples": [
+  "AgentSquad로 iOS 앱에 질문 분류하는 에이전트 넣어줘",
+  "음성으로 답하는 비서를 Swift로 구성해줘"
+ ],
+ "notes": [
+  "Swift 6.2, iOS 16 이상, macOS 14 이상이 필요해요",
+  "저장 방식은 iOS 16에서 FileChatStorage, iOS 17 이상에서 DeviceChatStorage예요",
+  "API 레퍼런스가 아니라 안내서예요"
+ ]
+}

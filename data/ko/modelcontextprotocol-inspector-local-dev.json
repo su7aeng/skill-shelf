@@ -1,0 +1,19 @@
+{
+ "description": "Inspector를 로컬에서 설치하고 빌드하고 실행하는 방법이에요.",
+ "summary": "루트에서 npm install로 각 클라이언트 설치를 이어 가고 web, cli, tui, launcher를 실행하는 방법을 안내해요. 빌드가 필요한 경우와 의존성을 어느 package.json에 넣을지도 다뤄요.",
+ "when": [
+  "로컬 실행 준비",
+  "빌드 필요 여부 확인",
+  "의존성 추가",
+  "설치 오류 점검"
+ ],
+ "examples": [
+  "Inspector 웹 클라이언트를 로컬에서 실행하고 싶어",
+  "이 의존성은 어느 package.json에 넣어야 해?"
+ ],
+ "notes": [
+  "Node 22.23.4 이상 등 지정된 버전이 필요해요",
+  "git worktree에서는 node_modules를 링크하지 말고 직접 설치해요",
+  "INSPECTOR_SKIP_CLIENT_INSTALL=1로 하위 설치를 건너뛸 수 있어요"
+ ]
+}

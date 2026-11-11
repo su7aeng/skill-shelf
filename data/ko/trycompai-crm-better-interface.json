@@ -1,0 +1,18 @@
+{
+ "description": "화면 전체를 접근성, 레이아웃, 글, 색 관점으로 종합 검토해요.",
+ "summary": "better-accessibility, better-layout, better-writing, better-typography, better-colors, better-ui 스킬을 묶어 한 화면이나 흐름을 하나의 시스템으로 점검해요. 각 분야 규칙은 해당 스킬이 맡고, 이 스킬은 결과를 우선순위가 있는 하나의 판정으로 모아요.",
+ "when": [
+  "화면 종합 검토",
+  "디자인 감사",
+  "기능 출시 전 UI 점검"
+ ],
+ "examples": [
+  "better-interface로 결제 화면 전체를 검토해줘",
+  "빠른 모드로 가입 흐름만 봐줘"
+ ],
+ "notes": [
+  "사용자가 직접 부를 때 쓰는 스킬이에요",
+  "quick 모드는 문제 5개까지, full 모드는 15개까지 보고해요",
+  "다른 better-* 스킬이 함께 있어야 해요"
+ ]
+}

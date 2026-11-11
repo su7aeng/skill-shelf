@@ -1,0 +1,19 @@
+{
+ "description": "OpenClaw에서 OpenViking의 장기 기억과 자료를 다뤄요.",
+ "summary": "@openviking/openclaw-plugin이 설치된 뒤 OpenClaw 에이전트가 장기 기억, 세션 기록, 자료와 스킬 가져오기, 의미 검색을 쓰는 방법을 안내해요. 어떤 상황에 어떤 도구를 고를지와 지켜야 할 안전 규칙도 정리돼 있어요.",
+ "when": [
+  "장기 기억 검색",
+  "OpenViking 자료 가져오기",
+  "검색 결과 디버깅",
+  "에이전트 스킬 등록"
+ ],
+ "examples": [
+  "OpenViking에서 지난번 결정 사항 찾아줘",
+  "이 폴더를 OpenViking에 자료로 넣어줘"
+ ],
+ "notes": [
+  "이미 설치된 플러그인 사용법이고, 처음 설치는 install-openviking-memory 스킬을 써요",
+  "기존 OpenViking 서버가 필요해요",
+  "add_resource 도구는 기본으로 꺼져 있고 API 키는 출력하지 않아요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "fallow의 사람이 읽는 CLI 출력을 검토해요.",
+ "summary": "crates/cli 아래 출력 경로와 관련 스냅샷, 테스트를 보며 정보 위계, 훑어보기 쉬움, 점진적 공개, 빈 상태, NO_COLOR와 터미널 호환성을 살펴요. 결론은 APPROVE, CONCERN, BLOCK 중 하나예요.",
+ "when": [
+  "CLI 출력 변경 검토",
+  "명령 사용성 점검",
+  "빈 상태 확인",
+  "터미널 호환 확인"
+ ],
+ "examples": [
+  "이번 CLI 출력 변경이 읽기 좋은지 검토해줘",
+  "NO_COLOR일 때 출력 괜찮은지 봐줘"
+ ],
+ "notes": [
+  "fallow 저장소 전용이에요",
+  "검토 전에 .agents의 리뷰어 문서와 CLI 규칙 문서를 읽어요"
+ ]
+}

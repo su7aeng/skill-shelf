@@ -1,0 +1,18 @@
+{
+ "description": "Symfony에서 재사용 가능한 Twig 컴포넌트를 만들어요.",
+ "summary": "PHP 클래스와 Twig 템플릿으로 된 클래스 컴포넌트, 템플릿만 쓰는 익명 컴포넌트를 만드는 법을 안내해요. 프롭, 블록, 계산 속성 같은 구성 방법도 다뤄요. 입력에 따라 다시 그려야 하면 LiveComponent를 쓰라고 구분해 줘요.",
+ "when": [
+  "재사용 버튼과 카드 만들기",
+  "컴포넌트 프롭 설계",
+  "Twig 블록과 슬롯 사용",
+  "디자인 시스템 구성"
+ ],
+ "examples": [
+  "Alert 컴포넌트를 type과 message 프롭으로 만들어줘",
+  "프롭만 받는 간단한 배지를 익명 컴포넌트로 만들어줘"
+ ],
+ "notes": [
+  "composer require symfony/ux-twig-component로 설치해요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "TypeScript와 JavaScript에서 CCXT로 거래소를 다루는 방법이에요.",
+ "summary": "npm install ccxt로 설치해 Node.js나 브라우저에서 거래소에 연결하고 시세 조회, 주문, 실시간 스트리밍을 하는 방법을 알려줘요. REST와 WebSocket 예제, 인증과 오류 처리를 포함하고 트레이딩 봇이나 차익거래 시스템 개발에 쓰여요.",
+ "when": [
+  "TypeScript 트레이딩 봇",
+  "차익거래 시스템",
+  "포트폴리오 도구",
+  "실시간 시세 스트리밍"
+ ],
+ "examples": [
+  "타입스크립트로 바이낸스 시세 가져오는 코드 짜줘",
+  "ccxt.pro로 실시간 티커를 받아줘"
+ ],
+ "notes": [
+  "REST와 WebSocket이 같은 ccxt 패키지에 들어 있어요",
+  "CommonJS와 ES 모듈 예제가 모두 있어요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "ClickHouse 분석 쿼리와 테이블 설계 패턴을 안내해요.",
+ "summary": "열 기반 분석용 데이터베이스인 ClickHouse의 테이블 설계, 쿼리 최적화, 데이터 엔지니어링 방법을 SQL 예시와 함께 정리한 참고 자료예요. MergeTree와 중복 제거용 ReplacingMergeTree 같은 엔진을 다뤄요.",
+ "when": [
+  "ClickHouse 테이블 설계",
+  "분석 쿼리 최적화",
+  "대용량 분석 처리"
+ ],
+ "examples": [
+  "ClickHouse에 이벤트 테이블 설계해줘",
+  "이 분석 쿼리를 빠르게 고쳐줘",
+  "중복 데이터를 어떻게 정리할지 알려줘"
+ ],
+ "notes": [
+  "원문은 영어예요"
+ ]
+}

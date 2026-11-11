@@ -1,0 +1,20 @@
+{
+ "description": "hashsigs-solidity 저장소의 Solidity 코딩 규칙을 지키며 작업해요.",
+ "summary": "CODINGSTANDARDS.md를 먼저 읽고 줄 길이, 출처 인용, 이름 규칙, 어셈블리 주석 같은 체크리스트로 코드를 쓰거나 리뷰해요. 끝나면 forge와 slither 검증 명령을 돌려 통과를 확인해요.",
+ "when": [
+  "Solidity 컨트랙트 작성",
+  "Solidity 코드 리뷰",
+  "diff 규칙 점검",
+  "테스트 파일 수정"
+ ],
+ "examples": [
+  "이 컨트랙트 수정할 때 저장소 코딩 규칙 지켜서 해줘",
+  "이 Solidity diff 규칙대로 리뷰해줘",
+  "검증 명령 돌려서 통과하는지 확인해줘"
+ ],
+ "notes": [
+  "Foundry(forge)와 slither가 필요해요",
+  "저장소 루트의 CODINGSTANDARDS.md가 기준이에요",
+  "원문은 영어예요"
+ ]
+}

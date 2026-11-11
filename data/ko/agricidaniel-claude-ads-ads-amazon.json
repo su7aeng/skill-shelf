@@ -1,0 +1,19 @@
+{
+ "description": "Amazon Ads 계정의 구조와 성과를 근거 기반으로 점검해요.",
+ "summary": "목표와 전환 정의, 기간, 예산 같은 정보를 모은 뒤 Sponsored Products, Brands, Display, DSP, 타기팅, 검색어, ACOS와 TACOS 등을 살펴요. 관찰, 진단, 추천을 나눠 담은 결과를 공통 JSON 형식으로 돌려주고 점수는 메인 흐름에서 계산해요.",
+ "when": [
+  "Amazon PPC 점검",
+  "ACOS와 TACOS 확인",
+  "ASIN 광고 구조 검토",
+  "Amazon DSP 최적화"
+ ],
+ "examples": [
+  "Amazon 광고 계정 점검해줘",
+  "ACOS가 높은 이유를 분석해줘"
+ ],
+ "notes": [
+  "메인 ads 스킬과 함께 쓰는 하위 스킬이에요",
+  "계정 변경은 하지 않고 읽기 전용 점검만 해요",
+  "참고 파일 ads/references/amazon-audit.md를 읽어요"
+ ]
+}

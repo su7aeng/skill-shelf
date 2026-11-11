@@ -1,0 +1,17 @@
+{
+ "description": "Husky 커밋 전 검사를 lint-staged와 함께 설정해요.",
+ "summary": "패키지 매니저를 알아내 husky, lint-staged, prettier를 설치하고 pre-commit 훅을 만들어요. 커밋 전에 포맷, 타입 검사, 테스트가 돌도록 하고 마지막에 동작을 확인해요.",
+ "when": [
+  "커밋 전 자동 검사 추가",
+  "Prettier 포맷 자동화",
+  "타입 검사와 테스트 훅"
+ ],
+ "examples": [
+  "커밋할 때 자동으로 포맷과 테스트 돌게 설정해줘",
+  "Husky 설정해줘"
+ ],
+ "notes": [
+  "typecheck나 test 스크립트가 없으면 해당 줄을 빼고 알려 줘요",
+  "Prettier 설정이 없을 때만 기본 설정을 만들어요"
+ ]
+}

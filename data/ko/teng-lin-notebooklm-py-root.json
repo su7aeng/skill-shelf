@@ -1,0 +1,20 @@
+{
+ "description": "notebooklm-py로 Gemini Notebook의 노트북, 소스, 대화를 다뤄요.",
+ "summary": "notebooklm CLI를 기본으로 쓰고, JSON 출력과 명확한 ID를 사용해 작업을 점검 가능하게 해요. 설치와 로그인, 문제 해결, 노트북과 소스 관리, 소스에 근거한 대화와 조사, 결과물 생성과 내려받기를 맡아요. 애플리케이션 코드가 필요할 때만 비동기 Python API를 써요.",
+ "when": [
+  "Gemini Notebook 자동화",
+  "소스 추가와 관리",
+  "소스 기반 질의응답",
+  "생성물 내려받기"
+ ],
+ "examples": [
+  "notebooklm으로 새 노트북 만들고 PDF 소스 추가해줘",
+  "이 노트북에 질문하고 답을 정리해줘",
+  "notebooklm 로그인이 안 되는데 해결해줘"
+ ],
+ "notes": [
+  "Python 3.10 이상과 pip install notebooklm-py가 필요해요",
+  "인증 정보는 안전하게 다루고 시스템 pip 오류 때 --break-system-packages는 쓰지 않아요",
+  "일반 Gemini API 작업에는 쓰지 않아요"
+ ]
+}

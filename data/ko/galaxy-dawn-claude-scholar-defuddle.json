@@ -1,0 +1,18 @@
+{
+ "description": "웹 페이지에서 깔끔한 Markdown 본문을 뽑아요.",
+ "summary": "defuddle parse 명령으로 URL의 본문을 Markdown으로 가져와요. 지식 베이스 작업에서 obsidian-source-ingestion 아래의 도구로 쓰이고, 웹 자료는 보통 Sources/Web/에 저장해요.",
+ "when": [
+  "웹 글 저장",
+  "본문 추출",
+  "자료 수집",
+  "지식 베이스 입력"
+ ],
+ "examples": [
+  "이 웹 페이지를 Markdown으로 뽑아줘",
+  "이 기사 본문만 가져와줘"
+ ],
+ "notes": [
+  "defuddle 명령이 설치돼 있어야 해요",
+  "원문이 짧은 보조 스킬이에요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "PortalJS 포털을 공공 데이터 포털이 수집하게 만들어요.",
+ "summary": "DCAT 프로필을 고르고 각 데이터셋 정보를 매핑해서 JSON-LD, Turtle, RDF/XML 목록 파일을 빌드 때 만들어요. data.europa.eu 나 data.gov 같은 외부 카탈로그가 자동으로 수집할 수 있어요. 프로필별 적합성도 검사해요.",
+ "when": [
+  "공공 포털에 데이터 노출",
+  "DCAT-AP나 DCAT-US 지원",
+  "데이터 카탈로그 수집 허용"
+ ],
+ "examples": [
+  "우리 포털을 DCAT-AP 로 수집할 수 있게 만들어줘",
+  "DCAT-US 피드를 추가해줘",
+  "DCAT 목록이 규격에 맞는지 검사해줘"
+ ],
+ "notes": [
+  "DCAT-AP 와 DCAT-US 는 발행 기관과 연락처가 필요해요",
+  "lib/metadata/dcat.ts 가 이미 있어야 해요",
+  "SHACL 검사는 네트워크나 pyshacl 이 있으면 돌릴 수 있어요"
+ ]
+}

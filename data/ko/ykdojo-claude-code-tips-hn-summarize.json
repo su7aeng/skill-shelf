@@ -1,0 +1,17 @@
+{
+ "description": "Hacker News 인기 글과 댓글 토론을 가져와 요약해요.",
+ "summary": "hckrnews.com은 스크래핑하지 않고 공식 Hacker News API(Firebase, Algolia)를 curl로 호출해요. 상위 글 목록을 순위대로 가져오거나 주제로 글을 찾고, 댓글 트리를 읽어 토론 내용을 요약해요.",
+ "when": [
+  "HN 상위 글 요약",
+  "특정 HN 글과 댓글 확인",
+  "주제별 HN 토론 검색"
+ ],
+ "examples": [
+  "HN 상위 10개 글 요약해줘",
+  "이 HN 글의 댓글 반응 정리해줘"
+ ],
+ "notes": [
+  "curl과 python3가 필요해요",
+  "원문과 댓글이 영어라서 영어 자료를 요약하는 일이 많아요"
+ ]
+}

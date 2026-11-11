@@ -1,0 +1,19 @@
+{
+ "description": "MiniCPM5를 LiteRT-LM으로 기기에서 직접 실행해요.",
+ "summary": "litert-lm CLI와 OpenAI 호환 서버로 데스크톱에서, Kotlin API나 AI Edge Gallery 앱으로 안드로이드에서 같은 .litertlm 번들을 CPU나 GPU로 실행하는 방법을 안내해요. 먼저 uv로 litert-lm을 설치하고 사전 변환된 번들을 받아 써요.",
+ "when": [
+  "안드로이드 온디바이스 실행",
+  "LiteRT-LM 사용",
+  "폰과 PC에서 같은 모델 쓰기",
+  "로컬 모델 서버 띄우기"
+ ],
+ "examples": [
+  "MiniCPM5-2B를 안드로이드 폰에서 돌리는 법을 알려줘",
+  "litert-lm으로 MiniCPM5를 실행해줘"
+ ],
+ "notes": [
+  "기본은 2B int4 번들로 약 1.55GB예요",
+  "첫 실행 때 파일을 내려받고 이후에는 캐시를 써요",
+  "1B 번들은 CPU용과 GPU용 파일 이름이 달라요"
+ ]
+}

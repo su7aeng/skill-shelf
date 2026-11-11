@@ -1,0 +1,20 @@
+{
+ "description": "연결된 클라우드 LLM 제공자의 동작을 회귀 테스트해요.",
+ "summary": "켜져 있는 클라우드 제공자마다 연결, 채팅 응답, JSON 출력, SSE 스트리밍을 시험해요. 키는 ~/.aegis-ai/llm-config.json에서 읽고, 결과는 ~/.aegis-ai/regression-tests/에 저장해요.",
+ "when": [
+  "LLM 제공자 점검",
+  "연결과 인증 확인",
+  "스트리밍 동작 시험",
+  "변경 후 회귀 검사"
+ ],
+ "examples": [
+  "클라우드 LLM 제공자들 다 테스트 돌려줘",
+  "glm이랑 xai만 테스트해줘",
+  "전체 응답 내용까지 보면서 테스트해줘"
+ ],
+ "notes": [
+  "Node.js 18 이상이 필요해요",
+  "API 키는 ~/.aegis-ai/llm-config.json 에 있어야 해요",
+  "node scripts/run-regression.cjs 로 직접 실행할 수도 있어요"
+ ]
+}

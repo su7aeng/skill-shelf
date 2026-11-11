@@ -1,0 +1,20 @@
+{
+ "description": "Microsandbox 문서를 사실 확인하며 고치는 작업을 도와줘요.",
+ "summary": "Microsandbox의 제품, CLI, SDK 문서를 수정할 때 쓰는 스킬이에요. 구현과 설정, 플래그를 먼저 확인한 뒤 짧은 예제 중심으로 쓰고, 언어 순서 점검 스크립트와 git diff --check로 검증해요. 바꾼 페이지와 확인 결과를 보고해요.",
+ "when": [
+  "Microsandbox 문서 수정",
+  "CLI 옵션 문서화",
+  "SDK 예제 추가",
+  "릴리스 버전 표기 확인"
+ ],
+ "examples": [
+  "Microsandbox 문서에 새 네트워크 옵션 설명을 추가해줘",
+  "이 문서 예제가 실제 동작과 맞는지 확인하고 고쳐줘",
+  "docs 변경 후 점검 스크립트를 돌려줘"
+ ],
+ "notes": [
+  "microsandbox/docs 아래 문서 변경에만 쓰는 전용 절차예요",
+  "저장소의 AGENTS.md 규칙을 따르고 Mintlify 형식을 써요",
+  "원문은 영어예요"
+ ]
+}

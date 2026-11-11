@@ -1,0 +1,19 @@
+{
+ "description": "Agentlas의 모든 명령을 한 곳에서 받아 알맞은 기능으로 연결해요.",
+ "summary": "/agentlas network, build, storm, goal, one, upload, cloud, hub, local, browser, call, search 같은 명령의 공통 입구예요. 하이픈 형태와 띄어쓰기 형태를 모두 받고, 각각 Hephaestus의 /hep- 단축 명령과 1대1로 이어져요.",
+ "when": [
+  "Agentlas 명령 실행",
+  "에이전트 팀 만들기",
+  "에이전트 검색과 호출",
+  "에이전트 패키지 올리기"
+ ],
+ "examples": [
+  "/agentlas build 고객 문의 답변 에이전트 만들어줘",
+  "/agentlas search 데이터 분석 에이전트",
+  "/agentlas browser https://example.com 열어서 확인해줘"
+ ],
+ "notes": [
+  "Agentlas와 Hephaestus 환경이 있어야 해요",
+  "원문은 영어예요"
+ ]
+}

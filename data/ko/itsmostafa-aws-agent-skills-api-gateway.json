@@ -1,0 +1,19 @@
+{
+ "description": "AWS API Gateway로 API를 만들고 설정하는 방법을 안내해요.",
+ "summary": "REST, HTTP, WebSocket API의 차이와 통합 방식, 단계(stage), 인증, 요청 제한 설정을 설명해요. AWS CLI와 SAM 템플릿 예시, 모범 사례, 문제 해결 방법을 함께 줘요.",
+ "when": [
+  "API 새로 만들기",
+  "Lambda 연동",
+  "인증과 요청 제한 설정",
+  "API 오류 원인 찾기"
+ ],
+ "examples": [
+  "Lambda와 연결되는 HTTP API 만들어줘",
+  "API Gateway에 인증 붙이는 방법 알려줘",
+  "API Gateway에서 429 오류가 나는 이유 찾아줘"
+ ],
+ "notes": [
+  "AWS CLI와 AWS 계정이 필요해요",
+  "원문은 영어예요"
+ ]
+}

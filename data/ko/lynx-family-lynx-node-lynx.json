@@ -1,0 +1,18 @@
+{
+ "description": "node-lynx로 Lynx 번들을 실행하고 화면 캡처와 미리보기를 해요.",
+ "summary": "node-lynx CLI의 render 명령으로 화면 없이 스크린샷을 찍고, preview 명령으로 macOS 미리보기 창을 열어요. 로컬 번들이나 원격 번들 주소를 넣을 수 있고, DebugRouter 세션과 Node.js 자동화도 다뤄요.",
+ "when": [
+  "Lynx 화면 스크린샷",
+  "미리보기 창 열기",
+  "번들 간단 점검",
+  "DebugRouter 세션 연결"
+ ],
+ "examples": [
+  "이 Lynx 번들을 390x844로 렌더해서 스크린샷 찍어줘",
+  "로컬 template.js를 미리보기 창으로 띄워줘"
+ ],
+ "notes": [
+  "node-lynx CLI와 Node.js가 필요해요",
+  "preview는 macOS에서만 돼요"
+ ]
+}

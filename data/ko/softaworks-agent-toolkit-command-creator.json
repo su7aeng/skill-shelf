@@ -1,0 +1,18 @@
+{
+ "description": "Claude Code 슬래시 명령을 만들어 줘요.",
+ "summary": "자주 하는 작업을 .claude/commands/ 또는 ~/.claude/commands/ 에 마크다운 파일로 저장해 /명령이름 으로 부를 수 있게 해요. 패턴과 예시 참고 문서를 바탕으로 에이전트가 따라 하기 쉬운 구조로 써요.",
+ "when": [
+  "반복 작업 명령화",
+  "프로젝트 전용 슬래시 명령",
+  "전역 슬래시 명령",
+  "작업 절차 문서화"
+ ],
+ "examples": [
+  "PR 올리는 과정을 슬래시 명령으로 만들어줘",
+  "/fix-ci 명령 하나 추가해줘"
+ ],
+ "notes": [
+  "프로젝트용은 .claude/commands/, 전역용은 ~/.claude/commands/ 에 저장돼요",
+  "Claude Code 안에서 쓰는 기능이에요"
+ ]
+}

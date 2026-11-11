@@ -1,0 +1,19 @@
+{
+ "description": "논문 DOI나 PMID로 저자가 올린 유전체 데이터를 찾아 내려받아요.",
+ "summary": "논문 식별자와 원하는 파일 확장자를 받아 GEO, ENA, Zenodo, Figshare, Dryad, OSF 같은 공개 저장소를 뒤져요. 찾은 파일을 내려받고 출처와 크기, 체크섬을 적은 manifest.json과 요약 보고서를 남겨요.",
+ "when": [
+  "논문 부속 데이터 내려받기",
+  "VCF나 FASTA 파일 찾기",
+  "공개 저장소 데이터 수집"
+ ],
+ "examples": [
+  "이 DOI 논문의 vcf 파일을 내려받아줘",
+  "PMID로 논문에 딸린 h5ad 데이터 찾아줘",
+  "이 논문이 GEO에 올린 csv 파일 가져와줘"
+ ],
+ "notes": [
+  "Python 3.11 이상과 requests, biopython, pydantic이 필요해요",
+  "내려받을 파일 확장자를 꼭 알려 줘야 해요",
+  "기본 저장 위치는 ./downloads 예요"
+ ]
+}

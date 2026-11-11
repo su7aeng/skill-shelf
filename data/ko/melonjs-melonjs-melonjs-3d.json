@@ -1,0 +1,19 @@
+{
+ "description": "melonJS에서 3D와 2.5D 장면을 만드는 방법이에요.",
+ "summary": "Camera3d, Mesh, Sprite3d, Light3d, glTF 장면, 깊이 정렬을 다뤄요. melonJS는 Y축이 아래, Z가 앞쪽 방향이라 OpenGL과 반대라는 점을 가장 먼저 강조하고, Canvas 대체 모드에서 안 되는 기능도 알려줘요.",
+ "when": [
+  "3D 카메라 설정",
+  "메시와 빌보드 쓰기",
+  "3D 조명과 그림자",
+  "깊이 정렬 문제"
+ ],
+ "examples": [
+  "melonJS에서 3D 카메라 만들어줘",
+  "카메라를 기울이고 싶은데 rotate가 안 먹어"
+ ],
+ "notes": [
+  "좌표 규칙이 OpenGL과 반대라 기존 3D 감각대로 쓰면 틀려요",
+  "3D 카메라는 camera.rotate() 대신 roll로 기울여요",
+  "원문은 영어예요"
+ ]
+}

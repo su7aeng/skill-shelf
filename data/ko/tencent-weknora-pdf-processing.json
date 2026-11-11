@@ -1,0 +1,18 @@
+{
+ "description": "PDF에서 텍스트와 표를 뽑고 양식 채우기, 합치기를 해요.",
+ "summary": "pdfplumber로 PDF 페이지의 글을 읽어 내는 방법을 기본으로 해요. 텍스트와 표 추출, 양식 채우기, 문서 병합을 지원해요. 양식 채우기는 FORMS.md 안내와 analyze_form.py, extract_text.py 스크립트를 써요.",
+ "when": [
+  "PDF 텍스트 추출",
+  "표 데이터 뽑기",
+  "PDF 양식 채우기",
+  "PDF 합치기"
+ ],
+ "examples": [
+  "이 PDF 첫 페이지 글을 뽑아줘",
+  "PDF 두 개를 하나로 합쳐줘"
+ ],
+ "notes": [
+  "스캔본은 OCR이 필요할 수 있어요",
+  "암호가 걸린 PDF는 조심스럽게 처리해야 해요"
+ ]
+}

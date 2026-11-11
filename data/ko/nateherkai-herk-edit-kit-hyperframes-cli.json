@@ -1,0 +1,19 @@
+{
+ "description": "HyperFrames 명령줄 도구 사용법을 안내해요.",
+ "summary": "npx hyperframes로 프로젝트 만들기, 검사, 미리보기, 영상 렌더링, 받아쓰기, 음성 합성, 환경 점검을 해요. 작업 순서는 init, 작성, lint, preview, render예요. lint로 흔한 구성 실수를 먼저 잡아요.",
+ "when": [
+  "새 영상 프로젝트 시작",
+  "구성 검사",
+  "미리보기와 렌더링",
+  "환경 문제 해결"
+ ],
+ "examples": [
+  "새 HyperFrames 프로젝트를 만들어줘",
+  "이 영상 구성을 검사해줘",
+  "영상으로 렌더링해줘"
+ ],
+ "notes": [
+  "Node.js 22 이상과 FFmpeg가 필요해요",
+  "모든 명령은 npx hyperframes로 실행해요"
+ ]
+}

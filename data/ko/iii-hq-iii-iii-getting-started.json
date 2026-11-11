@@ -1,0 +1,19 @@
+{
+ "description": "iii 엔진을 설치하고 첫 워커를 띄우는 안내예요.",
+ "summary": "설치 스크립트로 엔진을 깔고, iii project init 으로 프로젝트를 만든 뒤, iii compose 로 시작해요. TypeScript, Python, Rust 중 SDK를 설치하고 hello::greet 함수를 등록해 POST /hello 요청에 응답하는 첫 워커까지 단계별로 안내해요.",
+ "when": [
+  "iii 처음 시작",
+  "프로젝트 만들기",
+  "SDK 설치",
+  "첫 워커 작성"
+ ],
+ "examples": [
+  "iii 새 프로젝트 만들고 hello 워커까지 띄워줘",
+  "iii 엔진 설치 방법 알려줘"
+ ],
+ "notes": [
+  "curl 설치 스크립트로 엔진을 설치해요",
+  "compose 를 실행한 터미널을 계속 켜 둬야 해요",
+  "엔진은 보통 ws://localhost:49134 에서 대기해요"
+ ]
+}

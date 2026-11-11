@@ -1,0 +1,20 @@
+{
+ "description": "위험한 git 명령을 실행 전에 막는 Claude Code 훅을 설치해요.",
+ "summary": "Bash 실행 전에 동작하는 PreToolUse 훅을 설정해서 git push, reset --hard, clean -f, branch -D, checkout . 같은 명령을 막아요. 현재 프로젝트나 전체 프로젝트 중 설치 범위를 물어보고, 스크립트를 복사한 뒤 settings.json에 등록해요.",
+ "when": [
+  "git 사고 예방",
+  "Claude Code 안전장치 추가",
+  "푸시와 강제 초기화 차단",
+  "프로젝트별 훅 설정"
+ ],
+ "examples": [
+  "위험한 git 명령 못 쓰게 막아줘",
+  "모든 프로젝트에 git 안전 훅 설치해줘",
+  "git push는 막고 다른 건 허용하게 설정해줘"
+ ],
+ "notes": [
+  "원문이 중국어이고 Claude Code 전용이에요",
+  "설치 후 막을 명령 목록을 고칠 수 있어요",
+  "기존 settings 파일이 있으면 덮지 않고 합쳐요"
+ ]
+}

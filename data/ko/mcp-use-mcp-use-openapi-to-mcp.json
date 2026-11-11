@@ -1,0 +1,19 @@
+{
+ "description": "OpenAPI 명세를 MCP 서버로 바꾸고 배포까지 도와줘요.",
+ "summary": "명세를 단일 기준으로 삼아 각 API 동작을 MCP 도구 하나로 만들어요. 범위 확인, 명세 읽기, 동작 매핑, 프로젝트 생성, 도구 생성, 인증 연결, 테스트, 배포 순서로 진행하고 도구 이름과 설명, 파라미터는 명세에서 그대로 가져와요.",
+ "when": [
+  "REST API를 MCP로 변환",
+  "Swagger 문서 활용",
+  "API를 AI에서 쓰게 만들기",
+  "명세 기반 도구 생성"
+ ],
+ "examples": [
+  "이 openapi.yaml로 MCP 서버를 만들어줘",
+  "우리 REST API를 Claude에서 쓸 수 있게 해줘"
+ ],
+ "notes": [
+  "OpenAPI 3.x와 Swagger 2.0 문서를 지원해요",
+  "인증 비밀 값은 명세가 아니라 환경 변수로 받아요",
+  "mcp-use TypeScript SDK를 쓰고 배포는 나중에 따로 물어봐요"
+ ]
+}

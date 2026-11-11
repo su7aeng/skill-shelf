@@ -1,0 +1,18 @@
+{
+ "description": "MySQL과 MariaDB 버전별 차이를 정리해 호환되는 진단을 돕는 참고서예요.",
+ "summary": "SHOW SLAVE STATUS와 SHOW REPLICA STATUS의 전환 시점, MySQL 8.0에서 사라진 PASSWORD() 함수, 이름이 바뀐 시스템 변수, performance_schema 기본값 차이를 표로 정리해요. 버전을 먼저 확인하고 분기하라는 방침을 담았어요.",
+ "when": [
+  "MySQL과 MariaDB 호환 코드",
+  "복제 명령어 버전 차이 확인",
+  "시스템 변수 이름 변경 확인",
+  "진단 스크립트 개발"
+ ],
+ "examples": [
+  "MySQL 8.0과 MariaDB에서 복제 상태 명령이 어떻게 다른지 알려 줘",
+  "tx_isolation이 어떤 이름으로 바뀌었는지 알려 줘"
+ ],
+ "notes": [
+  "MySQLTuner 개발자를 위한 참고 내용이에요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "단편화가 심한 테이블을 찾아 회수 가능한 디스크 용량을 계산해 줘요.",
+ "summary": "information_schema.TABLES를 읽어 InnoDB와 MyISAM 테이블의 단편화 비율과 되돌릴 수 있는 공간을 계산해요. 기본으로 20% 이상, 10MB 이상인 테이블을 보고해요. 5GB 미만은 OPTIMIZE TABLE을, 그 이상은 pt-online-schema-change나 gh-ost를 권해요.",
+ "when": [
+  "디스크 공간 낭비 점검",
+  "테이블 단편화 진단",
+  "DB 정리 작업 계획",
+  "큰 테이블 락 영향 평가"
+ ],
+ "examples": [
+  "단편화된 테이블이 있는지 찾아서 회수 가능한 용량을 알려 줘",
+  "mydb 스키마에서만 단편화 검사를 해 줘"
+ ],
+ "notes": [
+  "MySQL 5.5 이상이나 MariaDB 10.0 이상이 필요해요",
+  "mysql, sys 같은 시스템 스키마는 건너뛰어요",
+  "읽기 위주로 점검하고 안전한 정리 명령을 만들어 줘요"
+ ]
+}

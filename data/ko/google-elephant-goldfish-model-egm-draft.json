@@ -1,0 +1,18 @@
+{
+ "description": "브레인스토밍 결과로 설계 문서를 단계별로 써요.",
+ "summary": "egm-brainstorm의 개념 요약이나 사용자 메모를 바탕으로 설계 문서를 한 섹션씩 써 나가요. 초안은 design_draft.md 파일에 저장하고 경로를 알려 준 뒤 검토를 받아요. 칭찬하기보다 약한 부분을 먼저 짚고, 쉬운 말로 써요.",
+ "when": [
+  "설계 문서 작성",
+  "기획에서 설계로 넘어갈 때",
+  "섹션별 초안 검토"
+ ],
+ "examples": [
+  "브레인스토밍 결과로 설계 문서 초안 써줘",
+  "egm-draft로 design_draft.md 만들어줘"
+ ],
+ "notes": [
+  "EGM 기능 흐름의 두 번째 단계로, 보통 egm-brainstorm 다음에 써요",
+  "resources/execution_instructions.md의 지침을 읽고 따라요",
+  "원문이 영어예요"
+ ]
+}

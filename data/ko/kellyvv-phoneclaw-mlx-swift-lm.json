@@ -1,0 +1,19 @@
+{
+ "description": "Apple Silicon에서 LLM과 VLM을 돌리는 mlx-swift-lm 사용법을 알려줘요.",
+ "summary": "Swift 패키지 mlx-swift-lm으로 로컬 추론, 스트리밍 생성, 도구 호출, LoRA 파인튜닝, 임베딩을 하는 방법을 다뤄요. 동시 추론을 조율하는 wired memory 정책과 파이썬 MLX-LM 모델을 Swift로 옮기는 방법도 있어요.",
+ "when": [
+  "기기에서 LLM 실행",
+  "스트리밍 답변 생성",
+  "LoRA 파인튜닝",
+  "RAG용 임베딩"
+ ],
+ "examples": [
+  "macOS 앱에서 로컬 LLM으로 답변을 스트리밍하는 코드 짜줘",
+  "LoRA로 모델을 파인튜닝하는 방법 알려줘",
+  "텍스트 임베딩으로 의미 검색 만들어줘"
+ ],
+ "notes": [
+  "Apple Silicon의 macOS나 iOS가 필요해요",
+  "원문은 영어예요"
+ ]
+}

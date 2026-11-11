@@ -1,0 +1,20 @@
+{
+ "description": "AIOS가 일을 믿을 만하게 하는지 점수로 점검해 줘요.",
+ "summary": "Context, Connections, Capabilities, Cadence 네 가지를 각각 25점 만점으로 매겨요. 라우팅 경로, AGENTS.md와 CLAUDE.md 차이, 스킬 호환성을 실제 증거로 확인하고 못 확인한 건 미확인으로 표시해요. 날짜가 붙은 보고서를 audits 폴더에 자동으로 저장하고 이전 결과와 비교해요.",
+ "when": [
+  "AIOS 상태를 점검할 때",
+  "끊어진 경로나 연결 안 된 프로젝트를 찾을 때",
+  "Claude와 Codex 호환성을 볼 때",
+  "이전 점검과 비교할 때"
+ ],
+ "examples": [
+  "내 AIOS 감사해줘",
+  "AGENTS.md랑 CLAUDE.md가 서로 어긋나는지 확인해줘",
+  "지난번 audit 이후 뭐가 나아졌는지 비교해줘"
+ ],
+ "notes": [
+  "보고서는 기본으로 audits 폴더에 저장돼요. 저장하지 말라고 하면 저장하지 않아요",
+  "점검만 하고 고치지는 않아요. 경로 수리는 /link, 개선은 /level-up이 맡아요",
+  "서브에이전트는 요청할 때만 써요"
+ ]
+}

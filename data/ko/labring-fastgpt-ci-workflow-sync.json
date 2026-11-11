@@ -1,0 +1,18 @@
+{
+ "description": "GitHub Actions와 Forgejo CI 설정을 서로 맞춰 줘요.",
+ "summary": "FastGPT는 .github/workflows와 .forgejo/workflows 두 벌을 유지해요. 한쪽을 고치면 대응하는 다른 쪽을 같은 기능으로 고쳐 쓰고, 사내 환경에 맞게 GitHub 전용 기능은 빼고 프록시와 미러 설정을 넣어요. 대응 파일이 없으면 새로 만들지 사용자에게 물어봐요.",
+ "when": [
+  "GitHub workflow 수정",
+  "새 빌드나 테스트 workflow 추가",
+  "Forgejo 쪽 누락 점검"
+ ],
+ "examples": [
+  "build-fastgpt.yml을 고쳤는데 Forgejo 쪽도 맞춰줘",
+  "새 테스트 workflow를 추가했는데 Forgejo 버전도 필요한지 봐줘"
+ ],
+ "notes": [
+  "FastGPT 저장소 전용 절차예요",
+  "복사가 아니라 사내 환경에 맞춘 같은 기능의 다시 쓰기예요",
+  "원문은 중국어예요"
+ ]
+}

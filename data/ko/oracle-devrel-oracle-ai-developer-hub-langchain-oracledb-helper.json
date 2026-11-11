@@ -1,0 +1,19 @@
+{
+ "description": "langchain-oracledb 저장소 계층 코드를 만들어요.",
+ "summary": "여러 컬렉션을 다루는 OracleVS 래퍼, 메타데이터 문자열 패치, 임베딩 차원 검사, 대화 기록용 OracleChatHistory를 만들어요. 앱 코드나 UI는 쓰지 않고 데이터 계층만 맡아요.",
+ "when": [
+  "Oracle 벡터 저장소",
+  "대화 기록 저장",
+  "컬렉션 여러 개 관리",
+  "임베딩 차원 확인"
+ ],
+ "examples": [
+  "Oracle을 LangChain 벡터 저장소로 쓰는 코드 만들어줘",
+  "채팅 기록을 Oracle에 저장하게 해줘"
+ ],
+ "notes": [
+  "DB가 이미 떠 있어야 해요",
+  "임베딩은 minilm-py, in-db-onnx, oci-cohere 중 골라요",
+  "참고 코드 조각은 그대로 복사해 써요"
+ ]
+}

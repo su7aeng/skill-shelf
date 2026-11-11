@@ -1,0 +1,17 @@
+{
+ "description": "문서 임베딩을 저장하고 의미로 검색하는 Chroma를 써요.",
+ "summary": "오픈소스 임베딩 데이터베이스 Chroma로 컬렉션을 만들고 문서와 메타데이터를 넣어 질의해요. RAG와 의미 기반 검색을 로컬에서 시험할 때 쓰도록 안내해요.",
+ "when": [
+  "RAG 앱 만들기",
+  "의미 기반 문서 검색",
+  "로컬 벡터 DB 시험"
+ ],
+ "examples": [
+  "Chroma로 문서 검색 기능 만들어줘",
+  "내 문서들을 임베딩해서 비슷한 내용 찾게 해줘"
+ ],
+ "notes": [
+  "Python은 pip install chromadb, JS는 npm install chromadb가 필요해요",
+  "관리형 서비스나 대규모 운영에는 다른 도구를 권해요"
+ ]
+}

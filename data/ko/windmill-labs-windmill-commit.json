@@ -1,0 +1,17 @@
+{
+ "description": "변경 내용을 한 줄짜리 커밋 메시지로 깔끔하게 커밋해요.",
+ "summary": "git status와 diff로 바뀐 내용을 살핀 뒤, 수정한 파일만 하나씩 스테이징하고 conventional commit 형식의 한 줄 메시지로 커밋해요. git add -A나 git add .은 쓰지 않아요.",
+ "when": [
+  "변경 사항 커밋",
+  "커밋 메시지 작성",
+  "작업 단위 정리"
+ ],
+ "examples": [
+  "지금 바꾼 거 커밋해줘",
+  "feat나 fix 형식으로 커밋 메시지 만들어서 커밋해줘"
+ ],
+ "notes": [
+  "메시지는 72자 이내 한 줄이고 끝에 마침표를 붙이지 않아요",
+  "type은 feat, fix, refactor, docs, style, test, chore, perf 중에서 골라요"
+ ]
+}

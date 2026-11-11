@@ -1,0 +1,19 @@
+{
+ "description": "FASTA 파일 하나의 서열 특성을 계산해 보고서로 만들어요.",
+ "summary": "염기 또는 단백질 서열인지 자동으로 구분하고 Biopython으로 GC 함량, ORF, 분자량, pI, GRAVY 등을 계산해요. Markdown 보고서와 다른 스킬이 이어받을 수 있는 JSON, HTML 보고서, 재현용 기록을 만들어 줘요.",
+ "when": [
+  "FASTA 서열 분석",
+  "GC 함량 계산",
+  "ORF 찾기",
+  "단백질 pI와 분자량 확인"
+ ],
+ "examples": [
+  "이 fasta 파일 분석해줘",
+  "이 서열의 GC 함량이랑 ORF 찾아줘",
+  "이 단백질 서열의 등전점이랑 GRAVY 지수 알려줘"
+ ],
+ "notes": [
+  "Python 3.10 이상과 biopython이 필요해요",
+  "FASTQ 리드 파일은 대상이 아니고 seq-wrangler 쪽으로 보내요"
+ ]
+}

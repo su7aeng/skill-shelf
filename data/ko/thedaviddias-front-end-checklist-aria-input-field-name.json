@@ -1,0 +1,19 @@
+{
+ "description": "모든 입력창에 접근 가능한 이름이 있는지 점검해요.",
+ "summary": "input, textarea, select와 직접 만든 입력 위젯에 화면 낭독기가 읽을 이름이 있는지 확인하는 스킬이에요. label의 for와 id 연결을 우선 권하고, 대안으로 aria-label과 aria-labelledby를 안내해요. placeholder는 이름으로 인정하지 않아요.",
+ "when": [
+  "폼 접근성 점검",
+  "입력창 label 연결",
+  "커스텀 입력 위젯 검토",
+  "음성 제어 대응"
+ ],
+ "examples": [
+  "이 폼의 입력창에 이름이 빠진 곳을 찾아줘",
+  "placeholder만 있는 입력창에 label을 달아줘",
+  "직접 만든 검색창이 접근성 기준에 맞는지 봐줘"
+ ],
+ "notes": [
+  "원문이 영어이고 frontendchecklist.io 규칙을 바탕으로 해요",
+  "화면에 그려진 HTML을 보고 점검하는 용도라 코드 리뷰와 수정 제안에 알맞아요"
+ ]
+}

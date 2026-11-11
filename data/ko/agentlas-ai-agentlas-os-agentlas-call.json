@@ -1,0 +1,19 @@
+{
+ "description": "Agentlas Hub나 Cloud의 에이전트를 이름으로 불러 현재 프로젝트에서 실행해요.",
+ "summary": "/agentlas-call, /agentlas call, /hep-call 명령으로 특정 에이전트나 팀을 직접 부르는 도구예요. 이름을 적고 맥락을 함께 넘기면 Hub나 Cloud에 있는 에이전트를 빌려와 프로젝트에서 실행해요.",
+ "when": [
+  "이름을 아는 에이전트 호출",
+  "Hub 에이전트 빌려 쓰기",
+  "Cloud 에이전트 실행",
+  "프로젝트에 맞는 에이전트 투입"
+ ],
+ "examples": [
+  "/agentlas-call 리서처 이 프로젝트 경쟁사를 조사해줘",
+  "/agentlas call 디자이너,카피라이터 신제품 소개 페이지 만들어줘"
+ ],
+ "notes": [
+  "Agentlas Hub 또는 Cloud 계정과 환경이 필요해요",
+  "원문에 자세한 절차는 적혀 있지 않아요",
+  "원문은 영어예요"
+ ]
+}

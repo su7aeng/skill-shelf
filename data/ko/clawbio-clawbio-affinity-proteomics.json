@@ -1,0 +1,19 @@
+{
+ "description": "Olink, SomaScan 단백질 데이터를 QC하고 차등 분석해요.",
+ "summary": "Olink NPX와 SomaLogic ADAT를 하나의 명령으로 플랫폼에 맞게 QC하고 분석해요. t-검정이나 Mann-Whitney U에 Benjamini-Hochberg 보정을 쓰고, 볼케이노 플롯, 히트맵, PCA와 보고서를 만들어요.",
+ "when": [
+  "Olink 데이터 분석",
+  "SomaScan 데이터 분석",
+  "단백질 차등 발현",
+  "QC와 시각화"
+ ],
+ "examples": [
+  "Olink NPX 파일로 그룹 간 차등 분석을 해 줘",
+  "SomaScan ADAT 데이터를 QC하고 볼케이노 플롯 그려 줘",
+  "상위 단백질 히트맵과 PCA를 만들어 줘"
+ ],
+ "notes": [
+  "질량분석 LFQ 데이터는 proteomics-de 스킬이 맡아요",
+  "결과는 마크다운 보고서, result.json, 단백질별 TSV로 나와요"
+ ]
+}

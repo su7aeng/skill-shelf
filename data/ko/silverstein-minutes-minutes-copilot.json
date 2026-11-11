@@ -1,0 +1,20 @@
+{
+ "description": "실시간 회의 코치 화면(Minutes Coach)을 시작하고 제어해요.",
+ "summary": "회의에서 얻고 싶은 목표 하나를 받아 코치 화면을 열어요. 모드는 sales, discovery, interview, negotiation, difficult-conversation, decision, generic 중에서 고르고 기본은 generic이에요. 시작 후 일시정지, 재개, 상태 확인, 종료도 처리해요.",
+ "when": [
+  "회의 중 실시간 코칭",
+  "코치 화면 열기",
+  "코치 일시정지와 재개",
+  "코치 상태 확인"
+ ],
+ "examples": [
+  "협상 모드로 Minutes Coach 시작해줘",
+  "Coach HUD 열어줘",
+  "Minutes Coach 잠깐 멈춰줘"
+ ],
+ "notes": [
+  "코치 화면 요청에만 쓰고, 터미널의 에이전트가 직접 조언하는 경우는 minutes-live-sidekick을 써요",
+  "목표가 없으면 이번 회의에서 이루고 싶은 결과를 물어봐요",
+  "minutes 명령줄 도구가 필요해요"
+ ]
+}

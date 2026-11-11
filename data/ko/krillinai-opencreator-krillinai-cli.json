@@ -1,0 +1,19 @@
+{
+ "description": "KrillinAI CLI를 빌드하고 어떤 명령을 쓸지 골라 결과를 읽는 방법을 안내해요.",
+ "summary": "KrillinAI 바이너리를 빌드하고 위치를 찾는 법과, 자막, 더빙, 렌더, 표지, 음성 작업별로 알맞은 명령을 표로 안내해요. 별도 작업 폴더 사용과 dry-run 확인 같은 운영 규칙도 담고 있어요.",
+ "when": [
+  "KrillinAI CLI 사용",
+  "명령 고르기",
+  "결과 JSON 읽기",
+  "빌드와 설정"
+ ],
+ "examples": [
+  "KrillinAI CLI를 빌드하고 어떤 명령이 있는지 알려줘",
+  "영상 번역 작업에 어떤 명령을 쓰는지 알려줘"
+ ],
+ "notes": [
+  "pnpm으로 빌드하고 config/config.toml 설정이 필요해요",
+  "pipeline은 계획 확인만 되고 status는 아직 지원되지 않아요",
+  "세부 규칙은 references/cli-contract.md에 있어요"
+ ]
+}

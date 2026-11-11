@@ -1,0 +1,19 @@
+{
+ "description": "Flutter 앱 개발의 위젯, 상태 관리, 성능 요령을 알려 줘요.",
+ "summary": "위젯 패턴, Riverpod과 Bloc 상태 관리, GoRouter 내비게이션, 성능 최적화를 표와 체크리스트로 정리했어요. const 활용, 반응형 레이아웃, 위젯 테스트, DevTools 분석도 다뤄요. 세부 내용은 별도 참고 문서로 나뉘어 있어요.",
+ "when": [
+  "Flutter 앱 개발",
+  "상태 관리 선택",
+  "화면 이동 설정",
+  "성능 개선"
+ ],
+ "examples": [
+  "Flutter 앱에 GoRouter로 화면 이동 구성해줘",
+  "리스트가 느린데 성능 개선해줘",
+  "Riverpod으로 상태 관리 구조 잡아줘"
+ ],
+ "notes": [
+  "Flutter 3과 Dart 환경 기준이에요",
+  "원문은 영어예요"
+ ]
+}

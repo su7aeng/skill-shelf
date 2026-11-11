@@ -1,0 +1,19 @@
+{
+ "description": "Node.js 백엔드 구조와 API 설계 패턴을 안내해요.",
+ "summary": "REST API 구조, 저장소 패턴 같은 서버 측 설계와 데이터베이스 최적화 방법을 코드 예시와 함께 정리한 참고 자료예요. Node.js, Express, Next.js API 라우트에 적용해요.",
+ "when": [
+  "API 설계",
+  "서버 구조 설계",
+  "DB 최적화",
+  "Next.js API 작성"
+ ],
+ "examples": [
+  "REST API 구조를 어떻게 잡을지 알려줘",
+  "저장소 패턴으로 데이터 접근 코드를 정리해줘",
+  "이 Express 서버 구조를 점검해줘"
+ ],
+ "notes": [
+  "예시 코드는 TypeScript예요",
+  "원문은 영어예요"
+ ]
+}

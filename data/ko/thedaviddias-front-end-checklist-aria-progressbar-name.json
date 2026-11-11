@@ -1,0 +1,19 @@
+{
+ "description": "진행 막대에 접근 가능한 이름과 값이 있는지 점검해요.",
+ "summary": "role=\"progressbar\" 요소가 어떤 작업의 진행인지 알려주는 이름이 있는지 확인해요. aria-label이나 aria-labelledby로 이름을 달고, 값을 알 때는 aria-valuenow, aria-valuemin, aria-valuemax를 함께 쓰도록 안내해요. 장식용 div 대신 진짜 진행 표시 의미를 쓰라고 권해요.",
+ "when": [
+  "진행 막대 접근성",
+  "업로드 진행 표시",
+  "로딩 표시 점검",
+  "aria 값 속성 확인"
+ ],
+ "examples": [
+  "업로드 진행 막대에 이름과 값을 넣어줘",
+  "이름 없는 progressbar를 찾아줘",
+  "div로 만든 진행 표시를 올바른 의미로 바꿔줘"
+ ],
+ "notes": [
+  "원문이 영어이고 frontendchecklist.io 규칙을 바탕으로 해요",
+  "화면에 그려진 HTML을 보고 점검하는 용도라 코드 리뷰와 수정 제안에 알맞아요"
+ ]
+}

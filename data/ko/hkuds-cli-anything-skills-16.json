@@ -1,0 +1,19 @@
+{
+ "description": "명령줄로 EEZ Studio 프로젝트와 LVGL 화면을 편집해요.",
+ "summary": "EEZ Studio의 .eez-project 파일을 조회하고 수정하는 스킬이에요. LVGL 화면에 라벨과 버튼 같은 위젯을 넣고, 계측기용 SCPI 명령 정보를 관리하며, 실제 EEZ Studio 백엔드로 LVGL 시뮬레이터 빌드도 호출해요.",
+ "when": [
+  "EEZ Studio 프로젝트 자동화",
+  "LVGL 화면과 위젯 추가",
+  "SCPI 명령 정보 관리",
+  "LVGL 시뮬레이터 빌드"
+ ],
+ "examples": [
+  "Panel이라는 EEZ 프로젝트를 새로 만들고 Ready 라벨을 넣어줘",
+  "SOURCE 서브시스템에 :VOLTage? 명령을 추가해줘",
+  "이 프로젝트의 위젯 목록을 보여줘"
+ ],
+ "notes": [
+  "백엔드 명령은 EEZ Studio 소스를 받아 빌드하고 EEZ_STUDIO_SOURCE를 지정해야 써요",
+  "에이전트용으로 항상 --json 옵션을 쓰라고 안내해요"
+ ]
+}

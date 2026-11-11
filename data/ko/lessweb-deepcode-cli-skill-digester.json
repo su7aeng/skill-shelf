@@ -1,0 +1,20 @@
+{
+ "description": "다른 스킬의 description을 점검해 고치고 스킬 설치를 도와요.",
+ "summary": "대상 스킬을 찾아 SKILL.md의 description을 검토하고, 원하면 더 나은 문구로 고쳐 줘요. 또 Agent Skill을 사용자용 또는 프로젝트용 .agents/skills 폴더에 설치하는 과정을 안내해요. 사용자 입력은 AskUserQuestion으로 받아요.",
+ "when": [
+  "스킬 설명 다듬기",
+  "Agent Skill 설치",
+  "사용자·프로젝트 범위 선택",
+  "스킬 위치 찾기"
+ ],
+ "examples": [
+  "내 스킬의 description을 점검해서 고쳐줘",
+  "이 Agent Skill을 프로젝트에 설치해줘",
+  "skill-writer 스킬 소화해줘"
+ ],
+ "notes": [
+  "찾기 스크립트는 Node로 실행해요(find-skill.cjs)",
+  "Deep Code 스킬 폴더 기준으로 동작해요",
+  "원문은 영어예요"
+ ]
+}

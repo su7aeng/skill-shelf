@@ -1,0 +1,20 @@
+{
+ "description": "Expo 앱의 시작 속도와 오류를 EAS Observe로 측정해요.",
+ "summary": "expo-observe를 프로젝트에 넣고 AppMetricsRoot나 ObserveRoot, markInteractive, useObserve 훅을 설정해요. Expo Router와 React Navigation 경로별 지표, expo-image와 Reanimated 연동도 다뤄요. 운영 앱의 시작, 화면 전환, 사용자 지정 이벤트 성능과 JS 오류, 네이티브 크래시를 기록해요.",
+ "when": [
+  "앱 성능 모니터링",
+  "expo-observe 설치",
+  "화면별 지표 수집",
+  "크래시와 오류 추적"
+ ],
+ "examples": [
+  "내 Expo 앱에 EAS Observe를 붙여줘",
+  "화면별 성능 지표를 보고 싶어",
+  "앱 시작 시간을 측정하게 해줘"
+ ],
+ "notes": [
+  "개발 빌드나 운영 빌드가 필요하고 Expo Go에서는 안 돼요",
+  "무료 플랜은 월간 활성 사용자 1만 명까지예요",
+  "최신 내용은 docs.expo.dev/eas/observe 문서가 기준이에요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "인용 형식과 수식을 갖춘 학술 논문 docx를 만들어 줘요.",
+ "summary": "officecli-docx 위에 APA, Chicago, IEEE, MLA 인용 스타일, 번호 수식, 그림과 표 상호 참조, 참고문헌, 다단 편집을 더해요. 초록, 키워드, 소속 블록도 갖춘 논문 문서를 만들어요.",
+ "when": [
+  "저널 논문 작성",
+  "학위 논문 장 작성",
+  "참고문헌 정리",
+  "IEEE 2단 편집"
+ ],
+ "examples": [
+  "APA 형식 논문 docx로 만들어줘",
+  "IEEE 2단 편집으로 학회 논문 서식 맞춰줘"
+ ],
+ "notes": [
+  "officecli CLI와 officecli-docx 스킬 규칙이 전제예요",
+  "옵션이 불확실하면 help 내용을 따르라고 해요"
+ ]
+}

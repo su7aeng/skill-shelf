@@ -1,0 +1,18 @@
+{
+ "description": "Plannotator 주석 화면을 열고 돌아온 주석을 반영해요.",
+ "summary": "파일, 폴더, URL을 Plannotator 주석 화면으로 열어요. 사용자가 남긴 주석이 돌아오면 그대로 반영해 고치고, 피드백 없이 닫히면 한 문장으로 알리고 아무 작업도 하지 않아요.",
+ "when": [
+  "문서 주석 받기",
+  "폴더나 URL 검토",
+  "주석 반영 수정"
+ ],
+ "examples": [
+  "이 README Plannotator로 열어줘",
+  "주석 달린 내용대로 고쳐줘"
+ ],
+ "notes": [
+  "Kiro CLI용 스킬이에요",
+  "plannotator 명령이 설치돼 있어야 해요",
+  "원문은 영어예요"
+ ]
+}

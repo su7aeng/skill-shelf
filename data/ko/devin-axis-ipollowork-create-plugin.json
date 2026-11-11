@@ -1,0 +1,17 @@
+{
+ "description": "iPolloWork용 OpenCode 플러그인 뼈대를 만들어 줘요.",
+ "summary": "플러그인 파일을 올바른 API 모양에 맞춰 만들고, 도구 정의와 훅 등록까지 잡아 줘요. 플러그인을 둘 위치와 opencode.json에 등록하는 방법도 안내하고, Anthropic 플러그인 형식과 어떻게 다른지도 짚어 줘요.",
+ "when": [
+  "플러그인 새로 만들기",
+  "커스텀 도구 추가",
+  "iPolloWork 기능 확장"
+ ],
+ "examples": [
+  "이런 일을 하는 플러그인 만들어줘",
+  "OpenCode 플러그인 하나 써줘"
+ ],
+ "notes": [
+  "OpenCode 플러그인은 Anthropic 플러그인 형식과 달라요",
+  "도구 인자는 zod 스키마의 .shape를 써야 해요"
+ ]
+}

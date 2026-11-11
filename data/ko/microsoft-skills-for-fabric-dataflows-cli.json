@@ -1,0 +1,20 @@
+{
+ "description": "Fabric Dataflow Gen2 항목과 Power Query M을 관리해요.",
+ "summary": "Dataflow Gen2의 생성, M 코드 편집, 연결, 출력 대상, 정의 조회와 갱신, 새로 고침 기록을 다뤄요. Gen1 데이터 흐름을 Gen2로 올리는 작업도 해요. 요청에 맞는 모드를 고르고 해당 참고 파일을 먼저 읽은 뒤 실행해요.",
+ "when": [
+  "Dataflow Gen2 만들기",
+  "Power Query M 수정",
+  "출력 대상 설정",
+  "Gen1에서 Gen2로 업그레이드"
+ ],
+ "examples": [
+  "새 Dataflow Gen2를 만들고 Lakehouse로 내보내게 설정해줘",
+  "이 데이터 흐름의 M 코드를 보여주고 고쳐줘",
+  "Gen1 데이터 흐름을 Gen2로 업그레이드해줘"
+ ],
+ "notes": [
+  "Azure CLI(az)로 Fabric API를 호출하고, 모든 호출에 x-ms-fabric-skill 헤더를 붙여야 해요",
+  "파이프라인 JSON 변환은 pipeline-migration, Spark 변환은 spark-cli를 써요",
+  "원문이 영어예요"
+ ]
+}

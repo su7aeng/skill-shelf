@@ -1,0 +1,20 @@
+{
+ "description": "Effect v4 TypeScript 코드를 최신 소스 기준으로 다뤄요.",
+ "summary": "Effect v4(effect-smol) 코드를 쓰거나 답할 때 기억에 의존하지 않고, 프로젝트에 내려받은 effect-smol 소스와 기존 코드 스타일을 먼저 확인해요. Effect.gen, Schema, 서비스와 레이어 구성에 대한 이 저장소의 규칙을 따라요.",
+ "when": [
+  "Effect 서비스 작성",
+  "Effect 코드 검토",
+  "Schema와 오류 타입 설계",
+  "Effect 테스트 작성"
+ ],
+ "examples": [
+  "Effect로 새 서비스 메서드를 추가해줘",
+  "이 코드를 Effect v4 방식으로 바꿔줘",
+  "Effect 서비스 테스트를 testEffect로 써줘"
+ ],
+ "notes": [
+  ".opencode/references/effect-smol이 없으면 해당 저장소를 프로젝트 안에 복제해요",
+  "Kilo(opencode) 저장소 전용 지침이에요",
+  "any, 비null 단언, 옛 Effect API는 쓰지 않아요"
+ ]
+}

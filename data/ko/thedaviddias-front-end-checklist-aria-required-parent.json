@@ -1,0 +1,19 @@
+{
+ "description": "ARIA 역할이 필요한 부모 안에 들어 있는지 점검해요.",
+ "summary": "listitem, tab, menuitem처럼 특정 부모 역할이 필요한 요소가 올바른 컨테이너 안에 있는지 확인해요. 없으면 list나 menu 같은 알맞은 역할로 감싸는 방법을 알려줘요.",
+ "when": [
+  "ARIA 마크업 검토",
+  "메뉴와 탭 구조 점검",
+  "접근성 코드 리뷰",
+  "스크린리더 탐색 개선"
+ ],
+ "examples": [
+  "이 페이지의 listitem이 list 안에 있는지 봐줘",
+  "메뉴 항목의 ARIA 구조를 점검해줘"
+ ],
+ "notes": [
+  "frontendchecklist.io 규칙을 바탕으로 해요",
+  "자세한 예시는 references/rule.md에 있어요",
+  "원문이 영어예요"
+ ]
+}

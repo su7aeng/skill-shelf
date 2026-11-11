@@ -1,0 +1,18 @@
+{
+ "description": "직접 만든 TanStack 애드온을 개발하며 앱에 계속 반영해요.",
+ "summary": "add-on init, compile, dev 명령과 create --dev-watch 로 애드온을 만들고 바로 확인하는 흐름을 알려줘요. 감시할 폴더 조건과 쓰면 안 되는 옵션 조합을 미리 짚어요.",
+ "when": [
+  "커스텀 애드온 제작",
+  "애드온 개발 중 동기화",
+  "템플릿 개발 반복"
+ ],
+ "examples": [
+  "내 애드온을 샌드박스 앱에 계속 반영되게 해줘",
+  "애드온 프로젝트를 새로 시작하고 컴파일해줘"
+ ],
+ "notes": [
+  "--dev-watch 는 --no-install 과 같이 쓸 수 없어요",
+  "감시 폴더에 add-ons, assets, framework.json 중 하나가 있어야 해요",
+  "add-addons-existing-app 스킬이 먼저 필요해요"
+ ]
+}

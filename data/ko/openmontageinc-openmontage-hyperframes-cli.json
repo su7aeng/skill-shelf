@@ -1,0 +1,20 @@
+{
+ "description": "HyperFrames 명령어로 영상을 만들고 렌더링해요.",
+ "summary": "npx hyperframes로 프로젝트를 만들고, 점검한 뒤 미리보고 영상으로 렌더링하는 흐름을 안내해요. init, lint, validate, preview, render와 AWS Lambda 클라우드 렌더링 명령을 다뤄요.",
+ "when": [
+  "영상 프로젝트 생성",
+  "구성 점검과 검증",
+  "미리보기",
+  "영상 렌더링"
+ ],
+ "examples": [
+  "HyperFrames 프로젝트를 새로 만들어줘",
+  "만든 영상을 고화질로 렌더링해줘",
+  "렌더링 환경이 안 돼서 문제를 진단해줘"
+ ],
+ "notes": [
+  "Node.js 22 이상과 FFmpeg가 필요해요",
+  "미리보기 뒤 렌더링은 사용자에게 먼저 물어요",
+  "원문이 영어예요"
+ ]
+}

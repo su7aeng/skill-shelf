@@ -1,0 +1,18 @@
+{
+ "description": "Semantica 그래프와 결과를 여러 파일 형식으로 내보내요.",
+ "summary": "그래프 데이터를 JSON, RDF, Parquet, CSV, GraphML, GEXF, DOT 형식으로 저장해요. RDF는 turtle, rdfxml, jsonld 같은 표기를 고를 수 있어요. 출력 경로를 지정할 수 있어요.",
+ "when": [
+  "그래프 데이터 내보내기",
+  "분석용 Parquet 저장",
+  "시각화 도구용 파일 만들기",
+  "RDF 변환"
+ ],
+ "examples": [
+  "그래프를 JSON 파일로 내보내줘",
+  "RDF turtle 형식으로 저장해줘"
+ ],
+ "notes": [
+  "Semantica 파이썬 라이브러리가 필요해요",
+  "원문은 영어예요"
+ ]
+}

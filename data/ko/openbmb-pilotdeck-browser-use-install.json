@@ -1,0 +1,18 @@
+{
+ "description": "browser-use에 필요한 Chrome 브라우저를 설치해요.",
+ "summary": "PilotDeck Desktop은 Chrome 없이 배포되기 때문에, 브라우저 자동화 전에 Playwright용 Chrome for Testing을 사용자 데이터 폴더에 설치해 주는 스킬이에요. 설치 스크립트를 실행한 뒤 browser-use 요청을 다시 시도해요. 설치 후에도 옛 오류가 나면 같은 요청을 한 번 더 보내라고 안내해요.",
+ "when": [
+  "브라우저 실행 파일 없음 오류",
+  "Executable doesn't exist 오류",
+  "브라우저 자동화 시작 전 준비"
+ ],
+ "examples": [
+  "browser-use가 브라우저를 못 찾는다고 나와, 해결해줘",
+  "웹 브라우징 전에 필요한 브라우저 설치해줘"
+ ],
+ "notes": [
+  "PilotDeck Desktop 전용 절차예요",
+  "중국 미러나 오프라인용 압축 파일 경로를 환경 변수로 지정할 수 있어요",
+  "Windows PowerShell용 명령도 같이 있어요"
+ ]
+}

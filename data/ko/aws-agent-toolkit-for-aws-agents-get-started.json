@@ -1,0 +1,20 @@
+{
+ "description": "새 AgentCore 에이전트 프로젝트를 만들고 첫 배포까지 안내해요.",
+ "summary": "탐색 중인지 바로 만들 준비가 됐는지 먼저 확인한 뒤, Strands, LangGraph, GoogleADK, OpenAI Agents 같은 프레임워크 선택을 돕고 프로젝트를 만들어요. 첫 배포와 첫 호출, 로컬 개발 서버 사용법까지 이어서 안내해요.",
+ "when": [
+  "새 에이전트 프로젝트 시작",
+  "프레임워크 비교",
+  "MCP 서버 만들기",
+  "로컬 개발 서버 실행"
+ ],
+ "examples": [
+  "고객 지원 에이전트를 처음부터 만들고 싶어",
+  "Strands와 LangGraph 중 뭘 써야 할지 알려줘",
+  "MCP 서버 프로젝트를 만들어 줘"
+ ],
+ "notes": [
+  "agentcore CLI v0.9.0 이상이 필요하고, 없으면 npm install -g @aws/agentcore 로 설치해요(Node.js 20 이상)",
+  "기존 프로젝트에 기능을 더하는 일은 agents-build를 써요",
+  "환경 문제는 agents-debug를 써요"
+ ]
+}

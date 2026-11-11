@@ -1,0 +1,17 @@
+{
+ "description": "블로그 글을 쓰고 배포까지 이어 주는 COG 스킬이에요.",
+ "summary": "TL;DR, ASCII 아트, 에이전트용 마크다운 사본을 갖춘 글을 만들어 정적 블로그에 올리고 소셜에 알리는 흐름을 안내해요. 이 파일은 짧은 연결용이라 실제 절차는 .claude/skills/blog-publish/SKILL.md를 읽고 그대로 따르게 해요.",
+ "when": [
+  "블로그 글 작성",
+  "정적 블로그 배포",
+  "SNS 공유"
+ ],
+ "examples": [
+  "이 내용으로 블로그 글 써서 올려줘",
+  "방금 쓴 글을 내 블로그에 배포해줘"
+ ],
+ "notes": [
+  "이 파일은 안내문이고, 실제 절차는 .claude/skills 안의 같은 이름 SKILL.md에 있어요",
+  "COG 보조 두뇌 저장소 구조(.claude/skills, .agents/rules/cog.md)가 있어야 제대로 동작해요"
+ ]
+}

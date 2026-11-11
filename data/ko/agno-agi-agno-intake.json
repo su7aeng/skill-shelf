@@ -1,0 +1,18 @@
+{
+ "description": "연결된 자료를 살펴 근거 있는 할 일을 제안해요.",
+ "summary": "Product의 Source, Project, 기존 Task를 읽고 근거가 될 내용을 확인해요. 실행할 만한 일이면 근거 링크와 해시를 붙여 intake_product_source로 올려요. 맞는 Project가 없으면 먼저 새 Project를 제안해요.",
+ "when": [
+  "새 작업 후보 발굴",
+  "자료 근거 확인",
+  "백로그 정리"
+ ],
+ "examples": [
+  "이 제품의 소스를 훑어서 할 일을 제안해줘",
+  "새로 생긴 이슈에서 작업거리를 찾아줘"
+ ],
+ "notes": [
+  "Agno의 Product, Source, Task 도구가 있는 환경에서 써요",
+  "같은 문제는 proposal_key로 중복 없이 제안돼요",
+  "파일이 바뀌었다는 이유만으로는 Task를 만들지 않아요"
+ ]
+}

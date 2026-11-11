@@ -1,0 +1,19 @@
+{
+ "description": "녹화된 MP4 영상 파일로 카메라 보정을 해요.",
+ "summary": "cam_00.mp4, cam_01.mp4처럼 시간이 맞춰진 영상을 AMC REST API로 올려 프로젝트를 만들고 보정을 돌려요. 파일 확인, 업로드, 보정, 진행 확인, 평가를 거치고 원하면 VGGT 보정도 해요. 자동 실행에서는 CONFIRM_CALIBRATION을 켜야 보정을 시작해요.",
+ "when": [
+  "내 영상으로 카메라 보정",
+  "여러 카메라 위치 맞추기",
+  "보정 결과 평가"
+ ],
+ "examples": [
+  "/data/videos 폴더의 영상으로 AMC 보정을 돌려줘",
+  "cam_*.mp4 영상으로 새 프로젝트 만들어 보정해줘",
+  "보정 끝나면 평가까지 해줘"
+ ],
+ "notes": [
+  "영상은 업로드되니 믿을 수 있는 서버에서만 써요",
+  "영상은 1920x1080 정도의 MP4이고 Python requests가 필요해요",
+  "실시간 RTSP는 amc-run-rtsp-calibration을 써요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "portless 로컬 주소에서 OAuth 로그인이 되도록 설정을 도와줘요.",
+ "summary": "Google이나 Apple 같은 제공자가 .localhost 하위 도메인을 거부하는 문제를 portless의 --tld 옵션으로 풀어요. 유효한 도메인으로 앱을 띄우고 제공자별 리디렉션 URI 등록 방법을 안내해요.",
+ "when": [
+  "redirect_uri_mismatch 오류",
+  "로컬 OAuth 설정",
+  "로그인 콜백 주소 등록",
+  "제공자의 localhost 거부"
+ ],
+ "examples": [
+  "portless로 띄운 앱에서 구글 로그인이 안 돼, 고쳐줘",
+  "로컬 개발용 OAuth 리디렉션 주소를 설정해줘"
+ ],
+ "notes": [
+  "portless가 설치되어 있어야 해요",
+  "팀에서 쓸 때는 직접 가진 도메인 아래 주소를 쓰는 편이 안전하다고 해요",
+  "원문은 영어예요"
+ ]
+}

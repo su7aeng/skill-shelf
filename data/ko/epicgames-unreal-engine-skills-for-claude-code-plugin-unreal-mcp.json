@@ -1,0 +1,20 @@
+{
+ "description": "실행 중인 언리얼 에디터를 MCP로 직접 조작해요.",
+ "summary": "unreal-mcp 서버로 연결된 에디터에서 list_toolsets와 describe_toolset으로 필요한 도구를 찾고 call_tool로 실행해요. 액터 배치, 블루프린트와 머티리얼 편집, 프로퍼티 읽기와 쓰기, Live Coding 재컴파일 같은 작업을 사용자 대신 해요.",
+ "when": [
+  "레벨에 액터 배치와 이동",
+  "블루프린트와 머티리얼 편집",
+  "액터 프로퍼티 읽기와 쓰기",
+  "C++ 수정 후 Live Coding"
+ ],
+ "examples": [
+  "PlayerStart 주변에 큐브를 다섯 개 배치해 줘",
+  "BP_DoorActor의 bIsLocked 값을 true로 바꿔 줘",
+  "C++ 고친 뒤 Live Coding으로 다시 컴파일해 줘"
+ ],
+ "notes": [
+  "unreal-mcp 서버가 연결된 실행 중인 언리얼 에디터가 필요해요",
+  "개념과 문서 질문, Unity, Godot에는 맞지 않아요",
+  "원문은 영어예요"
+ ]
+}

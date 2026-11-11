@@ -1,0 +1,19 @@
+{
+ "description": "SharpAI Aegis의 Clawdbot 에이전트를 Matrix 방에 연결해요.",
+ "summary": "Matrix와 Element 방에서 에이전트와 대화하며 클립 검색, 알림 수신, 카메라 제어를 할 수 있게 해요. 메시지 전송, 파일 전송, 반응, 수정, 삭제, 답장, 스레드 답장을 지원해요.",
+ "when": [
+  "Matrix로 알림 받기",
+  "Element에서 에이전트와 대화",
+  "메신저 채널 연결"
+ ],
+ "examples": [
+  "Aegis를 Matrix 방에 연결해줘",
+  "Element에서 카메라 클립 검색하게 해줘",
+  "알림을 Matrix 방으로 보내줘"
+ ],
+ "notes": [
+  "홈서버 URL, 봇 액세스 토큰, 방 ID가 필요해요",
+  "홈서버 기본값은 https://matrix.org 예요",
+  "SharpAI Aegis와 함께 쓰는 스킬이에요"
+ ]
+}

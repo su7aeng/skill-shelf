@@ -1,0 +1,18 @@
+{
+ "description": "Macro 고객 문서를 쓰거나 고치고 Block 표기를 지켜요.",
+ "summary": "apps/docs의 Mintlify 문서를 쓸 때 AGENTS.md의 용어와 문체를 따라요. 핵심 단위를 뜻하는 고유명사 Block은 항상 대문자로 쓰고, 에디터 용어나 동사로 쓰인 block은 그대로 둬요.",
+ "when": [
+  "고객 문서 작성",
+  "제품 가이드 수정",
+  "시작하기 문서"
+ ],
+ "examples": [
+  "Agents 사용법 문서 페이지를 새로 써줘",
+  "시작하기 문서에서 Block 표기를 맞춰줘"
+ ],
+ "notes": [
+  "docs.macro.com용 MDX 문서 전용이에요",
+  "변경 이력 제목과 자동 생성된 MCP 도구 페이지는 고치지 않아요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Expo 웹사이트와 API 라우트를 EAS Hosting에 배포해요.",
+ "summary": "npx expo export -p web으로 웹 번들을 만들고 eas deploy로 운영 배포와 PR 미리보기 주소를 올려요. 환경 비밀 값과 커스텀 도메인을 관리하고, Cloudflare Workers 환경의 제약도 알려줘요. +api.ts 같은 API 라우트 작성도 다뤄요.",
+ "when": [
+  "Expo 웹 배포",
+  "PR 미리보기 주소",
+  "API 라우트 작성",
+  "커스텀 도메인 연결"
+ ],
+ "examples": [
+  "내 Expo 웹 앱을 배포해줘",
+  "PR마다 미리보기 주소가 생기게 해줘",
+  "API 키를 서버에서만 쓰는 API 라우트를 만들어줘"
+ ],
+ "notes": [
+  "EAS Hosting은 유료 서비스이고 무료 한도가 있어요",
+  "Cloudflare Workers 런타임 제약이 있어요",
+  "API 라우트 작성과 웹 번들 내보내기는 무료예요"
+ ]
+}

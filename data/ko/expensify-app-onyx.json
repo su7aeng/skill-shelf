@@ -1,0 +1,19 @@
+{
+ "description": "Expensify 앱의 Onyx 상태 관리 패턴을 안내해 줘요.",
+ "summary": "Onyx는 저장소 위에 구독 방식을 얹은 오프라인 우선 데이터 관리 도구예요. 상태는 액션 파일에서만 바꾸고, optimisticData, successData, failureData로 낙관적 업데이트를 다루는 방법과 useOnyx 훅으로 필요한 데이터만 구독해 렌더링을 줄이는 방법을 알려 줘요.",
+ "when": [
+  "Onyx 액션 파일 작성",
+  "낙관적 업데이트 구현",
+  "useOnyx 사용",
+  "상태 디버깅"
+ ],
+ "examples": [
+  "새 API 호출에 낙관적 업데이트를 넣어줘",
+  "이 컴포넌트가 불필요하게 다시 그려지는 이유를 Onyx 쪽에서 봐줘"
+ ],
+ "notes": [
+  "컴포넌트에서 Onyx.merge나 API.write를 직접 부르지 않는 것이 규칙이에요",
+  "자세한 API는 react-native-onyx README를 참고해요",
+  "원문은 영어예요"
+ ]
+}

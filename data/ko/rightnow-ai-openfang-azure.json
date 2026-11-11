@@ -1,0 +1,18 @@
+{
+ "description": "Azure 인프라와 az CLI 사용을 도와요.",
+ "summary": "Bicep 템플릿으로 Azure 리소스를 선언적으로 만들고, Entra ID로 접근을 관리하는 방법을 알려줘요. AKS, App Service, Functions 중 알맞은 컴퓨팅 선택과 Defender, Azure Monitor 설정도 다뤄요.",
+ "when": [
+  "Azure 리소스 배포",
+  "AKS 클러스터 구성",
+  "App Service 무중단 배포",
+  "접근 권한 설계"
+ ],
+ "examples": [
+  "Bicep으로 App Service를 배포하는 템플릿 써줘",
+  "AKS 클러스터를 az CLI로 만드는 명령 알려줘"
+ ],
+ "notes": [
+  "원문이 영어예요",
+  "az CLI와 Azure 구독이 필요해요"
+ ]
+}

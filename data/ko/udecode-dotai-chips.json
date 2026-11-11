@@ -1,0 +1,19 @@
+{
+ "description": "프로젝트의 제안 작업 목록인 chips를 정리하고 관리해요.",
+ "summary": "/chips 만 치면 이 세션의 열린 작업을 최신으로 맞춰요. 도우미가 알려 준 대로 적용하고, 오래된 작업과 쪼개진 작업을 정리하고, 시작할 수 있는 것은 카드로 만들어 보드를 보고해요. /chips all 은 출하 목록과 주인 없는 작업까지 다루고 중복을 합쳐요.",
+ "when": [
+  "제안 작업 현황 정리",
+  "중복 작업 합치기",
+  "작업 시작과 폐기"
+ ],
+ "examples": [
+  "/chips",
+  "/chips all",
+  "/chips 에서 시작할 수 있는 작업 카드로 보여줘"
+ ],
+ "notes": [
+  "pstack이 설치된 프로젝트에서 쓰고 node .agents/pstack/decisions-check.mjs 를 써요",
+  "규칙은 .agents/pstack/rules/chips.md 에 있고 먼저 읽어야 해요",
+  "원문은 영어예요"
+ ]
+}

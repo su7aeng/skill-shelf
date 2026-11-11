@@ -1,0 +1,19 @@
+{
+ "description": "Flutter에서 Bloc과 Cubit 상태 관리를 안전하게 쓰는 방법을 안내해요.",
+ "summary": "단순한 상태 변경에는 Cubit, 이벤트 중심 흐름에는 Bloc을 고르는 기준을 알려 줘요. bloc과 flutter_bloc 설치 구분, 생명주기와 close 규칙, 불변 상태, 테스트 방법까지 다뤄요.",
+ "when": [
+  "Flutter 상태 관리",
+  "Bloc과 Cubit 선택",
+  "생명주기 관리",
+  "상태 관리 테스트"
+ ],
+ "examples": [
+  "Flutter에서 로그인 상태를 Bloc으로 만들어줘",
+  "카운터는 Cubit과 Bloc 중 뭐가 좋아"
+ ],
+ "notes": [
+  "Flutter 앱은 flutter_bloc만 추가하면 돼요",
+  "BlocProvider가 만든 인스턴스는 직접 닫지 않아요",
+  "원문이 영어예요"
+ ]
+}

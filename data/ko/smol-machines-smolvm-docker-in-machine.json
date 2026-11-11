@@ -1,0 +1,19 @@
+{
+ "description": "smolvm 머신 안에서 Docker 데몬을 돌려요.",
+ "summary": "머신 안에 dockerd를 띄워 docker info와 중첩 컨테이너 실행까지 확인해요. Docker 데이터가 재시작 후에도 남도록 머신 디스크에 두는 방법, 첫 부팅 뒤 멈추는 문제를 다뤄요.",
+ "when": [
+  "컨테이너를 띄우는 테스트",
+  "이미지 빌드",
+  "dockerd 시작 실패",
+  "재시작 뒤 Docker 고장"
+ ],
+ "examples": [
+  "smolvm 머신에서 docker가 돌아가게 해줘",
+  "머신을 재시작했더니 Docker가 안 되는데 고쳐줘"
+ ],
+ "notes": [
+  "Windows에서는 게스트 커널이 지원하지 않아 쓸 수 없어요",
+  "v1.28.1부터는 디스크 볼륨으로 Docker 데이터를 보존하고 그 이전은 매 시작마다 다시 마운트해야 해요",
+  "OCI 이미지는 Docker 없이도 smolvm이 직접 실행해요"
+ ]
+}

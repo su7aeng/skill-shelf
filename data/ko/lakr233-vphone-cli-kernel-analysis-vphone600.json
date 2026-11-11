@@ -1,0 +1,19 @@
+{
+ "description": "vphone600 커널 심볼을 로컬 데이터에서 찾아 분석해요.",
+ "summary": "Research/KernelSymbols의 DB와 JSON에서 심볼과 주소를 찾고 XNU 소스를 참고해 동작을 해석해요. 결과에는 쓴 커널 이름, 심볼 이름, 주소를 적고 사실과 추정을 나눠 써요.",
+ "when": [
+  "커널 심볼 조회",
+  "주소 확인",
+  "XNU 동작 대조",
+  "릴리스·리서치 커널 비교"
+ ],
+ "examples": [
+  "이 심볼의 주소를 release 커널에서 찾아줘",
+  "이 함수가 XNU에서 어떤 동작인지 대조해줘"
+ ],
+ "notes": [
+  "원문이 영어이고 vphone600 범위에만 써요",
+  "Research/Reference/xnu가 없으면 얕은 clone으로 받아요",
+  "DB에 적힌 절대 경로는 이 체크아웃과 다를 수 있어요"
+ ]
+}

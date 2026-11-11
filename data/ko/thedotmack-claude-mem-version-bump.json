@@ -1,0 +1,18 @@
+{
+ "description": "claude-mem 저장소의 버전 올리기와 릴리스를 진행해요.",
+ "summary": "thedotmack/claude-mem 저장소 전용 릴리스 절차예요. 변경 규모에 따라 patch, minor, major를 정하고 package.json과 여러 플러그인 manifest, README 배지의 버전을 함께 올려요. 빌드 확인, git 태그, GitHub 릴리스, 변경 이력 생성까지 해요.",
+ "when": [
+  "claude-mem 릴리스",
+  "버전 번호 올리기",
+  "릴리스 노트 작성"
+ ],
+ "examples": [
+  "claude-mem 패치 버전 올리고 릴리스해줘",
+  "새 기능 반영해서 minor 버전으로 올려줘"
+ ],
+ "notes": [
+  "다른 저장소에는 쓰지 않고 시작 전에 저장소와 패키지 이름을 확인해요",
+  "빌드 결과물까지 모두 커밋하고 푸시해야 해요",
+  "npm 배포는 태그로 시작되는 GitHub Actions가 해요"
+ ]
+}

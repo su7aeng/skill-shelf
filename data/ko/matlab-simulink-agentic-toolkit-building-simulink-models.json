@@ -1,0 +1,19 @@
+{
+ "description": "Simulink 등의 모델 구조와 설정을 만들고 고쳐요.",
+ "summary": "model_edit으로 Simulink, System Composer, Simscape 모델과 Stateflow 차트 안쪽을 편집해요. 블록 추가, 연결, 삭제, 파라미터 설정을 하며 시작 전에 사용자 라이브러리와 블록 정책을 먼저 확인해요.",
+ "when": [
+  "블록 추가와 연결",
+  "파라미터 설정",
+  "Stateflow 차트 편집",
+  "Simscape 연결"
+ ],
+ "examples": [
+  "Gain 블록을 추가하고 Scope에 연결해줘",
+  "Stateflow 차트에 상태와 전이를 추가해줘"
+ ],
+ "notes": [
+  "MATLAB과 Simulink 환경이 필요해요",
+  "사용자 라이브러리를 쓰면 지식 색인 준비가 먼저 필요해요",
+  "파라미터 값 조회는 다른 도구가 맡아요"
+ ]
+}

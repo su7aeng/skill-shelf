@@ -1,0 +1,18 @@
+{
+ "description": "GitButler CLI인 but으로 커밋, 푸시, 브랜치를 관리해요.",
+ "summary": "Anarlog 저장소에서 현재 브랜치가 gitbutler/workspace일 때만 쓰는 버전 관리 스킬이에요. but diff와 but status로 변경 ID를 확인해 커밋과 브랜치 작업을 하고, ID는 출력에서 그대로 복사해 써요.",
+ "when": [
+  "선택한 변경만 새 브랜치에 커밋",
+  "커밋 순서와 스택 확인",
+  "푸시와 브랜치 정리"
+ ],
+ "examples": [
+  "이 파일 변경만 새 브랜치로 커밋해줘",
+  "지금 작업 공간 상태 보여줘"
+ ],
+ "notes": [
+  "gitbutler/workspace 브랜치가 아니면 일반 Git을 써요",
+  "GitButler CLI(but)가 필요해요",
+  "CI나 리뷰를 기다리는 단계에서는 반복 확인 대신 후속 일정을 걸고 턴을 끝내요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Xcode에 들어 있는 Apple 공식 문서를 찾아 읽어요.",
+ "summary": "Xcode 안에 든 Apple의 LLM용 마크다운 문서와 Swift 컴파일러 진단 설명을 파일로 직접 읽어 정확한 API 동작을 확인해요. 설치된 Xcode 경로를 찾아 쓰고, 별도 서버는 필요 없어요. Axiom의 조언과 함께 쓰라고 안내해요.",
+ "when": [
+  "Apple API의 정확한 사용법 확인",
+  "Swift 컴파일러 진단 해석",
+  "프레임워크 공식 설명 찾기"
+ ],
+ "examples": [
+  "이 Swift 컴파일러 오류가 무슨 뜻인지 Apple 문서로 알려줘",
+  "SwiftUI Liquid Glass 공식 가이드 읽고 알려줘",
+  "이 API의 정확한 동작을 Apple 문서에서 확인해줘"
+ ],
+ "notes": [
+  "Xcode가 설치돼 있어야 해요",
+  "원문이 영어예요"
+ ]
+}

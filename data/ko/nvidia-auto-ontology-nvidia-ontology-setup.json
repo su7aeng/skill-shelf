@@ -1,0 +1,19 @@
+{
+ "description": "Auto Ontology 실행 환경을 설치하고 문제를 해결해요.",
+ "summary": "설치 대상, NVIDIA NIM 키, 관리자 계정, 원본 데이터베이스 같은 필수 사항을 먼저 물어봐요. 공식 방법인 Helm 설치를 기본으로 안내하고 Docker Compose와 개발용 설정, 기존 배포에 MCP 연결도 도와줘요.",
+ "when": [
+  "Auto Ontology 설치",
+  "Helm 배포",
+  "Docker Compose 실행",
+  "MCP 연결 문제 해결"
+ ],
+ "examples": [
+  "Auto Ontology를 쿠버네티스에 설치하는 걸 도와줘",
+  "설치했는데 연결이 안 돼서 원인을 찾아줘"
+ ],
+ "notes": [
+  "비밀 값은 대화에 붙여넣지 않고 값 파일이나 .env에 직접 적어요",
+  "문제가 생기면 references/troubleshooting.md를 먼저 봐요",
+  "셀프 가입이 막혀 있어서 관리자 계정이 필요해요"
+ ]
+}

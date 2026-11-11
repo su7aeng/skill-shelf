@@ -1,0 +1,19 @@
+{
+ "description": "InsForge 저장소 전체를 작업할 때 기본 규칙과 하위 스킬을 안내해요.",
+ "summary": "작업할 패키지 경계를 먼저 정하고, 알맞은 하위 스킬(backend, dashboard, ui, shared-schemas, docs)로 이어주는 입구 역할이에요. 변경이 어느 층에 속하는지, PR 전에 어떤 검사를 돌릴지 정리해요.",
+ "when": [
+  "InsForge 저장소 기여",
+  "패키지 경계 판단",
+  "PR 전 점검",
+  "하위 스킬 선택"
+ ],
+ "examples": [
+  "InsForge 저장소에서 이 변경을 어느 패키지에 넣어야 할지 알려줘",
+  "PR 올리기 전에 돌릴 검사를 정리해줘"
+ ],
+ "notes": [
+  "InsForge 자체를 고치는 사람용이고, InsForge로 앱을 만드는 용도는 아니에요",
+  "turbo로 연결된 lint, build, typecheck, test를 써요",
+  "원문은 영어예요"
+ ]
+}

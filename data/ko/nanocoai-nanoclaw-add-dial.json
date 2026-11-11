@@ -1,0 +1,19 @@
+{
+ "description": "NanoClaw에 SMS와 AI 음성 통화용 전화번호를 연결해요.",
+ "summary": "Dial 플랫폼(getdial.ai)의 실제 전화번호를 채널로 추가해요. 보내는 쪽은 dial message, 받는 쪽은 dial CLI의 데몬을 쓰는 어댑터를 channels 브랜치에서 복사해 와요. 페어링 도우미와 테스트도 함께 들어가요.",
+ "when": [
+  "문자 메시지 채널",
+  "AI 음성 통화",
+  "전화번호 연결",
+  "새 채널 설치"
+ ],
+ "examples": [
+  "NanoClaw에 전화번호로 문자 받는 채널 추가해줘",
+  "Dial 채널을 설치해줘"
+ ],
+ "notes": [
+  "Dial 서비스와 dial CLI가 필요해요",
+  "dial-cli 컨테이너 스킬은 이 스킬이 아니라 /add-dial-tool에서 설치해요",
+  "pair-dial 설정 단계는 본체에 이미 있어요"
+ ]
+}

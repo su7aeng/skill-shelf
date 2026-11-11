@@ -1,0 +1,18 @@
+{
+ "description": "TanStack Form으로 입력 폼 상태와 검증을 구현하도록 도와줘요.",
+ "summary": "useForm을 중심으로 필드 단위와 폼 단위 검증, 배열 필드, 서로 연결된 필드, Zod나 Valibot 같은 스키마 검증 방법을 예시 코드와 함께 안내해요.",
+ "when": [
+  "폼 만들기",
+  "입력 검증 추가",
+  "배열 입력 필드",
+  "스키마 검증 연동"
+ ],
+ "examples": [
+  "React에서 TanStack Form으로 가입 폼 만들어줘",
+  "이 폼에 Zod 검증 붙여줘"
+ ],
+ "notes": [
+  "React용 패키지는 @tanstack/react-form이에요",
+  "스키마 검증을 쓰려면 어댑터 패키지를 따로 설치해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "MLX-VLM에 기여할 변경을 리뷰 통과 형태로 맞춰요.",
+ "summary": "모델 코드, 설정, 테스트를 어디에 둘지와 기존 설정이 깨지지 않게 하는 방법을 알려 줘요. 테스트 실행과 pre-commit 훅(black, clang-format) 설치를 거쳐 PR 기대치까지 확인해요.",
+ "when": [
+  "PR 열기 전 점검",
+  "파일 위치 결정",
+  "테스트 실행",
+  "코드 포맷 맞추기"
+ ],
+ "examples": [
+  "MLX-VLM에 PR 올리기 전에 뭘 확인해야 해?",
+  "내 변경 코드와 테스트를 어디에 넣어야 하는지 알려줘"
+ ],
+ "notes": [
+  "테스트는 tests/test_models.py에 기능별 클래스로 추가해요",
+  "PR 전에 pre-commit을 설치하고 돌려요",
+  "CONTRIBUTING.md는 옛 구조를 가리키니 실제 경로를 따라요"
+ ]
+}

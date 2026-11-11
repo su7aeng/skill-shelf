@@ -1,0 +1,19 @@
+{
+ "description": "React Native 라이브러리나 네이티브 모듈의 뼈대를 만들어요.",
+ "summary": "create-react-native-library 명령으로 npm에 낼 독립 라이브러리를 만들거나, 기존 앱 안에 로컬 네이티브 모듈과 뷰를 추가해요. 먼저 둘 중 어느 흐름인지 고르고 이어서 맞는 구현 문서를 따라가요.",
+ "when": [
+  "새 React Native 라이브러리를 만들 때",
+  "앱에 네이티브 모듈이나 뷰를 넣을 때",
+  "네이티브 SDK를 JavaScript로 감쌀 때"
+ ],
+ "examples": [
+  "새 React Native 라이브러리 뼈대를 만들어줘",
+  "내 앱에 Turbo Module을 로컬로 추가해줘",
+  "네이티브 SDK를 React Native에서 쓰게 감싸줘"
+ ],
+ "notes": [
+  "npx create-react-native-library 를 실행해요",
+  "기본 예제 앱은 Expo를 써요",
+  "새 명령 옵션은 --help로 먼저 확인해요"
+ ]
+}

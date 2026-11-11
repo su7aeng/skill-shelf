@@ -1,0 +1,18 @@
+{
+ "description": "개념과 구조를 SVG, HTML, Excalidraw 다이어그램으로 그려요.",
+ "summary": "요청에 맞춰 clean-svg, architecture-svg, excalidraw 중 하나를 고르고, 요소와 관계를 뽑아 배치를 정한 뒤 파일로 만들어요. 외부 자원 없이 하나의 HTML이나 .excalidraw 파일로 나와요.",
+ "when": [
+  "개념 설명 그림",
+  "시스템 구조도",
+  "흐름도와 화이트보드",
+  "편집 가능한 도식"
+ ],
+ "examples": [
+  "이 서비스 구조를 아키텍처 다이어그램으로 그려줘",
+  "주문 처리 흐름을 Excalidraw로 만들어줘"
+ ],
+ "notes": [
+  "파일 경로를 안 정하면 ./diagram.html 또는 ./diagram.excalidraw로 만들어요",
+  "SVG 결과물은 외부 폰트나 스크립트를 쓰지 않아요"
+ ]
+}

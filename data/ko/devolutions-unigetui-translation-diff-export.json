@@ -1,0 +1,19 @@
+{
+ "description": "UniGetUI 언어 파일에서 번역이 필요한 문자열만 뽑아 패치를 만들어요.",
+ "summary": "영어 기준 파일과 대상 언어 JSON을 비교해 아직 번역되지 않았거나 원문이 바뀐 항목만 골라내요. 번역가에게 넘길 원본, 번역본, 참고용 파일과 안내 프롬프트를 함께 만들어요. 전체 파일 대신 작은 패치만 주고받을 수 있어요.",
+ "when": [
+  "번역 안 된 문자열 추출",
+  "원문이 바뀐 항목 확인",
+  "번역가에게 넘길 패치 준비",
+  "언어 파일 차이 내보내기"
+ ],
+ "examples": [
+  "UniGetUI 프랑스어 번역에서 빠진 문자열만 뽑아줘",
+  "origin/main 이후 영어 원문이 바뀐 항목까지 포함해서 내보내줘"
+ ],
+ "notes": [
+  "PowerShell 7, git, cirup이 PATH에 있어야 해요",
+  "원문이 바뀌었다면 translation-source-sync를 먼저 실행해야 해요",
+  "이어서 translation-diff-translate, translation-diff-import 스킬로 번역하고 합쳐요"
+ ]
+}

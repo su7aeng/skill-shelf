@@ -1,0 +1,19 @@
+{
+ "description": "Vibe 코드베이스의 Python 작성 규칙을 안내해요.",
+ "summary": "match/case, 조기 반환, 최신 타입 힌트, pathlib 사용 같은 스타일과 import, Pydantic, 로깅, 오류 처리, 파일 입출력 규칙을 알려 줘요. Pyright가 엄격하게 검사하므로 type: ignore 없이 타입을 고치라고 해요.",
+ "when": [
+  "Vibe Python 코드 작성",
+  "코드 리뷰",
+  "리팩터링",
+  "타입 오류 수정"
+ ],
+ "examples": [
+  "이 Python 코드를 Vibe 스타일에 맞게 고쳐줘",
+  "상대 경로 import를 규칙대로 바꿔줘"
+ ],
+ "notes": [
+  "Mistral Vibe 코드베이스 전용 규칙이에요",
+  "상대 import와 인라인 type: ignore, noqa는 쓰지 않아요",
+  "import를 TYPE_CHECKING으로 미루면 Ruff TC004 등으로 점검해요"
+ ]
+}

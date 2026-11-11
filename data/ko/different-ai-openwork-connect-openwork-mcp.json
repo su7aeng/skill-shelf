@@ -1,0 +1,18 @@
+{
+ "description": "OpenWork MCP 게이트웨이를 여러 AI 도구에 연결해요.",
+ "summary": "사용 중인 도구에 맞는 명령으로 OpenWork MCP 서버를 추가하고 브라우저 로그인으로 조직을 고르게 해요. 연결 뒤에는 도구 목록과 조직 확인 질문으로 제대로 붙었는지 확인해요.",
+ "when": [
+  "OpenWork MCP 연결",
+  "조직 스킬과 플러그인 사용",
+  "로그인 문제 해결"
+ ],
+ "examples": [
+  "Claude Code에 OpenWork MCP를 연결해줘",
+  "Codex에서 OpenWork에 로그인하는 방법을 알려줘"
+ ],
+ "notes": [
+  "OpenWork Cloud 계정이 필요하고 API 키는 필요 없어요",
+  "로그인한 조직은 토큰에 고정돼서 바꾸려면 다시 로그인해야 해요",
+  "연결 확인 전에는 연결됐다고 말하지 않아요"
+ ]
+}

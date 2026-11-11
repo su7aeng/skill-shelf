@@ -1,0 +1,19 @@
+{
+ "description": "Vue 3 Options API 스타일의 모범 사례와 함정을 알려줘요.",
+ "summary": "data, methods, this를 쓰는 Options API 코드를 위한 안내예요. TypeScript 타입 추론, 메서드와 생명주기 훅의 화살표 함수 문제, 디바운스 함수가 인스턴스 간에 공유되는 문제 등을 다뤄요. 각 항목은 Options API 방식의 해결만 보여줘요.",
+ "when": [
+  "Options API 컴포넌트 작성",
+  "TypeScript 타입 적용",
+  "this 문맥 오류 해결"
+ ],
+ "examples": [
+  "Options API 컴포넌트에 TypeScript 타입을 제대로 붙여줘",
+  "메서드에서 this가 undefined로 나와요",
+  "디바운스한 메서드가 컴포넌트마다 섞여요"
+ ],
+ "notes": [
+  "프로젝트가 Options API를 쓸 때 맞아요",
+  "메서드와 생명주기 훅에는 화살표 함수를 쓰지 않아요",
+  "원문은 영어예요"
+ ]
+}

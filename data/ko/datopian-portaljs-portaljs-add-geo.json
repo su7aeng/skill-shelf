@@ -1,0 +1,19 @@
+{
+ "description": "지리 파일을 PortalJS 포털에서 지도로 쓰게 변환해요.",
+ "summary": "GeoJSON, Shapefile, GeoPackage, KML 같은 파일을 내 컴퓨터에서 좌표계 EPSG:4326 으로 맞추고 PMTiles 와 GeoParquet 로 바꿔요. 원본과 함께 Cloudflare R2 에 올리고 datasets.json 항목을 추가해서 지도와 공간 쿼리가 자동으로 나와요.",
+ "when": [
+  "지리 데이터 올리기",
+  "큰 지도 데이터 표시",
+  "공간 질의 지원"
+ ],
+ "examples": [
+  "이 Shapefile 을 포털에 올려서 지도로 보이게 해줘",
+  "GeoPackage 를 PMTiles 로 변환해줘",
+  "KML 파일을 새 데이터셋으로 등록해줘"
+ ],
+ "notes": [
+  "GDAL, tippecanoe, duckdb 가 설치돼 있어야 해요",
+  "MapPreview 와 GeoQuery 컴포넌트가 있는 포털 템플릿이 필요해요",
+  "서버 없이 내 컴퓨터에서 변환해요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "C/C++ 프로젝트에 gcov 커버리지 측정을 붙여요.",
+ "summary": "빌드 방식(Makefile, CMake 등)을 파악해 --coverage 옵션을 넣고, 빌드와 실행을 거쳐 텍스트나 HTML 커버리지 보고서를 만들어요. 대상 프로젝트는 믿을 수 없다고 보고 모든 빌드와 실행을 샌드박스 래퍼로 감싸요.",
+ "when": [
+  "C/C++ 테스트 커버리지 측정",
+  "gcov, gcovr 보고서 생성",
+  "Makefile이나 CMake에 커버리지 옵션 추가"
+ ],
+ "examples": [
+  "이 C 프로젝트에 gcov 커버리지 붙이고 HTML 보고서 만들어줘",
+  "Makefile에 커버리지 켜고 끄는 옵션을 추가해줘"
+ ],
+ "notes": [
+  "gcc, gcov, gcovr가 필요해요",
+  "빌드와 실행은 libexec/raptor-run-sandboxed로 실행해요"
+ ]
+}

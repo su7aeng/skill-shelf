@@ -1,0 +1,20 @@
+{
+ "description": "수정받은 내용을 모아 CLAUDE.md에 반영하게 도와요.",
+ "summary": "세션 중 사용자가 바로잡은 말을 훅이 감지해 대기열에 쌓아요. 나중에 사용자가 /reflect를 실행하면 하나씩 검토해 알맞은 CLAUDE.md 등에 반영해요. 작업이 끝났을 때 /reflect를 실행하라고 알려 줘요.",
+ "when": [
+  "Claude의 실수 교정 기록",
+  "다음 세션에 기억시키기",
+  "CLAUDE.md 갱신",
+  "반복 패턴에서 스킬 후보 찾기"
+ ],
+ "examples": [
+  "아니, gpt-5가 아니라 gpt-5.1을 써. 이거 기억해 둬",
+  "/reflect 로 쌓인 학습 내용을 검토해 줘",
+  "/reflect --dry-run 으로 바뀔 내용을 미리 보여 줘"
+ ],
+ "notes": [
+  "수정 감지를 위한 훅 설치가 필요해요",
+  "대기열은 ~/.claude/learnings-queue.json에 저장돼요",
+  "명령은 /reflect, /reflect-skills, /skip-reflect, /view-queue 등이 있어요"
+ ]
+}

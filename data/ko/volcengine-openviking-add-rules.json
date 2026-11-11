@@ -1,0 +1,18 @@
+{
+ "description": "지켜야 할 규칙을 OpenViking Rules로 등록해요.",
+ "summary": "사용자가 허락한 규칙 문장이나 정책 문서를 POST /api/v1/rules/compile로 컴파일해요. Python SDK와 HTTP 중 한 방식만 골라 업로드부터 확인까지 이어가고, 작업 결과와 저장된 Rules를 확인해요.",
+ "when": [
+  "규칙 추가",
+  "정책 문서 가져오기",
+  "지속되는 제약 등록"
+ ],
+ "examples": [
+  "이 정책 문서를 OpenViking 규칙으로 등록해줘",
+  "팀 코딩 규칙을 Rules로 추가해줘"
+ ],
+ "notes": [
+  "OpenViking 인스턴스 접속 정보가 필요해요",
+  "선호나 사실, 규칙 검색에는 쓰지 않아요",
+  "한 작업에서 SDK와 HTTP를 섞어 쓰지 않아요"
+ ]
+}

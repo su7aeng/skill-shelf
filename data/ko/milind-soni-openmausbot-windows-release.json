@@ -1,0 +1,18 @@
+{
+ "description": "OpenMausBot의 윈도우용 설치 파일을 만들고 검증해요.",
+ "summary": "package.json 버전을 올리고 pnpm package:win으로 설치 파일 OpenMausBot-버전-setup.exe와 업데이트 피드 latest.yml을 만들어요. 기존 업데이트용 미러에도 같은 파일이 올라가는 흐름을 확인해요.",
+ "when": [
+  "윈도우 릴리스",
+  "설치 파일 빌드",
+  "업데이트 피드 확인"
+ ],
+ "examples": [
+  "윈도우 버전 릴리스 빌드해줘",
+  "setup.exe와 latest.yml 확인해줘"
+ ],
+ "notes": [
+  "윈도우에서만 실행해야 하고 Node 24 이상과 pnpm이 필요해요",
+  "맥 빌드는 다루지 않아요",
+  "버전은 GitHub 릴리스 태그와 같아야 해요"
+ ]
+}

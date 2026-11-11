@@ -1,0 +1,19 @@
+{
+ "description": "위키의 최신 상태를 점검하고 색인과 hot.md 를 갱신해요.",
+ "summary": "가져온 원본이 최신인지 확인해 최신, 오래됨, 없어짐으로 나누고 obsidian-wiki memory 명령으로 index.md 와 hot.md 를 다시 만들어요. 마지막 갱신 시각과 밀린 항목 수는 볼트별 상태 폴더에 적어 두어요. 주기 실행이나 /daily-update 로 쓰는 가벼운 점검이에요.",
+ "when": [
+  "매일 위키를 점검할 때",
+  "원본이 바뀌었는지 확인할 때",
+  "색인이 어긋났을 때",
+  "hot.md 를 새로 고칠 때"
+ ],
+ "examples": [
+  "오늘 위키 일일 점검 돌려 줘",
+  "원본 중에 오래된 게 있는지 알려 줘",
+  "index.md 와 hot.md 를 새로 갱신해 줘"
+ ],
+ "notes": [
+  "OBSIDIAN_VAULT_PATH 와 OBSIDIAN_WIKI_REPO 설정이 필요해요",
+  "볼트가 아직 이전되지 않았다고 나오면 obsidian-wiki memory migrate 를 먼저 실행해야 해요"
+ ]
+}

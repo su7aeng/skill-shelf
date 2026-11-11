@@ -1,0 +1,18 @@
+{
+ "description": "커밋과 PR로 변경 이력과 릴리스 노트를 자동으로 만들어 줘요.",
+ "summary": "Keep a Changelog 형식과 Conventional Commits, 유의적 버전 관리를 바탕으로 변경 이력 작성을 자동화하는 방법을 정리했어요. 요약, 주요 변경, 호환성 깨짐, 업그레이드 안내 같은 항목을 갖춘 릴리스 노트 예시도 있어요.",
+ "when": [
+  "변경 이력 자동 생성",
+  "릴리스 노트 작성",
+  "커밋 메시지 규칙 통일",
+  "GitHub나 GitLab 릴리스 정리"
+ ],
+ "examples": [
+  "커밋 기록으로 CHANGELOG 만들어줘",
+  "이번 릴리스 노트 초안 써줘",
+  "Conventional Commits 규칙을 우리 팀에 도입하고 싶어"
+ ],
+ "notes": [
+  "자세한 패턴과 예시는 references/details.md에 따로 있어요"
+ ]
+}

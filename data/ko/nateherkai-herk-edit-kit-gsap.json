@@ -1,0 +1,17 @@
+{
+ "description": "HyperFrames에서 쓰는 GSAP 애니메이션 참고서예요.",
+ "summary": "gsap.to(), from(), fromTo(), set() 같은 기본 동작과 easing, stagger, 타임라인, 위치 지정, 라벨, 중첩을 정리했어요. 성능을 위해 transform을 쓰는 방법도 담았어요. 영상 구성 파일에 애니메이션을 쓸 때 보는 자료예요.",
+ "when": [
+  "애니메이션 코드 작성",
+  "타임라인 구성",
+  "움직임 타이밍 조절"
+ ],
+ "examples": [
+  "제목이 위에서 내려오는 GSAP 애니메이션을 써줘",
+  "여러 글자가 차례로 나타나게 stagger를 적용해줘"
+ ],
+ "notes": [
+  "속성 이름은 camelCase로 써요",
+  "HyperFrames 구성 파일 작업용 참고 자료예요"
+ ]
+}

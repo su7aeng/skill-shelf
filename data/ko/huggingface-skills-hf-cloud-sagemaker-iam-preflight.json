@@ -1,0 +1,19 @@
+{
+ "description": "배포 전에 쓸 수 있는 SageMaker 실행 역할이 있는지 점검해요.",
+ "summary": "새 역할을 만들기 전에 이미 쓸 수 있는 실행 역할이 있는지 찾고 확인해요. 꼭 필요할 때만 만들며 IAM 쓰기 권한이 없는 SSO 계정에서 실패하는 일을 줄여요.",
+ "when": [
+  "SageMaker 엔드포인트 생성 전",
+  "실행 역할 확인",
+  "AccessDenied 오류 점검",
+  "학습 작업 준비"
+ ],
+ "examples": [
+  "SageMaker 배포에 쓸 실행 역할이 있는지 확인해줘",
+  "IAM 권한 오류가 나는데 원인을 봐줘"
+ ],
+ "notes": [
+  "AWS CLI가 동작하는 셸에서 python3 scripts/check_role.py를 실행해요",
+  "Windows에서는 WSL이나 Git Bash 사용을 피해요",
+  "역할 ARN을 모를 때 특히 유용해요"
+ ]
+}

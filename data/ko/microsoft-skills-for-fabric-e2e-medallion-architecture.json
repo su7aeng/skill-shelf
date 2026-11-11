@@ -1,0 +1,20 @@
+{
+ "description": "Fabric에서 브론즈, 실버, 골드 구조의 데이터 플랫폼을 설계해요.",
+ "summary": "수집부터 분석까지 브론즈, 실버, 골드 계층을 나누어 PySpark와 Delta로 구성하는 방법을 안내해요. 파이프라인 연결, 계층별 Spark 설정, 실버와 골드에 Materialized Lake View를 쓸지 노트북을 쓸지의 선택, Direct Lake 연결까지 다뤄요.",
+ "when": [
+  "메달리온 구조 설계",
+  "데이터 수집부터 분석까지 구성",
+  "계층별 성능 조정",
+  "Direct Lake 연결"
+ ],
+ "examples": [
+  "Fabric에서 브론즈 실버 골드 구조를 어떻게 짤지 설계해줘",
+  "실버 계층에 Materialized Lake View를 쓸지 노트북을 쓸지 알려줘",
+  "골드 테이블을 Direct Lake로 연결하는 방법을 알려줘"
+ ],
+ "notes": [
+  "Azure CLI(az)로 Fabric API를 호출하고, 모든 호출에 x-ms-fabric-skill 헤더를 붙여야 해요",
+  "기존 Power BI 보고서에 대한 질문은 fabriciq를 써요",
+  "노트북을 만들 때 공통 참고 문서를 먼저 읽어요"
+ ]
+}

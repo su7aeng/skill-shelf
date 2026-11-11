@@ -1,0 +1,20 @@
+{
+ "description": "Azure Monitor 로그를 Fabric으로 가져와 사업 지표와 연결해요.",
+ "summary": "Azure Monitor, Application Insights, Log Analytics 데이터를 Fabric의 미러링 카탈로그로 들여와요. 지연이나 가용성이 매출에 영향을 줬는지 사업 데이터와 맞춰 보고, 마지막에 Operations Agent에 붙여 쓸 지침을 만들어 줘요. 별도 MCP 서버 없이 스킬 파일만으로 동작해요.",
+ "when": [
+  "모니터링 데이터 Fabric 연동",
+  "장애와 매출 영향 분석",
+  "실시간 대시보드 구성",
+  "Operations Agent 지침 작성"
+ ],
+ "examples": [
+  "Application Insights 데이터를 Fabric으로 가져오고 싶어",
+  "응답 지연이 주문 매출에 영향을 줬는지 분석해줘",
+  "운영 에이전트에 넣을 지침을 만들어줘"
+ ],
+ "notes": [
+  "Azure CLI(az)로 Fabric API를 호출하고, 모든 호출에 x-ms-fabric-skill 헤더를 붙여야 해요",
+  "공통 인증 문서를 먼저 읽는 것을 전제로 해요",
+  "원문이 영어예요"
+ ]
+}

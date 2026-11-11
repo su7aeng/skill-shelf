@@ -1,0 +1,19 @@
+{
+ "description": "Alkahest 에스크로 계약을 쓰는 코드를 SDK로 짜도록 도와요.",
+ "summary": "EAS 기반 에스크로 프로토콜 Alkahest와 연동하는 앱이나 봇을 TypeScript, Rust, Python SDK로 작성하도록 안내해요. 에스크로 생성, 이행, 중재자와 의무 계약 만들기 패턴을 다뤄요.",
+ "when": [
+  "Alkahest 연동 개발",
+  "에스크로 봇 작성",
+  "중재자 계약 제작",
+  "SDK 사용법 확인"
+ ],
+ "examples": [
+  "Alkahest 에스크로를 만드는 TypeScript 코드를 짜줘",
+  "에스크로를 이행하는 봇을 Python으로 만들어줘"
+ ],
+ "notes": [
+  "TypeScript, Rust, Python SDK를 지원해요",
+  "EVM 체인과 블록체인 지식이 필요해요",
+  "원문이 영어예요"
+ ]
+}

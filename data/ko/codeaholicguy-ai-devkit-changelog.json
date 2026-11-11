@@ -1,0 +1,18 @@
+{
+ "description": "마지막 릴리스 이후 커밋으로 CHANGELOG의 Unreleased를 채워요.",
+ "summary": "최근 릴리스 이후의 git 커밋을 모아 커밋마다 한 줄씩 CHANGELOG.md 맨 위 Unreleased 목록에 넣어요. 커밋이나 PR 링크를 붙이고, 근거가 없으면 PR 링크를 지어내지 않아요.",
+ "when": [
+  "릴리스 노트 준비",
+  "변경 내역 정리",
+  "배포 전 CHANGELOG 갱신"
+ ],
+ "examples": [
+  "최근 커밋으로 CHANGELOG 업데이트해줘",
+  "마지막 릴리스 이후 바뀐 걸 Unreleased에 정리해줘"
+ ],
+ "notes": [
+  "git 저장소와 CHANGELOG.md가 필요해요",
+  "날짜가 붙은 릴리스 제목은 요청이 없으면 만들지 않아요",
+  "사용자에게 상관없는 커밋을 뺐다면 이유를 설명해요"
+ ]
+}

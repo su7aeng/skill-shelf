@@ -1,0 +1,20 @@
+{
+ "description": "PromptHub 릴리스 때 버전, 변경 이력, 문서를 한꺼번에 맞춰요.",
+ "summary": "AGENTS.md와 릴리스 규칙 문서를 먼저 읽고 대상 버전과 배포 범위를 정한 뒤 작업해요. 버전 파일, CHANGELOG, 여러 언어 README, 웹사이트, 스크린샷 순서로 같은 내용을 맞춰 나가요.",
+ "when": [
+  "버전 올리기",
+  "변경 이력 정리",
+  "README 다국어 동기화",
+  "GUI 스크린샷과 문서 갱신"
+ ],
+ "examples": [
+  "PromptHub 새 버전 릴리스 준비해줘",
+  "CHANGELOG랑 README를 이번 버전 기준으로 맞춰줘",
+  "웹사이트 릴리스 안내를 최신 버전으로 갱신해줘"
+ ],
+ "notes": [
+  "PromptHub 저장소 전용이고 spec/releases/release-rules.md를 기준으로 삼아요",
+  "/update-readme 명령으로도 불러요",
+  "원문이 영어예요"
+ ]
+}

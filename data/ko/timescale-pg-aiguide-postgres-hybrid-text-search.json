@@ -1,0 +1,20 @@
+{
+ "description": "키워드 검색과 의미 검색을 합친 하이브리드 검색을 만들어 줘요.",
+ "summary": "BM25 키워드 검색과 벡터 의미 검색을 따로 실행한 뒤 RRF(Reciprocal Rank Fusion)로 하나의 순위로 합쳐요. pg_textsearch 인덱스 설정, 병렬 쿼리, Python과 TypeScript 퓨전 코드, 가중치 조정, 선택적 재순위화를 다뤄요.",
+ "when": [
+  "키워드와 의미를 함께 쓰는 검색",
+  "BM25 순위 적용",
+  "RRF로 결과 합치기",
+  "검색 품질 개선"
+ ],
+ "examples": [
+  "PostgreSQL에서 키워드 검색과 벡터 검색을 합쳐 줘",
+  "RRF로 두 검색 결과를 섞는 코드를 TypeScript로 써 줘",
+  "정확한 단어와 뜻이 비슷한 문서를 모두 찾게 하고 싶어"
+ ],
+ "notes": [
+  "pgvector와 pg_textsearch 확장이 둘 다 필요해요",
+  "PostgreSQL 15 이상이 필요해요",
+  "원문은 영어예요"
+ ]
+}

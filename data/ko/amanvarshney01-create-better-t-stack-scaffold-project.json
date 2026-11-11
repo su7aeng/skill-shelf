@@ -1,0 +1,19 @@
+{
+ "description": "Better-T-Stack으로 새 앱이나 백엔드 프로젝트의 뼈대를 만들어요.",
+ "summary": "Hono, Next.js, Convex 등 원하는 프레임워크로 새 프로젝트를 생성해요. 프론트엔드, 백엔드, 데이터베이스 중 빠진 큰 선택은 짧게 물어보고, 되는 조합만 만들어요.",
+ "when": [
+  "새 프로젝트 생성",
+  "백엔드 API 시작",
+  "인증과 DB가 있는 앱 구성",
+  "스타터 만들기"
+ ],
+ "examples": [
+  "Hono 앱 하나 만들어 줘",
+  "인증과 데이터베이스가 있는 풀스택 앱을 시작하고 싶어"
+ ],
+ "notes": [
+  "폴더에 bts.jsonc가 이미 있으면 add-to-project 스킬을 써요",
+  "호스팅 MCP는 파일을 못 써서 실행할 명령만 돌려줘요",
+  "addonOptions와 dbSetupOptions는 CLI로만 줄 수 있어요"
+ ]
+}

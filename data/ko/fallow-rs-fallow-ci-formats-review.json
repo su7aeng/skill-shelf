@@ -1,0 +1,17 @@
+{
+ "description": "fallow의 CI용 출력 형식이 맞는지 검토해요.",
+ "summary": "SARIF, CodeClimate, compact, markdown, 배지 같은 기계가 읽는 출력 형식을 검토해요. 형식 정확성, CI 도구와의 호환, 빈 입력 처리, 스냅샷 순서의 안정성을 보고 APPROVE, CONCERN, BLOCK 중 하나로 끝내요.",
+ "when": [
+  "출력 형식 변경 검토",
+  "CI 연동 확인",
+  "스냅샷 테스트 점검"
+ ],
+ "examples": [
+  "SARIF 출력 변경이 괜찮은지 검토해줘",
+  "CodeClimate 형식이 맞는지 봐줘"
+ ],
+ "notes": [
+  "fallow 저장소의 .agents 안 리뷰어 문서를 먼저 읽어요",
+  "결론은 APPROVE, CONCERN, BLOCK 중 하나예요"
+ ]
+}

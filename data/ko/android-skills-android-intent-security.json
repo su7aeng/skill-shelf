@@ -1,0 +1,18 @@
+{
+ "description": "Android Intent와 컴포넌트의 보안 허점을 점검하고 고쳐요.",
+ "summary": "AndroidManifest.xml의 액티비티, 서비스, 리시버 설정과 들어오는 Intent를 다루는 코드를 살펴서 Intent 리디렉션과 무단 접근 위험을 찾아요. PendingIntent, ContentProvider, 서명 권한, IntentSanitizer 사용도 점검하고 수정 방법을 알려 줘요.",
+ "when": [
+  "매니페스트 보안 점검",
+  "Intent 처리 코드 검토",
+  "PendingIntent 점검",
+  "보안 수정"
+ ],
+ "examples": [
+  "AndroidManifest에서 외부에 열린 컴포넌트가 안전한지 점검해줘",
+  "getIntent로 받은 값을 안전하게 처리하는지 봐줘"
+ ],
+ "notes": [
+  "네트워크 보안, TLS, 런타임 권한 요청 흐름에는 쓰지 않아요",
+  "원문이 영어예요"
+ ]
+}

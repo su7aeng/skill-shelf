@@ -1,0 +1,17 @@
+{
+ "description": "Node.js/Express/TypeScript 백엔드의 구조와 작성 규칙을 안내해요.",
+ "summary": "라우트, 컨트롤러, 서비스, 저장소, 미들웨어를 일관되게 만드는 방법을 알려줘요. Prisma, Sentry, Zod 사용 규칙과 설정 관리, 테스트도 다뤄요.",
+ "when": [
+  "API 라우트 만들기",
+  "서비스와 저장소 작성",
+  "미들웨어와 검증 구성"
+ ],
+ "examples": [
+  "새 API 엔드포인트를 규칙에 맞게 만들어줘",
+  "컨트롤러와 서비스 구조를 정리해줘"
+ ],
+ "notes": [
+  "Node.js, Express, TypeScript, Prisma, Sentry 기준이에요",
+  "다른 스택이면 원칙만 참고해 맞춰 써요"
+ ]
+}

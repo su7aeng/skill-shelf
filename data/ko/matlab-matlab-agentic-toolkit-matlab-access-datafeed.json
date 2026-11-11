@@ -1,0 +1,20 @@
+{
+ "description": "MATLAB에서 Bloomberg, FRED 등 금융과 경제 데이터를 가져와요.",
+ "summary": "Bloomberg, FRED, Haver Analytics, LSEG Datastream, NOAA, 미국 정부 기관(BEA, BLS, Census, EIA) 데이터를 MATLAB으로 연결해 가져오는 방법을 다뤄요. 시세, 경제 시계열, 과거 금융 데이터, 기상 데이터를 대상으로 해요.",
+ "when": [
+  "시장 데이터 조회",
+  "경제 지표 가져오기",
+  "기후 데이터 분석",
+  "정부 통계 불러오기"
+ ],
+ "examples": [
+  "MATLAB으로 FRED에서 금리 시계열을 가져와줘",
+  "Bloomberg 과거 가격을 불러오는 코드 짜줘",
+  "BLS 통계를 MATLAB에서 조회하고 싶어"
+ ],
+ "notes": [
+  "MATLAB Datafeed Toolbox가 필요해요",
+  "각 데이터 제공처 계정이나 접속 정보가 필요할 수 있어요",
+  "NOAA와 미국 정부 데이터는 GitHub 인터페이스를 써요"
+ ]
+}

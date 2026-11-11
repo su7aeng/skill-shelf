@@ -1,0 +1,20 @@
+{
+ "description": "Azure Advisor 권장 사항을 조회하고 우선순위를 정해요.",
+ "summary": "Advisor MCP 도구로 권장 사항의 개수, 분포, 목록을 보여주고 가장 중요한 항목을 추려줘요. 완료, 보류, 해제 같은 상태 변경도 할 수 있어요.",
+ "when": [
+  "Advisor 권장 사항 보기",
+  "우선순위 정하기",
+  "서비스 종료 예정 확인",
+  "권장 사항 상태 변경"
+ ],
+ "examples": [
+  "Advisor에서 가장 먼저 처리할 것 알려줘",
+  "카테고리별 권장 사항이 몇 개인지 보여줘",
+  "이 권장 사항은 보류로 바꿔줘"
+ ],
+ "notes": [
+  "실제 수정은 azure-advisor-actionability 스킬이 맡아요",
+  "미사용 리소스 찾기는 azure-advisor-cost-optimization 스킬이 먼저예요",
+  "Azure Advisor MCP 도구를 써요"
+ ]
+}

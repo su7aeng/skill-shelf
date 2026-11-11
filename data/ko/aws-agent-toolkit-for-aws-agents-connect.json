@@ -1,0 +1,20 @@
+{
+ "description": "AgentCore 에이전트를 외부 API와 도구에 Gateway로 연결해요.",
+ "summary": "MCP 서버, Lambda 함수, OpenAPI 명세, API Gateway를 Gateway 타깃으로 붙이고, 인증과 자격 증명 설정을 도와요. 어떤 도구를 호출할 수 있는지 제한하는 Cedar 정책을 쓰는 일도 포함해요. 연결이나 정책 인증 오류가 날 때도 써요.",
+ "when": [
+  "외부 API 연결",
+  "Lambda를 에이전트 도구로 제공",
+  "OpenAPI 명세를 도구로 변환",
+  "Cedar 정책으로 도구 제한"
+ ],
+ "examples": [
+  "내 에이전트가 외부 MCP 서버의 도구를 쓰게 연결해 줘",
+  "OpenAPI 명세로 에이전트 도구를 만들어 줘",
+  "금액이 큰 도구 호출을 막는 Cedar 정책을 써 줘"
+ ],
+ "notes": [
+  "agentcore CLI v0.9.0 이상이 필요해요",
+  "에이전트를 호출할 수 있는 사람을 제한하는 일은 agents-harden을 써요",
+  "동작 문제 진단은 agents-debug를 써요"
+ ]
+}

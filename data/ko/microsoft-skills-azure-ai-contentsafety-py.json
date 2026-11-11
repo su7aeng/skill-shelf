@@ -1,0 +1,20 @@
+{
+ "description": "Python으로 Azure AI Content Safety를 써서 유해 콘텐츠를 탐지해요.",
+ "summary": "azure-ai-contentsafety SDK로 사용자와 AI가 만든 텍스트와 이미지를 분석해 위험 수준을 여러 단계로 나눠 알려주는 방법을 안내해요. ContentSafetyClient 설정과 인증, 클라이언트를 컨텍스트 매니저로 감싸는 방법을 다뤄요.",
+ "when": [
+  "콘텐츠 검열",
+  "AI 응답 안전성 검사",
+  "이미지 유해성 분석",
+  "파이썬 앱 개발"
+ ],
+ "examples": [
+  "파이썬으로 텍스트 유해성 분석하는 코드 짜줘",
+  "업로드된 이미지를 Content Safety로 검사해줘",
+  "AI 답변을 내보내기 전에 안전성 확인하는 코드 만들어줘"
+ ],
+ "notes": [
+  "pip install azure-ai-contentsafety 로 설치해요",
+  "CONTENT_SAFETY_ENDPOINT 환경 변수가 필요해요",
+  "DefaultAzureCredential 사용을 권장하고 API 키는 예전 방식으로 다뤄요"
+ ]
+}

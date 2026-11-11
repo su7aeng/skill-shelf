@@ -1,0 +1,17 @@
+{
+ "description": "승인된 구매 주문을 만들어 줘요.",
+ "summary": "주문을 만들기 전에 승인 정책 문서를 먼저 읽어요. 승인된 구매라면 SKU와 수량으로 create-purchase-order 도구를 호출하고, 확인 메시지는 주문 템플릿에 맞춰 써요.",
+ "when": [
+  "구매 주문 생성",
+  "승인된 발주 처리",
+  "SKU 수량 주문"
+ ],
+ "examples": [
+  "SKU 12345를 30개 구매 주문해줘",
+  "승인된 발주 건 주문 만들어줘"
+ ],
+ "notes": [
+  "create-purchase-order 도구가 연결된 환경에서 써요",
+  "references/approval-policy.md와 templates/purchase-order.md를 사용해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "InsForge 백엔드 코드를 고칠 때 지킬 구조와 규칙을 알려줘요.",
+ "summary": "InsForge 저장소의 backend 폴더를 작업할 때 route, service, provider 순서로 역할을 나눠 쓰는 규칙을 따라요. 새 환경 변수는 .env.example에 적고, DB 변경은 여러 번 실행해도 안전한 마이그레이션 파일로 쓰게 해요.",
+ "when": [
+  "백엔드 API 수정",
+  "DB 마이그레이션 작성",
+  "인증과 권한 로직 변경",
+  "백엔드 테스트 추가"
+ ],
+ "examples": [
+  "InsForge 백엔드에 새 API 라우트를 추가해줘",
+  "스키마 변경용 마이그레이션 파일을 만들어줘"
+ ],
+ "notes": [
+  "InsForge 저장소를 직접 고치는 관리자와 기여자용이에요",
+  "TypeScript의 any 타입은 쓰지 않는 규칙이 있어요",
+  "원문은 영어예요"
+ ]
+}

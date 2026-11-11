@@ -1,0 +1,19 @@
+{
+ "description": "ARIA 컨테이너 role 안에 필요한 자식 role이 있는지 점검해요.",
+ "summary": "tablist 안에는 tab, listbox 안에는 option, menu 안에는 menuitem처럼 컴포넌트가 갖춰야 할 자식 role을 확인해요. div와 span으로 직접 만든 탭, 메뉴, 트리, 그리드에서 구조가 어긋나면 화면 낭독기가 항목을 읽지 못해요. 구조용 래퍼에는 role=\"none\"을 쓰는 방법도 안내해요.",
+ "when": [
+  "커스텀 탭과 메뉴 점검",
+  "listbox 구조 확인",
+  "트리와 그리드 검토",
+  "ARIA 중첩 오류 수정"
+ ],
+ "examples": [
+  "직접 만든 탭 컴포넌트의 role 구조를 점검해줘",
+  "role=list 안에 listitem이 빠진 곳을 찾아줘",
+  "메뉴 항목 구조를 접근성 기준에 맞게 고쳐줘"
+ ],
+ "notes": [
+  "원문이 영어이고 frontendchecklist.io 규칙을 바탕으로 해요",
+  "화면에 그려진 HTML을 보고 점검하는 용도라 코드 리뷰와 수정 제안에 알맞아요"
+ ]
+}

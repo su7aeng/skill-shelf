@@ -1,0 +1,19 @@
+{
+ "description": "binance-cli로 바이낸스 현물, 선물, 전환 거래를 다뤄요.",
+ "summary": "binance-cli 명령으로 Spot, USD-S 선물, Convert 등 바이낸스 기능을 사용하는 안내예요. 기능별 명령 문서가 references 폴더에 나뉘어 있어요.",
+ "when": [
+  "바이낸스 현물 조회",
+  "선물 거래 명령",
+  "코인 전환",
+  "바이낸스 CLI 사용"
+ ],
+ "examples": [
+  "바이낸스 현물 잔고를 조회해줘",
+  "binance-cli로 선물 포지션을 확인해줘"
+ ],
+ "notes": [
+  "인증이 필요해요",
+  "먼저 references/auth.md의 인증과 보안 규칙을 읽어요",
+  "원문은 영어예요"
+ ]
+}

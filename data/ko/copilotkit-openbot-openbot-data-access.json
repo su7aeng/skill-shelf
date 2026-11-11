@@ -1,0 +1,19 @@
+{
+ "description": "OpenBot 브라우저 앱이 서버 데이터를 읽고 쓰는 방식을 정해 줘요.",
+ "summary": "모든 요청은 app/src/lib/client.ts의 client를 거치게 하고, 읽기는 queries.ts의 queryOptions, 쓰기는 mutations.ts의 mutationOptions로 만들어요. 컴포넌트는 useQuery와 useMutation으로 쓰게 해서 fetch가 여기저기 흩어지지 않게 해요.",
+ "when": [
+  "새 화면의 데이터 불러오기",
+  "API 호출 추가",
+  "쿼리 키 추가",
+  "생성/수정/삭제 흐름 작성"
+ ],
+ "examples": [
+  "이 화면에 봇 목록을 불러오는 쿼리를 추가해줘",
+  "삭제 버튼에 쓸 mutation을 만들어줘"
+ ],
+ "notes": [
+  "OpenBot 저장소의 app/src 변경에만 해당해요",
+  "서버 핸들러, zod 폼 스키마, 화면 레이아웃은 다루지 않아요",
+  "원문이 영어예요"
+ ]
+}

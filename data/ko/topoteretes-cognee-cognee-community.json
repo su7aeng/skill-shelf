@@ -1,0 +1,19 @@
+{
+ "description": "cognee 본체 밖의 커뮤니티 패키지 쓰는 법을 안내해 줘요.",
+ "summary": "Qdrant, Redis 같은 데이터베이스 어댑터, Slack과 Notion 같은 데이터 소스 연결, 관측 도구를 설치하고 설정하는 방법을 알려줘요. cognee-community 저장소에 기여하는 방법도 다뤄요.",
+ "when": [
+  "벡터 DB 어댑터 교체",
+  "Slack 데이터 연결",
+  "Gmail 데이터 연결",
+  "커뮤니티 패키지 기여"
+ ],
+ "examples": [
+  "cognee에서 Qdrant 쓰도록 설정해줘",
+  "Notion 데이터를 cognee에 연결하고 싶어"
+ ],
+ "notes": [
+  "어댑터는 cognee가 엔진을 쓰기 전에 register 모듈을 불러와야 해요",
+  "패키지는 PyPI의 cognee-community 이름으로 설치해요",
+  "원문이 영어예요"
+ ]
+}

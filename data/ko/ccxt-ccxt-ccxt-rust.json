@@ -1,0 +1,18 @@
+{
+ "description": "Rust에서 CCXT로 암호화폐 거래소를 다루는 방법을 안내해요.",
+ "summary": "거래소마다 타입이 정해진 래퍼(ccxt::Binance 등)로 시세와 주문을 다루는 방법을 알려줘요. 모든 메서드가 async이고 Result<T, ExchangeError>를 돌려줘요. REST용 ccxt, 스트리밍용 ccxt-pro, 예측 시장용 ccxt-prediction 크레이트 사용법을 다뤄요.",
+ "when": [
+  "Rust 트레이딩 봇",
+  "저지연 거래 서비스",
+  "거래소 시세 수집",
+  "실시간 호가 스트리밍"
+ ],
+ "examples": [
+  "러스트로 바이낸스 티커 가져오는 예제 만들어줘",
+  "ccxt-pro로 실시간 호가를 구독해줘"
+ ],
+ "notes": [
+  "Rust stable과 tokio 런타임이 필요해요",
+  "스트리밍은 ccxt-pro, 예측 시장은 ccxt-prediction을 따로 추가해요"
+ ]
+}

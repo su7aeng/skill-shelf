@@ -1,0 +1,18 @@
+{
+ "description": "memlab으로 웹 앱의 메모리 누수를 찾아 줘요.",
+ "summary": "시나리오 파일에 시작 주소, 의심 동작(action), 되돌리기(back)를 쓰고 memlab run으로 실행해요. 페이지를 불러 스냅샷을 찍고 동작과 되돌리기 뒤의 스냅샷을 비교해, 남아 있는 DOM과 React 객체를 누수 후보로 묶어 보여 줘요.",
+ "when": [
+  "웹 앱 메모리 누수 찾기",
+  "화면 동작별 누수 확인",
+  "시나리오 파일 작성"
+ ],
+ "examples": [
+  "설정 창을 열고 닫을 때 누수가 있는지 memlab으로 확인해줘",
+  "memlab 시나리오 파일을 만들어줘"
+ ],
+ "notes": [
+  "npm으로 memlab을 설치해야 하고 Chromium과 Puppeteer를 써요",
+  "action과 back 안에서는 페이지를 새로고침하면 안 돼요",
+  "로그인은 action이 아니라 cookies나 setup에서 해요"
+ ]
+}

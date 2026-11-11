@@ -1,0 +1,17 @@
+{
+ "description": "mcp-use로 위젯이 있는 ChatGPT 앱을 만드는 옛 스킬이에요.",
+ "summary": "이미 mcp-app-builder로 대체된 스킬이라 그쪽을 쓰라고 안내해요. 내용은 mcp-use와 OpenAI Apps SDK로 서버 도구와 React 위젯을 만들고, 위젯 상태와 표시 모드, 보안 설정을 다루는 방법이에요.",
+ "when": [
+  "ChatGPT 앱 위젯 개발",
+  "MCP 서버에 위젯 붙이기",
+  "Apps SDK 작업"
+ ],
+ "examples": [
+  "ChatGPT에서 보이는 위젯 앱을 만들어줘",
+  "mcp-use로 React 위젯을 가진 MCP 서버를 만들어줘"
+ ],
+ "notes": [
+  "사용 중단된 스킬이에요. mcp-app-builder를 쓰세요",
+  "없으면 npx skills install mcp-use/mcp-use --skill mcp-app-builder 로 설치해요"
+ ]
+}

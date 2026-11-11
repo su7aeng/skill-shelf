@@ -1,0 +1,17 @@
+{
+ "description": "최근 대화를 분석해 CLAUDE.md 개선점을 찾아요.",
+ "summary": "~/.claude/projects의 최근 대화 15~20개를 텍스트로 뽑고 하위 에이전트를 병렬로 돌려 분석해요. 어긴 규칙, 전역과 프로젝트 CLAUDE.md에 추가할 내용, 낡은 항목을 정리해 보고해요.",
+ "when": [
+  "CLAUDE.md 점검",
+  "반복되는 실수 찾기",
+  "규칙 추가 후보 찾기"
+ ],
+ "examples": [
+  "최근 대화 보고 CLAUDE.md 고칠 점 알려줘",
+  "내 CLAUDE.md에서 안 지켜지는 규칙이 뭔지 봐줘"
+ ],
+ "notes": [
+  "전역 ~/.claude/CLAUDE.md와 프로젝트 CLAUDE.md를 같이 봐요",
+  "jq가 필요하고 대화 기록이 많을수록 시간이 걸려요"
+ ]
+}

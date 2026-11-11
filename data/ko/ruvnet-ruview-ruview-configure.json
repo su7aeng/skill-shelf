@@ -1,0 +1,19 @@
+{
+ "description": "배포된 RuView 시스템의 설정을 코드 수정 없이 조정해요.",
+ "summary": "ESP32 sdkconfig 변형, NVS 프로비저닝, WiFi 채널과 MAC 필터, 엣지 인텔리전스, 센싱 서버 옵션, 다중 노드 메시, Cognitum Seed 연동 설정법을 알려줘요.",
+ "when": [
+  "펌웨어 설정 변경",
+  "노드 프로비저닝",
+  "메시 구성",
+  "서버 옵션 조정"
+ ],
+ "examples": [
+  "ESP32 노드에 WiFi와 타깃 IP를 설정하는 방법 알려줘",
+  "4MB 보드용 설정으로 바꾸고 싶어"
+ ],
+ "notes": [
+  "provision.py의 --help를 기준으로 삼아요",
+  "Windows에서는 UTF-8 환경 변수가 필요해요",
+  "실제 CSI로 테스트하고 mock 모드는 쓰지 말라고 안내해요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "새로 추가된 선택 인자를 필수 null 허용 값으로 바꿔요.",
+ "summary": "Remotion 변경분에서 새로 생긴 foo?: T 같은 선택 항목을 찾아 내부 API는 foo: T | null 형태로 바꾸고 호출하는 쪽도 함께 고쳐요. 공개 API는 깨지지 않도록 선택 항목으로 남겨 둬요.",
+ "when": [
+  "PR 리뷰 중 선택 인자 발견",
+  "내부 함수 시그니처 정리",
+  "React props 타입 수정",
+  "공개 API 여부 구분"
+ ],
+ "examples": [
+  "이 PR에 새로 추가된 optional 파라미터를 규칙에 맞게 고쳐줘",
+  "내부 API에 ?로 추가된 props를 null 허용 필수 값으로 바꿔줘"
+ ],
+ "notes": [
+  "Remotion 모노레포 전용 규칙이고 bun으로 확인 스크립트를 돌려요",
+  "패키지에서 내보내는 API나 문서화된 API는 예외예요"
+ ]
+}

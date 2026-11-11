@@ -1,0 +1,19 @@
+{
+ "description": "마크다운, 설정 파일, HTML, URL을 Plannotator로 열어 주석을 반영해요.",
+ "summary": "일반 주석은 plannotator annotate로, 승인이 필요한 계획이나 문서는 --gate 옵션으로 열어요. 사용자가 브라우저에서 끝낼 때까지 백그라운드로 기다렸다가 돌아온 피드백을 반영해요.",
+ "when": [
+  "문서 주석 받기",
+  "계획 승인 받기",
+  "설정 파일 검토",
+  "HTML 문서 검토"
+ ],
+ "examples": [
+  "이 계획서 승인받게 Plannotator로 열어줘",
+  "yaml 설정 파일에 주석 받아줘"
+ ],
+ "notes": [
+  "Qwen Code용 스킬이에요",
+  "승인 버튼은 --gate 옵션을 줄 때만 있어요",
+  "plannotator 명령이 필요해요"
+ ]
+}

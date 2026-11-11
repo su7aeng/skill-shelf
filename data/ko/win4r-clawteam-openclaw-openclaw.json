@@ -1,0 +1,20 @@
+{
+ "description": "ClawTeam CLI로 여러 에이전트 팀을 만들어 병렬로 돌려요.",
+ "summary": "팀을 만들고 의존 관계가 있는 작업을 등록한 뒤 에이전트를 각자 tmux 창과 git worktree에서 실행해요. 메시지 전달과 칸반 보드, 웹 대시보드로 진행을 지켜보고, hedge-fund, code-review, research-paper 같은 템플릿으로 한 번에 시작할 수도 있어요.",
+ "when": [
+  "에이전트 팀 구성",
+  "의존성 있는 작업 분배",
+  "진행 상황 모니터링",
+  "템플릿 팀 실행"
+ ],
+ "examples": [
+  "code-review 템플릿으로 팀을 띄워줘",
+  "API 설계 후 백엔드와 프론트를 병렬로 맡겨줘",
+  "팀 칸반 보드 보여줘"
+ ],
+ "notes": [
+  "pip로 설치한 clawteam 명령이 필요해요",
+  "기본 에이전트 백엔드는 OpenClaw예요",
+  "tmux와 git이 필요해요"
+ ]
+}

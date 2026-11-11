@@ -1,0 +1,19 @@
+{
+ "description": "gsap.utils의 보조 함수 사용법을 알려줘요.",
+ "summary": "clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe 같은 계산 도우미를 설명해요. 값을 생략하면 나중에 쓸 수 있는 함수를 돌려주는 방식도 안내해요.",
+ "when": [
+  "값 범위 제한",
+  "값 범위 변환",
+  "랜덤값 생성",
+  "격자에 맞추기"
+ ],
+ "examples": [
+  "스크롤 값을 0에서 1 사이로 바꾸는 방법 알려줘",
+  "마우스 위치를 범위 안으로 제한해줘"
+ ],
+ "notes": [
+  "등록 없이 바로 쓸 수 있어요",
+  "random은 값을 생략하는 대신 마지막 인자로 true를 줘야 함수가 나와요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "맥 SwiftUI 앱에 Liquid Glass 디자인을 적용하고 점검해 줘요.",
+ "summary": "먼저 표준 구조와 컨트롤을 시스템 방식으로 바꾸고, 유리 효과를 가리는 커스텀 배경을 걷어내요. 그래도 부족한 곳에만 glassEffect를 직접 더해요. 마지막에 마우스와 키보드 사용성을 확인해요.",
+ "when": [
+  "Liquid Glass 도입",
+  "사이드바와 툴바 정리",
+  "커스텀 유리 화면 제작"
+ ],
+ "examples": [
+  "우리 맥 앱에 Liquid Glass 적용해 줘",
+  "사이드바 뒤에 깔린 배경이 유리 효과를 막는지 봐 줘"
+ ],
+ "notes": [
+  "macOS용 SwiftUI 앱이 대상이에요",
+  "SwiftPM 앱은 macos-build-run-debug와 함께 쓰라고 안내해요"
+ ]
+}

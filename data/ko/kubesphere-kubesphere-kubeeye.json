@@ -1,0 +1,20 @@
+{
+ "description": "KubeEye로 클러스터 점검 규칙과 계획을 만들고 결과를 확인해요.",
+ "summary": "KubeSphere 확장인 KubeEye를 InstallPlan으로 배포하고 InspectRule, InspectPlan 리소스를 작성하는 방법을 안내해요. OPA, PromQL, 파일 변경, 커널 설정 등 여러 규칙 유형을 다루고 점검 보고서를 조회하거나 내려받는 것도 도와줘요.",
+ "when": [
+  "KubeEye 설치",
+  "점검 규칙 작성",
+  "정기 점검 설정",
+  "점검 보고서 확인"
+ ],
+ "examples": [
+  "KubeEye를 클러스터에 설치해줘",
+  "파드 설정을 검사하는 InspectRule을 써줘",
+  "점검 결과 보고서를 가져와줘"
+ ],
+ "notes": [
+  "kubectl과 KubeEye 확장이 마켓플레이스에 게시된 KubeSphere 클러스터가 필요해요",
+  "원문이 영어예요",
+  "kubeeye-apiserver와 컨트롤러 등 구성 요소가 함께 배포돼요"
+ ]
+}

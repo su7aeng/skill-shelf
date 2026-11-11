@@ -1,0 +1,19 @@
+{
+ "description": "Gentleman-Programming/gentle-ai 저장소에 보내는 브랜치와 PR을 준비해요.",
+ "summary": "이 저장소로 PR을 보낼 때의 이슈 먼저 정책을 따라요. 승인된 이슈를 PR에 연결하고 type 라벨이 하나만 있도록 하는 등 CI가 확인하는 규칙을 맞춰요.",
+ "when": [
+  "gentle-ai 기여",
+  "PR과 이슈 연결",
+  "브랜치 이름 정하기",
+  "PR 라벨 확인"
+ ],
+ "examples": [
+  "gentle-ai에 보낼 브랜치와 PR을 준비해줘",
+  "이 PR이 저장소 규칙에 맞는지 확인해줘"
+ ],
+ "notes": [
+  "PR을 보낼 대상이 gentle-ai일 때만 쓰고 다른 저장소에는 해당 저장소 규칙을 따라요",
+  "status:approved와 size:exception 라벨은 관리자 권한이 있어야 바꿀 수 있어요",
+  "원문이 영어예요"
+ ]
+}

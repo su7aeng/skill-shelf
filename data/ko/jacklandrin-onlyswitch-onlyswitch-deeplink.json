@@ -1,0 +1,19 @@
+{
+ "description": "OnlySwitch의 스위치와 버튼을 딥링크로 실행해요.",
+ "summary": "요청을 references/switch-ids.md의 스위치 id 하나로 바꾼 뒤 open 명령으로 onlyswitch:// 링크를 열어요. 휴지통 비우기, 화면 켜둠 같은 동작이 실행되고 어떤 동작을 했는지 알려줘요.",
+ "when": [
+  "휴지통 비우기",
+  "화면 꺼짐 방지 켜기",
+  "다크 모드 전환",
+  "마이크 음소거"
+ ],
+ "examples": [
+  "OnlySwitch로 휴지통 비워줘",
+  "화면 안 꺼지게 켜 줘",
+  "Xcode 캐시 지워줘"
+ ],
+ "notes": [
+  "macOS에서 OnlySwitch가 설치돼 있어야 해요",
+  "한 번의 요청에 스위치 하나만 실행해요"
+ ]
+}

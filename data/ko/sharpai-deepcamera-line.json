@@ -1,0 +1,19 @@
+{
+ "description": "SharpAI Aegis의 Clawdbot 에이전트를 LINE 메신저에 연결해요.",
+ "summary": "LINE을 메시징 채널로 연결해 메시지 보내기, 파일 보내기, 답장을 지원해요. LINE은 일본, 대만, 태국, 인도네시아에서 많이 써요.",
+ "when": [
+  "LINE으로 알림 받기",
+  "LINE에서 에이전트와 대화",
+  "메신저 채널 연결"
+ ],
+ "examples": [
+  "Aegis를 LINE에 연결해줘",
+  "카메라 알림을 LINE으로 보내줘",
+  "LINE으로 파일 보내는 기능 설정해줘"
+ ],
+ "notes": [
+  "Channel Secret과 Channel Access Token이 필요해요",
+  "파이썬 가상환경을 만들고 requirements.txt를 설치해요",
+  "SharpAI Aegis와 함께 쓰는 스킬이에요"
+ ]
+}

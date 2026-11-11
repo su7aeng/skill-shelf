@@ -1,0 +1,16 @@
+{
+ "description": "실행 중인 Ralph Loop를 중단해요.",
+ "summary": ".cursor/ralph/scratchpad.md가 있는지 확인해서 돌고 있는 루프가 있는지 봐요. 있으면 현재 반복 횟수를 읽고 .cursor/ralph 폴더를 지운 뒤, 몇 번째 반복에서 멈췄는지 알려 줘요. 없으면 실행 중인 루프가 없다고 말해요.",
+ "when": [
+  "Ralph 루프 중단",
+  "반복 작업 취소",
+  "루프 상태 초기화"
+ ],
+ "examples": [
+  "ralph 루프 취소해줘",
+  "돌고 있는 ralph 멈춰줘"
+ ],
+ "notes": [
+  ".cursor/ralph 폴더를 삭제하는 방식이라 저장된 루프 상태는 사라져요"
+ ]
+}

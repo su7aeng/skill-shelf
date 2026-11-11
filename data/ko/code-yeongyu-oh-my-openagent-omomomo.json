@@ -1,0 +1,17 @@
+{
+ "description": "oh-my-opencode를 소개하는 숨은 명령이에요.",
+ "summary": "omomomo, about 같은 말에 반응해 Oh My OpenCode가 무엇인지, 어떤 기능이 있는지, 만든 사람이 누구인지 정해진 소개문을 그대로 보여줘요. 별다른 작업은 하지 않아요.",
+ "when": [
+  "프로젝트 소개 보기",
+  "숨은 명령 실행",
+  "기능 목록 확인"
+ ],
+ "examples": [
+  "omomomo",
+  "Oh My OpenCode가 뭔지 about으로 보여줘"
+ ],
+ "notes": [
+  "소개문은 원문 영어로 고정돼 있어요",
+  "실제 개발 작업과는 관련이 없는 재미용 명령이에요"
+ ]
+}

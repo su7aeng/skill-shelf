@@ -1,0 +1,18 @@
+{
+ "description": "OpenTelemetry 추적을 Confident AI로 보내도록 설정해요.",
+ "summary": "deepeval 패키지 없이 일반 OpenTelemetry로 AI 앱의 추적 정보를 Confident AI 관측 화면으로 보내요. 맞는 OTLP 엔드포인트(미국 또는 유럽)를 고르고 span마다 confident 속성을 달아 줘요. LLM 호출, 검색, 도구 호출처럼 AI 부분만 대상이에요.",
+ "when": [
+  "OTLP 추적 내보내기",
+  "엔드포인트 설정",
+  "span 속성 지정"
+ ],
+ "examples": [
+  "우리 에이전트의 OpenTelemetry 추적을 Confident AI로 보내줘",
+  "OTLP 익스포터 설정해줘"
+ ],
+ "notes": [
+  "Confident AI 계정과 CONFIDENT_API_KEY 가 필요해요",
+  "OTLP/HTTP만 지원하고 gRPC는 안 돼요",
+  "웹 서버 같은 일반 소프트웨어에는 쓰지 않아요"
+ ]
+}

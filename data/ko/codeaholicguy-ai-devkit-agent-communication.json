@@ -1,0 +1,18 @@
+{
+ "description": "실행 중인 다른 AI 에이전트와 메시지를 주고받아요.",
+ "summary": "ai-devkit agent list, detail, send 명령으로 켜져 있는 Codex, Claude Code 같은 에이전트를 찾고 최근 대화를 읽고 메시지를 보내요. 답을 기다리거나 명령 출력을 그대로 넘길 수도 있어요.",
+ "when": [
+  "다른 에이전트에게 요청 전달",
+  "에이전트 상태 확인",
+  "작업 결과 공유"
+ ],
+ "examples": [
+  "지금 켜진 에이전트 목록 보여줘",
+  "auth-review 에이전트에게 이 결과 전달해줘",
+  "그 에이전트가 뭐 하고 있는지 최근 내용 읽어줘"
+ ],
+ "notes": [
+  "ai-devkit이 없으면 npx ai-devkit@latest로 실행해요",
+  "이름은 list 결과에 나온 그대로 쓰는 편이 안전해요"
+ ]
+}

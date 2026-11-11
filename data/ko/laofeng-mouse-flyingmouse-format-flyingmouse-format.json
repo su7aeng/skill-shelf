@@ -1,0 +1,20 @@
+{
+ "description": "FlyingMouse Format으로 파일 형식을 오프라인에서 바꿔요.",
+ "summary": "내 컴퓨터에 설치된 FlyingMouse Format의 명령줄 도구로 이미지, 문서, 스프레드시트, 발표 자료, PDF, 자막, 압축 파일, 오디오, 영상을 변환해요. 변환 가능한 형식을 먼저 확인하고, 이미지 여러 장을 PDF로 합치거나 OCR로 글자를 뽑는 일도 해요.",
+ "when": [
+  "파일 형식 변환",
+  "이미지를 PDF로 합치기",
+  "OCR 글자 추출",
+  "PDF 합치기"
+ ],
+ "examples": [
+  "이 PNG들을 PDF 한 개로 합쳐줘",
+  "이 영상을 mp3로 바꿔줘",
+  "이 스캔 이미지에서 글자를 뽑아줘"
+ ],
+ "notes": [
+  "FlyingMouse Format 앱이 설치돼 있어야 하고, 앱의 Connect to Agent 설정이 필요해요",
+  "Node로 scripts/flyingmouse-format.js를 실행해요",
+  "변환은 오프라인에서 이뤄져요"
+ ]
+}

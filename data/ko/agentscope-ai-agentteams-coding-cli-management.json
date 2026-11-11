@@ -1,0 +1,18 @@
+{
+ "description": "Worker의 요청을 받아 AI 코딩 CLI를 대신 실행해요.",
+ "summary": "Worker가 coding-request 메시지를 보내면 위임하는 쪽이 Worker의 작업공간에서 코딩 CLI를 실행하고 결과를 돌려줘요. 작업 명세 작성, 실행 권한, 사전 점검에 관한 운영 지침도 함께 있어요.",
+ "when": [
+  "Worker의 코딩 요청 처리",
+  "작업공간에서 CLI 실행",
+  "실행 결과 전달"
+ ],
+ "examples": [
+  "Worker가 보낸 코딩 요청을 실행해줘",
+  "이 작업공간에서 Claude Code로 수정 돌려줘"
+ ],
+ "notes": [
+  "설정은 위임하는 쪽 자신의 ~/coding-cli-config.json 파일을 써요",
+  "감독과 승인 같은 기능은 아직 구현되지 않은 계획으로 적혀 있어요",
+  "지침은 영어로 쓰여 있어요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "NanoClaw 상태를 보는 모니터링 대시보드를 추가해요.",
+ "summary": "@nanoco/nanoclaw-dashboard 패키지를 설치하고 pusher를 붙여 60초마다 상태 스냅샷을, 2초마다 로그를 대시보드에 보내요. 에이전트 그룹, 세션, 채널, 토큰 사용량, 메시지 활동을 볼 수 있어요.",
+ "when": [
+  "NanoClaw 모니터링",
+  "토큰 사용량 확인",
+  "실시간 로그 보기",
+  "세션과 채널 현황"
+ ],
+ "examples": [
+  "NanoClaw에 모니터링 대시보드 붙여줘",
+  "에이전트 토큰 사용량을 한눈에 보고 싶어"
+ ],
+ "notes": [
+  "src/index.ts의 main()에 코드 한 블록을 추가해요",
+  "pusher와 연결 테스트도 함께 복사돼요",
+  "CLI로 읽기만 하는 add-clidash와는 방식이 달라요"
+ ]
+}

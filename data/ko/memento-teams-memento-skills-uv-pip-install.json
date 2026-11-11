@@ -1,0 +1,20 @@
+{
+ "description": "빠진 파이썬 패키지를 uv로 설치해 줘요.",
+ "summary": "ModuleNotFoundError가 나거나 패키지 설치를 부탁받으면 가져오기 이름을 실제 패키지 이름으로 바꿔 설치해요. 예를 들어 cv2는 opencv-python, PIL은 pillow로 연결해요. 이미 설치됐는지 먼저 확인하고, 설치 후에도 안 되면 가상환경을 점검해요.",
+ "when": [
+  "모듈을 찾을 수 없다는 오류",
+  "패키지 설치 요청",
+  "스크립트 의존성 누락",
+  "버전 충돌 해결"
+ ],
+ "examples": [
+  "ModuleNotFoundError: No module named cv2 가 나는데 해결해줘",
+  "python-docx 설치해줘",
+  "requests를 최신 버전으로 올려줘"
+ ],
+ "notes": [
+  "uv가 설치돼 있어야 해요",
+  "uv가 관리하는 가상환경에 설치해요",
+  "C 확장 빌드가 실패하면 시스템 라이브러리가 따로 필요할 수 있어요"
+ ]
+}

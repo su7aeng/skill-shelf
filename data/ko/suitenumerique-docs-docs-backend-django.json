@@ -1,0 +1,19 @@
+{
+ "description": "Docs 백엔드(Django)를 개발할 때 쓰는 명령과 구조를 안내해요.",
+ "summary": "Docker 기반 개발 환경에서 Makefile과 bin 래퍼로 서버 실행, 마이그레이션, 테스트, 린트를 하는 방법을 정리해요. 문서 내용은 DB가 아니라 협업 서버에 있고 권한은 모델의 get_abilities로 계산한다는 Docs 고유 구조도 알려 줘요.",
+ "when": [
+  "Django 백엔드 수정",
+  "테스트와 린트 실행",
+  "마이그레이션 작성",
+  "권한 로직 확인"
+ ],
+ "examples": [
+  "문서 권한 로직에 새 역할 조건을 추가해줘",
+  "백엔드 테스트 중 이 파일만 돌려줘"
+ ],
+ "notes": [
+  "원문이 영어이고 La Suite Docs 저장소 전용이에요",
+  "호스트에서 python manage.py를 직접 부르지 말고 bin/manage를 써요",
+  "Docker와 docker compose가 필요해요"
+ ]
+}

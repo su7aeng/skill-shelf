@@ -1,0 +1,19 @@
+{
+ "description": "알리바바 클라우드 에이전트 스킬을 검색하고 설치해요.",
+ "summary": "Aliyun CLI의 agentexplorer 플러그인으로 알리바바 클라우드 공식 스킬을 검색하고 둘러보고 설치해요. ECS, RDS, OSS 같은 서비스용 스킬을 찾을 때 써요.",
+ "when": [
+  "알리바바 클라우드 스킬 찾기",
+  "ECS 관리 스킬 검색",
+  "스킬 설치",
+  "스킬 분류 보기"
+ ],
+ "examples": [
+  "ECS 관리하는 알리바바 클라우드 스킬 있는지 찾아줘",
+  "알리바바 클라우드 스킬 분류를 보여줘"
+ ],
+ "notes": [
+  "Aliyun CLI 3.3.3 이상과 agentexplorer 플러그인이 필요해요",
+  "AccessKey는 대화에 입력하지 않고 터미널에서 aliyun configure 로 설정해요",
+  "원문은 중국어예요"
+ ]
+}

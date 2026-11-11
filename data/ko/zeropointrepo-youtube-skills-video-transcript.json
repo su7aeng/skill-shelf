@@ -1,0 +1,19 @@
+{
+ "description": "YouTube 같은 영상의 내용을 텍스트로 추출해요.",
+ "summary": "TranscriptAPI.com으로 영상 대본을 받아 요약, 인용, 번역, 글 변환에 써요. URL이나 영상 ID를 주면 돼요.",
+ "when": [
+  "영상 텍스트 변환",
+  "영상 요약",
+  "영상 번역",
+  "영상 인용"
+ ],
+ "examples": [
+  "이 영상을 텍스트로 옮겨 줘",
+  "영상 내용을 블로그 글로 정리해 줘",
+  "핵심만 요약해 줘"
+ ],
+ "notes": [
+  "TRANSCRIPT_API_KEY 환경변수의 API 키가 필요해요",
+  "요청에 Authorization과 User-Agent 헤더가 모두 필요해요"
+ ]
+}

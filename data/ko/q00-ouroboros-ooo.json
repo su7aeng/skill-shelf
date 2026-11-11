@@ -1,0 +1,16 @@
+{
+ "description": "ooo 한 단어로 Ouroboros 시작 안내를 열어줘요.",
+ "summary": "ooo만 보냈거나 Ouroboros를 처음 쓸 때 welcome 스킬의 안내를 그대로 따라 시작을 도와요. 응답 마지막에는 현재 상태와 다음 권장 행동을 한 줄로 적어요.",
+ "when": [
+  "Ouroboros 처음 사용",
+  "ooo만 입력했을 때",
+  "시작 안내 필요"
+ ],
+ "examples": [
+  "ooo",
+  "Ouroboros 처음 쓰는데 어떻게 시작해?"
+ ],
+ "notes": [
+  "상세 내용은 별도의 welcome 스킬에 있어요"
+ ]
+}

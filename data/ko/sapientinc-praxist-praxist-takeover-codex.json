@@ -1,0 +1,19 @@
+{
+ "description": "저장된 ChatGPT 로그인으로 Praxist를 Codex 방식으로 시작해 줘요.",
+ "summary": "praxist-takeover 전체 절차를 따르되 런타임을 Codex SDK로 정해 두고 진행해요. 온보딩, 작업 초기화나 수리, praxist resolve 검증, 분리 실행 시작, 모니터 명령 안내까지 해요. 사용자가 명령어나 모델 이름, API 키를 입력할 필요가 없어요.",
+ "when": [
+  "Codex로 Praxist 시작",
+  "ChatGPT 로그인으로 실행",
+  "작업 수리와 재시작",
+  "Codex 방식 첫 실행"
+ ],
+ "examples": [
+  "Codex 방식으로 내 프로젝트를 Praxist에 올려서 실행해줘",
+  "저장된 ChatGPT 로그인으로 Praxist를 시작해줘"
+ ],
+ "notes": [
+  "이 방식은 모델 연결에 API 키를 쓰지 않아요",
+  "기본 모델은 gpt-5.6-luna이고 사용자가 다른 모델을 고르면 그걸 써요",
+  "원문이 영어예요"
+ ]
+}

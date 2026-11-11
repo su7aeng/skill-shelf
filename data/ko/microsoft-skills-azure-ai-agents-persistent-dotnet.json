@@ -1,0 +1,20 @@
+{
+ "description": ".NET에서 Azure AI Agents Persistent SDK로 에이전트를 만들고 관리해요.",
+ "summary": "Azure.AI.Agents.Persistent 패키지로 에이전트 생성과 삭제, 대화 스레드, 메시지, 실행을 다루는 저수준 SDK 사용법을 안내해요. 스트리밍 응답, 함수 호출, 파일 검색, 코드 인터프리터 예제를 포함해요.",
+ "when": [
+  ".NET 에이전트 개발",
+  "대화 스레드 관리",
+  "함수 호출 에이전트",
+  "스트리밍 응답"
+ ],
+ "examples": [
+  "C#으로 PersistentAgentsClient 써서 에이전트 만들어줘",
+  "스레드에 메시지 보내고 스트리밍으로 받는 코드 짜줘",
+  "에이전트에 파일 검색 도구 붙여줘"
+ ],
+ "notes": [
+  "dotnet add package Azure.AI.Agents.Persistent --prerelease 로 설치해요",
+  "PROJECT_ENDPOINT와 MODEL_DEPLOYMENT_NAME 환경 변수가 필요해요",
+  "Azure.Identity 인증을 같이 써요"
+ ]
+}

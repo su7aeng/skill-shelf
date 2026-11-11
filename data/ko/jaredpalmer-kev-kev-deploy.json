@@ -1,0 +1,19 @@
+{
+ "description": "Kev 판단 모델을 Modal에 내 HTTPS 엔드포인트로 배포하고 코드에 연결해요.",
+ "summary": "scripts/kev_serve.py 하나로 modal deploy를 해서 GPU에 Kev 체크포인트를 올리고 TypeSafe와 호환되는 주소를 만들어요. 모델 크기와 GPU 고르기, API 키 추가, 상시 대기 설정, 배포 삭제까지 다루며 사용하지 않을 때는 자동으로 0으로 줄어요.",
+ "when": [
+  "Kev 모델 호스팅",
+  "API 주소 만들기",
+  "TypeSafe 호출 대체",
+  "배포 내리기"
+ ],
+ "examples": [
+  "Kev 모델을 Modal에 배포해줘",
+  "Jev 호출을 내 Kev 주소로 바꿔줘"
+ ],
+ "notes": [
+  "Modal 계정과 modal setup 로그인이 필요하고 로그인은 사용자가 직접 해야 해요",
+  "GPU를 쓰는 동안 시간당 비용이 들어요",
+  "원문은 영어예요"
+ ]
+}

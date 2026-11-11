@@ -1,0 +1,19 @@
+{
+ "description": "BigQuery 공개 데이터셋에 읽기 전용 SQL을 안전하게 실행해요.",
+ "summary": "SELECT와 WITH 쿼리만 받아 실행하고, 여러 문장이나 변경 쿼리는 막아요. 사전 실행(dry-run)과 최대 청구 바이트 제한으로 비용을 지키고, 결과를 report.md, result.json, CSV와 재현 기록으로 저장해요.",
+ "when": [
+  "공개 데이터셋 조회",
+  "데이터셋과 테이블 구조 탐색",
+  "쿼리 비용 미리 확인"
+ ],
+ "examples": [
+  "BigQuery 공개 데이터에서 셰익스피어 단어 빈도 상위 5개 뽑아줘",
+  "이 데이터셋에 어떤 테이블이 있는지 보여줘",
+  "이 쿼리 비용이 얼마나 들지 먼저 확인해줘"
+ ],
+ "notes": [
+  "Python과 google-cloud-bigquery, google-auth가 필요해요",
+  "인증은 Python ADC를 먼저 쓰고 안 되면 로그인된 bq CLI를 써요",
+  "공개 데이터만 대상이고 환자 정보는 클라우드에 올리지 않아요"
+ ]
+}

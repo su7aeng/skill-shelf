@@ -1,0 +1,18 @@
+{
+ "description": "xberg의 e2e 테스트용 픽스처를 추가하고 고쳐요.",
+ "summary": "fixtures 폴더에 파일당 JSON 하나로 만들어요. id, call, description, assertions 같은 필드와 목 응답, 입력 형식을 정리해 두었고 폴더나 category 값에 따라 생성되는 테스트 파일이 정해져요.",
+ "when": [
+  "e2e 픽스처 추가",
+  "입력과 목 응답 작성",
+  "검증 조건 수정",
+  "스키마 확인"
+ ],
+ "examples": [
+  "PDF 추출 e2e 픽스처 하나 추가해줘",
+  "이 픽스처에 검증 조건을 더 넣어줘"
+ ],
+ "notes": [
+  "xberg 저장소 전용 지침이에요",
+  "id는 snake_case이고 테스트 이름이 돼요"
+ ]
+}

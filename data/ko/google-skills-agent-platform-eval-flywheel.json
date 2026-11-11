@@ -1,0 +1,20 @@
+{
+ "description": "Google Cloud에서 AI 모델과 에이전트의 품질을 평가하고 개선해요.",
+ "summary": "평가 품질 순환(Eval Quality Flywheel) 방식으로 AI 모델과 에이전트의 품질을 재고 고쳐 가요. 가상 사용자 시나리오와 평가 데이터셋을 만들고, 평가 지표를 고르거나 쓰며, 실패 원인을 분석하고 수정 전후 결과를 비교해요.",
+ "when": [
+  "에이전트 평가",
+  "평가 데이터셋 만들기",
+  "평가 지표 선택",
+  "실패 원인 분석"
+ ],
+ "examples": [
+  "우리 에이전트를 평가할 데이터셋을 만들어줘",
+  "평가에서 실패한 사례의 원인을 분석해줘",
+  "수정 전후 평가 결과를 비교해줘"
+ ],
+ "notes": [
+  "gcloud 명령 전에 읽어야 하는 사용량 표기(attribution) 문서가 따로 있어요",
+  "Agent Platform GenAI Evaluation SDK(client.evals.evaluate())를 쓰는 방식이에요",
+  "미세 조정은 agent-platform-tuning, 배포는 agent-platform-deploy 스킬을 쓰라고 안내해요"
+ ]
+}

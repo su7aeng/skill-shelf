@@ -1,0 +1,19 @@
+{
+ "description": "Mac 앱의 Liquid Glass 아이콘 파일을 만들고 확인해요.",
+ "summary": "Icon Composer 파일인 Icon/AppIcon.icon을 icon.json과 SVG 레이어로 직접 써요. actool로 컴파일하고 ictool로 여러 모습을 한 장에 모은 시트를 렌더링해 확인해요. 유리 효과와 그림자, 어두운 모드는 macOS가 입혀 줘요.",
+ "when": [
+  "새 Mac 앱 아이콘을 만들 때",
+  "기존 평면 아이콘을 레이어로 바꿀 때",
+  "다크 모드 등 여러 모습을 확인할 때"
+ ],
+ "examples": [
+  "내 Mac 앱에 쓸 Liquid Glass 아이콘을 만들어줘",
+  "체크 모양이 들어간 할 일 앱 아이콘을 레이어 파일로 써줘",
+  "아이콘이 밝은 모드와 어두운 모드에서 어떻게 보이는지 확인해줘"
+ ],
+ "notes": [
+  "Xcode 안의 actool과 ictool이 필요해요",
+  "글자나 UI 스크린샷, SF Symbol은 아이콘에 쓰지 않고 한 가지 사물만 그려요",
+  "둥근 사각형, 여백, 그림자는 직접 그리지 않아요"
+ ]
+}

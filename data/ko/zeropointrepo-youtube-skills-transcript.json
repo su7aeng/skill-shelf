@@ -1,0 +1,19 @@
+{
+ "description": "YouTube 영상의 대본 텍스트를 TranscriptAPI로 가져와요.",
+ "summary": "TranscriptAPI.com으로 영상의 음성 내용을 텍스트로 받아요. 요약, 인용, 분석에 쓸 수 있고 URL이나 11자리 영상 ID를 모두 받아요.",
+ "when": [
+  "영상 요약",
+  "대본 인용",
+  "영상 내용 분석",
+  "영상 ID로 조회"
+ ],
+ "examples": [
+  "이 영상 내용을 요약해 줘",
+  "영상에서 이 주제를 언급한 부분을 인용해 줘",
+  "영상 ID로 대본을 가져와 줘"
+ ],
+ "notes": [
+  "TRANSCRIPT_API_KEY 환경변수의 API 키가 필요해요",
+  "요청에 Authorization과 User-Agent 헤더가 모두 필요해요"
+ ]
+}

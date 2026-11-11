@@ -1,0 +1,18 @@
+{
+ "description": "Apple Silicon Mac에서 음성을 로컬로 글자로 바꿔요.",
+ "summary": "parakeet-cpp-transcribe로 오디오 파일을 15초 단위 시간표가 붙은 글로 옮겨요. wav는 바로, 다른 형식은 ffmpeg로 변환해 처리해요. 처음 실행하면 실행 파일을 내려받고 모델도 자동으로 받아요.",
+ "when": [
+  "녹음 파일 받아쓰기",
+  "회의 음성 글로 옮기기",
+  "로컬 음성 인식"
+ ],
+ "examples": [
+  "이 녹음 파일을 글로 옮겨줘",
+  "meeting.m4a 내용을 받아쓰기해줘"
+ ],
+ "notes": [
+  "Apple Silicon Mac에서만 써요",
+  "curl과 tar가 필요하고 wav가 아니면 ffmpeg가 필요해요",
+  "첫 실행 때 GitHub에서 바이너리를 내려받아요"
+ ]
+}

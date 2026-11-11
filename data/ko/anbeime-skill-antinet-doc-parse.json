@@ -1,0 +1,18 @@
+{
+ "description": "PDF, Word, Excel 같은 문서를 Markdown으로 바꿔요.",
+ "summary": "MinerU, PyMuPDF, pdfplumber 순으로 시도하고 앞선 도구가 실패하면 다음으로 넘어가요. 정리된 Markdown과 메타데이터, 신뢰도를 함께 내고 모두 실패하면 사람 확인으로 표시해요.",
+ "when": [
+  "문서 구조화",
+  "지식베이스 준비",
+  "RAG용 데이터 정리"
+ ],
+ "examples": [
+  "이 PDF를 Markdown으로 변환해줘",
+  "계약서 문서를 구조화해서 정리해줘"
+ ],
+ "notes": [
+  "보안 검사를 통과한 파일에만 쓰는 흐름이에요",
+  "원문이 중국어예요",
+  "python-magic 등 파이썬 도구가 필요해요"
+ ]
+}

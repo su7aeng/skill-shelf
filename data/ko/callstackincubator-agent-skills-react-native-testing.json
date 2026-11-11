@@ -1,0 +1,20 @@
+{
+ "description": "React Native Testing Library로 컴포넌트 테스트를 써 줘요.",
+ "summary": "프로젝트의 @testing-library/react-native 버전이 13인지 14인지 먼저 확인하고 맞는 참고 문서를 따라 테스트를 작성해요. render, screen, 쿼리, userEvent, fireEvent, waitFor 같은 도구를 쓰고, 쿼리는 getByRole부터 우선순위대로 골라요. 버전마다 동기와 비동기 동작이 달라 그 차이를 반영해요.",
+ "when": [
+  "RN 컴포넌트 테스트 작성",
+  "기존 테스트 수정과 리뷰",
+  "RNTL v13에서 v14로 전환",
+  "비동기 테스트 패턴 정리"
+ ],
+ "examples": [
+  "이 로그인 화면 컴포넌트에 테스트를 써줘",
+  "깨지는 RNTL 테스트를 고쳐줘",
+  "waitFor와 findBy 중 뭘 써야 하는지 알려줘"
+ ],
+ "notes": [
+  "v13은 React 18과 동기 render, v14는 React 19 이상과 비동기 render예요",
+  "학습된 기억보다 스킬의 참고 문서를 우선해요",
+  "원문은 영어예요"
+ ]
+}

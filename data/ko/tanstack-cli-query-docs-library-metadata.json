@@ -1,0 +1,17 @@
+{
+ "description": "TanStack 문서와 라이브러리 정보를 명령어로 조회해요.",
+ "summary": "libraries, doc, search-docs 명령과 --list-add-ons, --addon-details 로 기계가 읽는 정보를 모아요. 코드를 만들거나 연동을 고르기 전에 확인하는 용도예요. 라이브러리 id를 먼저 찾고 문서를 가져오는 순서를 알려줘요.",
+ "when": [
+  "TanStack 문서 조회",
+  "라이브러리 id 확인",
+  "애드온 정보 사전 확인"
+ ],
+ "examples": [
+  "TanStack Router 라우팅 가이드 문서 가져와줘",
+  "server functions 관련 문서를 검색해줘"
+ ],
+ "notes": [
+  "doc 명령은 라이브러리와 경로를 위치 인자로 받고 버전은 --docs-version 으로 지정해요",
+  "npx @tanstack/cli 를 써요"
+ ]
+}

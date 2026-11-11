@@ -1,0 +1,20 @@
+{
+ "description": "웹 앱에 Application Insights 브라우저 SDK를 붙여 사용 현황을 수집해요.",
+ "summary": "@microsoft/applicationinsights-web으로 페이지 조회, 클릭, AJAX 호출, 예외, 사용자 정의 이벤트를 수집하는 방법을 안내해요. React, React Native, Angular 확장과 클릭 분석 플러그인, 브라우저에서 만든 GenAI 에이전트 추적을 백엔드 추적과 연결하는 방법도 다뤄요.",
+ "when": [
+  "웹 앱 사용자 모니터링",
+  "브라우저 오류 수집",
+  "React나 Angular 앱 계측",
+  "AI 에이전트 추적 연결"
+ ],
+ "examples": [
+  "우리 React 앱에 Application Insights 붙여줘",
+  "클릭 이벤트도 수집되게 설정해줘",
+  "브라우저 에러를 Azure에 보내도록 해줘"
+ ],
+ "notes": [
+  "Node.js 서버용은 azure-monitor-opentelemetry-ts 를 써요",
+  "npm으로 패키지를 설치해요",
+  "최신 API는 microsoft-docs MCP로 확인하라고 안내해요"
+ ]
+}

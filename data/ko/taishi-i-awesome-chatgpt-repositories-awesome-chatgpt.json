@@ -1,0 +1,17 @@
+{
+ "description": "ChatGPT와 LLM 오픈소스 저장소 목록에서 검색해요.",
+ "summary": "이 저장소의 awesome-ChatGPT-repositories 목록을 검색하는 Codex용 진입점이에요. 실제 검색 규칙은 plugins 아래 search 스킬을 읽어 그대로 따라요.",
+ "when": [
+  "LLM 도구 찾기",
+  "RAG 프레임워크 검색",
+  "챗봇과 에이전트 저장소 탐색"
+ ],
+ "examples": [
+  "ChatGPT 관련 RAG 오픈소스 찾아줘",
+  "브라우저 확장 프로그램 저장소 목록 보여줘"
+ ],
+ "notes": [
+  "저장소 안의 search 스킬과 데이터 파일이 있어야 해요",
+  "목록 항목을 고치거나 추가하는 데는 쓰지 않아요"
+ ]
+}

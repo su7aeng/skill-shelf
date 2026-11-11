@@ -1,0 +1,19 @@
+{
+ "description": "Oracle 26ai로 PDF나 웹 문서 RAG 챗봇을 만들어요.",
+ "summary": "Oracle 26ai Free, langchain-oracledb, OCI Grok 4, MiniLM 임베딩, Open WebUI로 작은 RAG 챗봇을 만들어요. PDF, 마크다운, 웹 페이지 세 가지 중 고르고, 인터뷰 뒤 코드를 만들고 verify까지 돌려요.",
+ "when": [
+  "첫 Oracle 프로젝트",
+  "PDF 질문 챗봇",
+  "노트 검색 챗봇",
+  "웹 문서 챗봇"
+ ],
+ "examples": [
+  "PDF를 올려서 질문하는 챗봇 만들어줘",
+  "내 마크다운 노트로 대화하는 앱을 Oracle로 만들어줘"
+ ],
+ "notes": [
+  "Docker와 OCI 생성형 AI 접근이 필요해요",
+  "참고 문서에 없는 요청은 지어내지 않고 멈춰요",
+  "DB는 기본 로컬 Docker예요"
+ ]
+}

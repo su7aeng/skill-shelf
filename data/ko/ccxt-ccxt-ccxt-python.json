@@ -1,0 +1,19 @@
+{
+ "description": "Python에서 CCXT로 암호화폐 거래소를 다루는 방법을 안내해요.",
+ "summary": "pip install ccxt로 설치한 뒤 거래소에 연결해 시세 조회, 주문, 실시간 스트리밍을 하는 방법을 알려줘요. 동기 방식과 asyncio 비동기 방식, REST와 WebSocket(ccxt.pro)을 모두 다루고 인증과 오류 처리도 설명해요.",
+ "when": [
+  "Python 트레이딩 봇",
+  "시세 데이터 분석",
+  "포트폴리오 관리",
+  "실시간 호가 수집"
+ ],
+ "examples": [
+  "파이썬으로 업비트와 바이낸스 시세를 가져오는 코드 짜줘",
+  "asyncio로 실시간 티커를 받아줘"
+ ],
+ "notes": [
+  "REST와 WebSocket이 같은 ccxt 패키지에 들어 있어요",
+  "비동기 사용 후에는 exchange.close()를 호출해야 해요",
+  "orjson, coincurve를 추가하면 속도가 빨라져요"
+ ]
+}

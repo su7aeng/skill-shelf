@@ -1,0 +1,18 @@
+{
+ "description": "Plannotator Inbox를 브라우저에서 열고 이후 사용법을 익혀요.",
+ "summary": "plannotator inbox --open으로 Inbox를 열고 주소를 알려요. 이후 사람만 정할 수 있는 결정이나 긴 작업의 요약을 Inbox에 남기고 기다리지 않고 작업을 이어가요.",
+ "when": [
+  "Inbox 열기",
+  "나중에 답할 질문 남기기",
+  "작업 결과 전달"
+ ],
+ "examples": [
+  "Plannotator Inbox 열어줘",
+  "결정할 게 있으면 Inbox에 질문 남겨줘"
+ ],
+ "notes": [
+  "plannotator 명령이 설치돼 있어야 해요",
+  "한 작업 흐름마다 스레드 하나를 써요",
+  "원문은 영어예요"
+ ]
+}

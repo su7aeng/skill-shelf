@@ -1,0 +1,19 @@
+{
+ "description": "Nano Banana로 메타 광고용 정지 이미지를 만들어요.",
+ "summary": "Arcads API로 Nano Banana 계열 모델을 불러 광고 이미지를 만들어요. 화면 캡처 테두리 제거와 가장자리, 글자 보호 문구가 항상 적용되고, 만든 이미지는 경로로 광고 등록 스킬에 넘겨요.",
+ "when": [
+  "사진처럼 보이는 광고",
+  "생활 장면 광고",
+  "참고 이미지 여러 장 활용"
+ ],
+ "examples": [
+  "Nano Banana로 광고 이미지 만들어줘",
+  "nano-banana-pro로 인물 고정해서 광고 소재 뽑아줘"
+ ],
+ "notes": [
+  "Arcads API 키가 필요해요",
+  "모델은 nano-banana-2가 기본이고 참고 이미지는 최대 14장이에요",
+  "gpt-image-2를 원하면 chatgpt-image-ad를 써요",
+  "메타 업로드는 하지 않아요"
+ ]
+}

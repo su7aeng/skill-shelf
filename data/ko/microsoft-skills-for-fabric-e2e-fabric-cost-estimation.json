@@ -1,0 +1,20 @@
+{
+ "description": "이전 전에 Fabric 용량 비용을 추정해요.",
+ "summary": "Spark, SQL, Power BI, 실시간 작업량을 파악해 알맞은 SKU 크기를 제안해요. 예약, 종량제, 자동 확장 요금을 비교해요. 금액을 말하기 전에 Azure Retail Prices API로 실시간 가격을 조회하고 지역을 함께 밝혀요.",
+ "when": [
+  "용량 크기 산정",
+  "요금제 비교",
+  "이전 전 비용 예측",
+  "예약 대 종량제 분석"
+ ],
+ "examples": [
+  "우리 작업량에 맞는 Fabric SKU를 추천해줘",
+  "예약과 종량제 중 어느 쪽이 싼지 비교해줘",
+  "이전 후 한 달 비용이 얼마나 나올지 추정해줘"
+ ],
+ "notes": [
+  "가격 조회를 위해 셸에서 Azure Retail Prices API를 호출해요",
+  "가격은 지역마다 달라 지역을 먼저 확인해요",
+  "Azure CLI(az)로 Fabric API를 호출하고, 모든 호출에 x-ms-fabric-skill 헤더를 붙여야 해요"
+ ]
+}

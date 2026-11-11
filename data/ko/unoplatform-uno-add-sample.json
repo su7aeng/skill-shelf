@@ -1,0 +1,17 @@
+{
+ "description": "Uno SamplesApp에 컨트롤 샘플 페이지를 추가해요.",
+ "summary": "컨트롤 이름과 시나리오를 받아 SamplesApp.Samples 아래 알맞은 폴더에 XAML과 코드비하인드 파일을 만들어요. 배경은 ThemeResource로 지정해 밝은 테마와 어두운 테마를 모두 지원해요.",
+ "when": [
+  "컨트롤 샘플 추가",
+  "SamplesApp 페이지 작성",
+  "UI 시나리오 시연"
+ ],
+ "examples": [
+  "Button 기본 사용 샘플 페이지 만들어줘",
+  "NavigationView 사용자 스타일 샘플을 추가해줘"
+ ],
+ "notes": [
+  "Uno Platform 저장소의 src/SamplesApp 구조를 전제로 해요",
+  "파일은 글롭으로 자동 인식돼서 프로젝트에 따로 등록할 필요가 없어요"
+ ]
+}

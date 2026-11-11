@@ -1,0 +1,19 @@
+{
+ "description": "React Table v9를 Devtools에 연결해요.",
+ "summary": "useTanStackTableDevtools 훅과 tableDevtoolsPlugin으로 React의 table 인스턴스를 Devtools에 등록해요. 표를 만든 직후 훅을 항상 호출하고 조건은 enabled 옵션으로 넘기게 해요. 앱 루트에는 TanStackDevtools를 한 번만 두어요.",
+ "when": [
+  "React 표 디버깅",
+  "Devtools 패널 안 보임",
+  "표 등록 순서 확인",
+  "운영 환경 진입점 선택"
+ ],
+ "examples": [
+  "React 표를 TanStack Devtools에 연결해줘",
+  "key를 안 줬더니 표가 안 보이는데 이유를 알려줘"
+ ],
+ "notes": [
+  "@tanstack/react-table-devtools 패키지가 필요해요",
+  "운영 빌드에서 쓰려면 /production 진입점을 명시적으로 써요",
+  "options.key가 없으면 등록이 건너뛰어져요"
+ ]
+}

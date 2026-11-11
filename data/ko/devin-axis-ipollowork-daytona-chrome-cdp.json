@@ -1,0 +1,18 @@
+{
+ "description": "Daytona 샌드박스에서 일반 Chrome을 띄워 CDP로 조작해요.",
+ "summary": "샌드박스 화면에 Electron 앱과 별개로 Chromium을 실행하고, CDP 주소를 얻어 웹 흐름을 자동으로 따라가요. 사용자 에이전트에 Electron이 없는지 확인한 뒤 evals 흐름으로 로그인 같은 과정을 검증해요.",
+ "when": [
+  "웹 로그인",
+  "OAuth 승인 화면 처리",
+  "브라우저 전용 설정",
+  "일반 브라우저 화면 확인"
+ ],
+ "examples": [
+  "Daytona 샌드박스에서 Chrome 띄워서 Den Web에 로그인해줘",
+  "Electron 말고 일반 브라우저로 이 화면 확인해줘"
+ ],
+ "notes": [
+  "daytona CLI와 실행 중인 샌드박스가 필요해요",
+  "원문이 영어이고 iPolloWork 저장소 전용 절차예요"
+ ]
+}

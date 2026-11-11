@@ -1,0 +1,19 @@
+{
+ "description": "아키텍처 검토 결과를 기록 문서로 남겨 줘요.",
+ "summary": "확정된 검토 범위와 근거를 바탕으로 Architecture Review Record 문서를 만들어요. Well-Architected 관점의 분석, 절충안, 권고, 검토자의 판단을 진행하면서 계속 채워 가요. 중요한 결정은 ADR과 연결하고 결정 권한은 ADR과 사용자에게 남겨요.",
+ "when": [
+  "아키텍처 검토 결과 기록",
+  "검토 근거와 가정 정리",
+  "권고안 수용 여부 기록",
+  "ADR 작성 전 근거 문서화"
+ ],
+ "examples": [
+  "이번 시스템 검토 결과를 Architecture Review Record로 정리해줘",
+  "검토에서 나온 권고를 받아들일지 보류할지 표시해서 남겨줘",
+  "검토 기록을 보고 ADR로 넘길 결정을 골라줘"
+ ],
+ "notes": [
+  "기록은 .copilot-tracking/reviews/architecture/ 아래 날짜 폴더에 저장돼요",
+  "System Architecture Reviewer가 정한 2~3개 검토 영역을 기준으로 해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "xberg의 REST API 서버와 MCP 도구를 고칠 때 보는 지침이에요.",
+ "summary": "crates/xberg/src/api와 mcp 폴더의 라우트, 미들웨어, 캐시 엔드포인트, 서버 시작 코드를 다뤄요. /extract, /extract-async, /jobs 같은 실제 경로 목록과 존재하지 않는 경로도 정리해 두었어요.",
+ "when": [
+  "REST 라우트 변경",
+  "미들웨어 수정",
+  "캐시 엔드포인트",
+  "MCP 도구 변경"
+ ],
+ "examples": [
+  "새 API 라우트를 추가해줘",
+  "CORS 설정이 어떻게 되어 있는지 알려줘"
+ ],
+ "notes": [
+  "xberg 저장소 전용 지침이에요",
+  "URL 추출은 별도 경로 없이 /extract의 필드로 처리돼요",
+  "CORS는 XBERG_CORS_ORIGINS로 제한해요"
+ ]
+}

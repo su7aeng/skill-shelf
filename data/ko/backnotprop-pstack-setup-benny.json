@@ -1,0 +1,19 @@
+{
+ "description": "Benny 자동화를 설치하고 Slack, 이슈 트래커 설정을 준비해요.",
+ "summary": "Benny 자동화 묶음을 대상 저장소의 .cursor/automations/benny/ 로 복사하고, pstack을 .cursor/settings.json 에 등록해요. 그다음 Slack, 트래커, 저장소, 모델, 예산 같은 설정을 물어 두 개의 Cursor 자동화(분류와 재현)를 준비해요. 사용자가 명확히 요청하기 전에는 자동화를 만들거나 바꾸지 않아요.",
+ "when": [
+  "Benny를 처음 설치할 때",
+  "Slack이나 트래커 연결을 바꿀 때",
+  "라우팅, 모델, 예산 설정을 고칠 때"
+ ],
+ "examples": [
+  "우리 저장소에 Benny 설치하고 설정해줘",
+  "Benny가 쓰는 Slack 채널을 바꾸고 싶어",
+  "Benny 모델이랑 예산 설정을 다시 잡아줘"
+ ],
+ "notes": [
+  "Cursor와 pstack 환경이 필요해요",
+  "비밀 값은 플러그인 파일이나 커밋되는 설정에 넣지 않아요",
+  "사용자가 직접 호출하는 스킬이라 자동으로는 실행되지 않아요"
+ ]
+}

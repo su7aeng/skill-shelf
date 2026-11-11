@@ -1,0 +1,19 @@
+{
+ "description": "새로 꽂은 M5Stack 기기를 인식하고 펌웨어와 앱까지 설치해 줘요.",
+ "summary": "USB로 연결된 기기를 찾아 UIFlow 2.0 펌웨어를 올리고 Claude Buddy 앱 묶음을 설치해요. onboard.py가 순서대로 진행하고, 이미 설정된 기기는 앱 설치나 smoke_test.py 점검만 따로 할 수 있어요.",
+ "when": [
+  "M5Stack 새 기기 설정",
+  "펌웨어 플래시",
+  "앱 다시 설치",
+  "기기 동작 점검"
+ ],
+ "examples": [
+  "방금 꽂은 Cardputer 세팅해줘",
+  "M5Stack 기기가 이상해, 점검해줘"
+ ],
+ "notes": [
+  "USB로 기기를 연결하고 build-with-claude 저장소 복제본의 onboard 폴더에서 스크립트를 실행해야 해요",
+  "기본은 cardputer-adv이고 다른 모델은 --variant로 지정해요",
+  "Cardputer인지 Adv인지 불분명하면 먼저 물어봐요. 잘못 올리면 부팅을 반복할 수 있어요"
+ ]
+}

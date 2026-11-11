@@ -1,0 +1,19 @@
+{
+ "description": "exec이 리눅스 컨테이너의 bash로 실행된다고 알려 줘요.",
+ "summary": "이 작업 공간의 exec은 명령을 실제 리눅스 컨테이너에서 bash로 실행해요. Debian에 Node.js 22와 git, curl이 있고 네트워크도 돼서 npm install이나 git clone을 쓸 수 있어요. 파일 동기화 방식과 주의점을 알려 줘요.",
+ "when": [
+  "빌드와 테스트 실행",
+  "npm이나 apt로 설치",
+  "git 작업",
+  "컨테이너 파일 동기화 확인"
+ ],
+ "examples": [
+  "npm install 하고 테스트 돌려줘",
+  "저장소를 clone해서 내용 살펴봐줘"
+ ],
+ "notes": [
+  "첫 호출은 컨테이너가 켜지느라 느려요",
+  "컨테이너가 멈추면 /workspace 밖의 설치물은 사라져요",
+  "큰 node_modules를 /workspace에 두면 매번 동기화가 느려지니 임시 파일은 /tmp에 두세요"
+ ]
+}

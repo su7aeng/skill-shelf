@@ -1,0 +1,19 @@
+{
+ "description": "Oracle만 상태 저장소로 쓰는 고급 에이전트를 만들어요.",
+ "summary": "Oracle AI DB를 유일한 저장소로 두고 langchain-oracledb, MCP 서버, DB 안 ONNX 임베딩, OCI GenAI Grok 4, Open WebUI로 에이전트를 만들어요. 분석가, 연구 에이전트, 스키마 설계 중 하나를 골라요.",
+ "when": [
+  "DB 단일 저장소 에이전트",
+  "NL2SQL 분석 도구",
+  "자가 개선 연구 에이전트",
+  "스키마 설계 도우미"
+ ],
+ "examples": [
+  "Oracle만 저장소로 쓰는 분석 에이전트 만들어줘",
+  "대화로 스키마를 설계하는 도구 만들어줘"
+ ],
+ "notes": [
+  "Redis나 벡터 DB 같은 다른 저장소는 쓰지 못하고 verify.py가 검사해요",
+  "Docker와 OCI 생성형 AI 접근이 필요해요",
+  "프로젝트 하나에 코드가 500~700줄 정도예요"
+ ]
+}

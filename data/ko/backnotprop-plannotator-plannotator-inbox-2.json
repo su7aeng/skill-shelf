@@ -1,0 +1,18 @@
+{
+ "description": "Plannotator Inbox를 열고 주소를 알려 준 뒤 이후 사용법을 익혀요.",
+ "summary": "plannotator inbox --open을 직접 실행해 Inbox를 열고 주소를 한 문장으로 알려요. 브라우저가 안 열리는 원격 환경이면 접속 방법을 전달하고, 실패하면 오류 내용을 그대로 알려요.",
+ "when": [
+  "Inbox 다시 열기",
+  "Inbox 주소 안내",
+  "질문과 요약 남기기"
+ ],
+ "examples": [
+  "Inbox 탭을 닫았는데 다시 열어줘",
+  "Inbox 주소가 뭐야"
+ ],
+ "notes": [
+  "오래된 버전은 --open 옵션이 없어 plannotator update가 필요해요",
+  "사용자에게 명령을 시키지 않고 직접 실행해요",
+  "원문은 영어예요"
+ ]
+}

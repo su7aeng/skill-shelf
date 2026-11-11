@@ -1,0 +1,20 @@
+{
+ "description": "여러 FHIR 리소스를 하나의 전송용 번들로 묶어 줘요.",
+ "summary": "OpenMed 결과로 만든 FHIR R4 리소스들을 openmed.clinical.exporters.fhir.to_bundle로 하나의 transaction Bundle에 담아요. 항목마다 고정된 urn:uuid 주소를 붙이고 리소스끼리의 참조를 번들 안 주소로 바꿔 줘서 같은 입력은 항상 같은 결과가 나와요.",
+ "when": [
+  "EHR 서버에 리소스 전송 준비",
+  "트랜잭션 번들 만들기",
+  "리소스 간 참조 연결",
+  "재현 가능한 번들 테스트"
+ ],
+ "examples": [
+  "이 FHIR 리소스들을 transaction Bundle로 묶어줘",
+  "Condition과 Patient 참조가 이어지게 번들 만들어줘",
+  "batch 타입 번들로 만들어서 POST할 수 있게 해줘"
+ ],
+ "notes": [
+  "먼저 exporting-to-fhir 스킬로 개별 리소스를 만들어 둬야 해요",
+  "번들을 만들 뿐 내용을 새로 만들거나 검증하지 않아요",
+  "US Core 검증은 validating-us-core 스킬로 넘겨요"
+ ]
+}

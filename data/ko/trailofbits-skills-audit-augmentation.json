@@ -1,0 +1,20 @@
+{
+ "description": "SARIF와 weAudit 감사 결과를 Trailmark 코드 그래프에 얹어줘요.",
+ "summary": "Semgrep, CodeQL 같은 도구의 SARIF 결과와 사람이 단 weAudit 표시를 파일과 줄 위치로 그래프 노드에 연결해요. 심각도별 부분 그래프를 만들고 영향 범위나 오염 분석 같은 사전 분석 결과와 교차해 볼 수 있게 해요.",
+ "when": [
+  "SARIF 결과 가져오기",
+  "weAudit 주석 가져오기",
+  "취약점과 호출 그래프 교차 분석",
+  "심각도별 함수 조회"
+ ],
+ "examples": [
+  "Semgrep SARIF 결과를 코드 그래프에 올려줘",
+  "높은 심각도 발견이 있는 함수만 보여줘",
+  "weAudit 주석과 SARIF를 같이 가져와줘"
+ ],
+ "notes": [
+  "trailmark이 필요하고 없으면 uv tool install trailmark로 먼저 설치해요",
+  "바이너리 그래프 가져오기는 Trailmark 0.4.0 이상에서만 돼요",
+  "분석 도구 실행 자체는 하지 않고 결과를 가져오기만 해요"
+ ]
+}

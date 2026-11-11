@@ -1,0 +1,20 @@
+{
+ "description": "FireRed-OpenStoryline 을 소스로 내려받아 설치하고 설정해요.",
+ "summary": "저장소와 config.toml 을 확인하고 git, Python 3.11 이상, ffmpeg, wget, unzip 이 있는지 점검해요. 기본은 로컬 .venv 에 설치하고 의존성 설치가 끝난 뒤 모델과 리소스를 내려받아요. 가져오기와 설정 확인이 끝나야 성공이라고 말하고 MCP와 웹 서버 시작까지 도와요.",
+ "when": [
+  "OpenStoryline 처음 설치",
+  "설치 오류 해결",
+  "config.toml 의 API 키 설정",
+  "서버가 안 켜질 때"
+ ],
+ "examples": [
+  "OpenStoryline 을 내 컴퓨터에 설치해 줘",
+  "설치가 중간에 실패하는데 원인을 찾아 줘",
+  "config.toml 에 모델 설정을 채우고 서버를 켜 줘"
+ ],
+ "notes": [
+  "macOS, Linux, WSL 처럼 POSIX 셸이 있는 환경이 필요해요",
+  "모델과 API 설정을 위한 키는 사용자가 준비해야 해요",
+  "Docker나 conda 는 요청할 때만 써요"
+ ]
+}

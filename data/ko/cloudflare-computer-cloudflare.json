@@ -1,0 +1,18 @@
+{
+ "description": "Cloudflare 관련 스킬 목록과 쓸 시점을 정리한 색인이에요.",
+ "summary": "이 저장소가 Cloudflare Workers와 Durable Objects 위에서 만들어져서, 상황별로 어떤 Cloudflare 스킬을 먼저 읽어야 하는지 알려 줘요. 주요 스킬 세 가지와 그 밖의 스킬을 표로 나누고 저장소 각 패키지와 연결해 줘요.",
+ "when": [
+  "Durable Object 코드 작성",
+  "Worker 설정과 모범 사례",
+  "wrangler 명령 사용",
+  "Agents SDK로 개발"
+ ],
+ "examples": [
+  "Durable Object 코드 고치기 전에 어떤 스킬을 봐야 해?",
+  "wrangler로 배포하려는데 참고할 문서 알려줘"
+ ],
+ "notes": [
+  "스킬 본문은 cloudflare/skills 저장소에 있고 이 파일은 안내만 해요",
+  "환경에 스킬이 없으면 주소에서 받아 읽거나 Cloudflare 공식 문서를 참고해요"
+ ]
+}

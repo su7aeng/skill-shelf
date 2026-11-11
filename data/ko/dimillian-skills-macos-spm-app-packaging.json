@@ -1,0 +1,20 @@
+{
+ "description": "Xcode 없이 SwiftPM으로 macOS 앱을 만들고 패키징해요.",
+ "summary": "SwiftPM 기반 macOS 앱의 시작 폴더를 만들고, 빌드, .app 번들 조립, 실행까지 스크립트로 진행해요. 필요하면 서명, 공증, appcast 만들기, 태그와 GitHub 릴리스 단계도 안내해요. 각 단계 뒤에 번들 구조와 실행 파일을 확인해요.",
+ "when": [
+  "Xcode 없는 macOS 앱 시작",
+  "앱 번들 패키징",
+  "서명과 공증",
+  "appcast와 릴리스"
+ ],
+ "examples": [
+  "Xcode 프로젝트 없이 SwiftPM으로 macOS 앱 틀을 만들어줘",
+  "빌드한 앱을 .app 번들로 패키징해줘",
+  "서명과 공증 스크립트를 준비해줘"
+ ],
+ "notes": [
+  "Swift 도구와 템플릿 스크립트가 필요해요",
+  "서명과 공증에는 Apple 개발자 인증서가 필요해요",
+  "원문이 영어예요"
+ ]
+}

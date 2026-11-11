@@ -1,0 +1,19 @@
+{
+ "description": "InsForge 제품 문서와 OpenAPI 명세를 유지하는 규칙을 알려줘요.",
+ "summary": "문서 종류에 따라 docs/core-concepts, .agents/docs, docs/sdks, openapi 중 알맞은 곳에 두게 해요. 구현이 바뀌면 마크다운과 OpenAPI를 같은 작업에서 함께 고치고, 쓴 명령과 경로를 다시 확인해요.",
+ "when": [
+  "공개 문서 수정",
+  "에이전트용 문서 작성",
+  "SDK 가이드 갱신",
+  "OpenAPI 명세 변경"
+ ],
+ "examples": [
+  "API 동작이 바뀌었으니 관련 문서와 OpenAPI를 같이 고쳐줘",
+  "에이전트용 안내 문서를 새로 써줘"
+ ],
+ "notes": [
+  "InsForge 저장소의 문서를 관리하는 엔지니어용이에요",
+  "공개 문서에서는 AI가 쓴 티가 나는 표현을 피하라고 해요",
+  "원문은 영어예요"
+ ]
+}

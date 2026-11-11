@@ -1,0 +1,19 @@
+{
+ "description": "WPS Office를 명령줄로 조작하고 JSON으로 PPT를 자동 생성해요.",
+ "summary": "데이터를 찾아 차트를 그리고 JSON을 쓰면 WPS COM이 슬라이드를 한 장씩 만들어 PPTX와 PDF를 함께 내요. WPS 문서, 표, 프레젠테이션을 직접 다루는 명령도 있어요. 제목 길이와 간격 같은 배치 규칙이 정해져 있어요.",
+ "when": [
+  "JSON 데이터로 PPT 생성",
+  "WPS 문서 자동화",
+  "차트가 든 발표 자료",
+  "PDF와 PPTX 동시 출력"
+ ],
+ "examples": [
+  "이 데이터로 12쪽짜리 발표 자료 만들어줘",
+  "WPS 문서에 문단과 표 추가해줘",
+  "만든 PPT를 PDF로도 내보내줘"
+ ],
+ "notes": [
+  "Windows, WPS Office 12.0 이상, Python 3.10 이상, pywin32가 필요해요",
+  "원문이 중국어예요"
+ ]
+}

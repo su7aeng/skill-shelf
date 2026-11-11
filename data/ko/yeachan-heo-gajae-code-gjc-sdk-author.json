@@ -1,0 +1,18 @@
+{
+ "description": "GJC 세션을 다루는 TypeScript와 Python 스크립트를 만들어요.",
+ "summary": "브로커에 연결된 gjc sdk session 명령을 하위 프로세스로 호출하는 스크립트를 써요. 제공된 템플릿에서 시작하고 허용된 조회와 제어만 쓰며, 변경 전에 사람의 일회용 승인을 받아요.",
+ "when": [
+  "GJC 세션 자동화",
+  "SDK 스크립트 작성",
+  "조회 스크립트"
+ ],
+ "examples": [
+  "GJC 세션 상태를 조회하는 TypeScript 스크립트 써줘",
+  "승인 절차가 있는 Python 제어 스크립트 만들어줘"
+ ],
+ "notes": [
+  "저장소와 세션 ID를 직접 지정해야 해요",
+  "상태 폴더나 인증 정보를 직접 읽지 않아요",
+  "템플릿은 templates/direct-sdk.ts, direct-sdk.py 예요"
+ ]
+}

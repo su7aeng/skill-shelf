@@ -1,0 +1,18 @@
+{
+ "description": "gh 명령어로 GitHub 이슈, PR, CI 실행 상태를 다뤄요.",
+ "summary": "GitHub CLI인 gh의 issue, pr, run, api 명령을 써서 GitHub 정보를 조회해요. PR의 CI 상태 확인, 실행 기록과 실패 로그 보기, API로 필요한 항목만 뽑는 일을 해요.",
+ "when": [
+  "PR의 CI 상태 확인",
+  "실패한 워크플로 로그 보기",
+  "이슈와 PR 조회",
+  "API로 세부 정보 가져오기"
+ ],
+ "examples": [
+  "55번 PR의 CI가 통과했는지 확인해줘",
+  "최근 워크플로 실행 목록과 실패한 단계를 보여줘"
+ ],
+ "notes": [
+  "gh CLI가 설치되어 있어야 해요",
+  "git 폴더 밖에서는 --repo owner/repo를 지정해야 해요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "Axum 테스트에 oneshot과 실제 서버 중 무엇을 쓸지 골라요.",
+ "summary": "상태 코드, 헤더, JSON 모양처럼 네트워크가 필요 없는 검사는 tower의 oneshot으로 가볍게 하라고 안내해요. 웹소켓이나 실제 클라이언트 동작처럼 진짜 서버가 필요한 테스트는 TcpListener를 그대로 두게 해요.",
+ "when": [
+  "Axum 테스트 단순화",
+  "서버 띄우는 테스트 정리",
+  "웹소켓 테스트 유지 여부 판단"
+ ],
+ "examples": [
+  "이 Axum 테스트를 서버 없이 돌게 바꿔줘",
+  "어떤 테스트는 실제 서버가 꼭 필요한지 알려줘"
+ ],
+ "notes": [
+  "Rust와 Axum 프로젝트용이고 Anarlog 저장소 기준 안내예요",
+  "변경 뒤에는 pnpm exec dprint fmt와 관련 Rust 테스트 확인을 해요"
+ ]
+}

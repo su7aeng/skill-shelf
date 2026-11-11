@@ -1,0 +1,17 @@
+{
+ "description": "실행 중인 Ralph 반복 작업의 상태를 지워서 중단해요.",
+ "summary": "Codex용으로 옮긴 cancel-ralph 명령이에요. ralph-loop를 compat 엔진으로 돌릴 때 쓰는 로컬 상태 파일만 관리해요. 활성 상태가 있으면 지우고 현재 반복 횟수를 알려주고, 없으면 실행 중인 루프가 없다고 알려줘요.",
+ "when": [
+  "Ralph 반복 작업을 멈추고 싶을 때",
+  "남은 루프 상태 정리",
+  "compat 엔진 루프 취소"
+ ],
+ "examples": [
+  "돌고 있는 Ralph 루프 취소해줘",
+  "Ralph 반복 상태 지워줘"
+ ],
+ "notes": [
+  "PowerShell 스크립트(scripts/cancel-ralph.ps1)를 실행해요",
+  "외부 open-ralph-wiggum 백엔드를 쓰는 ralph-loop에는 적용되지 않아요"
+ ]
+}

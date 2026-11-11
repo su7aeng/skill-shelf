@@ -1,0 +1,19 @@
+{
+ "description": "Aspire AppHost가 앱 설정을 환경 변수로 명확히 넘기도록 구성해요.",
+ "summary": "AppHost가 Aspire 리소스의 값을 환경 변수 같은 명시적 설정 키로 바꿔 앱에 넘기는 방식을 안내해요. 앱 코드는 IOptions<T>나 Configuration만 쓰고 Aspire 클라이언트나 서비스 디스커버리 패키지를 쓰지 않아요. 덕분에 운영 환경에서도 Aspire 없이 같은 설정을 쓸 수 있어요.",
+ "when": [
+  "Aspire 기반 저장소에서 AppHost와 앱 설정 연결",
+  "Aspire 없이도 옮길 수 있는 운영 설정",
+  "앱 코드에서 Aspire 패키지 빼기",
+  "개발·테스트용 기능 토글 설계"
+ ],
+ "examples": [
+  "AppHost에서 Postgres와 Blob 저장소 주소를 환경 변수로 앱에 넘기게 구성해줘",
+  "우리 API 프로젝트에서 Aspire 클라이언트 패키지 참조를 없애고 설정으로만 받게 바꿔줘",
+  "개발 환경에서만 Blob 저장소를 켜는 토글을 AppHost에 추가해줘"
+ ],
+ "notes": [
+  "Aspire를 쓰는 .NET 저장소가 전제예요",
+  "원문이 영어예요"
+ ]
+}

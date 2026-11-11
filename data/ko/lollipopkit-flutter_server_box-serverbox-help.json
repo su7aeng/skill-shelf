@@ -1,0 +1,19 @@
+{
+ "description": "ServerBox 앱을 쓰다 막히는 부분을 안내해요.",
+ "summary": "SSH나 ServerBox Monitor로 서버를 추가하는 법, 버튼이나 기능이 안 보이는 이유, Monitor 설치와 설정, 위젯과 알림, 워치 앱, 백업, 터미널, 앱 안 Agent 설정을 도와줘요. 앱 이름을 말하지 않은 질문에도 써요.",
+ "when": [
+  "서버 추가",
+  "기능이 안 보일 때",
+  "Monitor 설치",
+  "알림과 위젯 설정"
+ ],
+ "examples": [
+  "ServerBox에서 서버를 SSH로 추가하려면 어떻게 해?",
+  "터미널 버튼이 왜 안 보여?",
+  "CPU가 높으면 알림 받도록 설정해줘"
+ ],
+ "notes": [
+  "앱 사용법 안내용이에요. 소스 개발은 serverbox-onboarding 스킬이 맡아요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "값, ref, getter를 모두 받는 Vue 컴포저블을 만들어요.",
+ "summary": "입력을 MaybeRef나 MaybeRefOrGetter로 받게 설계해서 호출하는 쪽이 일반 값, ref, 함수 중 무엇이든 넘기게 해줘요. watch 안에서는 toRef, 단순히 값을 읽을 때는 toValue로 정리해요. 읽기 전용이면 MaybeRefOrGetter, 양방향이면 MaybeRef를 쓰는 규칙을 따라요.",
+ "when": [
+  "재사용할 컴포저블 작성",
+  "라이브러리용 훅 만들기",
+  "반응형 입력 받기"
+ ],
+ "examples": [
+  "문서 제목을 바꾸는 useDocumentTitle 컴포저블을 값이든 ref든 받게 만들어줘",
+  "이 컴포저블이 getter도 받도록 고쳐줘",
+  "카운터 컴포저블을 쓰기 가능한 ref로 받게 해줘"
+ ],
+ "notes": [
+  "콜백처럼 함수 자체가 값인 인자에는 MaybeRefOrGetter를 쓰지 않아요",
+  "Vue 3 환경이에요",
+  "원문은 영어예요"
+ ]
+}

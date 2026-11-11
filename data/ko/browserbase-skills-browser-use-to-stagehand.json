@@ -1,0 +1,19 @@
+{
+ "description": "browser-use 파이썬 스크립트를 Stagehand로 옮겨 줘요.",
+ "summary": "browser-use로 만든 스크립트를 Browserbase 위의 Stagehand v3(TypeScript) 코드로 바꿔요. 단순 복사가 아니라 act, extract, observe, agent 중 알맞은 방식을 골라 예측 가능한 부분은 결정적으로 쓰게 다시 설계해요.",
+ "when": [
+  "browser-use 스크립트 이전",
+  "에이전트형 자동화를 더 예측 가능하게 바꾸기",
+  "Browserbase로 자동화 옮기기"
+ ],
+ "examples": [
+  "이 browser-use 스크립트를 Stagehand로 바꿔줘",
+  "Agent 호출을 act와 extract로 쪼갤 수 있는지 봐줘",
+  "browser-use 기능이 Stagehand에서 뭐에 해당하는지 정리해줘"
+ ],
+ "notes": [
+  "코드 대응표는 Stagehand 3.6.x와 browser-use 0.13.x 기준이에요",
+  "설치된 Stagehand 주 버전이 3이 아니면 개념 참고용으로만 쓰세요",
+  "버전이 달라지면 공식 문서를 우선해요"
+ ]
+}

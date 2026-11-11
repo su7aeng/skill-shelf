@@ -1,0 +1,19 @@
+{
+ "description": "Wren 프로젝트로 공유 가능한 분석 웹앱을 만들어 배포해요.",
+ "summary": "wren genbi build가 주는 안내를 따라 에이전트가 앱을 apps 폴더에 직접 만들고, 등록과 검증을 거쳐 Vercel이나 Cloudflare에 배포해 URL을 만들어요. 상태 파일은 CLI가 관리해요.",
+ "when": [
+  "대시보드 만들기",
+  "분석 앱 공유",
+  "Vercel 배포",
+  "Cloudflare Pages 배포"
+ ],
+ "examples": [
+  "우리 Wren 프로젝트로 매출 대시보드 앱을 만들어서 배포해줘",
+  "genbi 앱을 Vercel에 올려줘"
+ ],
+ "notes": [
+  "wren genbi 명령이 있는 버전의 CLI가 필요해요",
+  "Vercel이나 Cloudflare 계정이 필요해요",
+  "wren_project.yml이 있는 Wren 프로젝트가 있어야 해요"
+ ]
+}

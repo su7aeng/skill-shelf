@@ -1,0 +1,20 @@
+{
+ "description": "모달과 확인창을 createModal로 만드는 방법을 알려줘요.",
+ "summary": "@lobehub/ui/base-ui의 createModal, confirmModal, ModalHost를 쓰는 방식을 안내해요. 상태 없이 함수로 모달을 띄우고, 본문은 별도 컴포넌트로 나눠 닫기는 useModalContext로 처리해요.",
+ "when": [
+  "새 모달 만들기",
+  "확인 대화상자 추가",
+  "기존 모달 정리",
+  "모달 호스트 설정"
+ ],
+ "examples": [
+  "설정 화면에 모달을 추가해줘",
+  "삭제 전에 확인창을 띄워줘",
+  "모달이 안 뜨는데 원인을 찾아줘"
+ ],
+ "notes": [
+  "앱 루트에 @lobehub/ui/base-ui의 ModalHost를 한 번 달아야 모달이 보여요",
+  "LobeHub 코드 기준 안내예요",
+  "원문이 영어예요"
+ ]
+}

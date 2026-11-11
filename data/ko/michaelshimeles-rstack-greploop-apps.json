@@ -1,0 +1,17 @@
+{
+ "description": "큰 PR에서 @greptile-apps 방식으로 greploop을 실행해요.",
+ "summary": "/greploop --trigger @greptile-apps 와 같은 역할의 연결용 스킬이에요. 실제 절차는 greploop 스킬을 읽고 그대로 따르며, 대상과 반복 횟수, 작업 범위는 사용자 요청을 유지해요.",
+ "when": [
+  "기본 트리거가 큰 PR을 거부할 때",
+  "변경 파일이 너무 많을 때",
+  "Greptile 리뷰를 대체 트리거로 돌릴 때"
+ ],
+ "examples": [
+  "이 큰 PR에 greploop-apps로 Greptile 리뷰를 돌려줘",
+  "트리거 오류가 나서 greploop-apps로 다시 돌려줘"
+ ],
+ "notes": [
+  "greploop 스킬이 함께 설치돼 있어야 해요",
+  "따로 구현은 없고 greploop 절차를 그대로 써요"
+ ]
+}

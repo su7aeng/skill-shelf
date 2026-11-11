@@ -1,0 +1,19 @@
+{
+ "description": "X의 트윗과 글을 markdown 파일로 저장해요.",
+ "summary": "트윗과 스레드는 YAML 머리말이 붙은 markdown으로, X Articles는 전체 본문으로 바꿔요. x.com이나 twitter.com 주소를 주면 돼요.",
+ "when": [
+  "트윗 저장",
+  "스레드 markdown 변환",
+  "X Articles 보관",
+  "x.com 링크 변환"
+ ],
+ "examples": [
+  "이 트윗 링크를 markdown으로 저장해줘",
+  "X 글을 파일로 변환해줘"
+ ],
+ "notes": [
+  "비공식 API라 변환 전에 동의 파일을 확인해요",
+  "bun이나 npx로 스크립트를 실행해요",
+  "동의 파일 위치는 macOS와 Linux가 달라요"
+ ]
+}

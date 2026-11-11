@@ -1,0 +1,18 @@
+{
+ "description": "AI 에이전트용 맞춤 지침 파일을 만들어요.",
+ "summary": "AgentRC의 instructions 명령으로 .github/copilot-instructions.md를 기본으로 만들어요. 모노레포라면 applyTo 패턴이 붙은 영역별 .instructions.md도 만들 수 있어요. AGENTS.md 출력과 --dry-run도 지원해요.",
+ "when": [
+  "지침 파일 새로 만들기",
+  "지침 갱신",
+  "모노레포 영역별 지침",
+  "준비도 평가 후 보완"
+ ],
+ "examples": [
+  "이 저장소용 Copilot 지침 파일을 만들어줘",
+  "모노레포 영역별 지침도 따로 생성해줘"
+ ],
+ "notes": [
+  "/acreadiness-assess 다음 단계로 쓰기 좋아요",
+  "AgentRC 도구가 필요해요"
+ ]
+}

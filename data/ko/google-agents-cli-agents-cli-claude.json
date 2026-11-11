@@ -1,0 +1,19 @@
+{
+ "description": "agents-cli로 만든 Claude Agent SDK 에이전트 프로젝트 작업을 안내해요.",
+ "summary": "이 프로젝트의 에이전트는 app/agent.py의 root_agent로 내보내는 ClaudeAgentOptions예요. ADK 안내가 어떻게 대응되는지 표로 알려주고, 도구 추가, 실행, 배포 때 지킬 구조를 설명해요.",
+ "when": [
+  "Claude SDK 에이전트 수정",
+  "도구 추가",
+  "로컬 실행",
+  "배포 대상 선택"
+ ],
+ "examples": [
+  "이 에이전트에 도구를 하나 추가해줘",
+  "이 프로젝트를 cloud_run에 배포하려면 어떻게 해?"
+ ],
+ "notes": [
+  "실험 단계 기능이고 모델은 Model Garden에서 켜야 해요",
+  "playground와 일부 eval 명령은 쓸 수 없어요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Python이나 TypeScript 프로젝트에 Honcho 메모리를 붙이는 방법을 안내해요.",
+ "summary": "기존 코드베이스에 Honcho SDK를 넣는 과정을 단계별로 도와요. peer와 세션을 설정하고 메시지를 보내며, 저장된 사용자 표현을 읽어 오는 코드까지 작성해요. 필요한 단계에서만 참고 문서를 열어 보는 방식이에요.",
+ "when": [
+  "앱에 장기 기억 추가",
+  "Honcho SDK 도입",
+  "peer와 세션 설정",
+  "사용자 표현 조회 연동"
+ ],
+ "examples": [
+  "우리 Python 챗봇에 Honcho 메모리를 붙여줘",
+  "TypeScript 프로젝트에 Honcho SDK 설정해줘",
+  "대화 맥락을 Honcho에서 읽어 프롬프트에 넣어줘"
+ ],
+ "notes": [
+  "Honcho 계정과 API 키가 필요해요",
+  "Python은 uv, TypeScript는 bun이나 npm을 써요",
+  "원문은 영어예요"
+ ]
+}

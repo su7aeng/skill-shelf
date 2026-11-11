@@ -1,0 +1,19 @@
+{
+ "description": "파이썬 코드로 3D CAD 부품과 조립체를 만들고 수정하고 내보내요.",
+ "summary": "build123d 파이썬 모델을 text-to-cad 서버가 빌드하면 열어 둔 CAD Viewer가 바로 갱신돼요. 형상을 측정하고 가공, 절단, 절곡, 성형, 3D 프린트가 가능한지 검사해요. 요청하면 STEP, STL, 3MF, GLB, DXF 파일로 내보내요.",
+ "when": [
+  "3D 부품 모델링",
+  "모델 스크립트 수정",
+  "STEP과 STL 내보내기",
+  "DXF 절단 도면과 전개도 만들기"
+ ],
+ "examples": [
+  "브래킷 부품을 모델링해서 STEP으로 내보내줘",
+  "이 부품이 3D 프린트 가능한지 확인해줘"
+ ],
+ "notes": [
+  "cad 명령(text-to-cad)이 필요해요",
+  "로봇과 월드 기술 파일은 robot-simulation 스킬 담당이에요",
+  "STEP, STL, 3MF, GLB, DXF, xbf 파일을 뷰어에서 열 수 있어요"
+ ]
+}

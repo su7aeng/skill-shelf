@@ -1,0 +1,18 @@
+{
+ "description": "새 모델 세대가 나왔을 때 oh-my-hermes에 등록하는 절차를 안내해요.",
+ "summary": "docs/MODEL-ONBOARDING.md와 MODEL_OPTI.md를 순서대로 읽고 따르게 해요. 라우터가 모델을 알아보는지 먼저 확인하고, 공식 문서를 조사해 보정 값을 쓰고, 경로와 가격을 반영한 뒤 검증과 벤치마크로 마무리해요.",
+ "when": [
+  "새 모델 등록",
+  "모델 라우팅 설정",
+  "모델 보정 작성"
+ ],
+ "examples": [
+  "GLM 새 버전이 나왔는데 oh-my-hermes에 등록해 줘",
+  "새 모델 온보딩 절차대로 진행해 줘"
+ ],
+ "notes": [
+  "oh-my-hermes 저장소 전용이에요",
+  "규칙은 이 스킬이 아니라 docs/MODEL-ONBOARDING.md에 있어요",
+  "가격은 문서에 있는 값만 써요"
+ ]
+}

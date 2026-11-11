@@ -1,0 +1,20 @@
+{
+ "description": "mirrord Operator의 Kafka 큐 분할 설정을 만들어요.",
+ "summary": "MirrordSplitConfig와 MirrordPropertyList 쿠버네티스 YAML, mirrord.json의 split_queues 섹션, Helm 값 안내를 함께 만들어요. 메시지 필터와 jq 필터도 포함해요. 새 구성에는 새 리소스를 쓰고 예전 리소스는 하위 호환용으로만 다뤄요.",
+ "when": [
+  "Kafka 큐 분할 설정",
+  "메시지 필터 작성",
+  "Kafka 클라이언트 연결 설정",
+  "Helm 값 구성"
+ ],
+ "examples": [
+  "Kafka 토픽을 mirrord로 분할하는 YAML 만들어줘",
+  "특정 헤더가 있는 메시지만 내 세션으로 오게 필터 써줘",
+  "SASL 인증이 필요한 Kafka 설정 알려줘"
+ ],
+ "notes": [
+  "mirrord Operator가 필요해요",
+  "비밀번호와 인증서는 YAML에 넣지 않고 Kubernetes Secret을 참조해요",
+  "클러스터를 바꾸는 kubectl apply나 helm install은 대신 실행하지 않고 사용자에게 안내해요"
+ ]
+}

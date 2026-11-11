@@ -1,0 +1,20 @@
+{
+ "description": "Natron 합성 프로그램의 C++ 소스를 다룰 때 쓰는 안내서예요.",
+ "summary": "OpenFX 호스트, Engine, Qt GUI로 쌓인 구조와 의존 방향을 설명해요. 렌더링 방식과 캐시, 노드와 knob 추가, Qt5와 Qt6 작업, 빌드와 문서 빌드, 이슈 정리를 빠르게 짚어 주고, 깊은 내용은 Maintainer Guide 문서를 읽게 해요.",
+ "when": [
+  "Natron 코드 탐색",
+  "노드나 knob 추가",
+  "Qt 6 전환 작업",
+  "이슈 분류"
+ ],
+ "examples": [
+  "Natron 렌더링이 어떤 순서로 도는지 설명해줘",
+  "Natron에 새 노드를 추가하려는데 어디부터 볼까",
+  "Natron 문서를 Sphinx로 빌드하는 방법 알려줘"
+ ],
+ "notes": [
+  "Engine은 Gui 헤더를 포함하면 안 된다는 규칙이 있어요",
+  "자세한 내용은 Documentation/source/maintainers의 문서를 봐요",
+  "원문이 영어예요"
+ ]
+}

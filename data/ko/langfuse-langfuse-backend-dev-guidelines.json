@@ -1,0 +1,18 @@
+{
+ "description": "Langfuse 백엔드 코드를 만들거나 검토할 때 따를 기준을 알려줘요.",
+ "summary": "web, worker, packages/shared 전반의 백엔드 작업에 쓰는 안내서예요. tRPC 라우터, 공개 API, 큐 처리기, 서비스, Prisma와 ClickHouse 접근, 테스트까지 작업별 체크리스트와 참고 파일로 안내해요. 새 필드나 옵션을 추가하기 전에 따로 확인할 문서도 가리켜요.",
+ "when": [
+  "tRPC 라우터 작성",
+  "공개 API 엔드포인트 추가",
+  "큐 처리기 수정",
+  "백엔드 테스트 작성"
+ ],
+ "examples": [
+  "Langfuse에 새 tRPC 프로시저를 추가하려는데 어떤 순서로 하면 돼?",
+  "이 공개 API 변경 사항을 백엔드 기준으로 검토해줘"
+ ],
+ "notes": [
+  "Langfuse 저장소 전용 규칙이에요",
+  "사용자 URL이나 외부 요청이 얽히면 security-review 스킬도 함께 봐요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "CLAUDE.md 파일을 모범 사례에 맞게 새로 만들거나 고쳐 줘요.",
+ "summary": "먼저 프로젝트 구조, 기술 스택, 기존 문서를 살펴봐요. 그다음 무엇을, 왜, 어떻게 쓰는지 기준으로 200줄 이내의 짧은 CLAUDE.md를 정리해요. 큰 프로젝트는 세부 내용을 agent_docs/ 폴더로 나눠요.",
+ "when": [
+  "CLAUDE.md 새로 만들기",
+  "기존 CLAUDE.md 개선",
+  "CLAUDE.md 품질 점검",
+  "폴더별 안내 파일 작성"
+ ],
+ "examples": [
+  "이 프로젝트에 CLAUDE.md 만들어줘",
+  "지금 CLAUDE.md를 더 간결하게 고쳐줘",
+  "src/api 폴더용 CLAUDE.md 써줘"
+ ],
+ "notes": [
+  "create, update, audit 또는 경로를 인자로 줄 수 있어요",
+  "원문이 중국어예요"
+ ]
+}

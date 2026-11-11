@@ -1,0 +1,18 @@
+{
+ "description": "저장소에 새 Tauri 플러그인 뼈대를 만들어 줘요.",
+ "summary": "plugins 폴더 아래에 새 Tauri 플러그인을 만드는 절차예요. Tauri CLI로 생성하고 plugins/analytics 스타일에 맞게 정리한 뒤, 바인딩을 만들고 Cargo.toml과 데스크톱 앱 설정에 연결해요.",
+ "when": [
+  "새 플러그인 추가",
+  "plugins 폴더 구조 맞추기",
+  "데스크톱 앱에 플러그인 연결"
+ ],
+ "examples": [
+  "plugins 아래에 sample 플러그인 하나 만들어줘",
+  "새 Tauri 플러그인 추가하고 앱에 연결해줘"
+ ],
+ "notes": [
+  "npx와 pnpm이 필요해요",
+  "Anarlog 저장소 전용 절차예요",
+  "특별한 요청이 없으면 ping 함수 하나만 남겨요"
+ ]
+}

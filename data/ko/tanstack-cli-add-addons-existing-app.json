@@ -1,0 +1,18 @@
+{
+ "description": "이미 있는 프로젝트에 tanstack add로 연동을 더해요.",
+ "summary": "기존 TanStack 프로젝트에 clerk, drizzle 같은 애드온을 추가하는 방법을 알려줘요. 애드온 이름 확인, 의존 관계, 옵션 선택을 미리 점검해요. .cta.json 이 있어야 한다는 점이 핵심이에요.",
+ "when": [
+  "기존 앱에 애드온 추가",
+  "애드온 이름 확인",
+  "의존 애드온 함께 설치"
+ ],
+ "examples": [
+  "이 TanStack 앱에 clerk랑 drizzle 추가해줘",
+  "추가할 수 있는 애드온 목록부터 보여줘"
+ ],
+ "notes": [
+  "TanStack CLI로 만든 프로젝트의 .cta.json 이 필요해요",
+  "애드온 id를 틀리면 중간에 멈춰요",
+  "npx @tanstack/cli 를 써요"
+ ]
+}

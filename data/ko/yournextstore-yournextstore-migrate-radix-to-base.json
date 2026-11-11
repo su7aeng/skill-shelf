@@ -1,0 +1,20 @@
+{
+ "description": "React 프로젝트를 Radix UI에서 Base UI로 옮겨줘요.",
+ "summary": "shadcn 래퍼와 직접 만든 radix 구성 요소, 그것을 쓰는 코드를 @base-ui/react로 옮겨요. 사전 점검 후 컴포넌트마다 커밋하며 빌드가 깨지지 않게 하고, 매핑이 없으면 타입 파일을 확인해 추측하지 않아요.",
+ "when": [
+  "Radix에서 Base UI로 이전",
+  "shadcn 컴포넌트 변환",
+  "의존성 교체",
+  "라이브러리 마이그레이션"
+ ],
+ "examples": [
+  "Radix UI를 Base UI로 마이그레이션해줘",
+  "shadcn 버튼과 다이얼로그를 Base UI로 바꿔줘",
+  "radix 의존성을 모두 걷어내줘"
+ ],
+ "notes": [
+  "원문이 영어예요",
+  "깨끗한 git 상태에서 브랜치를 만들어 작업해요",
+  "패키지 매니저는 프로젝트가 쓰는 것을 따라요"
+ ]
+}

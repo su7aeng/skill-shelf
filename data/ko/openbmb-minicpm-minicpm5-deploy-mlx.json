@@ -1,0 +1,20 @@
+{
+ "description": "Apple Silicon 맥에서 MLX로 MiniCPM5를 실행해요.",
+ "summary": "MiniCPM5-1B 또는 2B를 Apple의 MLX 프레임워크로 맥에서 직접 돌리는 방법을 안내해요. 미리 변환된 MLX 저장소를 쓰거나 직접 변환할 수 있고, mlx_lm.server로 OpenAI 호환 서버도 열 수 있어요.",
+ "when": [
+  "애플 실리콘 맥에서 실행",
+  "mlx_lm으로 모델 변환",
+  "로컬 서버 열기",
+  "가장 빠른 맥 추론"
+ ],
+ "examples": [
+  "맥에서 MiniCPM5를 MLX로 돌려줘",
+  "MiniCPM5 체크포인트를 4비트 MLX로 변환해줘",
+  "mlx_lm.server로 MiniCPM5 서버 띄워줘"
+ ],
+ "notes": [
+  "Apple Silicon 맥이 필요하고 mlx-lm 0.31 이상을 권해요",
+  "첫 실행은 커널을 컴파일해서 몇 초 느려요",
+  "원문이 영어예요"
+ ]
+}

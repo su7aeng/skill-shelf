@@ -1,0 +1,14 @@
+{
+ "description": "사라질 예정인 스킬로, apify-actor-development를 쓰라고 안내해요.",
+ "summary": "Actor 출력 스키마 생성 기능이 apify-actor-development 스킬로 옮겨졌어요. 그 스킬이 있으면 불러서 따르게 하고, 없으면 사용자에게 설치를 도운 뒤 멈춰요. 스키마를 기억에 의존해 쓰지 않아요.",
+ "when": [
+  "출력 스키마 만들기(옛 방식)"
+ ],
+ "examples": [
+  "내 Actor의 출력 스키마를 만들어줘"
+ ],
+ "notes": [
+  "더 이상 쓰지 않는 스킬이고 앞으로 없어질 예정이에요",
+  "apify-actor-development 스킬을 대신 설치해서 써요"
+ ]
+}

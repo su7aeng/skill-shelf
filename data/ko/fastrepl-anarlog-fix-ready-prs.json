@@ -1,0 +1,18 @@
+{
+ "description": "열린 PR의 CI 실패와 Bugbot 지적을 찾아 고쳐 줘요.",
+ "summary": "드래프트가 아닌 열린 PR을 모두 훑어 현재 커밋의 CI 실패와 해결되지 않은 Cursor Bugbot 스레드를 모아요. 새 PR을 만들지 않고 기존 PR 브랜치에서 고쳐요. 진행 중인 검사는 통과로 치지 않아요.",
+ "when": [
+  "CI 실패한 PR 정리",
+  "Bugbot 지적 처리",
+  "열린 PR 일괄 점검"
+ ],
+ "examples": [
+  "열린 PR 중에 CI 깨진 것들 고쳐줘",
+  "Bugbot이 남긴 미해결 지적 처리해줘"
+ ],
+ "notes": [
+  "gh CLI가 필요해요",
+  "gitbutler/workspace 브랜치에서는 fix-prs 스킬을 써요",
+  "드래프트 PR은 이름을 지정하지 않으면 건드리지 않아요"
+ ]
+}

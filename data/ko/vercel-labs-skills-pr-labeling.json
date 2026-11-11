@@ -1,0 +1,17 @@
+{
+ "description": "skills CLI의 풀 리퀘스트에 알맞은 라벨 하나를 붙여요.",
+ "summary": "PR 설명과 변경 패치를 읽고 documentation, bug, enhancement 중 주된 변경에 맞는 라벨을 한 번 붙여요. 이미 라벨이 있거나 패치가 잘렸거나 판단이 어려우면 아무것도 하지 않아요.",
+ "when": [
+  "PR 분류",
+  "이슈 관리 자동화",
+  "라벨 붙이기"
+ ],
+ "examples": [
+  "이 PR이 버그 수정인지 기능 추가인지 분류해줘",
+  "새 PR에 라벨을 붙여줘"
+ ],
+ "notes": [
+  "read_pull_request, add_label 도구가 필요해요",
+  "제목만 보고 추측해 라벨을 붙이지 않아요"
+ ]
+}

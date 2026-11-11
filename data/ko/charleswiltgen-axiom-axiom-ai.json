@@ -1,0 +1,19 @@
+{
+ "description": "Apple Intelligence와 온디바이스 AI 기능 개발을 안내해요.",
+ "summary": "Foundation Models, @Generable, LanguageModelSession, Tool 프로토콜, 평가 세트, SpeechTranscriber, CoreML 같은 작업을 어느 참고 문서로 풀지 먼저 가려 줘요. 기기 안의 글 생성인지, 직접 만든 ML 모델인지, 클라우드 API인지 구분해서 알맞은 곳으로 보내요.",
+ "when": [
+  "Apple Intelligence 기능 구현",
+  "@Generable 구조화 출력",
+  "온디바이스 AI 평가·테스트",
+  "음성 인식(SpeechTranscriber)"
+ ],
+ "examples": [
+  "iOS 26 Foundation Models로 요약 기능 넣어줘",
+  "LanguageModelSession 응답이 이상한 이유를 찾아줘",
+  "@Generable로 구조화된 결과를 받는 코드 작성해줘"
+ ],
+ "notes": [
+  "Axiom 스킬 묶음의 일부이고 Swift 프로젝트가 대상이에요",
+  "원문이 영어예요"
+ ]
+}

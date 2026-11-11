@@ -1,0 +1,20 @@
+{
+ "description": "AutoCAD로 2D 도면을 그리고 고치는 일을 자동화해요.",
+ "summary": "Windows에서 Python COM으로 AutoCAD를 조작해 선, 원, 문자, 블록, 레이어를 다루고 DWG, DXF, PDF로 내보내요. 기존 도면은 사본을 만든 뒤 수정하고, 시작 전에 preflight 스크립트로 환경을 점검해요. COM이 부족하면 AutoLISP나 SCR 스크립트로 넘어가요.",
+ "when": [
+  "DWG와 DXF 도면 작성",
+  "도면 일괄 수정",
+  "PDF 출력",
+  "도면 검사"
+ ],
+ "examples": [
+  "AutoCAD로 간단한 부품 도면을 그리고 DWG로 저장해 줘",
+  "이 DWG 파일들의 레이어와 문자를 일괄 점검해 줘",
+  "도면을 PDF로 내보내고 점검 보고서를 만들어 줘"
+ ],
+ "notes": [
+  "Windows와 설치된 AutoCAD가 필요해요",
+  "AutoCAD 2024에서 COM 직접 그리기는 구현되지 않은 것으로 다뤄요. DXF 읽기와 .NET 방식은 검증돼 있어요",
+  "원문이 중국어예요. 3D 모델이나 BIM에는 맞지 않아요"
+ ]
+}

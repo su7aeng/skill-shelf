@@ -1,0 +1,18 @@
+{
+ "description": "허가된 바이너리 분석을 Binary Ninja로 진행해요.",
+ "summary": "HLIL/MLIL/LLIL 보기, 문자열과 import/export, 상호 참조, 타입, 패치 검토를 다뤄요. GUI나 Python API로 직접 분석하거나 선택적으로 MCP 브리지, 로컬 HTTP 연동을 써요. 패치나 저장은 사본에서 하고, 진입점과 파일 해시를 먼저 기록해요.",
+ "when": [
+  "바이너리 데이터 흐름 분석",
+  "다른 도구 결과 교차 검증",
+  "패치 내용 검토",
+  "Python API 자동화"
+ ],
+ "examples": [
+  "Binary Ninja로 이 바이너리의 import와 문자열을 정리해줘",
+  "IDA 결과를 Binary Ninja HLIL로 한 번 더 확인해줘"
+ ],
+ "notes": [
+  "Binary Ninja는 상용 소프트웨어라 Vector 35 라이선스로 직접 설치해야 해요",
+  "대상 작업 전에 저장소의 케이스 범위 확인이 필요해요"
+ ]
+}

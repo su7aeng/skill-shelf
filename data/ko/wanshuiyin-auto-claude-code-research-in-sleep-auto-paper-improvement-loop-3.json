@@ -1,0 +1,19 @@
+{
+ "description": "Gemini 리뷰어로 논문을 2라운드 고치는 Codex용 변형이에요.",
+ "summary": "Codex 사용자가 Gemini를 리뷰어로 쓰게 하는 버전이에요. gemini-review MCP로 리뷰를 받아 수정하고 다시 컴파일하는 과정을 2번 돌리며 결과는 PAPER_IMPROVEMENT_LOG.md에 쌓아요.",
+ "when": [
+  "Gemini 리뷰로 논문 수정",
+  "Codex 환경의 논문 퇴고",
+  "교차 모델 리뷰",
+  "논문 표현 다듬기"
+ ],
+ "examples": [
+  "Gemini로 논문 리뷰받고 고쳐줘",
+  "논문 개선 루프를 Gemini 리뷰어로 돌려줘"
+ ],
+ "notes": [
+  "Codex용 스킬 묶음을 설치한 뒤에 덧씌워 설치해야 해요",
+  "gemini-review MCP가 필요하고 모델은 GEMINI_REVIEW_MODEL로 정해요",
+  "사람 확인 단계는 설정으로 켤 수 있어요"
+ ]
+}

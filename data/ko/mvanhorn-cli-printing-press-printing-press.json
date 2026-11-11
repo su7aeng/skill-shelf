@@ -1,0 +1,19 @@
+{
+ "description": "API 명세로 바로 쓸 수 있는 Go CLI를 만들어요.",
+ "summary": "OpenAPI, HAR, Postman 명세를 받아 조사, 생성, 빌드, 출고 점검 순서로 Go CLI를 만들어 라이브러리 폴더에 두는 스킬이에요. 실제 대상으로 하는 점검을 거쳐야 출고할 수 있고, 키나 토큰 값은 어디에도 남기지 않아요. 조사 기록 등 문서도 함께 보관해요.",
+ "when": [
+  "API용 CLI 만들기",
+  "새 연동 설정",
+  "OpenAPI 명세 감싸기",
+  "서비스 커넥터 추가"
+ ],
+ "examples": [
+  "이 OpenAPI 명세로 CLI 만들어줘",
+  "Stripe API를 감싸는 커넥터 세팅해줘"
+ ],
+ "notes": [
+  "printing-press 바이너리와 Go 빌드 환경이 필요해요",
+  "API 키 값은 코드와 기록에 넣지 않아요",
+  "후속 작업용 polish, publish, retro 스킬이 따로 있어요"
+ ]
+}

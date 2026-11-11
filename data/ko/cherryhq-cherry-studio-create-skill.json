@@ -1,0 +1,19 @@
+{
+ "description": "저장소 안에 새 스킬을 만들고 검증해 줘요.",
+ "summary": "스킬 이름, 설명, 공개 여부를 먼저 물어본 뒤 .agents/skills/ 아래에 SKILL.md가 든 폴더를 만들어요. 공개 스킬이면 동기화하고 검증 명령까지 실행해요.",
+ "when": [
+  "새 스킬 만들기",
+  "스킬 폴더 구조 잡기",
+  "공개 스킬 동기화",
+  "스킬 검증"
+ ],
+ "examples": [
+  "이 저장소에 PR 만드는 스킬을 새로 만들어줘",
+  "prepare-release라는 스킬을 공개용으로 추가해줘"
+ ],
+ "notes": [
+  "Cherry Studio 저장소의 .agents/skills/README.md 절차를 따르는 전용 스킬이에요",
+  "공개 스킬은 pnpm skills:sync와 pnpm skills:check를 써요",
+  "이름은 소문자, 숫자, 하이픈만 쓸 수 있어요"
+ ]
+}

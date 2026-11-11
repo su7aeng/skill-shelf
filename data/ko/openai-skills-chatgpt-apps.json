@@ -1,0 +1,19 @@
+{
+ "description": "ChatGPT 앱 SDK로 MCP 서버와 위젯 앱을 만들어요.",
+ "summary": "먼저 OpenAI 개발자 문서를 확인한 뒤, 앱 유형과 도구 계획을 정하고 MCP 서버와 위젯 UI의 뼈대를 만들어요. 위젯은 MCP Apps 브리지를 우선으로 연결해요. 로컬 개발과 커넥터 설정 단계, 검증 보고서도 함께 나와요.",
+ "when": [
+  "ChatGPT 앱 새로 만들기",
+  "MCP 서버 도구 설계",
+  "위젯 UI 연결",
+  "앱 메타데이터와 CSP 설정"
+ ],
+ "examples": [
+  "ChatGPT에서 쓸 할 일 목록 앱을 만들어줘",
+  "내 MCP 서버에 위젯 화면을 붙이는 방법을 알려줘"
+ ],
+ "notes": [
+  "코드를 쓰기 전에 openai-docs 스킬이나 문서 도구로 최신 문서를 확인해요",
+  "문서 검색이 안 되면 주소로 직접 가져와요",
+  "Node와 @modelcontextprotocol/ext-apps 기반 시작 틀을 써요"
+ ]
+}

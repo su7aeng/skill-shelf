@@ -1,0 +1,19 @@
+{
+ "description": "인프라 코드나 데이터 카탈로그를 구조도로 그려 줘요.",
+ "summary": "Terraform, Bicep, ARM, Kubernetes, Docker 파일 같은 인프라 코드를 읽어 구조도를 그려요. 선언된 DS_CATALOG_V1 데이터 카탈로그의 관계도 그릴 수 있어요. 출력은 사용자가 고른 ASCII나 Mermaid 형식이고, 추정한 관계는 확인된 관계와 구분해 표시해요.",
+ "when": [
+  "클라우드 인프라 구조도",
+  "설계 리뷰 자료",
+  "ADR에 넣을 그림",
+  "데이터 카탈로그 관계도"
+ ],
+ "examples": [
+  "이 Terraform 코드를 Mermaid 구조도로 그려줘",
+  "Bicep 파일로 Azure 구성도를 ASCII로 만들어줘",
+  "데이터 카탈로그 관계를 다이어그램으로 보여줘"
+ ],
+ "notes": [
+  "SQL이나 ORM 파일에서 데이터 모델을 추정하지 않아요",
+  "소프트웨어 시스템 구조는 c4-architecture 스킬을 써요"
+ ]
+}

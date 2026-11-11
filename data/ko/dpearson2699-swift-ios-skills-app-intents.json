@@ -1,0 +1,19 @@
+{
+ "description": "App Intents로 앱 기능을 Siri와 단축어 등에 노출해요.",
+ "summary": "앱의 동작과 데이터를 Siri, 단축어, Spotlight, 위젯, 제어 센터, Apple Intelligence에서 쓰도록 만드는 방법을 다뤄요. AppIntent, AppEntity, EntityQuery, AppShortcutsProvider 문구와 Spotlight 색인을 설명하고 점검 흐름도 줘요.",
+ "when": [
+  "Siri 음성 명령 연결",
+  "단축어 액션 만들기",
+  "Spotlight 검색 노출",
+  "제어 센터 버튼"
+ ],
+ "examples": [
+  "우리 앱의 메모 만들기를 Siri로 실행되게 해줘",
+  "AppEntity와 EntityQuery를 구현해줘",
+  "위젯 설정에 App Intent를 연결해줘"
+ ],
+ "notes": [
+  "iOS 26 기준으로 쓰여 있어요",
+  "원문은 영어예요"
+ ]
+}

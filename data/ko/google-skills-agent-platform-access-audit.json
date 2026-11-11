@@ -1,0 +1,18 @@
+{
+ "description": "Cloud Audit Logs로 AI 에이전트의 데이터 접근 범위를 감사해요.",
+ "summary": "BigQuery로 Cloud Audit Logs를 조회해 에이전트가 어떤 리소스와 서비스에 접근했는지 확인해요. 에이전트가 대신 행동한 주요 주체와, PERMISSION_DENIED가 VPC Service Controls 때문인지 IAM 때문인지도 구분해요.",
+ "when": [
+  "에이전트 접근 기록 조사",
+  "영향 범위 파악",
+  "권한 거부 원인 분류"
+ ],
+ "examples": [
+  "이 에이전트가 어떤 리소스에 접근했는지 조사해줘",
+  "PERMISSION_DENIED가 VPC 경계 때문인지 IAM 때문인지 구분해줘"
+ ],
+ "notes": [
+  "gcloud와 bq가 설치되고 로그인되어 있어야 해요",
+  "BigQuery 실행을 위해 결제가 켜진 프로젝트와 로그 및 BigQuery 관련 IAM 역할이 필요해요",
+  "조회만 하고 IAM이나 경계 수정은 하지 않아요"
+ ]
+}

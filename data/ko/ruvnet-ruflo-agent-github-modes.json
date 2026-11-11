@@ -1,0 +1,19 @@
+{
+ "description": "GitHub 작업을 모드별로 나눠 조율하는 에이전트예요.",
+ "summary": "gh-coordinator, pr-manager, issue-tracker 같은 GitHub 작업 모드를 소개하고, 여러 작업을 묶어 병렬로 처리하도록 안내해요. 워크플로 조율, PR 관리, 이슈 추적, 릴리스 관리 등을 다뤄요.",
+ "when": [
+  "GitHub 워크플로 조율",
+  "PR 관리",
+  "이슈 추적",
+  "릴리스 관리"
+ ],
+ "examples": [
+  "GitHub 이슈와 PR 작업을 여러 개 한꺼번에 처리해줘",
+  "여러 저장소에 걸친 워크플로를 조율해줘"
+ ],
+ "notes": [
+  "gh CLI 로그인과 git 저장소가 필요해요",
+  "claude-flow 도구를 쓰는 구성이에요",
+  "원문이 영어예요"
+ ]
+}

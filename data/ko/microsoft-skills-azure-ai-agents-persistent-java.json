@@ -1,0 +1,20 @@
+{
+ "description": "Java에서 Azure AI Agents Persistent SDK로 에이전트를 만들고 관리해요.",
+ "summary": "azure-ai-agents-persistent 라이브러리로 에이전트, 스레드, 메시지, 실행, 도구를 다루는 저수준 SDK 사용법을 안내해요. 클라이언트 구성과 인증, 스트리밍 사용 예를 포함해요.",
+ "when": [
+  "Java 에이전트 개발",
+  "대화 스레드 관리",
+  "에이전트 실행 스트리밍",
+  "Maven 프로젝트 연동"
+ ],
+ "examples": [
+  "Java로 PersistentAgentsClient 만들어줘",
+  "스레드를 만들고 에이전트를 실행하는 코드 보여줘",
+  "스트리밍으로 응답 받는 예제 짜줘"
+ ],
+ "notes": [
+  "Maven 의존성에 azure-ai-agents-persistent 를 추가해요",
+  "PROJECT_ENDPOINT와 MODEL_DEPLOYMENT_NAME 환경 변수가 필요해요",
+  "원문 버전은 1.0.0-beta.1 이에요"
+ ]
+}

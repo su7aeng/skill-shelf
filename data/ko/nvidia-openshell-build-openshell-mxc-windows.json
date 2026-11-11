@@ -1,0 +1,19 @@
+{
+ "description": "OpenShell의 Windows 빌드와 MXC 실행 구간을 점검하고 검증해요.",
+ "summary": "x64와 ARM64용 Windows MSVC 빌드와 테스트 구간을 관리해요. 대상은 openshell-gateway.exe, openshell.exe, openshell-supervisor.exe, openshell-windows-sandbox.exe예요. Windows 작업은 windows 브랜치에서 하도록 안내해요.",
+ "when": [
+  "Windows 컴파일",
+  "windows 작업 실행",
+  "MXC 구성 확인",
+  "Windows 빌드 보고서"
+ ],
+ "examples": [
+  "OpenShell Windows 빌드가 통과하는지 확인해줘",
+  "MXC 샌드박스 구성을 점검해줘"
+ ],
+ "notes": [
+  "windows 브랜치 기반 체크아웃에서 작업해야 해요",
+  "Docker, Kubernetes, Podman, VM, MSI, 서비스 지원은 하지 않아요",
+  "컴파일과 제어 영역 검증이며 격리 보증은 아니에요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "기존 iOS, Android 앱에 React Native를 단계적으로 붙이는 작업을 해요.",
+ "summary": "이미 정한 브라운필드 방식에 따라 Expo 또는 순수 React Native 중 한 경로를 골라 진행해요. @callstack/react-native-brownfield로 초기 설정을 하고, XCFramework나 AAR로 패키징한 뒤 화면 하나씩 네이티브 앱에 붙여요. 각 단계마다 명령이 잘 되는지 확인하고 넘어가요.",
+ "when": [
+  "기존 네이티브 앱에 RN 화면 추가",
+  "XCFramework, AAR 패키징",
+  "브라운필드 초기 설정",
+  "화면 단위 점진 도입"
+ ],
+ "examples": [
+  "우리 iOS 앱에 React Native 화면 하나를 붙여줘",
+  "RN 앱을 AAR로 패키징하는 순서를 알려줘",
+  "Expo 방식으로 브라운필드 설정을 해줘"
+ ],
+ "notes": [
+  "브라운필드로 가기로 이미 정한 뒤에 쓰는 스킬이에요",
+  "아직 방식을 고르는 중이면 assess-react-native-migration을 먼저 써요",
+  "명령 옵션은 npx brownfield <command> --help 결과를 기준으로 해요"
+ ]
+}

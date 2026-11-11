@@ -1,0 +1,19 @@
+{
+ "description": "Inkling 모델로 샘플링, 평가, 추가 학습을 할 때의 요구 사항을 알려 줘요.",
+ "summary": "Thinking Machines Lab의 Inkling 모델군(Inkling 2 Small, Inkling, Inkling-Small)을 Tinker에서 쓰는 방법이에요. 다른 모델과 달리 생각 노력(effort) 값을 매번 지정하고, tml-renderers 렌더러를 쓰고, 학습률은 직접 맞춰야 한다는 점을 설명해요.",
+ "when": [
+  "Inkling 모델 선택",
+  "SFT나 RL 설정",
+  "평가 실행",
+  "이미지와 오디오 입력"
+ ],
+ "examples": [
+  "Inkling으로 SFT 학습 데이터 만들어 줘",
+  "Inkling 파싱 오류가 나는데 렌더러 설정 봐 줘"
+ ],
+ "notes": [
+  "tml-renderers와 torch 2.10 이상이 필요해요",
+  "모델마다 토크나이저가 달라서 재사용하면 안 돼요",
+  "이미 후속 학습된 모델이라 추가 사전학습용은 아니에요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "BlueBubbles를 통해 아이메시지를 보내고 관리해요.",
+ "summary": "message 도구에 channel을 bluebubbles로 지정해 메시지 전송, 반응, 수정, 전송 취소, 답장, 첨부 전송, 효과 전송을 해요. 그룹 이름과 참가자 관리도 다뤄요.",
+ "when": [
+  "아이메시지 보내기",
+  "메시지에 반응 달기",
+  "보낸 메시지 수정이나 취소",
+  "그룹 대화 관리"
+ ],
+ "examples": [
+  "이 번호로 아이메시지 보내줘",
+  "방금 보낸 메시지 취소해줘"
+ ],
+ "notes": [
+  "gateway 설정 channels.bluebubbles가 필요해요",
+  "받는 사람이 불분명하면 연락처나 chat guid를 먼저 물어봐요",
+  "그룹 대화는 chat_guid 대상을 권장해요"
+ ]
+}

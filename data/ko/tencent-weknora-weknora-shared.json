@@ -1,0 +1,17 @@
+{
+ "description": "weknora CLI로 WeKnora 서버를 다루는 공통 기본 지식을 알려줘요.",
+ "summary": "WeKnora RAG 서버를 CLI로 다룰 때 필요한 인증, 지식베이스와 문서 관리, 출력 형식을 정리해요. 모든 명령이 JSON 결과와 종료 코드를 내므로 이를 보고 분기해요. 환경 변수로 바로 인증하거나 프로필을 만들어 쓸 수 있어요.",
+ "when": [
+  "WeKnora 인증 설정",
+  "지식베이스 관리",
+  "CLI 결과 해석"
+ ],
+ "examples": [
+  "WeKnora 서버에 로그인하는 방법 알려줘",
+  "weknora 명령 결과의 종료 코드가 무슨 뜻인지 설명해줘"
+ ],
+ "notes": [
+  "다른 weknora 스킬보다 먼저 읽어야 해요",
+  "WEKNORA_API_KEY와 WEKNORA_HOST가 필요해요"
+ ]
+}

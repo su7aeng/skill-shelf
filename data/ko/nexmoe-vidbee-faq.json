@@ -1,0 +1,17 @@
+{
+ "description": "현재 영상 내용으로 자주 묻는 질문과 답을 만들어요.",
+ "summary": "search_transcript나 read_transcript로 영상에서 실제로 나온 질문과 답을 찾아 질문 제목과 짧은 답으로 정리해요. 전사에 답이 없으면 없다고 말하고, 사실이나 시간 표시를 지어내지 않아요.",
+ "when": [
+  "영상 FAQ 만들기",
+  "내용 질의응답 정리",
+  "영상 근거 Q&A"
+ ],
+ "examples": [
+  "이 영상으로 FAQ 만들어줘",
+  "영상에서 나온 질문과 답만 정리해줘"
+ ],
+ "notes": [
+  "VidBee의 search_transcript, read_transcript 도구를 써요",
+  "원문은 영어예요"
+ ]
+}

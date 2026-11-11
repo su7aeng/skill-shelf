@@ -1,0 +1,19 @@
+{
+ "description": "Mission Control 대시보드의 API로 에이전트와 작업을 다뤄요.",
+ "summary": "AI 에이전트 관리 대시보드 Mission Control에 API 키로 접속해 에이전트 등록, 5분 간격 상태 신호, 작업 조회와 보고, 스킬 동기화를 하는 방법을 알려줘요. 모든 수명 주기 동작은 /api/adapters 호출로 해요.",
+ "when": [
+  "에이전트 등록",
+  "작업 상태 보고",
+  "스킬 동기화",
+  "에이전트 상태 조회"
+ ],
+ "examples": [
+  "Mission Control에 내 에이전트를 등록해줘",
+  "할당된 작업 목록을 가져와서 상태를 보고해줘"
+ ],
+ "notes": [
+  "x-api-key 헤더에 쓸 API 키와 실행 중인 Mission Control 서버가 필요해요",
+  "권한은 viewer, operator, admin 순으로 높아지고 API 키는 기본 admin이에요",
+  "원문은 영어예요"
+ ]
+}

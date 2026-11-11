@@ -1,0 +1,17 @@
+{
+ "description": "WireMock 공개 API의 호환성 깨짐 보고서를 만들어요.",
+ "summary": "japicmp 보고서를 돌리고, @PublishedAPI가 붙은 클래스만 골라 영역별로 묶어 마크다운으로 정리해요. 자바 버전 상승 때문에 생기는 변경은 맨 위에 한 번만 적어요. 결과 파일 경로와 영향받은 클래스 수를 알려줘요.",
+ "when": [
+  "호환성 깨짐 보고서 생성",
+  "릴리스 전 변경점 점검",
+  "공개 API 변경 요약"
+ ],
+ "examples": [
+  "breaking changes 보고서 새로 만들어줘",
+  "공개 API에서 깨지는 부분만 정리해줘"
+ ],
+ "notes": [
+  "WireMock 저장소에서 Gradle로 실행해요",
+  "결과는 wiremock-core/build/reports/japicmp 아래에 저장돼요"
+ ]
+}

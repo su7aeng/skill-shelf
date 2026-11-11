@@ -1,0 +1,19 @@
+{
+ "description": "Agentlas 빌드 기능을 같은 이름의 다른 스킬로 연결해 줘요.",
+ "summary": "hep-build 스킬의 별칭이에요. 직접 일하지 않고 옆 폴더의 hep-build/SKILL.md를 찾아 그 지시를 그대로 따라요. 명령 뒤에 적은 내용은 그 스킬의 요청으로 넘겨요.",
+ "when": [
+  "에이전트 만들기",
+  "에이전트 수리",
+  "에이전트 패키징",
+  "Kimi 환경에서 Agentlas 사용"
+ ],
+ "examples": [
+  "/skill:agentlas-build 고객 상담 에이전트 만들어줘",
+  "기존 에이전트 팀을 고쳐서 다시 패키지로 묶어줘"
+ ],
+ "notes": [
+  "같은 skills 폴더에 hep-build 스킬이 있어야 해요",
+  "hep-build 문서를 기준으로만 일하고 따로 요약해서 쓰지 않아요",
+  "원문은 영어예요"
+ ]
+}

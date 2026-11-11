@@ -1,0 +1,19 @@
+{
+ "description": "로컬 빌드한 GreptimeDB로 개발용 Docker 이미지를 만들어요.",
+ "summary": "cargo의 nightly 프로필로 빌드한 greptime 바이너리를 빌드 컨텍스트에 복사하고, Ubuntu 24.04 기반 Dockerfile로 이미지를 만들어요. 원하면 개발용 레지스트리에 올리고 비밀이 아닌 설정은 .env에 남겨 다음에 써요.",
+ "when": [
+  "로컬 클러스터 테스트",
+  "개발용 이미지 빌드",
+  "개발 레지스트리 푸시",
+  "교차 빌드"
+ ],
+ "examples": [
+  "로컬 빌드한 GreptimeDB로 테스트용 Docker 이미지를 만들어줘",
+  "이 이미지를 개발 레지스트리에 올려줘"
+ ],
+ "notes": [
+  "개발 전용이라 릴리스나 운영 이미지 배포에는 쓰면 안 돼요",
+  "오픈소스와 Enterprise를 임의로 가정하지 않아요",
+  "Docker와 Cargo 빌드 환경이 필요해요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "Context7 API로 라이브러리의 최신 문서를 찾아봐요.",
+ "summary": "curl로 Context7 API에서 라이브러리 ID를 검색하고 주제에 맞는 문서를 내려받아 보여 주는 스킬이에요. 학습 데이터가 오래됐을 수 있어서 코드 예시나 API 사용법을 확인할 때 써요. 응답은 JSON이나 읽기 쉬운 텍스트로 받아요.",
+ "when": [
+  "라이브러리 문서 조회",
+  "API 사용 예시 찾기",
+  "함수 사용법 검증"
+ ],
+ "examples": [
+  "React useState 최신 문서 찾아줘",
+  "Next.js 라우팅 사용법을 공식 문서로 확인해줘"
+ ],
+ "notes": [
+  "curl과 jq, 인터넷 연결이 필요해요",
+  "context7.com의 공개 API를 호출해요"
+ ]
+}

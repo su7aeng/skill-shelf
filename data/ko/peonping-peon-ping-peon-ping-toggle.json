@@ -1,0 +1,17 @@
+{
+ "description": "peon-ping 소리를 켜고 끄는 스킬이에요.",
+ "summary": "peon.sh toggle 명령으로 소리를 일시정지하거나 다시 켜요. 이 스위치는 전체 오디오를 끄는 것이라 데스크톱과 모바일 알림도 같이 멈춰요. 알림만 끄고 싶으면 peon-ping-config를 쓰라고 안내해요.",
+ "when": [
+  "소리 음소거",
+  "소리 다시 켜기",
+  "작업 중 잠깐 멈추기"
+ ],
+ "examples": [
+  "peon-ping 소리 꺼줘",
+  "다시 소리 나게 켜줘"
+ ],
+ "notes": [
+  "Unix는 Bash, Windows는 PowerShell로 실행해요",
+  "볼륨이나 팩 같은 다른 설정은 peon-ping-config 스킬이 맡아요"
+ ]
+}

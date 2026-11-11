@@ -1,0 +1,17 @@
+{
+ "description": "문서 수명 주기 점검기를 돌려 문서 상태를 확인해요.",
+ "summary": "pnpm run verify:docs 를 실행하고 developing/README.md에 적힌 분류와 삭제 규칙에 따라 결과를 해석해요. 반드시 막아야 할 때는 --strict 옵션을 붙여요. 규칙 자체는 README가 정하고 이 스킬은 얇게 연결만 해요.",
+ "when": [
+  "기능 마무리",
+  "developing 문서 정리",
+  "문서 상태 점검"
+ ],
+ "examples": [
+  "기능 끝났으니 문서 상태 점검해줘",
+  "developing 폴더 문서 정리할 게 있는지 봐줘"
+ ],
+ "notes": [
+  "pnpm이 필요하고 developing/README.md를 먼저 읽어요",
+  "원문은 영어예요"
+ ]
+}

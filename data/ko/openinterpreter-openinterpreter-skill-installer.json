@@ -1,0 +1,19 @@
+{
+ "description": "Codex 스킬을 목록에서 고르거나 GitHub에서 설치해요.",
+ "summary": "openai/skills의 curated 목록이나 다른 GitHub 저장소 경로에서 스킬을 받아 $CODEX_HOME/skills에 설치해요. 설치 가능한 스킬 목록도 보여주고, 설치 후에는 다음 대화부터 쓸 수 있다고 알려줘요.",
+ "when": [
+  "설치 가능한 스킬 보기",
+  "추천 스킬 설치",
+  "GitHub 저장소 스킬 설치",
+  "비공개 저장소 스킬 설치"
+ ],
+ "examples": [
+  "설치할 수 있는 스킬 목록 보여줘",
+  "curated 목록에서 이 스킬을 설치해줘",
+  "이 GitHub 경로의 스킬을 설치해줘"
+ ],
+ "notes": [
+  "도우미 스크립트가 네트워크를 써서 샌드박스에서는 권한 승인이 필요해요",
+  "experimental 목록은 --path로 지정해요"
+ ]
+}

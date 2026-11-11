@@ -1,0 +1,19 @@
+{
+ "description": "xberg의 텍스트 분할, 임베딩, RAG 설정과 코드를 다뤄요.",
+ "summary": "chunking과 embeddings 폴더를 대상으로 ChunkingConfig 필드, 분할 방식(Text, Markdown, Yaml, Semantic), 프리셋이 정하는 임베딩 모델을 설명해요. 설정 키 이름과 기본값 같은 함정도 정리돼 있어요.",
+ "when": [
+  "텍스트 분할 변경",
+  "임베딩 설정",
+  "RAG 구성",
+  "프리셋 확인"
+ ],
+ "examples": [
+  "청크 크기를 바꾸는 설정 알려줘",
+  "시맨틱 분할이 어떻게 동작하는지 설명해줘"
+ ],
+ "notes": [
+  "xberg 저장소 전용 지침이에요",
+  "프리셋은 embeddings 기능이 켜져야 동작해요",
+  "설정 키를 잘못 쓰면 조용히 무시돼요"
+ ]
+}

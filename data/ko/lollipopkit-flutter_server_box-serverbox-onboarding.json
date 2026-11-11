@@ -1,0 +1,20 @@
+{
+ "description": "ServerBox 소스를 받아 개발 환경을 갖추도록 안내해요.",
+ "summary": "Flutter, Rust, Node 개발 환경을 세우고 앱과 ServerBox Monitor를 실행, 테스트, 빌드하는 법을 알려줘요. SSH와 모니터 HTTP의 차이, 공용 Rust 파서, SQLite 저장, Riverpod 상태 관리 같은 구조도 설명해요.",
+ "when": [
+  "저장소 실행",
+  "빌드 실패 해결",
+  "기여 시작",
+  "코드 구조 이해"
+ ],
+ "examples": [
+  "flutter_server_box 저장소를 받았는데 어떻게 실행해?",
+  "clone 후 pub get이 실패해",
+  "서버 상태 데이터가 어디서 오는지 알려줘"
+ ],
+ "notes": [
+  "앱 사용법이나 서버에 Monitor 배포는 serverbox-help 스킬이 맡아요",
+  "Flutter, Rust, Node 설치가 필요해요",
+  "원문은 영어예요"
+ ]
+}

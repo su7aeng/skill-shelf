@@ -1,0 +1,20 @@
+{
+ "description": "Database Hub로 데이터베이스 전체의 상태와 보안을 분석해요.",
+ "summary": "Entra 인증된 Fabric API를 실제로 호출해 데이터베이스 수, SQL과 PostgreSQL의 CPU, 저장소, 메모리, Cosmos DB 가용성을 읽어 와요. 인증, 감사, 고객 관리 키 경고도 점검해요. 읽기 전용이고 일반 상식으로 답하지 않아요.",
+ "when": [
+  "데이터베이스 현황 파악",
+  "성능 상태 점검",
+  "보안 경고 확인",
+  "Fabric SQL 목록 조회"
+ ],
+ "examples": [
+  "우리 데이터베이스 전체 상태를 요약해줘",
+  "CPU가 높은 SQL 데이터베이스를 찾아줘",
+  "감사나 암호화 경고가 있는 데이터베이스를 알려줘"
+ ],
+ "notes": [
+  "Azure CLI(az)로 Fabric API를 호출하고, 모든 호출에 x-ms-fabric-skill 헤더를 붙여야 해요",
+  "Fabric SQL 튜닝은 sqldb-cli, 웨어하우스 SQL은 sqldw-cli로 넘겨요",
+  "원문이 영어예요"
+ ]
+}

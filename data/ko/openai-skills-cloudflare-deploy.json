@@ -1,0 +1,19 @@
+{
+ "description": "앱과 인프라를 Cloudflare에 배포하고 설정해요.",
+ "summary": "Workers, Pages, 저장소, AI, 네트워킹 같은 필요에 맞는 Cloudflare 제품을 결정 트리로 골라 줘요. 배포 전에 wrangler whoami로 로그인 상태를 확인해요. 고른 제품의 상세 참고 문서를 불러와 배포를 진행해요.",
+ "when": [
+  "Cloudflare에 배포",
+  "Workers나 Pages 설정",
+  "저장소 제품 고르기",
+  "배포 인증 확인"
+ ],
+ "examples": [
+  "이 프로젝트를 Cloudflare Pages에 배포해줘",
+  "데이터를 저장하려면 Cloudflare에서 뭘 써야 하는지 알려줘"
+ ],
+ "notes": [
+  "인증은 wrangler login이나 CLOUDFLARE_API_TOKEN으로 해요",
+  "샌드박스가 네트워크를 막으면 권한을 올려 다시 실행해요",
+  "배포에 몇 분 걸릴 수 있어요"
+ ]
+}

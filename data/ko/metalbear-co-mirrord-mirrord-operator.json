@@ -1,0 +1,20 @@
+{
+ "description": "팀용 mirrord Operator 설치와 설정을 도와요.",
+ "summary": "Helm으로 Operator를 설치하고 업그레이드하는 방법을 안내해요. 클라우드 API 키나 라이선스 인증, 큐 분할과 DB 브랜칭 같은 기능 켜기, 사설 레지스트리, RBAC, OpenShift와 GKE Autopilot 설정, 문제 해결을 다뤄요.",
+ "when": [
+  "Operator Helm 설치",
+  "라이선스와 API 키 설정",
+  "폐쇄망 라이선스",
+  "멀티 유저 mirrord 배포"
+ ],
+ "examples": [
+  "mirrord Operator를 Helm으로 설치하는 방법 알려줘",
+  "폐쇄망 클러스터에서 라이선스 설정하려면 어떻게 해?",
+  "Operator not found 오류가 나는데 확인해줘"
+ ],
+ "notes": [
+  "공유 클러스터를 바꾸는 작업이라 영향이 커요",
+  "API 키와 라이선스는 --set이나 values.yaml에 넣지 않고 Kubernetes Secret을 참조해요",
+  "Team 또는 Enterprise 기능이 필요해요"
+ ]
+}

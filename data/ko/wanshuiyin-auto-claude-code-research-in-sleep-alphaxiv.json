@@ -1,0 +1,19 @@
+{
+ "description": "논문 한 편을 AlphaXiv 요약으로 빠르게 파악해요.",
+ "summary": "arXiv 주소나 ID를 받아 AlphaXiv의 AI 요약을 먼저 읽고, 부족하면 전체 마크다운, 그다음 LaTeX 원본 순서로 내려가며 확인해요. depth 옵션으로 단계를 직접 정할 수 있고, 여러 논문을 훑는 문헌 조사는 대상이 아니에요.",
+ "when": [
+  "논문 한 편 빠르게 이해",
+  "arXiv 링크 요약",
+  "LaTeX 원본 확인"
+ ],
+ "examples": [
+  "이 논문 설명해줘 https://arxiv.org/abs/2401.12345",
+  "2401.12345 요약해줘",
+  "2401.12345 - depth: src 로 원본까지 확인해줘"
+ ],
+ "notes": [
+  "alphaxiv.org 에 접속할 수 있어야 해요",
+  "주제 탐색과 다수 논문 조사는 /research-lit 이나 /arxiv 가 맡아요",
+  "접속이 막히면 브라우저 User-Agent 값을 바꿔야 할 수 있어요"
+ ]
+}

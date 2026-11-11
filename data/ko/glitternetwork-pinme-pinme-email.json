@@ -1,0 +1,19 @@
+{
+ "description": "PinMe Worker에서 이메일을 보내는 코드를 짜요.",
+ "summary": "PinMe 플랫폼의 send_email API를 TypeScript Worker에서 호출하는 방법을 안내해요. 받는 사람, 제목, HTML 본문을 보내는 함수와 오류 처리 예시가 나와요.",
+ "when": [
+  "인증 코드 메일 보내기",
+  "알림 메일 발송",
+  "Worker에서 HTML 메일 보내기"
+ ],
+ "examples": [
+  "가입 인증 코드를 메일로 보내는 함수를 만들어줘",
+  "주문 완료 메일을 보내는 Worker 코드를 짜줘",
+  "메일 발송 실패 처리까지 넣어줘"
+ ],
+ "notes": [
+  "API_KEY는 Worker 생성 때 자동으로 들어가서 따로 설정하지 않아요",
+  "보내는 주소는 프로젝트명@pinme.cloud로 고정돼요",
+  "키가 없거나 잘못되면 401 오류가 나와요"
+ ]
+}

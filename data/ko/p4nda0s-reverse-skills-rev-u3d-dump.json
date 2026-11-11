@@ -1,0 +1,19 @@
+{
+ "description": "Unity IL2CPP 빌드에서 C# 메서드 이름과 주소를 뽑아요.",
+ "summary": "iOS나 Android 빌드의 네이티브 바이너리와 global-metadata.dat를 짝지어 원래 C# 이름과 주소를 되찾아요. 메타데이터 버전을 확인하고 맞는 도구(Il2CppDumper 등)를 골라 돌린 뒤, IDA나 Ghidra에 가져올 수 있는 스크립트를 만들어요.",
+ "when": [
+  "Unity 게임 역공학",
+  "IL2CPP 심볼 복원",
+  "IDA, Ghidra용 가져오기 스크립트 만들기"
+ ],
+ "examples": [
+  "이 IPA에서 IL2CPP 심볼을 뽑아줘",
+  "APK의 libil2cpp.so 메서드 이름을 복원해줘",
+  "IDA에 가져올 수 있는 스크립트 만들어줘"
+ ],
+ "notes": [
+  "Il2CppDumper 같은 외부 도구를 내려받아 써요",
+  "Unity 6 이상 빌드는 v39 포크가 필요해요",
+  "원문이 영어예요"
+ ]
+}

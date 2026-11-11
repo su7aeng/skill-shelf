@@ -1,0 +1,20 @@
+{
+ "description": "풀 리퀘스트에서 실패한 CI 작업의 원인을 분석해요.",
+ "summary": "실패한 GitHub Actions 작업의 로그를 Claude로 분석해요. PR 주소를 주면 실패한 작업을 모두 보고, 작업 주소를 직접 줄 수도 있어요. 근본 원인, 오류 메시지, 테스트 이름, 관련 로그 일부를 짧게 요약해 줘요.",
+ "when": [
+  "CI 실패 원인 파악",
+  "풀 리퀘스트 점검",
+  "GitHub Actions 로그 읽기",
+  "테스트 실패 요약"
+ ],
+ "examples": [
+  "이 PR에서 실패한 CI 작업을 분석해 줘",
+  "이 작업 주소의 실패 원인만 알려 줘",
+  "토큰 사용량과 비용까지 보이게 분석해 줘"
+ ],
+ "notes": [
+  "uv run skills analyze-ci 명령을 써요",
+  "GitHub 토큰이 필요해요. gh auth token으로 자동 확인하거나 GITHUB_TOKEN을 설정해요",
+  "--debug를 붙이면 토큰과 비용이 보여요"
+ ]
+}

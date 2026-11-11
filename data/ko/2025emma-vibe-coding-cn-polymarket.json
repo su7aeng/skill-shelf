@@ -1,0 +1,18 @@
+{
+ "description": "Polymarket 예측 시장 API와 실시간 데이터를 다뤄요.",
+ "summary": "예측 시장 Polymarket의 API, 거래, 시장 데이터와 실시간 웹소켓 스트리밍 사용을 돕는 스킬이에요. @polymarket/real-time-data-client로 체결, 주문, 댓글, 견적 요청 같은 활동을 구독하는 방법을 안내해요.",
+ "when": [
+  "예측 시장 데이터 조회",
+  "실시간 체결 모니터링",
+  "시장 댓글 추적",
+  "Polymarket 앱 제작"
+ ],
+ "examples": [
+  "Polymarket 실시간 체결을 구독하는 코드를 써줘",
+  "Polymarket 시장 데이터를 가져오는 방법을 알려줘"
+ ],
+ "notes": [
+  "실시간 클라이언트는 npm install @polymarket/real-time-data-client로 설치해요",
+  "원문이 영어예요"
+ ]
+}

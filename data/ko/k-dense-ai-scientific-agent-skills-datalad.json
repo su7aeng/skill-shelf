@@ -1,0 +1,20 @@
+{
+ "description": "DataLad로 대용량 데이터를 내려받고 실행 기록을 남겨요.",
+ "summary": "Git과 git-annex 위에서 큰 데이터셋을 가져오고 버전을 관리하고 공개하는 방법을 안내해요. datalad run으로 명령과 입력, 출력을 함께 기록하고 rerun으로 다시 실행해요. 일반 Git과 DataLad 중 무엇이 맞는지 고르는 기준도 줘요.",
+ "when": [
+  "OpenNeuro나 DANDI 데이터 받기",
+  "깨진 심볼릭 링크 파일 해결",
+  "분석 재실행 기록 남기기",
+  "데이터셋 공개 배포"
+ ],
+ "examples": [
+  "OpenNeuro 데이터셋을 받아서 필요한 파일만 가져와줘",
+  "이 그림이 어떻게 만들어졌는지 다시 실행할 수 있게 기록해줘",
+  "데이터셋을 GitHub와 저장소에 같이 올리는 방법을 알려줘"
+ ],
+ "notes": [
+  "Python 3.10 이상, DataLad, Git, git-annex가 필요해요",
+  "컨테이너 실행에는 Singularity, Apptainer, Docker 중 하나가 필요해요",
+  "원격 데이터는 네트워크와 계정이 필요할 수 있어요"
+ ]
+}

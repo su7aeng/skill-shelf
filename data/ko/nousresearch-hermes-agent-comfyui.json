@@ -1,0 +1,18 @@
+{
+ "description": "ComfyUI로 이미지, 영상, 오디오, 3D 콘텐츠를 만들어요.",
+ "summary": "공식 comfy-cli로 설치와 실행을 맡고, 워크플로 실행은 REST와 WebSocket API로 해요. 하드웨어를 확인해 로컬과 Comfy Cloud 중 맞는 쪽을 고르고, 필요한 모델 확인과 조절 항목 추출용 스크립트가 있어요.",
+ "when": [
+  "AI 이미지 생성",
+  "영상과 오디오 생성",
+  "워크플로 실행",
+  "로컬 대 클라우드 선택"
+ ],
+ "examples": [
+  "ComfyUI로 이 프롬프트의 이미지 만들어줘",
+  "공식 템플릿 워크플로로 영상 생성해줘"
+ ],
+ "notes": [
+  "comfy-cli와 ComfyUI 설치가 필요하고 GPU가 없으면 Comfy Cloud를 권해요",
+  "references와 scripts 폴더에 보조 자료가 있어요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "macOS에서 agent-desktop을 쓸 때 권한과 동작 차이를 안내해요.",
+ "summary": "손쉬운 사용과 화면 기록 권한을 확인하고 부여하는 순서, headed 모드의 동작, 메뉴와 시트 같은 표면, 메뉴 막대 앱과 알림 센터, Chromium과 Electron 앱 다루기를 설명해요. PERM_DENIED나 빈 접근성 트리 같은 증상은 troubleshooting 문서로 찾아가요.",
+ "when": [
+  "macOS 데스크톱 자동화",
+  "접근성 권한 설정",
+  "메뉴 막대 앱 조작",
+  "빈 접근성 트리 해결"
+ ],
+ "examples": [
+  "맥에서 agent-desktop 권한 설정을 도와줘",
+  "PERM_DENIED 오류가 나는데 해결해줘",
+  "메뉴 막대 앱을 조작하는 방법 알려줘"
+ ],
+ "notes": [
+  "macOS 13 이상이 필요해요",
+  "권한은 agent-desktop을 실행하는 터미널 앱에 부여해요",
+  "화면 기록 권한은 스크린샷 때만 필요해요"
+ ]
+}

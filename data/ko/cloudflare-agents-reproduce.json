@@ -1,0 +1,18 @@
+{
+ "description": "cloudflare/agents 이슈를 최소 프로젝트로 재현하고 결과를 댓글로 남겨요.",
+ "summary": "작은 Agents/Worker 프로젝트를 만들어 임시 Cloudflare 계정에 배포하고 버그가 실제로 일어나는지 확인해요. 결과는 이슈 댓글로 올려요.",
+ "when": [
+  "이슈 재현",
+  "버그 확인",
+  "재현 결과 보고"
+ ],
+ "examples": [
+  "이 이슈가 진짜 재현되는지 확인해줘",
+  "최소 예제로 버그를 재현하고 결과를 이슈에 남겨줘"
+ ],
+ "notes": [
+  "agent-think 실행 정보가 담긴 envelope가 필요해요",
+  "gh, git, npm, wrangler 명령을 컨테이너 환경에서 실행해요",
+  "임시 Cloudflare 계정에 배포하는 과정이 있어요"
+ ]
+}

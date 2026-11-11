@@ -1,0 +1,19 @@
+{
+ "description": "ChatGPT Image 2로 메타 광고용 정지 이미지를 만들어요.",
+ "summary": "Arcads API로 gpt-image-2 모델을 불러 메타 광고 이미지를 만들어요. 화면 캡처 테두리를 없애고 가장자리와 글자 깨짐을 막는 보호 문구가 항상 붙어요. 만든 이미지는 파일 경로로 광고 등록 스킬에 넘겨요.",
+ "when": [
+  "글자가 많은 광고 이미지",
+  "채팅이나 UI 화면 모방 광고",
+  "비교표 광고"
+ ],
+ "examples": [
+  "gpt-image-2로 채팅 대화 형식 광고 이미지 만들어줘",
+  "ChatGPT Image로 비교표 광고 소재 만들어줘"
+ ],
+ "notes": [
+  "Arcads API 키가 필요해요",
+  "모델은 gpt-image-2로 고정이고 참고 이미지는 최대 5장이에요",
+  "Nano Banana를 원하면 nano-banana-image-ad를 써요",
+  "메타에 올리는 일은 하지 않아요"
+ ]
+}

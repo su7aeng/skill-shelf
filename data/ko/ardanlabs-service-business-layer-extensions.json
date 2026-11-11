@@ -1,0 +1,20 @@
+{
+ "description": "비즈니스 계층에 추적, 로깅 같은 부가 기능을 감싸서 붙여요.",
+ "summary": "데코레이터 방식으로 핵심 로직을 수정하지 않고 ExtBusiness를 감싸는 확장을 만들어요. bus 패키지의 연결부, extensions 아래 확장 패키지, main.go에서의 등록 순서까지 세 부분을 함께 다뤄요. 모든 메서드를 구현해야 컴파일돼요.",
+ "when": [
+  "OTEL 추적 추가",
+  "로깅과 메트릭 추가",
+  "캐싱이나 인증 추가",
+  "extensions 폴더에 파일 만들기"
+ ],
+ "examples": [
+  "주문 도메인에 OTEL 추적 확장을 만들어줘",
+  "bus 패키지에 ExtBusiness와 Extension 구조를 추가해줘",
+  "로깅 확장을 main.go에 등록해줘"
+ ],
+ "notes": [
+  "ardanlabs service 저장소의 Go 구조를 전제로 해요",
+  "확장은 모든 ExtBusiness 메서드를 구현해야 해요",
+  "핵심 Business 코드는 고치지 않고 감싸기만 해요"
+ ]
+}

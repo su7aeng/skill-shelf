@@ -1,0 +1,19 @@
+{
+ "description": "내 컴퓨터의 캘린더 일정을 보고 만들고 고치고 지워요.",
+ "summary": "macOS에서는 Calendar.app을, Windows에서는 Outlook을 스크립트로 직접 제어해서 일정을 조회, 생성, 수정, 삭제하고 검색해요. 결과는 JSON으로 받아요.",
+ "when": [
+  "내일 일정 확인",
+  "회의 일정 만들기",
+  "일정 검색",
+  "일정 삭제"
+ ],
+ "examples": [
+  "내일 일정 보여줘",
+  "오후 3시에 회의 일정 만들어줘"
+ ],
+ "notes": [
+  "macOS는 calendar.sh, Windows는 calendar.ps1을 써요",
+  "Windows에서는 Outlook이 필요해요",
+  "원문은 영어예요"
+ ]
+}

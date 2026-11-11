@@ -1,0 +1,19 @@
+{
+ "description": "AI 에이전트를 Memory Proxy에 연결하는 설정을 단계별로 안내해요.",
+ "summary": "기존 proxy 설정이 있는지 먼저 찾아 재사용을 묻고, 없으면 필요한 정보를 차례로 받아요. 각 단계를 확인한 뒤에야 다음으로 가며, 에이전트마다 다른 설정 파일에 맞춰 써 줘요.",
+ "when": [
+  "에이전트 proxy 설정",
+  "기억 서비스 연결",
+  "설정 파일 점검",
+  "접속 확인"
+ ],
+ "examples": [
+  "Claude Code를 Memory Proxy에 연결해줘",
+  "Codex에 proxy 설정을 넣어줘"
+ ],
+ "notes": [
+  "원문이 중국어예요",
+  "Claude Code, CodeBuddy, Codex, WorkBuddy, dsh, Hermes, OpenClaw를 지원해요",
+  "저장소의 setup-proxy.sh 스크립트를 써요"
+ ]
+}

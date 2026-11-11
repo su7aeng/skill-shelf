@@ -1,0 +1,20 @@
+{
+ "description": "Java에서 Azure AI Content Safety로 유해 콘텐츠를 걸러내요.",
+ "summary": "azure-ai-contentsafety SDK로 텍스트와 이미지를 분석해 혐오, 폭력, 성적 내용, 자해를 탐지하는 방법을 안내해요. 차단 목록을 관리하는 BlocklistClient 사용법도 포함해요.",
+ "when": [
+  "댓글과 게시글 검열",
+  "이미지 유해성 검사",
+  "차단 단어 목록 관리",
+  "Java 앱 개발"
+ ],
+ "examples": [
+  "Java로 텍스트 유해성 분석 코드 짜줘",
+  "이미지를 검사해서 폭력 수위를 알려주는 예제 보여줘",
+  "차단 목록에 단어 추가하는 코드 짜줘"
+ ],
+ "notes": [
+  "Maven 의존성 azure-ai-contentsafety 를 추가해요",
+  "CONTENT_SAFETY_ENDPOINT와 키 환경 변수가 필요해요",
+  "키 대신 DefaultAzureCredential 인증도 쓸 수 있어요"
+ ]
+}

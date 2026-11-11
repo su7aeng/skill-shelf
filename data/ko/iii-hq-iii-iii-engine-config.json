@@ -1,0 +1,19 @@
+{
+ "description": "iii 엔진을 설정 파일로 구성하는 방법이에요.",
+ "summary": "Compose가 관리하는 엔진은 worker-compose.yaml 로, 직접 띄우는 엔진은 config.yaml 로 설정해요. 포트, rbac-proxy 워커를 통한 권한 제어, 옵저버 한도, 스트림, 샌드박스, 설정 저장소를 다루고 두 방식을 섞지 말라고 안내해요.",
+ "when": [
+  "엔진 포트 설정",
+  "접근 권한 제어",
+  "샌드박스 설정",
+  "Compose 실행"
+ ],
+ "examples": [
+  "iii 엔진 포트를 바꾸는 compose 파일 만들어줘",
+  "rbac-proxy 로 권한 제한하고 싶어"
+ ],
+ "notes": [
+  "engine 항목을 바꾸면 Compose를 다시 시작해야 해요",
+  "관리형 파일에 --engine 옵션을 같이 쓰면 안 돼요",
+  "직접 띄운 엔진에서 sandbox 설정이 없으면 sandbox 호출이 S303 오류가 나요"
+ ]
+}

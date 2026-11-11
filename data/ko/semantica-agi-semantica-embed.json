@@ -1,0 +1,18 @@
+{
+ "description": "Semantica에서 노드 임베딩을 만들고 비슷한 노드를 찾아요.",
+ "summary": "Node2Vec으로 노드 임베딩을 계산해 저장하고, 비슷한 노드 찾기, 두 노드 유사도, 연결 가능성 예측, 일괄 계산을 해요. compute, similar, similarity, predict-link, top-links, batch, pairwise 하위 명령이 있어요.",
+ "when": [
+  "노드 임베딩 계산",
+  "비슷한 노드 찾기",
+  "연결 예측",
+  "노드 간 유사도 비교"
+ ],
+ "examples": [
+  "그래프 노드의 임베딩을 만들어줘",
+  "이 노드와 가장 비슷한 노드 5개를 찾아줘"
+ ],
+ "notes": [
+  "Semantica 파이썬 라이브러리가 필요해요",
+  "원문은 영어예요"
+ ]
+}

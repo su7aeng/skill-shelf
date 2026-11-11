@@ -1,0 +1,18 @@
+{
+ "description": "LangBot을 배포하고 설정하는 방법을 안내해요.",
+ "summary": "Docker, Docker Compose, Kubernetes 배포와 config.yaml, Box 샌드박스 런타임, 플러그인 런타임 설정을 다뤄요. 먼저 langbot.app/llms.txt를 읽고, 사용자의 배포 선호를 존중해 클라우드를 기본으로 권하지 않아요.",
+ "when": [
+  "LangBot 서버 배포",
+  "Docker Compose 구성",
+  "쿠버네티스 설치",
+  "설정 파일 수정"
+ ],
+ "examples": [
+  "LangBot을 Docker Compose로 띄워줘",
+  "LangBot 설정 파일 항목 설명해줘"
+ ],
+ "notes": [
+  "개발 작업은 langbot-dev 스킬에서 다뤄요",
+  "기존 인스턴스가 있으면 재사용해요"
+ ]
+}

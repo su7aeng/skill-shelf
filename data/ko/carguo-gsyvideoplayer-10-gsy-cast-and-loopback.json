@@ -1,0 +1,19 @@
+{
+ "description": "GSYVideoPlayer에 DLNA 투사 기능을 붙이고 로컬 테스트를 해요.",
+ "summary": "CastCapability와 CastProvider 구조로 투사 기능을 연결하는 방법을 안내해요. 기기 검색, 연결, 재생과 정지 제어까지 다뤄요. 로컬 loopback으로 투사받는 쪽을 흉내 내 테스트하는 방법도 포함해요.",
+ "when": [
+  "DLNA 투사 연결",
+  "투사 버튼 화면 만들기",
+  "투사 통합 테스트",
+  "여러 프로토콜 기기 검색"
+ ],
+ "examples": [
+  "재생 화면에 DLNA 투사 기능을 붙여줘",
+  "투사받는 기기를 로컬에서 흉내 내서 테스트하고 싶어"
+ ],
+ "notes": [
+  "Android 앱용 GSYVideoPlayer 프로젝트가 대상이에요",
+  "DLNA는 기본적으로 jUPnP를 써요",
+  "원문은 중국어예요"
+ ]
+}

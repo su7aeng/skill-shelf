@@ -1,0 +1,17 @@
+{
+ "description": "코딩 작업을 Claude Code CLI에 맡겨서 처리해요.",
+ "summary": "터미널로 Claude Code를 실행해 기능 개발이나 PR 작업을 맡겨요. 한 번에 끝내는 print 모드(-p)와 대화형 모드 두 가지가 있고, 대부분은 print 모드를 권해요.",
+ "when": [
+  "코딩 작업 위임",
+  "기능 구현 맡기기",
+  "PR 작업 자동화"
+ ],
+ "examples": [
+  "Claude Code에게 이 기능 구현을 맡겨줘",
+  "로그인 오류를 Claude Code로 고치게 해줘"
+ ],
+ "notes": [
+  "npm install -g @anthropic-ai/claude-code로 설치하고 로그인이 돼 있어야 해요",
+  "v2 이상이 필요해요"
+ ]
+}

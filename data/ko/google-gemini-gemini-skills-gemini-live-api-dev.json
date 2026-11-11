@@ -1,0 +1,20 @@
+{
+ "description": "Gemini Live API로 실시간 음성과 영상 앱을 만드는 법을 알려줘요.",
+ "summary": "WebSocket으로 오디오, 영상, 텍스트를 실시간 양방향으로 주고받는 앱을 만들 때 필요한 내용을 담고 있어요. 말하는 때를 감지하는 기능, 받아쓰기, 번역, 세션 관리, 임시 토큰, 비동기 함수 호출을 다뤄요. 예전 Live 모델에서 Gemini 3.8 Live로 옮기는 방법도 있어요.",
+ "when": [
+  "실시간 음성 대화 앱",
+  "마이크와 카메라 스트리밍",
+  "실시간 받아쓰기와 번역",
+  "옛 Live 모델 이전"
+ ],
+ "examples": [
+  "Gemini Live API로 음성 비서 웹앱 만들어줘",
+  "실시간 통역 기능을 Python으로 구현해줘",
+  "기존 Live 모델 코드를 3.8 Live로 옮겨줘"
+ ],
+ "notes": [
+  "Python의 google-genai 또는 JavaScript의 @google/genai SDK를 써요",
+  "Gemini API 키가 필요해요",
+  "원문은 영어예요"
+ ]
+}

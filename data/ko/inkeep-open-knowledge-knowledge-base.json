@@ -1,0 +1,18 @@
+{
+ "description": "원본, 리서치, 기준 문서로 이어지는 지식 베이스에서 일하는 법을 알려줘요.",
+ "summary": "external-sources, research, articles 세 층으로 근거 사슬을 만들어요. 폴더별 규칙, 상태 흐름, 로그 작성 습관, 링크와 cluster 지정법을 담았어요.",
+ "when": [
+  "지식 베이스 운영",
+  "자료 수집과 정리",
+  "프로젝트 구조 질문"
+ ],
+ "examples": [
+  "이 지식 베이스는 어떻게 운영하는지 알려줘",
+  "새 자료를 규칙에 맞게 정리해 넣어줘"
+ ],
+ "notes": [
+  "knowledge-base 시작 팩용이에요",
+  "ingest, research, consolidate 세 절차와 이어져요",
+  "상위 /open-knowledge 스킬이 쓰기 규칙을 정해요"
+ ]
+}

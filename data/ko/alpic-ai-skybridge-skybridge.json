@@ -1,0 +1,20 @@
+{
+ "description": "Skybridge로 ChatGPT 플러그인과 MCP 앱을 만들도록 안내해요.",
+ "summary": "아이디어를 UX 지침에 비춰 보고, 프로젝트를 만들고, 도구와 화면을 구현해요. 개발 서버 실행, 디버깅, 배포, ChatGPT 연결까지 이어져요. 요구사항은 SPEC.md에 적어 두고 계속 갱신해요.",
+ "when": [
+  "ChatGPT 플러그인 만들기",
+  "MCP 앱 만들기",
+  "Skybridge 사용",
+  "기존 프로젝트 수정"
+ ],
+ "examples": [
+  "Skybridge로 새 MCP 앱 시작하고 싶어",
+  "플러그인 설계를 SPEC.md로 정리해줘",
+  "개발 서버 띄워서 테스트하는 법 알려줘"
+ ],
+ "notes": [
+  "SPEC.md가 없으면 먼저 discover 단계부터 해요",
+  "같은 저장소의 chatgpt-app-builder, mcp-app-builder를 합친 성격이에요",
+  "원문은 영어예요"
+ ]
+}

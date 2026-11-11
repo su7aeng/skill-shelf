@@ -1,0 +1,19 @@
+{
+ "description": "AI 모델을 4비트로 줄여 적은 GPU 메모리로 더 빠르게 돌리게 해 줘요.",
+ "summary": "AWQ 방식으로 큰 언어 모델의 가중치를 4비트로 압축하는 방법을 안내해요. 이미 압축된 모델을 불러오는 법과 직접 압축하는 법을 코드와 함께 보여 주고, GPTQ나 bitsandbytes가 더 나은 경우도 비교해 줘요.",
+ "when": [
+  "큰 모델 배포",
+  "GPU 메모리 절약",
+  "추론 속도 개선",
+  "vLLM 서빙"
+ ],
+ "examples": [
+  "7B 모델을 GPU 한 장에 올릴 수 있게 4비트로 줄여줘",
+  "AWQ와 GPTQ 중 뭐가 나은지 알려줘"
+ ],
+ "notes": [
+  "autoawq, transformers, torch 설치가 필요해요",
+  "Marlin 커널은 Ampere 이상 GPU에서 쓸 수 있어요",
+  "원문이 영어예요"
+ ]
+}

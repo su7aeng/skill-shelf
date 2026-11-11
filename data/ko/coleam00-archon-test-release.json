@@ -1,0 +1,18 @@
+{
+ "description": "배포된 archon 바이너리가 설치 경로별로 잘 동작하는지 확인해요.",
+ "summary": "brew, curl-mac, curl-vps 세 설치 경로 중 하나로 바이너리를 설치해 정해진 스모크 테스트를 돌리고 정리해요. 개발용 bun link 바이너리는 건드리지 않아요.",
+ "when": [
+  "새 릴리스 검증",
+  "사용자 버그 재현",
+  "핫픽스 바이너리 확인"
+ ],
+ "examples": [
+  "0.3.1을 brew로 설치해서 테스트해줘",
+  "curl 설치가 되는지 확인해줘"
+ ],
+ "notes": [
+  "아직 릴리스되지 않은 변경은 scripts/build-binaries.sh로 로컬에서 빌드해 확인해요",
+  "curl-vps는 원격 Linux 서버가 필요해요",
+  "bun run validate와는 별개예요"
+ ]
+}

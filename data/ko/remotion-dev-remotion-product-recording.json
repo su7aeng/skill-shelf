@@ -1,0 +1,18 @@
+{
+ "description": "Remotion Studio 제품 시연 영상 녹화를 준비하고 결과를 가져와요.",
+ "summary": "Canvas Capture 크롬 확장을 설치하고 Studio를 크롬에서 열어 녹화 환경을 맞춰 줘요. 사용자가 직접 시연을 녹화하면 내려받은 원본을 packages/brand로 가져와 편집 가능한 컴포지션으로 만들어요.",
+ "when": [
+  "Studio 조작 시연 녹화",
+  "타임라인 데모 제작",
+  "제품 화면 촬영 준비"
+ ],
+ "examples": [
+  "Studio 타임라인 데모 녹화할 수 있게 준비해줘",
+  "녹화한 영상을 brand 패키지로 가져와줘"
+ ],
+ "notes": [
+  "Canvas Draw Element를 켠 크롬과 Canvas Capture 확장이 필요해요",
+  "녹화는 사용자가 직접 해요",
+  "Remotion 내부용 작업 절차예요"
+ ]
+}

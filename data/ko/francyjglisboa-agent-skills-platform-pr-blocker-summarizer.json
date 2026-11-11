@@ -1,0 +1,19 @@
+{
+ "description": "열린 PR 목록에서 막힌 것부터 정리해 줘요.",
+ "summary": "열린 풀 리퀘스트를 담은 JSON 파일을 읽어 막힌 PR, 머지할 준비가 된 PR, 한 줄 요약 수를 만들어요. 막힘 기준은 체크 실패, 변경 요청, 오래된 PR 이에요. 결과는 JSON 으로 나와서 스탠드업에 바로 쓸 수 있어요.",
+ "when": [
+  "아침 스탠드업 준비",
+  "리뷰 대기 목록 정리",
+  "막힌 PR 찾기"
+ ],
+ "examples": [
+  "열린 PR 목록을 보고 뭐가 막혀 있는지 알려줘",
+  "오늘 스탠드업용으로 PR 현황을 요약해줘",
+  "이 PR 내보내기 파일로 리뷰 대기 상태를 정리해줘"
+ ],
+ "notes": [
+  "title, state, checks, review, age_days 항목이 있는 PR JSON 파일이 필요해요",
+  "blocked 와 ready 를 더해도 전체 수와 다를 수 있어요. 둘 다 아닌 PR 이 빠지기 때문이에요",
+  "python3 scripts/run_pipeline.py 로 실행해요"
+ ]
+}

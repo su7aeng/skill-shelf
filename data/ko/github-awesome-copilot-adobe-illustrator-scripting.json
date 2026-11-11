@@ -1,0 +1,18 @@
+{
+ "description": "Illustrator 자동화 스크립트(ExtendScript)를 쓰고 고쳐요.",
+ "summary": "ExtendScript(JavaScript/JSX)로 문서, 레이어, 패스, 텍스트, 색상, 심볼, 아트보드를 다루는 .jsx 스크립트를 작성하고 디버깅해요. 객체 모델, 좌표계, 단위, 내보내기 방법도 다뤄요. 빠른 참조 문서와 예시 스크립트가 함께 들어 있어요.",
+ "when": [
+  "Illustrator 스크립트 작성",
+  "스크립트 수정과 디버깅",
+  "내보내기 자동화",
+  "객체 다루기"
+ ],
+ "examples": [
+  "Illustrator에서 아트보드를 PNG로 내보내는 스크립트를 써줘",
+  "선택한 도형 색을 한꺼번에 바꾸는 jsx를 만들어줘"
+ ],
+ "notes": [
+  "Adobe Illustrator가 필요해요",
+  "references와 scripts 폴더의 참고 자료와 예시를 써요"
+ ]
+}

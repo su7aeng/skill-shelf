@@ -1,0 +1,20 @@
+{
+ "description": "WordPress(Gutenberg) 블록을 만들고 고쳐요.",
+ "summary": "block.json, 속성과 저장 방식, 동적 렌더링, 지원 옵션, 폐기 처리와 마이그레이션 같은 블록 작업을 다뤄요. 새 블록은 create-block으로 뼈대를 만들고, 기존 블록은 목록 스크립트로 위치를 찾은 뒤 수정해요. 블록이 저장되지 않는 문제도 살펴요.",
+ "when": [
+  "새 블록 만들기",
+  "block.json 수정",
+  "블록 유효하지 않음 오류 해결",
+  "동적 렌더링 추가"
+ ],
+ "examples": [
+  "새 Gutenberg 블록 하나 만들어줘",
+  "블록이 저장이 안 되고 유효하지 않다고 나오는 이유 찾아줘",
+  "render.php 로 동적 렌더링 블록으로 바꿔줘"
+ ],
+ "notes": [
+  "WordPress 7.0 이상, PHP 7.4 이상을 대상으로 해요",
+  "bash와 node가 필요하고 일부 작업은 WP-CLI가 필요해요",
+  "WordPress 6.9부터 apiVersion 3이 필요해요"
+ ]
+}

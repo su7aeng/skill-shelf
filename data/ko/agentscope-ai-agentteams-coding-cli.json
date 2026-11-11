@@ -1,0 +1,18 @@
+{
+ "description": "코딩 작업을 AI 코딩 CLI에 맡겨 실행하고 결과를 검토해요.",
+ "summary": "spec.md에 Coding CLI Mode 항목이 있으면 직접 코드를 쓰지 않고, 작업공간을 준비해 정확한 프롬프트를 만든 뒤 위임한 CLI로 실행해요. 끝나면 결과를 검토해요.",
+ "when": [
+  "코딩 작업 위임",
+  "버그 수정과 리팩터링",
+  "CLI 도구로 코드 작성"
+ ],
+ "examples": [
+  "이 작업 spec대로 코딩 CLI에 맡겨서 구현해줘",
+  "저장소를 받아서 CLI로 버그를 고치게 해줘"
+ ],
+ "notes": [
+  "원문 설명은 중국어이고 본문은 영어예요",
+  "Claude Code, Gemini CLI, qodercli, Qwen Code, OpenCode 중 위임 쪽이 설정한 도구를 써요",
+  "위임하는 쪽이 Coding CLI 모드를 켜 둬야 해요"
+ ]
+}

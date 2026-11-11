@@ -1,0 +1,19 @@
+{
+ "description": "CYLTabBarController 기능별로 맞는 문서와 API를 찾아줘요.",
+ "summary": "탭 바 코드를 쓰기 전에 기능별로 API와 제약, 데모가 담긴 문서를 안내하는 표예요. 새 API를 지어내거나 추측하지 않고 이 표가 가리키는 문서를 읽게 해요. 공개 API는 CYLTabBarController 폴더의 헤더에 있어요.",
+ "when": [
+  "탭 바 기능 찾기",
+  "설치와 Swift 연동",
+  "SwiftUI 연동",
+  "API 제약 확인"
+ ],
+ "examples": [
+  "CYLTabBarController에서 가운데 버튼은 어떻게 만들어?",
+  "Swift 프로젝트에 설치하는 문서를 찾아줘",
+  "SwiftUI에서 쓰는 방법을 알려줘"
+ ],
+ "notes": [
+  "CYLTabBarController 저장소 안에서 쓰는 스킬이에요",
+  "내용이 서로 다르면 코드, docs, README 순으로 믿어요"
+ ]
+}

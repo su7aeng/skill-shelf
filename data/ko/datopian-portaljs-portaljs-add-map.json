@@ -1,0 +1,19 @@
+{
+ "description": "GeoJSON 데이터를 PortalJS 에서 지도로 보여 줘요.",
+ "summary": "react-leaflet 을 설치하고 Map 컴포넌트를 만들어서 데이터셋 상세 페이지의 Views 영역에 지도를 넣어요. Leaflet 이 브라우저 전용이라 서버 렌더링을 끈 래퍼로 감싸요. GeoJSON 형식 데이터셋이 대상이에요.",
+ "when": [
+  "지리 데이터를 지도로 보기",
+  "GeoJSON 시각화",
+  "데이터셋에 지도 화면 추가"
+ ],
+ "examples": [
+  "이 GeoJSON 데이터셋에 지도 화면을 추가해줘",
+  "지점 위치 데이터를 지도로 보여줘",
+  "GeoJSON 파일을 등록하고 지도까지 붙여줘"
+ ],
+ "notes": [
+  "datasets.json 에 format 이 geojson 인 데이터셋이 있어야 해요",
+  "큰 지리 파일에는 portaljs-add-geo 가 더 맞아요",
+  "Node 18 이상이 필요해요"
+ ]
+}

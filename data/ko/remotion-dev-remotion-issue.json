@@ -1,0 +1,20 @@
+{
+ "description": "Remotion GitHub 이슈를 만들고 고치고 댓글을 달아요.",
+ "summary": "Remotion 이슈를 작성하는 규칙을 안내하는 스킬이에요. 제목은 사용자의 표현을 살리고 `@remotion/package`: 같은 접두어를 붙여요. 여러 줄 본문은 임시 Markdown 파일과 --body-file로 전달하고, 만든 뒤 gh issue view로 제목과 본문을 확인해요. 이미지나 영상은 --attach로 올려요.",
+ "when": [
+  "이슈 작성",
+  "이슈 수정",
+  "이슈에 댓글 달기",
+  "스크린샷 첨부"
+ ],
+ "examples": [
+  "이 버그를 Remotion 이슈로 올려줘",
+  "이슈 제목을 규칙에 맞게 고쳐줘",
+  "이 스크린샷을 이슈에 첨부해서 댓글 달아줘"
+ ],
+ "notes": [
+  "gh CLI와 Remotion 저장소 접근 권한이 필요해요",
+  "--attach 옵션을 쓰려면 최신 gh가 필요해요",
+  "원문이 영어예요"
+ ]
+}

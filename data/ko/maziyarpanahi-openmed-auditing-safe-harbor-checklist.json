@@ -1,0 +1,20 @@
+{
+ "description": "비식별 결과가 HIPAA 18개 식별자 기준을 채웠는지 점검해요.",
+ "summary": "감지된 개인정보를 HIPAA Safe Harbor의 18개 식별자 범주에 맞춰 정리하고 빠진 부분을 찾아 줘요. 89세 초과 나이나 드문 지역처럼 남기 쉬운 틈과 재식별 위험도 함께 보고해요.",
+ "when": [
+  "HIPAA Safe Harbor 충족 확인",
+  "18개 범주 점검표 작성",
+  "나이, 지역 등 틈새 위험 찾기",
+  "공개 전 가능 여부 판단"
+ ],
+ "examples": [
+  "이 비식별 결과가 HIPAA Safe Harbor를 충족하는지 확인해줘",
+  "18개 식별자 범주별로 처리 현황을 표로 정리해줘",
+  "92세 환자 정보 같은 남은 위험이 있는지 알려줘"
+ ],
+ "notes": [
+  "비식별화를 실행한 뒤 결과를 점검하는 용도예요",
+  "범주별 대응표는 references/safe-harbor-identifiers.md에 있어요",
+  "서명된 기록이 필요하면 auditing-deidentification-runs로 넘겨요"
+ ]
+}

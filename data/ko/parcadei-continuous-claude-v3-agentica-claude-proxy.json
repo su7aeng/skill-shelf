@@ -1,0 +1,17 @@
+{
+ "description": "Agentica SDK를 Claude Code CLI 프록시와 연결하는 안내예요.",
+ "summary": "Agentica 에이전트가 localhost 프록시를 거쳐 claude -p로 Claude CLI를 쓰게 하는 구조를 설명해요. --allowedTools 설정, SSE 스트리밍 형식, 파이썬 코드 블록 반환 형식, 도구를 안 쓰고 성공했다고 말하는 문제를 막는 프롬프트를 다뤄요.",
+ "when": [
+  "Agentica와 Claude Code 연동",
+  "에이전트의 거짓 성공 보고 디버깅",
+  "파일 쓰기 권한 오류 해결"
+ ],
+ "examples": [
+  "Agentica 에이전트가 파일을 못 쓰고 permission denied가 나는데 원인을 찾아줘",
+  "에이전트가 실제 작업 없이 성공했다고 말하는 문제를 고쳐줘"
+ ],
+ "notes": [
+  "Claude CLI와 Agentica SDK가 필요해요",
+  "프록시 포트 8080, 세션 관리자 포트 2345 기준으로 설명해요"
+ ]
+}

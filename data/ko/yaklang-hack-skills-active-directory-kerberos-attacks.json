@@ -1,0 +1,18 @@
+{
+ "description": "Active Directory Kerberos 인증의 약점을 점검하는 보안 테스트 절차를 안내해요.",
+ "summary": "AS-REP 로스팅, Kerberoasting, 골든, 실버, 다이아몬드 티켓, 위임 악용, 패스 더 티켓 같은 기법의 종류와 차이, 탐지 위험을 정리해요.",
+ "when": [
+  "Kerberos 보안 진단",
+  "AD 인증 약점 점검",
+  "레드팀 훈련"
+ ],
+ "examples": [
+  "Kerberoasting이 뭔지, 어떻게 점검하는지 알려줘",
+  "골든 티켓과 실버 티켓 차이를 정리해줘"
+ ],
+ "notes": [
+  "허가받은 보안 점검에서만 쓰세요",
+  "원문이 영어예요",
+  "KERBEROS_ATTACK_CHAINS.md 보조 문서가 함께 있어요"
+ ]
+}

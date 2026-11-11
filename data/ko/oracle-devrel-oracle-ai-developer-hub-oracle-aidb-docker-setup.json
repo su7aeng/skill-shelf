@@ -1,0 +1,19 @@
+{
+ "description": "Oracle 26ai Free를 Docker로 띄우고 앱 사용자를 만들어요.",
+ "summary": "Docker로 Oracle 26ai Free를 올리고, SYSTEM 대신 USERS 테이블스페이스를 쓰는 앱 사용자를 만들어요. 다른 스킬이 쓸 .env도 써줘요. 여러 번 실행해도 안전해요.",
+ "when": [
+  "로컬 Oracle 준비",
+  "앱 사용자 생성",
+  "포트 충돌 피하기",
+  "개발 환경 시작"
+ ],
+ "examples": [
+  "로컬에 Oracle 26ai 띄워줘",
+  "프로젝트용 DB 사용자와 .env 만들어줘"
+ ],
+ "notes": [
+  "Docker가 필요해요",
+  "SYSTEM으로 쓰면 JSON 컬럼 때문에 ORA-43853 오류가 나서 앱 사용자를 써요",
+  "비밀번호를 안 주면 강한 값을 만들어요"
+ ]
+}

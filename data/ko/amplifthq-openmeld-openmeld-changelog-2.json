@@ -1,0 +1,17 @@
+{
+ "description": "OpenMeld Changelog 스킬을 가리키는 얇은 연결 문서예요.",
+ "summary": "실제 규칙은 .agents/skills/openmeld-changelog/SKILL.md에 있고 이 파일은 그쪽을 읽고 따르라고만 안내해요. 규칙을 따로 복사하거나 다시 해석하지 않아요.",
+ "when": [
+  "Changelog 항목 판단",
+  "릴리스 노트 준비",
+  "기록 검증"
+ ],
+ "examples": [
+  "이 변경에 Changelog 항목이 필요한지 알려줘",
+  "OpenMeld 릴리스 노트 만들어줘"
+ ],
+ "notes": [
+  "다른 SKILL.md로 넘기는 어댑터라 내용이 거의 없어요",
+  "OpenMeld 저장소용이에요"
+ ]
+}

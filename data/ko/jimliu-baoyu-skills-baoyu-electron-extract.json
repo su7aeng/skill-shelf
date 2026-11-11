@@ -1,0 +1,19 @@
+{
+ "description": "설치된 Electron 앱에서 소스 코드를 꺼내요.",
+ "summary": "앱의 .asar 묶음에서 리소스와 JavaScript를 추출해요. .js.map이 있으면 원본 소스를 복원하고 없으면 Prettier로 코드를 정리해요.",
+ "when": [
+  "Electron 앱 구조 확인",
+  "asar 풀기",
+  "앱 소스 살펴보기",
+  "번들 코드 정리"
+ ],
+ "examples": [
+  "이 Electron 앱의 소스 코드를 꺼내줘",
+  "app.asar 안을 풀어서 보여줘"
+ ],
+ "notes": [
+  "macOS와 Windows를 지원해요",
+  "node_modules는 건너뛰어요",
+  "bun이나 npx로 스크립트를 실행해요"
+ ]
+}

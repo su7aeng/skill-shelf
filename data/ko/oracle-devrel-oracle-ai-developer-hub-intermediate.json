@@ -1,0 +1,19 @@
+{
+ "description": "Oracle DB를 조회하는 도구 호출 에이전트를 만들어요.",
+ "summary": "Grok 4가 oracle-database-mcp-server로 실제 SQL을 호출하는 에이전트를 만들어요. 임베딩은 DB 안에 등록한 ONNX 모델이 처리해요. 데이터 탐색, 스키마 문서화, 벡터와 SQL 혼합 검색 중 고르고 Open WebUI로 써요.",
+ "when": [
+  "자연어로 DB 조회",
+  "스키마 문서 생성",
+  "혼합 검색 구축",
+  "RAG에서 한 단계 확장"
+ ],
+ "examples": [
+  "자연어로 SQL을 돌리는 데이터 탐색기 만들어줘",
+  "스키마 문서를 만들고 질문도 받는 앱 만들어줘"
+ ],
+ "notes": [
+  "이미 RAG를 만들어본 사용자용이에요",
+  "Docker와 OCI 생성형 AI 접근이 필요해요",
+  "외부 임베딩 API나 Ollama는 쓰지 않아요"
+ ]
+}

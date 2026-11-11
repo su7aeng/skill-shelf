@@ -1,0 +1,20 @@
+{
+ "description": "agent-desktop을 C 함수 형태로 직접 호출하는 방법을 안내해요.",
+ "summary": "CLI를 매번 실행하는 대신 libagent_desktop_ffi 라이브러리를 링크해 ad_ 함수를 직접 부르는 방식을 설명해요. 초기화, 어댑터 생성, 스냅샷, ref로 실행, 문자열 해제, 어댑터 해제 순서가 기본 흐름이에요. 메모리 소유권, 오류 처리, 스레드, 빌드와 링크는 참고 문서로 나뉘어 있어요.",
+ "when": [
+  "Python이나 Swift에서 직접 연동",
+  "CLI 없이 라이브러리 호출",
+  "메모리 해제 규칙 확인",
+  "FFI 빌드와 링크"
+ ],
+ "examples": [
+  "Python ctypes로 agent-desktop 라이브러리를 호출하는 예제 써줘",
+  "ad_snapshot 결과 문자열은 누가 해제해야 해",
+  "FFI 라이브러리를 빌드하는 명령 알려줘"
+ ],
+ "notes": [
+  "Rust로 release-ffi 프로필 빌드가 필요해요",
+  "결과 문자열은 ad_free_string으로 직접 해제해야 해요",
+  "확장자는 macOS dylib, Linux so, Windows dll이에요"
+ ]
+}

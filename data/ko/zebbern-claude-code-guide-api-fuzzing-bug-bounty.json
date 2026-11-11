@@ -1,0 +1,20 @@
+{
+ "description": "API 보안 취약점을 찾는 테스트 방법을 안내해요.",
+ "summary": "REST, SOAP, GraphQL API를 대상으로 정찰, 인증 테스트, IDOR, 인젝션 같은 취약점을 찾는 절차를 알려줘요. Burp Suite와 워드리스트를 쓰는 방법이 포함돼요.",
+ "when": [
+  "API 보안 점검",
+  "버그 바운티",
+  "IDOR 취약점 찾기",
+  "GraphQL 테스트"
+ ],
+ "examples": [
+  "이 REST API 보안 테스트 방법 알려줘",
+  "IDOR 취약점 찾는 순서 정리해줘",
+  "GraphQL 엔드포인트 점검법 알려줘"
+ ],
+ "notes": [
+  "허가받은 대상에만 테스트해야 해요",
+  "Burp Suite, Python, API 워드리스트 등이 필요해요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "Godot 프로젝트, 씬, 내보내기를 명령줄로 다뤄요.",
+ "summary": "cli-anything-godot 명령으로 Godot 게임 프로젝트를 만들고 정보를 확인해요. 씬을 만들고 노드를 추가하며, GDScript 파일이나 한 줄 코드를 실행하고 문법을 검사해요. 내보내기 프리셋을 빌드하고, --json 옵션으로 에이전트가 읽기 쉬운 출력도 받아요.",
+ "when": [
+  "새 Godot 프로젝트 생성",
+  "씬과 노드 추가",
+  "GDScript 실행과 검사",
+  "게임 빌드 내보내기"
+ ],
+ "examples": [
+  "Godot 프로젝트를 새로 만들고 Level1 씬을 추가해줘",
+  "플레이어 스크립트 문법이 맞는지 검사해줘",
+  "Windows용으로 게임을 내보내줘"
+ ],
+ "notes": [
+  "Godot 4.x가 PATH에 있거나 GODOT_BIN 환경 변수를 설정해야 해요",
+  "pip로 설치하는 cli-anything-godot 명령을 써요"
+ ]
+}

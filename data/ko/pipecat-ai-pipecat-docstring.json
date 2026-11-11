@@ -1,0 +1,18 @@
+{
+ "description": "Python 모듈과 클래스에 Google 스타일 docstring을 달아줘요.",
+ "summary": "모듈 경로나 클래스 이름을 받아 파일을 찾고 구조를 파악한 뒤 모듈, 클래스, 생성자, 공개 메서드 순서로 문서를 붙여요. 비공개 메서드와 이미 충분히 문서화된 코드는 건드리지 않아요. 같은 이름의 클래스가 여럿이면 어느 것인지 먼저 물어봐요.",
+ "when": [
+  "docstring 추가",
+  "모듈 문서화",
+  "클래스 설명 작성"
+ ],
+ "examples": [
+  "VADAnalyzer 클래스에 docstring을 달아줘",
+  "이 모듈 파일 전체를 문서화해줘"
+ ],
+ "notes": [
+  "Pipecat 저장소의 src/pipecat 구조를 전제로 해요",
+  "한 줄 요약, Args, Returns를 갖춘 기존 docstring은 그대로 둬요",
+  "Python 코드 전용이에요"
+ ]
+}

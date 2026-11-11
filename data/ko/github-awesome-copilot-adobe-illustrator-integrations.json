@@ -1,0 +1,18 @@
+{
+ "description": "Adobe Illustrator 확장, 플러그인, 자동화 연동을 만들고 고쳐요.",
+ "summary": "CEP 패널, C++ SDK 플러그인(.aip), 곧 나올 UXP 플러그인, Illustrator를 다루는 MCP 서버, 컴퓨터 사용 자동화, ExtendScript를 실행하는 OS 스크립트를 다뤄요. 스크립트와 확장과 플러그인 중 무엇을 고를지 정하고 설치와 사용 문서도 써요.",
+ "when": [
+  "Illustrator 확장 제작",
+  "플러그인 디버깅",
+  "AI 도구를 Illustrator에 연결",
+  "명령줄 자동화"
+ ],
+ "examples": [
+  "Illustrator 패널 확장을 만들어줘",
+  "명령줄에서 Illustrator 스크립트를 실행하게 해줘"
+ ],
+ "notes": [
+  "Illustrator 문서 객체 모델은 adobe-illustrator-scripting 스킬과 함께 써요",
+  "Adobe Illustrator가 필요해요"
+ ]
+}

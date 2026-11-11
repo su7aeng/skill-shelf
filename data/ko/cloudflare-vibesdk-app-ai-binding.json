@@ -1,0 +1,19 @@
+{
+ "description": "Cloudflare Workers AI 바인딩으로 앱에 AI 기능을 붙여요.",
+ "summary": "생성되는 앱의 App Durable Object에서 this.env.AI.run으로 모델을 호출하는 방법을 알려줘요. 챗봇, 요약, 분류, 임베딩, 이미지 이해, 번역 같은 작업별 예시를 담고 있어요. 모델 호출은 서버 쪽에서만 하고 브라우저에서는 API 경로를 부르게 해요.",
+ "when": [
+  "챗봇이나 요약 기능 만들기",
+  "임베딩과 의미 검색",
+  "이미지 이해와 음성 받아쓰기",
+  "번역과 분류"
+ ],
+ "examples": [
+  "내 앱에 텍스트 요약 기능을 Workers AI로 붙여줘",
+  "이미지를 설명해 주는 기능을 만들어줘"
+ ],
+ "notes": [
+  "wrangler.json에 ai 항목을 추가하지 않아요",
+  "AI.run만 쓰고 AI.gateway나 AI.models 같은 메서드는 쓰지 않아요",
+  "원문이 영어예요"
+ ]
+}

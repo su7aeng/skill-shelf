@@ -1,0 +1,20 @@
+{
+ "description": "DCM의 Container를 추가하거나 수정해요.",
+ "summary": "먼저 같은 제품이 카탈로그에 이미 있는지 겹침을 확인하고, 이미지와 포트와 데이터 경로는 프로젝트 공식 문서에서 확인해 출처를 남겨요. 그다음 dcm/src/tools/ 안의 알맞은 파일에 항목을 추가해요. 카탈로그 App 변경은 edit-catalog로 보내요.",
+ "when": [
+  "DCM Container 추가",
+  "Container 이름과 아이콘 수정",
+  "accepted 이슈 처리",
+  "compose 스니펫 등록"
+ ],
+ "examples": [
+  "이 제품을 DCM Container로 추가해 줘",
+  "기존 Container의 태그와 아이콘을 고쳐 줘",
+  "container 라벨 이슈를 처리해 줘"
+ ],
+ "notes": [
+  "ajnart/self-host 저장소 전용이에요",
+  "docs/agents/dcm.md와 CONTEXT.md를 먼저 읽어야 해요",
+  "원문이 영어예요"
+ ]
+}

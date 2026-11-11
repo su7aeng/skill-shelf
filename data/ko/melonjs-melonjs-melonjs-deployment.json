@@ -1,0 +1,19 @@
+{
+ "description": "melonJS 프로젝트를 만들고 웹이나 앱으로 배포하는 방법이에요.",
+ "summary": "npm create melonjs@latest로 TypeScript 기반 템플릿을 만들고, 기존 프로젝트에 melonjs를 설치하는 방법을 알려줘요. 웹 빌드, Capacitor와 Cordova 앱 포장, WeChat Mini Games와 Facebook Instant Games 배포, 브라우저 지원도 다뤄요.",
+ "when": [
+  "새 프로젝트 시작",
+  "웹 빌드와 배포",
+  "모바일 앱으로 포장",
+  "번들 크기 줄이기"
+ ],
+ "examples": [
+  "melonJS 새 프로젝트 만들어줘",
+  "내 게임을 Capacitor로 앱으로 만들고 싶어"
+ ],
+ "notes": [
+  "프로젝트 이름 없이 create 명령을 쓰면 사용법만 나와요",
+  "CDN 빌드는 실험용이고 실서비스에는 맞지 않아요",
+  "원문은 영어예요"
+ ]
+}

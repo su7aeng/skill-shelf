@@ -1,0 +1,19 @@
+{
+ "description": "코딩 작업을 OpenAI Codex CLI에 맡겨서 처리해요.",
+ "summary": "터미널에서 Codex를 실행해 기능 개발, 리팩터링, PR 리뷰, 이슈 일괄 수정을 맡겨요. 한 번에 끝내는 작업과 오래 걸리는 백그라운드 작업을 모두 지원해요.",
+ "when": [
+  "기능 개발 위임",
+  "리팩터링",
+  "PR 리뷰",
+  "이슈 일괄 수정"
+ ],
+ "examples": [
+  "Codex로 다크 모드 토글 추가해줘",
+  "열린 이슈들을 Codex에게 맡겨서 고치게 해줘"
+ ],
+ "notes": [
+  "npm install -g @openai/codex로 설치하고 OpenAI 인증이 필요해요",
+  "git 저장소 안에서만 실행돼요",
+  "터미널 호출에 pty=true를 써요"
+ ]
+}

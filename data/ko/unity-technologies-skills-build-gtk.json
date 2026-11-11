@@ -1,0 +1,20 @@
+{
+ "description": "Unity Graph Toolkit으로 그래프·상태 머신 편집 도구를 만들어요.",
+ "summary": "Unity의 Graph Toolkit 공개 API만 사용해 그래프 편집기, 상태 머신 도구, 런타임 에셋용 임포터를 만들어요. 작업 전에 복원 지점을 만들고 에디터 버전에 맞는 API를 고르며, 확인용 코드는 사용자 스크립트에 남기지 않아요.",
+ "when": [
+  "노드 그래프 편집기 제작",
+  "상태 머신 편집기 제작",
+  "GraphView에서 옮겨 가기",
+  "그래프 에셋 임포터 제작"
+ ],
+ "examples": [
+  "Unity에서 대화 흐름을 편집하는 노드 그래프 도구를 만들어줘",
+  "GraphView로 만든 내 편집기를 Graph Toolkit으로 옮겨줘",
+  "캐릭터 상태 머신을 그래프로 편집할 수 있게 해줘"
+ ],
+ "notes": [
+  "Unity 6.6 이상이 필요하고 상태 머신은 6.7 이상이에요",
+  "Shader Graph, VFX Graph, Animator에는 맞지 않아요",
+  "unity cli와 관련 스킬을 사용해요"
+ ]
+}

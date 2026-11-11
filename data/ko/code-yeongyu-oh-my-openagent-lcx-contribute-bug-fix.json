@@ -1,0 +1,19 @@
+{
+ "description": "LazyCodex나 Codex 버그의 수정안을 검증해 PR로 올려요.",
+ "summary": "새 임시 작업 폴더에서 버그를 재현하고 가장 작은 수정을 한 뒤, 결함을 가진 저장소에 포크 PR을 만들어요. LazyCodex 결함은 oh-my-openagent의 dev 브랜치로, Codex 자체 결함은 openai/codex로 보내요.",
+ "when": [
+  "LazyCodex 버그 수정",
+  "Codex CLI 결함 수정",
+  "수정 PR 만들기",
+  "번들 스킬 오류 고치기"
+ ],
+ "examples": [
+  "LazyCodex에서 생긴 이 버그를 고쳐서 PR 올려줘",
+  "Codex CLI 버그를 재현하고 수정 PR까지 만들어줘"
+ ],
+ "notes": [
+  "gh 명령과 GitHub 포크가 필요해요",
+  "code-yeongyu/lazycodex는 자동 생성 미러라서 PR을 보내지 않아요",
+  "원문과 결과물은 영어로 써요"
+ ]
+}

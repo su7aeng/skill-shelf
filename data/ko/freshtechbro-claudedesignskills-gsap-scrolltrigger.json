@@ -1,0 +1,18 @@
+{
+ "description": "GSAP과 ScrollTrigger로 웹 애니메이션을 만드는 방법을 알려줘요.",
+ "summary": "GSAP의 트윈과 타임라인, 스크롤에 맞춰 움직이는 ScrollTrigger를 다뤄요. 고정, 스크럽, 패럴랙스 같은 효과와 DOM, SVG, Canvas, WebGL, Three.js 대상 애니메이션을 포함해요.",
+ "when": [
+  "스크롤 애니메이션",
+  "타임라인 연출",
+  "요소 고정과 패럴랙스",
+  "SVG나 3D 애니메이션"
+ ],
+ "examples": [
+  "스크롤하면 섹션이 차례로 나타나게 해줘",
+  "GSAP 타임라인으로 히어로 영상 연출 만들어줘"
+ ],
+ "notes": [
+  "ScrollTrigger는 GSAP 플러그인이라 따로 등록해야 해요",
+  "원문은 영어예요"
+ ]
+}

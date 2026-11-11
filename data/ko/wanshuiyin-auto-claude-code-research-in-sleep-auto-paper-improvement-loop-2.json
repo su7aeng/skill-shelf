@@ -1,0 +1,18 @@
+{
+ "description": "Claude 리뷰어로 논문을 2라운드 고치는 Codex용 변형이에요.",
+ "summary": "Codex 사용자가 두 번째 Codex 대신 claude-review MCP로 연결된 Claude를 리뷰어로 쓰게 하는 버전이에요. 라운드마다 새 리뷰어를 불러 지적을 받고, 수정하고 다시 컴파일해요.",
+ "when": [
+  "Claude 리뷰로 논문 수정",
+  "Codex 환경의 논문 퇴고",
+  "교차 모델 리뷰",
+  "컴파일된 논문 개선"
+ ],
+ "examples": [
+  "Claude 리뷰어로 논문 개선 루프 돌려줘",
+  "이 논문을 2라운드 리뷰받고 고쳐줘"
+ ],
+ "notes": [
+  "Codex용 스킬 묶음을 설치한 뒤에 덧씌워 설치해야 해요",
+  "claude-review MCP가 필요하고 모델은 CLAUDE_REVIEW_MODEL로 정해요"
+ ]
+}

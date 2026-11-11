@@ -1,0 +1,17 @@
+{
+ "description": "APM 패키지 시작용 샘플 템플릿이에요.",
+ "summary": "에이전트 구성요소를 재사용 가능한 패키지로 만드는 방법을 보여 주는 시작용 템플릿이에요. 지침, 프롬프트, 에이전트 폴더 구조와 hello-world, feature-implementation 워크플로 예시가 들어 있어요.",
+ "when": [
+  "새 APM 패키지 시작",
+  "패키지 구조 익히기",
+  "프롬프트 예제 참고"
+ ],
+ "examples": [
+  "APM 패키지 템플릿으로 새 프로젝트를 시작해줘",
+  "hello-world 예제 워크플로가 어떻게 생겼는지 보여줘"
+ ],
+ "notes": [
+  "{{project_name}}과 {{description}} 자리표시자가 채워지지 않은 템플릿이에요",
+  "apm install과 apm compile 명령을 써요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Super Agent Party용 확장 기능 패키지를 만들어 줘요.",
+ "summary": "이름, 설명, 정적형인지 Node.js형인지, 필요한 의존성 같은 요구사항을 먼저 묻고 템플릿으로 뼈대를 만들어요. 화면만 필요하면 HTML/CSS/JS 정적 확장, 서버 로직이 필요하면 Express 기반 Node.js 확장으로 나눠요.",
+ "when": [
+  "SAP 확장 새로 만들기",
+  "채팅 화면 꾸미기",
+  "AI용 도구 등록",
+  "작은 위젯 만들기"
+ ],
+ "examples": [
+  "Super Agent Party에 날씨 위젯 확장을 만들어줘",
+  "백엔드가 필요한 확장 기능의 뼈대를 만들어줘",
+  "투명 창으로 뜨는 음악 컨트롤러 확장을 만들어줘"
+ ],
+ "notes": [
+  "package.json과 index.html이 필수고, Node.js형은 index.js도 필요해요",
+  "Node.js형은 SAP가 npm install과 실행을 알아서 관리해요",
+  "도구 등록은 정적형과 Node.js형 모두 WebSocket으로 할 수 있어요"
+ ]
+}

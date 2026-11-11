@@ -1,0 +1,20 @@
+{
+ "description": "Rerun Chunk Processing API로 데이터 변환 코드를 짜요.",
+ "summary": "LazyChunkStream 파이프라인, Chunk, 렌즈, RrdReader 같은 rerun.chunk의 핵심 사용법을 담았어요. MCAP 변환이나 rrd 전처리 코드를 쓸 때 리더와 렌즈 파이프라인을 쓰게 하고, 직접 만든 청크나 메시지별 로깅은 피하게 해요.",
+ "when": [
+  "MCAP 변환 코드",
+  "rrd 전처리",
+  "데이터셋을 녹화로 변환",
+  "옛 변환기 이식"
+ ],
+ "examples": [
+  "MCAP 파일을 rrd로 바꾸는 코드 짜줘",
+  "기존 rrd를 전처리하는 파이프라인 만들어줘",
+  "예전 변환 스크립트를 새 API로 옮겨줘"
+ ],
+ "notes": [
+  "먼저 rerun-data-model로 데이터 모델을 정해야 해요",
+  "출처별 세부 내용은 rerun-mcap, rerun-parquet 등 도입 스킬에 있어요",
+  "원문이 영어예요"
+ ]
+}

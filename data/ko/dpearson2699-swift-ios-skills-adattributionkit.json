@@ -1,0 +1,19 @@
+{
+ "description": "AdAttributionKit으로 개인정보를 지키며 광고 성과를 측정해요.",
+ "summary": "iOS 17.4 이상에서 광고 노출 등록, 전환 값 갱신, 어트리뷰션 포스트백 처리, 재참여 측정을 구현하는 방법을 다뤄요. 광고 네트워크, 게시 앱, 광고 대상 앱의 역할로 나눠 설명하고 SKAdNetwork에서 옮기는 방법도 있어요.",
+ "when": [
+  "광고 설치 측정",
+  "광고 노출 등록",
+  "전환 값 갱신",
+  "SKAdNetwork 대체"
+ ],
+ "examples": [
+  "AdAttributionKit으로 광고 노출을 등록하는 코드 짜줘",
+  "포스트백을 받아 처리하는 방법 알려줘",
+  "SKAdNetwork를 AdAttributionKit으로 바꿔줘"
+ ],
+ "notes": [
+  "iOS 17.4 이상이 필요해요",
+  "원문은 영어예요"
+ ]
+}

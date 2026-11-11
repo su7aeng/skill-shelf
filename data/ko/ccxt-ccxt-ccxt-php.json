@@ -1,0 +1,19 @@
+{
+ "description": "PHP에서 CCXT로 암호화폐 거래소를 다루는 방법을 안내해요.",
+ "summary": "PHP 8.1 이상 프로젝트에서 CCXT를 설치하고 거래소에 연결해 시세 조회, 주문, 실시간 스트리밍을 하는 방법을 알려줘요. REST와 WebSocket을 모두 다루고 ReactPHP 기반 비동기 사용법과 인증, 오류 처리 방법도 포함해요.",
+ "when": [
+  "PHP 트레이딩 봇",
+  "웹앱의 거래소 연동",
+  "실시간 시세 스트리밍",
+  "거래소 시세 수집"
+ ],
+ "examples": [
+  "PHP로 바이낸스 BTC/USDT 시세 가져오는 코드 짜줘",
+  "ReactPHP로 실시간 호가를 받아줘"
+ ],
+ "notes": [
+  "composer require ccxt/ccxt로 설치하고 cURL, mbstring, gmp 등 확장이 필요해요",
+  "date_default_timezone_set('UTC') 설정이 필수예요",
+  "WebSocket은 비동기 방식에서만 써요"
+ ]
+}

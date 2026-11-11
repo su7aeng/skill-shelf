@@ -1,0 +1,20 @@
+{
+ "description": "Typer CLI 명령용 pytest 테스트를 패턴에 맞춰 만들어요.",
+ "summary": "명령이 만들기, 읽기, 수정, 삭제, 일괄 처리 중 어떤 종류인지 먼저 정해요. conftest.py에 CliRunner, 임시 저장소, 샘플 데이터 같은 fixture를 갖추고 준비, 실행, 확인 구조로 테스트를 써요. 확인 질문(y/n, --force) 처리 방식도 다뤄요.",
+ "when": [
+  "CLI 테스트 작성",
+  "삭제 확인 동작 테스트",
+  "fixture 만들기",
+  "테스트 누락 보완"
+ ],
+ "examples": [
+  "add 명령에 대한 pytest 테스트 만들어줘",
+  "삭제 명령의 y/n 확인과 --force 동작을 테스트해줘",
+  "CLI 테스트용 fixture를 conftest.py에 추가해줘"
+ ],
+ "notes": [
+  "Python, pytest, Typer 환경이 필요해요",
+  "환경 변수로 저장소 경로를 바꾸는 구조를 가정해요",
+  "원문은 영어예요"
+ ]
+}

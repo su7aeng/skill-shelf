@@ -1,0 +1,18 @@
+{
+ "description": "봇 탐지 사이트 15곳에서 브라우저별 탐지 결과를 비교해요.",
+ "summary": "sannysoft, creepjs 등 핑거프린트 검사 사이트 15곳을 chrome과 cloak 브라우저로 방문해 항목별 지표를 모아요. Docker 컨테이너를 띄우고 에이전트가 사이트별 안내문대로 움직이며, 결과는 나란히 비교해 보여 주고 history.jsonl에 쌓아요.",
+ "when": [
+  "브라우저 스텔스 비교",
+  "봇 탐지 점검",
+  "변경 전후 회귀 확인"
+ ],
+ "examples": [
+  "/pinchtab-stealth-score both 실행해줘",
+  "cloak과 chrome 탐지 차이를 비교해줘"
+ ],
+ "notes": [
+  "Docker 실행이 필요해요",
+  "브라우저 하나에 12~15분, 둘이면 25~30분쯤 걸려요",
+  "첫 실행에는 이미지 빌드 시간이 더 들어요"
+ ]
+}

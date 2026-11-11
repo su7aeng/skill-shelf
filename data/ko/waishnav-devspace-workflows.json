@@ -1,0 +1,20 @@
+{
+ "description": "여러 에이전트를 엮는 DevSpace 워크플로 스크립트를 쓰고 실행해요.",
+ "summary": "반복되는 멀티 에이전트 작업을 JavaScript 스크립트로 만들어 프로젝트의 .devspace/workflows/ 에 저장하고 돌려요. 스크립트를 쓰기 전에 reference.md와 patterns.md를 읽고, 실행 후에는 wait, status, calls 명령으로 진행 상황을 확인해요.",
+ "when": [
+  "반복되는 멀티 에이전트 작업",
+  "계획과 검토를 나눈 개발 루프",
+  "여러 단위에 같은 변경 적용",
+  "실행 중인 워크플로 상태 확인"
+ ],
+ "examples": [
+  "이 작업을 DevSpace 워크플로로 만들어서 돌려줘",
+  "구현하고 리뷰하고 고치는 워크플로 스크립트 써줘",
+  "방금 돌린 워크플로 진행 상황 알려줘"
+ ],
+ "notes": [
+  "DevSpace의 devspace CLI가 필요해요",
+  "워크플로 코드는 기본이 읽기 전용이고, 파일을 바꾸려면 --write-mode allowed 를 붙여야 해요",
+  "중단된 실행은 --resume 으로 이어서 돌릴 수 있어요"
+ ]
+}

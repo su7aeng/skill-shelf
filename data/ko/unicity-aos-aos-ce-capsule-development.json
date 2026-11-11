@@ -1,0 +1,20 @@
+{
+ "description": "Unicity AOS 캡슐을 만들고 시험하고 설치하고 디버깅하는 방법이에요.",
+ "summary": "캡슐은 Astrid Runtime 샌드박스에서 도는 Rust WebAssembly 컴포넌트예요. aos capsule new로 뼈대를 만들고 wasm32-unknown-unknown 대상 설정, Cargo 패키지, Capsule.toml의 발행과 구독 목록을 갖춘 뒤 빌드, 시험, 패키징, 설치까지 이어가요.",
+ "when": [
+  "새 캡슐 만들기",
+  "캡슐 빌드와 설치",
+  "Capsule.toml 작성",
+  "캡슐 문제 디버깅"
+ ],
+ "examples": [
+  "aos 캡슐 하나 새로 만들어줘",
+  "Capsule.toml에 필요한 권한을 설정해줘",
+  "캡슐이 빌드되지 않는 원인을 찾아줘"
+ ],
+ "notes": [
+  "Rust 도구와 aos CLI, astrid-sdk 0.7이 필요해요",
+  "옛 [[interceptor]] 형식은 쓰지 않아요",
+  "선언하지 않은 IPC 주제는 거부돼요"
+ ]
+}

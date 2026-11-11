@@ -1,0 +1,19 @@
+{
+ "description": "ADMET 문제점을 구조와 생물학적 원인으로 풀어 설명해 줘요.",
+ "summary": "ADMET 점수가 왜 그렇게 나왔는지, 분자의 어떤 구조가 원인이고 어떤 생물학적 경로에 영향을 주는지 연결해 설명해요. 구조를 어떻게 바꾸면 좋을지 제안도 해요. CoTox와 DrugR 연구를 바탕으로 해요.",
+ "when": [
+  "ADMET 결과 해석",
+  "선도물질 개선 계획",
+  "독성 보고서 작성",
+  "설계 변경 검토"
+ ],
+ "examples": [
+  "이 화합물의 hERG 위험이 왜 높은지 구조로 설명해줘",
+  "ADMET 결과를 바탕으로 책임 보고서를 만들어줘"
+ ],
+ "notes": [
+  "rdkit-pypi, numpy, pandas가 필요해요",
+  "점수 계산은 admet-prediction 스킬을 먼저 돌려요",
+  "분자 최적화 자체는 molecular-optimization 스킬이 맡아요"
+ ]
+}

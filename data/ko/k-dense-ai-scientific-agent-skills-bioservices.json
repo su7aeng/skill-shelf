@@ -1,0 +1,19 @@
+{
+ "description": "Python으로 UniProt, KEGG 등 생명정보 서비스를 조회해요.",
+ "summary": "BioServices 라이브러리로 UniProt, KEGG, ChEMBL, Reactome, QuickGO, UniChem을 함께 쓰는 스킬이에요. 단백질 주석, 경로, 화합물 식별자 매핑을 다루고, 검색 결과를 확인한 뒤 식별자를 정하고 실패한 항목과 조회 날짜까지 같이 기록하도록 안내해요.",
+ "when": [
+  "단백질 주석 조회",
+  "경로 정보 가져오기",
+  "화합물 식별자 매핑",
+  "여러 DB 통합 분석"
+ ],
+ "examples": [
+  "UniProt에서 이 단백질 정보를 찾아 KEGG 경로와 연결해줘",
+  "이 화합물의 ChEMBL ID를 찾아줘"
+ ],
+ "notes": [
+  "bioservices 1.16.0과 Python이 필요해요",
+  "서비스마다 메서드 이름과 반환 형식이 달라 참고 문서를 먼저 봐요",
+  "네트워크 접속이 필요해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "중국에서 GitHub 클론과 다운로드가 느릴 때 프록시로 빠르게 해요.",
+ "summary": "GitHub 주소 앞에 githubproxy.cc 주소를 붙여 git clone, Raw 파일, 릴리스, 압축 파일, Gist를 받아요. 주소를 바꿔 주는 scripts/convert_url.py 도우미 스크립트도 써요. 주 서비스가 안 되면 ghfast.top을 대신 써요.",
+ "when": [
+  "느린 저장소 클론",
+  "Raw 파일 내려받기",
+  "릴리스 파일 받기",
+  "GitHub 링크 변환"
+ ],
+ "examples": [
+  "이 GitHub 저장소를 프록시로 빠르게 클론해줘",
+  "이 raw 파일 링크를 가속 주소로 바꿔서 받아줘"
+ ],
+ "notes": [
+  "외부 프록시 서비스를 거치므로 신뢰할 수 있는 공개 자료에 쓰는 게 좋아요",
+  "원문이 중국어예요",
+  "Python이 필요해요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Open Knowledge Format 규칙에 맞게 지식 묶음을 만들고 관리해요.",
+ "summary": "OKF v0.2는 마크다운, YAML 머리말, 일반 링크로 쓰는 지식 형식이에요. 개념별 type, index.md와 log.md 규칙, 출처 표기와 링크 판단을 알려주고 없는 사실은 지어내지 말라고 해요.",
+ "when": [
+  "OKF 묶음 만들기",
+  "형식 검토",
+  "plugin 경고 해결"
+ ],
+ "examples": [
+  "OKF 규칙에 맞게 지식 문서를 만들어줘",
+  "이 묶음이 OKF 형식에 맞는지 봐줘"
+ ],
+ "notes": [
+  "모든 개념 파일에는 비어 있지 않은 type이 필요해요",
+  "index.md는 보통 머리말이 없고 log.md는 최신순이에요",
+  "도구 사용 규칙은 /open-knowledge 스킬이 정해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "Neko Master 본 제품이나 에이전트의 릴리스를 만들고 확인해요.",
+ "summary": "git 태그로 움직이는 두 릴리스 라인을 다뤄요. 본 제품은 v 태그에 Docker 이미지, 에이전트는 agent-v 태그에 바이너리가 나와요. 버전 올리기, CHANGELOG 작성, 테스트, 태그 푸시, CI 결과 확인 순서를 안내해요.",
+ "when": [
+  "버전 올리기",
+  "CHANGELOG 작성",
+  "릴리스 태그 푸시",
+  "CI 결과 확인"
+ ],
+ "examples": [
+  "Neko Master 새 버전 릴리스 준비해 줘",
+  "에이전트 agent-v 태그 올리고 CI 확인해 줘"
+ ],
+ "notes": [
+  "CHANGELOG는 중국어와 영어 두 파일에 모두 써야 해요",
+  "GitHub 릴리스 노트는 영어로 써요",
+  "Docker 빌드는 20분 넘게 걸릴 수 있어요"
+ ]
+}

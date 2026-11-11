@@ -1,0 +1,20 @@
+{
+ "description": "OPC Skills 프로젝트에 새 스킬을 추가하는 절차를 안내해요.",
+ "summary": "새 스킬을 내놓기 전에 필요한 파일과 정보를 빠짐없이 만들도록 체크리스트로 안내해요. 스킬 폴더 구조, SKILL.md 머리말, 로고 SVG 생성, skills.json 항목 등록 순서로 진행해요. 기능 브랜치에서 작업한다는 점부터 확인해요.",
+ "when": [
+  "새 스킬 추가",
+  "스킬 배포 준비",
+  "스킬 로고 만들기",
+  "skills.json 등록"
+ ],
+ "examples": [
+  "OPC Skills에 새 스킬을 추가할 거야, 체크리스트대로 진행해 줘",
+  "새 스킬 로고를 픽셀 아트로 만들어 줘",
+  "skills.json에 들어갈 항목을 작성해 줘"
+ ],
+ "notes": [
+  "OPC Skills 저장소 안에서 쓰는 작업 안내예요",
+  "feature/skill/<이름> 브랜치에서 시작해요",
+  "로고는 nanobanana와 logo-creator 스킬을 이용해요"
+ ]
+}

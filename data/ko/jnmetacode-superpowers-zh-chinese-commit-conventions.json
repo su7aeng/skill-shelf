@@ -1,0 +1,20 @@
+{
+ "description": "중국어 커밋 메시지와 changelog 설정 방법을 정리한 참고 스킬이에요.",
+ "summary": "Conventional Commits를 중국어 팀에 맞게 바꾼 규칙을 다뤄요. type은 영어로 두고 scope와 설명은 중국어로 쓰는 원칙, 제목과 본문 작성법, Breaking Changes 표기, commitlint, husky, commitizen, conventional-changelog 설정 예시가 있어요.",
+ "when": [
+  "중국어 커밋 규칙 정하기",
+  "commitlint 설정",
+  "changelog 자동 생성",
+  "커밋 메시지 점검"
+ ],
+ "examples": [
+  "중국어 커밋 메시지 규칙을 우리 팀에 적용해줘",
+  "commitlint와 husky 설정 예시 보여줘",
+  "이 변경 내용을 규칙에 맞는 커밋 메시지로 써줘"
+ ],
+ "notes": [
+  "원문이 중국어이고 참고용 가이드예요",
+  "사용자가 /chinese-commit-conventions 를 직접 부를 때만 쓰도록 되어 있어요",
+  "Node 기반 도구 설정이 포함돼 있어요"
+ ]
+}

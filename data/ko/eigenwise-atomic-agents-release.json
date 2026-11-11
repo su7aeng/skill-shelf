@@ -1,0 +1,19 @@
+{
+ "description": "atomic-agents를 PyPI와 GitHub에 새 버전으로 내놓는 절차를 안내해요.",
+ "summary": "main 브랜치에서 빌드 배포 스크립트로 버전을 올리고 PyPI에 올린 뒤, 버전 변경을 커밋하고 GitHub 릴리스를 만들어요. 릴리스 노트 양식과 점검 목록도 있어요.",
+ "when": [
+  "새 버전 릴리스",
+  "PyPI 배포",
+  "버전 올리기",
+  "GitHub 릴리스 작성"
+ ],
+ "examples": [
+  "atomic-agents 패치 버전을 릴리스해줘",
+  "새 기능이 들어갔으니 minor 버전으로 배포해줘"
+ ],
+ "notes": [
+  "저장소 내부용(internal) 스킬이에요",
+  "main 브랜치의 깨끗한 상태와 .env의 PYPI_TOKEN, 저장소 푸시 권한이 필요해요",
+  "스크립트가 중간에 실패하면 main으로 되돌린 뒤 다시 실행해요"
+ ]
+}

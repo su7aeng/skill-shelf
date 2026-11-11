@@ -1,0 +1,19 @@
+{
+ "description": "Windows의 Photoshop을 명령줄로 조작해요.",
+ "summary": "COM 자동화로 Photoshop 문서를 만들고 열고 저장하며, 레이어, 선택 영역, 문자, 이미지 보정을 명령으로 다뤄요. 여러 형식으로 내보낼 수 있고 --json 옵션으로 결과를 구조화해 받아요. --dry-run 은 저장 없이 실행해요.",
+ "when": [
+  "Photoshop 작업 자동화",
+  "레이어 일괄 편집",
+  "PSD 만들기",
+  "이미지 형식 내보내기"
+ ],
+ "examples": [
+  "새 PSD 만들고 텍스트 레이어 추가해줘",
+  "레이어 이름 목록 뽑아줘",
+  "문서를 PNG로 내보내줘"
+ ],
+ "notes": [
+  "Windows 10/11, Photoshop 2023 이상, Python 3.10 이상, pywin32가 필요해요",
+  "원문이 중국어예요"
+ ]
+}

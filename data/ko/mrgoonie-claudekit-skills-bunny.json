@@ -1,0 +1,20 @@
+{
+ "description": "Bunny.net의 CDN, 저장소, 영상, DNS 등을 연동해요.",
+ "summary": "Bunny.net의 CDN 풀 존, Edge Storage, Stream, DNS, Edge Scripting, Shield, 컨테이너, 이미지 최적화 API로 설정과 배포를 해요. 서비스마다 쓰는 키가 달라 API 호출 방법을 구분해 안내해요.",
+ "when": [
+  "CDN 풀 존 설정",
+  "파일을 Edge Storage에 업로드",
+  "영상 스트리밍 관리",
+  "DNS와 방화벽 설정"
+ ],
+ "examples": [
+  "Bunny CDN 풀 존 만들어줘",
+  "이미지 폴더를 Edge Storage에 올려줘",
+  "Bunny Stream에 영상 업로드하는 방법 알려줘"
+ ],
+ "notes": [
+  "계정 API 키, 저장소 비밀번호, 스트림 라이브러리 키를 용도별로 따로 써요",
+  "Cloudflare나 CloudFront 같은 다른 CDN은 다루지 않아요",
+  "원문은 영어예요"
+ ]
+}

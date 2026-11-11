@@ -1,0 +1,19 @@
+{
+ "description": "Symfony UX 도구 중 알맞은 것을 골라 화면을 만들어요.",
+ "summary": "Stimulus, Turbo, TwigComponent, LiveComponent 중 상황에 맞는 도구를 고르는 기준을 알려 줘요. 서버가 그려 주는 HTML을 바탕으로 자바스크립트는 필요한 곳에만 더하는 방식으로 화면을 구성해요.",
+ "when": [
+  "Symfony 프론트엔드 설계",
+  "UX 도구 선택",
+  "부분 화면 갱신",
+  "실시간 업데이트 구현"
+ ],
+ "examples": [
+  "검색창이 입력할 때마다 결과를 바꾸게 하려는데 어떤 UX 도구를 쓸지 알려줘",
+  "페이지 일부만 새로 고치는 Turbo Frame을 적용해줘"
+ ],
+ "notes": [
+  "Symfony 프로젝트가 전제예요",
+  "실시간 기능에는 Mercure를 함께 써요",
+  "원문이 영어예요"
+ ]
+}

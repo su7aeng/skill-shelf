@@ -1,0 +1,20 @@
+{
+ "description": "푸시 전 검사가 실패한 단계를 진단하고 올바르게 돌려요.",
+ "summary": "푸시 전에 npm run format과 npm run local:gate를 돌리는 규칙을 설명하고, 린트, 커버리지, 스모크, Storybook 같은 단계가 실패할 때 원인을 찾아요. 성공 여부는 출력 문구가 아니라 종료 코드로 확인해요.",
+ "when": [
+  "local:gate 실패",
+  "푸시 전 검사 실행",
+  "worktree에서 다르게 동작",
+  "전체 실행 시간 초과"
+ ],
+ "examples": [
+  "local:gate가 실패했는데 원인 찾아줘",
+  "푸시 전에 뭘 돌려야 해?",
+  "린트 단계가 빨갛게 나오는데 봐줘"
+ ],
+ "notes": [
+  "modelcontextprotocol/inspector 저장소 전용이에요",
+  "npm run validate는 local:gate를 대신하지 못해요",
+  "전체 실행에 몇 분이 걸리고 원문은 영어예요"
+ ]
+}

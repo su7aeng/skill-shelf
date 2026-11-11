@@ -1,0 +1,18 @@
+{
+ "description": "Inspector UI를 직접 띄워 스크린샷으로 확인하며 작업해요.",
+ "summary": "독립 실행 Threads 상태 실험실을 nx 명령으로 띄우고, 수정할 때마다 화면을 캡처해 눈으로 확인해요. 코드가 컴파일되는 것만으로는 충분하지 않다고 보고 비어 있음, 잠김, 오류 같은 상태별 시나리오도 확인해요.",
+ "when": [
+  "Inspector UI 수정",
+  "패널과 런처 다듬기",
+  "시각적 동작 디버그"
+ ],
+ "examples": [
+  "Inspector 런처 위치가 어긋나는 문제를 고쳐줘",
+  "Threads 패널의 빈 상태 화면을 다듬어줘"
+ ],
+ "notes": [
+  "CopilotKit 직원이 쓰는 저장소 내부용이에요",
+  "nx run @copilotkit/web-inspector:dev:standalone 으로 실행해요",
+  "스크린샷을 볼 브라우저 도구가 필요해요"
+ ]
+}

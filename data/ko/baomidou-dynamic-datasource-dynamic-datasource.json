@@ -1,0 +1,19 @@
+{
+ "description": "Spring Boot의 dynamic-datasource 사용법과 오류 해결을 도와줘요.",
+ "summary": "Baomidou 다중 데이터소스 프레임워크의 설치와 @DS, @DSTransactional 사용법을 안내해요. @DS가 안 먹을 때는 버전, 코드 위치, 로그를 먼저 모으고 자기 호출, 트랜잭션, 스레드 같은 원인을 확률 높은 순으로 확인해요.",
+ "when": [
+  "@DS 적용 안 될 때",
+  "다중 데이터소스 설정",
+  "트랜잭션과 스레드 문제",
+  "시작 오류와 연결 풀 설정"
+ ],
+ "examples": [
+  "@DS를 붙였는데 데이터소스가 안 바뀌어, 원인 찾아줘",
+  "Spring Boot에 다중 데이터소스 설정해줘"
+ ],
+ "notes": [
+  "Spring Boot 버전에 맞는 starter를 골라야 해요",
+  "원문이 중국어이고 자세한 내용은 references 문서에 나뉘어 있어요",
+  "로그 레벨을 debug로 켜야 원인을 확인할 수 있어요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "Natron용 MacPorts 포트파일을 최신으로 맞추고 DMG를 만들어요.",
+ "summary": "upstream MacPorts를 갱신하고 check.sh로 어긋난 포트를 찾아 Natron 수정분을 다시 얹어요. 설치된 포트를 다시 빌드하고, 깨진 패치를 고치고, Portfile.patch를 새로 만든 뒤 macOS arm64 DMG까지 빌드해요. lang/libomp 버전은 고정해 둬요.",
+ "when": [
+  "Natron 포트 업그레이드",
+  "upstream 변경 반영",
+  "패치파일 오류 수정",
+  "macOS DMG 빌드"
+ ],
+ "examples": [
+  "Natron MacPorts 포트들 최신으로 업그레이드해줘",
+  "check.sh 돌려서 낡은 Portfile 정리해줘",
+  "Natron을 빌드해서 arm64 DMG 만들어줘"
+ ],
+ "notes": [
+  "tools/MacPorts 폴더와 sudo port 명령을 써요",
+  "tools/jenkins/launchBuildMain.sh로 빌드해요",
+  "원문이 영어예요"
+ ]
+}

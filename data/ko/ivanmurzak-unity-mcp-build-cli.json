@@ -1,0 +1,17 @@
+{
+ "description": "unity-mcp-cli를 빌드해 터미널에서 쓰도록 연결해 줘요.",
+ "summary": "TypeScript로 만든 unity-mcp-cli 도구를 빌드하고 전역으로 링크해서 터미널에서 바로 실행할 수 있게 하는 스킬이에요. 원문 본문을 가져오지 못해 설명 문구만 근거로 정리했어요.",
+ "when": [
+  "unity-mcp-cli 빌드",
+  "CLI를 터미널에 연결",
+  "개발 중 CLI 다시 빌드"
+ ],
+ "examples": [
+  "unity-mcp-cli 빌드하고 전역으로 연결해 줘",
+  "CLI 코드 고쳤으니 다시 빌드해 줘"
+ ],
+ "notes": [
+  "원문 본문을 불러오지 못해 세부 절차는 확인되지 않았어요",
+  "Node 기반 도구라 Node.js 환경이 필요할 수 있어요"
+ ]
+}

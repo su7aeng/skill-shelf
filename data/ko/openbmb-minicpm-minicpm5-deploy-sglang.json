@@ -1,0 +1,20 @@
+{
+ "description": "SGLang으로 MiniCPM5를 API 서버로 띄워요.",
+ "summary": "MiniCPM5-1B 또는 2B를 SGLang으로 OpenAI 호환 HTTP 서버로 실행하는 방법을 안내해요. 접두사 캐시와 도구 호출 파서, 추측 디코딩(DSpark) 옵션, 배치 추론용 Engine API까지 다뤄요.",
+ "when": [
+  "GPU 서버로 모델 서비스",
+  "도구 호출 사용",
+  "배치 평가",
+  "동시 요청 많은 환경"
+ ],
+ "examples": [
+  "SGLang으로 MiniCPM5-2B 서버 띄워줘",
+  "MiniCPM5에 도구 호출 붙여서 날씨 함수 테스트해줘",
+  "DSpark 추측 디코딩으로 MiniCPM5 속도 올려줘"
+ ],
+ "notes": [
+  "NVIDIA GPU가 필요해요",
+  "도구 호출 파서는 pip 릴리스가 아닌 main 브랜치 설치가 필요해요",
+  "원문이 영어예요"
+ ]
+}

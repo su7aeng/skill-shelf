@@ -1,0 +1,18 @@
+{
+ "description": "본인 게임 파일로 젤다 야숨과 왕눈을 앱으로 빌드해요.",
+ "summary": "플레이어가 가진 The Legend of Zelda 게임 파일을 build_app.py로 Mac, iPhone, iPad용 앱으로 만들어요. 환경 확인부터 빌드까지 20~40분 정도 걸리고, 중간에 막히는 오류를 풀어 줘요.",
+ "when": [
+  "젤다 앱 빌드",
+  "Mac과 iPhone용 설치",
+  "빌드 오류 해결"
+ ],
+ "examples": [
+  "내 게임 파일로 왕눈 앱 빌드해줘",
+  "build_app.py 돌리다 난 오류 좀 봐줘"
+ ],
+ "notes": [
+  "arm64 Mac과 macOS 26 이상, Homebrew, Xcode 도구가 필요해요",
+  "본인 파일만 쓰고 prod.keys 내용은 출력하지 않아요",
+  "만든 앱은 본인만 쓰고 공유하면 안 돼요"
+ ]
+}

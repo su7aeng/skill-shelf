@@ -1,0 +1,17 @@
+{
+ "description": "cmem.ai 계정을 연결해 claude-mem을 설정해요.",
+ "summary": "cmem.ai Connect 화면의 동기화 토큰, 사용자 ID, SyncHub URL을 받아 플러그인 config.json에 써요. 토큰은 대화에 다시 보여 주거나 명령 인자에 넣지 않고 파일 쓰기로만 옮겨요.",
+ "when": [
+  "claude-mem 처음 연결",
+  "cmem 키 등록",
+  "클라우드 동기화 설정"
+ ],
+ "examples": [
+  "claude-mem 설정하고 cmem.ai 연결해줘",
+  "내 cmem 키를 등록해줘"
+ ],
+ "notes": [
+  "cmem.ai 계정의 동기화 토큰(cm_로 시작)이 필요해요",
+  "Claude 앱은 임시 환경이라 영구 적용하려면 플러그인을 다시 묶어 설치해야 해요"
+ ]
+}

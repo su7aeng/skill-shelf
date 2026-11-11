@@ -1,0 +1,18 @@
+{
+ "description": "GraphQL 쿼리와 뮤테이션을 .gql 파일과 코드 생성으로 다뤄요.",
+ "summary": "쿼리를 코드에 직접 쓰지 않고 .gql 파일로 만든 뒤 codegen을 돌려 생성된 훅을 쓰게 해요. 뮤테이션에는 onError 처리를 꼭 넣으라고 안내해요.",
+ "when": [
+  "GraphQL 쿼리 추가",
+  "뮤테이션 작성",
+  "타입 코드 생성",
+  "Apollo Client 사용"
+ ],
+ "examples": [
+  "아이템 목록 쿼리를 GraphQL로 추가해 줘",
+  "생성 뮤테이션에 오류 처리까지 넣어 줘"
+ ],
+ "notes": [
+  "예시 명령은 npm run gql:typegen 이에요",
+  "Apollo Client와 codegen 설정이 있는 프로젝트를 전제로 해요"
+ ]
+}

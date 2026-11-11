@@ -1,0 +1,18 @@
+{
+ "description": "ClickClack 채팅 앱의 배포와 도메인 운영을 도와줘요.",
+ "summary": "Cloudflare Worker와 컨테이너로 운영되는 ClickClack의 배포 순서와 확인 방법을 안내해요. 컨테이너가 교체되지 않는 문제는 컨테이너 이름을 바꿔 다시 배포하는 방식으로 풀어요.",
+ "when": [
+  "앱 배포",
+  "도메인과 DNS 확인",
+  "운영 상태 점검"
+ ],
+ "examples": [
+  "clickclack 새 버전 배포해줘",
+  "배포 후 번들이 반영됐는지 확인해줘"
+ ],
+ "notes": [
+  "작성자 환경의 저장소와 Cloudflare 계정, Docker가 전제예요",
+  "배포에 wrangler 로그인이나 토큰이 필요해요",
+  "원문에 특정 계정 ID와 1Password 항목 이름이 들어 있어요"
+ ]
+}

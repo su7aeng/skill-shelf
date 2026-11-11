@@ -1,0 +1,19 @@
+{
+ "description": "Langfuse에 모델 가격과 선택 가능 모델을 추가하고 고쳐요.",
+ "summary": "공식 문서에서 가격을 확인해 default-model-prices.json에 항목을 넣고, matchPattern 정규식과 가격 구간을 맞춰요. 필요하면 types.ts의 선택 가능 모델 목록도 바꾸고 JSON이 맞는지 검증해요.",
+ "when": [
+  "새 모델 가격 추가",
+  "기존 가격 수정",
+  "Bedrock과 Vertex 이름 패턴 확장",
+  "종료된 모델 정리"
+ ],
+ "examples": [
+  "새로 나온 모델 가격을 Langfuse 기본 가격표에 추가해줘",
+  "서비스가 종료된 모델을 선택 목록에서 빼줘"
+ ],
+ "notes": [
+  "Langfuse 저장소의 worker와 packages/shared 폴더 작업용이에요",
+  "토큰당 가격은 100만 토큰당 달러 값에 e-6을 붙여 써요",
+  "종료 모델도 과거 비용 계산을 위해 가격표 항목은 남겨요"
+ ]
+}

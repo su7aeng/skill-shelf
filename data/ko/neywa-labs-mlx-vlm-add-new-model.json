@@ -1,0 +1,19 @@
+{
+ "description": "새 모델 구조를 MLX-VLM으로 옮기는 작업을 안내해요.",
+ "summary": "Hugging Face의 model_type을 mlx_vlm/models 아래 새 폴더로 옮기는 절차를 따라가요. 비슷한 기존 모델을 복사해 시작하고, ModelConfig를 쓰고, 가중치 이름을 맞춘 뒤 테스트 클래스를 추가하고 검증해요.",
+ "when": [
+  "새 모델 포팅",
+  "ModelConfig 작성",
+  "가중치 이름 매핑",
+  "포팅 검증"
+ ],
+ "examples": [
+  "이 Hugging Face 모델을 MLX-VLM에 추가해 줘",
+  "비슷한 모델을 기준으로 새 모델 파일 구조를 잡아줘"
+ ],
+ "notes": [
+  "가중치가 safetensors가 아니면 먼저 변환해야 해요",
+  "새 설정 값은 기존 설정이 그대로 로드되도록 기본값을 줘요",
+  "모든 모델의 도구 호출 지원 여부를 확인해요"
+ ]
+}

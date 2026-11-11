@@ -1,0 +1,17 @@
+{
+ "description": "Live 받은편지함 앱의 메시지를 읽고 새 메시지를 저장해 줘요.",
+ "summary": "Live inbox 앱의 listMessages로 최근 메시지를 최대 100개까지 읽어요. 사용자가 요청할 때만 receiveMessage로 새 메시지를 저장해요. 먼저 tools.search로 앱의 기능을 확인하고 Executor의 권한과 승인 요청을 따라요.",
+ "when": [
+  "받은 메시지 확인",
+  "새 메시지 저장",
+  "최근 메시지 조회"
+ ],
+ "examples": [
+  "받은편지함 최근 메시지 보여줘",
+  "제목이 회의 일정인 메시지를 저장해줘"
+ ],
+ "notes": [
+  "receiveMessage는 호출할 때마다 새 기록을 추가해서 반복하면 중복돼요",
+  "이 안내가 호출 권한을 주지는 않고 Executor의 승인 절차를 따라야 해요"
+ ]
+}

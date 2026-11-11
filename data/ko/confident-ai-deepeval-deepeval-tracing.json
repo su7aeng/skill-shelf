@@ -1,0 +1,18 @@
+{
+ "description": "DeepEval 추적을 앱에 넣어 동작을 단계별로 보이게 해요.",
+ "summary": "LLM 앱이나 에이전트에 DeepEval 추적을 붙여 실행 과정을 span 단위로 Confident AI에서 보게 해요. LangGraph, LangChain 같은 연동이 있으면 쓰고, 없으면 @observe를 직접 달아요. span 종류와 태그, 메타데이터도 지정해요.",
+ "when": [
+  "@observe 추가",
+  "프레임워크 연동",
+  "span 종류와 태그 지정"
+ ],
+ "examples": [
+  "이 LangGraph 앱에 DeepEval 추적 붙여줘",
+  "@observe로 에이전트 호출 과정 추적해줘"
+ ],
+ "notes": [
+  "Python 과 pip install deepeval 이 필요해요",
+  "Confident AI로 보내려면 deepeval login 이나 CONFIDENT_API_KEY 가 필요해요",
+  "평가 실행은 deepeval 스킬 몫이고 이 스킬은 추적까지만 해요"
+ ]
+}

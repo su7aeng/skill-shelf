@@ -1,0 +1,17 @@
+{
+ "description": "WeChat 공식 계정 글을 여러 형식으로 내려받아요.",
+ "summary": "MCP 서버를 통해 글 한 편이나 앨범 모음, 계정의 전체 글을 HTML, PDF, Word, Markdown, TXT, MHTML로 저장해요. 글 정보를 CSV로 내보내는 기능도 있어요.",
+ "when": [
+  "WeChat 글 저장",
+  "계정 글 일괄 다운로드",
+  "글 목록 CSV 내보내기"
+ ],
+ "examples": [
+  "이 WeChat 글을 PDF로 저장해줘",
+  "이 공식 계정의 글을 전부 내려받아줘"
+ ],
+ "notes": [
+  "로컬 MCP 주소 http://127.0.0.1:4545/mcp를 기본으로 써요",
+  "로컬이 안 되면 원격 MCP로 일부 기능만 대신 쓸 수 있어요"
+ ]
+}

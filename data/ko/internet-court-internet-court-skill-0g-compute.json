@@ -1,0 +1,20 @@
+{
+ "description": "0G Compute 네트워크로 AI 추론과 파인튜닝 코드를 짜도록 안내해요.",
+ "summary": "탈중앙 GPU 마켓인 0G Compute에서 챗봇, 이미지 생성, 음성 인식을 만드는 방법을 알려줘요. 0g-serving-broker SDK, processResponse 호출, broker.inference 메서드, 0g-compute-cli 명령을 다뤄요. 스킬 안의 코드 패턴을 그대로 가져다 쓰도록 해요.",
+ "when": [
+  "0G 추론 연동",
+  "탈중앙 GPU 서비스 이용",
+  "모델 파인튜닝",
+  "0G CLI 사용"
+ ],
+ "examples": [
+  "0G Compute로 챗봇 만드는 코드를 짜줘",
+  "0g-compute-cli로 계정 만드는 방법 알려줘",
+  "0G에서 이미지 생성 호출은 어떻게 해?"
+ ],
+ "notes": [
+  "API 응답마다 processResponse()를 호출해야 해요",
+  "개인 키는 코드에 쓰지 않고 환경 변수로 넣어요",
+  "원문이 영어예요"
+ ]
+}

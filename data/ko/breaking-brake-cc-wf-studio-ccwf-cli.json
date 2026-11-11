@@ -1,0 +1,18 @@
+{
+ "description": "ccwf 명령으로 워크플로 JSON을 보고 검사하고 내보내고 실행해요.",
+ "summary": "@cc-wf-studio/cli의 ccwf를 써서 .vscode/workflows 아래 워크플로 파일을 Markdown이나 Mermaid로 그리고, 스키마를 검사하고, 브라우저로 미리 보고, 스킬로 변환하거나 실행해요. VSCode 없이 터미널에서 가능해요.",
+ "when": [
+  "워크플로 시각화",
+  "워크플로 검사",
+  "Mermaid 다이어그램 만들기",
+  "스킬로 변환해 실행"
+ ],
+ "examples": [
+  "이 워크플로 파일을 다이어그램으로 보여줘",
+  "워크플로 JSON이 올바른지 검사해줘"
+ ],
+ "notes": [
+  "ccwf가 없으면 npm install -g @cc-wf-studio/cli 로 설치하거나 npx로 실행해요",
+  "동작이 이상하면 ccwf 하위 명령의 --help를 먼저 확인해요"
+ ]
+}

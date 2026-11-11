@@ -1,0 +1,19 @@
+{
+ "description": "ai-memory의 에이전트용 안내와 스킬 설치를 관리해요.",
+ "summary": "CLAUDE.md나 AGENTS.md 안의 ai-memory 관리 구간과 ai-memory 스킬을 설치, 갱신, 수리, 제거해요. 표시된 시작과 끝 구간만 바꾸고 다른 지침은 건드리지 않아요. 같은 이름의 사용자가 만든 스킬은 표식이 없으면 덮어쓰지 않아요.",
+ "when": [
+  "ai-memory 안내 설치",
+  "스킬 갱신과 수리",
+  "설치 제거",
+  "CLAUDE.md 연동"
+ ],
+ "examples": [
+  "ai-memory 라우팅 스킬 설치해줘",
+  "AGENTS.md의 ai-memory 안내 구간 갱신해줘"
+ ],
+ "notes": [
+  "ai-memory-managed 표식이 있는 파일만 덮어쓰거나 지우고, 강제 옵션을 주면 예외예요",
+  "Grok 전역 설치는 별도 규칙 파일도 만들어요",
+  "ai-memory MCP 도구가 필요해요"
+ ]
+}

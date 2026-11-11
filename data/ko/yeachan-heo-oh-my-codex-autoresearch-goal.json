@@ -1,0 +1,14 @@
+{
+ "description": "없어진 스킬이며 $autoresearch로 대체됐다고 알려줘요.",
+ "summary": "OMX 0.21에서 제거된 스킬의 안내용 자리표시예요. 같은 역할을 하는 $autoresearch로 바꿔 쓰라는 내용만 담겨 있어요.",
+ "when": [
+  "옛 스킬 이름이 나올 때",
+  "$autoresearch로 옮길 때"
+ ],
+ "examples": [
+  "autoresearch-goal 대신 뭘 써야 해?"
+ ],
+ "notes": [
+  "$autoresearch를 대신 사용하세요"
+ ]
+}

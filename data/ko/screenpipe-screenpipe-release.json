@@ -1,0 +1,19 @@
+{
+ "description": "screenpipe 모노레포의 구성 요소를 릴리스해요.",
+ "summary": "데스크톱 앱, CLI와 서버, MCP 패키지의 버전을 올리고 GitHub Actions를 실행해 릴리스를 진행해요. crates 아래가 바뀌었는지 확인해 CLI 릴리스가 필요한지 판단해요. MCP는 태그나 수동 실행으로만 시작되므로 별도 절차 문서를 따라요.",
+ "when": [
+  "새 버전 배포",
+  "앱만 릴리스",
+  "CLI 릴리스 여부 판단",
+  "MCP 패키지 게시"
+ ],
+ "examples": [
+  "screenpipe 새 버전 릴리스해줘",
+  "마지막 CLI 릴리스 이후 crates가 바뀌었는지 확인해줘"
+ ],
+ "notes": [
+  "GitHub Actions 워크플로와 저장소 쓰기 권한이 필요해요",
+  "MCP는 npm에 이미 올라간 버전이면 게시되지 않아요",
+  "packages/screenpipe-mcp/RELEASE.md를 따라야 해요"
+ ]
+}

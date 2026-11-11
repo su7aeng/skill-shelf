@@ -1,0 +1,18 @@
+{
+ "description": "APK 안에서 문자열, 타입, 메서드, 필드가 쓰인 곳을 찾아요.",
+ "summary": "APK 경로, 종류(string, type, method, field), 찾을 값을 받아 Androguard findrefs로 참조 위치를 검색해요. 흥미로운 결과는 해당 클래스나 메서드를 디컴파일해 확인하고 근거를 보고서 폴더에 기록해요.",
+ "when": [
+  "URL이나 비밀번호 문자열 찾기",
+  "특정 API 호출 위치 찾기",
+  "필드 사용처 추적",
+  "분석 근거 기록"
+ ],
+ "examples": [
+  "app.apk에서 password 문자열이 쓰인 곳 찾아줘",
+  "OkHttpClient를 쓰는 코드 위치 알려줘"
+ ],
+ "notes": [
+  "androguard 설치가 필요하고 디컴파일 추가 패키지가 없으면 설치해야 해요",
+  "찾은 결과는 workspace/reports/에 적어요"
+ ]
+}

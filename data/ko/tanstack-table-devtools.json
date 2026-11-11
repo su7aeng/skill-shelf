@@ -1,0 +1,19 @@
+{
+ "description": "Angular Table v9를 Devtools에 연결해요.",
+ "summary": "injectTanStackTableDevtools로 Angular의 table 인스턴스를 Devtools에 등록하는 방법을 알려줘요. 주입 컨텍스트 안에서 호출하고, 표마다 고유한 options.key를 줘야 해요. 표가 없거나 꺼진 경우의 처리와 개발 모드 한정 동작도 설명해요.",
+ "when": [
+  "Angular 표 디버깅",
+  "Devtools 패널 안 보임",
+  "표 등록과 정리",
+  "운영 환경 사용 여부 확인"
+ ],
+ "examples": [
+  "Angular 표를 Devtools에 연결해줘",
+  "Devtools에 표가 안 나타나는 이유를 알려줘"
+ ],
+ "notes": [
+  "@tanstack/angular-table-devtools 패키지가 필요해요",
+  "Devtools 호스트는 앱 설정에서 한 번만 제공해요",
+  "기본 진입점은 운영 빌드에서 아무 동작도 하지 않아요"
+ ]
+}

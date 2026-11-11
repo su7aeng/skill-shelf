@@ -1,0 +1,18 @@
+{
+ "description": "Lark 근태 시스템에서 내 출퇴근 기록을 조회해요.",
+ "summary": "lark-cli의 attendance 명령으로 사용자의 출퇴근 기록을 가져와요. employee_type과 user_ids 같은 고정 값은 자동으로 채우고, 호출 전에 schema로 파라미터 구조를 확인해요. 결과는 조회된 근태 기록이에요.",
+ "when": [
+  "내 출퇴근 기록 확인",
+  "근태 내역 조회",
+  "지각과 누락 점검"
+ ],
+ "examples": [
+  "이번 주 내 출퇴근 기록을 보여줘",
+  "지난달 출근 기록에서 빠진 날이 있는지 확인해줘"
+ ],
+ "notes": [
+  "lark-cli와 attendance:task:readonly 권한이 필요해요",
+  "시작 전에 lark-shared 문서의 인증 절차를 먼저 읽어요",
+  "원문이 중국어예요"
+ ]
+}

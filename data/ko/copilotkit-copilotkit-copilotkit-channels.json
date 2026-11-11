@@ -1,0 +1,18 @@
+{
+ "description": "CopilotKit 관리형 Channel의 코드 부분을 작성하거나 고쳐요.",
+ "summary": "Slack이나 Teams에서 에이전트가 답하게 하는 Channel의 코드를 다뤄요. 먼저 channel-host.mts 가 있는지 보고, 있으면 CLI가 만든 채널을 고치고 없으면 선언과 실행 호스트, 활성화 호출을 직접 써요.",
+ "when": [
+  "Channel 코드 수정",
+  "CLI 없이 만든 프로젝트에 채널 연결",
+  "Teams 제공자 설정"
+ ],
+ "examples": [
+  "CLI로 만든 Slack 채널의 응답 동작을 바꿔줘",
+  "이 기존 프로젝트에 CopilotKit 채널 코드를 붙여줘"
+ ],
+ "notes": [
+  "자체 호스팅 어댑터 패키지(@copilotkit/channels-*)는 다루지 않아요",
+  "Slack 앱을 처음 만드는 일은 setup-slack-channel 스킬이 맡아요",
+  "channel-host.mts 가 있으면 새 호스트를 쓰지 않아요"
+ ]
+}

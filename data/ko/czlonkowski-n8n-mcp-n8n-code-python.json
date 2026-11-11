@@ -1,0 +1,19 @@
+{
+ "description": "n8n Code 노드에 쓸 Python 코드를 작성해요.",
+ "summary": "n8n Code 노드에서 Python으로 데이터를 다루는 방법과 제약을 안내해요. _input, _json, _node 문법과 표준 라이브러리 사용법을 다루며, 대부분의 경우 JavaScript가 낫다는 점도 함께 알려줘요.",
+ "when": [
+  "Python Code 노드",
+  "표준 라이브러리 활용",
+  "정규식·해시 처리",
+  "Python 제약 확인"
+ ],
+ "examples": [
+  "n8n Code 노드에서 파이썬으로 통계를 계산해줘",
+  "n8n 파이썬 코드에서 정규식으로 이메일을 뽑아줘"
+ ],
+ "notes": [
+  "Python Code 노드는 베타이고 JavaScript보다 쓸 수 있는 기능이 적어요",
+  "사용자가 Python을 원하거나 표준 라이브러리가 꼭 필요할 때만 쓰라고 권해요",
+  "AI 도구용 Code Tool은 n8n-code-tool 스킬을 써야 해요"
+ ]
+}

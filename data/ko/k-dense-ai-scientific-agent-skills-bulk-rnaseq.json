@@ -1,0 +1,18 @@
+{
+ "description": "벌크 RNA-seq 데이터를 차등 발현 분석용 카운트로 준비해요.",
+ "summary": "FASTQ나 Salmon, STAR, featureCounts 결과를 유전자 수준 카운트 행렬로 만들어 PyDESeq2로 넘기는 흐름을 다뤄요. nf-core/rnaseq 설정, 복제 수와 가닥성 확인, 참조 출처 기록, 품질 점검을 재현 가능하게 진행해요.",
+ "when": [
+  "FASTQ에서 카운트까지 분석",
+  "nf-core/rnaseq 설정",
+  "카운트 행렬 만들기",
+  "차등 발현 분석 준비"
+ ],
+ "examples": [
+  "이 FASTQ 파일들로 nf-core/rnaseq 설정을 만들어줘",
+  "Salmon 결과를 DESeq2용 카운트 행렬로 바꿔줘"
+ ],
+ "notes": [
+  "단일세포 데이터는 scanpy, 통계 모델 적합은 pydeseq2 스킬이 맡아요",
+  "FastQC, STAR, Salmon 같은 외부 도구가 필요해요"
+ ]
+}

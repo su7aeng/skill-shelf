@@ -1,0 +1,18 @@
+{
+ "description": "질문을 나눠 여러 에이전트로 깊게 조사하고 전략 분석을 써요.",
+ "summary": "질문을 병렬 조사 주제로 쪼개고 여러 에이전트를 띄워 조사시킨 뒤 결과를 실행 가능한 전략 분석으로 종합해요. 이 파일은 안내문일 뿐이고, 실제 절차는 .claude/skills/auto-research/SKILL.md 를 그대로 따르라고 가리켜요. 이후 .agents/rules/cog.md 규칙도 따라요.",
+ "when": [
+  "깊이 있는 전략 조사",
+  "여러 관점 병렬 조사",
+  "조사 결과를 전략으로 정리"
+ ],
+ "examples": [
+  "이 시장에 대해 깊게 조사해서 전략 분석을 써줘",
+  "경쟁 구도를 여러 갈래로 나눠 조사해줘",
+  "조사 결과를 실행 가능한 제안으로 정리해줘"
+ ],
+ "notes": [
+  "이 프로젝트의 .claude/skills/auto-research/SKILL.md 와 .agents/rules/cog.md 가 있어야 해요",
+  "Antigravity 환경에서는 하위 에이전트를 .agents/agents/ 파일로 호출해요"
+ ]
+}

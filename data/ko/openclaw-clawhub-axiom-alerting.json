@@ -1,0 +1,19 @@
+{
+ "description": "Axiom의 모니터와 알림 채널을 API로 만들고 관리해요.",
+ "summary": "v2 공개 API를 scripts의 monitor-*, notifier-* 스크립트로 호출해 모니터 생성, 수정, 삭제, 이력 조회와 알림 라우팅을 해요. 인증 정보는 .axiom.toml에서 읽어요.",
+ "when": [
+  "Axiom 알림 구성",
+  "모니터 생성",
+  "알림 라우팅",
+  "모니터 동작 검증"
+ ],
+ "examples": [
+  "오류율이 높으면 알려주는 모니터 만들어줘",
+  "등록된 모니터 목록 보여줘"
+ ],
+ "notes": [
+  "scripts/setup을 먼저 실행해야 해요",
+  "프로젝트 루트나 홈의 .axiom.toml에 배포 URL과 토큰이 있어야 해요",
+  "Axiom 계정이 필요해요"
+ ]
+}

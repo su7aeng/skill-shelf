@@ -1,0 +1,20 @@
+{
+ "description": "React Native TV 앱의 리모컨 이동, 화면 구성, 재생 문제를 점검해요.",
+ "summary": "Apple TV, Android TV, Fire TV, Vega 같은 TV 대상 앱에서만 생기는 문제를 다뤄요. 포커스와 D-pad 이동, 멀리서 보는 화면 배치, 영상 재생과 DRM, 적은 메모리, 접근성을 살펴요. 일반 React Native 성능 문제는 react-native-best-practices로 넘겨요.",
+ "when": [
+  "리모컨 포커스 이동 문제",
+  "TV 화면 글자와 배치",
+  "TV 영상 재생과 DRM",
+  "저사양 TV 성능"
+ ],
+ "examples": [
+  "TV 앱에서 리모컨으로 포커스가 엉뚱한 곳에 가",
+  "Fire TV에서 영상이 재생되지 않는 원인을 찾아줘",
+  "TV 앱 접근성을 점검해줘"
+ ],
+ "notes": [
+  "react-native-tvos, Expo TV, Amazon Vega, Tizen, webOS 같은 TV 대상에 써요",
+  "먼저 어떤 TV 플랫폼인지 확인해요",
+  "원문은 영어예요"
+ ]
+}

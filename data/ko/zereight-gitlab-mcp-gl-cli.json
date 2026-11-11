@@ -1,0 +1,20 @@
+{
+ "description": "MCP 등록 없이 터미널에서 GitLab의 MR, 이슈, 파이프라인을 읽어요.",
+ "summary": "zereight-mcp-gitlab 명령으로 먼저 user whoami 를 실행해 인증 상태를 확인해요. 인증이 안 돼 있으면 개인 액세스 토큰이나 OAuth 기기 흐름 중 하나를 사용자가 직접 설정하게 안내해요. 이후 MR 목록, 요약, 변경 파일, 전체 diff, 리뷰 토론, 파이프라인을 조회해요.",
+ "when": [
+  "MCP 도구가 없을 때 GitLab 조회",
+  "MR diff와 토론 읽기",
+  "파이프라인 상태 확인",
+  "CLI 전용 설정"
+ ],
+ "examples": [
+  "이 GitLab MR의 변경 파일과 리뷰 코멘트 정리해줘",
+  "열린 MR 목록 가져와줘",
+  "이 MR 파이프라인이 통과했는지 봐줘"
+ ],
+ "notes": [
+  "토큰은 사용자가 직접 입력해야 하고 AI가 만들거나 출력하지 않아요",
+  "읽기에는 read_api, 쓰기에는 api 권한이 필요해요",
+  "명령이 없으면 npm install -g @zereight/mcp-gitlab 로 설치해요"
+ ]
+}

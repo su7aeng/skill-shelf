@@ -1,0 +1,19 @@
+{
+ "description": "REST나 GraphQL API를 설계하고 OpenAPI 명세를 써 줘요.",
+ "summary": "도메인을 분석해 리소스를 모델링하고 엔드포인트를 설계한 뒤 OpenAPI 3.1 명세를 만들어요. redocly로 검증하고 prism 목 서버로 계약을 시험하며, 버전 관리와 폐기 전략까지 계획해요.",
+ "when": [
+  "REST API 설계",
+  "OpenAPI 명세 작성",
+  "버전 관리 전략",
+  "페이지네이션과 오류 규칙"
+ ],
+ "examples": [
+  "주문 관리 REST API를 설계하고 OpenAPI로 써줘",
+  "API 버전 올릴 때 하위 호환 전략 알려줘",
+  "오류 응답 형식을 일관되게 정해줘"
+ ],
+ "notes": [
+  "검증에 npx 기반 도구를 써요",
+  "원문이 영어예요"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "Windmill에 TriggerCrud 기반 새 트리거 종류를 추가할 때 고칠 곳을 알려줘요.",
+ "summary": "Kafka, GCP, Azure, MQTT, SQS, NATS, Postgres, Email처럼 TriggerCrud를 구현하는 트리거를 추가할 때 백엔드와 프런트엔드, CLI 등 바꿔야 할 모든 파일을 점검표로 알려요. 하나라도 빠지면 조용히 오류가 나요.",
+ "when": [
+  "새 트리거 추가",
+  "트리거 코드 점검",
+  "동기화 누락 확인"
+ ],
+ "examples": [
+  "Windmill에 새 트리거 종류 추가하는 파일 목록 알려줘",
+  "트리거 추가 작업에서 빠진 곳 찾아줘"
+ ],
+ "notes": [
+  "Nextcloud나 Google Drive 같은 네이티브 트리거는 native-trigger 스킬을 써요",
+  "Windmill 저장소 개발자용이에요"
+ ]
+}

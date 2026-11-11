@@ -1,0 +1,19 @@
+{
+ "description": "Supabase가 들어간 모든 작업을 최신 문서 기준으로 도와요.",
+ "summary": "DB, 인증, Edge Functions, 실시간, 스토리지 등 Supabase 전반을 다뤄요. 기능이 자주 바뀌므로 변경 기록과 현재 문서를 먼저 확인하고, 작업 뒤에는 테스트 쿼리로 검증해요. 같은 시도가 두세 번 실패하면 방법을 바꿔요.",
+ "when": [
+  "Supabase 로그인 문제",
+  "스키마 변경과 마이그레이션",
+  "RLS 정책 작성",
+  "Edge Functions 개발"
+ ],
+ "examples": [
+  "Supabase 로그인 후 세션이 유지되지 않아, 고쳐줘",
+  "users 테이블에 RLS 정책 추가해줘",
+  "Supabase 마이그레이션 만들어줘"
+ ],
+ "notes": [
+  "공식 변경 기록과 문서를 확인하며 일해요",
+  "새 테이블은 Data API 설정에 따라 anon, authenticated 권한을 따로 줘야 할 수 있어요"
+ ]
+}

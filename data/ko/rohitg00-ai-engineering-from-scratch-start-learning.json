@@ -1,0 +1,20 @@
+{
+ "description": "AI Engineering from Scratch 강의를 시작할 때 첫 진단과 학습 계획을 만들어줘요.",
+ "summary": "542개 레슨, 20단계로 된 AI Engineering from Scratch 과정의 처음 안내를 맡는 스킬이에요. 학습 목적을 인터뷰하고 수준 확인 퀴즈를 낸 뒤, 현재 폴더에 LEARNING.md 학습 계획 파일을 써요. 이후 learn 스킬이 이 파일을 읽고 갱신해요.",
+ "when": [
+  "강의 처음 시작",
+  "수준 진단",
+  "학습 계획 만들기",
+  "이어서 공부하기 연결"
+ ],
+ "examples": [
+  "AI 엔지니어링 강의를 시작하고 싶어",
+  "내 수준에 맞는 학습 계획을 만들어줘",
+  "이전에 하던 학습을 이어서 하고 싶어"
+ ],
+ "notes": [
+  "MCP나 Agent Skills만 원하면 learn-mcp, learn-agent-skills 같은 전용 스킬로 안내하고 LEARNING.md는 만들지 않아요",
+  "질문 도구가 없으면 보기를 글자로 보여주고 답을 기다려요",
+  "실행 방법은 Codex, Claude Code 등 환경마다 달라요"
+ ]
+}

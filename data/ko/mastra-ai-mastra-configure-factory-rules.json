@@ -1,0 +1,18 @@
+{
+ "description": "Mastra Factory의 보드 규칙과 연동 이벤트 규칙을 설정해요.",
+ "summary": "배포 설정 코드에서 MastraFactory, 보드 정의, GitHub와 Linear 연동 생성자를 찾아 규칙을 고쳐요. 카드가 옮겨질 수 있는 단계는 nextPhases로 제한하고, 정책은 서버 코드에만 두어요.",
+ "when": [
+  "Factory 보드 규칙 수정",
+  "GitHub나 Linear 이벤트 규칙 변경",
+  "카드 이동 단계 제한"
+ ],
+ "examples": [
+  "Linear 이슈가 닫힐 때 규칙을 꺼줘",
+  "백로그 카드가 바로 완료로 못 가게 막아줘"
+ ],
+ "notes": [
+  "Mastra Factory를 쓰는 프로젝트에서만 의미가 있어요",
+  "파일 경로는 추측하지 않고 코드를 검색해 찾아요",
+  "원문은 영어예요"
+ ]
+}

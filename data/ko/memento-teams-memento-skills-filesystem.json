@@ -1,0 +1,19 @@
+{
+ "description": "파일을 읽고 쓰고 고치고 찾는 기본 작업을 도와줘요.",
+ "summary": "파일 목록 보기, 읽기, 만들기, 수정, 복사, 이동, 검색을 외부 도구 없이 기본 도구로 처리해요. JSON, CSV, YAML 읽고 쓰기와 디렉터리 작업, 문자열 검색, 텍스트 가공 예시를 담고 있어요. 복잡한 일괄 변환에는 python_repl을 보조로 써요.",
+ "when": [
+  "파일 읽고 쓰기",
+  "폴더 구조 확인",
+  "텍스트 검색",
+  "JSON, CSV, YAML 처리"
+ ],
+ "examples": [
+  "이 폴더에서 로그 파일만 찾아줘",
+  "data.json을 읽어서 필드 하나를 고쳐줘",
+  "CSV의 두 번째 열만 뽑아서 새 파일로 저장해줘"
+ ],
+ "notes": [
+  "list_dir, read_file, file_create, edit_file_by_lines, grep, bash 같은 기본 도구를 써요",
+  "YAML 처리는 pyyaml 설치가 필요해요"
+ ]
+}

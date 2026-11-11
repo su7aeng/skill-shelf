@@ -1,0 +1,20 @@
+{
+ "description": "Gemini와 오픈 모델을 Agent Platform에서 호출해요.",
+ "summary": "Google Cloud Agent Platform의 Gemini 모델과 Llama, DeepSeek, Qwen 같은 외부 모델을 호출하는 방법을 안내해요. 인증과 접속 주소 설정, 테스트 프롬프트 실행, 호출 코드 작성, 429와 400, 404 오류 해결을 다뤄요.",
+ "when": [
+  "모델 호출 코드 작성",
+  "테스트 프롬프트 실행",
+  "인증과 엔드포인트 설정",
+  "429·404 오류 해결"
+ ],
+ "examples": [
+  "Agent Platform의 Gemini를 호출하는 파이썬 코드를 써줘",
+  "Llama 모델에 질문을 하나 보내서 답을 받아와줘",
+  "429 Resource Exhausted 오류가 나는데 원인을 찾아줘"
+ ],
+ "notes": [
+  "gcloud 명령 전에 읽어야 하는 사용량 표기(attribution) 문서가 따로 있어요",
+  "모델 배포나 평가에는 쓰지 않는 스킬이에요",
+  "직접 배포한 모델의 엔드포인트도 호출 대상에 포함돼요"
+ ]
+}

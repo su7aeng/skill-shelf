@@ -1,0 +1,18 @@
+{
+ "description": "DSH 커뮤니티 플러그인을 만들고 색인에 등록해요.",
+ "summary": "플러그인 본체는 기여자 본인 저장소에서 만들고, 등록은 dsh-community-plugins 저장소의 community.json에 해요. 그 저장소에서 pnpm community:check, typecheck, test, build를 돌려 확인하고 PR도 그쪽으로 보내요.",
+ "when": [
+  "커뮤니티 플러그인 개발",
+  "플러그인 색인 등록",
+  "community.json 수정"
+ ],
+ "examples": [
+  "커뮤니티 플러그인을 만들어서 목록에 올리고 싶어",
+  "community.json에 내 플러그인 항목 추가해줘"
+ ],
+ "notes": [
+  "원문이 중국어 중심이에요",
+  "dsh-web 쪽이 아니라 dsh-community-plugins 저장소로 PR을 보내야 해요",
+  "스킨과 펫은 별도 스킬이 있어요"
+ ]
+}

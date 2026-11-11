@@ -1,0 +1,19 @@
+{
+ "description": "Symfony에서 EasyAdmin 5 관리자 화면을 만들고 고쳐요.",
+ "summary": "대시보드, CRUD 컨트롤러, 필드, 폼 배치, 액션, 필터, 메뉴, 권한, 템플릿, 테스트를 EasyAdmin 5 방식으로 작성해요. 인터넷의 EasyAdmin 4 자료와 API가 달라 오류가 나기 쉬워서, 설치된 버전에 맞는 참고 문서를 우선 따라요.",
+ "when": [
+  "관리자 대시보드 만들기",
+  "엔티티 CRUD 화면 추가",
+  "필드와 필터 설정",
+  "관리자 권한과 메뉴 구성"
+ ],
+ "examples": [
+  "Product 엔티티용 CRUD 컨트롤러를 만들어줘",
+  "관리자 목록에 상태 필터를 추가해줘"
+ ],
+ "notes": [
+  "easycorp/easyadmin-bundle 패키지 안에 들어 있는 스킬이에요",
+  "버전이 다르면 php bin/console easyadmin:ai:update 실행을 안내해요",
+  "references 폴더의 api.md, patterns.md, traps.md를 함께 참고해요"
+ ]
+}

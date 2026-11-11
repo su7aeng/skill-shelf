@@ -1,0 +1,19 @@
+{
+ "description": "OpenClaw에 장기 기억 플러그인 memory-tencentdb를 설치하고 확인해요.",
+ "summary": "환경 버전을 점검하고 플러그인을 설치한 뒤 ~/.openclaw/openclaw.json에 최소 설정을 써요. 필요하면 캡처, 추출, 회상, 임베딩 등 설정을 더하고 동작을 확인해요.",
+ "when": [
+  "기억 플러그인 설치",
+  "장기 기억 켜기",
+  "회상 설정 조정",
+  "기억이 안 될 때 점검"
+ ],
+ "examples": [
+  "OpenClaw에 memory-tencentdb 설치해줘",
+  "플러그인은 깔았는데 기억이 안 돼, 확인해줘"
+ ],
+ "notes": [
+  "원문이 중국어예요",
+  "OpenClaw 2026.3.13 이상과 Node.js 22.16.0 이상이 필요해요",
+  "OpenClaw 이외의 환경에는 맞지 않아요"
+ ]
+}

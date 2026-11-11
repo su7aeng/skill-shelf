@@ -1,0 +1,17 @@
+{
+ "description": "Greptile CLI로 로컬 브랜치를 리뷰하고 결과를 요약해요.",
+ "summary": "git 저장소인지 확인하고 greptile CLI 설치와 로그인 상태를 점검한 뒤 greptile review --json을 실행해요. 상태, 지적 개수, 심각도 순 문제와 고칠 파일, 다음 조치를 간추려 알려줘요.",
+ "when": [
+  "PR 올리기 전 리뷰",
+  "로컬 브랜치 점검",
+  "Greptile 피드백 받기"
+ ],
+ "examples": [
+  "PR 만들기 전에 Greptile로 리뷰해줘",
+  "이 브랜치 Greptile 리뷰 결과 요약해줘"
+ ],
+ "notes": [
+  "greptile CLI가 필요하고 없으면 설치 전에 허락을 물어봐요",
+  "로그인은 사용자가 직접 마쳐야 해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "ARIA role 값이 올바른지 점검해요.",
+ "summary": "오타가 있거나 표준에 없는 role 값을 찾아 W3C 표준 값으로 바꾸도록 안내해요. 직접 만든 위젯보다 button, input 같은 기본 HTML 요소를 먼저 권해요.",
+ "when": [
+  "ARIA 마크업 검토",
+  "role 오타 찾기",
+  "커스텀 위젯 점검",
+  "접근성 코드 리뷰"
+ ],
+ "examples": [
+  "이 HTML에 잘못된 role이 있는지 찾아줘",
+  "커스텀 버튼을 기본 button으로 바꿀 수 있는지 봐줘"
+ ],
+ "notes": [
+  "frontendchecklist.io 규칙을 바탕으로 해요",
+  "자세한 예시는 references/rule.md에 있어요",
+  "원문이 영어예요"
+ ]
+}

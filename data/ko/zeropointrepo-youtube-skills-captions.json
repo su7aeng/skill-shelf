@@ -1,0 +1,19 @@
+{
+ "description": "YouTube 영상의 자막을 TranscriptAPI로 가져와요.",
+ "summary": "TranscriptAPI.com의 transcript 엔드포인트를 호출해 영상 자막을 JSON이나 텍스트로 받아요. 타임스탬프와 영상 메타데이터를 함께 받을 수도 있어요.",
+ "when": [
+  "YouTube 자막 추출",
+  "영상 링크 요약",
+  "자막 인용",
+  "영상 내용 확인"
+ ],
+ "examples": [
+  "이 유튜브 영상 자막 가져와 줘",
+  "영상 링크 줄 테니 자막 확인해 줘",
+  "타임스탬프 포함해서 자막 뽑아 줘"
+ ],
+ "notes": [
+  "TRANSCRIPT_API_KEY 환경변수의 API 키가 필요해요",
+  "요청에 Authorization과 User-Agent 헤더가 모두 필요해요. 없으면 403이 나올 수 있어요"
+ ]
+}

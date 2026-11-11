@@ -1,0 +1,20 @@
+{
+ "description": "Codex Taskboard의 이슈와 taskctl 설정을 관리해요.",
+ "summary": "Codex Taskboard라고 분명히 지정된 작업에서 taskctl 명령으로 프로젝트, 이슈, 관계, 댓글을 다뤄요. 이슈를 처음 다룰 때는 이슈 정보, 댓글, 첨부 목록을 먼저 읽고, 출력된 JSON과 이슈 식별자를 그대로 사용해요.",
+ "when": [
+  "Taskboard 이슈 조회",
+  "이슈에 댓글 남기기",
+  "프로젝트와 이슈 관계 관리",
+  "taskctl 설정 확인"
+ ],
+ "examples": [
+  "Codex Taskboard에서 이 이슈의 댓글을 확인해 줘",
+  "taskctl로 새 이슈를 만들어 줘",
+  "Taskboard 이슈 상태를 진행 중으로 바꿔줘"
+ ],
+ "notes": [
+  "GitHub나 Phabricator 같은 다른 트래커에는 쓰지 않아요",
+  "대상이 분명하지 않으면 먼저 어떤 보드인지 물어봐요",
+  "Codex Taskboard 데스크톱 앱에 포함된 taskctl을 사용해요"
+ ]
+}

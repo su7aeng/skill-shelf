@@ -1,0 +1,18 @@
+{
+ "description": "Codex가 쓰는 V8 버전을 올리고 빌드를 검증해요.",
+ "summary": "third_party/v8/README.md의 절차에 따라 Cargo와 Bazel 등에 적힌 v8, rusty_v8 버전과 체크섬을 갱신해요. v8-canary 결과로 검증하고, 실패하면 원인을 비교해 조사해요.",
+ "when": [
+  "V8 버전 올리기",
+  "rusty_v8 아티팩트 갱신",
+  "릴리스 후보 확인",
+  "V8 빌드 실패 조사"
+ ],
+ "examples": [
+  "Codex의 V8 버전을 올려줘",
+  "v8-canary가 실패했는데 원인을 찾아줘"
+ ],
+ "notes": [
+  "gh와 python3가 필요하고 Codex 저장소 안에서 써요",
+  "사용자가 요청하기 전에는 태그, 릴리스, 푸시를 하지 않아요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "GSYVideoPlayer의 재생 엔진을 바꾸는 방법을 안내해요.",
+ "summary": "IJK, System, ExoPlayer2(Media3), Aliyun 네 가지 엔진의 특징을 비교하고 PlayerFactory로 바꾸는 법을 알려 줘요. 직접 만든 Manager를 쓰는 방법도 다뤄요. 바꿔 넣는 클래스에는 공개 기본 생성자가 있어야 해요.",
+ "when": [
+  "DASH 지원 필요",
+  "엔진 용량 줄이기",
+  "Aliyun 엔진 사용",
+  "여러 Manager 병행"
+ ],
+ "examples": [
+  "재생 엔진을 ExoPlayer로 바꿔줘",
+  "시스템 플레이어만 쓰도록 설정해줘"
+ ],
+ "notes": [
+  "Android 앱용 GSYVideoPlayer 프로젝트가 대상이에요",
+  "엔진별로 지원 형식이 달라요",
+  "원문은 중국어예요"
+ ]
+}

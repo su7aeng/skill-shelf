@@ -1,0 +1,19 @@
+{
+ "description": "ArcGIS Hub 사이트를 PortalJS 포털로 통째로 옮겨요.",
+ "summary": "Hub 의 /data.json 목록을 가져오고 FeatureService 레이어를 ArcGIS REST 로 내려받아요. 각 레이어를 PMTiles 와 GeoParquet 으로 바꿔 올린 뒤 원본과 변환 결과를 비교하는 보고서를 만들어요. 입력은 Hub 주소 하나예요.",
+ "when": [
+  "ArcGIS Hub 데이터 이전",
+  "공공 지도 데이터 포털 이전",
+  "지리 데이터 일괄 변환"
+ ],
+ "examples": [
+  "이 ArcGIS Hub 사이트를 PortalJS 포털로 옮겨줘",
+  "Hub 의 모든 레이어를 내려받아 변환해줘",
+  "이전한 데이터가 원본과 같은지 비교 보고서를 만들어줘"
+ ],
+ "notes": [
+  "GDAL, tippecanoe, duckdb, jq 가 설치돼 있어야 해요",
+  "PortalJS 포털이 미리 만들어져 있어야 해요",
+  "Git-LFS 를 R2 로 올리려면 Arc 인증 정보가 필요해요"
+ ]
+}

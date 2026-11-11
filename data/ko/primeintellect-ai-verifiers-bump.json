@@ -1,0 +1,16 @@
+{
+ "description": "고정해 둔 의존성 버전을 올려요.",
+ "summary": "에이전트 하네스(codex, claude-code, pi 등)의 버전을 올릴 때 harness.md 절차를 따르라고 안내하는 짧은 스킬이에요. 실제 절차는 따로 있는 harness.md에 들어 있어요.",
+ "when": [
+  "의존성 버전 올리기",
+  "에이전트 하네스 버전 갱신",
+  "harness.md 절차로 갱신"
+ ],
+ "examples": [
+  "claude-code 하네스 버전을 올려줘",
+  "고정해 둔 codex 버전을 최신으로 바꿔줘"
+ ],
+ "notes": [
+  "실제 단계는 harness.md에 있어서 이 파일만으로는 절차를 알 수 없어요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "브라우저와 Windows 데스크톱 앱을 자동으로 조작해요.",
+ "summary": "웹은 Playwright나 agent-browser로, Windows GUI 앱은 OpenReverse로 다뤄요. 시작 전에 tool-index.md로 도구가 있는지 확인하고, 없으면 bootstrap으로 설치한 뒤 작업 흐름을 바로 실행해요.",
+ "when": [
+  "웹 페이지 클릭과 입력 자동화",
+  "페이지 크롤링과 스크린샷",
+  "IDA나 x64dbg 같은 GUI 조작",
+  "데스크톱 앱 트래픽 확인"
+ ],
+ "examples": [
+  "이 사이트에 로그인해서 목록 화면을 캡처해줘",
+  "x64dbg 창에서 브레이크포인트를 설정해줘"
+ ],
+ "notes": [
+  "원문이 중국어예요",
+  "데스크톱 자동화는 Windows 환경과 OpenReverse가 필요해요",
+  "도구 경로는 추측하지 않고 tool-index.md에서 확인해요"
+ ]
+}

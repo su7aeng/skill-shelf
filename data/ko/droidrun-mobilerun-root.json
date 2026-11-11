@@ -1,0 +1,17 @@
+{
+ "description": "Mobilerun 설치와 설정, 사용법을 안내하는 문서 안내서예요.",
+ "summary": "LLM 에이전트로 안드로이드와 iOS 기기를 자연어로 조종하는 오픈소스 프레임워크 Mobilerun의 문서를 알려줘요. 설치, SDK, CLI, 기기 설정, 에이전트 구조를 다뤄요.",
+ "when": [
+  "Mobilerun 설치",
+  "기기 설정",
+  "SDK와 CLI 사용"
+ ],
+ "examples": [
+  "Mobilerun은 어떻게 설치해?",
+  "안드로이드 폰을 자연어로 조종하는 방법을 알려줘"
+ ],
+ "notes": [
+  "Python 3.11 이상, ADB, 기기에 Portal APK가 필요해요",
+  "uv tool install mobilerun으로 설치해요"
+ ]
+}

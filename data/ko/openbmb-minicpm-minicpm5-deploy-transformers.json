@@ -1,0 +1,20 @@
+{
+ "description": "Transformers로 MiniCPM5를 파이썬에서 한 번 실행해요.",
+ "summary": "Hugging Face Transformers로 MiniCPM5-1B 또는 2B를 불러와 파이썬 스크립트로 글을 생성하는 방법을 안내해요. GPU(bfloat16)와 CPU(float32) 설정, think와 no-think 모드별 샘플링 값, LoRA 추론도 담겨 있어요.",
+ "when": [
+  "간단한 파이썬 실행",
+  "서버 없이 테스트",
+  "CPU에서 돌리기",
+  "LoRA 모델 추론"
+ ],
+ "examples": [
+  "Transformers로 MiniCPM5 한번 돌려봐줘",
+  "CPU만 있는 환경에서 MiniCPM5 실행 코드 써줘",
+  "MiniCPM5에 LoRA 어댑터 붙여서 추론해줘"
+ ],
+ "notes": [
+  "transformers와 torch 설치가 필요하고 버전 조건이 있어요",
+  "no-think 모드는 MiniCPM5-1B에서만 써요",
+  "원문이 영어예요"
+ ]
+}

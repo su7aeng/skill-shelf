@@ -1,0 +1,20 @@
+{
+ "description": "터미널에서 gemini-api 명령으로 Gemini API를 호출해 줘요.",
+ "summary": "gemini-api 명령줄 도구로 이미지, 음성, 음악, 영상 생성과 파일 및 유튜브 분석, 음성 영상 받아쓰기, Deep Research를 실행하는 방법을 안내해요. 생성한 파일은 디스크에 저장하고 경로만 보여줘요. 설치와 인증 확인 방법도 담겨 있어요.",
+ "when": [
+  "터미널에서 이미지 음성 생성",
+  "영상 음성 받아쓰기",
+  "파일과 유튜브 분석",
+  "Deep Research 실행"
+ ],
+ "examples": [
+  "gemini-api로 이 녹음 파일을 받아쓰기 해줘",
+  "터미널에서 Gemini로 이미지를 한 장 만들어줘",
+  "이 PDF를 Gemini로 분석해줘"
+ ],
+ "notes": [
+  "GEMINI_API_KEY 같은 인증 정보가 필요해요",
+  "환경 변수로 둔 키가 저장된 키보다 먼저 쓰이니 gemini-api whoami로 확인해요",
+  "앱 코드 안에서 호출할 때는 SDK 스킬을 쓰는 편이 맞아요"
+ ]
+}

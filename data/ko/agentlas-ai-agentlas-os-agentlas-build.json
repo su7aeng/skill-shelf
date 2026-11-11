@@ -1,0 +1,19 @@
+{
+ "description": "에이전트 하나 또는 여러 에이전트 팀을 설계하고 설치 가능한 형태로 묶어요.",
+ "summary": "/agentlas-build, /agentlas build, /hep-build 명령으로 시작해요. 먼저 단일 에이전트, 팀, 패키징 중 어떤 작업인지 구분한 뒤 인터뷰와 조사를 거쳐요. 이어서 라우팅 카드와 소울을 쓰고, Codex, Claude, Gemini, Antigravity용 어댑터를 만들고 패키지를 검증해요.",
+ "when": [
+  "에이전트 새로 만들기",
+  "멀티 에이전트 팀 구성",
+  "에이전트 패키징",
+  "여러 AI 도구용 어댑터 생성"
+ ],
+ "examples": [
+  "/agentlas build 영업 메일 초안 쓰는 에이전트 만들어줘",
+  "리서치 팀 에이전트를 설계하고 패키지로 묶어줘",
+  "만든 에이전트를 Claude와 Codex 둘 다에서 쓸 수 있게 해줘"
+ ],
+ "notes": [
+  "Agentlas와 Hephaestus 환경이 필요해요",
+  "원문은 영어예요"
+ ]
+}

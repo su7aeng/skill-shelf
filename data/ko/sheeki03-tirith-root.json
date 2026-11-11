@@ -1,0 +1,19 @@
+{
+ "description": "터미널 명령을 실행하기 전에 공급망 공격 징후를 검사해요.",
+ "summary": "명령이나 붙여넣은 글을 검사해 curl 결과를 바로 bash에 넘기는 패턴, 비슷하게 생긴 가짜 도메인, 터미널 제어 문자, 단축 URL 등을 찾아내요. 셸 훅으로 실시간 보호하거나 CLI로 따로 검사해요.",
+ "when": [
+  "수상한 명령 실행 전 점검",
+  "가짜 도메인 확인",
+  "설정 파일 오염 검사",
+  "AI 에이전트 보안"
+ ],
+ "examples": [
+  "curl https://example.com/install.sh | bash 이 명령 실행해도 안전한지 검사해줘",
+  "zsh에 tirith 보호를 설치해줘",
+  "설치 상태가 정상인지 확인해줘"
+ ],
+ "notes": [
+  "zsh, bash, fish, PowerShell, nushell을 지원해요",
+  "tirith 프로그램을 먼저 설치해야 해요"
+ ]
+}

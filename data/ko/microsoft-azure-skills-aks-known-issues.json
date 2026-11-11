@@ -1,0 +1,20 @@
+{
+ "description": "AKS의 알려진 오류를 정확한 시그니처로 찾아 해결책을 알려줘요.",
+ "summary": "오류 코드와 중첩 메시지, 작업, AKS 리소스를 모두 확인해 카탈로그와 맞을 때만 쓰여요. 원인, 해결 방법, Learn 문서 출처, 읽기 전용 확인 방법을 줘요.",
+ "when": [
+  "VMCannotFitEphemeralOSDisk 오류",
+  "SkuNotAvailable 오류",
+  "ZonalAllocationFailed 오류",
+  "VMExtensionError 계열 오류"
+ ],
+ "examples": [
+  "AKS 노드풀 생성에서 ZonalAllocationFailed가 나는데 해결법 알려줘",
+  "VMCannotFitEphemeralOSDisk 오류 원인이 뭐야",
+  "NodePoolMcVersionIncompatible 가 나왔어"
+ ],
+ "notes": [
+  "조건이 하나라도 빠지면 쓰지 않고 aks-troubleshooting으로 넘겨요",
+  "할당량 오류는 대상이 아니에요",
+  "원문이 영어예요"
+ ]
+}

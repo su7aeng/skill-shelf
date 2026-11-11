@@ -1,0 +1,19 @@
+{
+ "description": "ET 프로젝트의 테스트를 빌드하고 실행한 뒤 실패 원인을 분석해요.",
+ "summary": "먼저 dotnet build ET.sln으로 빌드하고 Logs 폴더를 비운 뒤 서버 테스트나 Unity Editor 테스트를 돌려요. 실패하면 첫 오류 지점과 Logs/All.log를 보고 원인을 짚으며, 성공해도 숨은 오류가 없는지 로그를 확인해요.",
+ "when": [
+  "테스트 실행",
+  "실패한 테스트 원인 분석",
+  "수정 후 회귀 확인",
+  "테스트 로그 점검"
+ ],
+ "examples": [
+  "CreateRobot 테스트만 돌려줘",
+  "테스트가 실패하는데 로그 보고 원인 알려줘"
+ ],
+ "notes": [
+  "서버 테스트는 ET.App.dll, Editor 테스트는 UnityBridge를 써요",
+  "Editor 테스트는 Unity가 열려 있어야 해요",
+  "원문은 중국어예요"
+ ]
+}

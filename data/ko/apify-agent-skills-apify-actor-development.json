@@ -1,0 +1,20 @@
+{
+ "description": "Apify Actor를 만들고 고치고 배포하며 입출력 스키마도 써요.",
+ "summary": "apify CLI로 목적에 맞는 템플릿을 골라 Actor 프로젝트를 만들고, 코드 작성과 디버깅, 스키마 작성, 플랫폼 배포까지 이어서 진행해요. Actor는 JSON 입력을 받아 한 가지 일을 하고 결과를 데이터셋에 쓰는 서버리스 프로그램이에요.",
+ "when": [
+  "새 Actor 만들기",
+  "기존 Actor 수정과 디버깅",
+  "입출력 스키마 작성",
+  "Apify에 배포"
+ ],
+ "examples": [
+  "페이지 제목을 모으는 Apify Actor를 TypeScript로 만들어줘",
+  "내 Actor 입력 스키마를 정리해줘",
+  "이 Actor를 Apify에 올려줘"
+ ],
+ "notes": [
+  "apify CLI 설치와 로그인(apify login 또는 APIFY_TOKEN)이 필요해요",
+  "모든 apify 명령에 --user-agent 옵션을 붙여요",
+  "이미 있는 프로젝트를 감싸려면 apify-actorization을 써요"
+ ]
+}

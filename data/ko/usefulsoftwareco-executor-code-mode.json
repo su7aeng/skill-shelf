@@ -1,0 +1,19 @@
+{
+ "description": "Executor의 execute로 앱 도구를 JavaScript로 호출하는 법을 알려줘요.",
+ "summary": "execute는 JavaScript 프로그램 하나로 여러 앱 도구를 호출하고 결과를 합쳐 작은 값만 돌려줘요. tools.search로 도구 경로와 입력 형식을 찾는 법, 계정 연결, 승인과 재개, 한도와 오류 처리를 설명해요. 큰 결과가 대화에 그대로 쌓이지 않게 해줘요.",
+ "when": [
+  "여러 앱 도구 연결 호출",
+  "큰 결과 걸러내기",
+  "도구 검색과 사용법 확인",
+  "승인 요청 처리"
+ ],
+ "examples": [
+  "Executor로 메일을 검색하고 결과를 요약해줘",
+  "tools.search로 일정 관련 도구를 찾아줘"
+ ],
+ "notes": [
+  "실행 환경에는 import, fetch, 파일 접근, 타이머가 없어요",
+  "TypeScript 문법은 쓰지 말고 JavaScript로 써요",
+  "승인이 필요한 호출은 같은 호출을 반복하지 말고 재개해요"
+ ]
+}

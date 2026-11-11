@@ -1,0 +1,20 @@
+{
+ "description": "memo CLI로 Apple Notes를 만들고 검색하고 수정해요.",
+ "summary": "터미널의 memo 명령으로 메모 목록 보기, 검색, 추가, 수정, 삭제, 폴더 이동, 내보내기를 해요. 메모는 iCloud로 다른 Apple 기기와 동기화돼요.",
+ "when": [
+  "메모 만들기",
+  "메모 검색",
+  "폴더 정리",
+  "메모 내보내기"
+ ],
+ "examples": [
+  "Apple Notes에 장보기 메모 하나 만들어 줘",
+  "메모에서 회의 관련 내용을 찾아 줘",
+  "메모를 폴더로 옮겨 줘"
+ ],
+ "notes": [
+  "macOS와 Notes.app, memo 설치가 필요해요",
+  "Notes.app 자동화 권한을 허용해야 해요",
+  "Obsidian, Bear는 이 스킬 대상이 아니에요"
+ ]
+}

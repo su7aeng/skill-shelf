@@ -1,0 +1,20 @@
+{
+ "description": "brooks-lint에 새 분석 스킬을 추가하는 뼈대를 만들어요.",
+ "summary": "SKILL.md와 단계별 가이드 파일을 만들고, 공유 문서를 읽도록 연결한 뒤, 평가 시나리오를 evals/evals.json에 추가해요. 저장소의 검증과 평가 명령을 처음부터 통과하도록 구성해요. 이름은 요청에서 받고 없으면 먼저 물어봐요.",
+ "when": [
+  "brooks-lint 스킬 추가",
+  "스킬 뼈대 생성",
+  "평가 시나리오 추가",
+  "새 분석 모드 만들기"
+ ],
+ "examples": [
+  "brooks-security 스킬을 새로 만들어 줘",
+  "새 스킬 뼈대 만들고 평가까지 추가해 줘",
+  "brooks-lint에 새 모드 하나 추가해 줘"
+ ],
+ "notes": [
+  "brooks-lint 저장소를 관리하는 사람용이에요",
+  "npm run validate와 npm run evals가 필요해요",
+  "원문이 영어예요"
+ ]
+}

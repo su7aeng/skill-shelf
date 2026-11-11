@@ -1,0 +1,17 @@
+{
+ "description": "환불 가능 여부를 확인하고 주문을 환불해요.",
+ "summary": "환불하기 전에 환불 정책 문서를 먼저 읽어요. 주문이 조건에 맞으면 주문 ID로 refund-order 도구를 호출하고, 답변은 확인 템플릿에 맞춰 써요.",
+ "when": [
+  "환불 가능 여부 확인",
+  "주문 환불 처리",
+  "환불 확인 안내"
+ ],
+ "examples": [
+  "주문 번호 A100을 환불할 수 있는지 확인하고 처리해줘",
+  "이 주문 환불해줘"
+ ],
+ "notes": [
+  "refund-order 도구가 연결된 환경에서 써요",
+  "references/policy.md와 templates/confirmation.md를 사용해요"
+ ]
+}

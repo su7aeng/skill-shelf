@@ -1,0 +1,20 @@
+{
+ "description": "기존 AI 코드에 Olakai 모니터링과 KPI를 붙여 줘요.",
+ "summary": "이미 동작하는 AI 앱의 LLM 클라이언트를 Olakai로 감싸고, 이벤트에 customData를 담아 보내도록 고쳐요. 에이전트 성격에 맞는 KPI를 2~4개 정하고 설정한 뒤, 끝까지 값이 제대로 계산되는지 확인해요. TypeScript와 Python 예시가 있어요.",
+ "when": [
+  "기존 AI 앱 모니터링 추가",
+  "LLM 호출 추적",
+  "에이전트 KPI 설정",
+  "연동 결과 검증"
+ ],
+ "examples": [
+  "우리 챗봇 코드에 Olakai 모니터링 붙여줘",
+  "에이전트 성공률 KPI를 Olakai에 설정해줘",
+  "Olakai 연동이 제대로 됐는지 확인해줘"
+ ],
+ "notes": [
+  "olakai-cli 설치와 로그인, 에이전트용 API 키가 필요해요",
+  "Node.js 18 이상 또는 Python 3.7 이상이 필요해요",
+  "KPI는 에이전트마다 따로 만들어야 해요"
+ ]
+}

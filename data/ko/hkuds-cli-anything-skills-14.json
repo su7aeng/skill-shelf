@@ -1,0 +1,19 @@
+{
+ "description": "명령줄로 Dify 워크플로 파일을 만들고 검사하고 고쳐요.",
+ "summary": "Dify 워크플로 DSL용 CLI를 CLI-Anything 하네스로 감싼 스킬이에요. 워크플로 YAML/JSON 파일을 만들고, 검증하고, 노드와 연결을 편집하고, 내보내는 작업을 모두 로컬 파일 수정으로 처리해요. 실제 로직은 원본 dify-workflow 프로젝트가 맡아요.",
+ "when": [
+  "Dify 워크플로 파일 생성",
+  "워크플로 검증과 점검",
+  "노드와 모델 설정 편집",
+  "워크플로 내보내기와 비교"
+ ],
+ "examples": [
+  "Dify 워크플로 파일을 LLM 템플릿으로 새로 만들어줘",
+  "workflow.yaml 검증하고 문제 있는지 알려줘",
+  "이 워크플로에 코드 노드 하나 추가해줘"
+ ],
+ "notes": [
+  "먼저 dify-ai-workflow-tools와 CLI-Anything 하네스를 설치해야 해요",
+  "가능하면 -j 옵션으로 JSON 출력을 받아 쓰도록 안내해요"
+ ]
+}

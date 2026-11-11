@@ -1,0 +1,18 @@
+{
+ "description": "명령줄에서 Android APK를 풀고 분석하는 역공학 절차예요.",
+ "summary": "jadx, apktool, frida, adb 같은 설치된 도구로 APK 압축 해제, 자바 디컴파일, smali 수정, 재패키징, 동적 후킹을 해요. 필요하면 so 파일 분석으로 넘어가요.",
+ "when": [
+  "APK 분석",
+  "앱 로직 파악",
+  "smali 수정",
+  "Frida 동적 분석"
+ ],
+ "examples": [
+  "이 APK의 로그인 로직을 분석해줘",
+  "APK를 디컴파일해서 구조를 보여줘"
+ ],
+ "notes": [
+  "허가된 기기와 대상에만 써야 해요",
+  "원문은 중국어이고 jadx, apktool, frida, adb가 필요해요"
+ ]
+}

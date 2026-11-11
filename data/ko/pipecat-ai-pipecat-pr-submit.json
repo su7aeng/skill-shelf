@@ -1,0 +1,18 @@
+{
+ "description": "현재 브랜치로 GitHub PR을 만들어 제출해요.",
+ "summary": "git 상태와 최근 커밋을 확인하고 필요하면 새 브랜치를 만들어 커밋해요. 푸시 전에 /prose-review로 주석과 문서를 점검하고, 푸시 뒤 gh pr create로 PR을 만들어요. 이후 /changelog와 /pr-description을 이어서 실행하고 PR 주소를 알려줘요.",
+ "when": [
+  "PR 올리기",
+  "브랜치 커밋과 푸시",
+  "changelog와 설명 자동 작성"
+ ],
+ "examples": [
+  "지금 변경으로 PR 만들어줘",
+  "브랜치 이름을 fix/ 로 시작해서 PR 올려줘"
+ ],
+ "notes": [
+  "git과 gh CLI가 필요해요",
+  "브랜치 이름 접두어를 먼저 물어봐요",
+  "커밋 메시지도 글쓰기 기준에 맞는지 확인해요"
+ ]
+}

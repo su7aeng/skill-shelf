@@ -1,0 +1,18 @@
+{
+ "description": "Active Directory 권한 설정 오류를 점검하는 보안 테스트 절차를 안내해요.",
+ "summary": "GenericAll, WriteDACL, DCSync 권한, 섀도 자격 증명, LAPS 읽기, GPO 악용 같은 잘못된 권한을 BloodHound로 찾고 연결된 공격 경로를 따져 보는 방법을 정리해요.",
+ "when": [
+  "AD 권한 진단",
+  "BloodHound 경로 분석",
+  "권한 설정 오류 점검"
+ ],
+ "examples": [
+  "BloodHound로 AD에서 위험한 권한 경로를 찾는 방법 알려줘",
+  "WriteDACL이 걸린 계정이 있는데 어떤 영향이 있는지 알려줘"
+ ],
+ "notes": [
+  "허가받은 보안 점검에서만 쓰세요",
+  "원문이 영어예요",
+  "BLOODHOUND_PATHS.md 보조 문서가 함께 있어요"
+ ]
+}

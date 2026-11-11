@@ -1,0 +1,19 @@
+{
+ "description": "Webiny 패키지 하나의 테스트를 올바른 명령으로 실행해요.",
+ "summary": "기본은 yarn test이고 OpenSearch용은 yarn test:os를 써요. 각 패키지 ci.config.json의 storageOps 설정에 따라 둘 다 돌려야 하는지, test:os만 필요한지, test만 필요한지 목록으로 알려 줘요.",
+ "when": [
+  "패키지 단위 테스트",
+  "OpenSearch 테스트",
+  "실행 명령 선택",
+  "테스트 목록 갱신"
+ ],
+ "examples": [
+  "api-headless-cms 테스트 돌려줘",
+  "이 패키지는 test:os도 필요한지 알려줘",
+  "OpenSearch 테스트만 실행해줘"
+ ],
+ "notes": [
+  "Webiny 저장소의 yarn 명령을 써요",
+  "목록이 오래됐으면 ci.config.json을 grep으로 다시 확인해요"
+ ]
+}

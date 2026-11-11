@@ -1,0 +1,19 @@
+{
+ "description": "코드 분석용 백그라운드 작업기를 단계 조합으로 만들어 실행해요.",
+ "summary": "24가지 단계와 6개 프리셋을 조합해 보안 스캔, 패턴 학습, API 문서 생성 같은 분석 작업기를 만들어요. npx ruvector workers 명령으로 만들고 경로를 지정해 실행해요.",
+ "when": [
+  "자동 코드 분석",
+  "보안 스캔",
+  "패턴 학습",
+  "API 문서 생성"
+ ],
+ "examples": [
+  "src 폴더 보안 스캔 작업기 만들어서 돌려줘",
+  "사용 가능한 프리셋 보여줘",
+  "API 엔드포인트 문서 자동으로 만들어줘"
+ ],
+ "notes": [
+  "npx ruvector 명령이 필요해요",
+  "quick-scan, deep-analysis, security-scan, learning, api-docs, test-analysis 프리셋이 있어요"
+ ]
+}

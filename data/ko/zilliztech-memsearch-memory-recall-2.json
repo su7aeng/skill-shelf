@@ -1,0 +1,18 @@
+{
+ "description": "MemSearch 도구로 과거 세션의 관련 기억을 검색해요.",
+ "summary": "memory_search 로 후보를 찾고 memory_get 으로 전체 내용을 읽어요. 원래 대화가 꼭 필요하면 memory_transcript 로 확인하며, 요약과 실제 대화는 구분해서 날짜와 출처 파일과 함께 짧게 알려줘요. 관련 내용이 없으면 없다고 말해요.",
+ "when": [
+  "과거 결정 찾기",
+  "이전 대화 내용 확인",
+  "프로젝트 지식 검색"
+ ],
+ "examples": [
+  "지난번 배포 문제 어떻게 해결했는지 기억에서 찾아줘",
+  "이 기능 관련해서 예전에 논의한 거 있는지 확인해줘"
+ ],
+ "notes": [
+  "memory_search, memory_get, memory_transcript 도구가 필요해요",
+  "OpenCode 전사 조회가 실패하면 진단 문서를 참고해요",
+  "원문은 영어예요"
+ ]
+}

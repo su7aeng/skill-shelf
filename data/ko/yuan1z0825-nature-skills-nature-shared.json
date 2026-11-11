@@ -1,0 +1,17 @@
+{
+ "description": "다른 Nature 스킬이 가져다 쓰는 공통 참고 자료 모음이에요.",
+ "summary": "nature-writing, nature-polishing, nature-response 같은 스킬이 함께 쓰는 핵심 지침과 저널 형식 문서를 담고 있어요. 단독 작업용이 아니라서, 다른 스킬이 요청한 파일 하나만 골라 읽고 다시 그 스킬로 돌아가요.",
+ "when": [
+  "다른 Nature 스킬의 보조 자료",
+  "저널 형식 규정 확인",
+  "초록과 서론 작성 기준 참조"
+ ],
+ "examples": [
+  "nature-writing으로 초록을 쓸 때 공통 기준을 참고해줘"
+ ],
+ "notes": [
+  "직접 호출하는 스킬이 아니고 다른 Nature 스킬의 의존 자료예요",
+  "전체를 미리 읽지 않고 필요한 파일만 읽어요",
+  "Nature, Nature Machine Intelligence 등 저널별 규정을 섞어 쓰지 않아요"
+ ]
+}

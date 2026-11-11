@@ -1,0 +1,18 @@
+{
+ "description": "AutoMagicCalib 서비스와 웹 화면을 Docker로 띄워요.",
+ "summary": "Docker 사용 확인, 저장소 위치 찾기, NGC 로그인, 필요하면 VGGT 내려받기, Compose 설정, 실행, 준비 상태 확인 순서로 진행해요. 저장소가 없으면 복제해도 되는지 먼저 물어봐요.",
+ "when": [
+  "AMC 처음 설치",
+  "자동 보정 서비스 띄우기",
+  "Docker 환경 점검"
+ ],
+ "examples": [
+  "자동 보정 서비스를 배포해줘",
+  "AMC 마이크로서비스랑 UI 띄워줘",
+  "docker 실행 권한부터 확인해줘"
+ ],
+ "notes": [
+  "Docker, Docker Compose, NVIDIA 런타임, NGC 계정이 필요해요",
+  "sudo 없이 docker ps가 돼야 해요"
+ ]
+}

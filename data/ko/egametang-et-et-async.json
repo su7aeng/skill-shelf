@@ -1,0 +1,17 @@
+{
+ "description": "ET에서 async/await와 EntityRef를 안전하게 쓰는 작업 절차예요.",
+ "summary": "비동기가 정말 필요한지 먼저 따지고, 필요하면 await 전에 EntityRef를 만들어 await 후 다시 가져오게 해요. 동시 대기와 취소 처리, NewContext 사용 기준도 안내해요.",
+ "when": [
+  "async 코드 작성",
+  "await 후 Entity 접근",
+  "취소와 동시 대기 설계"
+ ],
+ "examples": [
+  "이 핸들러의 await 뒤 Entity 접근이 안전한지 봐줘",
+  "불필요한 ETTask를 동기로 바꿔줘"
+ ],
+ "notes": [
+  "원문이 중국어예요",
+  "ET 프레임워크 C# 프로젝트 전용이에요"
+ ]
+}

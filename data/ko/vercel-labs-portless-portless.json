@@ -1,0 +1,19 @@
+{
+ "description": "포트 번호 대신 이름 있는 로컬 주소로 개발 서버를 띄워줘요.",
+ "summary": "portless를 설치하고 localhost:3000 같은 주소를 myapp.localhost처럼 고정된 이름으로 바꿔요. package.json의 dev 스크립트를 그대로 돌리거나 portless.json으로 이름을 정하고, 모노레포 설정과 프록시 문제도 다뤄요.",
+ "when": [
+  "포트 충돌 해결",
+  "개발 서버 이름 지정",
+  "모노레포 로컬 주소",
+  "프록시 문제 점검"
+ ],
+ "examples": [
+  "이 프로젝트에 portless를 붙여줘",
+  "포트가 겹치지 않게 개발 서버 주소를 이름으로 만들어줘"
+ ],
+ "notes": [
+  "npm install -g portless처럼 전역이나 개발 의존성으로 설치해요",
+  "npx로 일회성 실행은 권하지 않아요",
+  "원문은 영어예요"
+ ]
+}

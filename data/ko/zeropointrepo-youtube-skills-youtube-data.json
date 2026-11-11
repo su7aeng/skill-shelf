@@ -1,0 +1,20 @@
+{
+ "description": "분석에 쓸 구조화된 YouTube 데이터를 가져와요.",
+ "summary": "TranscriptAPI.com으로 대본, 메타데이터, 채널 업로드 이력, 검색 결과를 JSON으로 받아요. Google의 YouTube Data API보다 가벼운 대안이에요.",
+ "when": [
+  "영상 데이터 분석",
+  "메타데이터 조회",
+  "업로드 이력 확인",
+  "유튜브 검색"
+ ],
+ "examples": [
+  "이 영상 대본과 메타데이터를 같이 가져와 줘",
+  "채널의 업로드 이력을 분석해 줘",
+  "키워드로 영상을 검색해 줘"
+ ],
+ "notes": [
+  "TRANSCRIPT_API_KEY 환경변수의 API 키가 필요해요",
+  "최신 인자는 transcriptapi.com/openapi.json 에서 확인할 수 있어요",
+  "요청에 Authorization과 User-Agent 헤더가 모두 필요해요"
+ ]
+}

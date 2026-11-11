@@ -1,0 +1,19 @@
+{
+ "description": "Docs 개발 스택을 가장 적은 비용으로 띄우도록 안내해요.",
+ "summary": "먼저 읽기 전용 점검 스크립트로 Docker, 이미지, 서비스 상태를 확인하고 필요한 조치만 제안해요. 처음 한 번만 make bootstrap을 쓰고 평소에는 make run으로 충분하며, 이미지는 의존성이 바뀔 때만 다시 빌드해요.",
+ "when": [
+  "개발 환경 처음 띄우기",
+  "스택 상태 점검",
+  "이미지 재빌드 판단",
+  "서비스 재시작"
+ ],
+ "examples": [
+  "Docs 개발 환경 띄워줘",
+  "스택이 왜 안 뜨는지 점검해줘"
+ ],
+ "notes": [
+  "원문이 영어이고 La Suite Docs 저장소 전용이에요",
+  "점검 스크립트는 .agents/skills/docs-start/check-stack.sh이고 변경은 하지 않아요",
+  "이미 구성된 환경에서 make bootstrap을 다시 돌리면 DB가 초기화돼요"
+ ]
+}

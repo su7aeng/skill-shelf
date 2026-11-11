@@ -1,0 +1,18 @@
+{
+ "description": "Jetpack Compose 화면에 GSYVideoPlayer를 넣는 방법을 안내해요.",
+ "summary": "AndroidView로 기존 플레이어를 감싸는 방식과 Compose 컨트롤로 직접 그리는 방식, 두 가지 모드를 설명해요. 목록과 세로 쇼트 영상, 생명주기에 맞춘 일시정지와 해제 처리도 다뤄요. 화면이 사라지면 플레이어를 자동으로 해제하는 옵션이 있어요.",
+ "when": [
+  "Compose 전환",
+  "Compose에 플레이어 넣기",
+  "Compose 영상 목록",
+  "생명주기 연동"
+ ],
+ "examples": [
+  "Compose 화면에 GSYVideoPlayer를 넣어줘",
+  "Compose로 세로 쇼트 영상 목록을 만들어줘"
+ ],
+ "notes": [
+  "gsyVideoPlayer-compose 모듈을 쓰는 Android 프로젝트가 대상이에요",
+  "원문은 중국어예요"
+ ]
+}

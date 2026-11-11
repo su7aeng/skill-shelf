@@ -1,0 +1,20 @@
+{
+ "description": "TP-Link Tapo 카메라를 SharpAI Aegis에 연결해 영상을 가져와요.",
+ "summary": "Tapo C200, C310, C320WS, C520WS 같은 카메라를 RTSP와 ONVIF로 연결해요. 움직임이 감지될 때의 클립, 실시간 보기용 RTSP 주소, 네트워크의 카메라 찾기를 제공해요.",
+ "when": [
+  "Tapo 카메라 연결",
+  "실시간 영상 보기",
+  "움직임 감지 클립",
+  "카메라 찾기"
+ ],
+ "examples": [
+  "Tapo 카메라를 Aegis에 연결해줘",
+  "네트워크에서 Tapo 카메라 찾아줘",
+  "움직임 감지된 클립 가져와줘"
+ ],
+ "notes": [
+  "카메라 IP와 Tapo 클라우드 계정 이름, 비밀번호가 필요해요",
+  "파이썬 가상환경을 만들고 requirements.txt를 설치해요",
+  "SharpAI Aegis와 함께 쓰는 스킬이에요"
+ ]
+}

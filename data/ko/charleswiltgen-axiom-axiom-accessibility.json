@@ -1,0 +1,19 @@
+{
+ "description": "Apple 앱의 접근성 문제를 점검하고 고치는 길잡이예요.",
+ "summary": "VoiceOver, Dynamic Type, 색 대비, 터치 영역, WCAG 준수, App Store 접근성 심사 같은 작업을 증상별로 알맞은 참고 문서로 안내해요. 필요하면 접근성 감사 절차를 따라 코드를 살펴봐요.",
+ "when": [
+  "VoiceOver 라벨과 탐색 점검",
+  "Dynamic Type 글자 크기 문제",
+  "색 대비와 터치 영역 확인",
+  "App Store 접근성 심사 준비"
+ ],
+ "examples": [
+  "우리 iOS 앱 접근성 점검해줘",
+  "VoiceOver로 읽을 때 버튼 이름이 이상한데 고쳐줘",
+  "글자 크기를 키우면 화면이 깨지는지 확인해줘"
+ ],
+ "notes": [
+  "Axiom 스킬 묶음의 일부이고 Swift/Apple 플랫폼 앱이 대상이에요",
+  "원문이 영어예요"
+ ]
+}

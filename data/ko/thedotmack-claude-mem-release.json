@@ -1,0 +1,17 @@
+{
+ "description": "버전 올리기와 childhood 단계를 이어서 릴리스를 자동화해요.",
+ "summary": "하위 에이전트를 띄워 작업 세션을 직접 입력하듯 자동으로 진행해요. claude-mem의 version-bump 스킬과 childhood 스킬을 이 순서로 써요.",
+ "when": [
+  "릴리스 자동화",
+  "버전 올리기",
+  "배포 준비"
+ ],
+ "examples": [
+  "이번 버전 릴리스해줘",
+  "버전 올리고 릴리스 절차 진행해줘"
+ ],
+ "notes": [
+  "claude-mem의 version-bump와 childhood 스킬이 필요해요",
+  "원문이 짧아 세부 절차는 그 스킬들에 있어요"
+ ]
+}

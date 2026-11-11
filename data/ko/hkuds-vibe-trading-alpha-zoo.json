@@ -1,0 +1,19 @@
+{
+ "description": "미리 만들어진 알파 팩터 모음을 찾아보고 성능을 재요.",
+ "summary": "Kakushadze 101, GTJA 191, Qlib 158, Fama-French와 Carhart 같은 팩터 라이브러리를 목록으로 보고 알파 하나의 정보를 확인해요. 종목 범위와 기간을 정해 IC와 IR을 돌리면 HTML 보고서가 나와요.",
+ "when": [
+  "어떤 알파가 있는지 둘러보기",
+  "알파 하나의 정보 확인",
+  "팩터 모음 전체 성능 비교",
+  "내 팩터 CSV 평가"
+ ],
+ "examples": [
+  "모멘텀 계열 알파 목록 보여줘",
+  "GTJA 191을 CSI 300에서 2020년부터 2024년까지 벤치해줘"
+ ],
+ "notes": [
+  "alpha_zoo, alpha_bench, factor_analysis 도구를 써요",
+  "내가 가진 팩터 파일은 factor_analysis로 평가해요",
+  "각 모음의 개수는 대략치라 health로 실제 로드 수를 확인해요"
+ ]
+}

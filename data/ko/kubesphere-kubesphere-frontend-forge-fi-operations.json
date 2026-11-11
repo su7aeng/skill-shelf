@@ -1,0 +1,20 @@
+{
+ "description": "FrontendIntegration과 frontend-forge 확장을 kubectl로 운영해요.",
+ "summary": "완성된 FrontendIntegration YAML로 리소스를 만들고, 수정, 활성화, 비활성화, 삭제를 해요. 빌드 결과와 JSBundle, 상태를 살펴 문제를 진단하고 frontend-forge 확장의 설치 상태도 관리해요. 모든 작업 전에 확장과 InstallPlan이 켜져 있는지 먼저 확인해요.",
+ "when": [
+  "FrontendIntegration 생성",
+  "활성화와 삭제",
+  "빌드 결과 점검",
+  "frontend-forge 확장 관리"
+ ],
+ "examples": [
+  "이 YAML로 FrontendIntegration을 만들어줘",
+  "FI 빌드가 실패한 이유를 알려줘",
+  "frontend-forge 확장이 켜져 있는지 확인해줘"
+ ],
+ "notes": [
+  "kubectl과 대상 클러스터 설정이 필요해요",
+  "FrontendIntegration은 클러스터 범위라 네임스페이스를 붙이지 않아요",
+  "말로 설명해서 YAML을 새로 만드는 일은 하지 않아요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "안드로이드 네이티브 앱 개발과 UI 설계 기준을 알려 줘요.",
+ "summary": "프로젝트 상태를 먼저 진단하고 Gradle 설정, 의존성, 빌드 변형을 정리해요. Material Design 3, Kotlin과 Compose 개발, 접근성, 빌드 오류 해결까지 다뤄요.",
+ "when": [
+  "안드로이드 앱 개발",
+  "Gradle 설정",
+  "Material Design 3 UI",
+  "빌드 오류 해결"
+ ],
+ "examples": [
+  "Compose로 안드로이드 앱 화면 만들어줘",
+  "Gradle 빌드가 실패하는데 원인 찾아줘",
+  "빌드 변형별로 APK 빌드하는 방법 알려줘"
+ ],
+ "notes": [
+  "Android 프로젝트와 Gradle 환경이 필요해요",
+  "원문은 영어예요"
+ ]
+}

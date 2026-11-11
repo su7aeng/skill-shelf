@@ -1,0 +1,20 @@
+{
+ "description": "ActiveCampaign 업무를 Rube MCP로 자동화해요.",
+ "summary": "Composio의 ActiveCampaign 도구를 Rube MCP로 연결해 연락처 만들기와 찾기, 태그 관리, 리스트 구독, 자동화 등록, 작업 관리를 해요. 매번 먼저 도구를 검색해 최신 규격을 확인하고 쓰도록 해요.",
+ "when": [
+  "연락처 생성과 조회",
+  "태그 추가와 제거",
+  "자동화에 연락처 등록",
+  "CRM 작업 관리"
+ ],
+ "examples": [
+  "ActiveCampaign에 새 연락처를 만들어줘",
+  "이 이메일 연락처에 VIP 태그를 붙여줘",
+  "이 연락처를 환영 메일 자동화에 등록해줘"
+ ],
+ "notes": [
+  "Rube MCP 연결이 필요해요. https://rube.app/mcp를 MCP 서버로 추가해요",
+  "active_campaign 연결 상태가 ACTIVE여야 해요",
+  "연락처 생성에 필수인 값은 이메일뿐이에요"
+ ]
+}

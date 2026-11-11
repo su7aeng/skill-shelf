@@ -1,0 +1,19 @@
+{
+ "description": "degit으로 저장소나 템플릿을 내려받아 새 프로젝트를 시작해요.",
+ "summary": "npx degit@latest로 GitHub, GitLab, Bitbucket, Sourcehut, Gist의 저장소를 git 기록 없이 받아 와요. 브랜치, 태그, 하위 폴더 지정과 일부 파일만 받기, 별칭 만들기를 안내해요. 템플릿의 degit.json 동작도 설명해요.",
+ "when": [
+  "템플릿으로 새 프로젝트 시작",
+  "저장소 스냅샷 받기",
+  "일부 폴더만 가져오기",
+  "별칭으로 반복 사용"
+ ],
+ "examples": [
+  "user/repo 템플릿을 my-project 폴더로 받아줘",
+  "이 저장소의 특정 브랜치만 내려받아줘"
+ ],
+ "notes": [
+  "대상 폴더는 비어 있어야 하고 --force는 덮어쓸 때만 써요",
+  "믿을 수 없는 템플릿은 --no-actions로 degit.json 실행을 막아요",
+  "비공개 저장소는 git과 접근 권한이 필요해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "Dolibarr 함수와 메서드용 PHPUnit 테스트를 만들거나 고쳐요.",
+ "summary": "test/phpunit 폴더의 기존 테스트 스타일을 따라 새 테스트 메서드를 추가해요. 테스트는 결과가 매번 같고 서로 독립적이게 쓰고, 만든 객체는 끝에 모두 정리해요.",
+ "when": [
+  "PHPUnit 테스트 추가",
+  "기존 테스트 보완",
+  "함수 동작 검증",
+  "클래스 메서드 테스트"
+ ],
+ "examples": [
+  "이 함수에 대한 PHPUnit 테스트 만들어줘",
+  "Societe 클래스 메서드 테스트 보완해줘"
+ ],
+ "notes": [
+  "데이터 공급자(dataProvider)는 쓰지 않고 반복문을 써요",
+  "assertNull, assertRegExp 등 일부 단언은 피해요",
+  "실행할 때는 --do-not-cache-result 옵션을 써요"
+ ]
+}

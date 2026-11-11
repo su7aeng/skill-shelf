@@ -1,0 +1,18 @@
+{
+ "description": "PR의 중요한 변경을 changelog 파일로 만들어요.",
+ "summary": "현재 브랜치와 main의 커밋 차이를 보고 의미 있는 변경마다 changelog 폴더에 파일을 만들어요. 파일 이름은 PR 번호와 added, changed, fixed 같은 종류로 정해요. 내용은 사용자가 체감하는 변화를 먼저 쓰고 구현 설명은 뒤에 덧붙여요.",
+ "when": [
+  "PR 변경 이력 작성",
+  "릴리스 노트 준비",
+  "커밋 요약 정리"
+ ],
+ "examples": [
+  "PR 1234번 changelog 파일을 만들어줘",
+  "이번 브랜치 변경 중 기록할 것만 골라 changelog로 써줘"
+ ],
+ "notes": [
+  "Pipecat 저장소의 changelog 폴더 규칙을 따라요",
+  "문서, 내부 리팩터링, 테스트, CI 변경은 건너뛰어요",
+  "PR 번호를 인자로 줘야 해요"
+ ]
+}

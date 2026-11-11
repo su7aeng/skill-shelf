@@ -1,0 +1,19 @@
+{
+ "description": "에이전트를 Agent Runtime, Cloud Run, GKE에 배포하는 방법을 안내해요.",
+ "summary": "배포 대상을 비교해 고르게 하고 agents-cli 명령으로 배포, CI/CD 설정, 시크릿, 서비스 계정, 롤백을 다뤄요. 대상별 세부 내용은 참고 문서에 나뉘어 있어요.",
+ "when": [
+  "에이전트 배포",
+  "CI/CD 설정",
+  "시크릿 설정",
+  "배포 문제 해결"
+ ],
+ "examples": [
+  "내 에이전트를 Cloud Run에 배포해줘",
+  "GitHub Actions로 CI/CD를 설정해줘"
+ ],
+ "notes": [
+  "agents-cli와 uv가 설치돼 있어야 해요",
+  "프로젝트가 아직 없으면 scaffold 스킬을 먼저 써요",
+  "원문은 영어예요"
+ ]
+}

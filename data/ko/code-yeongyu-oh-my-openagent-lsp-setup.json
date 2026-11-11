@@ -1,0 +1,18 @@
+{
+ "description": "프로젝트에 맞는 언어 서버를 설치하고 설정해요.",
+ "summary": "파일 확장자로 언어를 알아내고 해당 언어 안내 문서를 읽은 뒤 서버를 설치하고 설정을 적어요. 마지막에 실제로 요청을 주고받아 동작하는지 확인해요.",
+ "when": [
+  "언어 서버 설치",
+  "no LSP server configured 오류",
+  "진단 기능 연결",
+  "새 언어 지원 추가"
+ ],
+ "examples": [
+  "이 프로젝트에 TypeScript 언어 서버를 설정해줘",
+  "no LSP server configured 오류가 나는데 고쳐줘"
+ ],
+ "notes": [
+  "TypeScript, Python, Go, Rust 등 여러 언어별 참고 문서가 따로 있어요",
+  "서버 설치에 패키지 관리자나 네트워크가 필요해요"
+ ]
+}

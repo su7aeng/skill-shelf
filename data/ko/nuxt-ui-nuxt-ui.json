@@ -1,0 +1,19 @@
+{
+ "description": "@nuxt/ui v4로 화면을 만들고 브랜드에 맞게 꾸며요.",
+ "summary": "Reka UI와 Tailwind CSS 기반의 접근성 좋은 Vue 컴포넌트 125개 이상으로 화면을 짜요. 테마 맞춤, 폼, 대시보드, 문서 사이트, 채팅 화면 구성을 다뤄요. 컴포넌트 속성 같은 세부 정보는 Nuxt UI MCP 서버로 확인해요.",
+ "when": [
+  "Nuxt UI 화면 제작",
+  "브랜드 테마 맞춤",
+  "폼 만들기",
+  "대시보드 레이아웃"
+ ],
+ "examples": [
+  "Nuxt UI로 대시보드 레이아웃을 만들어줘",
+  "우리 브랜드 색에 맞게 테마를 바꿔줘",
+  "Nuxt UI로 로그인 폼을 만들어줘"
+ ],
+ "notes": [
+  "Nuxt, Vue(Vite), Laravel, AdonisJS에서 써요",
+  "컴포넌트 세부 정보는 Nuxt UI MCP 서버를 설정해 쓰도록 안내해요"
+ ]
+}

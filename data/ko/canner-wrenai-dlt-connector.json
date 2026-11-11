@@ -1,0 +1,19 @@
+{
+ "description": "SaaS 데이터를 불러와 Wren에서 SQL로 분석할 수 있게 해요.",
+ "summary": "dlt로 HubSpot, Stripe, Salesforce 같은 SaaS 데이터를 DuckDB로 옮기고, 그 스키마를 읽어 Wren 프로젝트를 자동으로 만들어요. 추출, 모델링, 빌드와 검증, 인계의 네 단계로 진행해요.",
+ "when": [
+  "SaaS 데이터 연결",
+  "API 데이터 가져오기",
+  "dlt 파이프라인 구성",
+  "DuckDB에서 Wren 프로젝트 생성"
+ ],
+ "examples": [
+  "Stripe 데이터를 불러와서 SQL로 분석할 수 있게 해줘",
+  "dlt가 만든 DuckDB 파일로 Wren 프로젝트를 만들어줘"
+ ],
+ "notes": [
+  "dlt와 Wren CLI가 필요해요",
+  "SaaS 자격 증명을 미리 준비해야 해요",
+  "SQL을 아는 데이터 분석가를 대상으로 해요"
+ ]
+}

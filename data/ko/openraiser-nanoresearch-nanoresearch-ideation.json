@@ -1,0 +1,17 @@
+{
+ "description": "논문을 검색해 빈틈을 찾고 연구 가설을 만들어요.",
+ "summary": "주제에서 검색어를 여러 개 만들어 arXiv와 Semantic Scholar를 찾아보고 중복을 제거해 순위를 매겨요. 연구 공백을 분석해 새 가설을 2~4개 내고 가장 유망한 것을 이유와 함께 고르며, 결과는 papers/ideation_output.json에 저장돼요.",
+ "when": [
+  "연구 주제 문헌 조사",
+  "연구 공백 찾기",
+  "가설 생성"
+ ],
+ "examples": [
+  "이 주제로 논문 조사하고 연구 가설 제안해줘",
+  "관련 연구에서 빈틈을 찾아줘"
+ ],
+ "notes": [
+  "arXiv와 Semantic Scholar 검색 도구가 필요해요",
+  "NanoResearch 파이프라인의 첫 단계예요"
+ ]
+}

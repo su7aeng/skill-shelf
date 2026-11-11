@@ -1,0 +1,18 @@
+{
+ "description": "SkillOpt-Sleep을 OpenClaw에 옮긴 참고용 예시예요.",
+ "summary": "DeepSeek 백엔드와 환경별 작업 파일로 SkillOpt-Sleep 사이클을 OpenClaw에 연결해 본 기여 코드를 설명해요. 바로 쓰는 설치본이 아니고, 절대 경로와 옛 인터페이스 가정이 남아 있어 옮겨 쓸 때 손봐야 할 점을 정리해 줘요.",
+ "when": [
+  "이식 방법 연구",
+  "DeepSeek 래퍼 참고",
+  "이식 전 점검"
+ ],
+ "examples": [
+  "이 OpenClaw 참고 코드를 우리 환경에 옮기려면 뭘 고쳐야 해?",
+  "DeepSeek 래퍼가 어떻게 생겼는지 알려줘"
+ ],
+ "notes": [
+  "수정 없이 실행하거나 예약하면 안 돼요",
+  "경로와 설정이 기여자의 컴퓨터 기준이에요",
+  "권위 있는 안내는 폴더의 README.md 예요"
+ ]
+}

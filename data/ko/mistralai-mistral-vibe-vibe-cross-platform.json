@@ -1,0 +1,19 @@
+{
+ "description": "Vibe 코드가 Linux, macOS, Windows에서 모두 동작하게 하는 규칙을 안내해요.",
+ "summary": "CI가 Linux에서만 도니 다른 운영체제에서도 맞는 코드를 써야 해요. 경로와 셸을 가정하지 않고 플랫폼 헬퍼를 쓰며, 다른 OS 경로는 Linux에서 monkeypatch로 테스트해요.",
+ "when": [
+  "Windows 지원 코드",
+  "경로와 셸 처리",
+  "터미널 출력 처리",
+  "운영체제별 테스트"
+ ],
+ "examples": [
+  "이 코드가 Windows에서도 되는지 봐줘",
+  "Windows 전용 동작을 Linux에서 테스트하게 해줘"
+ ],
+ "notes": [
+  "Mistral Vibe 코드베이스 전용 규칙이에요",
+  "플랫폼 분기는 vibe.core.utils.platform의 헬퍼로 해요",
+  "다른 OS 테스트를 skipif로 건너뛰지 않아요"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "MySQLTuner 프로젝트의 테스트를 실행하고 검증하는 방법을 안내해요.",
+ "summary": "tests 폴더의 Test::More 기반 .t 테스트를 prove나 make unit-tests로 실행하는 방법을 정리해요. 로직 변경 때는 표준, 컨테이너, 덤프 디렉터리 세 방식으로 모두 테스트하고, 통과율 100%와 깨끗한 출력 보고서를 요구해요.",
+ "when": [
+  "MySQLTuner 테스트 실행",
+  "로직 변경 검증",
+  "CI 테스트 절차 확인",
+  "도커로 여러 DB 설정 테스트"
+ ],
+ "examples": [
+  "MySQLTuner 단위 테스트를 돌리는 명령 알려 줘",
+  "내 수정이 세 가지 방식에서 모두 통과하는지 확인하는 법 알려 줘"
+ ],
+ "notes": [
+  "Perl의 prove와 make가 필요하고 통합 테스트는 도커가 필요해요",
+  "결과 파일에 error, warning, fatal, failed 같은 단어가 있으면 안 돼요"
+ ]
+}

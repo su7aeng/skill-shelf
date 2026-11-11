@@ -1,0 +1,18 @@
+{
+ "description": "밈 토큰 런치패드 실시간 목록과 AI 핫토픽을 조회해요.",
+ "summary": "CLI로 두 가지 피드를 가져와요. meme-rush는 Pump.fun, Four.meme 같은 런치패드의 신규, 마무리 단계, DEX 이전 토큰을 나이나 시총, 개발자 행동으로 걸러 보여줘요. topic-rush는 AI가 찾은 시장 이슈와 관련 토큰을 유입 순으로 보여줘요.",
+ "when": [
+  "새로 올라온 밈 토큰",
+  "DEX로 막 이전된 토큰",
+  "시장 핫토픽 파악",
+  "런치패드 실시간 모니터링"
+ ],
+ "examples": [
+  "pump.fun에 방금 올라온 토큰 보여줘",
+  "지금 뜨는 시장 이슈와 관련 토큰 알려줘"
+ ],
+ "notes": [
+  "BSC, Solana, Base 체인을 지원하고 topic-rush는 Base를 지원하지 않아요",
+  "Node로 scripts/cli.mjs를 실행해요"
+ ]
+}

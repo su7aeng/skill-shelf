@@ -1,0 +1,19 @@
+{
+ "description": "Better Auth 서버와 클라이언트 설정을 도와요.",
+ "summary": "better-auth 설치, 환경 변수, auth.ts 설정, 데이터베이스 어댑터, 세션, 플러그인 구성을 순서대로 안내해요. 내장 어댑터, Drizzle, Prisma별 마이그레이션 명령도 알려주고, 마지막에 /api/auth/ok 호출로 동작을 확인해요.",
+ "when": [
+  "Better Auth 처음 설정",
+  "이메일 로그인과 OAuth 연결",
+  "플러그인 추가",
+  "DB 어댑터 구성"
+ ],
+ "examples": [
+  "Better Auth로 이메일 로그인을 붙여줘",
+  "Prisma와 함께 Better Auth를 설정해줘"
+ ],
+ "notes": [
+  "BETTER_AUTH_SECRET은 32자 이상이어야 하고 BETTER_AUTH_URL도 필요해요",
+  "플러그인을 추가하거나 바꾸면 마이그레이션을 다시 실행해요",
+  "최신 API는 공식 문서를 확인하라고 안내해요"
+ ]
+}

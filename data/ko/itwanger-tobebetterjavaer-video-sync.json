@@ -1,0 +1,18 @@
+{
+ "description": "B站와 抖音 영상 링크를 프로젝트 문서에 반영해요.",
+ "summary": "B站 영상 링크는 docs/src/ai/video/readme.md에, 抖音 영상 ID는 agentInterview.ts의 douyinVideoIds 표에 넣어요. 목록을 가져와 빠진 곳을 찾고, 제목으로 대본과 짝지은 뒤 스크립트로 반영해요. 이미 있는 링크와 ID는 건드리지 않고, 다시 실행해도 중복되지 않아요.",
+ "when": [
+  "B站 영상 링크 동기화",
+  "抖音 영상 ID 반영",
+  "readme 영상 목록 갱신"
+ ],
+ "examples": [
+  "B站에 새 영상 올렸으니 링크 동기화해줘",
+  "抖音 영상 ID를 스크립트 매핑에 넣어줘"
+ ],
+ "notes": [
+  "抖音 목록은 로그인이 필요해서 Claude in Chrome으로 가져와요",
+  "video_sync.py 스크립트와 해당 저장소 구조에 묶인 전용 절차예요",
+  "원문이 중국어예요"
+ ]
+}

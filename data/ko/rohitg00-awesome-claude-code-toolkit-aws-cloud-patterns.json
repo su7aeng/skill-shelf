@@ -1,0 +1,18 @@
+{
+ "description": "Lambda, ECS, S3, DynamoDB와 CDK, Terraform을 쓰는 AWS 구성 패턴이에요.",
+ "summary": "Lambda 함수 작성, DynamoDB 단일 테이블 설계, CDK로 인프라를 코드로 만드는 예제를 담고 있어요. 접근 패턴을 먼저 정하고 키를 설계하라는 식의 요령도 알려줘요.",
+ "when": [
+  "서버리스 API 만들기",
+  "DynamoDB 테이블 설계",
+  "AWS 인프라를 코드로 관리"
+ ],
+ "examples": [
+  "Lambda와 DynamoDB로 조회 API 만들어줘",
+  "DynamoDB 단일 테이블로 주문 데이터 설계해줘",
+  "CDK로 API 스택 구성해줘"
+ ],
+ "notes": [
+  "AWS 계정과 자격 증명이 있어야 실제 배포돼요",
+  "원문은 영어예요"
+ ]
+}

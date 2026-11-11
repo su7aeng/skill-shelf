@@ -1,0 +1,19 @@
+{
+ "description": "linkedin-mcp-server의 열린 issue와 PR을 우선순위로 정리해요.",
+ "summary": "stickerdaniel/linkedin-mcp-server 의 issue와 PR을 읽어 근거가 충분한지 분류하고 먼저 할 일을 순위로 매겨요. 읽기 전용이라 체크아웃, 라벨, 댓글, 재현은 하지 않아요.",
+ "when": [
+  "백로그 정리",
+  "먼저 처리할 issue 고르기",
+  "병합 가능한 PR 찾기"
+ ],
+ "examples": [
+  "열린 issue 훑고 먼저 할 것 순위 매겨줘",
+  "어떤 PR이 바로 쓸 만한지 알려줘",
+  "bug 라벨만 골라서 정리해줘"
+ ],
+ "notes": [
+  "gh CLI가 필요해요",
+  "이 저장소 전용 스킬이에요",
+  "재현은 2-repro-issue, PR 검증은 3-verify-pr-fix 가 맡아요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "사이트를 AI 에이전트가 쓸 수 있는지 점검하고 고칠 안을 내요.",
+ "summary": "Lighthouse의 Agentic Browsing 점수, 에이전트용 접근성 트리, robots.txt, llms.txt, Markdown 제공, WebMCP 같은 항목을 차례로 검사해요. 결과는 X/N 형태의 점수와 함께 고칠 파일 초안으로 정리돼요.",
+ "when": [
+  "AI 에이전트의 사이트 사용 점검",
+  "llms.txt 작성",
+  "robots.txt AI 접근 정책 정비",
+  "WebMCP 도입 검토"
+ ],
+ "examples": [
+  "우리 사이트를 AI 에이전트가 제대로 쓸 수 있는지 점검해줘",
+  "llms.txt랑 robots.txt 고칠 초안 만들어줘",
+  "Lighthouse Agentic Browsing 결과가 무슨 뜻인지 설명해줘"
+ ],
+ "notes": [
+  "/seo agentic 명령으로 audit, fix, lighthouse, refresh 모드를 써요",
+  "Lighthouse 점검은 PSI를 쓰고 Google API 키가 있으면 할당량 제한을 피할 수 있어요",
+  "AI 인용 신뢰도와 쇼핑 프로토콜은 다른 스킬의 몫이에요"
+ ]
+}

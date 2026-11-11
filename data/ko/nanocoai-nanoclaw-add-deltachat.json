@@ -1,0 +1,19 @@
+{
+ "description": "NanoClaw에 DeltaChat 메시지 채널을 추가해요.",
+ "summary": "@deltachat/stdio-rpc-server를 직접 구동하는 채널 어댑터를 설치해요. 이메일 위에서 동작하고 종단간 암호화(Autocrypt/OpenPGP)를 써요. 어댑터와 등록 테스트를 복사하고 빌드와 테스트로 확인해요.",
+ "when": [
+  "DeltaChat으로 대화",
+  "이메일 기반 메신저 연결",
+  "암호화 채널 추가",
+  "새 채널 설치"
+ ],
+ "examples": [
+  "NanoClaw를 DeltaChat에서 쓰게 해줘",
+  "암호화되는 이메일 채널을 추가해줘"
+ ],
+ "notes": [
+  "전용 이메일 계정을 따로 쓰길 권해요",
+  "DeltaChat과 잘 맞는 이메일 제공자인지 먼저 확인해야 해요",
+  "어댑터를 channels 브랜치에서 가져와요"
+ ]
+}

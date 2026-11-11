@@ -1,0 +1,20 @@
+{
+ "description": "배포된 Vercel 프로젝트의 비용과 속도 개선점을 찾아 줘요.",
+ "summary": "Vercel 지표, 사용량, 프로젝트 설정, 코드 검사 결과를 먼저 모은 뒤 수치가 뒷받침하는 항목만 조사해요. 확인된 파일과 문서를 근거로 순위를 매긴 개선 권고를 내놓아요.",
+ "when": [
+  "Vercel 청구액 줄이기",
+  "느린 경로 찾기",
+  "캐시 개선",
+  "함수 호출과 전송량 점검"
+ ],
+ "examples": [
+  "Vercel 비용이 왜 이렇게 나오는지 분석해줘",
+  "느리고 비싼 라우트 찾아서 개선안 줘",
+  "Next.js 앱 Vercel 최적화해줘"
+ ],
+ "notes": [
+  "Vercel CLI 53 이상, 로그인, vercel link, Node.js 20 이상이 필요해요",
+  "경로별 지표 권고에는 Observability Plus가 필요해요",
+  "Next.js, SvelteKit, Nuxt를 주로 지원하고 Astro는 일부만 돼요"
+ ]
+}

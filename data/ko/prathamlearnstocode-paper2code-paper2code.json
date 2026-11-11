@@ -1,0 +1,19 @@
+{
+ "description": "arXiv 논문을 출처를 단 최소한의 Python 코드로 구현해 줘요.",
+ "summary": "논문을 내려받아 구조를 뽑고, 핵심 기여를 정한 뒤 모호한 부분을 점검하고 단계별로 구현해요. 논문에 적히지 않은 세부 사항은 지어내지 않고 모호한 점을 솔직히 표시해요. 모드는 minimal, full, educational 중에서, 프레임워크는 pytorch, jax, numpy 중에서 골라요.",
+ "when": [
+  "논문 구현",
+  "arXiv 링크로 코드 만들기",
+  "논문 속 모호한 부분 점검"
+ ],
+ "examples": [
+  "https://arxiv.org/abs/2106.09685 논문을 구현해줘",
+  "이 논문 핵심 알고리즘을 PyTorch로 최소 코드로 만들어줘",
+  "2106.09685 논문을 JAX로 구현하고 불확실한 부분은 표시해줘"
+ ],
+ "notes": [
+  "Python과 pymupdf4llm, pdfplumber, requests, pyyaml 설치가 필요해요",
+  "논문 PDF를 내려받으려면 인터넷 연결이 필요해요",
+  "기본은 minimal 모드와 pytorch예요"
+ ]
+}

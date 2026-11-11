@@ -1,0 +1,18 @@
+{
+ "description": "Dolibarr ERP/CRM 코드를 프로젝트 규칙대로 개발하도록 도와요.",
+ "summary": "Dolibarr의 데이터베이스 추상화 계층, 입력 검증과 SQL 이스케이프, PSR-12, PHPDoc 같은 필수 규칙을 지키며 코드를 짜고 고쳐요. 보안과 데이터 무결성을 가장 먼저 따져요.",
+ "when": [
+  "Dolibarr 기능 개발",
+  "DB 쿼리 작성",
+  "버그 수정",
+  "프로젝트 관례 확인"
+ ],
+ "examples": [
+  "Dolibarr에서 고객 목록을 조회하는 쿼리 안전하게 짜줘",
+  "이 페이지 코드를 Dolibarr 규칙에 맞게 고쳐줘"
+ ],
+ "notes": [
+  "PDO나 MySQLi 같은 PHP 기본 DB 확장은 쓰지 않아요",
+  "프로젝트의 AGENTS.md 지침과 함께 적용돼요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "OpenAI GPT Image로 이미지를 만들거나 고쳐 줘요.",
+ "summary": "번들된 Python 스크립트로 OpenAI GPT Image API를 불러서 이미지를 새로 만들거나 기존 이미지를 편집해요. 크기, 모델, 화질, 장수를 정할 수 있고, 저장된 이미지 경로를 알려 줘요.",
+ "when": [
+  "OpenAI나 GPT로 그림 생성",
+  "기존 이미지 편집",
+  "이미지 여러 장 한 번에 생성"
+ ],
+ "examples": [
+  "OpenAI 이미지 모델로 고양이 우주인 그림 만들어줘",
+  "gpt image로 이 사진 배경만 바꿔줘",
+  "openai로 1024x1024 로고 시안 두 장 뽑아줘"
+ ],
+ "notes": [
+  "OPENAI_API_KEY가 필요하고 ~/.gpt-image.env에 넣어요",
+  "Python3와 openai, Pillow 패키지가 필요해요",
+  "제공자를 따로 말하지 않은 이미지 요청은 nanobanana-skill이 맡고, 다이어그램에는 쓰지 않아요"
+ ]
+}

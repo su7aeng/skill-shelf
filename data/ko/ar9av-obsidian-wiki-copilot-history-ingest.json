@@ -1,0 +1,19 @@
+{
+ "description": "과거 GitHub Copilot 대화에서 쓸 만한 지식을 Obsidian 위키에 정리해요.",
+ "summary": "Copilot CLI 세션 폴더와 VS Code 저장소 등 세 곳을 모두 살펴 이벤트 로그, 체크포인트, 요약을 읽고 오래 쓸 내용만 위키로 옮겨요. 새로 생기거나 갱신된 세션만 처리하는 방식이 기본이고 전체 재처리도 가능해요.",
+ "when": [
+  "Copilot 대화를 지식으로 남길 때",
+  "새 세션만 위키에 추가할 때",
+  "VS Code Copilot 기록 정리",
+  "위키 재구축 후 다시 가져오기"
+ ],
+ "examples": [
+  "Copilot 대화 기록을 옵시디언 위키로 정리해 줘",
+  "새로 생긴 Copilot 세션만 반영해 줘",
+  "Copilot 기록 전체를 다시 가져와 줘"
+ ],
+ "notes": [
+  "OBSIDIAN_VAULT_PATH 설정이 필요해요",
+  "기록 기본 위치는 ~/.copilot/session-state 이고 VS Code workspaceStorage 경로는 환경마다 달라 물어볼 수 있어요"
+ ]
+}

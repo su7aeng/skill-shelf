@@ -1,0 +1,18 @@
+{
+ "description": "명령줄로 Draw.io 다이어그램을 만들고 편집하고 내보내요.",
+ "summary": "Draw.io용 CLI 하네스로 프로젝트 생성, 열기, 저장, 정보 확인 같은 명령을 제공해요. 인자 없이 실행하면 대화형 REPL이 열리고, --json 옵션으로 에이전트가 읽기 쉬운 출력도 받을 수 있어요.",
+ "when": [
+  "다이어그램 새로 만들기",
+  "기존 .drawio 파일 편집",
+  "다이어그램 이미지 내보내기",
+  "스크립트로 도면 자동화"
+ ],
+ "examples": [
+  "빈 Draw.io 다이어그램 프로젝트를 새로 만들어줘",
+  "이 drawio 파일 정보를 JSON으로 보여줘"
+ ],
+ "notes": [
+  "Python 3.10 이상과 시스템에 설치된 drawio가 필요해요",
+  "pip install cli-anything-drawio로 설치해요"
+ ]
+}

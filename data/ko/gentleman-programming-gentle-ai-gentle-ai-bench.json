@@ -1,0 +1,19 @@
+{
+ "description": "gentle-ai 벤치마크의 journey를 작성하고 검증해요.",
+ "summary": "gentle-ai 저장소의 bench 폴더에서 journey를 추가하거나 바꿀 때 쓰는 규칙을 따라요. go test ./bench는 선언만 확인하므로 실제 실행은 CI와 같은 명령으로 하네스를 돌려 확인해요.",
+ "when": [
+  "journey 추가",
+  "bench 변경",
+  "CI 테스트 실패 분석",
+  "journey ID 정리"
+ ],
+ "examples": [
+  "bench에 새 journey를 추가해줘",
+  "CI의 Unit Tests에서 bench가 실패하는 이유를 찾아줘"
+ ],
+ "notes": [
+  "go test ./bench만 통과해도 실행이 검증된 것은 아니에요",
+  "journey ID는 모든 파일에서 겹치면 안 돼요",
+  "원문이 영어예요"
+ ]
+}

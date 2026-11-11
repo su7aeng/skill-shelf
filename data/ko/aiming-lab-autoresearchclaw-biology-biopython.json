@@ -1,0 +1,18 @@
+{
+ "description": "Biopython으로 서열, 파일 파싱, BLAST, 계통수 작업 방법을 안내해요.",
+ "summary": "서열 다루기, SeqIO 파일 읽고 쓰기, BLAST, NCBI Entrez 접근, Bio.Phylo 계통수 등의 모범 사용법을 항목별로 정리한 지침이에요. 코드 예시와 주의점이 함께 있어요.",
+ "when": [
+  "DNA, RNA, 단백질 서열 처리",
+  "FASTA, GenBank 파일 읽기",
+  "BLAST 검색",
+  "계통수 작업"
+ ],
+ "examples": [
+  "FASTA 파일에서 서열을 읽어 GC 비율을 계산해줘",
+  "BLAST 결과를 e-value로 걸러줘"
+ ],
+ "notes": [
+  "Biopython이 필요해요",
+  "NCBI 접근 전에 Entrez.email을 설정하고 요청 속도 제한을 지켜야 해요"
+ ]
+}

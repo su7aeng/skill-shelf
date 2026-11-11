@@ -1,0 +1,17 @@
+{
+ "description": "Dozzle PR을 열기 전에 변경이 실제로 동작하는지 확인해요.",
+ "summary": "origin/main 기준으로 바뀐 파일을 찾아 Go, 프론트엔드, 번역 등 해당하는 CI 검사를 직접 돌려요. 새 동작을 실제로 보여 주고, 실행한 명령과 결과를 PR의 Tests 항목에 적어요.",
+ "when": [
+  "PR 열기 전",
+  "변경 검증",
+  "CI 사전 점검"
+ ],
+ "examples": [
+  "PR 올리기 전에 검증 돌려줘",
+  "내 변경이 CI를 통과할지 미리 확인해줘"
+ ],
+ "notes": [
+  "Docker나 Chrome이 없어서 못 돌린 단계는 숨기지 않고 적어요",
+  "git fetch origin 후 origin/main과 비교해요"
+ ]
+}

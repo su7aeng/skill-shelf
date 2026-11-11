@@ -1,0 +1,19 @@
+{
+ "description": "Bing 웹마스터 도구와 IndexNow로 Bing 쪽 노출을 관리해요.",
+ "summary": "Bing 링크 데이터를 조회하고 두 사이트를 비교하며, 새 URL을 IndexNow로 제출해요. Microsoft Copilot 인용이 Bing 색인에서 나오기 때문에 그 쪽 가시성을 높이는 용도예요.",
+ "when": [
+  "Bing 링크 데이터 확인",
+  "새 페이지 색인 요청",
+  "Copilot 인용 대비",
+  "IndexNow 키 검증"
+ ],
+ "examples": [
+  "새로 올린 글을 IndexNow로 제출해줘",
+  "Bing에서 우리 사이트 링크 현황 보여줘"
+ ],
+ "notes": [
+  "Bing Webmaster Tools API 키와 설치 스크립트 실행이 필요해요",
+  "IndexNow는 Google에는 적용되지 않아요",
+  "구글 색인은 seo-google 스킬을 써요"
+ ]
+}

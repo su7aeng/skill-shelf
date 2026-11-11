@@ -1,0 +1,20 @@
+{
+ "description": "CraftedWell 브랜드 색과 글꼴을 문서와 발표 자료에 적용해요.",
+ "summary": "CraftedWell의 따뜻한 수공예 느낌에 맞춰 docx, pdf, pptx를 만들거나 꾸밀 때 쓰는 가이드예요. 다크 초콜릿, 카라멜 같은 색과 제목 Georgia Bold, 본문 Arial 규칙을 정해 두었어요. 밝은 배경과 어두운 배경에 맞는 로고 파일도 구분해 써요.",
+ "when": [
+  "브랜드에 맞는 문서 만들기",
+  "브랜드 발표 자료 꾸미기",
+  "docx와 pdf 스타일 적용",
+  "로고 사용 규칙 확인"
+ ],
+ "examples": [
+  "CraftedWell 브랜드에 맞춰 제안서 docx 만들어줘",
+  "이 발표 자료를 CraftedWell 색과 글꼴로 바꿔줘",
+  "어두운 배경 슬라이드에 어떤 로고를 써야 하는지 알려줘"
+ ],
+ "notes": [
+  "docx나 pptx 등 문서 스킬과 함께 써요",
+  "로고 이미지와 상세 가이드는 assets와 references 폴더에 있어요",
+  "원문은 영어예요"
+ ]
+}

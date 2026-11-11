@@ -1,0 +1,20 @@
+{
+ "description": "Word(.docx) 논문을 만들고 고치고 검증해요.",
+ "summary": "공식 참고 템플릿 위에 python-docx로 내용을 쓰고 OMML 원생 수식과 삼선표를 넣어요. 완성된 LaTeX 논문을 Pandoc으로 DOCX로 바꾸는 기능과, 변환 결과를 기록하고 검증하는 기능이 있어요. 마지막에 구조 검증과 렌더링 확인을 해요.",
+ "when": [
+  "수학 모델링 논문 Word 작성",
+  "LaTeX 논문 DOCX 변환",
+  "수식과 삼선표 삽입",
+  "수정 기록과 주석 처리"
+ ],
+ "examples": [
+  "대회 공식 템플릿으로 논문 Word 파일을 만들어 줘",
+  "main.tex 논문을 Word로 변환하고 검증해 줘",
+  "문서의 EQ_OBJECTIVE 자리에 목적함수 수식을 넣어 줘"
+ ],
+ "notes": [
+  "LaTeX 변환에는 Pandoc 설치가 필요해요. python scripts/check_env.py 로 확인해요",
+  "결과 파일은 PROJECT_ROOT에만 쓰고 스킬 파일은 덮어쓰지 않아요",
+  "원문은 중국어예요"
+ ]
+}

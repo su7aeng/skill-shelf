@@ -1,0 +1,17 @@
+{
+ "description": "OpenClaw용 lossless-claw 플러그인의 설정과 문제 진단을 도와요.",
+ "summary": "설정, 진단, 회상 도구, 세션 수명 주기 중 무엇이 필요한지 가려서 해당 참고 문서를 읽고 답해요. 빠른 점검은 /lossless 명령으로, 요약이 손상됐는지는 /lossless doctor로 확인하도록 안내해요.",
+ "when": [
+  "lossless-claw 설정을 조정할 때",
+  "요약 상태를 진단할 때",
+  "/new나 /reset 동작이 궁금할 때"
+ ],
+ "examples": [
+  "lossless-claw가 잘 동작하는지 점검하는 방법 알려줘",
+  "요약이 잘린 것 같은데 어떻게 확인해"
+ ],
+ "notes": [
+  "OpenClaw 플러그인 전용이에요",
+  "세부 내용은 references 폴더의 문서를 읽고 답해요"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "description": "React와 Remotion으로 영상을 만드는 모범 사례를 안내해요.",
+ "summary": "코드로 영상을 만드는 Remotion 프로젝트를 도와줘요. 현재 프레임 값으로 애니메이션을 만드는 기본 개념, 프로젝트 시작법, 컴포넌트 구성과 Player 최적화 같은 요령을 알려 줘요.",
+ "when": [
+  "코드로 영상 만들기",
+  "Remotion 프로젝트 시작",
+  "영상 애니메이션 작성",
+  "Player 성능 개선"
+ ],
+ "examples": [
+  "Remotion으로 5초짜리 제목 영상을 만들어줘",
+  "Player가 자꾸 다시 렌더링돼서 느린데 고쳐줘"
+ ],
+ "notes": [
+  "Node.js 16 이상이나 Bun 1.0.3 이상이 필요해요",
+  "npx create-video@latest로 새 프로젝트를 만들어요",
+  "원문이 영어예요"
+ ]
+}

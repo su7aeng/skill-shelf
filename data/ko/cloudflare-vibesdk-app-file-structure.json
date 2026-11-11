@@ -1,0 +1,19 @@
+{
+ "description": "Cloudflare Worker Bundler로 빌드되는 앱의 구성 규칙을 알려줘요.",
+ "summary": "space에 올린 프로젝트가 @cloudflare/worker-bundler로 빌드돼 미리보기에 뜨는 흐름을 설명해요. wrangler 설정, 폴더 구조, 정적 파일 규칙, 서버 진입점, npm 의존성 제한을 다뤄요. 빈 화면이 뜨는 흔한 원인인 브라우저 스크립트의 JSX도 짚어요.",
+ "when": [
+  "새 앱 뼈대 만들기",
+  "미리보기가 빈 화면일 때",
+  "Build failed 오류 해결",
+  "정적 파일 설정"
+ ],
+ "examples": [
+  "미리보기가 하얗게 나오는데 원인을 찾아줘",
+  "이 프로젝트를 space 배포에 맞게 구성해줘"
+ ],
+ "notes": [
+  "worker-bundler와 space 배포 환경에 한정된 규칙이에요",
+  "npm 의존성에 제한이 있어요",
+  "원문이 영어예요"
+ ]
+}

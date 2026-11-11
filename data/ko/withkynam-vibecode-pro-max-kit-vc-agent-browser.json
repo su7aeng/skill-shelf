@@ -1,0 +1,20 @@
+{
+ "description": "AI용 브라우저 자동화 CLI agent-browser 사용법을 안내해요.",
+ "summary": "페이지를 열고 상호작용 요소의 스냅샷을 찍어 ref(@e1 등)로 클릭과 입력을 하는 방식이에요. Playwright MCP보다 컨텍스트를 적게 쓴다고 해요. 설치, 기본 4단계 흐름, 영상 녹화, Browserbase 클라우드 테스트를 다뤄요.",
+ "when": [
+  "긴 자율 작업 중 브라우저 조작",
+  "웹 화면 직접 확인",
+  "영상 녹화",
+  "클라우드 브라우저 테스트"
+ ],
+ "examples": [
+  "agent-browser로 이 페이지 열어서 로그인 버튼 눌러줘",
+  "변경한 화면이 제대로 보이는지 브라우저로 확인해줘",
+  "agent-browser 설치하는 방법 알려줘"
+ ],
+ "notes": [
+  "npm install -g agent-browser 후 agent-browser install 로 Chromium을 받아야 해요",
+  "Linux에서는 --with-deps 옵션을 붙여요",
+  "원문은 영어예요"
+ ]
+}

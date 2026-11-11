@@ -1,0 +1,17 @@
+{
+ "description": "라이브러리 프로젝트용 GitHub Actions CI 설정 파일을 만들어요.",
+ "summary": "package.json, pyproject.toml, go.mod, Cargo.toml로 프로젝트 종류를 알아내고 알맞은 템플릿을 골라요. 테스트와 빌드 명령, 버전 매트릭스, 실행 조건을 맞춰 .github/workflows/ci.yml을 만들어요.",
+ "when": [
+  "새 프로젝트에 CI를 붙일 때",
+  "기존 CI 워크플로를 고칠 때",
+  "여러 버전으로 테스트할 때"
+ ],
+ "examples": [
+  "이 npm 패키지에 GitHub Actions CI를 만들어줘",
+  "파이썬 3.9부터 3.12까지 테스트하는 워크플로를 써줘"
+ ],
+ "notes": [
+  "Node.js, Python, Go, Rust 템플릿이 assets 폴더에 있어요",
+  "의존성 캐시와 매트릭스 테스트가 포함돼요"
+ ]
+}

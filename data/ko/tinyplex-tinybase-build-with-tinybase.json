@@ -1,0 +1,19 @@
+{
+ "description": "TinyBase로 로컬 우선 앱을 만들고 점검하는 스킬이에요.",
+ "summary": "create-tinybase로 앱을 만들고, 스키마와 UI 바인딩, 브라우저나 데이터베이스 저장, WebSocket과 Cloudflare Durable Objects 동기화를 설정해요. API는 기억에 의존하지 않고 references 문서를 읽고 쓰며, 사용자가 필요한 동작을 실제로 검증해요.",
+ "when": [
+  "TinyBase 앱 새로 만들기",
+  "저장소와 스키마 설정",
+  "MergeableStore 동기화",
+  "기존 앱 문제 진단"
+ ],
+ "examples": [
+  "TinyBase로 할 일 앱 만들어줘",
+  "TinyBase 데이터를 브라우저에 저장하게 설정해줘",
+  "Durable Object로 동기화 서버를 붙이고 싶어"
+ ],
+ "notes": [
+  "TinyBase는 호스팅 데이터베이스가 아니라 런타임 안에서 쓰는 데이터 저장소예요",
+  "새 앱은 npm create tinybase 명령으로 시작해요"
+ ]
+}

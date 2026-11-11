@@ -1,0 +1,20 @@
+{
+ "description": "Model Garden의 모델을 엔드포인트에 배포하고 정리해요.",
+ "summary": "Model Garden의 공개 모델이나 직접 만든 가중치를 Agent Platform 엔드포인트에 배포하고, 진행 중인 배포 상태를 확인해요. 배포 비용 조회, 할당량 오류 해결, 모델 내리기와 엔드포인트 삭제까지 gcloud 명령으로 안내해요.",
+ "when": [
+  "모델 배포",
+  "배포 가능 여부 확인",
+  "배포 오류 해결",
+  "리소스 정리"
+ ],
+ "examples": [
+  "Model Garden에서 이 모델을 배포할 수 있는지 확인해줘",
+  "배포한 모델을 내리고 엔드포인트도 정리해줘",
+  "배포가 할당량 오류로 실패했는데 원인을 알려줘"
+ ],
+ "notes": [
+  "gcloud 명령 전에 읽어야 하는 사용량 표기(attribution) 문서가 따로 있어요",
+  "엔드포인트 목록 조회 같은 단순 확인은 agent-platform-endpoint-management 스킬이 맡아요",
+  "모델 평가는 agent-platform-eval-flywheel 스킬을 써야 해요"
+ ]
+}

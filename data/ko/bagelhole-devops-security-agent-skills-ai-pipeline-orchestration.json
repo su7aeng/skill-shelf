@@ -1,0 +1,20 @@
+{
+ "description": "Prefect나 Airflow로 AI 데이터와 학습, 추론 파이프라인을 돌려요.",
+ "summary": "문서 수집, 모델 학습, 일괄 추론, RAG 색인 같은 AI 작업을 순서대로 자동 실행하게 만들어요. Prefect, Airflow, Dagster, Temporal 중 무엇을 고를지 비교하고 Prefect 예시로 시작해요. 재시도와 관찰이 가능한 흐름을 목표로 해요.",
+ "when": [
+  "RAG 문서 정기 색인",
+  "일괄 LLM 처리",
+  "야간 모델 평가",
+  "ETL 파이프라인"
+ ],
+ "examples": [
+  "매일 밤 문서를 다시 색인하는 파이프라인을 Prefect로 만들어줘",
+  "Airflow와 Dagster 중 우리에게 맞는 걸 비교해줘",
+  "실패하면 자동 재시도하게 만들어줘"
+ ],
+ "notes": [
+  "Python 환경과 선택한 오케스트레이션 도구 설치가 필요해요",
+  "GPU 작업은 Kubernetes 연동 예시를 써요",
+  "원문은 영어예요"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "description": "potpie 명령어 사용과 설정, 문제 해결을 도와줘요.",
+ "summary": "potpie 명령의 설치, 로그인, pot 관리, 소스 등록, resolve, search, record, 그래프 읽기와 쓰기, 리소스 명령, pot 범위 동작을 설명해요. doctor와 status로 상태를 점검하는 방법도 안내해요.",
+ "when": [
+  "potpie 설치와 설정",
+  "로그인과 pot 선택",
+  "소스 저장소 등록",
+  "명령 오류 해결"
+ ],
+ "examples": [
+  "potpie를 설치하고 로그인하는 방법 알려줘",
+  "현재 저장소를 pot에 연결해줘",
+  "potpie doctor 결과를 보고 문제를 풀어줘"
+ ],
+ "notes": [
+  "uv tool install potpie 또는 pip install potpie로 설치해요",
+  "로그인에는 API 키와 호스트 주소가 필요해요",
+  "일반적인 프로젝트 맥락 조회는 용도별 스킬을 먼저 쓰는 편이 좋아요"
+ ]
+}

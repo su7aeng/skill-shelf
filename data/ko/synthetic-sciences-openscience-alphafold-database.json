@@ -1,0 +1,20 @@
+{
+ "description": "AlphaFold가 예측한 단백질 구조를 찾아 내려받고 신뢰도를 분석해 줘요.",
+ "summary": "2억 개가 넘는 AlphaFold 예측 구조를 UniProt ID로 조회하고 PDB나 mmCIF 파일을 내려받아요. 예측 신뢰도 지표인 pLDDT와 PAE로 믿을 만한 부분을 살펴요. Google Cloud에서 단백질체 전체 데이터를 받는 방법도 다뤄요.",
+ "when": [
+  "단백질 구조 조회",
+  "구조 파일 다운로드",
+  "예측 신뢰도 확인",
+  "실험 구조와 비교"
+ ],
+ "examples": [
+  "UniProt P69905의 AlphaFold 구조를 내려받아줘",
+  "이 구조에서 신뢰도 낮은 영역을 찾아줘",
+  "실험으로 얻은 구조와 예측 구조를 비교해줘"
+ ],
+ "notes": [
+  "Biopython 사용을 권장해요",
+  "AlphaFold DB에 없는 단백질은 ESMFold 같은 다른 스킬이 필요해요",
+  "인터넷 연결이 필요해요"
+ ]
+}
