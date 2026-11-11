@@ -1,0 +1,18 @@
+{
+  "description": "tmux 창에서 도는 여러 Claude Code 에이전트를 worktree 단위로 띄우고 감독해요.",
+  "summary": "여유 worktree를 찾아 에이전트를 띄우고 상태를 확인하며, 멈춘 에이전트를 깨우고 안전한 확인 요청은 승인해요. 작업이 끝나면 worktree를 되돌려 재사용해요. 자연어로 말하면 알맞은 스크립트로 연결돼요.",
+  "when": [
+    "여러 작업을 병렬 에이전트로 동시에 진행하고 싶을 때",
+    "에이전트들의 상태를 한눈에 확인하고 싶을 때",
+    "끝난 worktree를 정리해 재사용하고 싶을 때"
+  ],
+  "examples": [
+    "에이전트 3개를 띄워서 X, Y, Z 작업을 시켜 줘",
+    "지금 상태 보여 줘",
+    "여유 worktree가 몇 개 있는지 알려 줘"
+  ],
+  "notes": [
+    "tmux와 git worktree 환경이 필요해요.",
+    "상태는 ~/.claude/orchestrator-state.json에 저장돼요."
+  ]
+}

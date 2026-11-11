@@ -1,0 +1,20 @@
+{
+ "description": "Cline VS Code 확장의 stable, nightly, 긴급 legacy 핫픽스 릴리스를 진행하고 사후 검증까지 안내해요.",
+ "summary": "버전 선택, 변경 로그, 워크플로 디스패치, 환경 승인, 태깅과 발행 후 확인을 순서대로 안내해요. stable은 `ext-vscode-publish.yml`을 쓰고, 문제가 있었던 `ext-vscode-publish-stable.yml`은 쓰지 않아요.",
+ "when": [
+  "VS Code 확장 stable 버전을 릴리스할 때",
+  "nightly를 수동으로 발행할 때",
+  "긴급 legacy 핫픽스를 내보낼 때",
+  "끝난 A/B 롤아웃 잔여물을 정리할 때"
+ ],
+ "examples": [
+  "VS Code 확장 새 stable 릴리스를 진행해줘",
+  "확장 nightly를 발행해줘",
+  "발행 후 마켓플레이스 반영을 확인해줘"
+ ],
+ "notes": [
+  "워크플로는 `main`에서 디스패치해야 해요",
+  "stable 발행은 `publish` 환경의 리뷰어 승인이 필요해요",
+  "`version` 입력은 `apps/vscode/package.json`과 같아야 해요"
+ ]
+}

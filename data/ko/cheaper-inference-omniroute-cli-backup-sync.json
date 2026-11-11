@@ -1,0 +1,17 @@
+{
+ "description": "OmniRoute 데이터를 CLI로 백업하고 복원해요.",
+ "summary": "`omniroute backup` 하위 명령으로 스냅샷 생성, 클라우드 동기화, 자동 백업 스케줄 설정, 보관 개수 지정을 해요. 암호화 옵션도 있어요.",
+ "when": [
+  "OmniRoute 데이터를 백업할 때",
+  "정기 백업 스케줄을 설정할 때",
+  "백업 상태를 확인하거나 복원할 때"
+ ],
+ "examples": [
+  "omniroute 백업 만들어줘",
+  "매일 새벽에 암호화 백업이 돌도록 설정해줘",
+  "백업 상태 보여줘"
+ ],
+ "notes": [
+  "`npm install -g omniroute` 또는 `npx omniroute`로 omniroute CLI가 필요해요."
+ ]
+}

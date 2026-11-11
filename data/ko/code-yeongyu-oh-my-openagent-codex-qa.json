@@ -1,0 +1,20 @@
+{
+ "description": "omo Codex Light 에디션(lazycodex)을 격리된 CODEX_HOME과 로컬 mock 모델로 QA해요. 실제 ~/.codex는 건드리지 않아요.",
+ "summary": "실제 `codex app-server`를 돌려 `hook/started`, `hook/completed` 알림으로 플러그인 훅이 동작했는지 증명해요. 설치 검증, 컴포넌트별 훅 프로브, tmux TUI 스모크, 런타임 로그 관찰용 스크립트를 쓰고 증거는 `.omo/evidence/`에 남겨요.",
+ "when": [
+  "`packages/omo-codex`를 수정한 뒤 검증할 때",
+  "Codex 플러그인 훅이 실제로 실행되는지 증명할 때",
+  "설치 프로그램이나 config.toml 결과를 확인할 때",
+  "Codex TUI 스모크 테스트를 할 때"
+ ],
+ "examples": [
+  "codex 플러그인 훅이 실제로 발동하는지 app-server로 증명해줘",
+  "로컬 빌드를 격리된 홈에 설치하고 결과를 확인해줘",
+  "Codex TUI가 정상 기동하는지 스모크 테스트해줘"
+ ],
+ "notes": [
+  "node, jq, tmux, bun 등이 필요하고 `codex-cli 0.140.0` 기준으로 검증됐어요",
+  "Docker QA가 기본이고 로컬 스크립트는 대체 수단이에요",
+  "실제 모델 API는 호출하지 않고 홈 설정 변경이 없는지 해시로 확인해요"
+ ]
+}

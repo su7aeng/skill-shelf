@@ -1,0 +1,16 @@
+{
+ "description": "Remotion 전문가 페이지에 새 전문가를 추가해요. 사진, 데이터 항목, 카드 이미지 렌더링까지 처리해요.",
+ "summary": "사진을 두 경로에 넣고 `experts-data.tsx`에 slug, 이름, 링크, 소개를 가진 항목을 추가해요. 이후 `bun render-cards`로 카드 이미지를 렌더링해 업로드를 확인해요.",
+ "when": [
+  "새 프리랜서 전문가를 Remotion experts 페이지에 등록할 때",
+  "전문가 카드 이미지를 다시 렌더링해야 할 때"
+ ],
+ "examples": [
+  "Jane Doe를 Remotion 전문가로 추가해줘. 사진은 jane.png야",
+  "experts-jane-doe 카드를 다시 렌더링해줘"
+ ],
+ "notes": [
+  "정사각형 PNG 헤드샷이 필요해요",
+  "카드 업로드에는 환경 변수의 R2 자격 증명과 bun이 필요해요"
+ ]
+}

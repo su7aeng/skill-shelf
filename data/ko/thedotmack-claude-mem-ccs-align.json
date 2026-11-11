@@ -1,0 +1,17 @@
+{
+ "description": "CCS Align 자리의 시간별 사이클로 claude-mem 워커 상태를 확인하고 관찰 기록 캐시와 규칙 충돌을 점검하는 스킬이에요.",
+ "summary": "로컬 claude-mem 워커가 정상인지 확인한 뒤 search, timeline, get_observations 순서로 관찰 기록을 가져와 캐시에 쌓아요. 제외 표시를 관리하고 house, project, seat 규칙을 훑어 충돌을 rules-report.md에 기록해요.",
+ "when": [
+  "CCS Align 사이클을 실행할 때",
+  "중간 캐시를 새로 고치거나 관찰 기록을 제외, 복원할 때",
+  "규칙 충돌을 점검하거나 Worker Watch 보드를 볼 때"
+ ],
+ "examples": [
+  "CCS Align 한 사이클 돌려줘",
+  "이 observation 제외 처리해줘",
+  "규칙 충돌 있는지 점검해줘"
+ ],
+ "notes": [
+  "로컬 claude-mem 워커가 실행 중이어야 해요."
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Test-Driven Development",
+  "description": "기능이나 버그 수정을 구현 코드보다 테스트 먼저 쓰는 흐름으로 진행합니다.",
+  "category": "dev",
+  "tags": [
+    "tdd",
+    "테스트"
+  ],
+  "repo": "obra/superpowers",
+  "path": "skills/test-driven-development",
+  "author": "Jesse Vincent (obra)",
+  "install": "/plugin marketplace add obra/superpowers-marketplace\n/plugin install superpowers@superpowers-marketplace",
+  "added": "2026-11-09"
+}

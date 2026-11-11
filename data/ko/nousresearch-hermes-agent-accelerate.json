@@ -1,0 +1,18 @@
+{
+  "description": "HuggingFace Accelerate로 PyTorch 학습 코드를 몇 줄만 고쳐 여러 GPU에서 돌려요.",
+  "summary": "기존 PyTorch 학습 스크립트에 Accelerator 객체와 prepare, backward 호출만 추가하면 단일 GPU 코드가 분산 학습 코드로 바뀌어요. 실행은 accelerate launch 한 줄이면 되고, DeepSpeed나 FSDP, 혼합 정밀도 같은 설정도 같은 방식으로 다뤄요.",
+  "when": [
+    "단일 GPU로 돌리던 PyTorch 학습 스크립트를 멀티 GPU로 확장할 때",
+    "DDP, FSDP, DeepSpeed 중 하나를 최소한의 코드 변경으로 적용하고 싶을 때",
+    "혼합 정밀도 학습을 간단히 켜고 싶을 때"
+  ],
+  "examples": [
+    "train.py를 accelerate로 바꿔서 GPU 여러 장에서 돌아가게 해 줘",
+    "accelerate launch로 실행하려면 어떤 부분을 고쳐야 하는지 알려 줘",
+    "이 학습 코드에 혼합 정밀도를 적용해 줘"
+  ],
+  "notes": [
+    "accelerate, torch, transformers 패키지가 필요해요.",
+    "여러 GPU를 쓰려면 GPU가 있는 환경이어야 해요."
+  ]
+}

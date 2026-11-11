@@ -1,0 +1,17 @@
+{
+ "description": "의존성 매니페스트의 표면적인 문제를 점검하고 작은 수정안을 제안해요.",
+ "summary": "requirements.txt, pyproject.toml, package.json에서 표준 라이브러리를 가리는 핀, 버려진 백포트, 미고정 의존성, 매니페스트 내부 충돌을 찾아 쉬운 말로 설명해요.",
+ "when": [
+  "의존성 파일을 점검하고 싶을 때",
+  "설치 문제 디버깅 전에 직접 의존성 이슈를 배제할 때",
+  "오래된 핀이나 중복 항목이 의심될 때"
+ ],
+ "examples": [
+  "requirements.txt 점검해줘",
+  "package.json 의존성에 문제 없는지 봐줘"
+ ],
+ "notes": [
+  "PyPI yanked 릴리스 확인은 옵트인 기능이에요.",
+  "pip나 uv 해석 실패를 진단하는 도구는 아니에요."
+ ]
+}

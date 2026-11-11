@@ -1,0 +1,118 @@
+[
+  {
+    "id": "claude-code", "name": "Claude Code", "short": "Claude Code",
+    "user_path": "~/.claude/skills", "project_path": ".claude/skills",
+    "installer": "npx skills add {repo} --skill {skill} -a claude-code -g",
+    "install_note": "마켓플레이스 저장소는 Claude Code 안에서 /plugin marketplace add 후 /plugin install로도 설치해요.",
+    "invoke": "자동 · /이름", "slash": "/{name}",
+    "docs": "https://code.claude.com/docs/en/skills"
+  },
+  {
+    "id": "claude-apps", "name": "Claude 앱 (claude.ai·데스크톱)", "short": "Claude 앱",
+    "user_path": null, "project_path": null, "installer": null,
+    "install_note": "스킬 폴더를 ZIP으로 묶어 Customize > Skills > + > Upload a skill에 올리세요. 코드 실행이 켜져 있어야 해요.",
+    "invoke": "자동 · \"OO 스킬 써줘\"", "slash": null,
+    "docs": "https://support.claude.com/en/articles/12512180-using-skills-in-claude"
+  },
+  {
+    "id": "codex", "name": "OpenAI Codex", "short": "Codex",
+    "user_path": "~/.agents/skills", "project_path": ".agents/skills",
+    "installer": "npx skills add {repo} --skill {skill} -a codex -g",
+    "install_note": "Codex 기본 스킬 $skill-installer로도 설치해요.",
+    "invoke": "자동 · $이름 · /skills 목록", "slash": "${name}",
+    "docs": "https://developers.openai.com/codex/skills"
+  },
+  {
+    "id": "copilot", "name": "GitHub Copilot", "short": "Copilot",
+    "user_path": "~/.copilot/skills", "project_path": ".github/skills",
+    "installer": "gh skill install {repo} {skill} --scope user",
+    "install_note": "gh skill은 GitHub CLI 2.90 이상의 미리보기 기능이에요. VS Code, Copilot CLI, 클라우드 에이전트가 같은 폴더를 읽어요.",
+    "invoke": "자동 · /이름", "slash": "/{name}",
+    "docs": "https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills"
+  },
+  {
+    "id": "cursor", "name": "Cursor", "short": "Cursor",
+    "user_path": "~/.cursor/skills", "project_path": ".cursor/skills",
+    "installer": "npx skills add {repo} --skill {skill} -a cursor -g",
+    "install_note": "~/.claude/skills, .agents/skills도 읽어요.",
+    "invoke": "자동 · Agent 채팅에서 /이름", "slash": "/{name}",
+    "docs": "https://cursor.com/docs/context/skills"
+  },
+  {
+    "id": "antigravity", "name": "Google Antigravity · Gemini CLI", "short": "Antigravity",
+    "user_path": "~/.gemini/skills", "project_path": ".agents/skills",
+    "installer": "gemini skills install https://github.com/{repo} --path {path} --scope user",
+    "install_note": "Gemini CLI는 2026년 6월 Antigravity CLI(agy)로 바뀌었어요. 둘 다 위 폴더를 읽어요.",
+    "invoke": "자동, 처음 한 번 확인 · /이름", "slash": "/{name}",
+    "docs": "https://antigravity.google/docs/skills"
+  },
+  {
+    "id": "opencode", "name": "OpenCode", "short": "OpenCode",
+    "user_path": "~/.config/opencode/skills", "project_path": ".opencode/skills",
+    "installer": "npx skills add {repo} --skill {skill} -a opencode -g",
+    "install_note": "~/.claude/skills, .agents/skills도 읽어요.",
+    "invoke": "자동 · @이름", "slash": "@{name}",
+    "docs": "https://opencode.ai/docs/skills"
+  },
+  {
+    "id": "openclaw", "name": "OpenClaw", "short": "OpenClaw",
+    "user_path": "~/.openclaw/skills", "project_path": "skills",
+    "installer": "npx skills add {repo} --skill {skill} -a openclaw -g",
+    "install_note": "ClawHub 스킬은 openclaw skills install @작성자/이름으로도 설치해요.",
+    "invoke": "자동 · /이름", "slash": "/{name}",
+    "docs": "https://docs.openclaw.ai/tools/skills"
+  },
+  {
+    "id": "amp", "name": "Amp", "short": "Amp",
+    "user_path": "~/.config/agents/skills", "project_path": ".agents/skills",
+    "installer": "amp skill add https://github.com/{repo}/tree/HEAD/{path} --global",
+    "install_note": "~/.claude/skills, .claude/skills도 읽어요.",
+    "invoke": "자동", "slash": null,
+    "docs": "https://ampcode.com/manual/agent-skills.md"
+  },
+  {
+    "id": "goose", "name": "goose", "short": "goose",
+    "user_path": "~/.agents/skills", "project_path": ".agents/skills",
+    "installer": "npx skills add {repo} --skill {skill} -a goose -g",
+    "install_note": "~/.claude/skills도 읽어요.",
+    "invoke": "자동 · /skills 이름", "slash": "/skills {name}",
+    "docs": "https://goose-docs.ai/docs/guides/context-engineering/using-skills"
+  },
+  {
+    "id": "devin", "name": "Devin Desktop (구 Windsurf)", "short": "Windsurf",
+    "user_path": "~/.config/devin/skills", "project_path": ".devin/skills",
+    "installer": null,
+    "install_note": "2026년 6월 Windsurf에서 이름이 바뀌었어요. 예전 .windsurf/skills도 읽어요.",
+    "invoke": "자동 · /이름", "slash": "/{name}",
+    "docs": "https://docs.devin.ai/desktop/cascade/skills"
+  },
+  {
+    "id": "kiro", "name": "Kiro", "short": "Kiro",
+    "user_path": "~/.kiro/skills", "project_path": ".kiro/skills",
+    "installer": null,
+    "install_note": "IDE의 Agent Steering & Skills > + > Import a skill에 GitHub 폴더 주소를 넣어도 돼요.",
+    "invoke": "자동 · /이름", "slash": "/{name}",
+    "docs": "https://kiro.dev/docs/skills/"
+  },
+  {
+    "id": "cline", "name": "Cline", "short": "Cline",
+    "user_path": "~/.cline/skills", "project_path": ".cline/skills",
+    "installer": null, "install_note": ".claude/skills도 읽어요.",
+    "invoke": "자동 · /이름", "slash": "/{name}",
+    "docs": "https://docs.cline.bot/features/skills"
+  },
+  {
+    "id": "roo", "name": "Roo Code", "short": "Roo Code",
+    "user_path": "~/.roo/skills", "project_path": ".roo/skills",
+    "installer": null, "install_note": ".agents/skills도 읽어요.",
+    "invoke": "자동", "slash": null,
+    "docs": "https://roocodeinc.github.io/Roo-Code/features/skills"
+  },
+  {
+    "id": "factory", "name": "Factory Droid", "short": "Droid",
+    "user_path": "~/.factory/skills", "project_path": ".factory/skills",
+    "installer": null, "install_note": ".agents/skills도 읽어요.",
+    "invoke": "자동 · /이름", "slash": "/{name}",
+    "docs": "https://docs.factory.ai/cli/configuration/skills"
+  }
+]

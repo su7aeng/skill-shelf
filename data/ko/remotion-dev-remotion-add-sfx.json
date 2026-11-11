@@ -1,0 +1,18 @@
+{
+ "description": "@remotion/sfx에 새 효과음을 추가해요. remotion.media 등록, export, 문서 페이지, 파형 생성까지 다뤄요.",
+ "summary": "효과음을 remotion.media 저장소에 먼저 올리고 `packages/sfx/src/index.ts`에 camelCase로 export해요. 문서 페이지, 사이드바, 목차, 파형 샘플, skills 규칙 파일을 갱신하고 빌드해요.",
+ "when": [
+  "새 효과음을 @remotion/sfx에 추가할 때",
+  "효과음 문서 페이지와 파형 데이터를 갱신할 때"
+ ],
+ "examples": [
+  "page-turn.wav를 @remotion/sfx에 추가해줘",
+  "새 효과음의 문서 페이지를 whip.mdx 형식으로 만들어줘",
+  "sfx 파형을 다시 생성해줘"
+ ],
+ "notes": [
+  "WAV 형식, CC0 라이선스, 피크 -3dB 정규화가 필요해요",
+  "remotion.media 저장소의 `generate.ts`에 먼저 등록해야 해요",
+  "파형 생성에는 ffmpeg가 필요해요"
+ ]
+}

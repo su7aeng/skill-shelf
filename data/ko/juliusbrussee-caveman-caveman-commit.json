@@ -1,0 +1,14 @@
+{
+ "description": "변경 의도만 담은 간결한 Conventional Commits 형식의 커밋 메시지를 써주는 스킬이에요.",
+ "summary": "type(scope): 요약 형식으로, 명령형이고 50자 안팎의 짧은 제목에 \"무엇\"보다 \"왜\"를 담은 커밋 메시지를 만들어줘요.",
+ "when": [
+  "변경 사항에 맞는 커밋 메시지가 필요할 때",
+  "Conventional Commits 규칙을 지키고 싶을 때"
+ ],
+ "examples": [
+  "커밋 메시지 써줘",
+  "/caveman-commit",
+  "지금 변경 내용으로 짧은 커밋 메시지 만들어줘"
+ ],
+ "notes": []
+}

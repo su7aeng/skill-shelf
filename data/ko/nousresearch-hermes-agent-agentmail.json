@@ -1,0 +1,18 @@
+{
+  "description": "AgentMail CLI로 에이전트가 직접 소유하는 이메일 받은편지함을 만들고 송수신해요.",
+  "summary": "에이전트가 자기 이메일 주소를 갖고 메일 발송, 답장 수신, 이메일 OTP 처리, 스레드와 라벨, 첨부 파일을 다룰 수 있어요. 수신 메일은 웹훅이나 WebSocket으로도 받을 수 있어요. 사용자의 기존 IMAP/SMTP 메일함용은 아니에요.",
+  "when": [
+    "에이전트가 자체 이메일 주소가 필요할 때",
+    "이메일 OTP 인증 흐름을 처리해야 할 때",
+    "수신 메일에 반응하는 자동화를 만들 때"
+  ],
+  "examples": [
+    "AgentMail로 새 받은편지함을 만들어 줘",
+    "방금 가입 인증 메일이 왔는지 확인하고 OTP 코드를 알려 줘",
+    "이 주소로 메일을 보내고 답장이 오면 알려 줘"
+  ],
+  "notes": [
+    "npm install -g agentmail-cli@latest 로 CLI를 설치해야 해요.",
+    "AGENTMAIL_API_KEY(am_로 시작)가 필요해요. console.agentmail.to에서 만들 수 있어요."
+  ]
+}

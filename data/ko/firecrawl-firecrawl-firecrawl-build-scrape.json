@@ -1,0 +1,16 @@
+{
+  "description": "URL이 정해져 있을 때 Firecrawl /scrape로 한 페이지의 내용을 가져오는 기능을 앱에 연동해요.",
+  "summary": "마크다운, HTML, 링크, 스크린샷, 메타데이터 등 한 페이지 단위의 출력을 얻는 코드를 작성해 줘요. 기본은 markdown이고, 본문만 필요하면 onlyMainContent를 쓰며, maxAge로 캐시된 결과의 신선도를 조절하는 방식을 안내해요.",
+  "when": [
+    "알고 있는 URL의 내용을 요약이나 검색 용도로 가져올 때",
+    "페이지 변화를 모니터링하는 기능을 만들 때",
+    "크롤링보다 페이지 단위 추출이 알맞을 때"
+  ],
+  "examples": [
+    "URL을 받아 본문만 마크다운으로 가져오는 함수를 Firecrawl로 만들어 줘",
+    "maxAge를 설정해서 최신 내용을 가져오도록 고쳐 줘"
+  ],
+  "notes": [
+    "FIRECRAWL_API_KEY가 필요하고, 자체 호스팅이면 FIRECRAWL_API_URL을 설정해요."
+  ]
+}

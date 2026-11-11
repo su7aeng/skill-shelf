@@ -1,0 +1,16 @@
+{
+ "description": "GitHub 이슈로 접수된 커뮤니티 확장을 Spec Kit 카탈로그에 추가하거나 갱신하는 절차를 처리해요.",
+ "summary": "제출 이슈에서 메타데이터를 읽어 extensions/catalog.community.json과 docs/community/extensions.md를 검증하고 갱신한 뒤 PR까지 이어가요.",
+ "when": [
+  "[Extension] 제출 이슈가 새로 올라왔을 때",
+  "기존 확장의 버전이나 정보가 바뀌었을 때"
+ ],
+ "examples": [
+  "이 이슈의 확장을 커뮤니티 카탈로그에 추가해줘",
+  "확장 업데이트 이슈 처리해줘"
+ ],
+ "notes": [
+  "Spec Kit 저장소와 GitHub 접근이 필요해요.",
+  "새 확장을 처음부터 만드는 용도는 아니에요."
+ ]
+}

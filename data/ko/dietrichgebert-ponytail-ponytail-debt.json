@@ -1,0 +1,17 @@
+{
+ "description": "코드의 shortcut: 주석을 모아 하나의 부채 목록으로 만들어, 미뤄둔 일이 잊히지 않게 해요.",
+ "summary": "ponytail이 일부러 남긴 shortcut: 주석(옛 버전은 ponytail:)을 저장소에서 찾아 한 장의 ledger로 정리해요. 각 주석에 적힌 한계와 업그레이드 경로를 확인할 수 있어요. 한 번 실행하는 보고서예요.",
+ "when": [
+  "미뤄둔 지름길이 얼마나 쌓였는지 확인하고 싶을 때",
+  "스프린트 계획에서 갚을 기술 부채를 고를 때",
+  "TODO 같은 다른 표식어로도 모아보고 싶을 때"
+ ],
+ "examples": [
+  "/ponytail-debt",
+  "shortcut 주석 전부 모아서 정리해줘",
+  "/ponytail-debt TODO"
+ ],
+ "notes": [
+  "git 저장소에서 git grep으로 검색해요."
+ ]
+}

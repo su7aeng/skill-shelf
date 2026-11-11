@@ -1,0 +1,14 @@
+{
+  "name": "Systematic Debugging",
+  "description": "버그나 테스트 실패를 만났을 때 고치기 전에 원인부터 체계적으로 좁혀 가게 합니다.",
+  "category": "dev",
+  "tags": [
+    "디버깅"
+  ],
+  "repo": "obra/superpowers",
+  "path": "skills/systematic-debugging",
+  "author": "Jesse Vincent (obra)",
+  "install": "/plugin marketplace add obra/superpowers-marketplace\n/plugin install superpowers@superpowers-marketplace",
+  "added": "2026-11-09",
+  "featured": true
+}

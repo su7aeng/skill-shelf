@@ -1,0 +1,15 @@
+{
+  "name": "XLSX",
+  "description": "엑셀과 CSV 파일을 열고 고치고 새로 만듭니다. 수식, 서식, 차트, 지저분한 데이터 정리를 포함해요.",
+  "category": "docs",
+  "tags": [
+    "excel",
+    "csv",
+    "스프레드시트"
+  ],
+  "repo": "anthropics/skills",
+  "path": "skills/xlsx",
+  "author": "Anthropic",
+  "install": "/plugin marketplace add anthropics/skills",
+  "added": "2026-11-09"
+}

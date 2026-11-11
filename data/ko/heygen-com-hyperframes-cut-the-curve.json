@@ -1,0 +1,16 @@
+{
+ "description": "HyperFrames에서 속도를 맞춘 장면 전환과 텍스트 등장 기법을 모아둔 가이드예요.",
+ "summary": "zoom-through, waterfall cut, rack-focus blur-cut 등 5가지 전환과 waterfall 진입, nudge 곡선을 다뤄요. 전환의 방향과 속도를 양쪽에서 맞추는 방법을 알려줘요.",
+ "when": [
+  "장면 전환을 만들 때",
+  "타이틀 카드나 텍스트 등장을 연출할 때",
+  "그룹 요소를 부드럽게 이동시킬 때"
+ ],
+ "examples": [
+  "두 장면 사이에 zoom-through 전환을 넣어줘",
+  "타이틀 카드에 waterfall 진입 효과를 적용해줘"
+ ],
+ "notes": [
+  "motion-doctrine을 먼저 읽고 쓰는 것을 전제로 해요."
+ ]
+}

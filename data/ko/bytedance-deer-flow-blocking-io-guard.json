@@ -1,0 +1,16 @@
+{
+ "description": "asyncio 이벤트 루프를 막을 수 있는 백엔드 코드에 대해 tests/blocking_io/ 앵커 테스트를 만들고 검증해요.",
+ "summary": "변경된 줄이나 전체 저장소를 결정적으로 스캔해 후보를 분류하고, 앵커 테스트를 작성하거나 확장해요. 블로킹 IO가 되살아나면 테스트가 실제로 실패하는지도 증명해요.",
+ "when": [
+  "backend의 app/나 deerflow 하위 Python을 수정했을 때",
+  "저장소 전체 블로킹 IO 점검을 할 때",
+  "리뷰어나 CI가 블로킹 IO 커버리지를 요구할 때"
+ ],
+ "examples": [
+  "내 변경분에 블로킹 IO 앵커가 필요한지 확인해줘",
+  "저장소 전체 blocking IO 점검 라운드를 돌려줘"
+ ],
+ "notes": [
+  "DeerFlow 저장소 전용이에요. 앵커를 쓰기 전에 references/good-anchor-rules.md를 읽어요."
+ ]
+}

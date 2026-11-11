@@ -1,0 +1,13 @@
+{
+ "description": "ponytail이 줄여주는 코드, 비용, 속도를 벤치마크 수치로 보여주는 점수판이에요.",
+ "summary": "벤치마크에서 측정된 평균을 점수판으로 한 번 보여줘요. 이 저장소에서 계산한 값이 아니라 공개된 수치예요. 모드 변경이나 파일 저장은 없어요.",
+ "when": [
+  "\"what does ponytail save\"가 궁금할 때",
+  "ponytail의 측정 효과를 공유하고 싶을 때"
+ ],
+ "examples": [
+  "/ponytail-gain",
+  "ponytail이 얼마나 아껴주는지 알려줘"
+ ],
+ "notes": []
+}

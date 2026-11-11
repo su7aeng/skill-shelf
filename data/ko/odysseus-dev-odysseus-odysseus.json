@@ -1,0 +1,17 @@
+{
+ "description": "Claude Code에서 Odysseus의 할 일, 이메일, 캘린더, 메모리, 문서를 읽고 쓰며 모델 서빙을 관리해요.",
+ "summary": "범위가 제한된 Claude Agent API로 Odysseus 데이터를 읽고 쓰고, Cookbook 모델 서빙 작업을 실행, 모니터링, 중지해요.",
+ "when": [
+  "Odysseus의 할 일이나 캘린더를 조회하거나 수정할 때",
+  "Cookbook 모델 서빙 작업을 시작하고 상태를 볼 때"
+ ],
+ "examples": [
+  "Odysseus에서 오늘 할 일 목록을 보여줘",
+  "Odysseus 캘린더에 내일 일정을 추가해줘",
+  "실행 중인 모델 서빙 작업 상태를 확인해줘"
+ ],
+ "notes": [
+  "ODYSSEUS_URL과 ODYSSEUS_API_TOKEN 환경 변수가 필요해요",
+  "토큰은 Odysseus 설정에서 Claude Agent 연동을 추가해 발급해요"
+ ]
+}

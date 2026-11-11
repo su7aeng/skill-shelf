@@ -1,0 +1,13 @@
+{
+  "name": "Writing Plans",
+  "description": "요구사항이 정해진 여러 단계 작업을 코드 건드리기 전에 실행 가능한 계획으로 쪼갭니다.",
+  "category": "workflow",
+  "tags": [
+    "계획"
+  ],
+  "repo": "obra/superpowers",
+  "path": "skills/writing-plans",
+  "author": "Jesse Vincent (obra)",
+  "install": "/plugin marketplace add obra/superpowers-marketplace\n/plugin install superpowers@superpowers-marketplace",
+  "added": "2026-11-09"
+}

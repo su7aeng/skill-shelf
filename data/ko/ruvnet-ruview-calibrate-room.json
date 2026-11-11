@@ -1,0 +1,17 @@
+{
+ "description": "ADR-151 방 보정 파이프라인을 실행해 존재, 자세, 호흡 등을 감지하는 모델을 만들어요.",
+ "summary": "baseline, enroll, train-room 단계를 차례로 진행해 방 전용 소형 전문 모델 묶음(presence, posture, breathing, heartbeat, restlessness, anomaly)을 만들어요. ruview_calibrate 도구를 사용해요.",
+ "when": [
+  "새 센싱 노드를 설치한 방의 모델을 처음 만들 때",
+  "빈 방 기준값을 다시 잡아야 할 때"
+ ],
+ "examples": [
+  "이 방의 baseline을 먼저 캡처해줘",
+  "baseline 다음에 enroll 단계를 진행하자",
+  "방 모델 학습까지 보정 순서대로 실행해줘"
+ ],
+ "notes": [
+  "프로비저닝된 노드와 sensing-server가 필요해요",
+  "wifi-densepose 바이너리 또는 cargo 환경이 필요해요"
+ ]
+}

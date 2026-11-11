@@ -1,0 +1,17 @@
+{
+ "description": "코드 위치 찾기, 소규모 수정, diff 리뷰를 압축된 출력의 서브에이전트에 맡겨 컨텍스트를 아끼는 스킬이에요.",
+ "summary": "cavecrew-investigator, cavecrew-builder, cavecrew-reviewer 세 서브에이전트를 언제 쓸지 알려줘요. 결과가 압축된 형식으로 돌아와서 메인 컨텍스트가 덜 소모돼요.",
+ "when": [
+  "특정 심볼이 어디서 정의되고 쓰이는지 찾을 때",
+  "1~2개 파일의 작은 수정을 맡길 때",
+  "diff나 브랜치를 버그 위주로 리뷰받을 때"
+ ],
+ "examples": [
+  "이 함수가 어디서 호출되는지 cavecrew로 찾아줘",
+  "이 파일 두 곳만 고치는 건 cavecrew-builder한테 맡겨줘",
+  "이 diff를 cavecrew-reviewer로 리뷰해줘"
+ ],
+ "notes": [
+  "세 개 이상의 파일이 걸린 큰 작업은 메인 스레드에서 하는 게 좋아요."
+ ]
+}

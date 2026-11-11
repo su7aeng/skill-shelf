@@ -1,0 +1,16 @@
+{
+ "description": "ACE-Step 1.5로 배경음악, 보컬, 커버, 스템 분리를 하는 AI 음악 생성 스킬이에요.",
+ "summary": "tools/music_gen.py로 프롬프트, 길이, BPM, 키를 지정해 음악을 만들고 영상용 프리셋도 쓸 수 있어요. RunPod 서버리스에서 실행돼요.",
+ "when": [
+  "영상 배경음악이 필요할 때",
+  "징글이나 사운드트랙을 만들 때",
+  "곡의 스템을 분리하거나 스타일을 바꿀 때"
+ ],
+ "examples": [
+  "60초짜리 밝은 기업용 배경음악을 만들어줘",
+  "피아노 앰비언트를 72 BPM, D Major로 30초 만들어줘"
+ ],
+ "notes": [
+  "RUNPOD_API_KEY와 RUNPOD_ACESTEP_ENDPOINT_ID를 .env에 설정해야 해요."
+ ]
+}

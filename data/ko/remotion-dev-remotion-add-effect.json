@@ -1,0 +1,18 @@
+{
+ "description": "@remotion/effects에 새 효과를 추가해요. 구현, 패키지 export, 문서, 데모, 미리보기 이미지, 빌드까지 다뤄요.",
+ "summary": "WebGL2 기반을 우선해서 효과 파일을 만들고 스키마, 기본값, 파라미터 검증, `calculateKey()`를 규칙대로 작성해요. 이후 패키지 export와 문서, 데모, Remotion skill 갱신, 포매팅, 빌드를 이어서 처리해요.",
+ "when": [
+  "@remotion/effects에 새 시각 효과를 추가할 때",
+  "효과 파라미터와 Studio 편집용 스키마를 정의할 때",
+  "새 효과의 문서와 데모를 함께 만들 때"
+ ],
+ "examples": [
+  "@remotion/effects에 vignette 효과를 추가해줘",
+  "chromatic-aberration처럼 WebGL2로 새 효과를 만들고 문서도 추가해줘",
+  "새 효과에 UV 좌표 파라미터를 넣어줘"
+ ],
+ "notes": [
+  "Remotion 모노레포 체크아웃과 bun 환경이 필요해요",
+  "WebGL2를 우선하고, 표현이 불가능할 때만 2D를 써요"
+ ]
+}

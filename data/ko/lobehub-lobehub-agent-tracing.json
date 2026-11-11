@@ -1,0 +1,16 @@
+{
+ "description": "운영 ID 기준으로 에이전트 트레이스를 조회해 실패한 도구와 LLM 호출을 살펴보는 CLI 가이드예요.",
+ "summary": "@lobechat/agent-tracing CLI로 실행 스냅샷을 열어 실패한 도구, 인자와 결과, 사용 가능한 도구, 컨텍스트를 확인해요. 에이전트가 왜 그렇게 동작했는지 추적하기 쉬워져요.",
+ "when": [
+  "에이전트 실행이 실패한 이유를 찾을 때",
+  "도구 호출의 인자와 결과를 확인할 때",
+  "특정 operation ID의 LLM 호출과 컨텍스트를 볼 때"
+ ],
+ "examples": [
+  "이 operation ID의 트레이스를 가져와서 실패한 도구를 알려줘",
+  "에이전트 실행 스냅샷에서 LLM 호출 내용을 보여줘"
+ ],
+ "notes": [
+  "개발 모드(NODE_ENV=development)에서 .agent-tracing/ 에 스냅샷이 기록돼요."
+ ]
+}

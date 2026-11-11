@@ -1,0 +1,14 @@
+{
+  "name": "MCP Builder",
+  "description": "외부 API를 LLM이 쓸 수 있게 MCP 서버를 설계하고 만드는 가이드. Python(FastMCP)과 TypeScript 모두 지원.",
+  "category": "meta",
+  "tags": [
+    "mcp",
+    "api"
+  ],
+  "repo": "anthropics/skills",
+  "path": "skills/mcp-builder",
+  "author": "Anthropic",
+  "install": "/plugin marketplace add anthropics/skills",
+  "added": "2026-11-09"
+}

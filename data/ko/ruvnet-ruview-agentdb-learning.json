@@ -1,0 +1,18 @@
+{
+ "description": "AgentDB의 9가지 강화학습 알고리즘으로 학습 플러그인을 만들고 훈련해요.",
+ "summary": "Decision Transformer, Q-Learning, SARSA, Actor-Critic 등 AgentDB의 강화학습 알고리즘을 플러그인으로 만들어 훈련하고 배포하도록 안내해요. 경험을 통해 개선되는 에이전트를 만들 때 쓸 수 있어요.",
+ "when": [
+  "스스로 학습하는 에이전트를 만들 때",
+  "강화학습을 구현하고 싶을 때",
+  "경험으로 에이전트 행동을 최적화할 때"
+ ],
+ "examples": [
+  "AgentDB로 Q-Learning 플러그인을 만들어줘",
+  "Decision Transformer를 학습시키는 방법을 알려줘",
+  "강화학습 플러그인을 훈련하고 배포해줘"
+ ],
+ "notes": [
+  "Node.js 18+ 와 AgentDB v1.0.7+ (agentic-flow 경유)가 필요해요.",
+  "강화학습 기초 지식이 있으면 좋아요."
+ ]
+}

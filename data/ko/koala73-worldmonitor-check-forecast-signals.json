@@ -1,0 +1,16 @@
+{
+ "description": "World Monitor의 확률 예측과 보정 정보를 조회해요.",
+ "summary": "현재 예측, 시나리오 확률, 주요 요인, 확률 변화를 가져오고 필요하면 스코어카드로 예측의 정확도도 살펴봐요. 점수를 인용하기 전에 정확도 페이지의 상태를 먼저 확인해요.",
+ "when": [
+  "World Monitor가 어떤 예측을 내놓는지 볼 때",
+  "확률이 어떻게 바뀌었는지 확인할 때",
+  "예측 시스템의 보정 수준이 궁금할 때"
+ ],
+ "examples": [
+  "World Monitor 최신 예측 요약해줘",
+  "최근 예측 확률이 어떻게 변했는지 알려줘"
+ ],
+ "notes": [
+  "World Monitor API 키(X-WorldMonitor-Key 헤더)가 필요해요. https://www.worldmonitor.app/pro 에서 발급받을 수 있어요."
+ ]
+}

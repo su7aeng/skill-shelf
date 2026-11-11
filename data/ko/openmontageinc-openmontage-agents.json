@@ -1,0 +1,18 @@
+{
+ "description": "ElevenLabs로 음성 AI 에이전트를 만들어요. 음성 비서, 고객 응대 봇, 실시간 음성 대화 서비스에 쓸 수 있어요.",
+ "summary": "ElevenLabs CLI와 Python SDK로 에이전트를 만들고 플랫폼에 올리는 흐름을 안내해요. 첫 인사말, 언어, 프롬프트 같은 대화 설정을 코드로 다룰 수 있어요.",
+ "when": [
+  "고객 문의에 음성으로 답하는 상담 봇을 만들 때",
+  "실시간으로 대화하는 음성 캐릭터를 만들 때",
+  "웹 페이지에 음성 비서를 붙이고 싶을 때"
+ ],
+ "examples": [
+  "ElevenLabs로 고객센터용 음성 에이전트를 만들어줘",
+  "elevenlabs CLI로 에이전트 프로젝트를 초기화하고 customer-service 템플릿으로 추가해줘",
+  "Python으로 첫 인사말이 있는 음성 에이전트를 생성하는 코드를 써줘"
+ ],
+ "notes": [
+  "인터넷 연결과 ElevenLabs API 키(ELEVENLABS_API_KEY)가 필요해요.",
+  "CLI는 npm으로 @elevenlabs/cli를 설치해서 써요."
+ ]
+}

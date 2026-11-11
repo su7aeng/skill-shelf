@@ -1,0 +1,16 @@
+{
+ "description": "새 Architecture Decision Record를 순번에 맞춰 만들고 AgentDB에 등록해요.",
+ "summary": "docs/adr/ 의 다음 번호를 찾아 ADR 파일을 만들고 AgentDB 그래프에 등록하며 관련 ADR과 연결해요. 중요한 설계 결정을 일관된 형식으로 남길 수 있어요.",
+ "when": [
+  "새 기술 도입이나 API 설계를 결정했을 때",
+  "데이터 모델이나 인프라 변경을 기록할 때",
+  "여러 컴포넌트에 영향을 주는 결정을 남길 때"
+ ],
+ "examples": [
+  "PostgreSQL을 쓰기로 한 결정을 ADR로 만들어줘",
+  "새 인증 방식 도입에 대한 ADR을 작성해줘"
+ ],
+ "notes": [
+  "AgentDB(ruflo) 환경이 필요해요."
+ ]
+}

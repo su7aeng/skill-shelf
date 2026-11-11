@@ -1,0 +1,24 @@
+# "Ideas" 카테고리: 목록에 없는 스킬 제안
+title: "[제안] "
+labels: ["스킬 제안"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub 주소
+      placeholder: https://github.com/owner/repo/tree/main/skills/...
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 어떤 스킬이고 왜 추천하나요
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 확인
+      options:
+        - label: 직접 써봤어요
+        - label: 설치 전에 스킬 내용을 훑어봤어요

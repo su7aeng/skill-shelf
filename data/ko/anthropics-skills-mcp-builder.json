@@ -1,0 +1,18 @@
+{
+  "description": "외부 API와 서비스를 LLM이 쓸 수 있게 해주는 고품질 MCP 서버를 TypeScript나 Python으로 만드는 가이드예요.",
+  "summary": "조사와 계획, 구현의 단계로 MCP 서버 제작을 안내해요. 도구 이름과 설명, 입력과 출력 스키마, 페이지네이션, 실행 가능한 에러 메시지처럼 에이전트가 쓰기 좋은 설계 원칙을 따르며, TypeScript(권장)와 Python(FastMCP)을 지원해요.",
+  "when": [
+    "사내 API나 SaaS를 에이전트가 쓸 수 있는 MCP 서버로 감싸고 싶을 때",
+    "기존 MCP 서버의 도구 설계와 에러 처리를 개선하고 싶을 때",
+    "TypeScript SDK나 Python FastMCP 중 무엇으로 시작할지 정하고 프로젝트 뼈대를 만들 때"
+  ],
+  "examples": [
+    "GitHub 이슈를 조회하고 만드는 MCP 서버를 TypeScript로 만들어 주세요.",
+    "우리 사내 REST API를 Python FastMCP 서버로 감싸 주세요.",
+    "이 MCP 서버의 도구 이름과 에러 메시지를 에이전트가 쓰기 좋게 개선해 주세요."
+  ],
+  "notes": [
+    "서비스 API 문서와 MCP 스펙, SDK 문서를 WebFetch로 불러오므로 인터넷 접근이 필요해요.",
+    "TypeScript는 v2(@modelcontextprotocol/server)가 새 서버 권장이고, 기존 v1 프로젝트는 v1 가이드를 따라요."
+  ]
+}

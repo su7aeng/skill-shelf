@@ -1,0 +1,14 @@
+{
+  "name": "Doc Co-authoring",
+  "description": "기획서, 기술 스펙, 의사결정 문서를 같이 쓰는 단계별 흐름. 맥락을 넘기고 반복해서 다듬습니다.",
+  "category": "docs",
+  "tags": [
+    "글쓰기",
+    "스펙"
+  ],
+  "repo": "anthropics/skills",
+  "path": "skills/doc-coauthoring",
+  "author": "Anthropic",
+  "install": "/plugin marketplace add anthropics/skills",
+  "added": "2026-11-09"
+}

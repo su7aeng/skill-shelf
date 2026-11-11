@@ -1,0 +1,18 @@
+{
+ "description": "비대화형 설정 명령으로 모델 provider를 추가하고 자격 증명을 노출하지 않은 채 실제 동작까지 검증해요.",
+ "summary": "openclaw config 명령으로만 설정을 바꿔서 검증과 감사 기록이 남도록 해요. 비밀 값은 출력하거나 저장하지 않고 SecretRef(환경 변수나 파일)로만 넣어요. 마지막에는 동작 확인 결과나 확인하지 못한 이유를 정확히 알려줘요.",
+ "when": [
+  "새 LLM provider를 OpenClaw에 추가할 때",
+  "API 키를 노출하지 않고 provider를 연결하고 싶을 때",
+  "추가한 provider가 실제로 응답하는지 확인할 때"
+ ],
+ "examples": [
+  "OpenClaw에 새 모델 provider를 추가해줘",
+  "API 키는 환경 변수 참조로 넣어서 provider를 연결해줘",
+  "추가한 provider가 실제로 동작하는지 검증해줘"
+ ],
+ "notes": [
+  "설정 변경은 신뢰된 셸(exec)에서 openclaw config 명령으로 실행해야 해요",
+  "provider API 자격 증명이 필요해요"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "description": "OmniRoute CLI로 비용, 토큰 사용량, 호출 로그를 조회해요.",
+ "summary": "`omniroute cost`와 `pricing` 명령으로 기간, 그룹 기준, API 키별 비용을 보고 모델 가격표를 동기화해요.",
+ "when": [
+  "이번 달 AI 호출 비용을 확인할 때",
+  "프로바이더나 모델별 지출을 비교할 때",
+  "모델 가격 정보를 갱신할 때"
+ ],
+ "examples": [
+  "omniroute로 지난 7일 비용을 모델별로 보여줘",
+  "가격 정보 동기화해줘"
+ ],
+ "notes": [
+  "`npm install -g omniroute` 또는 `npx omniroute`로 omniroute CLI가 필요해요."
+ ]
+}

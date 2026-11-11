@@ -1,0 +1,18 @@
+{
+ "description": "실제 코드베이스에서 CodeGraph를 쓸 때와 안 쓸 때 에이전트 동작을 비교해 검색 품질을 측정해요.",
+ "summary": "로컬 개발 빌드나 배포된 npm 버전을 고른 저장소에 적용해 일반 grep/read와 비교해요. scripts/agent-eval/ 하네스를 사용해요.",
+ "when": [
+  "codegraph 새 버전의 효과를 검증할 때",
+  "실제 저장소에서 벤치마크를 돌릴 때",
+  "/agent-eval 을 실행할 때"
+ ],
+ "examples": [
+  "/agent-eval",
+  "codegraph 로컬 빌드를 이 저장소에서 평가해줘",
+  "CodeGraph가 grep보다 얼마나 나은지 측정해줘"
+ ],
+ "notes": [
+  "tmux 3 이상, 로그인된 claude CLI, node, git이 필요해요(macOS/Linux).",
+  "codegraph 저장소 루트에서 실행해요."
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "Claude Code 기록을 바탕으로 에이전트 사용 비용과 실패 비용을 정리한 보고서(HTML/PDF)를 만드는 스킬이에요.",
+ "summary": "기본은 오늘을 뺀 최근 7일(PT)이고, 기간을 지정할 수 있어요. Claude Code 대화 기록의 토큰을 OpenRouter 공개 가격으로 환산한 추정 비용을 보여줘요. report.json, line-items.csv, evidence.json도 함께 만들어요.",
+ "when": [
+  "지난주에 에이전트에 얼마를 썼는지 보고 싶을 때",
+  "낭비된 작업이 비용에 얼마나 영향을 줬는지 볼 때",
+  "공유용 PDF 비용 보고서가 필요할 때"
+ ],
+ "examples": [
+  "지난 7일 에이전트 비용 보고서 만들어줘",
+  "이번 달 Claude Code 비용을 정리해줘"
+ ],
+ "notes": [
+  "Claude-Mem과 Python 3.9 이상이 필요해요.",
+  "금액은 공개 가격 기준 추정치예요."
+ ]
+}

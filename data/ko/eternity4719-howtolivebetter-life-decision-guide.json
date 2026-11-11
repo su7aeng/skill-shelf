@@ -1,0 +1,16 @@
+{
+ "description": "《高性价比人生指南》 저장소의 life-decision-guide 규칙을 읽고 그대로 따라 인생 결정 질문에 답해요.",
+ "summary": "이 스킬은 저장소의 `skills/life-decision-guide/SKILL.md`를 정본으로 삼는 연결용 스킬이에요. 먼저 그 파일을 읽고, 읽을 수 없으면 raw.githubusercontent.com에서 받아서 그 내용대로 실행해요.",
+ "when": [
+  "도구 간에 공유되는 life-decision-guide 규칙을 적용하고 싶을 때",
+  "저장소 정본 규칙에 맞춰 인생 결정 질문에 답받고 싶을 때"
+ ],
+ "examples": [
+  "life-decision-guide 스킬로 이 결정을 같이 따져줘",
+  "《高性价比人生指南》 기준으로 이 선택이 괜찮은지 알려줘"
+ ],
+ "notes": [
+  "저장소를 읽을 수 없으면 curl로 정본 SKILL.md를 내려받을 수 있어야 해요",
+  "내용 자체는 중국어(간체)로 쓰여 있어요"
+ ]
+}

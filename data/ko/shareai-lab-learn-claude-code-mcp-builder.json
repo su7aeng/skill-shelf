@@ -1,0 +1,16 @@
+{
+ "description": "Claude에 새 기능을 주는 MCP 서버를 만드는 방법을 안내하는 스킬이에요.",
+ "summary": "MCP의 도구, 리소스, 프롬프트 개념을 설명하고 Python MCP 서버를 프로젝트 설정부터 기본 템플릿까지 만들 수 있게 도와요.",
+ "when": [
+  "외부 서비스를 Claude와 연결하는 서버를 만들 때",
+  "Claude에 도구를 추가하고 싶을 때",
+  "MCP 서버 구조를 이해하고 싶을 때"
+ ],
+ "examples": [
+  "날씨 API를 쓰는 MCP 서버를 만들어줘",
+  "Claude가 내 DB를 조회하는 MCP 도구를 추가해줘"
+ ],
+ "notes": [
+  "Python과 mcp 패키지가 필요해요."
+ ]
+}

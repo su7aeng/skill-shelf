@@ -1,0 +1,18 @@
+{
+ "description": "Azure AI Speech Fast Transcription으로 오디오를 텍스트로 변환해요. 단어별 타임스탬프와 화자 분리를 지원해요.",
+ "summary": "OpenMontage의 azure_stt 도구로 음성이나 영상을 빠르게 받아 적어요. Azure가 설정되어 있으면 이 경로를 우선 쓰고, 없으면 로컬 faster-whisper로 대체돼요.",
+ "when": [
+  "영상이나 음성을 텍스트로 옮길 때",
+  "자막 생성을 위해 단어 단위 시간 정보가 필요할 때",
+  "여러 화자가 나오는 녹음을 구분해서 받아 적을 때"
+ ],
+ "examples": [
+  "이 mp3 파일을 Azure로 받아 적어줘",
+  "영상 자막용으로 단어별 타임스탬프가 있는 전사본을 만들어줘",
+  "회의 녹음을 화자별로 나눠서 텍스트로 변환해줘"
+ ],
+ "notes": [
+  "AZURE_SPEECH_KEY와 AZURE_SPEECH_REGION이 필요해요.",
+  "인터넷 연결이 필요해요."
+ ]
+}

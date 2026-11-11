@@ -1,0 +1,16 @@
+{
+ "description": "OmniRoute CLI로 컨텍스트 엔지니어링 설정과 RTK 필터, 세션을 관리해요.",
+ "summary": "`omniroute context-eng` 하위 명령으로 분석, Caveman 설정, 압축 강도, 최대 축소율, 보존 태그를 확인하고 바꿔요.",
+ "when": [
+  "컨텍스트 파이프라인 설정을 확인할 때",
+  "압축 강도와 보존 태그를 조정할 때",
+  "컨텍스트 사용 분석을 볼 때"
+ ],
+ "examples": [
+  "현재 context-eng 설정 보여줘",
+  "컨텍스트 분석 리포트를 기간별로 보여줘"
+ ],
+ "notes": [
+  "`npm install -g omniroute` 또는 `npx omniroute`로 omniroute CLI가 필요해요."
+ ]
+}

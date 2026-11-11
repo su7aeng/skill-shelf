@@ -1,0 +1,16 @@
+{
+ "description": "ADR 파일을 읽어 색인과 의존성 그래프를 만들거나 다시 만들어요.",
+ "summary": "scripts/import.mjs를 한 번 실행해 v3 스타일과 플러그인 스타일 ADR을 모두 adr-patterns와 adr-edges에 저장해요. supersedes, amends 같은 관계도 함께 기록돼요.",
+ "when": [
+  "다른 프로젝트에서 ADR을 가져온 뒤",
+  "AgentDB 그래프가 ADR 파일과 어긋났을 때",
+  "ADR 관계를 처음 색인할 때"
+ ],
+ "examples": [
+  "ADR 색인을 새로 만들어줘",
+  "ADR 의존성 그래프를 동기화해줘"
+ ],
+ "notes": [
+  "Node.js와 AgentDB(ruflo) 환경이 필요해요."
+ ]
+}

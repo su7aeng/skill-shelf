@@ -1,0 +1,18 @@
+{
+ "description": "GitHub Actions, GitLab CI 등 CI/CD에 Strix 보안 스캔을 붙여요. 모든 PR에 변경분 중심의 AI 펜테스트를 돌려요.",
+ "summary": "취약한 코드가 머지되기 전에 막고, 결과를 PR 코멘트와 SARIF 코드 스캔 업로드로 남겨요. 관리형 플랫폼 방식과 Docker 기반 자체 실행 방식 중에서 고를 수 있어요.",
+ "when": [
+  "PR마다 자동 보안 검사를 넣고 싶을 때",
+  "GitHub Actions나 GitLab CI에 Strix를 설정할 때",
+  "폐쇄망 CI에서 스캔을 돌릴 때"
+ ],
+ "examples": [
+  "GitHub Actions에 Strix PR 보안 스캔 워크플로를 만들어줘",
+  "GitLab CI에 Strix를 추가해줘",
+  "SARIF 결과를 code scanning에 올리도록 설정해줘"
+ ],
+ "notes": [
+  "자체 실행 방식은 러너에 Docker가 필요해요.",
+  "관리형 플랫폼은 앱 연결만 하면 되고 Docker와 LLM 키가 필요 없어요."
+ ]
+}

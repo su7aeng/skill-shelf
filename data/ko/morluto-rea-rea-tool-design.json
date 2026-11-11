@@ -1,0 +1,17 @@
+{
+ "description": "REA 조사 도구, CLI/MCP 계약, provider 기능, Evidence 의미를 감사하고 설계하거나 변경해요.",
+ "summary": "도구 경계와 계약 의미, provider 소유권, 발견 가능성을 tool-design 가이드에 맞춰 살펴봐요. 분석가의 질문을 REA로 직접 수행해 보고 네이티브 provider 결과와 비교해 검증해요.",
+ "when": [
+  "새 REA 조사 도구를 설계하거나 기존 도구를 바꿀 때",
+  "CLI/MCP 계약이 올바른지 감사하고 싶을 때",
+  "provider 기능과 Evidence 의미를 점검할 때"
+ ],
+ "examples": [
+  "REA에 새 조사 도구를 추가하려는데 설계를 같이 잡아줘",
+  "이 MCP 도구의 계약과 Evidence 의미를 감사해줘",
+  "provider 기능이 분석가 질문을 제대로 처리하는지 확인해줘"
+ ],
+ "notes": [
+  "REA 저장소와 docs/development/tool-design.md가 필요해요"
+ ]
+}

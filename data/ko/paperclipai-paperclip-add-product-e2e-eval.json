@@ -1,0 +1,18 @@
+{
+ "description": "Paperclip의 실제 브라우저·서버·DB 기반 풀스택 E2E 워크플로, 픽스처, 매처, 리포트 경로를 추가하거나 확장해요.",
+ "summary": "Paperclip의 Product E2E Eval을 만들거나 넓힐 때 쓰는 스킬이에요. 실제 Chromium, 서버, 데이터베이스, 러너, 프로바이더를 거치는 흐름을 로컬이나 Daytona에서 실행해요.",
+ "when": [
+  "Paperclip에 새 풀스택 E2E 워크플로를 추가할 때",
+  "기존 E2E 픽스처나 매처를 확장할 때",
+  "로컬 또는 Daytona 실행용 리포트 증거 경로를 추가할 때"
+ ],
+ "examples": [
+  "Paperclip에 새 Product E2E 평가를 추가해줘",
+  "기존 E2E 워크플로에 매처를 하나 더 붙여줘",
+  "이 E2E를 Daytona에서도 돌릴 수 있게 확장해줘"
+ ],
+ "notes": [
+  "Paperclip 저장소 체크아웃이 필요하고 tests/runner-e2e와 packages/paperclip-runner가 있어야 해요.",
+  "실제 Chromium 실행을 위해 Chrome 계열 브라우저가 필요해요."
+ ]
+}

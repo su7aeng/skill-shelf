@@ -1,0 +1,19 @@
+{
+ "description": "Cursor에 claude-mem을 설치하는 방법을 안내해요. 로컬 워커와 원격 워커, 관찰자(observer) 설정까지 다뤄요.",
+ "summary": "Cursor에서 claude-mem을 설정하는 절차를 안내하는 스킬이에요. `npx claude-mem install --ide cursor` 명령으로 로컬 워커를 시작하거나, 원격 서버 워커에 연결하는 방법을 알려줘요. 관찰자는 cmem.ai 원격 추론 또는 로컬 호스트 로그인 중에서 고를 수 있어요.",
+ "when": [
+  "Cursor에 claude-mem을 처음 설치할 때",
+  "로컬 대신 원격 서버 워커를 연결하고 싶을 때",
+  "관찰자를 cmem.ai 원격 추론에서 로컬 호스트 로그인으로 바꾸고 싶을 때"
+ ],
+ "examples": [
+  "Cursor에 claude-mem 설치해줘",
+  "claude-mem을 원격 서버 워커로 연결하는 방법 알려줘",
+  "claude-mem 관찰자를 host 로그인 방식으로 설정해줘"
+ ],
+ "notes": [
+  "Node.js의 npx 명령이 필요해요.",
+  "원격 워커를 쓰려면 서버 주소와 CLAUDE_MEM_MCP_TOKEN 플러그인 변수를 설정해야 해요.",
+  "정상 동작 중인 워커는 재시작하지 않는 것이 원칙이에요."
+ ]
+}

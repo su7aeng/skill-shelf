@@ -1,0 +1,18 @@
+{
+ "description": "Azure AI Speech 신경망 음성으로 나레이션 오디오를 만들어요. SSML로 말투와 억양을 조절할 수 있어요.",
+ "summary": "OpenMontage의 azure_tts 도구로 다국어 고품질 음성을 바로 생성해요. Azure가 설정되어 있으면 이 경로를 우선 쓰고, 오프라인 기본값은 로컬 piper_tts예요.",
+ "when": [
+  "영상에 넣을 나레이션을 만들 때",
+  "여러 언어로 음성 해설을 만들 때",
+  "SSML로 말하는 스타일을 세밀히 조절하고 싶을 때"
+ ],
+ "examples": [
+  "이 대본을 Azure 한국어 음성으로 나레이션으로 만들어줘",
+  "SSML로 천천히 차분하게 읽는 음성을 만들어줘",
+  "영어와 한국어 두 가지 버전으로 음성을 뽑아줘"
+ ],
+ "notes": [
+  "AZURE_SPEECH_KEY와 AZURE_SPEECH_REGION이 필요해요.",
+  "인터넷 연결이 필요해요."
+ ]
+}

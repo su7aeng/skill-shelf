@@ -1,0 +1,18 @@
+{
+  "description": "프로젝트에 Firecrawl API 키와 SDK 설정을 넣고 첫 연동을 준비해요.",
+  "summary": "앱에 FIRECRAWL_API_KEY가 필요할 때 브라우저 인증 흐름으로 키를 받아 .env에 넣는 과정을 안내해요. 처음 쓸 SDK와 문서도 고르도록 도와줘요.",
+  "when": [
+    "앱에서 처음 Firecrawl을 쓰려고 API 키를 준비할 때",
+    "에이전트가 .env에 Firecrawl 키를 추가해야 할 때",
+    "어떤 SDK로 시작할지 정해야 할 때"
+  ],
+  "examples": [
+    "이 프로젝트에 Firecrawl 인증과 SDK 설정을 해 줘",
+    "Firecrawl API 키를 .env에 넣어 줘",
+    "Firecrawl 연동을 처음 시작하는데 어떤 SDK가 좋을지 알려 줘"
+  ],
+  "notes": [
+    "npx -y firecrawl-cli@latest init --all --browser 로 CLI와 스킬을 함께 설치할 수 있어요.",
+    "로그인이나 계정 생성은 사람이 브라우저에서 직접 해야 해요."
+  ]
+}

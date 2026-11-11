@@ -1,0 +1,16 @@
+{
+ "description": "국가 코드로 불안정 지수(CII), 여행 경보 단계, 제재 노출을 한 번에 조회해요.",
+ "summary": "한 나라의 현재 위험 수준을 CII 점수, 여행 경보, 활성 제재 여부로 종합해서 보여줘요. 장기 구조적 관점은 `fetch-resilience-score`와 함께 쓰면 돼요.",
+ "when": [
+  "특정 국가의 현재 위험도를 알고 싶을 때",
+  "출장·여행 전 안전 수준을 확인할 때",
+  "제재 영향을 받는 국가인지 볼 때"
+ ],
+ "examples": [
+  "수단의 현재 위험도 알려줘",
+  "이란 CII 점수와 여행 경보 단계 보여줘"
+ ],
+ "notes": [
+  "World Monitor API 키(X-WorldMonitor-Key 헤더)가 필요해요. https://www.worldmonitor.app/pro 에서 발급받을 수 있어요."
+ ]
+}

@@ -1,0 +1,139 @@
+[
+ {
+  "id": "dev-basics",
+  "title": "코딩 습관 잡기",
+  "who": "코딩 에이전트를 처음 제대로 쓰는 개발자",
+  "desc": "계획부터 테스트, 디버깅, 리뷰까지 에이전트가 단계를 건너뛰지 않게 해요",
+  "skills": [
+   "obra-superpowers-brainstorming",
+   "obra-superpowers-writing-plans",
+   "obra-superpowers-executing-plans",
+   "obra-superpowers-test-driven-development",
+   "obra-superpowers-systematic-debugging",
+   "obra-superpowers-verification-before-completion",
+   "obra-superpowers-requesting-code-review"
+  ],
+  "tips": [
+   "기능을 만들기 전에: \"먼저 같이 기획하자\"",
+   "버그가 나면: \"원인부터 체계적으로 찾아줘\"",
+   "끝났다고 하면: \"정말 돌려 보고 확인했어?\""
+  ]
+ },
+ {
+  "id": "office-docs",
+  "title": "오피스 문서 만들기",
+  "who": "보고서·발표 자료·엑셀을 자주 만드는 사람",
+  "desc": "Word, PDF, PowerPoint, Excel 파일을 읽고 만들고 고쳐요",
+  "skills": [
+   "anthropics-skills-docx",
+   "anthropics-skills-pdf",
+   "anthropics-skills-pptx",
+   "anthropics-skills-xlsx",
+   "anthropics-skills-doc-coauthoring"
+  ],
+  "tips": [
+   "\"이 엑셀 파일 요약해서 발표 자료 5장으로 만들어줘\"",
+   "\"이 PDF에서 표만 뽑아서 엑셀로 저장해줘\""
+  ]
+ },
+ {
+  "id": "korean-writing",
+  "title": "한국어 글 다듬기",
+  "who": "AI가 쓴 한국어가 어색한 사람",
+  "desc": "번역투와 AI 말투를 걷어내고 맞춤법과 글자 수를 맞춰요",
+  "skills": [
+   "epoko77-ai-im-not-ai-humanize-korean",
+   "epoko77-ai-im-not-ai-humanize-scan",
+   "epoko77-ai-im-not-ai-commit-ko",
+   "sangrokjung-claude-forge-korean-spell-check",
+   "sangrokjung-claude-forge-korean-character-count",
+   "lilmgenius-paperthin-dedot"
+  ],
+  "tips": [
+   "\"이 글 AI 티 나는지 먼저 진단해줘\"",
+   "\"자소서 1000자 이내로 맞춰서 다듬어줘\""
+  ]
+ },
+ {
+  "id": "frontend-design",
+  "title": "웹 화면 디자인하기",
+  "who": "에이전트가 만든 화면이 다 비슷해 보이는 사람",
+  "desc": "뻔하지 않은 디자인, 테마, 한글 타이포, 브라우저 테스트",
+  "skills": [
+   "anthropics-skills-frontend-design",
+   "nextlevelbuilder-ui-ux-pro-max-skill-ui-ux-pro-max",
+   "anthropics-skills-theme-factory",
+   "kwakseongjae-oh-my-design-hangul",
+   "anthropics-skills-webapp-testing"
+  ],
+  "tips": [
+   "\"랜딩 페이지 만들어줘, 흔한 AI 느낌 말고\"",
+   "\"만든 페이지 브라우저로 열어서 깨지는 곳 확인해줘\""
+  ]
+ },
+ {
+  "id": "marketing",
+  "title": "제품 홍보하기",
+  "who": "혼자 제품을 알려야 하는 창업자·마케터",
+  "desc": "카피, 콘텐츠 전략, AI 검색 최적화, 출시 계획, 광고 소재",
+  "skills": [
+   "coreyhaines31-marketingskills-copywriting",
+   "coreyhaines31-marketingskills-content-strategy",
+   "coreyhaines31-marketingskills-ai-seo",
+   "coreyhaines31-marketingskills-launch",
+   "coreyhaines31-marketingskills-ad-creative",
+   "coreyhaines31-marketingskills-marketing-psychology"
+  ],
+  "tips": [
+   "\"우리 랜딩 페이지 헤드라인 10개 뽑아줘\"",
+   "\"다음 달 출시 계획 체크리스트 만들어줘\""
+  ]
+ },
+ {
+  "id": "data",
+  "title": "데이터 분석하기",
+  "who": "CSV·DB 데이터를 빨리 보고 싶은 사람",
+  "desc": "탐색적 분석, 차트, KPI 대시보드, 테이블 설계",
+  "skills": [
+   "bytedance-deer-flow-data-analysis",
+   "bytedance-deer-flow-chart-visualization",
+   "k-dense-ai-scientific-agent-skills-exploratory-data-analysis",
+   "wshobson-agents-kpi-dashboard-design",
+   "wshobson-agents-postgresql-table-design"
+  ],
+  "tips": [
+   "\"이 csv 훑어보고 눈에 띄는 점 정리해줘\"",
+   "\"매출 대시보드에 어떤 지표를 넣어야 할지 설계해줘\""
+  ]
+ },
+ {
+  "id": "security",
+  "title": "배포 전 보안 점검하기",
+  "who": "배포 전에 기본 보안을 챙기려는 개발자",
+  "desc": "보안 강화, 유출된 비밀 키 찾기, API 보안 테스트, 취약점 분류",
+  "skills": [
+   "addyosmani-agent-skills-security-and-hardening",
+   "openclaw-openclaw-security-triage",
+   "thedaviddias-front-end-checklist-leaked-secrets",
+   "usestrix-strix-api-security-testing"
+  ],
+  "tips": [
+   "\"배포 전에 보안 점검 한 번 해줘\"",
+   "\"코드에 키나 비밀번호가 하드코딩된 곳 찾아줘\""
+  ]
+ },
+ {
+  "id": "skill-maker",
+  "title": "스킬·MCP 만들기",
+  "who": "나만의 스킬이나 MCP 서버를 만들려는 사람",
+  "desc": "스킬을 만들고 평가하기, MCP 서버로 외부 서비스 연결하기",
+  "skills": [
+   "anthropics-skills-skill-creator",
+   "anthropics-skills-mcp-builder"
+  ],
+  "tips": [
+   "\"우리 팀 코드 리뷰 규칙을 스킬로 만들어줘\"",
+   "\"사내 API를 쓰는 MCP 서버 만들어줘\""
+  ]
+ }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Webapp Testing",
+  "description": "Playwright로 로컬 웹앱을 직접 띄워 기능 확인, UI 디버깅, 스크린샷, 콘솔 로그 확인을 합니다.",
+  "category": "dev",
+  "tags": [
+    "playwright",
+    "e2e",
+    "테스트"
+  ],
+  "repo": "anthropics/skills",
+  "path": "skills/webapp-testing",
+  "author": "Anthropic",
+  "install": "/plugin marketplace add anthropics/skills",
+  "added": "2026-11-09"
+}

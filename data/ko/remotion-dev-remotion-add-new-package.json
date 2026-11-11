@@ -1,0 +1,18 @@
+{
+ "description": "Remotion 모노레포에 새 @remotion 패키지를 추가해요. 스캐폴딩, 등록, 문서, 빌드, 예제까지 안내해요.",
+ "summary": "`@remotion/light-leaks`를 템플릿 삼아 패키지 파일을 만들고, 루트 tsconfig와 여러 패키지 목록에 등록해요. 문서, 사이드바, 예제 Composition까지 추가한 뒤 `bun i`와 빌드로 마무리해요.",
+ "when": [
+  "새 @remotion 패키지를 만들 때",
+  "패키지를 모노레포 목록과 문서에 등록할 때",
+  "패키지용 예제 Composition을 추가할 때"
+ ],
+ "examples": [
+  "@remotion/foo 패키지를 새로 만들어줘",
+  "새 패키지를 문서와 사이드바에 등록해줘",
+  "새 패키지의 예제 Composition을 추가해줘"
+ ],
+ "notes": [
+  "Remotion 모노레포와 bun이 필요해요",
+  "문서의 AvailableFrom 버전은 현재 버전의 patch에 1을 더해요"
+ ]
+}

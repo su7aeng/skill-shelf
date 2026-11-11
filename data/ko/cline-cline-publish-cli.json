@@ -1,0 +1,19 @@
+{
+ "description": "`apps/cli` npm 릴리스를 준비하고 발행해요. 변경 로그, 버전 올리기, `cli-vX.Y.Z` 태그, 발행 워크플로를 안내해요.",
+ "summary": "SDK 변경 여부를 먼저 확인하고, 승인된 릴리스 노트와 버전 범프, `apps/cli/CHANGELOG.md` 갱신을 하나의 흐름으로 진행해요. 이후 GitHub Actions 또는 로컬 `bun release cli` 중 발행 경로를 골라 진행해요.",
+ "when": [
+  "Cline CLI를 npm에 릴리스할 때",
+  "CLI 버전을 올리고 변경 로그를 작성할 때",
+  "nightly 빌드를 발행할 때"
+ ],
+ "examples": [
+  "CLI 새 버전 릴리스를 준비해줘",
+  "릴리스 노트 초안을 쓰고 버전을 올려줘",
+  "CLI nightly를 발행하는 방법을 안내해줘"
+ ],
+ "notes": [
+  "커밋이나 태그를 푸시하기 전에 항상 확인을 받아요",
+  "CI 발행은 `PublishNPM` 환경에서 리뷰어 승인이 필요해요",
+  "로컬 발행에는 `gh` 인증과 깨끗한 체크아웃이 필요해요"
+ ]
+}

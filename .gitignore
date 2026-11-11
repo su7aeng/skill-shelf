@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.cache/
+.DS_Store
+.vercel
+.netlify

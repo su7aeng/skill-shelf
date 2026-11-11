@@ -1,0 +1,17 @@
+{
+ "description": "shortcut: 주석(옛 ponytail: 포함)을 모두 모아 부채 목록으로 보여줘요. 코드는 바꾸지 않는 보고서예요.",
+ "summary": "저장소에서 shortcut: 주석을 찾아 한 장의 목록으로 정리해요. 미뤄둔 일이 조용히 영구화되는 것을 막아줘요. 한 번 실행하는 보고서이고 아무것도 수정하지 않아요.",
+ "when": [
+  "ponytail이 무엇을 미뤘는지 확인하고 싶을 때",
+  "지름길 목록을 훑어 정리할 시기를 정할 때",
+  "코드에 남은 임시 해법을 한눈에 보고 싶을 때"
+ ],
+ "examples": [
+  "ponytail debt 보여줘",
+  "what did ponytail defer?",
+  "shortcut 목록 뽑아줘"
+ ],
+ "notes": [
+  "git 저장소에서 실행해요."
+ ]
+}

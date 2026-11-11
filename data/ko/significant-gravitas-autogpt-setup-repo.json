@@ -1,0 +1,18 @@
+{
+ "description": "병렬 개발용 worktree 구조를 만들어요. main, reviews, 번호가 붙은 작업 브랜치와 .env, 의존성 설치까지 처리해요.",
+ "summary": "새로 클론한 저장소를 main worktree, PR 리뷰용 reviews worktree, branch1..branchN 작업 브랜치 구조로 초기화해요. 프롬프트로 설정을 묻고 .env 생성, 의존성 설치, branchlet 설정까지 이어서 해줘요.",
+ "when": [
+  "새로 클론한 저장소에서 개발 환경을 처음부터 세팅할 때",
+  "PR 리뷰 전용 worktree를 따로 두고 싶을 때",
+  "여러 작업을 병렬로 진행할 작업 브랜치가 필요할 때"
+ ],
+ "examples": [
+  "이 저장소 처음부터 세팅해줘",
+  "worktree 구조로 개발 환경 초기화해줘",
+  "작업 브랜치 4개로 setup repo 해줘"
+ ],
+ "notes": [
+  "git이 설치된 저장소에서 실행해요.",
+  "대화형으로 진행되므로 중간에 몇 가지 선택을 물어봐요."
+ ]
+}

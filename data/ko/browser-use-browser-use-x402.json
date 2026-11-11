@@ -1,0 +1,18 @@
+{
+ "description": "x402로 Browser Use Cloud를 API 키 없이 암호화폐 지갑(Base의 USDC)으로 결제해 쓰도록 설정하는 스킬이에요.",
+ "summary": "지갑 준비, 입금, .env 저장, 약 1달러짜리 테스트 실행까지 정해진 순서대로 안내해요. 바로 써보는 방식과 프로젝트에 SDK를 넣는 방식 중에서 고를 수 있어요.",
+ "when": [
+  "API 키나 가입 없이 Browser Use Cloud를 쓰고 싶을 때",
+  "USDC로 요청마다 결제하는 방식을 설정할 때",
+  "프로젝트에 x402 결제 코드를 넣고 싶을 때"
+ ],
+ "examples": [
+  "x402로 Browser Use Cloud 설정해줘",
+  "지갑으로 결제해서 클라우드 브라우저 작업을 돌리고 싶어",
+  "x402를 프로젝트에 붙여줘"
+ ],
+ "notes": [
+  "Base 메인넷의 USDC가 들어 있는 지갑이 필요해요. 실제 비용이 발생해요.",
+  "SDK(browser-use-sdk 또는 npm의 browser-use)로만 동작해요."
+ ]
+}

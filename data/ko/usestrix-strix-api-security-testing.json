@@ -1,0 +1,18 @@
+{
+ "description": "Strix로 REST, GraphQL, gRPC API의 보안을 테스트해요. OWASP API Top 10(2023) 취약점을 실제로 공격해 검증해요.",
+ "summary": "스키마나 크롤링으로 엔드포인트를 찾은 뒤 BOLA/IDOR, 과도한 데이터 노출, 인가 우회, SSRF, 인젝션, 토큰 결함을 시도해요. 발견 항목마다 동작하는 PoC 요청이 붙어요.",
+ "when": [
+  "API를 출시 전에 펜테스트할 때",
+  "OpenAPI나 GraphQL 스키마로 취약점을 점검할 때",
+  "엔드포인트별 권한 문제를 찾고 싶을 때"
+ ],
+ "examples": [
+  "이 OpenAPI 스펙으로 API 보안 테스트를 돌려줘",
+  "우리 GraphQL API에서 IDOR 취약점을 찾아줘",
+  "백엔드 API를 Strix로 펜테스트해줘"
+ ],
+ "notes": [
+  "Strix 설치와 LLM 설정이 필요해요.",
+  "본인이 테스트 권한을 가진 대상에만 실행하세요."
+ ]
+}

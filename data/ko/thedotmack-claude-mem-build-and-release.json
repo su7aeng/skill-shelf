@@ -1,0 +1,15 @@
+{
+ "description": "build 스킬로 작업을 끝내고 PR을 머지한 뒤 release까지 자동으로 이어서 진행하는 스킬이에요.",
+ "summary": "build를 실행하고, 준비된 PR을 머지해 갱신된 main에서 이어 가며, 마지막에 release 스킬로 릴리스해요.",
+ "when": [
+  "작업 구현부터 릴리스까지 한 번에 맡길 때"
+ ],
+ "examples": [
+  "/build-and-release 의존성 업데이트 반영해줘",
+  "이 수정 만들어서 릴리스까지 해줘"
+ ],
+ "notes": [
+  "claude-mem의 build와 release 스킬이 필요해요.",
+  "PR 머지와 릴리스가 실제로 일어나니 범위를 확인하세요."
+ ]
+}

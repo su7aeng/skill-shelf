@@ -1,0 +1,17 @@
+{
+ "description": "AI Engineering from Scratch의 Claude 인증 네 가지 트랙을 단계별로 가르쳐 주는 튜터예요.",
+ "summary": "온보딩, 레슨 하나, 평가, 보완 학습 중 한 모드를 진행해요. 학습자가 설명하고, 예측하고, 실행하고, 만들며 판단을 직접 방어하게 해요. CLAUDE-CERTIFICATION.md가 있으면 이어서 해요.",
+ "when": [
+  "어떤 Claude 인증을 준비할지 고를 때",
+  "CCAO-F, CCDV-F, CCAR-F, CCAR-P 중 하나를 공부할 때",
+  "중단했던 인증 학습을 이어갈 때"
+ ],
+ "examples": [
+  "Claude 인증 중 뭘 준비해야 할지 골라줘",
+  "CCDV-F 레슨 하나 시작할래",
+  "인증 학습 진행을 이어서 해줘"
+ ],
+ "notes": [
+  "AI Engineering from Scratch 저장소 안에서 사용해요."
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Frontend Design",
+  "description": "템플릿 같은 기본값에서 벗어나 의도가 보이는 UI를 만들도록 미적 방향, 타이포, 선택 기준을 잡아줍니다.",
+  "category": "design",
+  "tags": [
+    "ui",
+    "css",
+    "타이포"
+  ],
+  "repo": "anthropics/skills",
+  "path": "skills/frontend-design",
+  "author": "Anthropic",
+  "install": "/plugin marketplace add anthropics/skills",
+  "added": "2026-11-09",
+  "featured": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Canvas Design",
+  "description": "포스터나 정적인 아트워크를 디자인 철학에 맞춰 PNG, PDF로 만들어 줍니다.",
+  "category": "design",
+  "tags": [
+    "포스터",
+    "이미지"
+  ],
+  "repo": "anthropics/skills",
+  "path": "skills/canvas-design",
+  "author": "Anthropic",
+  "install": "/plugin marketplace add anthropics/skills",
+  "added": "2026-11-09"
+}

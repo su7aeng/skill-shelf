@@ -1,0 +1,17 @@
+{
+ "description": "PR(포크 PR 포함)을 체크아웃해 린트와 TypeScript 오류를 고치고 다시 푸시해줘요.",
+ "summary": "`gh pr checkout`으로 PR을 가져와 의존성을 설치하고 컴파일한 뒤 `yarn lint`와 타입 체크 오류를 차례로 수정해요. 수정한 내용은 PR 브랜치로 푸시해요.",
+ "when": [
+  "PR의 CI가 린트 오류로 실패했을 때",
+  "PR에서 TypeScript 타입 오류를 정리해야 할 때",
+  "포크에서 올라온 PR을 대신 고쳐야 할 때"
+ ],
+ "examples": [
+  "PR 1234번 린트랑 타입 에러 고쳐줘",
+  "이 PR의 TS 오류 전부 수정해서 푸시해줘"
+ ],
+ "notes": [
+  "gh CLI와 yarn, nx가 설정된 Storybook 저장소에서 쓰는 용도예요.",
+  "PR 번호를 알려줘야 해요."
+ ]
+}

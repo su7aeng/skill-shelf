@@ -1,0 +1,14 @@
+{
+  "name": "PDF",
+  "description": "PDF 읽기, 표 추출, 병합과 분할, 양식 채우기, 워터마크까지 PDF 작업 전반을 다룹니다.",
+  "category": "docs",
+  "tags": [
+    "pdf",
+    "문서"
+  ],
+  "repo": "anthropics/skills",
+  "path": "skills/pdf",
+  "author": "Anthropic",
+  "install": "/plugin marketplace add anthropics/skills",
+  "added": "2026-11-09"
+}

@@ -1,0 +1,17 @@
+{
+ "description": "OmniRoute CLI로 채팅 요청을 보내고 스트리밍과 REPL 세션을 써요.",
+ "summary": "`omniroute chat`, `stream`, `repl` 명령으로 모델, 시스템 프롬프트, 콤보 라우팅, 온도 등을 지정해 대화해요.",
+ "when": [
+  "터미널에서 빠르게 모델에 질문할 때",
+  "특정 콤보나 모델로 응답을 시험할 때",
+  "대화형 REPL 세션을 열고 싶을 때"
+ ],
+ "examples": [
+  "omniroute로 이 프롬프트를 gpt 모델에 보내줘",
+  "REPL 세션 열어줘",
+  "이 파일 내용을 스트리밍으로 요약해줘"
+ ],
+ "notes": [
+  "`npm install -g omniroute` 또는 `npx omniroute`로 omniroute CLI가 필요해요."
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "주간 changelog 마크다운을 브랜드 영상으로 바꾸는 HyperFrames 스킬이에요.",
+ "summary": "changelog .md를 입력하면 UI 목업 애니메이션 중심의 정사각형 영상 프로젝트를 만들어요. 글머리표 대신 변경 사항을 화면으로 보여주는 방식이에요.",
+ "when": [
+  "주간 changelog 영상을 만들 때",
+  "업데이트 내용을 영상으로 소개하고 싶을 때",
+  "changelog video 를 요청할 때"
+ ],
+ "examples": [
+  "이 changelog.md로 주간 영상을 만들어줘",
+  "changelog video 를 만들어줘"
+ ],
+ "notes": [
+  "motion-doctrine, captions-overlay 등 관련 스킬을 먼저 불러와요.",
+  "렌더링은 요청할 때만 해요."
+ ]
+}

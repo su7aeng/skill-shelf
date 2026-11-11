@@ -1,0 +1,19 @@
+{
+ "description": "OpenTUI로 터미널 UI를 만들어요. 코어 API, React·Solid 리컨실러, 레이아웃, 키보드, 애니메이션, 테스트를 다뤄요.",
+ "summary": "프레임워크 선택 기준과 레퍼런스 읽는 순서를 안내하고, TUI 개발에서 자주 틀리는 규칙을 지키게 해요. 새 프로젝트는 `create-tui`로 시작하고, `process.exit()` 대신 `renderer.destroy()`를 쓰는 식이에요.",
+ "when": [
+  "OpenTUI로 새 터미널 앱을 시작할 때",
+  "React나 Solid로 TUI 컴포넌트를 만들 때",
+  "키보드 입력, 레이아웃, 애니메이션을 구현할 때",
+  "TUI 동작을 테스트하고 디버깅할 때"
+ ],
+ "examples": [
+  "OpenTUI와 React로 TUI 앱을 새로 만들어줘",
+  "스크롤 가능한 목록과 입력창이 있는 화면을 만들어줘",
+  "TUI에서 단축키 처리를 추가해줘"
+ ],
+ "notes": [
+  "Bun 런타임이 필요하고 네이티브 빌드에 Zig를 써요",
+  "`create-tui` 옵션은 인자보다 앞에 써야 해요"
+ ]
+}

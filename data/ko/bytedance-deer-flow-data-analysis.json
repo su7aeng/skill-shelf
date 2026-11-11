@@ -1,0 +1,16 @@
+{
+ "description": "Excel·CSV 파일을 DuckDB SQL로 분석하고 통계와 요약을 만들어요.",
+ "summary": "파일 구조(시트, 컬럼, 타입, 행 수)를 확인하고 SQL 쿼리, 통계 요약, 피벗을 수행해요. 결과는 CSV, JSON, Markdown으로 내보낼 수 있어요.",
+ "when": [
+  "엑셀이나 CSV 데이터를 탐색할 때",
+  "집계, 필터, 조인 분석이 필요할 때",
+  "결과를 파일로 내보내고 싶을 때"
+ ],
+ "examples": [
+  "이 엑셀 파일의 시트 구조를 보여줘",
+  "CSV에서 월별 합계를 구해서 내보내줘"
+ ],
+ "notes": [
+  "Python과 `python -m pip install duckdb openpyxl` 설치가 필요해요."
+ ]
+}

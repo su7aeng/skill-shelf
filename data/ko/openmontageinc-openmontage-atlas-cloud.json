@@ -1,0 +1,18 @@
+{
+ "description": "Atlas Cloud 게이트웨이로 이미지와 영상을 생성하거나 편집해요. 키 하나로 여러 모델을 쓸 수 있어요.",
+ "summary": "Seedance, Gemini Omni Flash, Seedream, GPT Image 등 Atlas에서 호스팅하는 모델을 정확한 모델 ID로 호출해요. 유료 호출 전에 사용할 도구, 모델, 요청 횟수, 예상 비용을 먼저 알려줘요.",
+ "when": [
+  "Atlas Cloud나 특정 Atlas 모델을 지정해 이미지를 만들 때",
+  "한 API 키로 여러 영상 모델을 써보고 싶을 때",
+  "기존 이미지나 영상을 Atlas 모델로 편집할 때"
+ ],
+ "examples": [
+  "Atlas Cloud의 Seedance 2.5로 텍스트 투 비디오를 만들어줘",
+  "Atlas로 Seedream 5.0 이미지를 한 장 생성해줘",
+  "Atlas에서 쓸 수 있는 모델 목록과 예상 비용을 먼저 알려줘"
+ ],
+ "notes": [
+  "ATLASCLOUD_API_KEY가 필요해요. ATLAS_CLOUD_API_KEY, ATLAS_API_KEY도 인식해요.",
+  "호출이 유료이니 제출 전에 비용을 확인하세요."
+ ]
+}

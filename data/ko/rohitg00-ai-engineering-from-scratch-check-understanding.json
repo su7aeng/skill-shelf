@@ -1,0 +1,15 @@
+{
+ "description": "AI Engineering from Scratch의 완료한 단계를 퀴즈로 점검해요. 이해도를 확인할 수 있어요.",
+ "summary": "특정 phase에 대해 퀴즈를 내고 이해도를 확인해요. 다음 단계로 넘어갈 준비가 됐는지 판단하는 데 도움이 돼요.",
+ "when": [
+  "한 phase를 끝내고 복습할 때",
+  "다음 단계로 넘어가도 되는지 궁금할 때",
+  "트랜스포머 같은 특정 주제를 점검할 때"
+ ],
+ "examples": [
+  "/check-understanding 3",
+  "phase 2 퀴즈 내줘",
+  "트랜스포머 이해했는지 테스트해줘"
+ ],
+ "notes": []
+}

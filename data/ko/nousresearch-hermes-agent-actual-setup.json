@@ -1,0 +1,19 @@
+{
+  "description": "Actual Computer(actual.inc)를 Hermes의 추론 제공자로 설정하고 연결 문제를 점검해요.",
+  "summary": "Actual의 클라우드 릴레이(ac_ 키 사용)나 로컬 데몬 중 원하는 방식으로 Hermes가 추론을 하도록 설정해 줘요. Hermes에 내장된 actual 제공자를 쓰는 방식을 따르고, 400 오류나 빈 스트림 같은 증상도 점검해요.",
+  "when": [
+    "actual.inc를 Hermes의 추론 제공자로 추가하고 싶을 때",
+    "ac_ 키로 Actual 클러스터를 통해 Hermes를 연결할 때",
+    "기기 안에서 로컬로만 추론하도록 설정할 때",
+    "Actual 요청이 400 오류나 빈 응답으로 실패할 때"
+  ],
+  "examples": [
+    "Hermes에 actual.inc를 추론 제공자로 설정해 줘",
+    "내 ac_ 키로 Actual 릴레이를 연결해 줘",
+    "Actual 요청이 계속 400 에러가 나는데 원인을 찾아 줘"
+  ],
+  "notes": [
+    "Actual 데몬 설치는 브라우저에서 사람이 기기 인증을 해야 해서 이 스킬이 대신 해 주지 않아요.",
+    "클라우드 릴레이를 쓰려면 ac_ 키가 필요해요."
+  ]
+}

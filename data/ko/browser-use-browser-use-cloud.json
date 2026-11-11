@@ -1,0 +1,19 @@
+{
+ "description": "Browser Use Cloud의 REST API와 SDK, 세션, 프로필, 프록시 등 연동 방법을 안내하는 참고 문서 스킬이에요.",
+ "summary": "호스팅형 브라우저 자동화 서비스인 Browser Use Cloud를 쓸 때 필요한 API(v2~v4), browser-use-sdk, 인증, 세션, 웹훅 같은 문서를 필요한 부분만 골라 찾아줘요. 시작 방법과 통합 패턴도 함께 안내해요.",
+ "when": [
+  "Browser Use Cloud API나 SDK 사용법을 찾을 때",
+  "클라우드 브라우저를 기존 에이전트에 붙이려 할 때",
+  "Playwright나 Puppeteer를 클라우드 브라우저에 연결할 때",
+  "n8n, Make, Zapier 연동 방법을 알아볼 때"
+ ],
+ "examples": [
+  "Browser Use Cloud로 호스팅 작업을 실행하는 방법 알려줘",
+  "browser-use-sdk로 클라우드 브라우저 세션 만드는 코드 보여줘",
+  "Playwright를 Browser Use Cloud에 연결하려면 어떻게 해?"
+ ],
+ "notes": [
+  "Browser Use Cloud 계정과 API 키(X-Browser-Use-API-Key)가 필요해요.",
+  "오픈소스 파이썬 라이브러리 질문에는 open-source 스킬을 쓰세요."
+ ]
+}

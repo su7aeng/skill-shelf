@@ -1,0 +1,16 @@
+{
+ "description": "OmniRoute CLI로 프롬프트 압축을 설정하고 시험해요.",
+ "summary": "`omniroute compression` 하위 명령으로 RTK 필터, Caveman 규칙, 엔진 설정을 관리하고 실제 프롬프트로 압축 결과를 미리 봐요.",
+ "when": [
+  "프롬프트 토큰을 줄이고 싶을 때",
+  "압축 엔진과 강도를 설정할 때",
+  "압축 결과를 미리 확인할 때"
+ ],
+ "examples": [
+  "omniroute 압축 상태 보여줘",
+  "Caveman 강도를 조정해줘"
+ ],
+ "notes": [
+  "`npm install -g omniroute` 또는 `npx omniroute`로 omniroute CLI가 필요해요."
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "description": "claude-mem 데이터베이스의 로컬 스냅샷 백업을 설정하고 상태를 확인하거나 복원하는 스킬이에요.",
+ "summary": "npx claude-mem backup status로 상태를 확인하고, 꺼져 있으면 자동 백업을 켜도록 안내해요. 스냅샷은 ~/.claude-mem/backups/auto/ 에 이 기기에만 저장돼요. 설정 파일에 자격 증명이 있어 내용은 출력하지 않아요.",
+ "when": [
+  "claude-mem 기억을 백업해 두고 싶을 때",
+  "백업이 잘 돌고 있는지 확인할 때",
+  "데이터베이스를 스냅샷에서 복원할 때"
+ ],
+ "examples": [
+  "백업 설정해줘",
+  "backup status 확인해줘",
+  "내 데이터베이스를 복원해줘"
+ ],
+ "notes": [
+  "백업을 지원하는 버전의 claude-mem이 필요해요. 없으면 npx claude-mem update가 필요할 수 있어요."
+ ]
+}

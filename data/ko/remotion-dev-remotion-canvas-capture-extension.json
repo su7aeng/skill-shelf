@@ -1,0 +1,19 @@
+{
+ "description": "비공개 Remotion Canvas Capture 압축해제 크롬 확장을 다시 빌드하고, 고정 경로에 설치하고, Chrome에서 리로드해요.",
+ "summary": "`packages/canvas-capture-extension`를 Bun으로 빌드해 체크아웃 밖의 고정 디렉터리에 설치해요. 워크트리가 삭제돼도 확장이 깨지지 않게 하고, 개발 모드와 Chrome 리로드 절차도 안내해요.",
+ "when": [
+  "워크트리가 삭제되어 확장을 복구해야 할 때",
+  "소스를 고친 뒤 확장을 다시 빌드할 때",
+  "Chrome이나 Canary에서 확장을 리로드할 때"
+ ],
+ "examples": [
+  "Canvas Capture 확장을 다시 빌드해서 설치해줘",
+  "워크트리를 지웠더니 확장이 깨졌어. 복구해줘",
+  "확장 개발 서버를 bun run dev로 띄워줘"
+ ],
+ "notes": [
+  "Bun이 필요하고, 확장을 쓰려면 Chrome 157.0.8080.0 이상에서 Canvas Draw Element를 켜야 해요",
+  "설치 경로가 `/Users/jonathanburger/...`로 지정돼 있어요",
+  "Chrome에서 Developer mode를 켜야 해요"
+ ]
+}

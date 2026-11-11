@@ -1,0 +1,18 @@
+{
+ "description": "macOS의 memo CLI로 Apple Notes를 만들고, 보고, 수정, 삭제, 검색, 이동, 내보내기 해요.",
+ "summary": "터미널에서 memo notes 명령으로 메모를 직접 관리해요. 폴더별 목록, 검색, 생성과 편집, 폴더 간 이동, HTML이나 Markdown 내보내기를 할 수 있어요.",
+ "when": [
+  "Apple Notes의 메모를 검색하거나 목록으로 볼 때",
+  "새 메모를 만들거나 기존 메모를 고칠 때",
+  "메모를 Markdown이나 HTML로 내보낼 때"
+ ],
+ "examples": [
+  "메모 앱에서 '회의'가 들어간 노트를 찾아줘",
+  "오늘 할 일을 새 메모로 만들어줘",
+  "이 폴더의 메모를 Markdown으로 내보내줘"
+ ],
+ "notes": [
+  "macOS 전용이에요",
+  "memo CLI(Homebrew: antoniorodr/memo)를 설치해야 하고 Notes.app 자동화 권한이 필요할 수 있어요"
+ ]
+}

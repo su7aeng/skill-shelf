@@ -1,0 +1,16 @@
+{
+ "description": "Chromium·WebKit·Firefox 이슈 URL을 받아 Remotion Mediabunny WebCodecs 버그 문서 표에 한 행을 추가해요.",
+ "summary": "이슈 페이지에서 제목, 접수일, 보고자, 해결 상태를 확인하고 `webcodecs-bugs.mdx` 표의 열 형식에 맞춰 행을 추가해요. 제품은 Chrome, Safari, Firefox로, 해결 여부는 Yes, No, Won't fix로 정리해요.",
+ "when": [
+  "브라우저 WebCodecs 버그를 문서 표에 추적할 때",
+  "이슈 URL의 상태와 보고자를 확인해 정리할 때"
+ ],
+ "examples": [
+  "이 Chromium 이슈를 WebCodecs 버그 표에 추가해줘",
+  "WebKit Bugzilla 이슈를 webcodecs-bugs에 등록해줘"
+ ],
+ "notes": [
+  "이슈 페이지를 열 수 있는 브라우저 제어 도구가 필요해요",
+  "열은 기존 표 형식을 유지하고 날짜 열은 임의로 추가하지 않아요"
+ ]
+}

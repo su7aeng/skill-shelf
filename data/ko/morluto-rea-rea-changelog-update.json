@@ -1,0 +1,18 @@
+{
+ "description": "고정한 Git 이력을 바탕으로 REA 릴리스 changelog와 GitHub 릴리스 노트를 작성하고 기여자 감사 인사까지 확인해요.",
+ "summary": "완전한 이력과 태그를 먼저 확인한 뒤 릴리스 노트를 작성하거나 다시 써요. 기여자 감사 문구를 검증하고 Release Please와도 맞춰줘요. 병합, 태깅, 배포 권한은 주지 않고 노트 준비까지만 해요.",
+ "when": [
+  "REA 릴리스 PR의 changelog를 정리해야 할 때",
+  "GitHub 릴리스 노트를 새로 쓰거나 고칠 때",
+  "기여자 감사 인사를 정확히 넣고 싶을 때"
+ ],
+ "examples": [
+  "이번 REA 릴리스 changelog를 이력 기준으로 작성해줘",
+  "릴리스 노트에 기여자 감사 문구를 검증해서 넣어줘",
+  "Release Please가 만든 changelog와 릴리스 노트를 맞춰줘"
+ ],
+ "notes": [
+  "REA 저장소와 docs/development/releasing.md가 있는 환경이 필요해요",
+  "병합, 태깅, 배포는 이 스킬이 승인하지 않아요"
+ ]
+}

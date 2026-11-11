@@ -1,0 +1,14 @@
+{
+  "name": "Brainstorming",
+  "description": "새 기능이나 기획을 시작하기 전에 질문을 주고받으며 아이디어를 구체적인 설계로 다듬습니다.",
+  "category": "workflow",
+  "tags": [
+    "기획",
+    "아이디어"
+  ],
+  "repo": "obra/superpowers",
+  "path": "skills/brainstorming",
+  "author": "Jesse Vincent (obra)",
+  "install": "/plugin marketplace add obra/superpowers-marketplace\n/plugin install superpowers@superpowers-marketplace",
+  "added": "2026-11-09"
+}

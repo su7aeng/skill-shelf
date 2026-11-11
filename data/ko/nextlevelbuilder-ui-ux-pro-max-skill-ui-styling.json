@@ -1,0 +1,17 @@
+{
+ "description": "shadcn/ui와 Tailwind CSS로 접근성 좋은 UI를 만들고 캔버스 기반 비주얼도 다뤄요.",
+ "summary": "React 계열 프레임워크에서 shadcn/ui 컴포넌트와 Tailwind 유틸리티 스타일링을 적용해줘요. 다이얼로그, 폼, 테이블 같은 접근성 컴포넌트와 반응형, 다크 모드, 테마 설정을 구성해요.",
+ "when": [
+  "Next.js나 Vite 앱에 shadcn/ui를 도입할 때",
+  "반응형 레이아웃이나 다크 모드를 구현할 때",
+  "디자인 시스템 토큰을 Tailwind로 옮길 때"
+ ],
+ "examples": [
+  "shadcn/ui로 로그인 폼 만들어줘",
+  "이 페이지에 다크 모드 추가해줘",
+  "Tailwind로 반응형 대시보드 레이아웃 잡아줘"
+ ],
+ "notes": [
+  "React 기반 프로젝트와 Tailwind 환경에서 가장 잘 맞아요."
+ ]
+}

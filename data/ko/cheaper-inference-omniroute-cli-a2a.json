@@ -1,0 +1,17 @@
+{
+ "description": "OmniRoute CLI로 A2A 서버에 작업을 보내고 실행 내역을 확인해요.",
+ "summary": "`omniroute a2a` 하위 명령으로 서버 상태, Agent Card, 스킬 목록을 보고 `a2a invoke <skill>`로 작업을 실행해요. JSON-RPC 2.0 프로토콜을 대화형으로 시험할 수 있어요.",
+ "when": [
+  "A2A 서버 상태를 확인할 때",
+  "에이전트 스킬을 호출해보고 싶을 때",
+  "작업 실행 기록을 점검할 때"
+ ],
+ "examples": [
+  "omniroute A2A 서버 상태 확인해줘",
+  "Agent Card 출력해줘",
+  "a2a 스킬 목록 보여줘"
+ ],
+ "notes": [
+  "`npm install -g omniroute` 또는 `npx omniroute`로 omniroute CLI가 필요해요."
+ ]
+}

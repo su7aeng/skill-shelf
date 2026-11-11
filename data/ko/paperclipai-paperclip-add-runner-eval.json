@@ -1,0 +1,18 @@
+{
+ "description": "Paperclip Runner 프로토콜 평가 정의, 로스터, 단언, 리포트 픽스처를 출처 정보와 함께 추가하거나 확장해요.",
+ "summary": "시드된 모의 컨트롤 플레인에 대해 실제 Runner와 프로바이더 세션을 돌리는 Runner Eval을 추가하는 스킬이에요. 출처를 남기고 범위를 좁힌 검증을 하도록 이끌어요.",
+ "when": [
+  "새 Runner 평가 케이스를 추가할 때",
+  "기존 평가의 단언이나 로스터를 수정할 때",
+  "리포트 픽스처를 추가할 때"
+ ],
+ "examples": [
+  "Paperclip에 새 Runner Eval을 추가해줘",
+  "이 Runner 평가에 단언을 하나 더 넣어줘",
+  "Runner 평가 리포트 픽스처를 갱신해줘"
+ ],
+ "notes": [
+  "Paperclip 저장소와 paperclip-evals 저장소가 필요해요.",
+  "브라우저 기반 제품 E2E는 이 스킬이 아닌 add-product-e2e-eval 대상이에요."
+ ]
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skill Shelf</title>
+  <meta name="description" content="GitHub의 AI 에이전트 스킬을 용도별로 모았어요. 안전 검사, 에이전트별 설치, 한국어 사용법." />
+  <meta property="og:title" content="Skill Shelf" />
+  <meta property="og:description" content="GitHub의 AI 에이전트 스킬을 용도별로 모았어요" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f5d50'/%3E%3Cpath d='M8 22h16M8 16h11M8 10h14' stroke='%23f6f4ef' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="alternate" type="application/rss+xml" title="새 스킬" href="feed.xml" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#/" id="brand">Skill Shelf</a>
+      <nav class="top-links">
+        <a href="#/recommend" data-nav="recommend">추천받기</a>
+        <a href="#/community" data-nav="community">커뮤니티</a>
+        <a href="#/guide" data-nav="guide">가이드</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="view-list" class="wrap">
+    <section class="intro">
+      <div class="intro-text">
+        <h1 id="tagline"></h1>
+        <p class="meta" id="summary"></p>
+      </div>
+      <div class="pick" id="pick" hidden></div>
+    </section>
+
+    <section class="controls" aria-label="필터">
+      <div class="search">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="6" /><path d="m14 14 4 4" /></svg>
+        <input id="q" type="search" placeholder="스킬 검색" autocomplete="off" />
+        <kbd>/</kbd>
+      </div>
+      <nav class="chips small quick" id="quick" aria-label="추천 검색어"></nav>
+      <div class="row">
+        <nav class="chips" id="cats" aria-label="카테고리"></nav>
+        <label class="sort">
+          <select id="sort" aria-label="정렬">
+            <option value="stars">인기순</option>
+            <option value="new">최신순</option>
+            <option value="name">이름순</option>
+          </select>
+        </label>
+      </div>
+      <details class="more-filters" id="more-filters">
+      <summary>필터</summary>
+      <div class="row row-2">
+        <nav class="chips small" id="agents" aria-label="에이전트"></nav>
+        <label class="toggle"><input type="checkbox" id="ko-only" /> 한국어 사용법</label>
+        <label class="toggle"><input type="checkbox" id="kr-only" /> 한국 사용자용</label>
+        <label class="toggle"><input type="checkbox" id="verified-only" /> 검증됨</label>
+        <label class="toggle"><input type="checkbox" id="safe-only" /> 검사 통과</label>
+      </div>
+      </details>
+    </section>
+
+    <div id="set-head"></div>
+    <section id="list" aria-live="polite"></section>
+  </main>
+
+  <main id="view-detail" class="wrap" hidden></main>
+  <main id="view-guide" class="wrap" hidden></main>
+  <main id="view-recommend" class="wrap" hidden></main>
+  <main id="view-packs" class="wrap" hidden></main>
+  <main id="view-community" class="wrap" hidden></main>
+
+  <footer class="wrap foot"><p id="foot"></p></footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

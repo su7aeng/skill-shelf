@@ -1,0 +1,15 @@
+{
+  "name": "Skill Creator",
+  "description": "새 스킬을 만들고 고치고, 평가(eval)를 돌려 성능과 트리거 정확도를 측정합니다.",
+  "category": "meta",
+  "tags": [
+    "스킬",
+    "eval"
+  ],
+  "repo": "anthropics/skills",
+  "path": "skills/skill-creator",
+  "author": "Anthropic",
+  "install": "/plugin marketplace add anthropics/skills",
+  "added": "2026-11-09",
+  "featured": true
+}

@@ -1,0 +1,47 @@
+# "Skill reviews" 카테고리에서 새 글을 쓸 때 나오는 양식
+title: "[후기] "
+labels: ["후기"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: 스킬 링크
+      description: Skill Shelf 상세 페이지나 GitHub 주소
+      placeholder: https://.../#/s/owner--repo--skill
+    validations:
+      required: true
+  - type: dropdown
+    id: agent
+    attributes:
+      label: 쓴 에이전트
+      options: [Claude Code, Claude 앱, Codex, Copilot, Cursor, Antigravity·Gemini CLI, OpenCode, OpenClaw, Amp, goose, Windsurf(Devin Desktop), Kiro, Cline, Roo Code, 기타]
+    validations:
+      required: true
+  - type: dropdown
+    id: rating
+    attributes:
+      label: 추천 정도
+      options: ["★★★★★ 꼭 써보세요", "★★★★ 좋아요", "★★★ 무난해요", "★★ 아쉬워요", "★ 비추천"]
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: 어떤 일에 써봤나요
+      placeholder: 예) Next.js 프로젝트의 PR 리뷰를 맡겨 봤어요
+    validations:
+      required: true
+  - type: textarea
+    id: good
+    attributes:
+      label: 좋았던 점
+  - type: textarea
+    id: bad
+    attributes:
+      label: 아쉬운 점, 주의할 점
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 잘 먹혔던 요청 문장
+      description: 다른 사람이 그대로 따라 해볼 수 있게
+      render: text

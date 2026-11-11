@@ -1,0 +1,17 @@
+{
+ "description": "Awesome Mac 저장소에 앱 항목을 추가, 수정, 이동하고 영어/중국어/일본어/한국어 README를 함께 맞추는 스킬이에요.",
+ "summary": "앱을 올바른 카테고리에 넣고, 같은 항목을 README.md, README-zh.md, README-ja.md, README-ko.md에 동기화해요. 설명 문구를 간결하게 다듬고 정렬 순서와 저장소의 큐레이션 규칙을 지켜요.",
+ "when": [
+  "새 앱을 Awesome Mac 목록에 추가할 때",
+  "기존 항목의 설명을 고치거나 카테고리를 옮길 때",
+  "다국어 README를 서로 맞춰야 할 때"
+ ],
+ "examples": [
+  "Awesome Mac에 이 앱을 추가해줘",
+  "이 항목을 다른 카테고리로 옮기고 모든 README에 반영해줘",
+  "이 앱 설명을 더 짧게 줄여줘"
+ ],
+ "notes": [
+  "Awesome Mac 저장소 안에서 작업할 때 쓰는 스킬이에요."
+ ]
+}
