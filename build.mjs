@@ -95,7 +95,12 @@ async function main() {
     const r = repos[s.repo];
     const fresh90 = r.pushed && genDate - new Date(r.pushed) <= 90 * 86400e3;
     s.verified = s.safety?.level === "ok" && !!fresh90 && ((r.stars ?? 0) >= 200 || (s.reviews ?? 0) >= 3);
+    // 방치된 무명 스킬: 스타 10 이하 + 90일 넘게 관리 안 됨 + 후기·한국어 사용법·추천 표시 없음, 한국 사용자용 아님 → 목록에서 뺀다
+    s.dormant = (r.stars ?? 0) <= 10 && !fresh90 && !(s.reviews > 0) && !s.ko && !s.kr && !s.featured;
   }
+  const dormant = skills.filter((s) => s.dormant).length;
+  for (let i = skills.length - 1; i >= 0; i--) if (skills[i].dormant) skills.splice(i, 1);
+  if (dormant) console.log(`· 방치된 스킬 ${dormant}개 제외 (스타 10 이하, 90일 넘게 관리 안 됨)`);
   skills.sort((a, b) => (b.featured | 0) - (a.featured | 0) || (repos[b.repo].stars ?? -1) - (repos[a.repo].stars ?? -1) || a.name.localeCompare(b.name));
   const idSet = new Set(skills.map((s) => s.id));
 
