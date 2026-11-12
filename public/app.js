@@ -1,3 +1,4 @@
+const HOME_TITLE = document.title;
 import { buildQueryTerms, detectStack, readStackFromRepo, expandWord } from "./recommend.js";
 
 const $ = (s, el = document) => el.querySelector(s);
@@ -593,7 +594,7 @@ function route() {
   show("list");
   readParams();
   renderList();
-  document.title = D.site.title;
+  document.title = HOME_TITLE;
   if (!wasList) requestAnimationFrame(() => window.scrollTo(0, listScroll));
 }
 

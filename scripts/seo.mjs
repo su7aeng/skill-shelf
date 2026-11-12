@@ -5,7 +5,7 @@ import { join } from "node:path";
 
 const esc = (s) => String(s ?? "").replace(/[<>&"']/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", '"': "&quot;", "'": "&#39;" })[c]);
 const cut = (t, n) => { t = String(t ?? "").replace(/\s+/g, " ").trim(); return t.length > n ? t.slice(0, n - 1).trimEnd() + "…" : t; };
-const MAX_PAGES = 6000;
+const MAX_PAGES = 10000;
 
 export async function writeSeo({ DIST, site, skills, repos, categories, agents }) {
   const base = (site.url || "").replace(/\/$/, "");
@@ -13,17 +13,22 @@ export async function writeSeo({ DIST, site, skills, repos, categories, agents }
   const catName = Object.fromEntries((categories || []).map((c) => [c.id, c.name]));
   const title = site.title;
 
-  // 색인할 스킬: 한국어 사용법이 있는 것 + 검증됨·인기 스킬 (저장소당 4개까지)
-  const perRepo = {};
+  // 색인할 스킬: 한국어 사용법이 있는 스킬 전부
   const pages = [];
-  const rank = (s) => (s.ko ? 1e9 : 0) + (repos[s.repo].stars ?? 0);
-  for (const s of [...skills].sort((a, b) => rank(b) - rank(a))) {
+  // 한국어 사용법이 없는 스킬은 영어 한 문단뿐이라 색인 대상에서 뺀다
+  const seenName = new Set();
+  for (const s of [...skills].sort((a, b) => (repos[b.repo].stars ?? 0) - (repos[a.repo].stars ?? 0))) {
     if (pages.length >= MAX_PAGES) break;
-    if (s.safety?.level === "high") continue;
-    if (!s.ko && !(s.verified && (repos[s.repo].stars ?? 0) >= 1000)) continue;
-    if ((perRepo[s.repo] = (perRepo[s.repo] || 0) + 1) > 4) continue;
+    if (!s.ko || s.safety?.level === "high") continue;
+    const key = s.repo + "/" + s.name;
+    if (seenName.has(key)) continue;
+    seenName.add(key);
     pages.push(s);
   }
+  const byRepo = {}, byCat = {};
+  for (const s of pages) { (byRepo[s.repo] ||= []).push(s); (byCat[s.category] ||= []).push(s); }
+  const near = (list, s, n) => { const i = list.indexOf(s); const out = []; for (let k = 1; k < list.length && out.length < n; k++) out.push(list[(i + k) % list.length]); return out; };
+  const li = (x) => `<li><a href="/s/${esc(x.id)}/">${esc(x.name)}</a> ${esc(cut(x.ko?.description || x.description, 60))}</li>`;
 
   for (const s of pages) {
     const r = repos[s.repo];
@@ -52,7 +57,7 @@ export async function writeSeo({ DIST, site, skills, repos, categories, agents }
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(s.name)} 스킬 설치와 사용법 · ${esc(title)}</title>
+<title>${esc(s.name)} 스킬 설치와 사용법 (${esc(r.full)}) · ${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 ${base ? `<link rel="canonical" href="${esc(url)}">\n` : ""}<meta property="og:type" content="article">
 <meta property="og:title" content="${esc(s.name)} · ${esc(title)}">
@@ -64,7 +69,7 @@ ${base ? `<meta property="og:url" content="${esc(url)}">\n` : ""}<meta name="twi
 <body>
 <header class="top"><div class="wrap top-inner"><a class="brand" href="/">${esc(title)}</a></div></header>
 <main class="wrap"><article class="detail">
-<p class="crumbs"><a href="/">${esc(title)}</a> · <a href="/#/?c=${esc(s.category)}">${esc(catName[s.category] || s.category)}</a></p>
+<p class="crumbs"><a href="/">${esc(title)}</a> · <a href="/c/${esc(s.category)}/">${esc(catName[s.category] || s.category)}</a></p>
 <h1>${esc(s.name)}</h1>
 <p class="lead">${esc(ko?.description || s.description)}</p>
 <p class="muted">${esc(r.full)}${r.stars != null ? ` · 스타 ${r.stars.toLocaleString("en-US")}` : ""}${s.safety ? ` · 안전 검사 ${s.safety.level === "ok" ? "통과" : "주의"}` : ""}</p>
@@ -74,6 +79,8 @@ ${ko?.summary ? `<h2>이런 스킬이에요</h2><p>${esc(ko.summary)}</p>` : ""}
 ${ko?.when ? `<h2>이럴 때 쓰세요</h2><p>${esc(Array.isArray(ko.when) ? ko.when.join(" ") : ko.when)}</p>` : ""}
 ${ko?.examples?.length ? `<h2>요청 예시</h2><ul>${ko.examples.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : ""}
 ${notes ? `<h2>알아둘 점</h2><p>${esc(notes)}</p>` : ""}
+${byRepo[s.repo].length > 1 ? `<h2>같은 저장소의 스킬</h2><ul>${near(byRepo[s.repo], s, 5).map(li).join("")}</ul>` : ""}
+${byCat[s.category].length > 1 ? `<h2>${esc(catName[s.category] || s.category)} 스킬 더 보기</h2><ul>${near(byCat[s.category].filter((x) => x === s || x.repo !== s.repo), s, 5).map(li).join("")}</ul>` : ""}
 <p><a href="${app}">후기와 안전 검사 자세히 보기</a> · <a href="https://github.com/${esc(r.full)}/tree/${esc(r.branch || "main")}/${esc(s.path || "")}" rel="noopener">GitHub 원문</a></p>
 </article></main>
 </body></html>`;
@@ -82,10 +89,43 @@ ${notes ? `<h2>알아둘 점</h2><p>${esc(notes)}</p>` : ""}
     await writeFile(join(dir, "index.html"), html);
   }
 
+  // 카테고리 목록 페이지
+  const cats = (categories || []).filter((c) => byCat[c.id]?.length);
+  for (const c of cats) {
+    const list = byCat[c.id];
+    const url = abs(`/c/${c.id}/`);
+    const desc = cut(`${c.name} 분야 AI 에이전트 스킬 ${list.length}개. 안전 검사 결과와 한국어 사용법, 설치 명령을 함께 볼 수 있어요.`, 155);
+    const html = `<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(c.name)} AI 에이전트 스킬 ${list.length}개 · ${esc(title)}</title>
+<meta name="description" content="${esc(desc)}">
+${base ? `<link rel="canonical" href="${esc(url)}">\n` : ""}<meta property="og:type" content="website">
+<meta property="og:title" content="${esc(c.name)} 스킬 · ${esc(title)}">
+<meta property="og:description" content="${esc(desc)}">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap top-inner"><a class="brand" href="/">${esc(title)}</a></div></header>
+<main class="wrap"><article class="detail">
+<p class="crumbs"><a href="/">${esc(title)}</a></p>
+<h1>${esc(c.name)} 스킬</h1>
+<p class="lead">${esc(desc)}</p>
+<ul>${list.map(li).join("")}</ul>
+<p><a href="/#/?c=${esc(c.id)}">전체 목록에서 검색하고 걸러 보기</a></p>
+</article></main>
+</body></html>`;
+    const dir = join(DIST, "c", c.id);
+    await mkdir(dir, { recursive: true });
+    await writeFile(join(dir, "index.html"), html);
+  }
+
   // sitemap.xml
   if (base) {
     const now = new Date().toISOString().slice(0, 10);
-    const urls = [`<url><loc>${base}/</loc><lastmod>${now}</lastmod></url>`, ...pages.map((s) => `<url><loc>${esc(abs(`/s/${s.id}/`))}</loc><lastmod>${repos[s.repo].pushed || now}</lastmod></url>`)];
+    const urls = [`<url><loc>${base}/</loc><lastmod>${now}</lastmod></url>`, ...cats.map((c) => `<url><loc>${esc(abs(`/c/${c.id}/`))}</loc><lastmod>${now}</lastmod></url>`), ...pages.map((s) => `<url><loc>${esc(abs(`/s/${s.id}/`))}</loc><lastmod>${repos[s.repo].pushed || now}</lastmod></url>`)];
     await writeFile(join(DIST, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.join("")}</urlset>`);
   }
 
@@ -116,7 +156,8 @@ ${base ? `- [사이트맵](${base}/sitemap.xml)\n` : ""}`);
   <script type="application/ld+json">${JSON.stringify(ld)}</script>
 `;
   h = h.replace("</head>", head + "</head>");
-  const links = `<noscript><nav aria-label="주요 스킬"><ul>${pages.slice(0, 120).map((s) => `<li><a href="/s/${esc(s.id)}/">${esc(s.name)}</a> ${esc(cut(s.ko?.description || s.description, 60))}</li>`).join("")}</ul></nav></noscript>\n  `;
+  const links = `<nav class="wrap cat-links" aria-label="분야별 스킬">${cats.map((c) => `<a href="/c/${esc(c.id)}/">${esc(c.name)}</a>`).join("")}</nav>\n  `;
+  h = h.replace('<h1 id="tagline"></h1>', `<h1 id="tagline">${esc(site.tagline)}</h1>`);
   h = h.replace('<footer class="wrap foot">', links + '<footer class="wrap foot">');
   await writeFile(p, h);
   return pages.length;

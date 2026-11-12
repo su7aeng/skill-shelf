@@ -525,3 +525,7 @@ body { background: var(--bg); }
 #cats.chips button { white-space: nowrap; }
 .chips button[aria-pressed="true"] .n { color: rgba(255, 255, 255, 0.78); }
 .sort { flex: none; }
+
+.cat-links { display: flex; flex-wrap: wrap; gap: 8px 16px; padding-top: 24px; padding-bottom: 8px; font-size: 14px; }
+.cat-links a { color: var(--muted); text-decoration: none; }
+.cat-links a:hover { color: var(--ink); }
