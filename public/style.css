@@ -385,7 +385,7 @@ a.card { text-decoration: none; }
 .pick-by svg { width: 12px; height: 12px; fill: currentColor; }
 .pick-desc { margin: 12px 0 16px; font-size: 14px; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .pick-cmd pre { font-size: 12px; padding: 12px 64px 12px 12px; white-space: nowrap; }
-@media (max-width: 760px) { .intro { grid-template-columns: 1fr; gap: 24px; padding: 32px 0 24px; } }
+@media (max-width: 760px) { .intro { grid-template-columns: minmax(0, 1fr); gap: 24px; padding: 32px 0 24px; } }
 
 
 /* 조용한 배지 */

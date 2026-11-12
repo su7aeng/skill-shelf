@@ -114,7 +114,7 @@ async function main() {
   if (old) {
     const delta = new Map(repos.map((r) => [r.full, (r.stars ?? 0) - (old.stars[r.full] ?? r.stars ?? 0)]));
     trendBasis = `${oldFile.slice(0, 10)} 이후 늘어난 스타`;
-    trending = pickPerRepo(skills.filter((s) => delta.get(repos[s.repo].full) > 0).sort((a, b) => delta.get(repos[b.repo].full) - delta.get(repos[a.repo].full)), 2, 24)
+    trending = pickPerRepo(skills.filter((s) => s.safety?.level !== "high" && delta.get(repos[s.repo].full) > 0).sort((a, b) => delta.get(repos[b.repo].full) - delta.get(repos[a.repo].full)), 2, 24)
       .map((s) => [s.id, delta.get(repos[s.repo].full)]);
     const oldIds = new Set(old.skills);
     fresh = skills.filter((s) => !oldIds.has(s.id));
@@ -122,11 +122,11 @@ async function main() {
     // 기록이 쌓이기 전: 최근 1년 안에 만들어진 저장소 중 하루 평균 스타가 많은 것
     trendBasis = "새 저장소의 하루 평균 스타";
     const vel = (r) => (r.created ? (r.stars ?? 0) / Math.max(7, (today - new Date(r.created)) / DAY) : 0);
-    trending = pickPerRepo(skills.filter((s) => repos[s.repo].created && today - new Date(repos[s.repo].created) < 365 * DAY).sort((a, b) => vel(repos[b.repo]) - vel(repos[a.repo])), 2, 24)
+    trending = pickPerRepo(skills.filter((s) => s.safety?.level !== "high" && repos[s.repo].created && today - new Date(repos[s.repo].created) < 365 * DAY).sort((a, b) => vel(repos[b.repo]) - vel(repos[a.repo])), 2, 24)
       .map((s) => [s.id, Math.round(vel(repos[s.repo]))]);
     fresh = skills.filter((s) => repos[s.repo].created && today - new Date(repos[s.repo].created) < 30 * DAY);
   }
-  fresh = pickPerRepo(fresh.sort((a, b) => (repos[b.repo].stars ?? 0) - (repos[a.repo].stars ?? 0)), 3, 60);
+  fresh = pickPerRepo(fresh.filter((s) => s.safety?.level !== "high").sort((a, b) => (repos[b.repo].stars ?? 0) - (repos[a.repo].stars ?? 0)), 3, 60);
   // 최근에 업데이트된 검증 스킬
   // (거의 모든 인기 저장소가 매일 푸시되므로, 최근 2주 안에 업데이트된 것 중 인기순)
   const recentCut = new Date(genDate - 14 * 86400e3).toISOString().slice(0, 10);

@@ -33,7 +33,7 @@ do {
   if (j.errors) { console.error(j.errors); process.exit(1); }
   const d = j.data.repository.discussions;
   for (const n of d.nodes) {
-    const isSkillThread = n.category?.name === site.giscus?.category && /--/.test(n.title);
+    const isSkillThread = n.category?.name === site.giscus?.category;
     if (isSkillThread) {
       skills[n.title] = { comments: n.comments.totalCount, reactions: n.reactions.totalCount, last: n.comments.nodes[0] ? { text: n.comments.nodes[0].bodyText.replace(/\s+/g, " ").slice(0, 80), by: n.comments.nodes[0].author?.login || "" } : null, url: n.url, updatedAt: n.updatedAt.slice(0, 10) };
     }

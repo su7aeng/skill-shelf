@@ -5,18 +5,18 @@ const KO = [
   [/테스트|테스팅|단위 ?테스트|e2e/, ["test", "testing", "tdd", "playwright"]],
   [/리뷰|검토|코드 ?리뷰/, ["review", "code review"]],
   [/버그|디버그|디버깅|오류|에러|원인/, ["debug", "bug", "error", "root cause"]],
-  [/배포|디플로이/, ["deploy", "deployment", "vercel", "ci"]],
+  [/배포|디플로이/, ["deploy", "deployment", "vercel", "ci/cd"]],
   [/도커|컨테이너/, ["docker", "container"]],
   [/쿠버네티스/, ["kubernetes", "k8s"]],
   [/클라우드|aws|아마존/, ["aws", "cloud"]],
-  [/디자인|ui|ux|화면|예쁘|세련/, ["design", "ui", "frontend", "css"]],
+  [/디자인|\bui\b|\bux\b|화면|예쁘|세련/, ["design", "ui", "frontend", "css"]],
   [/랜딩|홈페이지|웹사이트|사이트/, ["landing page", "website", "web"]],
   [/프론트|리액트/, ["frontend", "react"]],
-  [/백엔드|서버|api/, ["backend", "api", "server"]],
+  [/백엔드|서버|\bapi\b/, ["backend", "api", "server"]],
   [/데이터|분석|통계/, ["data", "analysis", "analytics"]],
   [/엑셀|스프레드시트|시트/, ["excel", "xlsx", "spreadsheet", "csv"]],
   [/차트|그래프|시각화|대시보드/, ["chart", "visualization", "dashboard"]],
-  [/sql|쿼리|데이터베이스|db/, ["sql", "database", "query"]],
+  [/sql|쿼리|데이터베이스|\bdb\b/, ["sql", "database", "query"]],
   [/pdf/, ["pdf"]],
   [/워드|docx|문서/, ["docx", "document", "word"]],
   [/ppt|파워포인트|발표|슬라이드|프레젠테이션/, ["pptx", "slides", "presentation"]],
@@ -27,10 +27,10 @@ const KO = [
   [/메모|노트/, ["notes", "note"]],
   [/요약/, ["summarize", "summary"]],
   [/번역/, ["translate", "translation"]],
-  [/글쓰기|글|블로그|아티클|기사/, ["writing", "blog", "article"]],
+  [/글쓰기|글 ?쓰|^글$|블로그|아티클|기사/, ["writing", "blog", "article"]],
   [/교정|맞춤법|문장/, ["proofread", "editing", "grammar"]],
-  [/마케팅|광고/, ["marketing", "ads"]],
-  [/seo|검색 ?최적화/, ["seo"]],
+  [/마케팅|광고/, ["marketing", "ads", "advertising", "campaign"]],
+  [/\bseo\b|검색 ?최적화/, ["seo"]],
   [/sns|소셜|인스타|트위터|링크드인/, ["social media", "twitter", "linkedin", "instagram"]],
   [/이메일|메일/, ["email", "gmail"]],
   [/슬랙/, ["slack"]],
@@ -38,7 +38,7 @@ const KO = [
   [/기획|prd|요구사항|스펙/, ["prd", "spec", "requirements", "product"]],
   [/계획|플랜/, ["plan", "planning"]],
   [/브레인스토밍|아이디어/, ["brainstorm", "ideas"]],
-  [/커밋|깃|git|pr|풀 ?리퀘스트/, ["git", "commit", "pull request"]],
+  [/커밋|깃|\bgit\b|\bpr\b|풀 ?리퀘스트/, ["git", "commit", "pull request"]],
   [/리팩터|리팩토링/, ["refactor"]],
   [/문서화|readme|주석/, ["documentation", "readme", "docs"]],
   [/보안|취약점|해킹/, ["security", "vulnerability", "audit"]],
@@ -51,24 +51,36 @@ const KO = [
   [/논문|연구|학술/, ["research", "paper", "academic"]],
   [/주식|투자|트레이딩/, ["stock", "trading", "investment"]],
   [/회계|세금|재무/, ["accounting", "tax", "finance"]],
-  [/계약|법률|법/, ["legal", "contract", "law"]],
+  [/계약|법률|법무/, ["legal", "contract", "law"]],
   [/의료|병원|임상/, ["medical", "clinical"]],
   [/채용|면접|이력서/, ["hiring", "interview", "resume"]],
   [/mcp/, ["mcp"]],
   [/스킬 ?만들|스킬 ?제작/, ["skill creator", "writing skills"]],
   [/에이전트|서브 ?에이전트/, ["agent", "subagent"]],
   [/프롬프트/, ["prompt"]],
-  [/llm|rag|임베딩/, ["llm", "rag", "embedding"]],
-  [/모바일|앱|ios|안드로이드/, ["mobile", "ios", "android"]],
+  [/llm|\brag\b|임베딩/, ["llm", "rag", "embedding"]],
+  [/모바일|앱|\bios\b|안드로이드/, ["mobile", "ios", "android"]],
   [/게임/, ["game"]],
   [/한글|hwp/, ["hwp", "hangul", "korean"]],
   [/한국|국내/, ["korean", "korea"]],
   [/카카오/, ["kakao"]],
   [/네이버/, ["naver"]],
   [/공공데이터/, ["data.go.kr", "공공데이터"]],
-  [/공시|dart/, ["dart", "공시"]],
+  [/공시|\bdart\b/, ["dart", "공시"]],
 ];
-const STOP = new Set(["그리고", "하고", "싶어", "싶어요", "싶다", "해줘", "좀", "더", "있는", "하는", "으로", "에서", "the", "a", "to", "and", "i", "want", "my", "for", "with"]);
+const STOP = new Set(["그리고", "하고", "보내고", "올리고", "만들고", "읽고", "쓰고", "하고싶어", "만들어줘", "알려줘", "싶어", "싶어요", "싶다", "해줘", "좀", "더", "있는", "하는", "으로", "에서", "the", "a", "to", "and", "i", "want", "my", "for", "with"]);
+
+// 영어 키워드는 단어 단위로 맞춘다. "ads"가 "threads"에, "ui"가 "build"에 걸리지 않게
+const reCache = new Map();
+export function termHit(hay, t) {
+  if (!/^[a-z0-9 .+#/-]+$/.test(t)) return hay.includes(t);
+  let re = reCache.get(t);
+  if (!re) {
+    const e = t.replace(/[.*+?^${}()|[\]\\/]/g, "\\// 메인 검색용:");
+    reCache.set(t, (re = new RegExp("(?<![a-z0-9])" + e + (t.length >= 5 ? "" : "s?(?![a-z0-9])"))));
+  }
+  return re.test(hay);
+}
 
 // 메인 검색용: 한국어 단어 하나를 영어 키워드까지 넓힌다 (영어 단어는 그대로)
 export function expandWord(w) {

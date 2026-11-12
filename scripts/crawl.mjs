@@ -255,6 +255,11 @@ async function main() {
 
   const today = new Date().toISOString().slice(0, 10);
   await mkdir(join(ROOT, "data", "history"), { recursive: true });
+  // 수집이 반쯤 실패했을 때 사이트가 비워지지 않게: 지난번의 90% 미만이면 저장하지 않고 멈춘다
+  try {
+    const prev = JSON.parse(await readFile(join(ROOT, "data", "crawled.json"), "utf8")).skills.length;
+    if (outSkills.length < prev * 0.9) { console.error(`✗ 스킬 수가 ${prev} → ${outSkills.length}로 크게 줄어 저장하지 않아요`); process.exit(1); }
+  } catch (e) { if (e.code !== "ENOENT") throw e; }
   await writeFile(join(ROOT, "data", "crawled.json"), JSON.stringify({ generatedAt: today, repos: outRepos, skills: outSkills }));
   await writeFile(join(ROOT, "data", "safety.json"), JSON.stringify(safety));
   // 트렌딩 계산용 기록: 저장소 스타 수, 이날 목록에 있던 스킬 id

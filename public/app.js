@@ -1,5 +1,5 @@
 const HOME_TITLE = document.title;
-import { buildQueryTerms, detectStack, readStackFromRepo, expandWord } from "./recommend.js";
+import { buildQueryTerms, detectStack, readStackFromRepo, expandWord, termHit } from "./recommend.js";
 
 const $ = (s, el = document) => el.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -79,7 +79,8 @@ async function shard(repoIdx) {
   if (!shardCache.has(repoIdx)) shardCache.set(repoIdx, fetch(`d/${repoIdx}.json`).then((r) => r.json()));
   return shardCache.get(repoIdx);
 }
-const skillArg = (name, dir) => (/^[\w.-]+$/.test(name) ? name : dir || JSON.stringify(name));
+// skills CLI는 SKILL.md의 name으로 찾는다. 공백·특수문자가 있으면 따옴표로 감싼다
+const skillArg = (name) => (/^[\w.-]+$/.test(name) ? name : "'" + name.replace(/'/g, "'\\''") + "'");
 
 // ---------- 카드 ----------
 function safetyBadge(level, long = false) {
@@ -128,7 +129,7 @@ const popScore = (s) => (s.stars || 0) + s.reviews * REVIEW_WEIGHT;
 function filtered(opts = {}) {
   const words = state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
   // "엑셀"로 찾아도 영어 설명만 있는 excel 스킬이 나오도록 한국어 단어는 영어 키워드까지 넓혀 찾는다
-  const groups = words.map(expandWord);
+  const groups = words.map((w) => expandWord(w).map((t) => [t, t !== w]));
   const ak = state.agent === "all" ? -1 : D.agents.findIndex((a) => a.id === state.agent);
   const cat = opts.ignoreCat ? "all" : state.cat;
   const base = state.set && SETS[state.set] ? SETS[state.set].ids().map((id) => byId.get(id)).filter(Boolean) : SK;
@@ -138,7 +139,7 @@ function filtered(opts = {}) {
     (!state.make || makeHit(makeById[state.make], s)) &&
     (ak < 0 || s.abits & (1 << ak)) &&
     (!state.ko || s.ko) && (!state.kr || s.kr) && (!state.safe || s.safety === 0) && (!state.verified || s.verified) &&
-    groups.every((g) => g.some((t) => s.hay.includes(t))));
+    groups.every((g) => g.some(([t, x]) => (x ? termHit(s.hay, t) : s.hay.includes(t)))));
   if (state.sort === "name") out = [...out].sort((a, b) => a.name.localeCompare(b.name, "ko"));
   else if (state.sort === "new") out = [...out].sort((a, b) => b.pushed.localeCompare(a.pushed) || a.i - b.i);
   else if (REVIEW_WEIGHT && !words.length) out = [...out].sort((a, b) => popScore(b) - popScore(a) || a.i - b.i);
@@ -499,7 +500,7 @@ function candidates(terms, n) {
   for (const s of SK) {
     if (s.safety === 2) continue;
     let sc = 0;
-    for (const t of terms) { if (s.nameLc.includes(t)) sc += 3; else if (s.hay.includes(t)) sc += 1; }
+    for (const t of terms) { if (termHit(s.nameLc, t)) sc += 3; else if (termHit(s.hay, t)) sc += 1; }
     if (sc) scored.push([sc + Math.log10((s.stars || 1) + 1) * 0.4 + (s.ko ? 0.3 : 0), s]);
   }
   scored.sort((a, b) => b[0] - a[0]);

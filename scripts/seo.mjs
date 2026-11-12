@@ -28,15 +28,15 @@ export async function writeSeo({ DIST, site, skills, repos, categories, agents }
   const byRepo = {}, byCat = {};
   for (const s of pages) { (byRepo[s.repo] ||= []).push(s); (byCat[s.category] ||= []).push(s); }
   const near = (list, s, n) => { const i = list.indexOf(s); const out = []; for (let k = 1; k < list.length && out.length < n; k++) out.push(list[(i + k) % list.length]); return out; };
-  const li = (x) => `<li><a href="/s/${esc(x.id)}/">${esc(x.name)}</a> ${esc(cut(x.ko?.description || x.description, 60))}</li>`;
+  const li = (x) => `<li><a href="/s/${esc(x.id)}/">${esc(x.name)}</a> · ${esc(cut(x.ko?.description || x.description, 60))}</li>`;
 
   for (const s of pages) {
     const r = repos[s.repo];
     const ko = s.ko;
     const desc = cut(ko?.description || s.description, 155);
-    const skillArg = s.skillName || s.name;
+    const skillArg = ((name) => (/^[\w.-]+$/.test(name) ? name : "'" + name.replace(/'/g, "'\\''") + "'"))(s.skillName || s.name);
     const cmd = `npx skills add ${r.full} --skill ${skillArg}`;
-    const notes = (Array.isArray(ko?.notes) ? ko.notes.join(" ") : ko?.notes || "").trim();
+    const notes = [].concat(ko?.notes || []).map((x) => String(x).trim()).filter(Boolean);
     const url = abs(`/s/${s.id}/`);
     const app = `/#/s/${encodeURIComponent(s.id)}`;
     const ld = {
@@ -74,11 +74,11 @@ ${base ? `<meta property="og:url" content="${esc(url)}">\n` : ""}<meta name="twi
 <p class="lead">${esc(ko?.description || s.description)}</p>
 <p class="muted">${esc(r.full)}${r.stars != null ? ` · 스타 ${r.stars.toLocaleString("en-US")}` : ""}${s.safety ? ` · 안전 검사 ${s.safety.level === "ok" ? "통과" : "주의"}` : ""}</p>
 <h2>설치</h2>
-<pre><code>${esc(cmd)}</code></pre>
+<div class="cmd"><pre><code>${esc(cmd)}</code></pre></div>
 ${ko?.summary ? `<h2>이런 스킬이에요</h2><p>${esc(ko.summary)}</p>` : ""}
-${ko?.when ? `<h2>이럴 때 쓰세요</h2><p>${esc(Array.isArray(ko.when) ? ko.when.join(" ") : ko.when)}</p>` : ""}
+${ko?.when ? `<h2>이럴 때 쓰세요</h2><ul>${[].concat(ko.when).map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : ""}
 ${ko?.examples?.length ? `<h2>요청 예시</h2><ul>${ko.examples.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : ""}
-${notes ? `<h2>알아둘 점</h2><p>${esc(notes)}</p>` : ""}
+${notes.length ? `<h2>알아둘 점</h2><ul>${notes.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : ""}
 ${byRepo[s.repo].length > 1 ? `<h2>같은 저장소의 스킬</h2><ul>${near(byRepo[s.repo], s, 5).map(li).join("")}</ul>` : ""}
 ${byCat[s.category].length > 1 ? `<h2>${esc(catName[s.category] || s.category)} 스킬 더 보기</h2><ul>${near(byCat[s.category].filter((x) => x === s || x.repo !== s.repo), s, 5).map(li).join("")}</ul>` : ""}
 <p><a href="${app}">후기와 안전 검사 자세히 보기</a> · <a href="https://github.com/${esc(r.full)}/tree/${esc(r.branch || "main")}/${esc(s.path || "")}" rel="noopener">GitHub 원문</a></p>
